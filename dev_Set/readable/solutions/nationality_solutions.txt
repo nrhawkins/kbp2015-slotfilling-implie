@@ -1,0 +1,45 @@
+class - nationality
+
+1)
+term - French
+"Andre Bazin"
+"critic Andre Bazin"
+"French critic Andre Bazin"
+
+2)
+term - Chinese
+"Hu"
+"President Hu"
+"Chinese President Hu"
+
+3)
+term - West Indian
+"immigrant"
+"West Indian immigrant"
+"Daniel Peterson"
+"Daniel Peterson, a West Indian"
+"Daniel Peterson, a West Indian immigrant"
+
+4)
+term - Canadian
+"Pacific Railway"
+"Canadian Pacific Railway"
+
+5)
+term - Persian
+"Xerxes"
+"Emperor Xerxes"
+"Persian Emperor Xerxes"
+"Persian Emperor Xerxes (Brazil's Rodrigo Santoro, from TV's "Lost")"
+
+6)
+term - Persian
+"calligraphy"
+"Persian calligraphy"
+"calligraphy on the outside walls"
+"Persian calligraphy on the outside walls"
+
+7)
+term - Persian
+"Gulf War"
+"Persian Gulf War"

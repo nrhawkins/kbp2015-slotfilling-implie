@@ -1,0 +1,41 @@
+class - religion
+
+1)
+term - Mormon
+"Mitt"
+"Mitt Romney"
+"Mormon -- Mitt Romney"
+
+2)
+term - Mormon
+"Mitt"
+"Mitt Romney"
+"Mormon president"
+"first Mormon president"
+"Mormon president (Mitt Romney)"
+"first Mormon president (Mitt Romney)"
+
+3)
+term - Hindu
+"Holi"
+"festival of Holi"
+"Hindu festival of Holi"
+
+4)
+term - Christian
+"Iyad al-Ashouri"
+"community leader, Iyal al-Ashouri"
+"Christian community leader"
+"Christian community leader, Iyal Al-Ashouri"
+
+5)
+term - Christian
+"Yenching University"
+"Christian institution"
+"Yenching University, a Christian institution"
+
+6)
+term - Christian
+"Embassey"
+"International Christian Embassy Jerusalem"
+
