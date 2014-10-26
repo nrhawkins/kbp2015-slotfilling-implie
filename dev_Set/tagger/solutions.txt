@@ -1,0 +1,17 @@
+CLASS:jobTitle	TERM:astrophysicist;21
+CLASS:jobTitle	TERM:executive deputy chief;6	TERM:federal prosecutors;18
+CLASS:jobTitle	TERM:critic;23	CLASS:nationality	TERM:french;22
+CLASS:jobTitle	TERM:music teacher;25	
+CLASS:jobTitle	TERM:classical singing teacher;7
+CLASS:jobTitle	TERM:president;10
+CLASS:nationality	TERM:west indian;30
+CLASS:nationality	TERM:canadian;11
+CLASS:nationality TERM:persian;38
+CLASS:nationality	TERM:persian;24
+CLASS:jobTitle	TERM:president;22	CLASS:nationality	TERM:persian;8
+CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:33
+CLASS:religion	TERM:mormon;56	CLASS:jobTitle	TERM:president;57
+CLASS:religion	TERM:hindu:32
+CLASS:religion	TERM:christian;5
+CLASS:jobTitle	TERM:president;27	CLASS:nationality	TERM:americans;6	CLASS:religion	TERM:christian;33
+CLASS:religion	TERM:christian;29

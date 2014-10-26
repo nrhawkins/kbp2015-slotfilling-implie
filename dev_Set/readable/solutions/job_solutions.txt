@@ -1,0 +1,31 @@
+relation - has jobTitle
+
+1)
+term - astrophysicist
+"Neil deGrasse Tyson"
+"Neil deGrasse Tyson, an astrophysicist"
+
+2)
+term - executive deputy chief
+"John Arterberry"
+"John Arterberry, executive deputy chief"
+"John Arterberry, executive deputy chief of the fraud section in
+the Justice Department"
+
+3)
+term - critic
+"Andre Bazin"
+"critic Andre Bazin"
+"French critic Andre Bazin"
+
+4)
+term - music teacher
+"Petra Koepke-Eberler"
+"Petra Koepke-Eberler, 48, a music teacher"
+
+5)
+term - classical singing teacher
+"Violetta"
+"Madame Violetta"
+"Madame Violetta, a classical singing teacher"
+
