@@ -1,7 +1,9 @@
-import java.io.File
+import java.io.{PrintWriter, File}
+
+import com.github.nscala_time.time.Imports._
 
 import edu.knowitall.repr.sentence._
-import edu.knowitall.taggers.{NamedGroupType, TaggerCollection, ParseRule}
+import edu.knowitall.taggers.{TaggerCollection, ParseRule}
 import edu.knowitall.tool.chunk.OpenNlpChunker
 import edu.knowitall.tool.stem.MorphaStemmer
 import edu.knowitall.tool.typer.Type
@@ -46,6 +48,9 @@ object TaggerTester {
   val INPUT_FILE = TEST_DIR + "sentences.txt"
   val SOLUTION_FILE = TEST_DIR + "solutions.txt"
 
+  val RESULT_DIR = "results/tagger/"
+  val RESULT_FILE_POSTFIX = "-tagger-test"
+
   val chunker = new OpenNlpChunker()
   def process(text: String): Sentence with Chunked with Lemmatized = {
     new Sentence(text) with Chunker with Lemmatizer {
@@ -75,14 +80,17 @@ object TaggerTester {
     str.split(regex).map(s => s.trim()).filter(s => s != "").toList
   }
 
-  def printResults(counter: TestResults) {
-    println("Total Results")
-    println(s"Correct: ${counter.correct}\tIncorrect: ${counter.incorrect}\tMissing: ${counter.missed}")
-    println(f"Precision: ${counter.precision}%.3f\tRecall: ${counter.recall}%.3f")
+  def getResults(counter: TestResults): String = {
+    val builder = new StringBuilder
+    builder ++= "Total Results\n"
+    builder ++= s"Correct: ${counter.correct}\tIncorrect: ${counter.incorrect}\tMissing: ${counter.missed}\n"
+    builder ++= f"Precision: ${counter.precision}%.3f\tRecall: ${counter.recall}%.3f\n"
+    builder.toString()
   }
 
   /*
-   * Steps:
+   * TODO: fill out comment better
+   *  Steps:
    *    create a tagger instance with classes
    *    load sentences
    *    load solutions
@@ -91,7 +99,6 @@ object TaggerTester {
    *    compare with expected values
    *    output final results
    */
-
   def main(args: Array[String]) {
     val taggerPattern = buildPatternString(CLASSES)
 
@@ -99,10 +106,15 @@ object TaggerTester {
     val inputString = Source.fromFile(INPUT_FILE).mkString
     val solutions = Source.fromFile(SOLUTION_FILE).mkString
 
+    val datetime = DateTime.now
+    val outFileName = (datetime.toString + RESULT_FILE_POSTFIX).replace(":", ";")
+    val out = new PrintWriter(RESULT_DIR + outFileName)
+
     val rules = new ParseRule[Sentence with Chunked with Lemmatized].parse(taggerPattern).get
     val t = rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
     val lines = trimSplit(inputString, "\n")
 
+    // TODO: Put results grabbing in a method.
     var results: List[(List[Type], String)] = Nil
     for (line <- lines) {
       val types = t.tag(process(line)).toList
@@ -117,11 +129,12 @@ object TaggerTester {
     val solutionIter = trimSplit(solutions, "\n").iterator
     for (result <- results) {
       val sentence = result._2
-      println(s"Sentence:\t$sentence")
+      out.println(s"Sentence:\t$sentence")
 
+      // TODO: put solution grabbing in a mehtod.
       // Put solutions in a map from class to term (with its index).
       val sol = solutionIter.next()
-      println(s"Expected:\t$sol")
+      out.println(s"Expected:\t$sol")
       val solMap = mutable.Map[String, mutable.Set[(String, Int)]]()
       val solClasses = trimSplit(sol, "CLASS:")
       for (solClass <- solClasses) {
@@ -134,33 +147,24 @@ object TaggerTester {
           if (termVal.length == 2) {
             termSet.add((termVal(0), termVal(1).toInt))
           } else {
-            println(s"Wat... this is termVal? $termVal")
+            out.println(s"Wat... this is termVal? $termVal")
           }
         }
         solMap.put(clas, termSet)
       }
 
+      // TODO: put solution and result comparing in a method.
       // Compare each value with the solutions.
       if (result._1.length != 0) {
         val resultClass = result._1(0).name
         // Two tabs to line up with the others.
-        print(s"Actual:\t\tCLASS:$resultClass\t")
+        out.print(s"Actual:\t\tCLASS:$resultClass\t")
         for (typ <- result._1) {
-          /*
-           * typ.name
-           * typ.tokenInterval
-           * typ.text
-           */
-          // TODO: create mechanism that keeps track of which mistakes were made.
-          // for now assert
-          val term = typ.text
-          val index = typ.tokenInterval.end
-          print(s"TERM:$term;$index\t")
-          // TODO: use match statement to add to correct or incorrect
+          out.print(s"TERM:${typ.text};${typ.tokenInterval.end}\t")
           solMap.get(typ.name) match {
             // Unexpected class
             case None => counter.incorrect += 1
-            case Some(termSet: Set[(String, Int)]) =>
+            case Some(termSet: mutable.Set[(String, Int)]) =>
               termSet.contains((typ.text, typ.tokenInterval.end)) match {
                 case true =>
                   counter.correct += 1
@@ -169,15 +173,21 @@ object TaggerTester {
                 case false => counter.incorrect += 1
               }
             case leftovers =>
-              print(s"EXTRA CASE: " + leftovers)
+              out.print(s"EXTRA CASE: $leftovers\tTYPE: ${leftovers.getClass}")
           }
         }
       }
       counter.missed += solMap.foldLeft(0){ (acc, kv) => acc + kv._2.size }
-      println()
-      println()
+      out.println()
+      out.println()
     }
-    printResults(counter)
+
+    val resultString = getResults(counter)
+    out.println(resultString)
+    out.close()
+
+    // Print to the console what was written to the file.
+    print(Source.fromFile(RESULT_DIR + outFileName).mkString)
   }
 }
 
