@@ -1,0 +1,73 @@
+Sentence:	"Black holes are infamous for wreaking havoc in their immediate neighborhoods," said Neil deGrasse Tyson, an astrophysicist with the American Museum of Natural History who was not involved in the 3C321 research, but is an expert on black holes.
+Expected:	CLASS:jobTitle	TERM:astrophysicist;21
+Actual:		CLASS: jobtitle	TERM:astrophysicist;21	correct	Missing tags:	
+
+Sentence:	John Arterberry, executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud.
+Expected:	CLASS:jobTitle	TERM:executive deputy chief;6	TERM:federal prosecutors;18
+Actual:		CLASS: jobtitle	TERM:executive deputy chief;6	correct	TERM:federal prosecutors;18	correct	Missing tags:	
+
+Sentence:	It remains to be seen just how effective a cluster of people in their 20s can be at reinventing what the French critic Andre Bazin once called "the genius of the system," referring to Hollywood films made during the classic studio era, roughly the 1920s through the '50s.
+Expected:	CLASS:jobTitle	TERM:critic;23	CLASS:nationality	TERM:french;22
+Actual:		CLASS: jobtitle	TERM:critic;23	correct	CLASS: nationality	TERM:french;22	incorrect	Missing tags:	(nationality,Set((french,22)))	
+
+Sentence:	"Three months of tourism can't be spread out over the entire year," said Petra Koepke-Eberler, 48, a music teacher here.
+Expected:	CLASS:jobTitle	TERM:music teacher;25
+Actual:		CLASS: jobtitle	TERM:music teacher;25	correct	Missing tags:	
+
+Sentence:	Madame Violetta, a classical singing teacher, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Expected:	CLASS:jobTitle	TERM:classical singing teacher;7
+Actual:		CLASS: jobtitle	TERM:teacher;7	incorrect	Missing tags:	(jobTitle,Set((classical singing teacher,7)))	
+
+Sentence:	Speaking with Bush at a news conference, Chinese President Hu said the Kyoto Protocol, the 1997 United Nations-sponsored effort that sets targets for industrialized nations to cut greenhouse gas emissions, should "remain the main channel for international efforts to tackle climate change."
+Expected:	CLASS:jobTitle	TERM:president;10
+Actual:		CLASS: jobtitle	TERM:president;10	incorrect	CLASS: nationality	TERM:chinese;9	Missing tags:	(jobTitle,Set((president,10)))	
+
+Sentence:	Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of Daniel Peterson, a West Indian immigrant, and the former Olivia John, whom Daniel had met in Montreal.
+Expected:	CLASS:nationality	TERM:west indian;30
+Missing tags:	(nationality,Set((west indian,30)))	
+
+Sentence:	Daniel Peterson worked as a sleeping car porter on the Canadian Pacific Railway and had taught himself how to play the organ before he landed in Halifax, Nova Scotia, in 1917. Peterson's mother, who also had roots in the Caribbean, encouraged Oscar to study music.
+Expected:	CLASS:nationality	TERM:canadian;11
+Actual:		CLASS: nationality	TERM:canadian;11	incorrect	TERM:caribbean;45	incorrect	Missing tags:	(nationality,Set((canadian,11)))	
+
+Sentence:	The rest of the movie is pretty much mayhem, with the Spartan soldiers fighting off all the troops (plus a few creatures that seem to have wandered in from Middle-earth) under the command of Persian Emperor Xerxes (Brazil's Rodrigo Santoro, from TV's "Lost").
+Expected:	CLASS:nationality   TERM:persian;38
+Missing tags:	(nationality,Set((persian,38)))	
+
+Sentence:	Up close, interior marble surfaces still glow with flowers made of inlaid precious stones, while the lovely giant squiggles of stylized Persian calligraphy on the outside walls put the letters of our dowdy Roman alphabet to shame.
+Expected:	CLASS:nationality	TERM:persian;24
+Missing tags:	(nationality,Set((persian,24)))	
+
+Sentence:	An Army division commander during the 1990-91 Persian Gulf War, he told the Billings Gazette in Montana in January that President Bush's decision to increase US forces in Baghdad "is too late."
+Expected:	CLASS:jobTitle	TERM:president;22	CLASS:nationality	TERM:persian;8
+Actual:		CLASS: jobtitle	TERM:president;22	incorrect	Missing tags:	(jobTitle,Set((president,22)))	(nationality,Set((persian,8)))	
+
+Sentence:	"I don't want to lead someone astray," he says as he contemplates for the first time in his life voting for a Mormon -- Mitt Romney -- for president.
+Expected:	CLASS:religion	TERM:mormon;27  CLASS:jobTitle  TERM:president;33
+Actual:		CLASS: jobtitle	TERM:president;33	correct	CLASS: religion	TERM:mormon;27	incorrect	Missing tags:	(religion,Set((mormon,27)))	
+
+Sentence:	And it highlights how far the party has come since the 2004 presidential election in its efforts to appeal to religious voters, and the openings Democrats see if the Republicans end up nominating a candidate who supports abortion rights and gay rights (Rudolph W. Giuliani) or one who would be the first Mormon president (Mitt Romney).
+Expected:	CLASS:religion	TERM:mormon;56	CLASS:jobTitle	TERM:president;57
+Actual:		CLASS: jobtitle	TERM:president;57	correct	CLASS: religion	TERM:mormon;56	incorrect	Missing tags:	(religion,Set((mormon,56)))	
+
+Sentence:	Instead of being solicited by beggars, Geyer found himself the recipient of gifts: fruit, and dye to smear on his hands and face, as people celebrated the Hindu festival of Holi.
+Expected:	CLASS:religion	TERM:hindu:32
+Wat... this is termVal? List(hindu:32)
+Actual:		CLASS: religion	TERM:hindu;32	incorrect	Missing tags:	
+
+Sentence:	Both Warduni and a Christian community leader, Iyad al-Ashouri, accused the Iraqi government, notably the Ministry of Defense, of belittling the extent of the crisis in Mosul.
+Expected:	CLASS:religion	TERM:christian;5
+Actual:		CLASS: jobtitle	TERM:leader;7	CLASS: religion	TERM:christian;5	incorrect	Missing tags:	(religion,Set((christian,5)))	
+
+Sentence:	He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University, a Christian institution whose idyllic campus now is the site of Peking University.
+Expected:	CLASS:jobTitle	TERM:president;27	CLASS:nationality	TERM:americans;6	CLASS:religion	TERM:christian;33
+Actual:		CLASS: jobtitle	TERM:president;27	correct	CLASS: religion	TERM:christian;33	incorrect	Missing tags:	(religion,Set((christian,33)))	(nationality,Set((americans,6)))	
+
+Sentence:	"A change of borders today is not threatening God's sovereignty or God's promises," said Susan Michael, the U.S. director of the International Christian Embassy Jerusalem.
+Expected:	CLASS:religion	TERM:christian;29
+Actual:		CLASS: nationality	TERM:the u.s.;24	CLASS: religion	TERM:christian;29	incorrect	Missing tags:	(religion,Set((christian,29)))	
+
+Total Results
+Correct: 8	Incorrect: 15	Missing: 15
+Precision: 0.348	Recall: 0.348
+
