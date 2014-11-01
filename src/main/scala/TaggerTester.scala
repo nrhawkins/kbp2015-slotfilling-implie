@@ -14,29 +14,15 @@ import scala.io.Source
 /**
  * Automatically run and test the tagger.
  *
- * @author Gene Kim (genelkim@cs.washington.edu
+ * The term lists, input file, solutions file, and output directory are
+ * specified in variables in the beginning of the class.
+ * The results are written to a file [Joda current Datetime]-tagger-test and
+ * shown on the console.
+ *
+ * @author Gene Kim (genelkim@cs.washington.edu)
  */
 object TaggerTester {
   // TODO: comment methods
-  /**
-   * Test result counter.  Has modifiable correct, incorrect and missing fields.
-   * Default constructs sets all fields to zero.
-   * Includes basic calculations: precison and recall.
-   * TODO: add any other relevant calculations.
-   * @param c
-   * @param i
-   * @param m
-   */
-  class TestResults(c: Int = 0, i: Int = 0, m: Int = 0) {
-    var correct = c
-    var incorrect = i
-    var missed = m
-
-    def precision = correct.toDouble / (correct + incorrect)
-    def recall = correct.toDouble / (correct + missed)
-  }
-
-
   val CLASS_DIR = "classTermLists/runfiles/"
   val CLASSES = List(
     ("nationality", List(CLASS_DIR + "nationality.txt", CLASS_DIR + "country.txt")),
