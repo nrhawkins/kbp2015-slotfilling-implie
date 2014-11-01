@@ -83,7 +83,7 @@ object TaggerTester {
       // Put solutions in a map from class to term (with its index).
       val solMap = getSolutions(solutionIter.next())
       compareResultsToSolutions(result, solMap, counter)
-      out.print("Missing tags:\t")
+      out.print("\nMissing tags:\t")
       solMap.foreach(x =>
         if (x._2.size > 0)
           out.print(s"$x\t")
@@ -191,12 +191,12 @@ object TaggerTester {
       out.print(s"Actual:\t\t")
       var curClass = ""
       for (typ <- typeByClass) {
+        val text = typ.text.toLowerCase
         if (typ.name != curClass) {
-          out.print(s"CLASS:${typ.name.toLowerCase}\t")
+          out.print(s"CLASS:$text\t")
           curClass = typ.name
         }
-        val text = typ.text.toLowerCase
-        out.print(s"TERM:$text;${typ.tokenInterval.end}\t")
+        out.print(s"TERM:$text;${typ.tokenInterval.end};")
         solMap.get(typ.name) match {
           // Unexpected class
           case None =>
@@ -206,7 +206,7 @@ object TaggerTester {
             termSet.contains((text, typ.tokenInterval.end)) match {
               case true =>
                 counter.correct += 1
-                out.print("correct\t")
+                out.print("\t")
                 // Remove from solutions so later we can see how many we missed.
                 termSet.remove((text, typ.tokenInterval.end))
               case false =>
