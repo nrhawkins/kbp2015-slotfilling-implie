@@ -1,5 +1,3 @@
-import java.io.{PrintWriter, File}
-
 import com.github.nscala_time.time.Imports._
 
 import edu.knowitall.repr.sentence._
@@ -7,6 +5,8 @@ import edu.knowitall.taggers.{TaggerCollection, ParseRule}
 import edu.knowitall.tool.chunk.OpenNlpChunker
 import edu.knowitall.tool.stem.MorphaStemmer
 import edu.knowitall.tool.typer.Type
+
+import java.io.PrintWriter
 
 import scala.collection.mutable
 import scala.io.Source
@@ -22,6 +22,15 @@ import scala.io.Source
  * @author Gene Kim (genelkim@cs.washington.edu)
  */
 object TaggerTester {
+  /*
+  TODO: Next steps
+    1. Fix issue with West Indian comparison, probably just compare ignore case rather than lowercase.
+    2. Figure out how to get the tagger to choose longest match.
+    3. Create more tests for this to ensure that it works,
+    4. Create tests for the extractor and format for it.
+    5. Begin planning out extractor implementation.
+   */
+
   // TODO: comment methods
   // TODO: reorganize file so main is either on top or bottom of other methods
   val CLASS_DIR = "classTermLists/runfiles/"
@@ -175,6 +184,7 @@ object TaggerTester {
   }
 
   /**
+   * TODO: finish comment
    * Compares the result and solutions to a single line.
    * @param result
    * @param solMap
@@ -193,15 +203,15 @@ object TaggerTester {
       for (typ <- typeByClass) {
         val text = typ.text.toLowerCase
         if (typ.name != curClass) {
-          out.print(s"CLASS:$text\t")
           curClass = typ.name
+          out.print(s"CLASS:$curClass\t")
         }
-        out.print(s"TERM:$text;${typ.tokenInterval.end};")
+        out.print(s"TERM:$text;${typ.tokenInterval.end}")
         solMap.get(typ.name) match {
           // Unexpected class
           case None =>
             counter.incorrect += 1
-            out.print("Incorrect\t")
+            out.print(";Incorrect\t")
           case Some(termSet: mutable.Set[(String, Int)]) =>
             termSet.contains((text, typ.tokenInterval.end)) match {
               case true =>
@@ -211,7 +221,7 @@ object TaggerTester {
                 termSet.remove((text, typ.tokenInterval.end))
               case false =>
                 counter.incorrect += 1
-                out.print("incorrect\t")
+                out.print(";incorrect\t")
             }
           case leftovers =>
             out.print(s"EXTRA CASE: $leftovers\tTYPE: ${leftovers.getClass}")
