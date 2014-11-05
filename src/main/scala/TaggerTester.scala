@@ -72,6 +72,9 @@ object TaggerTester {
   def main(args: Array[String]) {
     val taggerPattern = buildPatternString(CLASSES)
 
+    // TODO: Print configurations in the beginning so that we can look at the
+    //        output appropriately in the future:
+    //          Class -> files, tagger type, etc.
     // TODO: Take the input files as arguments
     // Initialize inputs.
     val inputString = Source.fromFile(INPUT_FILE).mkString
@@ -118,12 +121,13 @@ object TaggerTester {
   private def buildPatternString(classes: List[(String, List[String])]): String = {
     val builder = StringBuilder.newBuilder
     for (clas <- classes) {
+      // TODO: determine which tagger to use, or create a method that merges the two tagger outputs.
       builder.append(clas._1 + " := NormalizedKeywordTagger {\n")
       for (file <- clas._2) {
         val lines = Source.fromFile(file).getLines()
         for (line <- lines) {
           if (line.trim.length != 0) {
-            builder.append (line.trim.toLowerCase).append ("\n")
+            builder.append(line.trim.toLowerCase).append("\n")
           }
         }
       }
