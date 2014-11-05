@@ -19,19 +19,21 @@ import scala.io.Source
  * The results are written to a file [Joda current Datetime]-tagger-test and
  * shown on the console.
  *
+ * The type of tagger affects the results.
+ * Therefore the results folder has separate results for each tagger type.
+ * The NormalizedKeywordTagger can identify non-normalized versions of normalized
+ * tags, but will not identify tags that it doesn't consider to be normalized.
+ *
  * @author Gene Kim (genelkim@cs.washington.edu)
  */
 object TaggerTester {
   /*
   TODO: Next steps
-    1. Fix issue with West Indian comparison, probably just compare ignore case rather than lowercase.
-    2. Figure out how to get the tagger to choose longest match.
-    3. Create more tests for this to ensure that it works,
-    4. Create tests for the extractor and format for it.
-    5. Begin planning out extractor implementation.
+    1. Create more tests for this to ensure that it works,
+    2. Create tests for the extractor and format for it.
+    3. Begin planning out extractor implementation.
    */
 
-  // TODO: comment methods
   // TODO: reorganize file so main is either on top or bottom of other methods
   val CLASS_DIR = "classTermLists/runfiles/"
   val CLASSES = List(
@@ -42,7 +44,7 @@ object TaggerTester {
 
   val TEST_DIR = "dev_Set/tagger/"
   val INPUT_FILE = TEST_DIR + "sentences.txt"
-  val SOLUTION_FILE = TEST_DIR + "case_insensitive_solutions.txt"
+  val SOLUTION_FILE = TEST_DIR + s"${TAGGER.filePrefix}_solutions.txt"
 
   val RESULT_DIR = "results/tagger/"
   val RESULT_FILE_POSTFIX = "-tagger-test"
@@ -50,12 +52,15 @@ object TaggerTester {
   val out = new PrintWriter(OUTPUT_FILE)
 
   // Tagger things.
-  val chunker = new OpenNlpChunker()
-  // TODO: make a way to choose the type of tagger to use.
-  // OTHER LiKELY TAGGER OPTIONS: NormalizedKeywordTagger; KeywordTagger
+  case class Tagger(name: String, filePrefix: String)
   // Look in nlptools/taggers for other tagger options.
-  val TAGGER_TYPE = "CaseInsensitiveKeywordTagger"
+  val TAGGERS = Array(
+    Tagger("CaseInsensitiveKeywordTagger", "case_insensitive"),
+    Tagger("NormalizedKeywordTagger", "normalized"))
+  val TAGGER = TAGGERS(0) // TODO: make a way to choose the tagger.
+  val TAGGER_TYPE = TAGGER.name
 
+  val chunker = new OpenNlpChunker()
   def process(text: String): Sentence with Chunked with Lemmatized = {
     new Sentence(text) with Chunker with Lemmatizer {
       val chunker = TaggerTester.this.chunker
