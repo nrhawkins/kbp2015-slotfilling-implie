@@ -35,6 +35,7 @@ object TaggerTester {
     3. Begin planning out extractor implementation.
    */
 
+  val USE_IDEAL_SOL = false
   type Tags = Set[(String, Int)]
 
   // TODO: reorganize file so main is either on top or bottom of other methods
@@ -56,8 +57,11 @@ object TaggerTester {
 
   val TEST_DIR = "dev_Set/tagger/"
   val INPUT_FILE = TEST_DIR + "sentences.txt"
-  val SOLUTION_FILE = TEST_DIR + s"${TAGGER.filePrefix}_solutions.txt"
-
+  val SOLUTION_FILE = USE_IDEAL_SOL match {
+    case true => TEST_DIR + "ideal_solutions.txt"
+    case false => TEST_DIR + s"${TAGGER.filePrefix}_solutions.txt"
+  }
+  
   val RESULT_DIR = "results/tagger/"
   val RESULT_FILE_POSTFIX = "-tagger-test"
   val OUTPUT_FILE = outputFile
@@ -71,6 +75,7 @@ object TaggerTester {
       val lemmatizer = MorphaStemmer
     }
   }
+
 
   /*
    * TODO: fill out comment better
@@ -94,6 +99,8 @@ object TaggerTester {
     val inputString = Source.fromFile(INPUT_FILE).mkString
     val solutions = Source.fromFile(SOLUTION_FILE).mkString
 
+    printConfig()
+
     // Setup structures for representing data.
     val rules = new ParseRule[Sentence with Chunked with Lemmatized].parse(taggerPattern).get
     val t = rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
@@ -111,7 +118,7 @@ object TaggerTester {
       out.println(s"Expected:\t$solutionString")
       val solMap = getSolutions(solutionString)
 
-      compareResultsToSolutions(result, solMap, counter)
+      compareResultToSolutions(result, solMap, counter)
       // Print missing tags, count them and add space before printing next line's results.
       out.print("\nMissing tags:\t")
       solMap.foreach(x => if (x._2.size > 0) out.print(s"$x\t"))
@@ -152,6 +159,27 @@ object TaggerTester {
 
   // Splits a string by a given regular expression and trims the results.
   private def trimSplit(str: String, regex: String): List[String] = str.split(regex).map(s => s.trim()).filter(s => s != "").toList
+
+  /**
+   * Prints the configurations of the current test to the output file.
+   */
+  private def printConfig() {
+    out.println("Configurations")
+    out.println(s"Tagger: ${TAGGER.name}")
+    out.println(s"Input File: $INPUT_FILE")
+    out.println(s"Solution File: $SOLUTION_FILE")
+    out.println(s"Output File: $OUTPUT_FILE")
+    out.println(s"Class-term File Directory: $CLASS_DIR")
+    out.println(s"Class term files:")
+    for (clas <- CLASSES) {
+      out.print(s"\tClass name: ${clas._1}\tFiles: ")
+      for (file <- clas._2) {
+        out.print(s"$file\t")
+      }
+      out.println()
+    }
+    out.println()
+  }
 
   /**
    * Gets the overall results for the tagger test.
@@ -226,7 +254,7 @@ object TaggerTester {
    * @param solMap Mapping of the solution classes to terms.
    * @param counter Counter for the total results for the test.
    */
-  private def compareResultsToSolutions(
+  private def compareResultToSolutions(
       result: (List[Type], String),
       solMap: mutable.Map[String, mutable.Set[Tags]],
       counter: TestResults) {
