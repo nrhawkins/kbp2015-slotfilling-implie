@@ -34,6 +34,8 @@ object TaggerTester {
     3. Begin planning out extractor implementation.
    */
 
+  type Tags = Set[(String, Int)]
+
   // TODO: reorganize file so main is either on top or bottom of other methods
   val CLASS_DIR = "classTermLists/runfiles/"
   val CLASSES = List(
@@ -41,6 +43,15 @@ object TaggerTester {
     ("jobTitle", List(CLASS_DIR + "jobTitle.txt")),
     ("religion", List(CLASS_DIR + "religion.txt"))
   )
+
+  // Tagger things.
+  case class Tagger(name: String, filePrefix: String)
+  // Look in nlptools/taggers for other tagger options.
+  val TAGGERS = Array(
+    Tagger("CaseInsensitiveKeywordTagger", "case_insensitive"),
+    Tagger("NormalizedKeywordTagger", "normalized"))
+  val TAGGER = TAGGERS(0) // TODO: make a way to choose the tagger from command.
+  val TAGGER_TYPE = TAGGER.name
 
   val TEST_DIR = "dev_Set/tagger/"
   val INPUT_FILE = TEST_DIR + "sentences.txt"
@@ -51,15 +62,7 @@ object TaggerTester {
   val OUTPUT_FILE = outputFile
   val out = new PrintWriter(OUTPUT_FILE)
 
-  // Tagger things.
-  case class Tagger(name: String, filePrefix: String)
-  // Look in nlptools/taggers for other tagger options.
-  val TAGGERS = Array(
-    Tagger("CaseInsensitiveKeywordTagger", "case_insensitive"),
-    Tagger("NormalizedKeywordTagger", "normalized"))
-  val TAGGER = TAGGERS(0) // TODO: make a way to choose the tagger.
-  val TAGGER_TYPE = TAGGER.name
-
+  // Tagger processing things.
   val chunker = new OpenNlpChunker()
   def process(text: String): Sentence with Chunked with Lemmatized = {
     new Sentence(text) with Chunker with Lemmatizer {
