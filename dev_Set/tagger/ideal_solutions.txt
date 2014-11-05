@@ -12,6 +12,6 @@ CLASS:jobTitle	TERM:president;22	CLASS:nationality	TERM:persian;8
 CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:president;33
 CLASS:religion	TERM:mormon;56	CLASS:jobTitle	TERM:president;57
 CLASS:religion	TERM:hindu;32
-CLASS:jobTitle	TERM:leader;7	CLASS:religion	TERM:christian;5
+CLASS:jobTitle	TERM:leader;7	CLASS:nationality	TERM:iraqi;14	CLASS:religion	TERM:christian;5
 CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33
-CLASS:nationality	TERM:the u.s.;24	CLASS:religion	TERM:christian;29
+CLASS:nationality	TERM:u.s.;24|the u.s.;24	CLASS:religion	TERM:christian;29
