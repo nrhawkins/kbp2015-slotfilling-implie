@@ -29,6 +29,7 @@ import scala.io.Source
 object TaggerTester {
   /*
   TODO: Next steps
+  TODO: make ideal solutions always run?
     1. Create more tests for this to ensure that it works,
     2. Create tests for the extractor and format for it.
     3. Begin planning out extractor implementation.
@@ -190,22 +191,28 @@ object TaggerTester {
    * @param sol String representation of the solution.
    * @return A map from a class name to a (mutable) set of term-index pairs.
    */
-  private def getSolutions(sol: String): mutable.Map[String, mutable.Set[(String, Int)]] = {
-    val solMap = mutable.Map[String, mutable.Set[(String, Int)]]()
+  private def getSolutions(sol: String): mutable.Map[String, mutable.Set[Tags]] = {
+    val solMap = mutable.Map[String, mutable.Set[Tags]]()
     val solClasses = trimSplit(sol, "CLASS:")
     for (solClass <- solClasses) {
       // First one item is the class name, then term;index
       val terms = trimSplit(solClass, "TERM:")
       val clas = terms(0)
-      val termSet = mutable.Set[(String, Int)]()
+      val termSet = mutable.Set[Tags]()
       for (i <- 1 until terms.length) {
-        val termVal = trimSplit(terms(i), ";")
-        if (termVal.length == 2) {
-          termSet.add((termVal(0), termVal(1).toInt))
-        } else {
-          out.println(s"Wat... this is termVal? $termVal.  This usually " +
-            s"indicates a solution input error such as using a : instead of ;")
+        // Break up by possible tags, add into a set.
+        val possibleVals = trimSplit(terms(i), "\\|")
+        var possibleTags: Set[(String, Int)] = Set.empty
+        for (possibleVal <- possibleVals) {
+          val termVal = trimSplit(possibleVal, ";")
+          if (termVal.length == 2) {
+            possibleTags += ((termVal(0), termVal(1).toInt))
+          } else {
+            out.println(s"Wat... this is termVal? $termVal.  This usually " +
+              s"indicates a solution input error such as using a : instead of ;")
+          }
         }
+        termSet.add(possibleTags)
       }
       solMap.put(clas, termSet)
     }
@@ -221,7 +228,7 @@ object TaggerTester {
    */
   private def compareResultsToSolutions(
       result: (List[Type], String),
-      solMap: mutable.Map[String, mutable.Set[(String, Int)]],
+      solMap: mutable.Map[String, mutable.Set[Tags]],
       counter: TestResults) {
     if (result._1.length != 0) {
       val typeByClass = result._1.sortBy(t => t.name)
@@ -231,17 +238,34 @@ object TaggerTester {
       var curClass = ""
       for (typ <- typeByClass) {
         val text = typ.text.toLowerCase
+        val index = typ.tokenInterval.end
         if (typ.name != curClass) {
           curClass = typ.name
           out.print(s"CLASS:$curClass\t")
         }
-        out.print(s"TERM:$text;${typ.tokenInterval.end}")
+        out.print(s"TERM:$text;$index")
+        // TODO: merge match statements by using getOrElse[empty set] and then just using the inner match
         solMap.get(typ.name) match {
           // Unexpected class
           case None =>
             counter.incorrect += 1
             out.print(";Incorrect\t")
-          case Some(termSet: mutable.Set[(String, Int)]) =>
+          case Some(termSet: mutable.Set[Tags]) =>
+            val matching = termSet.filter(tags => tags.contains((text, index)))
+            matching.size match {
+              case 0 =>
+                counter.incorrect += 1
+                out.print(";Incorrect\t")
+              case 1 =>
+                counter.correct += 1
+                out.print("\t")
+                termSet.remove(matching.iterator.next())
+              case _ =>
+                out.println(s"\nMultiple matching terms!?  Sets with matches: $matching, Term: $text, $index")
+            }
+
+
+/*
             termSet.contains((text, typ.tokenInterval.end)) match {
               case true =>
                 counter.correct += 1
@@ -252,6 +276,7 @@ object TaggerTester {
                 counter.incorrect += 1
                 out.print(";incorrect\t")
             }
+*/
           case leftovers =>
             out.print(s"EXTRA CASE: $leftovers\tTYPE: ${leftovers.getClass}")
             out.print("unexpected\t")
