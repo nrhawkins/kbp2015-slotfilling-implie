@@ -92,17 +92,18 @@ object TaggerTester {
     for (result <- results) {
       val sentence = result._2
       out.println(s"Sentence:\t$sentence")
+
       // Put solutions in a map from class to term (with its index).
-      val solMap = getSolutions(solutionIter.next())
+      val solutionString = solutionIter.next()
+      out.println(s"Expected:\t$solutionString")
+      val solMap = getSolutions(solutionString)
+
       compareResultsToSolutions(result, solMap, counter)
+      // Print missing tags, count them and add space before printing next line's results.
       out.print("\nMissing tags:\t")
-      solMap.foreach(x =>
-        if (x._2.size > 0)
-          out.print(s"$x\t")
-      )
+      solMap.foreach(x => if (x._2.size > 0) out.print(s"$x\t"))
       counter.missed += solMap.foldLeft(0){ (acc, kv) => acc + kv._2.size }
-      out.println()
-      out.println()
+      out.print("\n\n")
     }
 
     val resultString = getTestResults(counter)
@@ -136,10 +137,14 @@ object TaggerTester {
     builder.mkString
   }
 
-  private def trimSplit(str: String, regex: String): List[String] = {
-    str.split(regex).map(s => s.trim()).filter(s => s != "").toList
-  }
+  // Splits a string by a given regular expression and trims the results.
+  private def trimSplit(str: String, regex: String): List[String] = str.split(regex).map(s => s.trim()).filter(s => s != "").toList
 
+  /**
+   * Gets the overall results for the tagger test.
+   * @param counter Class containing the counts of correct, incorrect, and missing tags.
+   * @return A String of the results.
+   */
   private def getTestResults(counter: TestResults): String = {
     val builder = new StringBuilder
     builder ++= "Total Results\n"
@@ -165,8 +170,12 @@ object TaggerTester {
     results.reverse
   }
 
+  /**
+   * Creates a mapping of the class to terms represented in the solution string.
+   * @param sol String representation of the solution.
+   * @return A map from a class name to a (mutable) set of term-index pairs.
+   */
   private def getSolutions(sol: String): mutable.Map[String, mutable.Set[(String, Int)]] = {
-    out.println(s"Expected:\t$sol")
     val solMap = mutable.Map[String, mutable.Set[(String, Int)]]()
     val solClasses = trimSplit(sol, "CLASS:")
     for (solClass <- solClasses) {
@@ -188,11 +197,11 @@ object TaggerTester {
   }
 
   /**
-   * TODO: finish comment
-   * Compares the result and solutions to a single line.
-   * @param result
-   * @param solMap
-   * @param counter
+   * Compares the result and solutions for a single line.
+   * Prints the comparison to the results file.
+   * @param result Results from the nlptools/tagger paired with the source string.
+   * @param solMap Mapping of the solution classes to terms.
+   * @param counter Counter for the total results for the test.
    */
   private def compareResultsToSolutions(
       result: (List[Type], String),
@@ -235,6 +244,7 @@ object TaggerTester {
     }
   }
 
+  // Gets the String for the output file.
   private def outputFile: String = {
     val datetime = DateTime.now
     RESULT_DIR + (datetime.toString + RESULT_FILE_POSTFIX).replace(":", ";")
