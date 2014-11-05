@@ -42,7 +42,7 @@ object TaggerTester {
 
   val TEST_DIR = "dev_Set/tagger/"
   val INPUT_FILE = TEST_DIR + "sentences.txt"
-  val SOLUTION_FILE = TEST_DIR + "solutions.txt"
+  val SOLUTION_FILE = TEST_DIR + "case_insensitive_solutions.txt"
 
   val RESULT_DIR = "results/tagger/"
   val RESULT_FILE_POSTFIX = "-tagger-test"
@@ -170,7 +170,7 @@ object TaggerTester {
                                lines: List[String]): List[(List[Type], String)] = {
     var results: List[(List[Type], String)] = Nil
     for (line <- lines) {
-      val types = tagger.tag(process(line.toLowerCase)).toList
+      val types = tagger.tag(process(line)).toList
       results ::= (types, line)
     }
     results.reverse
