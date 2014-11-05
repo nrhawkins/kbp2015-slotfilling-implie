@@ -51,6 +51,11 @@ object TaggerTester {
 
   // Tagger things.
   val chunker = new OpenNlpChunker()
+  // TODO: make a way to choose the type of tagger to use.
+  // OTHER LiKELY TAGGER OPTIONS: NormalizedKeywordTagger; KeywordTagger
+  // Look in nlptools/taggers for other tagger options.
+  val TAGGER_TYPE = "CaseInsensitiveKeywordTagger"
+
   def process(text: String): Sentence with Chunked with Lemmatized = {
     new Sentence(text) with Chunker with Lemmatizer {
       val chunker = TaggerTester.this.chunker
@@ -90,8 +95,7 @@ object TaggerTester {
     val counter = new TestResults
     val solutionIter = trimSplit(solutions, "\n").iterator
     for (result <- results) {
-      val sentence = result._2
-      out.println(s"Sentence:\t$sentence")
+      out.println(s"Sentence:\t${result._2}")
 
       // Put solutions in a map from class to term (with its index).
       val solutionString = solutionIter.next()
@@ -123,7 +127,7 @@ object TaggerTester {
     val builder = StringBuilder.newBuilder
     for (clas <- classes) {
       // TODO: determine which tagger to use, or create a method that merges the two tagger outputs.
-      builder.append(clas._1 + " := NormalizedKeywordTagger {\n")
+      builder.append(s"${clas._1} := $TAGGER_TYPE {\n")
       for (file <- clas._2) {
         val lines = Source.fromFile(file).getLines()
         for (line <- lines) {
@@ -154,7 +158,9 @@ object TaggerTester {
   }
 
   /**
-   * Runs the tagger on the given lines and returns results
+   * Runs the tagger on the given lines and returns results.
+   * The lines are lowercased so that the casing doesn't matter.
+   * Assumes that the tagger uses lowercased terms to tag as well.
    * @param tagger Tagger to run on the lines.
    * @param lines Lines to tag.
    * @return a list of pairs.  Each pairs holds a list of tags (Type),
@@ -164,7 +170,7 @@ object TaggerTester {
                                lines: List[String]): List[(List[Type], String)] = {
     var results: List[(List[Type], String)] = Nil
     for (line <- lines) {
-      val types = tagger.tag(process(line)).toList
+      val types = tagger.tag(process(line.toLowerCase)).toList
       results ::= (types, line)
     }
     results.reverse
