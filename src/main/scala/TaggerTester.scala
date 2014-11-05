@@ -170,6 +170,7 @@ object TaggerTester {
                                lines: List[String]): List[(List[Type], String)] = {
     var results: List[(List[Type], String)] = Nil
     for (line <- lines) {
+      // TODO: tokenize line, then lowercase, then tag.  Lowercasing first causes errors in the tokenizer.
       val types = tagger.tag(process(line)).toList
       results ::= (types, line)
     }
@@ -194,7 +195,8 @@ object TaggerTester {
         if (termVal.length == 2) {
           termSet.add((termVal(0), termVal(1).toInt))
         } else {
-          out.println(s"Wat... this is termVal? $termVal")
+          out.println(s"Wat... this is termVal? $termVal.  This usually " +
+            s"indicates a solution input error such as using a : instead of ;")
         }
       }
       solMap.put(clas, termSet)
