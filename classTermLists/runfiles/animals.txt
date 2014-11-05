@@ -1,0 +1,7 @@
+cat
+kitten
+a yellow puppy
+dog
+red dog
+a red dog
+puppy
