@@ -1,0 +1,15 @@
+CLASS:jobTitle	TERM:administrator;2
+CLASS:jobTitle	TERM:administrator;2
+CLASS:jobTitle	TERM:artistic director;16	TERM:executive director;22
+CLASS:jobTitle	TERM:associate director;26
+NONE
+CLASS:jobTitle	TERM:sen.;3	TERM:chief;13	TERM:sen.;15	TERM:chief;34	TERM:sen.;37	TERM:strategist;43
+CLASS:jobTitle	TERM:head;5	TERM:co-chair;19	TERM:chief executive;27	TERM:chief executive;37	TERM:chief operating officer;47
+CLASS:religion	TERM:scientology;5
+CLASS:religion	TERM:jewish;5	TERM:jewish;35
+CLASS:religion	TERM:amish;11
+CLASS:religion	TERM:buddhism;9	CLASS:nationality	TERM:bhutan;15
+CLASS:nationality	TERM:burkina faso;15
+CLASS:nationality	TERM:east germany;38
+CLASS:nationality	TERM:turkey;19	TERM:macedonia;36	TERM:former yugoslavia;43
+CLASS:nationality	TERM:czech;6	TERM:czech;22	TERM:czech;64
