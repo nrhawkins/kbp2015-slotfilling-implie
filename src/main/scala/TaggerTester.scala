@@ -55,15 +55,16 @@ object TaggerTester {
   val TAGGER = TAGGERS(0) // TODO: make a way to choose the tagger from command.
   val TAGGER_TYPE = TAGGER.name
 
-  val TEST_DIR = "dev_Set/tagger/"
+  val TEST_DIR = "testSet/tagger/"
   val INPUT_FILE = TEST_DIR + "sentences.txt"
   val SOLUTION_FILE = USE_IDEAL_SOL match {
     case true => TEST_DIR + "ideal_solutions.txt"
     case false => TEST_DIR + s"${TAGGER.filePrefix}_solutions.txt"
   }
   
-  val RESULT_DIR = "results/tagger/"
+  val RESULT_DIR = "results/tagger/testSet/"
   val RESULT_FILE_POSTFIX = "-tagger-test"
+  val datetime = DateTime.now
   val OUTPUT_FILE = outputFile
   val out = new PrintWriter(OUTPUT_FILE)
 
@@ -99,6 +100,7 @@ object TaggerTester {
     val inputString = Source.fromFile(INPUT_FILE).mkString
     val solutions = Source.fromFile(SOLUTION_FILE).mkString
 
+    out.print(s"Time: ${datetime.toString}")
     printConfig()
 
     // Setup structures for representing data.
@@ -315,7 +317,6 @@ object TaggerTester {
 
   // Gets the String for the output file.
   private def outputFile: String = {
-    val datetime = DateTime.now
     RESULT_DIR + (datetime.toString + RESULT_FILE_POSTFIX).replace(":", ";")
   }
 }
