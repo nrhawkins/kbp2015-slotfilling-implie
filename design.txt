@@ -1,30 +1,52 @@
-File Structure
+TAGGER
 
-classTermLists/
-    Files that contain terms that identify with a class.
-    File names are [class name].txt.
-    The terms are listed in random casing, and may be pluralized.
+The currently chosen tagger is the CaseInsensitiveKeywordTagger from nlptools.
+We want to make building the extractor as simple as possible since this is the first iteration.
+Therefore we follow the following steps in tagging the keywords.
 
-dev_set/
-    Development set for the Implicit Relation Extractor.
-	
-		sentences.txt
-				One sentence per line.
+Tagging Keyword Details:
+	case insensitive
+	take directly from the class term files*
 
-		solutions.txt
-				One entity (i.e. solution for one sentence) per line.
-				Each token is separated by a tab.
-				Each line is formatted so that each class of terms is preceded
-				by the class tag "CLASS:".  Each term is preceded with term tag "TERM:".
-				Each set of acceptable noun phrases are preceded with the tag "NP:".
-				Each noun phrase is separated by a pipe "|".  Each noun phrase and term
-				is followed by a semicolon and the index in the sentence, 
-				according to the Stanford parser of the last word of that term or phrase.
-				Each class tag can be followed by multiple term and np tag pairs,
-				but a noun phrase tag must follow a term tag.
+*no effort to generalize through lemmatization or normalization.  This is in part
+ because the class-term files are not normalized and would require a lot of processing
+ to reliably generalize the terms given.
 
-				Example:
-						CLASS:religion	TERM:christian;5	NP:minister;6|christian minister;6
 
-    readable/
-				Development set written in a human readable format
+EXTRACTOR
+
+Output should provide the entire noun phrase containing
+both the class term noun phrase and the modified noun phrase.
+Including the entire phrase serves two purposes:
+	1. Catching cases where the modified noun phrase alone has little meaning -
+		the commonly used phrase is the entire phrase.
+	2. Providing context into how the class term modifies the noun phrase for any
+		further processing.
+
+	Extractor Steps
+		Step 1: Chunk the sentence 
+		Step 2: Tag the sentence 
+		Step 3: Identify nouns modified by a tagged term 
+		Step 4: Extract noun phrase
+
+	Implementation
+		Step 1: Chunk the sentence
+			nlptools and the stanford parser provide reliable chunkers
+			The two give slightly different results, so we need to chunk before
+			the rest of the steps to avoid descrepancies in the chunking.
+		
+		Step 2: Tag the sentence
+			Using the CaseInsensitiveKeywordTagger on the chunked sentence.
+		
+		Step 3: Identify nouns modified by tags 
+			Use stanford parser.
+			Typed dependency representation of sentence provides relations between words,
+			(such as the ones we're looking for, noun-to-noun modifiers).
+			Look for noun-to-noun modifiers the include one of the tagged terms.
+
+			*Stanford parser's part of speech tagging can be used to ensure that both
+			 the class term and modified phrase are noun phrases.
+		
+		Step 4: Extract noun phrase
+			Use stanford parser's context free phrase structure to find noun phrase
+			containing both the class term and modified noun phrases
