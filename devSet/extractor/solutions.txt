@@ -12,6 +12,6 @@ CLASS:jobTitle	TERM:president;22	NP:Bush;23|President Bush;23	CLASS:nationality	
 CLASS:religion	TERM:mormon;27	NP:Romney;30|Mitt Romney;30|a Mormon -- Mitt Romney;30
 CLASS:religion	TERM:mormon;56	NP:Mormon president;57|the first Mormon president;57|Romney;60|Mitt Romney;60|Mormon president (Mitt Romney);61|the first Mormon president (Mitt Romney);61
 CLASS:religion	TERM:hindu:32	NP:Holi;35|festival of Holi;35|Hindu festival of Holi;35
-CLASS:religion	TERM:christian;5	NP:Iyad al-Ashouri;10|community leader, Iyal al-Ashouri;10|Christian community leader;7|Christian community leader, Iyal al-Ashouri
-CLASS:nationality	TERM:americans;6	NP:Henry Luce;10|Henry Luce, the founder of Time and Life magazines;18	CLASS:religion	TERM:christian	NP:Yenching University;30|Christian institution;34|Yenching University, a Christian institution;34
-CLASS:religion	TERM:christian;29	NP:the International Christian Embassy Jerusalem;31
+CLASS:religion	TERM:christian;5	NP:Iyad al-Ashouri;10|community leader, Iyal al-Ashouri;10|Christian community leader;7|Christian community leader, Iyal al-Ashouri	CLASS:jobTitle	TERM:leader;7 NP:Iyad al-Ashouri;10|community leader, Iyal al-Ashouri;10|Christian community leader;7|Christian community leader, Iyal al-Ashouri	CLASS:nationality	TERM:iraqi;14	NP:government;15|Iraqi government;15|the Iraqi government;15
+CLASS:religion	TERM:christian	NP:Yenching University;30|Christian institution;34|Yenching University, a Christian institution;34
+CLASS:nationality	TERM:u.s.;24	NP:Susan Michael;21|Susan Michael, the U.S. director;25|Susan Michael, the U.S. director of the International Christian Embassey Jerusalem;31|the U.S. director;25|the U.S. director of the International Christian Embassey Jerusalem;31	CLASS:religion	TERM:christian;29	NP:the International Christian Embassy Jerusalem;31
