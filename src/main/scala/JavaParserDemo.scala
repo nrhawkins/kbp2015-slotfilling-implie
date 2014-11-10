@@ -12,6 +12,8 @@ import scala.collection.JavaConversions._
 
 
 object JavaParserDemo {
+  val PARSER_MODEL = "models/englishPCFG.ser.gz"
+
   /**
    * The main method demonstrates the easiest way to load a parser.
    * Simply call loadModel and specify the path of a serialized grammar
@@ -20,7 +22,7 @@ object JavaParserDemo {
    * you therefore need to include in the classpath for ParserDemo to work.
    */
   def main(args: Array[String]) {
-    val lp: LexicalizedParser = LexicalizedParser.loadModel("edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
+    val lp: LexicalizedParser = LexicalizedParser.loadModel(PARSER_MODEL)
       demoDP(lp, "devSet/tagger/sentences.txt")
 
       demoAPI(lp)
