@@ -1,0 +1,15 @@
+CLASS:jobTitle	TERM:administrator;2	NP:Administrator Stephen L. Johnson;5|EPA Administrator Stephen L. Johnson;5
+CLASS:jobTitle	TERM:administrator;2	NP:administrator Michael Griffin;4|NASA administrator Michael Griffin;4
+CLASS:jobTitle	TERM:artistic director;16	NP:Oskar Eustis, artistic director;16	TERM:executive director;22	NP:Mara Manus, executive director;22
+CLASS:jobTitle	TERM:associate director;26	NP:Daniel C. Sneider, associate director;26
+NONE
+CLASS:jobTitle	TERM:sen.;3	NP:Sen. Obama;4	TERM:sen.;15	NP:Sen. Clinton;16	TERM:sen.;37	NP:Sen. McCain;38	TERM:strategist;43	NP:strategist Mark Penn;45|Clinton strategist Mark Penn;45|top Clinton strategist Mark Penn;45
+CLASS:jobTitle	TERM:head;5	NP:Brad Grey, the head;5|Brad Grey, the head of Paramount;7	TERM:co-chair;19	NP:David Linde, co-chair;19|David Linde, co-chair at Universal;21	TERM:chief executive;27	NP:Mark Gill, chief executive;27|Mark Gill, chief executive at The Film Departent;31	TERM:chief executive;37	NP:Chris McGurk, chief executive;37|Chris McGurk, chief executive of Overture;39	TERM:chief operating officer;47	NP:Rick Sands, chief operating officer;47|Rick Sands, chief operating officer at MGM;49
+CLASS:religion	TERM:scientology;5	NP:Scientology churches;6
+NONE
+NONE
+CLASS:religion	TERM:buddhism;9	NP:school of Buddhism;9|Indian Mahayana school of Buddhism;9
+NONE
+CLASS:nationality	TERM:east germany;38	NP:the former GDR (Communist East Germany);39
+NONE
+NONE
