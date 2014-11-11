@@ -23,9 +23,9 @@ object JavaParserDemo {
    */
   def main(args: Array[String]) {
     val lp: LexicalizedParser = LexicalizedParser.loadModel(PARSER_MODEL)
-      demoDP(lp, "devSet/tagger/sentences.txt")
-
-      demoAPI(lp)
+//      demoDP(lp, "devSet/tagger/sentences.txt")
+    demoPrints(lp)
+//      demoAPI(lp)
     }
 
   /**
@@ -48,6 +48,32 @@ object JavaParserDemo {
     }
   }
 
+  def demoPrints(lp: LexicalizedParser) {
+    val sent: scala.collection.immutable.List[Word] = List("This", "is", "an", "easy", "sentence", ".").toList.map(a => new Word(a))
+    val rawWords: util.List[CoreLabel] = Sentence.toCoreLabelList(sent)
+    var parse: Tree = lp.apply(rawWords)
+    println("Printing pennPrint")
+    parse.pennPrint()
+    println()
+
+    val tlp: TreebankLanguagePack = new PennTreebankLanguagePack
+    val gsf: GrammaticalStructureFactory = tlp.grammaticalStructureFactory
+    val gs: GrammaticalStructure = gsf.newGrammaticalStructure(parse)
+    val tdl: util.List[TypedDependency] = gs.typedDependenciesCCprocessed
+    println("Printing tdl")
+    println(tdl)
+    println()
+
+    for (td <- tdl) {
+      println(s"reln name: ${td.reln().getShortName}")
+      println(s"dev: ${td.dep()}, gov: ${td.gov}")
+    }
+
+    val tp: TreePrint = new TreePrint("penn,typedDependenciesCollapsed")
+    println("Printing tp.printTree")
+    tp.printTree(parse)
+  }
+
   /**
    * demoAPI demonstrates other ways of calling the parser with
    * already tokenized text, or in some cases, raw text that needs to
@@ -63,7 +89,26 @@ object JavaParserDemo {
     var parse: Tree = lp.apply(rawWords)
     parse.pennPrint()
     println()
-    val sent2: String = "This is another sentence."
+//    val sent2: String = "This is another sentence."
+/*
+    val sent2 =  "Worthy of special mention: At one point, the daughter ventures to Burkina Faso's capital, " +
+  "Ouagadougou, and enters a shelter that houses older women suspected of being witches; " +
+  "the camera lingers on the discarded women and their environs as haunting music plays in the background -- " +
+  "a long and stirring scene that, for sheer length and v    isceral power, is reminiscent of the " +
+  "climax in Michelangelo Antonioni's \"The Passenger.\""
+*/
+  /*  val sent2 = "Jiri Pehe, a prominent Czech sociologist and director of New York " +
+  "University in Prague, said the accusations had polarized Czech society into " +
+  "two camps: those who believe that Kundera may have been guilty, " +
+  "but also see him as a moral scapegoat for their own collaboration with the " +
+  "Communists; and those who view the article as an act of Czech treachery motivated by petty jealousy."*/
+  /*val sent2 = "It can't be coincidence that \"The Lives of Others,\" Florian Henckel von Donnersmarck's Oscar-nominated " +
+  "drama set in the culture of government " +
+  "intimidation and social coercion in the former GDR (Communist East Germany), is set in the year 1984."
+*/
+    val sent2 = "The lawsuits alleged that Scientology churches around the world have " +
+    "been bombarded with thousands of harassing phone calls, millions of malicious and obscene e-mails, " +
+    "and bomb and death threats by members of Anonymous."
     val tokenizerFactory: TokenizerFactory[CoreLabel] = PTBTokenizer.factory(new CoreLabelTokenFactory, "")
     val tok: Tokenizer[CoreLabel] = tokenizerFactory.getTokenizer(new StringReader(sent2))
     val rawWords2: util.List[CoreLabel] = tok.tokenize
