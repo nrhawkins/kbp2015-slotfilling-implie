@@ -1,0 +1,90 @@
+Time: 2014-11-12T13:35:53.422-08:00Configurations
+Tagger: CaseInsensitiveKeywordTagger
+Input File: testSet/tagger/sentences.txt
+Solution File: testSet/tagger/case_insensitive_solutions.txt
+Output File: results/tagger/testSet/2014-11-12T13;35;53.422-08;00-tagger-test
+Class-term File Directory: classTermLists/runfiles/
+Class term files:
+	Class name: nationality	Files: classTermLists/runfiles/nationality.txt	classTermLists/runfiles/country.txt	
+	Class name: jobTitle	Files: classTermLists/runfiles/jobTitle.txt	
+	Class name: religion	Files: classTermLists/runfiles/religion.txt	
+
+Sentence:	EPA Administrator Stephen L. Johnson has consistently indicated that the current air quality standard isn't sufficient.
+Expected:	CLASS:jobTitle	TERM:administrator;2
+Actual:		CLASS:jobTitle	TERM:administrator;2	
+Missing tags:	
+
+Sentence:	NASA administrator Michael Griffin, who joined the Bush administration three years ago, insists the agency is following the correct path, even with the funding shortfalls.
+Expected:	CLASS:jobTitle	TERM:administrator;2
+Actual:		CLASS:jobTitle	TERM:administrator;2	
+Missing tags:	
+
+Sentence:	Presented by the Royal Court Theater and the Public Theater, Oskar Eustis, artistic director; Mara Manus, executive director.
+Expected:	CLASS:jobTitle	TERM:artistic director;16	TERM:executive director;22
+Actual:		CLASS:jobTitle	TERM:artistic director;16	TERM:executive director;22	
+Missing tags:	
+
+Sentence:	"The more intriguing issue is whether all these developments signal a growing role of the military," said Daniel C. Sneider, associate director for research at Stanford University's Shorenstein Asia-Pacific Research Center.
+Expected:	CLASS:jobTitle	TERM:associate director;26
+Actual:		CLASS:jobTitle	TERM:associate director;26	
+Missing tags:	
+
+Sentence:	And director Catherine Hardwicke, who specializes in edgy teen stories ("Thirteen," "The Lords of Dogtown"), has a natural feel for the material.
+Expected:	NONE
+
+Missing tags:	
+
+Sentence:	"If Sen. Obama can't be seen to be commander in chief against Sen. Clinton, how can he possibly expect to be seen as someone who can win the commander in chief question against Sen.  McCain?" top Clinton strategist Mark Penn asked during a conference call with reporters.
+Expected:	CLASS:jobTitle	TERM:sen.;3	TERM:chief;13	TERM:sen.;15	TERM:chief;34	TERM:sen.;37	TERM:strategist;43
+Actual:		CLASS:jobTitle	TERM:chief;13	TERM:chief;34	TERM:sen.;3	TERM:sen.;15	TERM:sen.;37	TERM:strategist;43	
+Missing tags:	
+
+Sentence:	Brad Grey, the head of Paramount, was once Harvey's assistant, while David Linde, co-chair at Universal; Mark Gill, chief executive at The Film Department; Chris McGurk, chief executive of Overture; and Rick Sands, chief operating officer at MGM, along with a host of other marketing and distribution executives, were all schooled in the Weinstein method.
+Expected:	CLASS:jobTitle	TERM:head;5	TERM:co-chair;19	TERM:chief executive;27	TERM:chief executive;37	TERM:chief operating officer;47
+Actual:		CLASS:jobTitle	TERM:chief executive;27	TERM:chief executive;37	TERM:chief operating officer;47	TERM:co-chair;19	TERM:head;5	
+Missing tags:	
+
+Sentence:	The lawsuits alleged that Scientology churches around the world have been bombarded with thousands of harassing phone calls, millions of malicious and obscene e-mails, and bomb and death threats by members of Anonymous.
+Expected:	CLASS:religion	TERM:scientology;5
+Actual:		CLASS:religion	TERM:scientology;5	
+Missing tags:	
+
+Sentence:	Officials connected to leading Jewish organizations in New York that have listed Talansky as a major donor or put him on their board -- including Yeshiva University's rabbinical seminary and the Center for Jewish History -- say he has not always carried out his pledges.
+Expected:	CLASS:religion	TERM:jewish;5	TERM:jewish;35
+Actual:		CLASS:religion	TERM:jewish;5	TERM:jewish;35	
+Missing tags:	
+
+Sentence:	They are slowly rebuilding, with the help of some Amish volunteers and FEMA assistance.
+Expected:	CLASS:religion	TERM:amish;11
+Actual:		CLASS:religion	TERM:amish;11	
+Missing tags:	
+
+Sentence:	An adaptation of the Indian Mahayana school of Buddhism, Tibetan teachings spread to Bhutan in the 7th century.
+Expected:	CLASS:religion	TERM:buddhism;9	CLASS:nationality	TERM:bhutan;15
+Actual:		CLASS:nationality	TERM:bhutan;15	CLASS:religion	TERM:buddhism;9	
+Missing tags:	
+
+Sentence:	Worthy of special mention: At one point, the daughter ventures to Burkina Faso's capital, Ouagadougou, and enters a shelter that houses older women suspected of being witches; the camera lingers on the discarded women and their environs as haunting music plays in the background -- a long and stirring scene that, for sheer length and visceral power, is reminiscent of the climax in Michelangelo Antonioni's "The Passenger."
+Expected:	CLASS:nationality	TERM:burkina faso;15
+Actual:		CLASS:nationality	TERM:burkina faso;15	
+Missing tags:	
+
+Sentence:	It can't be coincidence that "The Lives of Others," Florian Henckel von Donnersmarck's Oscar-nominated drama set in the culture of government intimidation and social coercion in the former GDR (Communist East Germany), is set in the year 1984.
+Expected:	CLASS:nationality	TERM:east germany;38
+Actual:		CLASS:nationality	TERM:east germany;38	
+Missing tags:	
+
+Sentence:	A new report by the European Stability Initiative, which does economic research from offices in Germany, Turkey and the Balkans, noted the success of Stip, a city similar to Leskovac in Macedonia, another part of the former Yugoslavia.
+Expected:	CLASS:nationality	TERM:turkey;19	TERM:macedonia;36	TERM:former yugoslavia;43
+Actual:		CLASS:nationality	TERM:former yugoslavia;43	TERM:macedonia;36	TERM:turkey;19	
+Missing tags:	
+
+Sentence:	Jiri Pehe, a prominent Czech sociologist and director of New York University in Prague, said the accusations had polarized Czech society into two camps: those who believe that Kundera may have been guilty, but also see him as a moral scapegoat for their own collaboration with the Communists; and those who view the article as an act of Czech treachery motivated by petty jealousy.
+Expected:	CLASS:nationality	TERM:czech;6	TERM:czech;22	TERM:czech;64
+Actual:		CLASS:nationality	TERM:czech;6	TERM:czech;22	TERM:czech;64	
+Missing tags:	
+
+Total Results
+Correct: 30	Incorrect: 0	Missing: 0
+Precision: 1.000	Recall: 1.000
+
