@@ -1,14 +1,11 @@
-import edu.knowitall.taggers.TaggerCollection
-import edu.knowitall.taggers.LinkedType
-import edu.knowitall.taggers.NamedGroupType
+package experimenting
+
+import edu.knowitall.repr.sentence.{Chunked, Chunker, Lemmatized, Lemmatizer, Sentence}
+import edu.knowitall.taggers.{ParseRule, TaggerCollection}
 import edu.knowitall.tool.chunk.OpenNlpChunker
-import edu.knowitall.repr.sentence.Sentence
-import edu.knowitall.repr.sentence.Lemmatized
-import edu.knowitall.repr.sentence.Chunked
-import edu.knowitall.repr.sentence.Chunker
 import edu.knowitall.tool.stem.MorphaStemmer
-import edu.knowitall.repr.sentence.Lemmatizer
-import edu.knowitall.taggers.ParseRule
+import extractor.NounToNounRelationExtractor
+
 object Example {
   val pattern = """
 Animal := CaseInsensitiveKeywordTagger {
@@ -23,6 +20,7 @@ have a red dog
 cliff has a
 Cliff has a
 puppy
+scientology
 }
 Color := NormalizedKeywordTagger{
 blue
@@ -59,6 +57,7 @@ puppy dog cat kitten
     val rules = new ParseRule[Sentence with Chunked with Lemmatized].parse(pattern).get
     val t = rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
     val lines = input.split("\n").map(f => f.trim()).filter(f => f!= "").toList
+    /*
     for (line <- lines){
       val types = t.tag(process(line)).toList
       println("Line: " + line)
@@ -73,6 +72,11 @@ puppy dog cat kitten
           println("COLOR:\t" + namedGroupType.text)
         }
       }
-    }
+    }*/
+    val extractor = new NounToNounRelationExtractor(t)
+    val sentence = "The lawsuits alleged that Scientology churches around the world have " +
+      "been bombarded with thousands of harassing phone calls, millions of malicious and obscene e-mails, " +
+      "and bomb and death threats by members of Anonymous."
+    extractor.extractRelations(sentence)
   }
 }

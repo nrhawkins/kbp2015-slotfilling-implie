@@ -1,3 +1,5 @@
+package testers
+
 import java.io.PrintWriter
 
 import com.github.nscala_time.time.Imports._

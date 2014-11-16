@@ -1,3 +1,5 @@
+package testers
+
 /**
  * Test result counter.  Has modifiable correct, incorrect and missing fields.
  * Default constructs sets all fields to zero.

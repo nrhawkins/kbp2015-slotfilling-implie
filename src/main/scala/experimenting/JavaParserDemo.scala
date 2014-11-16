@@ -1,13 +1,13 @@
-import java.util
+package experimenting
+
 import java.io.StringReader
-import edu.stanford.nlp.process.Tokenizer
-import edu.stanford.nlp.process.TokenizerFactory
-import edu.stanford.nlp.process.CoreLabelTokenFactory
-import edu.stanford.nlp.process.DocumentPreprocessor
-import edu.stanford.nlp.process.PTBTokenizer
-import edu.stanford.nlp.ling.{Word, CoreLabel, HasWord, Sentence}
-import edu.stanford.nlp.trees._
+import java.util
+
+import edu.stanford.nlp.ling.{CoreLabel, Sentence, Word}
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser
+import edu.stanford.nlp.process.{CoreLabelTokenFactory, DocumentPreprocessor, PTBTokenizer, Tokenizer, TokenizerFactory}
+import edu.stanford.nlp.trees._
+
 import scala.collection.JavaConversions._
 
 
@@ -22,6 +22,7 @@ object JavaParserDemo {
    * you therefore need to include in the classpath for ParserDemo to work.
    */
   def main(args: Array[String]) {
+    println(classOf[scala.Symbol].getProtectionDomain.getCodeSource)
     val lp: LexicalizedParser = LexicalizedParser.loadModel(PARSER_MODEL)
 //      demoDP(lp, "devSet/tagger/sentences.txt")
     demoPrints(lp)
@@ -66,7 +67,8 @@ object JavaParserDemo {
 
     for (td <- tdl) {
       println(s"reln name: ${td.reln().getShortName}")
-      println(s"dev: ${td.dep()}, gov: ${td.gov}")
+      println(s"dep: ${td.dep()}, gov: ${td.gov}")
+      println(s"gov index: ${td.gov.index()}")
     }
 
     val tp: TreePrint = new TreePrint("penn,typedDependenciesCollapsed")
