@@ -15,7 +15,7 @@ import scala.collection.mutable
  * @author Gene Kim (genelkim@cs.washington.edu)
  */
 object ModularTestRunner {
-  def runTests(testInfo: TestInfo) {
+  def runTests[T1, T2](testInfo: TestInfo[T1, T2]) {
     val outputs = testInfo.inputs.map(testInfo.function)
     val results = outputs.zip(testInfo.expected).map(testInfo.comparator)
     val aggregateResults =
