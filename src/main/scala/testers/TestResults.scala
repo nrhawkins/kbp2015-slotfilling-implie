@@ -18,4 +18,19 @@ class TestResults(c: Int = 0, i: Int = 0, m: Int = 0) {
 
   def precision = correct.toDouble / (correct + incorrect)
   def recall = correct.toDouble / (correct + missed)
+
+  def + (other: TestResults): TestResults = {
+    new TestResults(
+      correct + other.correct,
+      incorrect + other.incorrect,
+      missed + other.missed
+    )
+  }
+
+  def += (other: TestResults): TestResults = {
+    correct += other.correct
+    incorrect += other.incorrect
+    missed += other.missed
+    this
+  }
 }
