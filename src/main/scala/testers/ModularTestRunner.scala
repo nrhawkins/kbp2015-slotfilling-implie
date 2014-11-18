@@ -15,9 +15,9 @@ import scala.collection.mutable
  * @author Gene Kim (genelkim@cs.washington.edu)
  */
 object ModularTestRunner {
-  def runTests[T1, T2](testInfo: TestInfo[T1, T2]) {
+  def runTests[T1, T2, T3](testInfo: TestInfo[T1, T2, T3]) {
     val outputs = testInfo.inputs.map(testInfo.function)
-    val results = outputs.zip(testInfo.expected).map(testInfo.comparator)
+    val results = outputs.zip(testInfo.solutions).map(testInfo.comparator)
     val aggregateResults =
       results.foldLeft((new TestResults(), mutable.StringBuilder.newBuilder)) {
         (acc, cur) =>
@@ -35,7 +35,6 @@ object ModularTestRunner {
     out.println()
     out.println(testResultsToString(results))
     out.print(footer)
-    out.close()
   }
 
   /**
