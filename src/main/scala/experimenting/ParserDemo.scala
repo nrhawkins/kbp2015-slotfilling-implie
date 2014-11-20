@@ -1,12 +1,14 @@
 package experimenting
 
 
-import java.io.StringReader
+import java.io.{PrintWriter, StringReader}
 import java.util
 
 import edu.knowitall.tool.chunk.OpenNlpChunker
 import edu.stanford.nlp.ling.CoreLabel
 import edu.stanford.nlp.process.{CoreLabelTokenFactory, PTBTokenizer, Tokenizer, TokenizerFactory}
+
+import scala.io.Source
 
 object ParserDemo {
 
@@ -20,14 +22,14 @@ object ParserDemo {
    * TreePrint.printTree.
    */
   def main(args: Array[String]) {
-    //val sentences = "testSet/tagger/sentences.txt"
-    //val tokenFile = "testSet/tagger/tokenized.txt"
-    //val lines = Source.fromFile(sentences).getLines()
-    //val out = new PrintWriter(tokenFile)
-    val sent2: String = "Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of Daniel Peterson, a West Indian immigrant, and the former Olivia John, whom Daniel had met in Montreal."
+    val sentences = "devSet/tagger/paraphrased_sentences.txt"
+    val tokenFile = "devSet/tagger/paraphrased_tokenized.txt"
+    val lines = Source.fromFile(sentences).getLines()
+    val out = new PrintWriter(tokenFile)
+//    val sent2: String = "Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of Daniel Peterson, a West Indian immigrant, and the former Olivia John, whom Daniel had met in Montreal."
     val tokenizerFactory: TokenizerFactory[CoreLabel] = PTBTokenizer.factory(new CoreLabelTokenFactory, "")
-    val tok: Tokenizer[CoreLabel] = tokenizerFactory.getTokenizer(new StringReader(sent2))
-    val rawWords2: util.List[CoreLabel] = tok.tokenize
+//    val tok: Tokenizer[CoreLabel] = tokenizerFactory.getTokenizer(new StringReader(sent2))
+    /*val rawWords2: util.List[CoreLabel] = tok.tokenize
     println("Stanford tokenizer")
     for (i <- 0 until rawWords2.size()) {
       val word = rawWords2.get(i)
@@ -41,7 +43,7 @@ object ParserDemo {
       print(s"${tokens(i).string}-${i+1} ")
     }
     println()
-
+*/
     /*val tokenizerFactory: TokenizerFactory[CoreLabel] = PTBTokenizer.factory(new CoreLabelTokenFactory, "")
     val tok: Tokenizer[CoreLabel] = tokenizerFactory.getTokenizer(new StringReader(sent2))
     val rawWords2: List[CoreLabel] = tok.tokenize
@@ -49,7 +51,6 @@ object ParserDemo {
       val word = rawWords2.get(i)
       println(word.toString)
     }*/
-    /*
     val chunker = new OpenNlpChunker()
     for (line <- lines) {
       val tokens = chunker.chunk(line)
@@ -59,7 +60,7 @@ object ParserDemo {
       out.println()
     }
     out.close()
-    println(Source.fromFile(tokenFile).mkString)*/
+    println(Source.fromFile(tokenFile).mkString)
   }
 }
 
