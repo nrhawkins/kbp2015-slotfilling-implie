@@ -121,7 +121,8 @@ object ModularTaggerTester {
       // First one item is the class name, then term;index
       val terms = trimSplit(solClass, "TERM:")
       val clas = terms(0)
-      val termSet = mutable.Set[Tags]()
+
+      val termSet = solMap.getOrElse(clas, mutable.Set[Tags]())
       for (i <- 1 until terms.length) {
         // Break up by possible tags, add into a set.
         val possibleVals = trimSplit(terms(i), "\\|")
