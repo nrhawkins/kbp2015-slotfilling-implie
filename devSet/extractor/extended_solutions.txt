@@ -1,0 +1,102 @@
+CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson, an astrophysicist;21	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28							
+CLASS:jobTitle	TERM:astrophysicist;21	NP: Neil deGrasse Tyson, the American Museum of Natural History's chief astrophysicist;28	CLASS:nationality	TERM:american;21	NP:American Museum of Natural History;25							
+CLASS:jobTitle	TERM:astrophysicist;16	NP:astrophysicist Neil deGrasse Tyson;19	CLASS:nationality	TERM:american;22	NP:American Museum of Natural History;26							
+CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson, who was recently appointed as astrophysicist;25|Neil deGrasse Tyson, who was recently appointed as astrophysicist with the American Museum of Natural History;32	CLASS:nationality	TERM:american;28	NP:American Museum of Natural History;32							
+CLASS:jobTitle	TERM:astrophysicist;18	NP:an astrophysicist, Neil deGrasse Tyson;21	CLASS:nationality	TERM:american;25	NP:American Museum of Natural History;29							
+CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson (an astrophysicist with the American Museum of Natural History);29	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28							
+CLASS:jobTitle	TERM:executive deputy chief;6	NP:John Arterberry, executive deputy chief;6|John Arterberry, executive deputy chief of the fraud section in the Justice Department:14										
+CLASS:jobTitle	TERM:executive deputy chief;3	NP:John Arterberry;5|Executive deputy chief John Arterberry;5|Executive deputy chief John Arterberry of the fraud section in the Justice Department;13										
+CLASS:jobTitle	TERM:executive deputy chief;11	NP:John Arterberry;2|John Arterberry, recently appointed by Obama as executive deputy chief;11|John Arterberry, recently appointed by Obama as executive deputy chief of the fraud section in the Justice Department;20										
+CLASS:jobTitle	TERM:executive deputy chief;10	NP:John Arterberry;2|John Arterberry, in his role as executive deputy chief;10|John Arterberry, in his role as executive deputy chief of the fraud section in the Justice Department;18										
+CLASS:jobTitle	TERM:executive deputy chief;7	NP:John Arterberry;2|John Arterberry, acting executive deputy chief;7|John Arterberry, acting executive deputy chief of the fraud section in the Justice Department;15										
+CLASS:jobTitle	TERM:executive deputy chief;4	NP:John Arterberry;14|executive deputy chief of the fraud section in the Justice Department John Arterberry;14|Acting executive deputy chief of the fraud section in the Justice Department John Arterberry;14										
+CLASS:jobTitle	TERM:critic;23	NP:the French critic Andre Bazin;25	CLASS:nationality	TERM:french;22	NP:the French critic Andre Bazin;25							
+CLASS:jobTitle	TERM:critic;26	NP:Andre Bazin, the French critic;26	CLASS:nationality	TERM:french;25	NP:Andre Bazin, the French critic;26							
+CLASS:jobTitle	TERM:critic;29	NP:Andre Bazin, the community's favorite French critic;29	CLASS:nationality	TERM:french;28	NP:Andre Bazin, the community's favorite French critic;29							
+CLASS:jobTitle	TERM:critic;28	NP:Andre Bazin, who became a French critic;28	CLASS:nationality	TERM:french;27	NP:Andre Bazin, who became a French critic;28							
+CLASS:jobTitle	TERM:critic;23	NP:the French critic, Andre Bazin;26	CLASS:nationality	TERM:french;22	NP:the French critic, Andre Bazin;26							
+CLASS:jobTitle	TERM:critic;22	NP:the critic Andre Bazin;24|the critic Andre Bazin, a French native;28	CLASS:nationality	TERM:french;27	NP:the critic Andre Bazin, a French native;28|Andre Bazin, a French native;28							
+CLASS:jobTitle	TERM:music teacher;25	NP:Petra Koepke-Eberler, 48, a music teacher here;25|Petra Koepke-Eberler, 48, a music teacher;24										
+CLASS:jobTitle	TERM:music teacher;19	NP:music teacher Petra Koepke-Eberlere;21										
+CLASS:jobTitle	TERM:music teacher;21	NP:music teacher, Petra Koepke-Eberler;26|a local music teacher, Petra Koepke-Eberler;26										
+CLASS:jobTitle	TERM:music teacher;26	NP:Petra Koepke-Eberler, 48, once a music teacher;26|Petra Koepke-Eberler, 48, once a music teacher here|27										
+CLASS:jobTitle	TERM:music teacher;8	NP:Petra Koepke-Eberler, 48, a music teacher;8|Petra Koepke-Eberler, 48, a music teacher here;9										
+CLASS:jobTitle	TERM:music teacher;26	NP:Petra Koepke-Eberler (a music teacher);7										
+CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7										
+CLASS:jobTitle	TERM:classical singing teacher;3	NPClassical singing teacher Madame Violetta;5										
+CLASS:jobTitle	TERM:classical singing teacher;10	NP:Madame Violetta, who recently became a classical singing teacher;10										
+CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7|Madame Violetta, a classical singing teacher who recently got her job;12										
+CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta (a classical singing teacher);8										
+CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7										
+CLASS:jobTitle	TERM:president;10	NP:President Hu;8|Chinese President Hu;8	CLASS:nationality	TERM:chinese;9	NP:Chinese President Hu;8							
+CLASS:jobTitle	TERM:president;13	NP:Hu, the Chinese President;13	CLASS:nationality	TERM:chinese;12	NP:Hu, the Chinese President;13							
+CLASS:jobTitle	TERM:president;12	NP:Hu, Chinese President;12|Hu, Chinese President at the time;15	CLASS:nationality	TERM:chinese;11	NP:Hu, Chinese President;12|Hu, Chinese President at the time;15							
+CLASS:jobTitle	TERM:president;2	NP:President Hu;3|Chinese President Hu;3	CLASS:nationality	TERM:chinese;1	NP:Chinese President Hu;3							
+CLASS:jobTitle	TERM:president;12	NP:President Hu;13|Chinese President Hu;13|recently elected Chinese President Hu;13	CLASS:nationality	TERM:chinese;11	NP:Chinese President Hu;13|recently elected Chinese President Hu;13							
+CLASS:jobTitle	TERM:president;13	NP:Hu, the Chinese President;13|Hu, the Chinese President, who was recently elected;18	CLASS:nationality	TERM:chinese;12	NP:Hu, the Chinese President;13|Hu, the Chinese President, who was recently elected;18							
+CLASS:nationality	TERM:west indian;30	NP:West Indian immigrant;31|Daniel Peterson, a West Indian;30|Daniel Peterson, a West Indian immigrant;31										
+CLASS:nationality	TERM:west indian;27	NP:West Indian immigrant Daniel Peterson;30										
+CLASS:nationality	TERM:west indian;15	NP:Daniel Peterson, a West Indian immigrant from the 1890s;19|Daniel Peterson, a West Indian immigrant;16|Daniel Peterson, a West Indian;33										
+CLASS:nationality	TERM:west indian;33	NP:Daniel Peterson, a newly immigrated West Indian immigrant;34|Daniel Peterson, a newly immigrated West Indian;33										
+CLASS:nationality	TERM:west indian;31	NP: Daniel Peterson, a West Indian immigrant who recently immigrated;35| Daniel Peterson, a West Indian immigrant;32| Daniel Peterson, a West Indian;31										
+CLASS:nationality	TERM:west indian;31	NP:Daniel Peterson (a West Indian immigrant);33										
+CLASS:nationality	TERM:canadian;11	NP:Canadian Pacific Railway;13	CLASS:nationality	TERM:caribbean;45	NP:Peterson's mother, who also had roots in the Caribbean;45							
+CLASS:nationality	TERM:canadian;6	NP:Canadian Pacific Railway;8	CLASS:nationality	TERM:caribbean;44	NP:Peterson's mother, who also grew up with Caribbean roots;45							
+CLASS:nationality	TERM:canadian;10	NP:Canadian Pacific Railway;12	CLASS:nationality	TERM:caribbean;43	NP:Peterson's mother, who also grew up with Caribbean roots;44							
+CLASS:nationality	TERM:canadian;11	NP:Canadian Pacific Railway;13	CLASS:nationality	TERM:caribbean;37	NP:Peterson's Caribbean mother;38|Caribbean mother;38							
+CLASS:nationality	TERM:canadian;11	NP:Canadian Pacific Railway;13	CLASS:nationality	TERM:caribbean;45	NP:Peterson's mother (who also had roots in the Caribbean);46							
+CLASS:nationality	TERM:canadian;11	NP:Canadian Pacific Railway;13	CLASS:nationality	TERM:caribbean;37	NP:Peterson's Caribbean rooted mother;39							
+CLASS:nationality 	TERM:persian;38	NP:Persian Emperor Xerxes;40	CLASS:nationality	TERM:brazil;42	NP:Brazil's Rodrigo Santoro;45							
+CLASS:nationality 	TERM:persian;41	NP:Xerxes, a Persian Emperor;42|Xerxes, a Persian;41	CLASS:nationality	TERM:brazil;44	NP:Brazil's Rodrigo Santoro;47							
+CLASS:nationality 	TERM:persian;42	NP:Xerxes, a fictional Persian Emperor;43|Xerxes, a fictional Persian;42	CLASS:nationality	TERM:brazil;45	NP:Brazil's Rodrigo Santoro;48							
+CLASS:nationality 	TERM:persian;41	NP:Xerxes, a Persian Emperor who is fictional;45|Xerxes, a Persian Emperor;42|Xerxes, a Persian;41	CLASS:nationality	TERM:brazil;47	NP:Brazil's Rodrigo Santoro;50							
+CLASS:nationality 	TERM:persian;43	NP:Xerxes, the recently crowned Persian Emperor	CLASS:nationality	TERM:brazil;46	NP:Brazil's Rodrigo Santoro;49							
+CLASS:nationality 	TERM:persian;41	NP:Xerxes, a Persian Emperor, who was recently crowned;47|Xerxes, a Persian Emperor;42|Xerxes, a Persian;41	CLASS:nationality	TERM:brazil;49	NP:Brazil's Rodrigo Santoro;52							
+CLASS:nationality	TERM:persian;24	NP:Persian calligraphy;25|Persian calligraphy on the outside walls;29|stylized Persian calligraphy on the outside walls;29|stylized Persian calligraphy;25										
+CLASS:nationality	TERM:persian;23	NP:Persian stylized calligraphy;25|Persian stylized calligraphy, on the outside walls;30										
+CLASS:nationality	TERM:persian;26	NP:stylized calligraphy (Persian);27|calligraphy (Persian);27|stylized calligraphy (Persian) on the outside walls;31|calligraphy (Persian) on the outside walls;31										
+CLASS:nationality	TERM:persian;26	NP:stylized calligraphy, Persian;26|calligraphy, Persian;26|stylized calligraphy, Persian, on the outside walls;31|calligraphy, Persian, on the outside walls;31										
+CLASS:nationality	TERM:persian;28	NP:stylized calligraphy, of the Persian style;29|calligraphy, of the Persian style;29|stylized calligraphy, of the Persian style, on the outside walls;34|calligraphy, of the Persian style, on the outside walls;34										
+CLASS:nationality	TERM:persian;31	NP:stylized calligraphy, which was recently identified as Persian;31|calligraphy, which was recently identified as Persian;31|stylized calligraphy, which was recently identified as Persian, on the outside walls;36|calligraphy, which was recently identified as Persian, on the outside walls;36										
+CLASS:jobTitle	TERM:president;22	NP:President Bush;23	CLASS:nationality	TERM:persian;8	NP:Persian Gulf War;10							
+CLASS:jobTitle	TERM:president;23	NP:President Bush;24	CLASS:nationality	TERM:persian;4	NP:Persian Gulf War;6							
+CLASS:jobTitle	TERM:president;23	NP:President Bush;24	CLASS:nationality	TERM:persian;8	NP:Persian Gulf War;10							
+CLASS:jobTitle	TERM:president;1	NP:President Bush;2	CLASS:nationality	TERM:persian;23	NP:Persian Gulf War;25							
+CLASS:jobTitle	TERM:president;28	NP:Bush, President;28	CLASS:nationality	TERM:persian;8	NP:Persian Gulf War;10							
+CLASS:jobTitle	TERM:president;28	NP:Bush (President);29	CLASS:nationality	TERM:persian;8	NP:Persian Gulf War;10							
+CLASS:religion	TERM:mormon;27	NP:a Mormon -- Mitt Romney;30										
+CLASS:religion	TERM:mormon;27	NP:a Mormon, Mitt Romney;30										
+CLASS:religion	TERM:mormon;17	NP:Mitt Romney, a Mormon;17										
+CLASS:religion	TERM:mormon;26	NP:Mormon Mitt Romney;28										
+CLASS:religion	TERM:mormon;31	NP:Mitt Romney, a Mormon candidate;32										
+CLASS:religion	TERM:mormon;27	NP:the Mormon Mitt Romney;29										
+CLASS:religion	TERM:mormon;56	NP:Mormon president (Mitt Romney);61|the first Mormon president (Mitt Romney);61										
+CLASS:religion	TERM:mormon;58	NP:Mitt Romney, who would be the first Mormon president;59										
+CLASS:religion	TERM:mormon;50	NP:Mormon Mitt Romney;52|Mormon Mitt Romney, would be first president of his religion;60										
+CLASS:religion	TERM:mormon;4	NP:Would be first Mormon president Mitt Romney;7|first Mormon president Mitt Romney;7										
+CLASS:religion	TERM:mormon;55	NP:the first Mormon president, Mitt Romney;59|Mormon president, Mitt Romney;59										
+CLASS:religion	TERM:mormon;53	NP:Mormon president;57|the first Mormon president;57|Mormon president (Mitt Romney);61|the first Mormon president (Mitt Romney);61										
+CLASS:religion	TERM:hindu:32	NP:the Hindu festival of Holi;35										
+CLASS:religion	TERM:hindu:37	NP:the festival of Holi, a Hindu tradition;38										
+CLASS:religion	TERM:hindu:34	NP:Holi, a Hindu festival;35										
+CLASS:religion	TERM:hindu:3	NP:the Hindu festival, Holi;6										
+CLASS:religion	TERM:hindu:42	NP:Holi, the spring festival of colors, an ancient Hindu tradition;43										
+CLASS:religion	TERM:hindu:32	NP:the Hindu festival of color, Holi;37										
+CLASS:religion	TERM:christian;5	NP:a Christian community leader, Iyal al-Ashouri;10	CLASS:jobTitle	TERM:leader;7	NP:a Christian community leader, Iyal al-Ashouri;10	CLASS:nationality	TERM:iraqi;14	NP:the Iraqi government;15				
+CLASS:religion	TERM:christian;4	NP:Christian community leader Iyal al-Ashouri;8	CLASS:jobTitle	TERM:leader;6	NP:Christian community leader Iyal al-Ashouri;8	CLASS:nationality	TERM:iraqi;11	NP:the Iraqi Ministry of Defense;14				
+CLASS:religion	TERM:christian;5	NP:a Christian community leader, Iyal al-Ashouri;10	CLASS:jobTitle	TERM:leader;7	NP:a Christian community leader, Iyal al-Ashouri;10	CLASS:nationality	TERM:iraqi;14	NP:the Iraqi government;15				
+CLASS:religion	TERM:christian;29	NP:Iyad al-Ashouri, a Christian community leader;31	CLASS:jobTitle	TERM:leader;31	NP:Iyad al-Ashouri, a Christian community leader;31	CLASS:nationality	TERM:iraqi;2	NP:The Iraqi government;3				
+CLASS:religion	TERM:christian;29	NP:Iyad al-Ashouri, a Christian;29|Iyad al-Ashouri, a Christian and a community leader;33	CLASS:jobTitle	TERM:leader;33	NP:Iyad al-Ashouri, a Christian and a community leader;33	CLASS:nationality	TERM:iraqi;2	NP:The Iraqi government;3				
+CLASS:religion	TERM:christian;11	NP:Iyad al-Ashouri, the district's long-standing Christian community leader;13	CLASS:jobTitle	TERM:leader;13	NP:Iyad al-Ashouri, the district's long-standing Christian community leader;13	CLASS:nationality	TERM:iraqi;23	NP:the Ministry of Defense of the Iraqi government;25|the Iraqi government;25				
+CLASS:religion	TERM:christian;33	NP:Yenching University, a Christian institution;34	CLASS:jobTitle	TERM:president;27	NP:He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University, a Christian institution whose idyllic campus now is the site of Peking University;44|He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University;30
+CLASS:religion	TERM:christian;12	NP:Yenching University, a Christian institution;13	CLASS:jobTitle	TERM:president;6	NP:He founded and served as president of Yenching University, a Christian institution whose idyllic campus now is the site of Peking University;23|He founded and served as president of Yenching University, a Christian institution;13|He founded and served as president of Yenching University;9
+CLASS:religion	TERM:christian;4	NP: the Christian institution Yenching University president;8|the Christian institution Yenching University president;7	CLASS:jobTitle	TERM:president;8	NP:He was the Christian institution Yenching University president;8
+CLASS:religion	TERM:christian;37	NP:Yenching University, the country's most prominent Christian institution;38	CLASS:jobTitle	TERM:president;27	NP:He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University;30
+CLASS:religion	TERM:christian;33	NP:Yenching University (a Christian institution);35	CLASS:jobTitle	TERM:president;27	NP:He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University;30
+CLASS:religion	TERM:christian;44	NP:Yenching University, whose idyllic campus now is the site of Peking University, a Christian institution;45	CLASS:jobTitle	TERM:president;27	NP:He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University;30
+CLASS:nationality	TERM:u.s.;24	NP:Susan Michael, the U.S. director;25|Susan Michael, the U.S. director of the International Christian Embassey Jerusalem;31|the U.S. director of the International Christian Embassey Jerusalem;31	CLASS:religion	TERM:christian;29	NP:the International Christian Embassy Jerusalem;31							
+CLASS:nationality	TERM:u.s.;20	NP:U.S. director Susan Michael, of the International Christian Embassy Jerusalem;30|U.S. director Susan Michael;23	CLASS:religion	TERM:christian;28	NP:the International Christian Embassy Jerusalem;30							
+CLASS:nationality	TERM:u.s.;2	NP:The U.S. director of the International Christian Embassy Jerusalem Susan Michael;11	CLASS:religion	TERM:christian;7	NP:the International Christian Embassy Jerusalem;9							
+CLASS:nationality	TERM:u.s.;29	NP:Susan Michael, the International Christian Embassy Jerusalem's U.S. Director;30	CLASS:religion	TERM:christian;25	NP:the International Christian Embassy Jerusalem;27							
+CLASS:nationality	TERM:u.s.;23	NP:Susan Michael (U.S. director of the International Christian Embassy Jerusalem);31	CLASS:religion	TERM:christian;28	NP:the International Christian Embassy Jerusalem;30							
+CLASS:nationality	TERM:u.s.;26	NP:Susan Michael, the recently appointed U.S. director of the International Christian Embassy Jerusalem;31|Susan Michael, the recently appointed U.S. Director;27	CLASS:religion	TERM:christian;31	NP:the International Christian Embassy Jerusalem;33							

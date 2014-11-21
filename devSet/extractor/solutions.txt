@@ -5,13 +5,13 @@ CLASS:jobTitle	TERM:music teacher;25	NP:Petra Koepke-Eberler, 48, a music teache
 CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7
 CLASS:jobTitle	TERM:president;10	NP:President Hu;8|Chinese President Hu;8	CLASS:nationality	TERM:chinese;9	NP:Chinese President Hu;8
 CLASS:nationality	TERM:west indian;30	NP:West Indian immigrant;31|Daniel Peterson, a West Indian;30|Daniel Peterson, a West Indian immigrant;31
-CLASS:nationality	TERM:canadian;11	NP:Canadian Pacific Railway;13
-CLASS:nationality TERM:persian;38	NP:Persian Emperor Xerxes;40|Persian Emperor Xerxes (Brazil's Rodrigo Santoro, from TV's "Lost");53	TERM:brazil	NP:Brazil's Rodrigo Santoro;45
+CLASS:nationality	TERM:canadian;11	NP:Canadian Pacific Railway;13	TERM:caribbean;45	NP:Peterson's mother, who also had roots in the Caribbean;45
+CLASS:nationality 	TERM:persian;38	NP:Persian Emperor Xerxes;40	TERM:brazil;42	NP:Brazil's Rodrigo Santoro;45
 CLASS:nationality	TERM:persian;24	NP:Persian calligraphy;25|Persian calligraphy on the outside walls;29
 CLASS:jobTitle	TERM:president;22	NP:President Bush;23	CLASS:nationality	TERM:persian;8	NP:Persian Gulf War;10
 CLASS:religion	TERM:mormon;27	NP:a Mormon -- Mitt Romney;30
 CLASS:religion	TERM:mormon;56	NP:Mormon president;57|the first Mormon president;57|Mormon president (Mitt Romney);61|the first Mormon president (Mitt Romney);61
 CLASS:religion	TERM:hindu:32	NP:the Hindu festival of Holi;35
-CLASS:religion	TERM:christian;5	NP:Christian community leader;7|Christian community leader, Iyal al-Ashouri	CLASS:jobTitle	TERM:leader;7 NP:community leader, Iyal al-Ashouri;10|Christian community leader;7|Christian community leader, Iyal al-Ashouri	CLASS:nationality	TERM:iraqi;14	NP:the Iraqi government;15
-CLASS:religion	TERM:christian	NP:Christian institution;34|Yenching University, a Christian institution;34
+CLASS:religion	TERM:christian;5	NP:Christian community leader;7|Christian community leader, Iyal al-Ashouri	CLASS:jobTitle	TERM:leader;7	NP:community leader, Iyal al-Ashouri;10|Christian community leader;7|Christian community leader, Iyal al-Ashouri	CLASS:nationality	TERM:iraqi;14	NP:the Iraqi government;15
+CLASS:religion	TERM:christian;33	NP:Christian institution;34|Yenching University, a Christian institution;34
 CLASS:nationality	TERM:u.s.;24	NP:Susan Michael, the U.S. director;25|Susan Michael, the U.S. director of the International Christian Embassey Jerusalem;31|the U.S. director;25|the U.S. director of the International Christian Embassey Jerusalem;31	CLASS:religion	TERM:christian;29	NP:the International Christian Embassy Jerusalem;31
