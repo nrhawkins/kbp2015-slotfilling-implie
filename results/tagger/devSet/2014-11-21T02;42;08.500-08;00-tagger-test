@@ -1,0 +1,427 @@
+DateTime: 2014-11-21T02:42:08.500-08:00
+
+Configurations
+Tagger: CaseInsensitiveKeywordTagger
+Input File: devSet/tagger/extended_sentences.txt
+Solution File: devSet/tagger/extended_solutions.txt
+Output File: results/tagger/devSet/2014-11-21T02;42;08.500-08;00-tagger-test
+Class-term File Directory: classTermLists/runfiles/
+Class term files:
+	Class name: nationality	Files: classTermLists/runfiles/nationality.txt	classTermLists/runfiles/country.txt	
+	Class name: jobTitle	Files: classTermLists/runfiles/jobTitle.txt	
+	Class name: religion	Files: classTermLists/runfiles/religion.txt	
+
+
+Sentence:	"Black holes are infamous for wreaking havoc in their immediate neighborhoods," said Neil deGrasse Tyson, an astrophysicist with the American Museum of Natural History who was not involved in the 3C321 research, but is an expert on black holes.
+Expected:	CLASS:jobTitle	TERM:astrophysicist;21
+Actual:		CLASS:jobTitle	TERM:astrophysicist;21	
+
+Sentence:	"Black holes are infamous for wreaking havoc in their immediate neighborhoods," said Neil deGrasse Tyson, the American Museum of Natural History's chief astrophysicist, who was not involved in the 3C321 research, but is an expert on black holes.
+Expected:	CLASS:jobTitle	TERM:astrophysicist;21
+Actual:		CLASS:jobTitle	TERM:astrophysicist;28;Incorrect	TERM:chief;27;Incorrect	
+
+Sentence:	"Black holes are infamous for wreaking havoc in their immediate neighborhoods," said astrophysicist Neil deGrasse Tyson with the American Museum of Natural History who was not involved in the 3C321 research, but is an expert on black holes.
+Expected:	CLASS:jobTitle	TERM:astrophysicist;16
+Actual:		CLASS:jobTitle	TERM:astrophysicist;16	
+
+Sentence:	"Black holes are infamous for wreaking havoc in their immediate neighborhoods," said Neil deGrasse Tyson, who was recently appointed as astrophysicist with the American Museum of Natural History and who was not involved in the 3C321 research, but is an expert on black holes.
+Expected:	CLASS:jobTitle	TERM:astrophysicist;21
+Actual:		CLASS:jobTitle	TERM:astrophysicist;25;Incorrect	
+
+Sentence:	"Black holes are infamous for wreaking havoc in their immediate neighborhoods," said an astrophysicist, Neil deGrasse Tyson, with the American Museum of Natural History who was not involved in the 3C321 research, but is an expert on black holes.
+Expected:	CLASS:jobTitle	TERM:astrophysicist;18
+Actual:		CLASS:jobTitle	TERM:astrophysicist;17;Incorrect	
+
+Sentence:	"Black holes are infamous for wreaking havoc in their immediate neighborhoods," said Neil deGrasse Tyson (an astrophysicist with the American Museum of Natural History) who was not involved in the 3C321 research, but is an expert on black holes.
+Expected:	CLASS:jobTitle	TERM:astrophysicist;21
+Actual:		CLASS:jobTitle	TERM:astrophysicist;21	
+
+Sentence:	John Arterberry, executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud.
+Expected:	CLASS:jobTitle	TERM:executive deputy chief;6
+Actual:		CLASS:jobTitle	TERM:executive deputy chief;6	
+
+Sentence:	Executive deputy chief John Arterberry of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud.
+Expected:	CLASS:jobTitle	TERM:executive deputy chief;3
+Actual:		CLASS:jobTitle	TERM:executive deputy chief;3	
+
+Sentence:	John Arterberry, recently appointed by Obama as executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud.
+Expected:	CLASS:jobTitle	TERM:executive deputy chief;11
+Actual:		CLASS:jobTitle	TERM:executive deputy chief;11	
+
+Sentence:	John Arterberry, in his role as executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud.
+Expected:	CLASS:jobTitle	TERM:executive deputy chief;10
+Actual:		CLASS:jobTitle	TERM:executive deputy chief;10	
+
+Sentence:	John Arterberry, acting executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud.
+Expected:	CLASS:jobTitle	TERM:executive deputy chief;7
+Actual:		CLASS:jobTitle	TERM:executive deputy chief;7	
+
+Sentence:	Acting executive deputy chief of the fraud section in the Justice Department John Arterberry said federal prosecutors and the FBI had made progress on mortgage fraud.
+Expected:	CLASS:jobTitle	TERM:executive deputy chief;4
+Actual:		CLASS:jobTitle	TERM:executive deputy chief;4	
+
+Sentence:	It remains to be seen just how effective a cluster of people in their 20s can be at reinventing what the French critic Andre Bazin once called "the genius of the system," referring to Hollywood films made during the classic studio era, roughly the 1920s through the '50s.
+Expected:	CLASS:jobTitle	TERM:critic;23	CLASS:nationality	TERM:french;22
+Actual:		CLASS:jobTitle	TERM:critic;23	CLASS:nationality	TERM:french;22	
+
+Sentence:	It remains to be seen just how effective a cluster of people in their 20s can be at reinventing what Andre Bazin, the French critic who was well known in his time, once called "the genius of the system," referring to Hollywood films made during the classic studio era, roughly the 1920s through the '50s.
+Expected:	CLASS:jobTitle	TERM:critic;26	CLASS:nationality	TERM:french;25
+Actual:		CLASS:jobTitle	TERM:critic;26	CLASS:nationality	TERM:french;25	
+
+Sentence:	It remains to be seen just how effective a cluster of people in their 20s can be at reinventing what Andre Bazin, the community's favorite French critic, once called "the genius of the system," referring to Hollywood films made during the classic studio era, roughly the 1920s through the '50s.
+Expected:	CLASS:jobTitle	TERM:critic;29	CLASS:nationality	TERM:french;28
+Actual:		CLASS:jobTitle	TERM:critic;29	CLASS:nationality	TERM:french;28	
+
+Sentence:	It remains to be seen just how effective a cluster of people in their 20s can be at reinventing what Andre Bazin, who became a French critic, once called "the genius of the system," referring to Hollywood films made during the classic studio era, roughly the 1920s through the '50s.
+Expected:	CLASS:jobTitle	TERM:critic;28	CLASS:nationality	TERM:french;27
+Actual:		CLASS:jobTitle	TERM:critic;28	CLASS:nationality	TERM:french;27	
+
+Sentence:	It remains to be seen just how effective a cluster of people in their 20s can be at reinventing what the French critic, Andre Bazin, who was well known in his time, once called "the genius of the system," referring to Hollywood films made during the classic studio era, roughly the 1920s through the '50s.
+Expected:	CLASS:jobTitle	TERM:critic;23	CLASS:nationality	TERM:french;22
+Actual:		CLASS:jobTitle	TERM:critic;23	CLASS:nationality	TERM:french;22	
+
+Sentence:	It remains to be seen just how effective a cluster of people in their 20s can be at reinventing what the critic Andre Bazin, a French native, once called "the genius of the system," referring to Hollywood films made during the classic studio era, roughly the 1920s through the '50s.
+Expected:	CLASS:jobTitle	TERM:critic;22	CLASS:nationality	TERM:french;27
+Actual:		CLASS:jobTitle	TERM:critic;22	CLASS:nationality	TERM:french;27	
+
+Sentence:	"Three months of tourism can't be spread out over the entire year," said Petra Koepke-Eberler, 48, a music teacher here.
+Expected:	CLASS:jobTitle	TERM:music teacher;25
+Actual:		CLASS:jobTitle	TERM:music teacher;25	
+
+Sentence:	"Three months of tourism can't be spread out over the entire year," said music teacher Petra Koepke-Eberler.
+Expected:	CLASS:jobTitle	TERM:music teacher;19
+Actual:		CLASS:jobTitle	TERM:music teacher;19	
+
+Sentence:	"Three months of tourism can't be spread out over the entire year," said a local music teacher, Petra Koepke-Eberler.""
+Expected:	CLASS:jobTitle	TERM:music teacher;21
+Actual:		CLASS:jobTitle	TERM:music teacher;21	
+
+Sentence:	"Three months of tourism can't be spread out over the entire year," said Petra Koepke-Eberler, 48, once a music teacher here.
+Expected:	CLASS:jobTitle	TERM:music teacher;26
+Actual:		CLASS:jobTitle	TERM:music teacher;26	
+
+Sentence:	Petra Koepke-Eberler, 48, a music teacher here, said, "Three months of tourism can't be spread out over the entire year."
+Expected:	CLASS:jobTitle	TERM:music teacher;8
+Actual:		CLASS:jobTitle	TERM:music teacher;8	
+
+Sentence:	Petra Koepke-Eberler (a music teacher) said, "Three months of tourism can't be spread out over the entire year."
+Expected:	CLASS:jobTitle	TERM:music teacher;26
+Actual:		CLASS:jobTitle	TERM:music teacher;6;Incorrect	
+
+Sentence:	Madame Violetta, a classical singing teacher, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Expected:	CLASS:jobTitle	TERM:classical singing teacher;7
+Actual:		CLASS:jobTitle	TERM:classical singing teacher;7	
+
+Sentence:	Classical singing teacher Madame Violetta instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Expected:	CLASS:jobTitle	TERM:classical singing teacher;3
+Actual:		CLASS:jobTitle	TERM:classical singing teacher;3	
+
+Sentence:	Madame Violetta, who recently became a classical singing teacher, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Expected:	CLASS:jobTitle	TERM:classical singing teacher;10
+Actual:		CLASS:jobTitle	TERM:classical singing teacher;10	
+
+Sentence:	Madame Violetta, a classical singing teacher who recently got her job, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Expected:	CLASS:jobTitle	TERM:classical singing teacher;7
+Actual:		CLASS:jobTitle	TERM:classical singing teacher;7	
+
+Sentence:	Madame Violetta (a classical singing teacher) instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Expected:	CLASS:jobTitle	TERM:classical singing teacher;7
+Actual:		CLASS:jobTitle	TERM:classical singing teacher;7	
+
+Sentence:	Madame Violetta, a classical singing teacher, who now works at MusicWorks, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Expected:	CLASS:jobTitle	TERM:classical singing teacher;7
+Actual:		CLASS:jobTitle	TERM:classical singing teacher;7	
+
+Sentence:	Speaking with Bush at a news conference, Chinese President Hu said the Kyoto Protocol, the 1997 United Nations-sponsored effort that sets targets for industrialized nations to cut greenhouse gas emissions, should "remain the main channel for international efforts to tackle climate change."
+Expected:	CLASS:jobTitle	TERM:president;10	CLASS:nationality	TERM:chinese;9
+Actual:		CLASS:jobTitle	TERM:president;10	CLASS:nationality	TERM:chinese;9	
+
+Sentence:	Speaking with Bush at a news conference, Hu, the Chinese President, said the Kyoto Protocol, the 1997 United Nations-sponsored effort that sets targets for industrialized nations to cut greenhouse gas emissions, should "remain the main channel for international efforts to tackle climate change."
+Expected:	CLASS:jobTitle	TERM:president;13	CLASS:nationality	TERM:chinese;12
+Actual:		CLASS:jobTitle	TERM:president;13	CLASS:nationality	TERM:chinese;12	
+
+Sentence:	Speaking with Bush at a news conference, Hu, Chinese President at the time, said the Kyoto Protocol, the 1997 United Nations-sponsored effort that sets targets for industrialized nations to cut greenhouse gas emissions, should "remain the main channel for international efforts to tackle climate change."
+Expected:	CLASS:jobTitle	TERM:president;12	CLASS:nationality	TERM:chinese;11
+Actual:		CLASS:jobTitle	TERM:president;12	CLASS:nationality	TERM:chinese;11	
+
+Sentence:	Chinese President Hu, who was speaking with Bush at a news conference, said the Kyoto Protocol, the 1997 United Nations-sponsored effort that sets targets for industrialized nations to cut greenhouse gas emissions, should "remain the main channel for international efforts to tackle climate change."
+Expected:	CLASS:jobTitle	TERM:president;2	CLASS:nationality	TERM:chinese;1
+Actual:		CLASS:jobTitle	TERM:president;2	CLASS:nationality	TERM:chinese;1	
+
+Sentence:	Speaking with Bush at a news conference, recently elected Chinese President Hu said the Kyoto Protocol, the 1997 United Nations-sponsored effort that sets targets for industrialized nations to cut greenhouse gas emissions, should "remain the main channel for international efforts to tackle climate change."
+Expected:	CLASS:jobTitle	TERM:president;12	CLASS:nationality	TERM:chinese;11
+Actual:		CLASS:jobTitle	TERM:president;12	CLASS:nationality	TERM:chinese;11	
+
+Sentence:	Speaking with Bush at a news conference, Hu, the Chinese President, who was recently elected, said the Kyoto Protocol, the 1997 United Nations-sponsored effort that sets targets for industrialized nations to cut greenhouse gas emissions, should "remain the main channel for international efforts to tackle climate change."
+Expected:	CLASS:jobTitle	TERM:president;13	CLASS:nationality	TERM:chinese;12
+Actual:		CLASS:jobTitle	TERM:president;13	CLASS:nationality	TERM:chinese;12	
+
+Sentence:	Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of Daniel Peterson, a West Indian immigrant, and the former Olivia John, whom Daniel had met in Montreal.
+Expected:	CLASS:nationality	TERM:west indian;30
+Actual:		CLASS:nationality	TERM:west indian;31;Incorrect	
+
+Sentence:	Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of West Indian immigrant Daniel Peterson, and the former Olivia John, whom Daniel had met in Montreal.
+Expected:	CLASS:nationality	TERM:west indian;27
+Actual:		CLASS:nationality	TERM:west indian;27	
+
+Sentence:	Oscar Emmanuel Peterson was one of five children of Daniel Peterson, a West Indian immigrant from the 1890s, and the former Olivia John, whom Daniel had met in Montreal.
+Expected:	CLASS:nationality	TERM:west indian;15
+Actual:		CLASS:nationality	TERM:west indian;15	
+
+Sentence:	Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of Daniel Peterson, a newly immigrated West Indian immigrant, and the former Olivia John, whom Daniel had met in Montreal.
+Expected:	CLASS:nationality	TERM:west indian;33
+Actual:		CLASS:nationality	TERM:west indian;33	
+
+Sentence:	Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of Daniel Peterson, a West Indian immigrant who recently immigrated, and the former Olivia John, whom Daniel had met in Montreal.
+Expected:	CLASS:nationality	TERM:west indian;31
+Actual:		CLASS:nationality	TERM:west indian;31	
+
+Sentence:	Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of Daniel Peterson (a West Indian immigrant) and the former Olivia John, whom Daniel had met in Montreal.
+Expected:	CLASS:nationality	TERM:west indian;31
+Actual:		CLASS:nationality	TERM:west indian;31	
+
+Sentence:	Daniel Peterson worked as a sleeping car porter on the Canadian Pacific Railway and had taught himself how to play the organ before he landed in Halifax, Nova Scotia, in 1917. Peterson's mother, who also had roots in the Caribbean, encouraged Oscar to study music.
+Expected:	CLASS:nationality	TERM:canadian;11	CLASS:nationality	TERM:caribbean;45
+Actual:		CLASS:nationality	TERM:canadian;11;Incorrect	TERM:caribbean;45	
+
+Sentence:	Daniel Peterson worked on the Canadian Pacific Railway as a sleeping car porter and had taught himself how to play the organ before he landed in Halifax, Nova Scotia, in 1917. Peterson's mother, who also grew up with Caribbean roots, encouraged Oscar to study music.
+Expected:	CLASS:nationality	TERM:canadian;6	CLASS:nationality	TERM:caribbean;44
+Actual:		CLASS:nationality	TERM:canadian;6;Incorrect	TERM:caribbean;44	
+
+Sentence:	Daniel Peterson, a sleeping car porter on the Canadian Pacific Railway, had taught himself how to play the organ before he landed in Halifax, Nova Scotia, in 1917. Peterson's mother, who also grew up with Caribbean roots, encouraged Oscar to study music.
+Expected:	CLASS:nationality	TERM:canadian;10	CLASS:nationality	TERM:caribbean;43
+Actual:		CLASS:nationality	TERM:canadian;10;Incorrect	TERM:caribbean;43	
+
+Sentence:	Daniel Peterson worked as a sleeping car porter on the Canadian Pacific Railway and had taught himself how to play the organ before he landed in Halifax, Nova Scotia, in 1917. Peterson's Caribbean mother, encouraged Oscar to study music.
+Expected:	CLASS:nationality	TERM:canadian;11	CLASS:nationality	TERM:caribbean;37
+Actual:		CLASS:nationality	TERM:canadian;11;Incorrect	TERM:caribbean;37	
+
+Sentence:	Daniel Peterson worked as a sleeping car porter on the Canadian Pacific Railway and had taught himself how to play the organ before he landed in Halifax, Nova Scotia, in 1917. Peterson's mother (who also had roots in the Caribbean) encouraged Oscar to study music.
+Expected:	CLASS:nationality	TERM:canadian;11	CLASS:nationality	TERM:caribbean;45
+Actual:		CLASS:nationality	TERM:canadian;11;Incorrect	TERM:caribbean;45	
+
+Sentence:	Daniel Peterson worked as a sleeping car porter on the Canadian Pacific Railway and had taught himself how to play the organ before he landed in Halifax, Nova Scotia, in 1917. Peterson's Caribbean rooted mother encouraged Oscar to study music.
+Expected:	CLASS:nationality	TERM:canadian;11	CLASS:nationality	TERM:caribbean;37
+Actual:		CLASS:nationality	TERM:canadian;11;Incorrect	TERM:caribbean;37	
+
+Sentence:	The rest of the movie is pretty much mayhem, with the Spartan soldiers fighting off all the troops (plus a few creatures that seem to have wandered in from Middle-earth) under the command of Persian Emperor Xerxes (Brazil's Rodrigo Santoro, from TV's "Lost").
+Expected:	CLASS:nationality 	TERM:persian;38
+Actual:		CLASS:nationality	TERM:persian;38	
+
+Sentence:	The rest of the movie is pretty much mayhem, with the Spartan soldiers fighting off all the troops (plus a few creatures that seem to have wandered in from Middle-earth) under the command of Xerxes, a Persian Emperor (Brazil's Rodrigo Santoro, from TV's "Lost").
+Expected:	CLASS:nationality 	TERM:persian;41
+Actual:		CLASS:nationality	TERM:persian;41	
+
+Sentence:	The rest of the movie is pretty much mayhem, with the Spartan soldiers fighting off all the troops (plus a few creatures that seem to have wandered in from Middle-earth) under the command of Xerxes, a fictional Persian Emperor (Brazil's Rodrigo Santoro, from TV's "Lost").
+Expected:	CLASS:nationality 	TERM:persian;42
+Actual:		CLASS:nationality	TERM:persian;42	
+
+Sentence:	The rest of the movie is pretty much mayhem, with the Spartan soldiers fighting off all the troops (plus a few creatures that seem to have wandered in from Middle-earth) under the command of Xerxes, a Persian Emperor who is fictional (Brazil's Rodrigo Santoro, from TV's "Lost").
+Expected:	CLASS:nationality 	TERM:persian;41
+Actual:		CLASS:nationality	TERM:persian;41	
+
+Sentence:	The rest of the movie is pretty much mayhem, with the Spartan soldiers fighting off all the troops (plus a few creatures that seem to have wandered in from Middle-earth) under the command of Xerxes, the recently crowned Persian Emperor (Brazil's Rodrigo Santoro, from TV's "Lost").
+Expected:	CLASS:nationality 	TERM:persian;43
+Actual:		CLASS:nationality	TERM:persian;43	
+
+Sentence:	The rest of the movie is pretty much mayhem, with the Spartan soldiers fighting off all the troops (plus a few creatures that seem to have wandered in from Middle-earth) under the command of Xerxes, a Persian Emperor, who was recently crowned (Brazil's Rodrigo Santoro, from TV's "Lost").
+Expected:	CLASS:nationality 	TERM:persian;41
+Actual:		CLASS:nationality	TERM:persian;41	
+
+Sentence:	Up close, interior marble surfaces still glow with flowers made of inlaid precious stones, while the lovely giant squiggles of stylized Persian calligraphy on the outside walls put the letters of our dowdy Roman alphabet to shame.
+Expected:	CLASS:nationality	TERM:persian;24
+Actual:		CLASS:nationality	TERM:persian;24	
+
+Sentence:	Up close, interior marble surfaces still glow with flowers made of inlaid precious stones, while the lovely giant squiggles of Persian stylized calligraphy, on the outside walls put the letters of our dowdy Roman alphabet to shame.
+Expected:	CLASS:nationality	TERM:persian;23
+Actual:		CLASS:nationality	TERM:persian;23	
+
+Sentence:	Up close, interior marble surfaces still glow with flowers made of inlaid precious stones, while the lovely giant squiggles of stylized calligraphy (Persian) on the outside walls put the letters of our dowdy Roman alphabet to shame.
+Expected:	CLASS:nationality	TERM:persian;26
+Actual:		CLASS:nationality	TERM:persian;26	
+
+Sentence:	Up close, interior marble surfaces still glow with flowers made of inlaid precious stones, while the lovely giant squiggles of stylized calligraphy, Persian, on the outside walls put the letters of our dowdy Roman alphabet to shame.
+Expected:	CLASS:nationality	TERM:persian;26
+Actual:		CLASS:nationality	TERM:persian;26	
+
+Sentence:	Up close, interior marble surfaces still glow with flowers made of inlaid precious stones, while the lovely giant squiggles of stylized calligraphy, of the Persian style, on the outside walls put the letters of our dowdy Roman alphabet to shame.
+Expected:	CLASS:nationality	TERM:persian;28
+Actual:		CLASS:nationality	TERM:persian;28	
+
+Sentence:	Up close, interior marble surfaces still glow with flowers made of inlaid precious stones, while the lovely giant squiggles of stylized calligraphy, which was recently identified as Persian, on the outside walls put the letters of our dowdy Roman alphabet to shame.
+Expected:	CLASS:nationality	TERM:persian;31
+Actual:		CLASS:nationality	TERM:persian;31	
+
+Sentence:	An Army division commander during the 1990-91 Persian Gulf War, he told the Billings Gazette in Montana in January that President Bush's decision to increase US forces in Baghdad "is too late."
+Expected:	CLASS:jobTitle	TERM:president;22	CLASS:nationality	TERM:persian;8
+Actual:		CLASS:jobTitle	TERM:president;22	CLASS:nationality	TERM:persian;8	
+
+Sentence:	During the 1990-91 Persian Gulf War, an Army division commander told the Billings Gazette in Montana in January that the decision President Bush made to increase US forces in Baghdad "is too late."
+Expected:	CLASS:jobTitle	TERM:president;23	CLASS:nationality	TERM:persian;4
+Actual:		CLASS:jobTitle	TERM:president;23	CLASS:nationality	TERM:persian;4	
+
+Sentence:	An Army division commander during the 1990-91 Persian Gulf War, he told the Billings Gazette in Montana in January that former President Bush's decision to increase US forces in Baghdad "was too late."
+Expected:	CLASS:jobTitle	TERM:president;23	CLASS:nationality	TERM:persian;8
+Actual:		CLASS:jobTitle	TERM:president;23	CLASS:nationality	TERM:persian;8	
+
+Sentence:	President Bush's decision to increase US forces in Baghdad "is too late," an Army divison commander during the 1990-91 Persian Gulf War told the Billings Gazette in Montana in January.
+Expected:	CLASS:jobTitle	TERM:president;1	CLASS:nationality	TERM:persian;23
+Actual:		CLASS:jobTitle	TERM:president;1	CLASS:nationality	TERM:persian;23	
+
+Sentence:	An Army division commander during the 1990-91 Persian Gulf War, he told the Billings Gazette in Montana in January that the decision made by Bush, President, to increase US forces in Baghdad "is too late."
+Expected:	CLASS:jobTitle	TERM:president;28	CLASS:nationality	TERM:persian;8
+Actual:		CLASS:jobTitle	TERM:president;28	CLASS:nationality	TERM:persian;8	
+
+Sentence:	An Army division commander during the 1990-91 Persian Gulf War, he told the Billings Gazette in Montana in January that the decision made by Bush (President) to increase US forces in Baghdad "is too late."
+Expected:	CLASS:jobTitle	TERM:president;28	CLASS:nationality	TERM:persian;8
+Actual:		CLASS:jobTitle	TERM:president;28	CLASS:nationality	TERM:persian;8	
+
+Sentence:	"I don't want to lead someone astray," he says as he contemplates for the first time in his life voting for a Mormon -- Mitt Romney -- for president.
+Expected:	CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:president;33
+Actual:		CLASS:jobTitle	TERM:president;33	CLASS:religion	TERM:mormon;27	
+
+Sentence:	"I don't want to lead someone astray," he says as he contemplates for the first time in his life voting for a Mormon, Mitt Romney, for president.
+Expected:	CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:president;33
+Actual:		CLASS:jobTitle	TERM:president;33	CLASS:religion	TERM:mormon;27	
+
+Sentence:	As he contemplates for the first time in his life voting for Mitt Romney, a Mormon, for president, he says, "I don't want to lead someone astray."
+Expected:	CLASS:religion	TERM:mormon;17	CLASS:jobTitle	TERM:president;20
+Actual:		CLASS:jobTitle	TERM:president;20	CLASS:religion	TERM:mormon;17	
+
+Sentence:	"I don't want to lead someone astray," he says as he contemplates for the first time in his life voting for Mormon Mitt Romney for president.
+Expected:	CLASS:religion	TERM:mormon;26	CLASS:jobTitle	TERM:president;30
+Actual:		CLASS:jobTitle	TERM:president;30	CLASS:religion	TERM:mormon;26	
+
+Sentence:	"I don't want to lead someone astray," he says as he contemplates for the first time in his life voting for Mitt Romney, a Mormon candidate for president.
+Expected:	CLASS:religion	TERM:mormon;31	CLASS:jobTitle	TERM:president;33
+Actual:		CLASS:jobTitle	TERM:president;33	CLASS:religion	TERM:mormon;30;Incorrect	
+
+Sentence:	"I don't want to lead someone astray," he says as he contemplates for the first time in his life voting for the Mormon Mitt Romney who is running for president.
+Expected:	CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:president;34
+Actual:		CLASS:jobTitle	TERM:president;34	CLASS:religion	TERM:mormon;27	
+
+Sentence:	And it highlights how far the party has come since the 2004 presidential election in its efforts to appeal to religious voters, and the openings Democrats see if the Republicans end up nominating a candidate who supports abortion rights and gay rights (Rudolph W. Giuliani) or one who would be the first Mormon president (Mitt Romney).
+Expected:	CLASS:religion	TERM:mormon;56	CLASS:jobTitle	TERM:president;57
+Actual:		CLASS:jobTitle	TERM:president;57	CLASS:religion	TERM:mormon;56	
+
+Sentence:	And it highlights how far the party has come since the 2004 presidential election in its efforts to appeal to religious voters, and the openings Democrats see if the Republicans end up nominating Rudolph W. Giuliani, a candidate who supports abortion rights and gay rights, or Mitt Romney, who would be the first Mormon president.
+Expected:	CLASS:religion	TERM:mormon;58	CLASS:jobTitle	TERM:president;59
+Actual:		CLASS:jobTitle	TERM:president;59	CLASS:religion	TERM:mormon;58	
+
+Sentence:	And it highlights how far the party has come since the 2004 presidential election in its efforts to appeal to religious voters, and the openings Democrats see if the Republicans end up nominating a candidate who supports abortion rights and gay rights (Rudolph W. Giuliani) or Mormon Mitt Romney, would be first president of his religion.
+Expected:	CLASS:religion	TERM:mormon;50	CLASS:jobTitle	TERM:president;57
+Actual:		CLASS:jobTitle	TERM:president;57	CLASS:religion	TERM:mormon;50	
+
+Sentence:	Would be first Mormon president Mitt Romney and Rudolph W. Giulani, who supports abortion right and gay rights, are up for nomination by the Republicans and highlights how far the party has come since the 2004 presidential election in its efforts to appeal to religious voters.
+Expected:	CLASS:religion	TERM:mormon;4	CLASS:jobTitle	TERM:president;5
+Actual:		CLASS:jobTitle	TERM:president;5	CLASS:religion	TERM:mormon;4	
+
+Sentence:	And it highlights how far the party has come since the 2004 presidential election in its efforts to appeal to religious voters, and the openings Democrats see if the Republicans end up nominating a candidate who supports abortion rights and gay rights (Rudolph W. Giuliani) or who would be the first Mormon president, Mitt Romney.
+Expected:	CLASS:religion	TERM:mormon;55	CLASS:jobTitle	TERM:president;56
+Actual:		CLASS:jobTitle	TERM:president;56	CLASS:religion	TERM:mormon;55	
+
+Sentence:	And it highlights how far the party has come since the 2004 presidential election in its efforts to appeal to religious voters, and the openings Democrats see if the Republicans end up nominating a candidate who supports abortion rights and gay rights (Rudolph W. Giuliani) or possibly the first Mormon president, Mitt Romney.
+Expected:	CLASS:religion	TERM:mormon;53	CLASS:jobTitle	TERM:president;54
+Actual:		CLASS:jobTitle	TERM:president;54	CLASS:religion	TERM:mormon;53	
+
+Sentence:	Instead of being solicited by beggars, Geyer found himself the recipient of gifts: fruit, and dye to smear on his hands and face, as people celebrated the Hindu festival of Holi.
+Expected:	CLASS:religion	TERM:hindu;32
+Actual:		CLASS:religion	TERM:hindu;32	
+
+Sentence:	Instead of being solicited by beggars, Geyer found himself the recipient of gifts: fruit, and dye to smear on his hands and face, as people celebrated the festival of Holi, a Hindu tradition.
+Expected:	CLASS:religion	TERM:hindu;37
+Actual:		CLASS:religion	TERM:hindu;37	
+
+Sentence:	Instead of being solicited by beggars, Geyer found himself the recipient of gifts: fruit, and dye to smear on his hands and face, as people celebrated Holi, a Hindu festival.
+Expected:	CLASS:religion	TERM:hindu;34
+Actual:		CLASS:religion	TERM:hindu;34	
+
+Sentence:	During the Hindu festival, Holi, Geyer found himself the recipient of gift: fruit, and dye to smear on his hands and face, instead of being solicited by beggars.
+Expected:	CLASS:religion	TERM:hindu;3
+Actual:		CLASS:religion	TERM:hindu;3	
+
+Sentence:	Instead of being solicited by beggars, Geyer found himself the recipient of gifts: fruit, and dye to smear on his hands and face, as people celebrated Holi, the spring festival of colors, an ancient Hindu tradition.
+Expected:	CLASS:religion	TERM:hindu;42
+Actual:		CLASS:religion	TERM:hindu;41;Incorrect	
+
+Sentence:	Instead of being solicited by beggars, Geyer found himself the recipient of gifts: fruit, and dye to smear on his hands and face, as people celebrated the Hindu festival of color, Holi.
+Expected:	CLASS:religion	TERM:hindu;32
+Actual:		CLASS:religion	TERM:hindu;32	
+
+Sentence:	Both Warduni and a Christian community leader, Iyad al-Ashouri, accused the Iraqi government, notably the Ministry of Defense, of belittling the extent of the crisis in Mosul.
+Expected:	CLASS:religion	TERM:christian;5	CLASS:jobTitle	TERM:leader;7	CLASS:nationality	TERM:iraqi;14
+Actual:		CLASS:jobTitle	TERM:leader;7	CLASS:nationality	TERM:iraqi;14	CLASS:religion	TERM:christian;5	
+
+Sentence:	Both Warduni and Christian community leader Iyad al-Ashouri accused the Iraqi Ministry of Defense, of belittling the extent of the crisis in Mosul.
+Expected:	CLASS:religion	TERM:christian;4	CLASS:jobTitle	TERM:leader;6	CLASS:nationality	TERM:iraqi;11
+Actual:		CLASS:jobTitle	TERM:leader;6	CLASS:nationality	TERM:iraqi;11	CLASS:religion	TERM:christian;4	
+
+Sentence:	Both Warduni and a Christian community leader, Iyad al-Ashouri, accused the Iraqi government, notably the Ministry of Defense, of belittling the extent of the crisis in Mosul.
+Expected:	CLASS:religion	TERM:christian;5	CLASS:jobTitle	TERM:leader;7	CLASS:nationality	TERM:iraqi;14
+Actual:		CLASS:jobTitle	TERM:leader;7	CLASS:nationality	TERM:iraqi;14	CLASS:religion	TERM:christian;5	
+
+Sentence:	The Iraqi government, notably the Ministry of Defense, was accused of belittling the extent of the crisis in Mosul by Warduni and Iyad al-Ashouri, a Christian community leader.
+Expected:	CLASS:religion	TERM:christian;29	CLASS:jobTitle	TERM:leader;31	CLASS:nationality	TERM:iraqi;2
+Actual:		CLASS:jobTitle	TERM:leader;31	CLASS:nationality	TERM:iraqi;2	CLASS:religion	TERM:christian;29	
+
+Sentence:	The Iraqi government, notably the Ministry of Defense, was accused of belittling the extent of the crisis in Mosul by Warduni and Iyad al-Ashouri, a Christian and a community leader.
+Expected:	CLASS:religion	TERM:christian;29	CLASS:jobTitle	TERM:leader;33	CLASS:nationality	TERM:iraqi;2
+Actual:		CLASS:jobTitle	TERM:leader;33	CLASS:nationality	TERM:iraqi;2	CLASS:religion	TERM:christian;29	
+
+Sentence:	Both Warduni and Iyad al-Ashouri, the district's long-standing Christian community leader, accused notably the Ministry of Defense of the Iraqi government, of belittling the extent of the crisis in Mosul.
+Expected:	CLASS:religion	TERM:christian;11	CLASS:jobTitle	TERM:leader;13	CLASS:nationality	TERM:iraqi;23
+Actual:		CLASS:jobTitle	TERM:leader;13	CLASS:nationality	TERM:iraqi;23	CLASS:religion	TERM:christian;11	
+
+Sentence:	He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University, a Christian institution whose idyllic campus now is the site of Peking University.
+Expected:	CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33
+Actual:		CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33	
+
+Sentence:	He founded and served as president of Yenching University, a Christian institution whose idyllic campus now is the site of Peking University in 1919 by raising money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines.
+Expected:	CLASS:jobTitle	TERM:president;6	CLASS:religion	TERM:christian;12
+Actual:		CLASS:jobTitle	TERM:president;6	CLASS:religion	TERM:christian;12	
+
+Sentence:	He was the Christian institution Yenching University president; the institution's idyllic campus now is the site of Peking University.
+Expected:	CLASS:jobTitle	TERM:president;8	CLASS:religion	TERM:christian;4
+Actual:		CLASS:jobTitle	TERM:president;8	CLASS:religion	TERM:christian;4	
+
+Sentence:	He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University, the country's most prominent Christian institution whose idyllic campus now is the site of Peking University.
+Expected:	CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;37
+Actual:		CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;37	
+
+Sentence:	He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University (a Christian institution) whose idyllic campus now is the site of Peking University.
+Expected:	CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33
+Actual:		CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33	
+
+Sentence:	He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University, whose idyllic campus now is the site of Peking University, a Christian institution.
+Expected:	CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;44
+Actual:		CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;44	
+
+Sentence:	"A change of borders today is not threatening God's sovereignty or God's promises," said Susan Michael, the U.S. director of the International Christian Embassy Jerusalem.
+Expected:	CLASS:nationality	TERM:u.s.;24	CLASS:religion	TERM:christian;29
+Actual:		CLASS:nationality	TERM:u.s.;24	CLASS:religion	TERM:christian;29	
+
+Sentence:	"A change of borders today is not threatening God's sovereignty or God's promises," said U.S. director Susan Michael, of the International Christian Embassy Jerusalem.
+Expected:	CLASS:nationality	TERM:u.s.;20	CLASS:religion	TERM:christian;28
+Actual:		CLASS:nationality	TERM:u.s.;20	CLASS:religion	TERM:christian;28	
+
+Sentence:	The U.S. director of the International Christian Embassy Jerusalem Susan Michael said, "a change of borders today is not threatening God's sovereignty or God's promises."
+Expected:	CLASS:nationality	TERM:u.s.;2	CLASS:religion	TERM:christian;7
+Actual:		CLASS:nationality	TERM:u.s.;2	CLASS:religion	TERM:christian;7	
+
+Sentence:	"A change of borders today is not threatening God's sovereignty or God's promises," said Susan Michael, the International Christian Embassy Jerusalem's U.S. Director.
+Expected:	CLASS:nationality	TERM:u.s.;29	CLASS:religion	TERM:christian;25
+Actual:		CLASS:nationality	TERM:u.s.;29	CLASS:religion	TERM:christian;25	
+
+Sentence:	"A change of borders today is not threatening God's sovereignty or God's promises," said Susan Michael (U.S. director of the International Christian Embassy Jerusalem).
+Expected:	CLASS:nationality	TERM:u.s.;23	CLASS:religion	TERM:christian;28
+Actual:		CLASS:nationality	TERM:u.s.;23	CLASS:religion	TERM:christian;28	
+
+Sentence:	"A change of borders today is not threatening God's sovereignty or God's promises," said Susan Michael, the recently appointed U.S. director of the International Christian Embassy Jerusalem.
+Expected:	CLASS:nationality	TERM:u.s.;26	CLASS:religion	TERM:christian;31
+Actual:		CLASS:nationality	TERM:u.s.;26	CLASS:religion	TERM:christian;31	
+
+
+Total Results
+Correct: 149	Incorrect: 14	Missing: 0
+Precision: 0.914	Recall: 1.000
+
