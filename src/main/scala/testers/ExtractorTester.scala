@@ -17,7 +17,7 @@ object ExtractorTester {
   // TODO: change the solution struct
   type ExtractorSolution = (mutable.Map[String, mutable.Set[Tags]], String)
 
-  val tagger = ModularTaggerTester.tagger
+  val tagger = TaggerTester.tagger
   val extractor = new NounToNounRelationExtractor(tagger)
 
   // Configuratons.
