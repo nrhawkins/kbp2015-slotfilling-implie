@@ -31,7 +31,6 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   type TagName = String
   case class TagInfo(tag: String, text: String)
   case class NounToNounTD(td: TypedDependency, tag: NounToNounRelation)
-  case class IndexedString(string: String, index: Int)
 
   def process(text: String): sentence.Sentence with Chunked with Lemmatized = {
     new sentence.Sentence(text) with Chunker with Lemmatizer {
@@ -54,11 +53,11 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     val gs: GrammaticalStructure = gsf.newGrammaticalStructure(parse)
     val tdl: List[TypedDependency] = gs.typedDependenciesCCprocessed.toList
 
-    println("Tags")
-    for (tag <- tags) {
-      println(s"${tag.name}, ${tag.text}, ${tag.tokenInterval}, ${tag.source}")
-    }
-    println()
+//    println("Tags")
+//    for (tag <- tags) {
+//      println(s"${tag.name}, ${tag.text}, ${tag.tokenInterval}, ${tag.source}")
+//    }
+//    println()
 
     /*
     .gov()  [govenor: modified word]
@@ -78,14 +77,14 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
 
     val processedTdl = processDependencies(tags, tdl)
 
-    printTdl(processedTdl, "Processed Tdls")
+//    printTdl(processedTdl, "Processed Tdls")
 
     parse.indexLeaves()
 
     val results = getNounToNounRelations(parse, processedTdl, tokens, line)
     results.foreach(nnr => nnr.sentence = line)
 
-    printNounToNounRelations(results)
+//    printNounToNounRelations(results)
     results
   }
 
@@ -99,10 +98,12 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
 
   private def getNounToNounRelations(parseTree: Tree, tdl: List[TypedDependency], tokens: Seq[ChunkedToken], sentence: String): List[NounToNounRelation] = {
     tdl.map(td =>
-      new NounToNounRelation(td.dep().value(), td.dep.tag(), getNounPhrase(parseTree, td, tokens, sentence)))
+      new NounToNounRelation(
+        new IndexedString(td.dep().value(), td.dep().index()), td.dep.tag(),
+        getNounPhrase(parseTree, td, tokens, sentence)))
   }
 
-  private def getNounPhrase(tree: Tree, td: TypedDependency, tokenizedSentence: Seq[ChunkedToken], sentence: String): String = {
+  private def getNounPhrase(tree: Tree, td: TypedDependency, tokenizedSentence: Seq[ChunkedToken], sentence: String): IndexedString = {
     // Assume that the full tag noun phrase is a child of the noun phrase
     // containing the dep and gov.
     // If incorrect - TO-DO: expand dep to the full phrase.
@@ -135,7 +136,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
       labels.filter(l => l.contains("-"))
             .map(l => {
               val (string, negIndex) = l.splitAt(l.lastIndexOf('-'))
-              IndexedString(string, 0 - negIndex.toInt)
+              new IndexedString(string, 0 - negIndex.toInt)
             })
     }
 
@@ -148,7 +149,9 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     val firstChunk = tokenizedSentence(phraseTokens(0).index - 1)
     val lastChunk = tokenizedSentence(phraseTokens(phraseTokens.size - 1).index - 1)
 
-    sentence.substring(firstChunk.offset, lastChunk.offset + lastChunk.string.length)
+    new IndexedString(
+      sentence.substring(firstChunk.offset, lastChunk.offset + lastChunk.string.length),
+      phraseTokens(phraseTokens.size - 1).index)
   }
 
   private def printLabels(tree: Tree) {
@@ -195,7 +198,10 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   private def tagTypedDeps(tagMap: Map[Int, TagInfo], tdl: List[TypedDependency]): List[NounToNounTD] = {
     tdl.map(td => {
         tagMap.get(td.dep().index) match {
-          case Some(tag: TagInfo) => NounToNounTD(td, new NounToNounRelation(tag.text, tag.tag, ""))
+          case Some(tag: TagInfo) => NounToNounTD(td,
+            new NounToNounRelation(
+              new IndexedString(tag.text, -1), tag.tag,
+              new IndexedString("", -1)))
           case _ => NounToNounTD(null, null)
         }
       }
