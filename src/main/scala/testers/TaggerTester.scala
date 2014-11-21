@@ -67,6 +67,19 @@ object TaggerTester {
     println(Source.fromFile(OUTPUT_FILE).mkString)
   }
 
+  def taggerConfig(): String = {
+    val out = StringBuilder.newBuilder
+    out.append(s"Tagger: $TAGGER_TYPE\n")
+    out.append(s"Class-term File Directory: $CLASS_DIR\n")
+    out.append(s"Class term files:\n")
+    for (clas <- CLASSES) {
+      out.append(s"\tClass name: ${clas.name}\tFiles: ")
+      clas.files.foreach(f => out.append(s"$f\t"))
+      out.append("\n")
+    }
+    out.mkString
+  }
+
   private def getTagger: TaggerCollection[Sentence with Chunked with Lemmatized] = {
     /**
      * Builds string with the definitions of class term relation for tagger.
@@ -198,6 +211,21 @@ object TaggerTester {
       }
       out.append("\n")
     }
+    counter.missed += solMap.count(p => p._2.size > 0)
+    for (sol <- solMap) {
+      val clas = sol._1
+      val tags = sol._2
+      out.append(s"MISSED\tCLASS:$clas")
+      for (tag <- tags) {
+        val hd = tag.seq.head
+        out.append(s"\tTERM:${hd._1};${hd._2}")
+        for (item <- tag.seq.tail) {
+          out.append(s"|${item._1};${item._2}")
+        }
+      }
+      out.append("\n")
+    }
+
     (counter, out.mkString)
   }
 
@@ -208,21 +236,14 @@ object TaggerTester {
     val out = StringBuilder.newBuilder
     out.append(s"DateTime: ${datetime.toString}\n\n")
     out.append("Configurations\n")
-    out.append(s"Tagger: $TAGGER_TYPE\n")
     out.append(s"Input File: $INPUT_FILE\n")
     out.append(s"Solution File: $SOLUTION_FILE\n")
     out.append(s"Output File: $OUTPUT_FILE\n")
-    out.append(s"Class-term File Directory: $CLASS_DIR\n")
-    out.append(s"Class term files:\n")
-    for (clas <- CLASSES) {
-      out.append(s"\tClass name: ${clas.name}\tFiles: ")
-      clas.files.foreach(f => out.append(s"$f\t"))
-      out.append("\n")
-    }
+    out.append(taggerConfig)
     out.append("\n")
     out.mkString
   }
-  
+
   def getClasses: List[Class] = {
     val classes: List[Config] = config.getConfigList("classes").toList
     classes.map(c => Class(c.getString("name"), c.getStringList("files").toList))
