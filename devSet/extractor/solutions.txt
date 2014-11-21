@@ -1,5 +1,5 @@
 CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson, an astrophysicist;21	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28
-CLASS:jobTitle	TERM:executive deputy chief;6	NP:John Arterberry, executive deputy chief;6|John Arterberry, executive deputy chief of the fraud section in the Justice Department:14
+CLASS:jobTitle	TERM:executive deputy chief;6	NP:John Arterberry, executive deputy chief;6|John Arterberry, executive deputy chief of the fraud section in the Justice Department;14
 CLASS:jobTitle	TERM:critic;23	NP:critic Andre Bazin;25|French critic Andre Bazin;25	CLASS:nationality	TERM:french;22	NP:French critic Andre Bazin;25
 CLASS:jobTitle	TERM:music teacher;25	NP:Petra Koepke-Eberler, 48, a music teacher here;25
 CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7
@@ -11,7 +11,7 @@ CLASS:nationality	TERM:persian;24	NP:Persian calligraphy;25|Persian calligraphy 
 CLASS:jobTitle	TERM:president;22	NP:President Bush;23	CLASS:nationality	TERM:persian;8	NP:Persian Gulf War;10
 CLASS:religion	TERM:mormon;27	NP:a Mormon -- Mitt Romney;30
 CLASS:religion	TERM:mormon;56	NP:Mormon president;57|the first Mormon president;57|Mormon president (Mitt Romney);61|the first Mormon president (Mitt Romney);61
-CLASS:religion	TERM:hindu:32	NP:the Hindu festival of Holi;35
-CLASS:religion	TERM:christian;5	NP:Christian community leader;7|Christian community leader, Iyal al-Ashouri	CLASS:jobTitle	TERM:leader;7	NP:community leader, Iyal al-Ashouri;10|Christian community leader;7|Christian community leader, Iyal al-Ashouri	CLASS:nationality	TERM:iraqi;14	NP:the Iraqi government;15
+CLASS:religion	TERM:hindu;32	NP:the Hindu festival of Holi;35
+CLASS:religion	TERM:christian;5	NP:Christian community leader;7|Christian community leader, Iyal al-Ashouri;10	CLASS:jobTitle	TERM:leader;7	NP:community leader, Iyal al-Ashouri;10|Christian community leader;7|Christian community leader, Iyal al-Ashouri;10	CLASS:nationality	TERM:iraqi;14	NP:the Iraqi government;15
 CLASS:religion	TERM:christian;33	NP:Christian institution;34|Yenching University, a Christian institution;34
 CLASS:nationality	TERM:u.s.;24	NP:Susan Michael, the U.S. director;25|Susan Michael, the U.S. director of the International Christian Embassey Jerusalem;31|the U.S. director;25|the U.S. director of the International Christian Embassey Jerusalem;31	CLASS:religion	TERM:christian;29	NP:the International Christian Embassy Jerusalem;31
