@@ -3,7 +3,7 @@ CLASS:jobTitle	TERM:executive deputy chief;6	NP:John Arterberry, executive deput
 CLASS:jobTitle	TERM:critic;23	NP:critic Andre Bazin;25|French critic Andre Bazin;25	CLASS:nationality	TERM:french;22	NP:French critic Andre Bazin;25
 CLASS:jobTitle	TERM:music teacher;25	NP:Petra Koepke-Eberler, 48, a music teacher here;25
 CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7
-CLASS:jobTitle	TERM:president;10	NP:President Hu;8|Chinese President Hu;8	CLASS:nationality	TERM:chinese;9	NP:Chinese President Hu;8
+CLASS:jobTitle	TERM:president;10	NP:President Hu;11|Chinese President Hu;11	CLASS:nationality	TERM:chinese;9	NP:Chinese President Hu;11
 CLASS:nationality	TERM:west indian;30	NP:West Indian immigrant;31|Daniel Peterson, a West Indian;30|Daniel Peterson, a West Indian immigrant;31
 CLASS:nationality	TERM:canadian;11	NP:Canadian Pacific Railway;13	TERM:caribbean;45	NP:Peterson's mother, who also had roots in the Caribbean;45
 CLASS:nationality 	TERM:persian;38	NP:Persian Emperor Xerxes;40	TERM:brazil;42	NP:Brazil's Rodrigo Santoro;45

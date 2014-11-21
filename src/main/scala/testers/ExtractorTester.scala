@@ -192,7 +192,7 @@ object ExtractorTester {
     out.append(s"Output File: $OUTPUT_FILE\n")
     out.append("\n")
 
-    out.append("Tagger Config")
+    out.append("Tagger Config\n")
     out.append(TaggerTester.taggerConfig())
 
     out.mkString
