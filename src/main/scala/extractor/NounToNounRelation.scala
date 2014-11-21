@@ -1,9 +1,13 @@
 package extractor
 
 /**
- * Created by Gene on 11/10/2014.
+ * TODO: complete
+ * tag = tagged phrase
+ * relation = class (nationality, jobTitle, etc)
+ * np = noun phrase
+ * sentence = original sentence
  */
-class NounToNounRelation(t: String, r: String, n: String, s: String = "") {
+class NounToNounRelation(t: IndexedString, r: String, n: IndexedString, s: String = "") {
   var tag = t
   var relation = r
   var np = n
