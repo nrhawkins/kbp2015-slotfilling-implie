@@ -222,7 +222,7 @@ object ModularTaggerTester {
     out.mkString
   }
   
-  private def getClasses: List[Class] = {
+  def getClasses: List[Class] = {
     val classes: List[Config] = config.getConfigList("classes").toList
     classes.map(c => Class(c.getString("name"), c.getStringList("files").toList))
   }

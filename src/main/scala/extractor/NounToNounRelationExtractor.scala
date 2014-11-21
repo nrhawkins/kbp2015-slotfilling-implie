@@ -16,6 +16,7 @@ import edu.stanford.nlp.trees._
 import scala.collection.JavaConversions._
 
 /**
+ * TODO: add comment
  * Created by Gene on 11/10/2014.
  */
 class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {

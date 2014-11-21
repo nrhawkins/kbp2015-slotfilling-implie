@@ -22,8 +22,8 @@ object ParserDemo {
    * TreePrint.printTree.
    */
   def main(args: Array[String]) {
-    val sentences = "devSet/tagger/paraphrased_sentences.txt"
-    val tokenFile = "devSet/tagger/paraphrased_tokenized.txt"
+    val sentences = "devSet/extractor/extended_sentences.txt"
+    val tokenFile = "devSet/extractor/extended_tokenized.txt"
     val lines = Source.fromFile(sentences).getLines()
     val out = new PrintWriter(tokenFile)
 //    val sent2: String = "Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of Daniel Peterson, a West Indian immigrant, and the former Olivia John, whom Daniel had met in Montreal."
