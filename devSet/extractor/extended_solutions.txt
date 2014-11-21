@@ -1,8 +1,8 @@
 CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson, an astrophysicist;21	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28
-CLASS:jobTitle	TERM:astrophysicist;21	NP: Neil deGrasse Tyson, the American Museum of Natural History's chief astrophysicist;28	CLASS:nationality	TERM:american;21	NP:American Museum of Natural History;25
+CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson, the American Museum of Natural History's chief astrophysicist;28	CLASS:nationality	TERM:american;21	NP:American Museum of Natural History;25
 CLASS:jobTitle	TERM:astrophysicist;16	NP:astrophysicist Neil deGrasse Tyson;19	CLASS:nationality	TERM:american;22	NP:American Museum of Natural History;26
-CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson, who was recently appointed as astrophysicist;25|Neil deGrasse Tyson, who was recently appointed as astrophysicist with the American Museum of Natural History;32	CLASS:nationality	TERM:american;28	NP:American Museum of Natural History;32
-CLASS:jobTitle	TERM:astrophysicist;18	NP:an astrophysicist, Neil deGrasse Tyson;21	CLASS:nationality	TERM:american;25	NP:American Museum of Natural History;29
+CLASS:jobTitle	TERM:astrophysicist;25	NP:Neil deGrasse Tyson, who was recently appointed as astrophysicist;25|Neil deGrasse Tyson, who was recently appointed as astrophysicist with the American Museum of Natural History;32	CLASS:nationality	TERM:american;28	NP:American Museum of Natural History;32
+CLASS:jobTitle	TERM:astrophysicist;17	NP:an astrophysicist, Neil deGrasse Tyson;21	CLASS:nationality	TERM:american;25	NP:American Museum of Natural History;29
 CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson (an astrophysicist with the American Museum of Natural History);29	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28
 CLASS:jobTitle	TERM:executive deputy chief;6	NP:John Arterberry, executive deputy chief;6|John Arterberry, executive deputy chief of the fraud section in the Justice Department;14
 CLASS:jobTitle	TERM:executive deputy chief;3	NP:John Arterberry;5|Executive deputy chief John Arterberry;5|Executive deputy chief John Arterberry of the fraud section in the Justice Department;13
@@ -21,7 +21,7 @@ CLASS:jobTitle	TERM:music teacher;19	NP:music teacher Petra Koepke-Eberlere;21
 CLASS:jobTitle	TERM:music teacher;21	NP:music teacher, Petra Koepke-Eberler;26|a local music teacher, Petra Koepke-Eberler;26
 CLASS:jobTitle	TERM:music teacher;26	NP:Petra Koepke-Eberler, 48, once a music teacher;26|Petra Koepke-Eberler, 48, once a music teacher here|27
 CLASS:jobTitle	TERM:music teacher;8	NP:Petra Koepke-Eberler, 48, a music teacher;8|Petra Koepke-Eberler, 48, a music teacher here;9
-CLASS:jobTitle	TERM:music teacher;26	NP:Petra Koepke-Eberler (a music teacher);7
+CLASS:jobTitle	TERM:music teacher;6	NP:Petra Koepke-Eberler (a music teacher);7
 CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7
 CLASS:jobTitle	TERM:classical singing teacher;3	NPClassical singing teacher Madame Violetta;5
 CLASS:jobTitle	TERM:classical singing teacher;10	NP:Madame Violetta, who recently became a classical singing teacher;10
@@ -34,11 +34,11 @@ CLASS:jobTitle	TERM:president;12	NP:Hu, Chinese President;12|Hu, Chinese Preside
 CLASS:jobTitle	TERM:president;2	NP:President Hu;3|Chinese President Hu;3	CLASS:nationality	TERM:chinese;1	NP:Chinese President Hu;3
 CLASS:jobTitle	TERM:president;12	NP:President Hu;13|Chinese President Hu;13|recently elected Chinese President Hu;13	CLASS:nationality	TERM:chinese;11	NP:Chinese President Hu;13|recently elected Chinese President Hu;13
 CLASS:jobTitle	TERM:president;13	NP:Hu, the Chinese President;13|Hu, the Chinese President, who was recently elected;18	CLASS:nationality	TERM:chinese;12	NP:Hu, the Chinese President;13|Hu, the Chinese President, who was recently elected;18
-CLASS:nationality	TERM:west indian;30	NP:West Indian immigrant;31|Daniel Peterson, a West Indian;30|Daniel Peterson, a West Indian immigrant;31
+CLASS:nationality	TERM:west indian;31	NP:West Indian immigrant;31|Daniel Peterson, a West Indian;30|Daniel Peterson, a West Indian immigrant;31
 CLASS:nationality	TERM:west indian;27	NP:West Indian immigrant Daniel Peterson;30
 CLASS:nationality	TERM:west indian;15	NP:Daniel Peterson, a West Indian immigrant from the 1890s;19|Daniel Peterson, a West Indian immigrant;16|Daniel Peterson, a West Indian;33
 CLASS:nationality	TERM:west indian;33	NP:Daniel Peterson, a newly immigrated West Indian immigrant;34|Daniel Peterson, a newly immigrated West Indian;33
-CLASS:nationality	TERM:west indian;31	NP: Daniel Peterson, a West Indian immigrant who recently immigrated;35| Daniel Peterson, a West Indian immigrant;32| Daniel Peterson, a West Indian;31
+CLASS:nationality	TERM:west indian;31	NP:Daniel Peterson, a West Indian immigrant who recently immigrated;35| Daniel Peterson, a West Indian immigrant;32| Daniel Peterson, a West Indian;31
 CLASS:nationality	TERM:west indian;31	NP:Daniel Peterson (a West Indian immigrant);33
 CLASS:nationality	TERM:canadian;11	NP:Canadian Pacific Railway;13	CLASS:nationality	TERM:caribbean;45	NP:Peterson's mother, who also had roots in the Caribbean;45
 CLASS:nationality	TERM:canadian;6	NP:Canadian Pacific Railway;8	CLASS:nationality	TERM:caribbean;44	NP:Peterson's mother, who also grew up with Caribbean roots;45
@@ -80,7 +80,7 @@ CLASS:religion	TERM:hindu;32	NP:the Hindu festival of Holi;35
 CLASS:religion	TERM:hindu;37	NP:the festival of Holi, a Hindu tradition;38
 CLASS:religion	TERM:hindu;34	NP:Holi, a Hindu festival;35
 CLASS:religion	TERM:hindu;3	NP:the Hindu festival, Holi;6
-CLASS:religion	TERM:hindu;42	NP:Holi, the spring festival of colors, an ancient Hindu tradition;43
+CLASS:religion	TERM:hindu;41	NP:Holi, the spring festival of colors, an ancient Hindu tradition;43
 CLASS:religion	TERM:hindu;32	NP:the Hindu festival of color, Holi;37
 CLASS:religion	TERM:christian;5	NP:a Christian community leader, Iyal al-Ashouri;10	CLASS:jobTitle	TERM:leader;7	NP:a Christian community leader, Iyal al-Ashouri;10	CLASS:nationality	TERM:iraqi;14	NP:the Iraqi government;15
 CLASS:religion	TERM:christian;4	NP:Christian community leader Iyal al-Ashouri;8	CLASS:jobTitle	TERM:leader;6	NP:Christian community leader Iyal al-Ashouri;8	CLASS:nationality	TERM:iraqi;11	NP:the Iraqi Ministry of Defense;14

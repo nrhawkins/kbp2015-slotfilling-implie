@@ -1,8 +1,8 @@
 CLASS:jobTitle	TERM:astrophysicist;21
-CLASS:jobTitle	TERM:astrophysicist;28
+CLASS:jobTitle	TERM:astrophysicist;28	CLASS:jobTitle	TERM:chief;27
 CLASS:jobTitle	TERM:astrophysicist;16
-CLASS:jobTitle	TERM:astrophysicist;21
-CLASS:jobTitle	TERM:astrophysicist;18
+CLASS:jobTitle	TERM:astrophysicist;25
+CLASS:jobTitle	TERM:astrophysicist;17
 CLASS:jobTitle	TERM:astrophysicist;21
 CLASS:jobTitle	TERM:executive deputy chief;6
 CLASS:jobTitle	TERM:executive deputy chief;3
@@ -21,7 +21,7 @@ CLASS:jobTitle	TERM:music teacher;19
 CLASS:jobTitle	TERM:music teacher;21
 CLASS:jobTitle	TERM:music teacher;26
 CLASS:jobTitle	TERM:music teacher;8
-CLASS:jobTitle	TERM:music teacher;26
+CLASS:jobTitle	TERM:music teacher;6
 CLASS:jobTitle	TERM:classical singing teacher;7
 CLASS:jobTitle	TERM:classical singing teacher;3
 CLASS:jobTitle	TERM:classical singing teacher;10
@@ -34,7 +34,7 @@ CLASS:jobTitle	TERM:president;12	CLASS:nationality	TERM:chinese;11
 CLASS:jobTitle	TERM:president;2	CLASS:nationality	TERM:chinese;1
 CLASS:jobTitle	TERM:president;12	CLASS:nationality	TERM:chinese;11
 CLASS:jobTitle	TERM:president;13	CLASS:nationality	TERM:chinese;12
-CLASS:nationality	TERM:west indian;30
+CLASS:nationality	TERM:west indian;31
 CLASS:nationality	TERM:west indian;27
 CLASS:nationality	TERM:west indian;15
 CLASS:nationality	TERM:west indian;33
@@ -68,7 +68,7 @@ CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:president;33
 CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:president;33
 CLASS:religion	TERM:mormon;17	CLASS:jobTitle	TERM:president;20
 CLASS:religion	TERM:mormon;26	CLASS:jobTitle	TERM:president;30
-CLASS:religion	TERM:mormon;31	CLASS:jobTitle	TERM:president;33
+CLASS:religion	TERM:mormon;30	CLASS:jobTitle	TERM:president;33
 CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:president;34
 CLASS:religion	TERM:mormon;56	CLASS:jobTitle	TERM:president;57
 CLASS:religion	TERM:mormon;58	CLASS:jobTitle	TERM:president;59
@@ -80,7 +80,7 @@ CLASS:religion	TERM:hindu;32
 CLASS:religion	TERM:hindu;37
 CLASS:religion	TERM:hindu;34
 CLASS:religion	TERM:hindu;3
-CLASS:religion	TERM:hindu;42
+CLASS:religion	TERM:hindu;41
 CLASS:religion	TERM:hindu;32
 CLASS:religion	TERM:christian;5	CLASS:jobTitle	TERM:leader;7	CLASS:nationality	TERM:iraqi;14
 CLASS:religion	TERM:christian;4	CLASS:jobTitle	TERM:leader;6	CLASS:nationality	TERM:iraqi;11
