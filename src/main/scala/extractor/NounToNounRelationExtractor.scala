@@ -2,6 +2,7 @@ package extractor
 
 import java.util
 
+import com.typesafe.config.ConfigFactory
 import edu.knowitall.repr.sentence
 import edu.knowitall.repr.sentence._
 import edu.knowitall.taggers.TaggerCollection
@@ -21,12 +22,13 @@ import scala.collection.mutable
  * Created by Gene on 11/10/2014.
  */
 class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
-  private val PARSER_MODEL = "models/englishPCFG.ser.gz"
+  val config = ConfigFactory.load("extractor.conf")
 
+  private val PARSER_MODEL = config.getString("parser-model-file")
   private val parser = LexicalizedParser.loadModel(PARSER_MODEL)
   private val lemmatizer = MorphaStemmer
 
-  private val nounRelations = Set("nn")
+  private val nounRelations = config.getStringList("noun-relations").toSet
   private val tagCache = mutable.Map[String, List[Type]]()
   private val parseCache = mutable.Map[String, (Tree, List[TypedDependency])]()
 
