@@ -3,6 +3,7 @@ package testers
 import java.io.PrintWriter
 
 import com.typesafe.config.ConfigFactory
+import edu.stanford.nlp.trees.TypedDependency
 import extractor.{IndexedString, NounToNounRelation, NounToNounRelationExtractor}
 import org.joda.time.DateTime
 
@@ -19,7 +20,6 @@ object ExtractorTester {
   type Tags = Set[(String, Int)]
   type NPs = Set[(String, Int)]
   case class SingleSolutionSets(tags: Tags, nps: NPs)
-  // TODO: change the solution struct
   type ExtractorSolution = (mutable.Map[String, mutable.Set[SingleSolutionSets]], String)
   type Comparison = (ExtractorResult, ExtractorSolution)
 
@@ -96,17 +96,17 @@ object ExtractorTester {
     (solMap, solutionString)
   }
 
-  // TODO: write oomparator
   private def comparator(comparison: Comparison): (TestResults, String) = {
     val result = comparison._1
     val solMap = comparison._2._1
+    val source = comparison._1.source
     val out = mutable.StringBuilder.newBuilder
     val counter = new TestResults()
 
     out.append(s"Sentence:\t${comparison._1.source}\n")
     out.append(s"Expected:\t${comparison._2._2}\n")
     // Two tabs to line up with the others.
-    out.append(s"Actual:\t\t")
+    out.append(s"Actual:\t")
     if (result.relations.length != 0) {
       val relationsByClass = result.relations.sortBy(t => t.relation)
       for (rel <- relationsByClass) {
@@ -177,7 +177,45 @@ object ExtractorTester {
       }
       out.append("\n")
     }
+
+    out.append(extractionInfo(source))
+
     (counter, out.mkString)
+  }
+
+  private def extractionInfo(src: String): String = {
+    def printHops(map: Map[extractor.TagInfo, List[List[TypedDependency]]], builder: StringBuilder) {
+      for ((k, v) <- map) {
+        builder.append(s"Tag: ${k.text} has tag ${k.tag}\tDependency Hops:\t")
+        for (td <- v) {
+          builder.append(s"$td\t")
+        }
+        builder.append("\n")
+      }
+    }
+    val tags = extractor.getTags(src)
+    val (parse, tdl) = extractor.getParse(src)
+    val singleHops = extractor.dependencyHopsByTag(tags, tdl)
+    val singleGeneralized = singleHops map { case (k, v) => (k, v.map(td => td::Nil))}
+    val doubleHops = extractor.expandAllByOneHop(singleGeneralized, tdl)
+
+    val builder = mutable.StringBuilder.newBuilder
+    builder.append("Extraction Info\n")
+
+    for ((k, v) <- singleHops) {
+      builder.append(s"Tag: ${k.text} has tag ${k.tag}\tDependency Hops:\t")
+      builder.append("Single Hops\t")
+      for (td <- v) {
+        builder.append(s"$td\t")
+      }
+      builder.append("Double Hops\t")
+      for (td <- doubleHops.getOrElse(k, Nil)) {
+        builder.append(s"$td\t")
+      }
+      builder.append("\n")
+    }
+
+    builder.mkString
   }
 
   /**

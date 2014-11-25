@@ -14,6 +14,7 @@ import edu.stanford.nlp.parser.lexparser.LexicalizedParser
 import edu.stanford.nlp.trees._
 
 import scala.collection.JavaConversions._
+import scala.collection.mutable
 
 /**
  * TODO: add comment
@@ -26,6 +27,8 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   private val lemmatizer = MorphaStemmer
 
   private val nounRelations = Set("nn")
+  private val tagCache = mutable.Map[String, List[Type]]()
+  private val parseCache = mutable.Map[String, (Tree, List[TypedDependency])]()
 
   type Phrase = String
   type TagName = String
@@ -41,17 +44,9 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
 
   def extractRelations(line: String): List[NounToNounRelation] = {
     // Process uses the same chunker.
-    val tags = tagger.tag(process(line)).toList
+    val tags = getTags(line)
     val tokens = tagger.chunker.chunk(line)
-
-    val tokenizedSentence: scala.collection.immutable.List[Word] = tokens.toList.map(a => new Word(a.string))
-    val rawWords: util.List[CoreLabel] = ling.Sentence.toCoreLabelList(tokenizedSentence)
-    val parse: Tree = parser.apply(rawWords)
-
-    val tlp: TreebankLanguagePack = new PennTreebankLanguagePack
-    val gsf: GrammaticalStructureFactory = tlp.grammaticalStructureFactory
-    val gs: GrammaticalStructure = gsf.newGrammaticalStructure(parse)
-    val tdl: List[TypedDependency] = gs.typedDependenciesCCprocessed.toList
+    val (parse, tdl) = getParse(line)
 
 //    println("Tags")
 //    for (tag <- tags) {
@@ -65,27 +60,68 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     .reln() [relation]
      */
 
-    /*
-    Steps:
-      1. filter dependencies that have tagged depedency
-      2. filter dependencies that are noun-to-noun relations
-      3. Obtain the noun phrases that contain the dependency
-      4. Construct the relation out of the parser.
-        - identify noun-to-noun relations in the parse
-        - find the noun-phrase we want
-     */
+      /*
+      Steps:
+        1. filter dependencies that have tagged depedency
+        2. filter dependencies that are noun-to-noun relations
+        3. Obtain the noun phrases that contain the dependency
+        4. Construct the relation out of the parser.
+          - identify noun-to-noun relations in the parse
+          - find the noun-phrase we want
+       */
 
     val processedTdl = processDependencies(tags, tdl)
 
-//    printTdl(processedTdl, "Processed Tdls")
+      //    printTdl(processedTdl, "Processed Tdls")
 
     parse.indexLeaves()
 
     val results = getNounToNounRelations(parse, processedTdl, tokens, line)
     results.foreach(nnr => nnr.sentence = line)
 
-//    printNounToNounRelations(results)
+      //    printNounToNounRelations(results)
     results
+  }
+
+  def getTags(line: String): List[Type] = {
+    tagCache.get(line) match {
+      case None =>
+        val newtags = tagger.tag(process(line)).toList
+        tagCache.put(line, newtags)
+        newtags
+      case Some(tags) => tags
+    }
+  }
+
+  def getParse(line: String): (Tree, List[TypedDependency]) = {
+    parseCache.get(line) match {
+      case None =>
+        val tokens = tagger.chunker.chunk(line)
+        val tokenizedSentence: scala.collection.immutable.List[Word] = tokens.toList.map(a => new Word(a.string))
+        val rawWords: util.List[CoreLabel] = ling.Sentence.toCoreLabelList(tokenizedSentence)
+        val parse: Tree = parser.apply(rawWords)
+
+        val tlp: TreebankLanguagePack = new PennTreebankLanguagePack
+        val gsf: GrammaticalStructureFactory = tlp.grammaticalStructureFactory
+        val gs: GrammaticalStructure = gsf.newGrammaticalStructure(parse)
+        val list = gs.typedDependenciesCCprocessed.toList
+        parseCache.put(line, (parse, list))
+        (parse, list)
+      case Some(parse) => parse
+    }
+  }
+
+  /*
+  To get hops from tag:
+    Get word that is modified by tag: the govenor word
+    go through every dependency, where the tagged word is included.
+    Get all dependencies where the dep of the previous
+  */
+  // Pre: tdl has all the tagged dependencies for a specific tag
+  // tagged and tdl must come from the same extraction.  Otherwise the result is undefined.
+  // Pull out any hop that includes the tag's govenor word.
+  def getSingleHops(tagged: List[TypedDependency], tdl: List[TypedDependency]): List[TypedDependency] = {
+    tagged.map(tagDep => tdl.filter(td => td.gov().endPosition() == tagDep.gov().endPosition() || td.dep().endPosition() == tagDep.gov().endPosition())).flatten
   }
 
   private def printNounToNounRelations(relns: Iterable[NounToNounRelation]) {
@@ -179,7 +215,56 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
       nounRelations.contains(td.reln().getShortName)
     )
   }
-  private def getTaggedDependencies(
+
+  def expandByOneHop(curtdl: List[List[TypedDependency]], tdl: List[TypedDependency]): List[List[TypedDependency]] = {
+    curtdl.foldLeft(List[List[TypedDependency]]())((acc, cur: List[TypedDependency]) =>
+      tdl.filter(td =>
+        (cur.head.dep().index() == td.dep().index() ||
+        cur.head.dep().index() == td.gov().index() ||
+        cur.head.gov().index() == td.dep().index() ||
+        cur.head.gov().index() == td.gov().index()) &&
+        !cur.contains(td)
+      ).map(td => td::cur)
+    )
+  }
+
+  def expandAllByOneHop(tdlMaps: Map[TagInfo, List[List[TypedDependency]]],
+       tdl: List[TypedDependency]): Map[TagInfo, List[List[TypedDependency]]] = {
+    val newMap = mutable.Map[TagInfo, List[List[TypedDependency]]]()
+    for ((k, v) <- tdlMaps) {
+      newMap.put(k, expandByOneHop(v, tdl))
+    }
+    newMap.toMap
+  }
+
+  def dependencyHopsByTag(tags: List[Type], tdl: List[TypedDependency])
+      : Map[TagInfo, List[TypedDependency]] = {
+    val tagMap = createTagMap(tags)
+
+    val results = mutable.Map[TagInfo, List[TypedDependency]]()
+
+    for (td <- tdl) {
+      tagMap.get(td.dep().index()) match {
+        case None => null
+        case Some(tagInfo: TagInfo) =>
+          results.get(tagInfo) match {
+            case None => results.put(tagInfo, td::Nil)
+            case Some(current) => results.put(tagInfo, td::current)
+          }
+      }
+      tagMap.get(td.gov().index()) match {
+        case None => null
+        case Some(tagInfo: TagInfo) =>
+          results.get(tagInfo) match {
+            case None => results.put(tagInfo, td::Nil)
+            case Some(current) => results.put(tagInfo, td::current)
+          }
+      }
+    }
+    results.toMap
+  }
+
+  def getTaggedDependencies(
       tags: List[Type], tdl: List[TypedDependency]): List[TypedDependency] = {
     // 1. turn tags into a map of index to phrase and tag
     val tagMap = createTagMap(tags)

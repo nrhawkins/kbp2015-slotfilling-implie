@@ -239,7 +239,7 @@ object TaggerTester {
     out.append(s"Input File: $INPUT_FILE\n")
     out.append(s"Solution File: $SOLUTION_FILE\n")
     out.append(s"Output File: $OUTPUT_FILE\n")
-    out.append(taggerConfig)
+    out.append(taggerConfig())
     out.append("\n")
     out.mkString
   }
