@@ -96,6 +96,20 @@ object ExtractorTester {
     (solMap, solutionString)
   }
 
+  private def compareTags(solution: Tags, relation: NounToNounRelation): Boolean = {
+    solution.contains((relation.tag.string, relation.tag.index))
+  }
+
+  // Check that the solution is fully contained in the result relation.
+  // Indices of solution are within the bounds of the result indices,
+  // and the solution is a substring of the result.
+  private def compareNPs(solution: NPs, relation: NounToNounRelation): Boolean = {
+    val end = relation.np.index
+    solution.count(np => {
+      (np._2 <= end) && relation.np.string.contains(np._1)
+    }) > 0
+  }
+
   private def comparator(comparison: Comparison): (TestResults, String) = {
     val result = comparison._1
     val solMap = comparison._2._1
@@ -120,34 +134,25 @@ object ExtractorTester {
         out.append(s"TERM:${relation.tag.string};${relation.tag.index}\t" +
           s"NP:${relation.np.string};${relation.np.index}")
         // TODO: merge match statements by using getOrElse[empty set] and then just using the inner match
-        solMap.get(relation.relation) match {
-          // Unexpected class
-          case None =>
+        val solutionSets = solMap.getOrElse(relation.relation, mutable.Set())
+        // TODO: actually compare the values.
+        val matching = solutionSets.filter(solution =>
+            compareTags(solution.tags, relation) &&
+            compareNPs(solution.nps, relation))
+        matching.size match {
+          case 0 =>
             counter.incorrect += 1
             out.append(";Incorrect\t")
-          case Some(solutionSets: mutable.Set[SingleSolutionSets]) =>
-            // TODO: actually compare the values.
-            val matching = solutionSets.filter(solution =>
-              solution.tags.contains((relation.tag.string, relation.tag.index)) &&
-                solution.nps.contains((relation.np.string, relation.np.index)))
-            matching.size match {
-              case 0 =>
-                counter.incorrect += 1
-                out.append(";Incorrect\t")
-              case 1 =>
-                counter.correct += 1
-                out.append("\t")
-                // TODO: make this less hacky...
-                solutionSets.remove(matching.iterator.next())
-              case _ =>
-                out.append(s"\nMultiple matching terms!?  Sets with matches: $matching, " +
-                  s"Term: ${relation.tag.string}, ${relation.tag.index} " +
-                  s"NP: ${relation.np.string}, ${relation.np.index}\n")
-            }
-          case leftovers =>
-            // should never get here...
-            out.append(s"EXTRA CASE: $leftovers\tTYPE: ${leftovers.getClass}")
-            out.append("unexpected\t")
+          case 1 =>
+            counter.correct += 1
+            out.append("\t")
+            // TODO: make this less hacky...
+            solutionSets.remove(matching.iterator.next())
+          case _ =>
+            out.append(s"\nMultiple matching terms!?  Sets with matches: $matching, " +
+              s"Term: ${relation.tag.string}, ${relation.tag.index} " +
+              s"NP: ${relation.np.string}, ${relation.np.index}\n")
+
         }
         out.append("\t")
       }
