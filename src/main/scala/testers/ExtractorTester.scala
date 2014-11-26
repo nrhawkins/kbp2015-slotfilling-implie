@@ -13,6 +13,7 @@ import scala.io.Source
 /**
  * TODO: print testing progress
  * TODO: complete comment.
+ * TODO: put delimiters in config
  *
  * Uses the tagger specified in ModularTaggerTester.
  */
@@ -161,24 +162,24 @@ object ExtractorTester {
       out.append("NONE\n")
     }
 
-    counter.missed += solMap.count(p => p._2.foldLeft(0)((acc, cur) => acc + cur.tags.size + cur.nps.size) > 0)
-    for (sol <- solMap) {
+    val missedSolutions = solMap.filter(p => p._2.foldLeft(0)((acc, cur) => acc + cur.tags.size + cur.nps.size) > 0)
+    counter.missed += missedSolutions.size
+    for (sol <- missedSolutions) {
       val clas = sol._1
       val solutionSets = sol._2
       out.append(s"MISSED\tCLASS:$clas")
       for (singleSets <- solutionSets) {
-        def printHelp(items: Set[(String, Int)]) {
+        def printHelp(items: Set[(String, Int)], itemType: String) {
           val hd = items.seq.head
-          out.append(s"\tTERM:${hd._1};${hd._2}")
+          out.append(s"\t$itemType:${hd._1};${hd._2}")
           for (item <- items.seq.tail) {
             out.append(s"|${item._1};${item._2}")
           }
         }
         val tags = singleSets.tags
-        printHelp(tags)
-        out.append("\t")
+        printHelp(tags, "TERM")
         val nps = singleSets.nps
-        printHelp(nps)
+        printHelp(nps, "NP")
       }
       out.append("\n")
     }
@@ -209,13 +210,14 @@ object ExtractorTester {
 
     for ((k, v) <- singleHops) {
       builder.append(s"Tag: ${k.text} has tag ${k.tag}\tDependency Hops:\t")
-      builder.append("Single Hops\t")
+      builder.append("Single Hops ")
       for (td <- v) {
-        builder.append(s"$td\t")
+        builder.append(s"$td ")
       }
-      builder.append("Double Hops\t")
+      builder.append("\t")
+      builder.append("Double Hops ")
       for (td <- doubleHops.getOrElse(k, Nil)) {
-        builder.append(s"$td\t")
+        builder.append(s"$td ")
       }
       builder.append("\n")
     }
