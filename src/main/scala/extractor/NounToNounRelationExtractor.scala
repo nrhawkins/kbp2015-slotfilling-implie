@@ -134,11 +134,10 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     println()
   }
 
-  private def getNounToNounRelations(parseTree: Tree, tdl: List[TypedDependency], tokens: Seq[ChunkedToken], sentence: String): List[NounToNounRelation] = {
-    tdl.map(td =>
-      new NounToNounRelation(
-        new IndexedString(td.dep().value(), td.dep().index()), td.dep.tag(),
-        getNounPhrase(parseTree, td, tokens, sentence)))
+  private def getNounToNounRelations(parseTree: Tree, nntdl: List[NounToNounTD], tokens: Seq[ChunkedToken], sentence: String): List[NounToNounRelation] = {
+    nntdl.map(nntd =>
+      new NounToNounRelation(nntd.tag.tag, nntd.td.dep.tag(),
+        getNounPhrase(parseTree, nntd.td, tokens, sentence)))
   }
 
   private def getNounPhrase(tree: Tree, td: TypedDependency, tokenizedSentence: Seq[ChunkedToken], sentence: String): IndexedString = {
@@ -208,13 +207,21 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     println()
   }
 
-  private def processDependencies(tags: List[Type], tdl: List[TypedDependency]): List[TypedDependency] = {
-    filterDependencyByRelations(getTaggedDependencies(tags, tdl))
+  private def processDependencies(tags: List[Type], tdl: List[TypedDependency]): List[NounToNounTD] = {
+    filterDependencyByRelations(tagTypedDeps(createTagMap(tags), tdl))
   }
 
+/*
   private def filterDependencyByRelations(tdl: List[TypedDependency]): List[TypedDependency] = {
     tdl.filter(td =>
       nounRelations.contains(td.reln().getShortName)
+    )
+  }
+*/
+
+  private def filterDependencyByRelations(nntdl: List[NounToNounTD]): List[NounToNounTD] = {
+    nntdl.filter(nntd =>
+      nounRelations.contains(nntd.td.reln().getShortName)
     )
   }
 
@@ -266,6 +273,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     results.toMap
   }
 
+/*
   def getTaggedDependencies(
       tags: List[Type], tdl: List[TypedDependency]): List[TypedDependency] = {
     // 1. turn tags into a map of index to phrase and tag
@@ -281,22 +289,25 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
           td
       }).filter(td => td != null)
   }
+*/
 
   private def tagTypedDeps(tagMap: Map[Int, TagInfo], tdl: List[TypedDependency]): List[NounToNounTD] = {
     tdl.map(td => {
         tagMap.get(td.dep().index) match {
-          case Some(tag: TagInfo) => NounToNounTD(td,
-            new NounToNounRelation(
-              new IndexedString(tag.text, -1), tag.tag,
-              new IndexedString("", -1)))
+          case Some(tag: TagInfo) =>
+            td.dep().setTag(tag.tag)
+            NounToNounTD(td,
+              new NounToNounRelation(
+                new IndexedString(tag.text, td.dep().index), tag.tag,
+                new IndexedString("", -1)))
           case _ => NounToNounTD(null, null)
         }
       }
-    )
+    ).filter(td => td.tag != null || td.td != null)
   }
 
   // pre: each index can have at most 1 tag
-  private def createTagMap(tags: List[Type]): Map[Int, TagInfo] = {
+  def createTagMap(tags: List[Type]): Map[Int, TagInfo] = {
     def tagMapHelper (acc: Map[Int, TagInfo], tags: List[Type]): Map[Int, TagInfo] = {
       tags match {
         case Nil => acc

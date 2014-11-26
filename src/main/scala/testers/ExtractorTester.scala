@@ -134,9 +134,7 @@ object ExtractorTester {
 
         out.append(s"TERM:${relation.tag.string};${relation.tag.index}\t" +
           s"NP:${relation.np.string};${relation.np.index}")
-        // TODO: merge match statements by using getOrElse[empty set] and then just using the inner match
         val solutionSets = solMap.getOrElse(relation.relation, mutable.Set())
-        // TODO: actually compare the values.
         val matching = solutionSets.filter(solution =>
             compareTags(solution.tags, relation) &&
             compareNPs(solution.nps, relation))
@@ -155,7 +153,6 @@ object ExtractorTester {
               s"NP: ${relation.np.string}, ${relation.np.index}\n")
 
         }
-        out.append("\t")
       }
       out.append("\n")
     } else {
