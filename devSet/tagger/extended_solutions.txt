@@ -1,9 +1,9 @@
-CLASS:jobTitle	TERM:astrophysicist;21
-CLASS:jobTitle	TERM:astrophysicist;28	CLASS:jobTitle	TERM:chief;27
-CLASS:jobTitle	TERM:astrophysicist;16
-CLASS:jobTitle	TERM:astrophysicist;25
-CLASS:jobTitle	TERM:astrophysicist;17
-CLASS:jobTitle	TERM:astrophysicist;21
+CLASS:jobTitle	TERM:astrophysicist;21	CLASS:nationality	TERM:american;24
+CLASS:jobTitle	TERM:astrophysicist;28	CLASS:jobTitle	TERM:chief;27	CLASS:nationality	TERM:american;21
+CLASS:jobTitle	TERM:astrophysicist;16	CLASS:nationality	TERM:american;22
+CLASS:jobTitle	TERM:astrophysicist;25	CLASS:nationality	TERM:american;28
+CLASS:jobTitle	TERM:astrophysicist;17	CLASS:nationality	TERM:american;25
+CLASS:jobTitle	TERM:astrophysicist;21	CLASS:nationality	TERM:american;24
 CLASS:jobTitle	TERM:executive deputy chief;6
 CLASS:jobTitle	TERM:executive deputy chief;3
 CLASS:jobTitle	TERM:executive deputy chief;11
@@ -88,12 +88,12 @@ CLASS:religion	TERM:christian;5	CLASS:jobTitle	TERM:leader;7	CLASS:nationality	T
 CLASS:religion	TERM:christian;29	CLASS:jobTitle	TERM:leader;31	CLASS:nationality	TERM:iraqi;2
 CLASS:religion	TERM:christian;29	CLASS:jobTitle	TERM:leader;33	CLASS:nationality	TERM:iraqi;2
 CLASS:religion	TERM:christian;11	CLASS:jobTitle	TERM:leader;13	CLASS:nationality	TERM:iraqi;23
-CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33
-CLASS:jobTitle	TERM:president;6	CLASS:religion	TERM:christian;12
+CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33	CLASS:nationality	TERM:americans;6
+CLASS:jobTitle	TERM:president;6	CLASS:religion	TERM:christian;12	CLASS:nationality	TERM:americans;31
 CLASS:jobTitle	TERM:president;8	CLASS:religion	TERM:christian;4
-CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;37
-CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33
-CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;44
+CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;37	CLASS:nationality	TERM:americans;6
+CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33	CLASS:nationality	TERM:americans;6
+CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;44	CLASS:nationality	TERM:americans;6
 CLASS:nationality	TERM:u.s.;24	CLASS:religion	TERM:christian;29
 CLASS:nationality	TERM:u.s.;20	CLASS:religion	TERM:christian;28
 CLASS:nationality	TERM:u.s.;2	CLASS:religion	TERM:christian;7

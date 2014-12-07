@@ -1,4 +1,4 @@
-CLASS:jobTitle	TERM:astrophysicist;21
+CLASS:jobTitle	TERM:astrophysicist;21	CLASS:nationality	TERM:american;24
 CLASS:jobTitle	TERM:executive deputy chief;6
 CLASS:jobTitle	TERM:critic;23	CLASS:nationality	TERM:french;22
 CLASS:jobTitle	TERM:music teacher;25	
@@ -13,5 +13,5 @@ CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:president;33
 CLASS:religion	TERM:mormon;56	CLASS:jobTitle	TERM:president;57
 CLASS:religion	TERM:hindu;32
 CLASS:jobTitle	TERM:leader;7	CLASS:nationality	TERM:iraqi;14	CLASS:religion	TERM:christian;5
-CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33
+CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33	CLASS:nationality	TERM:americans;6
 CLASS:nationality	TERM:u.s.;24	CLASS:religion	TERM:christian;29

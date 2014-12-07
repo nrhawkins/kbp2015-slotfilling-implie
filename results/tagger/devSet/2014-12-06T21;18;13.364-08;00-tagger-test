@@ -1,0 +1,104 @@
+DateTime: 2014-12-06T21:18:13.364-08:00
+
+Configurations
+Input File: devSet/tagger/sentences.txt
+Solution File: devSet/tagger/case_insensitive_solutions.txt
+Output File: results/tagger/devSet/2014-12-06T21;18;13.364-08;00-tagger-test
+Tagger: CaseInsensitiveKeywordTagger
+Class-term File Directory: classTermLists/runfiles/
+Class term files:
+	Class name: nationality	Files: classTermLists/runfiles/origin.txt	
+	Class name: jobTitle	Files: classTermLists/runfiles/jobTitle.txt	
+	Class name: religion	Files: classTermLists/runfiles/religion.txt	
+
+
+Sentence:	"Black holes are infamous for wreaking havoc in their immediate neighborhoods," said Neil deGrasse Tyson, an astrophysicist with the American Museum of Natural History who was not involved in the 3C321 research, but is an expert on black holes.
+Expected:	CLASS:jobTitle	TERM:astrophysicist;21
+Actual:		CLASS:jobTitle	TERM:astrophysicist;21	CLASS:nationality	TERM:american;24;Incorrect	
+MISSED	CLASS:jobTitle
+
+Sentence:	John Arterberry, executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud.
+Expected:	CLASS:jobTitle	TERM:executive deputy chief;6
+Actual:		CLASS:jobTitle	TERM:executive deputy chief;6	
+MISSED	CLASS:jobTitle
+
+Sentence:	It remains to be seen just how effective a cluster of people in their 20s can be at reinventing what the French critic Andre Bazin once called "the genius of the system," referring to Hollywood films made during the classic studio era, roughly the 1920s through the '50s.
+Expected:	CLASS:jobTitle	TERM:critic;23	CLASS:nationality	TERM:french;22
+Actual:		CLASS:jobTitle	TERM:critic;23	CLASS:nationality	TERM:french;22	
+MISSED	CLASS:jobTitle
+MISSED	CLASS:nationality
+
+Sentence:	"Three months of tourism can't be spread out over the entire year," said Petra Koepke-Eberler, 48, a music teacher here.
+Expected:	CLASS:jobTitle	TERM:music teacher;25
+Actual:		CLASS:jobTitle	TERM:music teacher;25	
+MISSED	CLASS:jobTitle
+
+Sentence:	Madame Violetta, a classical singing teacher, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Expected:	CLASS:jobTitle	TERM:classical singing teacher;7
+Actual:		CLASS:jobTitle	TERM:classical singing teacher;7	
+MISSED	CLASS:jobTitle
+
+Sentence:	Speaking with Bush at a news conference, Chinese President Hu said the Kyoto Protocol, the 1997 United Nations-sponsored effort that sets targets for industrialized nations to cut greenhouse gas emissions, should "remain the main channel for international efforts to tackle climate change."
+Expected:	CLASS:jobTitle	TERM:president;10	CLASS:nationality	TERM:chinese;9
+Actual:		CLASS:jobTitle	TERM:president;10	CLASS:nationality	TERM:chinese;9	
+MISSED	CLASS:jobTitle
+MISSED	CLASS:nationality
+
+MISSED	CLASS:nationality	TERM:west indian;31
+
+Sentence:	Daniel Peterson worked as a sleeping car porter on the Canadian Pacific Railway and had taught himself how to play the organ before he landed in Halifax, Nova Scotia, in 1917. Peterson's mother, who also had roots in the Caribbean, encouraged Oscar to study music.
+Expected:	CLASS:nationality	TERM:canadian;11	TERM:caribbean;45
+Actual:		CLASS:nationality	TERM:canadian;11	TERM:caribbean;45	
+MISSED	CLASS:nationality
+
+MISSED	CLASS:nationality	TERM:persian;38
+
+MISSED	CLASS:nationality	TERM:persian;24
+
+Sentence:	An Army division commander during the 1990-91 Persian Gulf War, he told the Billings Gazette in Montana in January that President Bush's decision to increase US forces in Baghdad "is too late."
+Expected:	CLASS:jobTitle	TERM:president;22	CLASS:nationality	TERM:persian;8
+Actual:		CLASS:jobTitle	TERM:president;22	
+MISSED	CLASS:jobTitle
+MISSED	CLASS:nationality	TERM:persian;8
+
+Sentence:	"I don't want to lead someone astray," he says as he contemplates for the first time in his life voting for a Mormon -- Mitt Romney -- for president.
+Expected:	CLASS:religion	TERM:mormon;27	CLASS:jobTitle	TERM:president;33
+Actual:		CLASS:jobTitle	TERM:president;33	CLASS:religion	TERM:mormon;27	
+MISSED	CLASS:jobTitle
+MISSED	CLASS:religion
+
+Sentence:	And it highlights how far the party has come since the 2004 presidential election in its efforts to appeal to religious voters, and the openings Democrats see if the Republicans end up nominating a candidate who supports abortion rights and gay rights (Rudolph W. Giuliani) or one who would be the first Mormon president (Mitt Romney).
+Expected:	CLASS:religion	TERM:mormon;56	CLASS:jobTitle	TERM:president;57
+Actual:		CLASS:jobTitle	TERM:president;57	CLASS:religion	TERM:mormon;56	
+MISSED	CLASS:jobTitle
+MISSED	CLASS:religion
+
+Sentence:	Instead of being solicited by beggars, Geyer found himself the recipient of gifts: fruit, and dye to smear on his hands and face, as people celebrated the Hindu festival of Holi.
+Expected:	CLASS:religion	TERM:hindu;32
+Actual:		CLASS:religion	TERM:hindu;32	
+MISSED	CLASS:religion
+
+Sentence:	Both Warduni and a Christian community leader, Iyad al-Ashouri, accused the Iraqi government, notably the Ministry of Defense, of belittling the extent of the crisis in Mosul.
+Expected:	CLASS:jobTitle	TERM:leader;7	CLASS:nationality	TERM:iraqi;14	CLASS:religion	TERM:christian;5
+Actual:		CLASS:jobTitle	TERM:leader;7	CLASS:nationality	TERM:iraqi;14	CLASS:religion	TERM:christian;5	
+MISSED	CLASS:jobTitle
+MISSED	CLASS:religion
+MISSED	CLASS:nationality
+
+Sentence:	He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University, a Christian institution whose idyllic campus now is the site of Peking University.
+Expected:	CLASS:jobTitle	TERM:president;27	CLASS:religion	TERM:christian;33
+Actual:		CLASS:jobTitle	TERM:president;27	CLASS:nationality	TERM:americans;6;Incorrect	CLASS:religion	TERM:christian;33	
+MISSED	CLASS:jobTitle
+MISSED	CLASS:religion
+
+Sentence:	"A change of borders today is not threatening God's sovereignty or God's promises," said Susan Michael, the U.S. director of the International Christian Embassy Jerusalem.
+Expected:	CLASS:nationality	TERM:u.s.;24	CLASS:religion	TERM:christian;29
+Actual:		CLASS:nationality	TERM:u.s.;24	CLASS:religion	TERM:christian;29	
+MISSED	CLASS:religion
+MISSED	CLASS:nationality
+
+
+Total Results
+Correct: 23	Incorrect: 2	Missing: 4
+Precision: 0.920	Recall: 0.852
+
