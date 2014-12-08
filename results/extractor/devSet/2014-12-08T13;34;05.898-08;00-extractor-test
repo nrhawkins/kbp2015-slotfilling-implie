@@ -1,0 +1,145 @@
+DateTime: 2014-12-08T13:34:05.898-08:00
+
+Configurations
+Input File: devSet/extractor/sentences.txt
+Solution File: devSet/extractor/solutions.txt
+Output File: results/extractor/devSet/2014-12-08T13;34;05.898-08;00-extractor-test
+
+Tagger Config
+Tagger: CaseInsensitiveKeywordTagger
+Class-term File Directory: classTermLists/runfiles/
+Class term files:
+	Class name: nationality	Files: classTermLists/runfiles/origin.txt	
+	Class name: jobTitle	Files: classTermLists/runfiles/jobTitle.txt	
+	Class name: religion	Files: classTermLists/runfiles/religion.txt	
+
+Sentence:	"Black holes are infamous for wreaking havoc in their immediate neighborhoods," said Neil deGrasse Tyson, an astrophysicist with the American Museum of Natural History who was not involved in the 3C321 research, but is an expert on black holes.
+Expected:	CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson, an astrophysicist;21	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28
+Actual:	CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson, an astrophysicist with the American Museum of Natural History who was not involved in the 3C321 research, but is an expert on black holes;44	CLASS:nationality	TERM:american;24	NP:the American Museum;25;Incorrect	
+MISSED	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28
+Extraction Info
+Tag: astrophysicist has tag jobTitle	Dependency Hops:	Single Hops rcmod(astrophysicist-21, expert-41) rcmod(astrophysicist-21, involved-32) prep_with(astrophysicist-21, Museum-25) nsubjpass(involved-32, astrophysicist-21) appos(Tyson-18, astrophysicist-21) det(astrophysicist-21, an-20) 	Double Hops List(appos(Tyson-18, astrophysicist-21), det(astrophysicist-21, an-20)) List(nsubjpass(involved-32, astrophysicist-21), det(astrophysicist-21, an-20)) List(prep_with(astrophysicist-21, Museum-25), det(astrophysicist-21, an-20)) List(rcmod(astrophysicist-21, involved-32), det(astrophysicist-21, an-20)) List(rcmod(astrophysicist-21, expert-41), det(astrophysicist-21, an-20)) 
+Tag: american has tag nationality	Dependency Hops:	Single Hops nn(Museum-25, American-24) 	Double Hops List(det(Museum-25, the-23), nn(Museum-25, American-24)) List(prep_with(astrophysicist-21, Museum-25), nn(Museum-25, American-24)) List(prep_of(Museum-25, History-28), nn(Museum-25, American-24)) 
+
+Sentence:	John Arterberry, executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud.
+Expected:	CLASS:jobTitle	TERM:executive deputy chief;6	NP:John Arterberry, executive deputy chief;6
+Actual:	CLASS:jobTitle	TERM:executive deputy chief;6	NP:John Arterberry, executive deputy chief of the fraud section in the Justice Department,;15	
+Extraction Info
+Tag: executive deputy chief has tag jobTitle	Dependency Hops:	Single Hops prep_of(chief-6, section-10) appos(Arterberry-2, chief-6) amod(chief-6, deputy-5) amod(chief-6, executive-4) 	Double Hops List(amod(chief-6, deputy-5), amod(chief-6, executive-4)) List(appos(Arterberry-2, chief-6), amod(chief-6, executive-4)) List(prep_of(chief-6, section-10), amod(chief-6, executive-4)) 
+
+Sentence:	It remains to be seen just how effective a cluster of people in their 20s can be at reinventing what the French critic Andre Bazin once called "the genius of the system," referring to Hollywood films made during the classic studio era, roughly the 1920s through the '50s.
+Expected:	CLASS:jobTitle	TERM:critic;23	NP:critic Andre Bazin;25	CLASS:nationality	TERM:french;22	NP:French critic Andre Bazin;25
+Actual:	CLASS:jobTitle	TERM:critic;23	NP:the French critic Andre Bazin;25	CLASS:nationality	TERM:french;22	NP:the French critic Andre Bazin;25	
+Extraction Info
+Tag: critic has tag jobTitle	Dependency Hops:	Single Hops nn(Bazin-25, critic-23) 	Double Hops List(det(Bazin-25, the-21), nn(Bazin-25, critic-23)) List(amod(Bazin-25, French-22), nn(Bazin-25, critic-23)) List(nn(Bazin-25, Andre-24), nn(Bazin-25, critic-23)) List(nsubj(called-27, Bazin-25), nn(Bazin-25, critic-23)) 
+Tag: french has tag nationality	Dependency Hops:	Single Hops amod(Bazin-25, French-22) 	Double Hops List(det(Bazin-25, the-21), amod(Bazin-25, French-22)) List(nn(Bazin-25, critic-23), amod(Bazin-25, French-22)) List(nn(Bazin-25, Andre-24), amod(Bazin-25, French-22)) List(nsubj(called-27, Bazin-25), amod(Bazin-25, French-22)) 
+
+Sentence:	"Three months of tourism can't be spread out over the entire year," said Petra Koepke-Eberler, 48, a music teacher here.
+Expected:	CLASS:jobTitle	TERM:music teacher;25	NP:Petra Koepke-Eberler, 48, a music teacher;25
+Actual:	CLASS:jobTitle	TERM:music teacher;25	NP:Petra Koepke-Eberler, 48, a music teacher here;26	
+Extraction Info
+Tag: music teacher has tag jobTitle	Dependency Hops:	Single Hops advmod(teacher-25, here-26) appos(Petra-18, teacher-25) nn(teacher-25, music-24) det(teacher-25, a-23) 	Double Hops List(nn(teacher-25, music-24), det(teacher-25, a-23)) List(appos(Petra-18, teacher-25), det(teacher-25, a-23)) List(advmod(teacher-25, here-26), det(teacher-25, a-23)) 
+
+Sentence:	Madame Violetta, a classical singing teacher, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Expected:	CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7
+Actual:	CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher,;8	
+Extraction Info
+Tag: classical singing teacher has tag jobTitle	Dependency Hops:	Single Hops appos(Violetta-2, teacher-7) nn(teacher-7, singing-6) amod(teacher-7, classical-5) det(teacher-7, a-4) 	Double Hops List(amod(teacher-7, classical-5), det(teacher-7, a-4)) List(nn(teacher-7, singing-6), det(teacher-7, a-4)) List(appos(Violetta-2, teacher-7), det(teacher-7, a-4)) 
+
+Sentence:	Speaking with Bush at a news conference, Chinese President Hu said the Kyoto Protocol, the 1997 United Nations-sponsored effort that sets targets for industrialized nations to cut greenhouse gas emissions, should "remain the main channel for international efforts to tackle climate change."
+Expected:	CLASS:jobTitle	TERM:president;10	NP:President Hu;11	CLASS:nationality	TERM:chinese;9	NP:Chinese President Hu;11
+Actual:	CLASS:jobTitle	TERM:president;10	NP:Chinese President Hu;11	CLASS:nationality	TERM:chinese;9	NP:Chinese President Hu;11	
+Extraction Info
+Tag: president has tag jobTitle	Dependency Hops:	Single Hops nn(Hu-11, President-10) 	Double Hops List(nn(Hu-11, Chinese-9), nn(Hu-11, President-10)) List(nsubj(said-12, Hu-11), nn(Hu-11, President-10)) 
+Tag: chinese has tag nationality	Dependency Hops:	Single Hops nn(Hu-11, Chinese-9) 	Double Hops List(nn(Hu-11, President-10), nn(Hu-11, Chinese-9)) List(nsubj(said-12, Hu-11), nn(Hu-11, Chinese-9)) 
+
+Sentence:	Oscar Emmanuel Peterson was born in the poor St. Antoine district of Montreal on Aug. 15, 1925, one of five children of Daniel Peterson, a West Indian immigrant, and the former Olivia John, whom Daniel had met in Montreal.
+Expected:	CLASS:nationality	TERM:west indian;30	NP:Daniel Peterson, a West Indian;30
+Actual:	CLASS:nationality	TERM:west indian;31	NP:a West Indian immigrant;32;Incorrect	
+MISSED	CLASS:nationality	TERM:west indian;30	NP:Daniel Peterson, a West Indian;30
+Extraction Info
+Tag: west indian has tag nationality	Dependency Hops:	Single Hops nn(immigrant-32, Indian-31) 	Double Hops List(det(immigrant-32, a-29), nn(immigrant-32, Indian-31)) List(nn(immigrant-32, West-30), nn(immigrant-32, Indian-31)) List(prep_of(children-24, immigrant-32), nn(immigrant-32, Indian-31)) List(conj_and(Peterson-27, immigrant-32), nn(immigrant-32, Indian-31)) 
+
+Sentence:	Daniel Peterson worked as a sleeping car porter on the Canadian Pacific Railway and had taught himself how to play the organ before he landed in Halifax, Nova Scotia, in 1917. Peterson's mother, who also had roots in the Caribbean, encouraged Oscar to study music.
+Expected:	CLASS:nationality	TERM:canadian;11	NP:Canadian Pacific Railway;13	TERM:caribbean;45	NP:Peterson's mother, who also had roots in the Caribbean;45
+Actual:	CLASS:nationality	TERM:canadian;11	NP:the Canadian Pacific Railway;13	
+MISSED	CLASS:nationality	TERM:caribbean;45	NP:Peterson's mother, who also had roots in the Caribbean;45
+Extraction Info
+Tag: caribbean has tag nationality	Dependency Hops:	Single Hops prep_in(roots-42, Caribbean-45) det(Caribbean-45, the-44) 	Double Hops List(prep_in(roots-42, Caribbean-45), det(Caribbean-45, the-44)) 
+Tag: canadian has tag nationality	Dependency Hops:	Single Hops nn(Railway-13, Canadian-11) 	Double Hops List(det(Railway-13, the-10), nn(Railway-13, Canadian-11)) List(nn(Railway-13, Pacific-12), nn(Railway-13, Canadian-11)) List(prep_on(porter-8, Railway-13), nn(Railway-13, Canadian-11)) 
+
+Sentence:	The rest of the movie is pretty much mayhem, with the Spartan soldiers fighting off all the troops (plus a few creatures that seem to have wandered in from Middle-earth) under the command of Persian Emperor Xerxes (Brazil's Rodrigo Santoro, from TV's "Lost").
+Expected:	CLASS:nationality	TERM:persian;38	NP:Persian Emperor Xerxes;40	TERM:brazil;42	NP:Brazil's Rodrigo Santoro;45
+Actual:	CLASS:nationality	TERM:persian;38	NP:Persian Emperor Xerxes (Brazil's;43	
+MISSED	CLASS:nationality	TERM:brazil;42	NP:Brazil's Rodrigo Santoro;45
+Extraction Info
+Tag: persian has tag nationality	Dependency Hops:	Single Hops nn(Brazil-42, Persian-38) 	Double Hops List(nn(Brazil-42, Emperor-39), nn(Brazil-42, Persian-38)) List(nn(Brazil-42, Xerxes-40), nn(Brazil-42, Persian-38)) List(nn(Brazil-42, (-41), nn(Brazil-42, Persian-38)) List(poss(Santoro-45, Brazil-42), nn(Brazil-42, Persian-38)) 
+
+Sentence:	Up close, interior marble surfaces still glow with flowers made of inlaid precious stones, while the lovely giant squiggles of stylized Persian calligraphy on the outside walls put the letters of our dowdy Roman alphabet to shame.
+Expected:	CLASS:nationality	TERM:persian;24	NP:Persian calligraphy;25
+Actual:	CLASS:nationality	TERM:persian;24	NP:stylized Persian calligraphy;25	
+Extraction Info
+Tag: persian has tag nationality	Dependency Hops:	Single Hops amod(calligraphy-25, Persian-24) 	Double Hops List(amod(calligraphy-25, stylized-23), amod(calligraphy-25, Persian-24)) List(prep_of(squiggles-21, calligraphy-25), amod(calligraphy-25, Persian-24)) List(prep_on(calligraphy-25, walls-29), amod(calligraphy-25, Persian-24)) 
+
+Sentence:	An Army division commander during the 1990-91 Persian Gulf War, he told the Billings Gazette in Montana in January that President Bush's decision to increase US forces in Baghdad "is too late."
+Expected:	CLASS:jobTitle	TERM:president;22	NP:President Bush;23	CLASS:nationality	TERM:persian;8	NP:Persian Gulf War;10
+Actual:	CLASS:jobTitle	TERM:president;22	NP:President Bush's;24	CLASS:nationality	TERM:persian;8	NP:the 1990-91 Persian Gulf War;10	
+Extraction Info
+Tag: president has tag jobTitle	Dependency Hops:	Single Hops nn(Bush-23, President-22) 	Double Hops List(poss(decision-25, Bush-23), nn(Bush-23, President-22)) 
+Tag: persian has tag nationality	Dependency Hops:	Single Hops nn(War-10, Persian-8) 	Double Hops List(det(War-10, the-6), nn(War-10, Persian-8)) List(nn(War-10, 1990-91-7), nn(War-10, Persian-8)) List(nn(War-10, Gulf-9), nn(War-10, Persian-8)) List(prep_during(told-13, War-10), nn(War-10, Persian-8)) 
+
+Sentence:	"I don't want to lead someone astray," he says as he contemplates for the first time in his life voting for a Mormon -- Mitt Romney -- for president.
+Expected:	CLASS:religion	TERM:mormon;27	NP:a Mormon -- Mitt Romney;30
+Actual:	NONE
+MISSED	CLASS:religion	TERM:mormon;27	NP:a Mormon -- Mitt Romney;30
+Extraction Info
+Tag: president has tag jobTitle	Dependency Hops:	Single Hops prep_for(Mormon-27, president-33) 	Double Hops List(det(Mormon-27, a-26), prep_for(Mormon-27, president-33)) List(prep_for(contemplates-16, Mormon-27), prep_for(Mormon-27, president-33)) List(dep(Mormon-27, Romney-30), prep_for(Mormon-27, president-33)) 
+Tag: mormon has tag religion	Dependency Hops:	Single Hops prep_for(Mormon-27, president-33) dep(Mormon-27, Romney-30) prep_for(contemplates-16, Mormon-27) det(Mormon-27, a-26) 	Double Hops List(prep_for(contemplates-16, Mormon-27), det(Mormon-27, a-26)) List(dep(Mormon-27, Romney-30), det(Mormon-27, a-26)) List(prep_for(Mormon-27, president-33), det(Mormon-27, a-26)) 
+
+Sentence:	And it highlights how far the party has come since the 2004 presidential election in its efforts to appeal to religious voters, and the openings Democrats see if the Republicans end up nominating a candidate who supports abortion rights and gay rights (Rudolph W. Giuliani) or one who would be the first Mormon president (Mitt Romney).
+Expected:	CLASS:religion	TERM:mormon;56	NP:the first Mormon president (Mitt Romney);61
+Actual:	NONE
+MISSED	CLASS:religion	TERM:mormon;56	NP:the first Mormon president (Mitt Romney);61
+Extraction Info
+Tag: president has tag jobTitle	Dependency Hops:	Single Hops dep(president-57, )-61) rcmod(one-50, president-57) nn(president-57, Mormon-56) amod(president-57, first-55) det(president-57, the-54) cop(president-57, be-53) aux(president-57, would-52) nsubj(president-57, one-50) 	Double Hops List(dobj(supports-38, one-50), nsubj(president-57, one-50)) List(conj_or(rights-40, one-50), nsubj(president-57, one-50)) List(aux(president-57, would-52), nsubj(president-57, one-50)) List(cop(president-57, be-53), nsubj(president-57, one-50)) List(det(president-57, the-54), nsubj(president-57, one-50)) List(amod(president-57, first-55), nsubj(president-57, one-50)) List(nn(president-57, Mormon-56), nsubj(president-57, one-50)) List(rcmod(one-50, president-57), nsubj(president-57, one-50)) List(dep(president-57, )-61), nsubj(president-57, one-50)) 
+Tag: mormon has tag religion	Dependency Hops:	Single Hops nn(president-57, Mormon-56) 	Double Hops List(nsubj(president-57, one-50), nn(president-57, Mormon-56)) List(aux(president-57, would-52), nn(president-57, Mormon-56)) List(cop(president-57, be-53), nn(president-57, Mormon-56)) List(det(president-57, the-54), nn(president-57, Mormon-56)) List(amod(president-57, first-55), nn(president-57, Mormon-56)) List(rcmod(one-50, president-57), nn(president-57, Mormon-56)) List(dep(president-57, )-61), nn(president-57, Mormon-56)) 
+
+Sentence:	Instead of being solicited by beggars, Geyer found himself the recipient of gifts: fruit, and dye to smear on his hands and face, as people celebrated the Hindu festival of Holi.
+Expected:	CLASS:religion	TERM:hindu;32	NP:the Hindu festival of Holi;35
+Actual:	CLASS:religion	TERM:hindu;32	NP:the Hindu festival;33;Incorrect	
+MISSED	CLASS:religion	TERM:hindu;32	NP:the Hindu festival of Holi;35
+Extraction Info
+Tag: hindu has tag religion	Dependency Hops:	Single Hops nn(festival-33, Hindu-32) 	Double Hops List(det(festival-33, the-31), nn(festival-33, Hindu-32)) List(dobj(celebrated-30, festival-33), nn(festival-33, Hindu-32)) List(prep_of(festival-33, Holi-35), nn(festival-33, Hindu-32)) 
+
+Sentence:	Both Warduni and a Christian community leader, Iyad al-Ashouri, accused the Iraqi government, notably the Ministry of Defense, of belittling the extent of the crisis in Mosul.
+Expected:	CLASS:religion	TERM:christian;5	NP:Christian community leader, Iyal al-Ashouri;10	CLASS:jobTitle	TERM:leader;7	NP:community leader, Iyal al-Ashouri;10	CLASS:nationality	TERM:iraqi;14	NP:Iraqi government;15
+Actual:	CLASS:nationality	TERM:iraqi;14	NP:the Iraqi government;15	
+MISSED	CLASS:jobTitle	TERM:leader;7	NP:community leader, Iyal al-Ashouri;10
+MISSED	CLASS:religion	TERM:christian;5	NP:Christian community leader, Iyal al-Ashouri;10
+Extraction Info
+Tag: leader has tag jobTitle	Dependency Hops:	Single Hops nsubj(accused-12, leader-7) conj_and(Warduni-2, leader-7) nn(leader-7, community-6) amod(leader-7, Christian-5) det(leader-7, a-4) 	Double Hops List(amod(leader-7, Christian-5), det(leader-7, a-4)) List(nn(leader-7, community-6), det(leader-7, a-4)) List(conj_and(Warduni-2, leader-7), det(leader-7, a-4)) List(nsubj(accused-12, leader-7), det(leader-7, a-4)) 
+Tag: iraqi has tag nationality	Dependency Hops:	Single Hops amod(government-15, Iraqi-14) 	Double Hops List(det(government-15, the-13), amod(government-15, Iraqi-14)) List(dobj(accused-12, government-15), amod(government-15, Iraqi-14)) List(appos(government-15, Ministry-19), amod(government-15, Iraqi-14)) List(prepc_of(government-15, belittling-24), amod(government-15, Iraqi-14)) 
+Tag: christian has tag religion	Dependency Hops:	Single Hops amod(leader-7, Christian-5) 	Double Hops List(det(leader-7, a-4), amod(leader-7, Christian-5)) List(nn(leader-7, community-6), amod(leader-7, Christian-5)) List(conj_and(Warduni-2, leader-7), amod(leader-7, Christian-5)) List(nsubj(accused-12, leader-7), amod(leader-7, Christian-5)) 
+
+Sentence:	He raised money from wealthy Americans, including Henry Luce, the founder of Time and Life magazines, and in 1919 founded and served as president of Yenching University, a Christian institution whose idyllic campus now is the site of Peking University.
+Expected:	CLASS:religion	TERM:christian;33	NP:Yenching University, a Christian institution;34
+Actual:	CLASS:religion	TERM:christian;33	NP:a Christian institution;34;Incorrect	
+MISSED	CLASS:religion	TERM:christian;33	NP:Yenching University, a Christian institution;34
+Extraction Info
+Tag: president has tag jobTitle	Dependency Hops:	Single Hops prep_of(president-27, University-30) prep_as(founded-23, president-27) 	Double Hops List(vmod(1919-22, founded-23), prep_as(founded-23, president-27)) List(conj_and(founded-23, served-25), prep_as(founded-23, president-27)) List(prep_of(president-27, University-30), prep_as(founded-23, president-27)) 
+Tag: americans has tag nationality	Dependency Hops:	Single Hops prep_including(Americans-6, Luce-10) prep_from(raised-2, Americans-6) amod(Americans-6, wealthy-5) 	Double Hops List(prep_from(raised-2, Americans-6), amod(Americans-6, wealthy-5)) List(prep_including(Americans-6, Luce-10), amod(Americans-6, wealthy-5)) 
+Tag: christian has tag religion	Dependency Hops:	Single Hops amod(institution-34, Christian-33) 	Double Hops List(det(institution-34, a-32), amod(institution-34, Christian-33)) List(appos(University-30, institution-34), amod(institution-34, Christian-33)) List(poss(campus-37, institution-34), amod(institution-34, Christian-33)) List(rcmod(institution-34, site-41), amod(institution-34, Christian-33)) 
+
+Sentence:	"A change of borders today is not threatening God's sovereignty or God's promises," said Susan Michael, the U.S. director of the International Christian Embassy Jerusalem.
+Expected:	CLASS:nationality	TERM:u.s.;24	NP:Susan Michael, the U.S. director of the International Christian Embassey Jerusalem;31	CLASS:religion	TERM:christian;29	NP:the International Christian Embassy Jerusalem;31
+Actual:	CLASS:nationality	TERM:u.s.;24	NP:the U.S. director;25;Incorrect	CLASS:religion	TERM:christian;29	NP:the International Christian Embassy Jerusalem;31	
+MISSED	CLASS:nationality	TERM:u.s.;24	NP:Susan Michael, the U.S. director of the International Christian Embassey Jerusalem;31
+Extraction Info
+Tag: christian has tag religion	Dependency Hops:	Single Hops nn(Jerusalem-31, Christian-29) 	Double Hops List(det(Jerusalem-31, the-27), nn(Jerusalem-31, Christian-29)) List(nn(Jerusalem-31, International-28), nn(Jerusalem-31, Christian-29)) List(nn(Jerusalem-31, Embassy-30), nn(Jerusalem-31, Christian-29)) List(prep_of(director-25, Jerusalem-31), nn(Jerusalem-31, Christian-29)) 
+Tag: u.s. has tag nationality	Dependency Hops:	Single Hops nn(director-25, U.S.-24) 	Double Hops List(det(director-25, the-23), nn(director-25, U.S.-24)) List(appos(Michael-21, director-25), nn(director-25, U.S.-24)) List(prep_of(director-25, Jerusalem-31), nn(director-25, U.S.-24)) 
+
+
+Total Results
+Correct: 15	Incorrect: 5	Missing: 11
+Precision: 0.750	Recall: 0.577
+
