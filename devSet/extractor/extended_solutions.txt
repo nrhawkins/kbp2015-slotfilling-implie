@@ -34,7 +34,7 @@ CLASS:jobTitle	TERM:president;12	NP:Hu, Chinese President;12|Hu, Chinese Preside
 CLASS:jobTitle	TERM:president;2	NP:President Hu;3|Chinese President Hu;3	CLASS:nationality	TERM:chinese;1	NP:Chinese President Hu;3
 CLASS:jobTitle	TERM:president;12	NP:President Hu;13|Chinese President Hu;13|recently elected Chinese President Hu;13	CLASS:nationality	TERM:chinese;11	NP:Chinese President Hu;13|recently elected Chinese President Hu;13
 CLASS:jobTitle	TERM:president;13	NP:Hu, the Chinese President;13|Hu, the Chinese President, who was recently elected;18	CLASS:nationality	TERM:chinese;12	NP:Hu, the Chinese President;13|Hu, the Chinese President, who was recently elected;18
-CLASS:nationality	TERM:west indian;31	NP:West Indian immigrant;31|Daniel Peterson, a West Indian;30|Daniel Peterson, a West Indian immigrant;31
+CLASS:nationality	TERM:west indian;31	NP:West Indian immigrant;31|Daniel Peterson, a West Indian;31|Daniel Peterson, a West Indian immigrant;31
 CLASS:nationality	TERM:west indian;27	NP:West Indian immigrant Daniel Peterson;30
 CLASS:nationality	TERM:west indian;15	NP:Daniel Peterson, a West Indian immigrant from the 1890s;19|Daniel Peterson, a West Indian immigrant;16|Daniel Peterson, a West Indian;33
 CLASS:nationality	TERM:west indian;33	NP:Daniel Peterson, a newly immigrated West Indian immigrant;34|Daniel Peterson, a newly immigrated West Indian;33
