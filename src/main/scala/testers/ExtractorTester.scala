@@ -4,7 +4,7 @@ import java.io.PrintWriter
 
 import com.typesafe.config.ConfigFactory
 import edu.stanford.nlp.trees.TypedDependency
-import extractor.{IndexedString, NounToNounRelation, NounToNounRelationExtractor}
+import extractor.{TagInfo, IndexedString, NounToNounRelation, NounToNounRelationExtractor}
 import org.joda.time.DateTime
 
 import scala.collection.mutable
@@ -187,7 +187,7 @@ object ExtractorTester {
   }
 
   private def extractionInfo(src: String): String = {
-    def printHops(map: Map[extractor.TagInfo, List[List[TypedDependency]]], builder: StringBuilder) {
+    def printHops(map: Map[TagInfo, List[List[TypedDependency]]], builder: StringBuilder) {
       for ((k, v) <- map) {
         builder.append(s"Tag: ${k.text} has tag ${k.tag}\tDependency Hops:\t")
         for (td <- v) {

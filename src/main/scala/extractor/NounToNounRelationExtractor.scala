@@ -31,18 +31,19 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   private val lemmatizer = MorphaStemmer
 
   private val relationPatterns = constructRelationPatterns(config.getConfigList("relation-patterns").toList)
+  private val tagId = config.getString("tag-id")
 
-  private val nounRelations = config.getStringList("noun-relations").toSet
+  // memo function caches
   private val tagCache = mutable.Map[String, List[Type]]()
   private val parseCache = mutable.Map[String, (Tree, List[TypedDependency])]()
+  private val tokenCache = mutable.Map[String, Seq[ChunkedToken]]()
 
   type Phrase = String
   type TagName = String
   type RelationPattern = Map[String, List[Rule]]
   type IDTable = mutable.Map[String, Set[IndexedString]]
   case class Rule(rel: String, gov: String, dep: String)
-  case class TagInfo(tag: String, text: String, index: Int)
-  case class NounToNounTD(td: TypedDependency, tag: NounToNounRelation)
+  case class NounToNounTDL(tdl: List[TypedDependency], tag: NounToNounRelation)
 
   // Used for tokenizer.
   def process(text: String): sentence.Sentence with Chunked with Lemmatized = {
@@ -62,13 +63,23 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     // Add indices to the tree for the relation identifying phase.
     parse.indexLeaves()
 
-    val processedTdl = processDependencies(tags, tdl)
+    val processedTdl = processDependencies(tags, tdl, tokens)
 
     val results = getNounToNounRelations(parse, processedTdl, tokens, line)
 
     // Add the full sentence to the results.
     results.foreach(nnr => nnr.sentence = line)
     results
+  }
+
+  def getTokens(line: String): Seq[ChunkedToken] = {
+    tokenCache.get(line) match {
+      case None =>
+        val newtokens = tagger.chunker.chunk(line)
+        tokenCache.put(line, newtokens)
+        newtokens
+      case Some(tokens) => tokens
+    }
   }
 
   // Memoized tagger.
@@ -108,7 +119,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
       tags match {
         case Nil => acc
         case (tag :: tail) =>
-          val newacc = acc + ((tag.tokenInterval.end, TagInfo(tag.name, tag.text, tag.tokenInterval.end)))
+          val newacc = acc + ((tag.tokenInterval.end, new TagInfo(tag)))
           tagMapHelper(newacc, tail)
       }
     }
@@ -184,13 +195,14 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
    * Private functions.
    */
 
-  private def getNounToNounRelations(parseTree: Tree, nntdl: List[NounToNounTD], tokens: Seq[ChunkedToken], sentence: String): List[NounToNounRelation] = {
-    nntdl.map(nntd =>
-      new NounToNounRelation(nntd.tag.tag, nntd.td.dep.tag(),
-        getNounPhrase(parseTree, nntd.td, tokens, sentence)))
+  private def getNounToNounRelations(parseTree: Tree, nntdls: List[NounToNounTDL], tokens: Seq[ChunkedToken], sentence: String): List[NounToNounRelation] = {
+    nntdls.map(nntdl =>
+      new NounToNounRelation(nntdl.tag.tag, nntdl.tag.relation,
+        getNounPhrase(parseTree, nntdl.tdl, tokens, sentence)))
+          .filter(nnr => nnr.np != null)
   }
 
-  private def getNounPhrase(tree: Tree, td: TypedDependency, tokenizedSentence: Seq[ChunkedToken], sentence: String): IndexedString = {
+  private def getNounPhrase(tree: Tree, tdl: List[TypedDependency], tokenizedSentence: Seq[ChunkedToken], sentence: String): IndexedString = {
     // Assume that the full tag noun phrase is a child of the noun phrase
     // containing the dep and gov.
     // If incorrect - TO-DO: expand dep to the full phrase.
@@ -216,6 +228,35 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
       }
     }
 
+    // Gets the indexed words that represent the left most and rightmost indices
+    def getLeftAndRight(tdl: List[TypedDependency]): (IndexedWord, IndexedWord) = {
+      tdl.foldLeft(null: IndexedWord, null: IndexedWord)((acc, cur) =>
+        acc match {
+          case (null, null) =>
+            if (cur.dep.index() < cur.gov.index()) {
+              (cur.dep, cur.gov)
+            } else {
+              (cur.gov, cur.dep)
+            }
+          case _ =>
+            val (accleft, accright, curd, curg) = (acc._1, acc._2, cur.dep, cur.gov)
+            List(accleft, accright, curd, curg)
+              .foldLeft((accleft, accright))((acc, cur) => {
+              val left = if (acc._1.index() < cur.index()) {
+                acc._1
+              } else {
+                cur
+              }
+              val right = if (acc._2.index() > cur.index()) {
+                acc._2
+              } else {
+                cur
+              }
+              (left, right)
+            })
+        })
+    }
+
     def phraseTokensFromTree(tree: Tree): List[IndexedString] = {
       val labels = tree.`yield`().map(l => l.toString).toList
       // Only labels of leaf nodes will have a dash.
@@ -227,8 +268,14 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
       })
     }
 
+    if (tdl.size == 0) {
+      return null
+    }
+    // get the leftmost and rightmost terms.
+    val (leftmost, rightmost) = getLeftAndRight(tdl)
+
     // Get root of noun phrase that contains both the dependent and govenor words.
-    val npRoot = getNPRoot(tree, td.dep, td.gov)._1
+    val npRoot = getNPRoot(tree, leftmost, rightmost)._1
 
     // Cut out the appropriate noun phrase from the sentence.
     // Phrase tokens don't have character offsets so get them from the chunked sentence.
@@ -237,156 +284,111 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     val lastChunk = tokenizedSentence(phraseTokens(phraseTokens.size - 1).index - 1)
 
     new IndexedString(
-      sentence.substring(firstChunk.offset, lastChunk.offset + lastChunk.string.length),
+      sentence.substring(firstChunk.offset, lastChunk.offset + lastChunk.string.length).trim(),
       phraseTokens(phraseTokens.size - 1).index)
   }
 
-  // TODO: change the processing so that one tag is done completely at a time.
-  // TODO: so that the tags don't mix with each other.
-  // Processes a single rule set.
-  // Finds all dependencies where the relations match one of the patterns, and
-  // where one of the arguments in the dependency is in the ID Table (ie, expanding).
-  private def processRuleSet(tdl: List[TypedDependency], idTable: IDTable, patterns: RelationPattern): List[TypedDependency] = {
-    // Filters by the relation names.
-    // The relation name must exist in the patterns.
-    def relationFilter(td: TypedDependency) = patterns.keySet.contains(td.reln().getShortName)
-
-    // Filters the the patterns by identifiers.
-    // The ID Table must contain either the gov or the dep, but not both.
-    // ID Table is all known identifiers, starts with just the tags,
-    // then gets updated after processing each rule set.
-    def identifierFilter(td: TypedDependency): Boolean = identifierFilterAndUpdater(td, false)
-
-    def identifierFilterAndUpdater(td: TypedDependency, updateIdTable: Boolean): Boolean = {
-      patterns.get(td.reln().getShortName) match {
-        case Some(rules) =>
-          val dep = td.dep()
-          val gov = td.gov()
-          rules.foldLeft(false)((acc, cur) => {
-            val containsDep = idTable.getOrElse(cur.dep, Set[IndexedString]()).contains(new IndexedString(dep.value().toLowerCase, dep.index()))
-            val containsGov = idTable.getOrElse(cur.gov, Set[IndexedString]()).contains(new IndexedString(gov.value().toLowerCase, gov.index()))
-            val result = (acc || containsDep || containsGov) && !(containsDep && containsGov)
-
-            if (updateIdTable && result) {
-              // Update.  These are sets so we can just add to both!
-              idTable.put(cur.dep, idTable.getOrElse(cur.dep, Set[IndexedString]()) +
-                new IndexedString(dep.value().toLowerCase, dep.index()))
-              idTable.put(cur.gov, idTable.getOrElse(cur.gov, Set[IndexedString]()) +
-                new IndexedString(gov.value().toLowerCase, gov.index()))
-            }
-
-            result
-          })
-        case None => false // Shouldn't happen.
-      }
-    }
-
-    val tdlFiltered = tdl.filter(relationFilter)
-                         .filter(identifierFilter)
-
-    // update identifiers
-    for (td <- tdlFiltered) {
-      identifierFilterAndUpdater(td, true)
-    }
-
-    tdlFiltered
+  def genRelationFilter(relations: Set[String])(td: TypedDependency) = {
+     relations.contains(td.reln().getShortName)
   }
 
-  private def processDependencies(tags: List[Type], tdl: List[TypedDependency]): List[NounToNounTD] = {
+
+  // Givens an id, id value, a list of rules returns a function that checks that a typed dependency
+  // satisfies the rules and identifier constraints.
+  // If satisfied, returns the next step id and idValue.
+  def genIdRuleMap(id: String, idValue: IndexedString, rules: List[Rule], tokens: Seq[ChunkedToken])
+                  (td: TypedDependency): (TypedDependency, String, IndexedString) = {
+    rules.foldLeft(null: (TypedDependency, String, IndexedString))((acc, cur) => {
+      if (acc != null) {
+        return acc
+      }
+      val matchesRelation = td.reln().toString.equals(cur.rel)
+
+      val matchesDep = cur.dep.equals(id) &&
+        tokens(idValue.index - 1).string.equals(td.dep.value()) &&
+        idValue.index == td.dep.index()
+      val matchesGov = cur.gov.equals(id) &&
+        tokens(idValue.index - 1).string.equals(td.gov.value()) &&
+        idValue.index == td.gov.index()
+      val result = matchesRelation && (matchesDep || matchesGov) && !(matchesDep && matchesGov)
+
+      if (result && matchesDep) {
+        (td, cur.gov, new IndexedString(td.gov()))
+      } else if (result && matchesGov) {
+        (td, cur.dep, new IndexedString(td.dep()))
+      } else {
+        null
+      }
+    })
+  }
+
+  // Find relations that match the given id/idValue and satisfy the relation
+  // rules.  Expand each of those relations by the corresponding pattern
+  // and concatenate all the results.
+  def expandByPattern(tdl: List[TypedDependency],
+                      id: String,
+                      idValue: IndexedString,
+                      patterns: RelationPattern,
+                      tokens: Seq[ChunkedToken]): List[TypedDependency] = {
+    // filter by relation
+    // map relations to the next hop id and idval
+    // map to expand pattern on the filtered results
+    // fold to merge
+    val rules = patterns.getOrElse(id, Nil)
+    if (rules == Nil) {
+      return Nil
+    }
+    tdl.map(genIdRuleMap(id, idValue, rules, tokens))
+       .filter(x => x != null)
+       .map(triple => triple._1::expandByPattern(tdl, triple._2, triple._3, patterns, tokens))
+       .fold(Nil: List[TypedDependency])((acc, cur) => cur:::acc)
+  }
+
+  private def processDependencies(tags: List[Type], tdl: List[TypedDependency], tokens: Seq[ChunkedToken]): List[NounToNounTDL] = {
     def constructIdTable(tags: List[Type]): mutable.Map[String, Set[IndexedString]] = {
       // Only put in the last word.
       tags.foldLeft(mutable.Map[String, Set[IndexedString]]())((acc, cur) => {
-        acc.put("term", acc.getOrElse("term", Set[IndexedString]()) + new IndexedString(cur.text.toLowerCase, cur.tokenInterval.end))
+        acc.put(tagId, acc.getOrElse(tagId, Set[IndexedString]()) + new IndexedString(cur.text.toLowerCase, cur.tokenInterval.end))
         acc
       })
     }
-
-    // construct idTable
     val idTable = constructIdTable(tags)
-
-    // process the rules iteratively
-    val resultTdls = relationPatterns.foldLeft(Nil: List[List[TypedDependency]])((acc, relationPattern) => {
-      processRuleSet(tdl, idTable, relationPattern) :: acc
-    })
-
-    // TODO: merge results, by linking dependencies
-    // TODO: remove the flatten
-    // TODO: generalize so that two tagged terms can have a relation
     val tagMap = createTagMap(tags)
 
-    resultTdls.flatten.map(td => {
-      (tagMap.get(td.dep().index), tagMap.get(td.gov().index)) match {
-        case (Some(tag: TagInfo), None) =>
-          td.dep().setTag(tag.tag)
-          NounToNounTD(td,
-            new NounToNounRelation(
-              new IndexedString(tag.text, td.dep().index), tag.tag,
-              new IndexedString("", -1)))
-        case (None, Some(tag: TagInfo)) =>
-          td.gov().setTag(tag.tag)
-          NounToNounTD(td,
-            new NounToNounRelation(
-              new IndexedString(tag.text, td.gov().index), tag.tag,
-              new IndexedString("", -1)))
-        case _ => NounToNounTD(null, null)
+    val tagWords = tdl
+      .map(td => tagMap.getOrElse(td.dep.index, tagMap.getOrElse(td.gov.index, null)))
+      .filter(w => w != null).toSet.toList
+
+    val expansions = tagWords.map(tag =>
+      (tag, expandByPattern(tdl, tagId, tag.asIndexedString, relationPatterns, tokens)))
+
+    expansions.map(pair => {
+        val nnTag = new NounToNounRelation(pair._1.asIndexedString, pair._1.tag,
+          IndexedString.emptyInstance)
+        NounToNounTDL(pair._2, nnTag)
       }
-    }
-    ).filter(td => td.tag != null || td.td != null)
-  }
-
-/*
-
-  private def processDependencies(tags: List[Type], tdl: List[TypedDependency]): List[NounToNounTD] = {
-    filterDependencyByRelations(tagTypedDeps(createTagMap(tags), tdl))
-  }
-
-  private def filterDependencyByRelations(nntdl: List[NounToNounTD]): List[NounToNounTD] = {
-    nntdl.filter(nntd =>
-      nounRelations.contains(nntd.td.reln().getShortName)
     )
   }
 
-  private def tagTypedDeps(tagMap: Map[Int, TagInfo], tdl: List[TypedDependency]): List[NounToNounTD] = {
-    tdl.map(td => {
-      tagMap.get(td.dep().index) match {
-        case Some(tag: TagInfo) =>
-          td.dep().setTag(tag.tag)
-          NounToNounTD(td,
-            new NounToNounRelation(
-              new IndexedString(tag.text, td.dep().index), tag.tag,
-              new IndexedString("", -1)))
-        case _ => NounToNounTD(null, null)
-      }
-    }
-    ).filter(td => td.tag != null || td.td != null)
-  }
-*/
-
-  // Constructs a list of relation patterns given the config object for those patterns.
-  private def constructRelationPatterns(relConfs: List[Config]): List[RelationPattern] = {
+  // Constructs a mapping of relation patterns given the config object for those patterns.
+  private def constructRelationPatterns(relConfs: List[Config]): RelationPattern = {
     def getRuleList(acc: List[Rule], rulesConf: List[Config]): List[Rule] = {
       rulesConf match {
         case Nil => acc
         case head::tail =>
-          val ruleVals = head.getStringList ("rule")
+          val ruleVals = head.getStringList("rule")
           val rule = Rule(ruleVals.get(0), ruleVals.get(1), ruleVals.get(2))
           getRuleList(rule::acc, tail)
       }
     }
 
     relConfs match {
-      case Nil => Nil
+      case Nil => Map[String, List[Rule]]()
       case head::tail =>
         val rulesConf = head.getConfigList("rules").toList
-        val patternMap = getRuleList(Nil, rulesConf)
-          .foldLeft(Map[String, List[Rule]]())((acc, cur) =>
-            acc.get(cur.rel) match {
-              case None =>
-                acc + ((cur.rel, cur::Nil))
-              case Some(xs) =>
-                acc + ((cur.rel, cur::xs))
-            })
-        patternMap::constructRelationPatterns(tail)
+        val expansionId = head.getString("expansion-id")
+        val patterns = getRuleList(Nil, rulesConf)
+        constructRelationPatterns(tail) + ((expansionId, patterns))
     }
   }
 
