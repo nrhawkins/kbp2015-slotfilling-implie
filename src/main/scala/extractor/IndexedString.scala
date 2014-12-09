@@ -1,11 +1,16 @@
 package extractor
 
+import edu.stanford.nlp.ling.IndexedWord
+
+
 /**
  * Created by Gene on 11/21/2014.
  */
 class IndexedString(s: String, i: Int) {
   def string = s
   def index = i
+
+  def this(iWord: IndexedWord) = this(iWord.value().toLowerCase, iWord.index())
 
   override def toString(): String = {
     s"$string-$index"
@@ -14,7 +19,11 @@ class IndexedString(s: String, i: Int) {
   override def hashCode(): Int = string.hashCode() + index.hashCode()
 
   override def equals(other: Any): Boolean = other match {
-    case o: IndexedString => o.index.equals(this.index)
+    case o: IndexedString => o.string.equals(this.string) && o.index.equals(this.index)
     case _ => false
   }
+}
+
+object IndexedString {
+  def emptyInstance = new IndexedString("", -1)
 }
