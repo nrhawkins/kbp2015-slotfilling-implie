@@ -12,6 +12,9 @@ class IndexedString(s: String, i: Int) {
 
   def this(iWord: IndexedWord) = this(iWord.value().toLowerCase, iWord.index())
 
+  def contains(other: IndexedString) =
+    string.contains(other.string) && index >= other.index
+
   override def toString(): String = {
     s"$string-$index"
   }
