@@ -12,7 +12,7 @@ CLASS:nationality	TERM:persian;38	NP:Persian Emperor Xerxes;40	TERM:brazil;42	NP
 CLASS:nationality	TERM:persian;24	NP:Persian calligraphy;25
 CLASS:jobTitle	TERM:president;22	NP:President Bush;23	CLASS:nationality	TERM:persian;8	NP:Persian Gulf War;10
 CLASS:religion	TERM:mormon;27	NP:a Mormon -- Mitt Romney;30
-CLASS:religion	TERM:mormon;56	NP:the first Mormon president (Mitt Romney);61
+CLASS:religion	TERM:mormon;56	NP:the first Mormon president (Mitt Romney);61	CLASS:jobTitle	TERM:president;57	NP:the first Mormon president (Mitt Romney);61
 CLASS:religion	TERM:hindu;32	NP:the Hindu festival of Holi;35
 CLASS:religion	TERM:christian;5	NP:Christian community leader, Iyad al-Ashouri;10	CLASS:jobTitle	TERM:leader;7	NP:community leader, Iyad al-Ashouri;10	CLASS:nationality	TERM:iraqi;14	NP:Iraqi government;15
 CLASS:religion	TERM:christian;33	NP:Yenching University, a Christian institution;34

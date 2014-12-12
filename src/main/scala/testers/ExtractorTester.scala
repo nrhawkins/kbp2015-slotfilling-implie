@@ -17,6 +17,20 @@ import scala.io.Source
  *
  * Uses the tagger specified in ModularTaggerTester.
  */
+
+/**
+ * Automatically run and test the NounToNounRelationExtractor.
+ *
+ * Configurations are in extractor-test.conf.  This also relies on some of the
+ * TaggerTester, for running the tagger as part of the extractor.  Its
+ * conigurations are in tagger-tester.conf.
+ * The conf files are in the resources directory.
+ *
+ * The results are written to a file [Joda current Datetime]-tagger-test and
+ * shown on the console.
+ *
+ * @author Gene Kim (genelkim@cs.washington.edu)
+ */
 object ExtractorTester {
   type Tags = Set[(String, Int)]
   type NPs = Set[(String, Int)]
@@ -39,13 +53,18 @@ object ExtractorTester {
     datetime.toString.replace(":", ";") + config.getString("output-file-tail")
 
   def main(args: Array[String]) {
+    val showExtractionInfo = args.length match {
+      case 0 => true
+      case _ => args(0).toBoolean
+    }
+
     val inputs = trimSplit(Source.fromFile(INPUT_FILE).mkString, "\n")
     val solutions = trimSplit(Source.fromFile(SOLUTION_FILE).mkString, "\n").map(constructSolution)
 
     val output = new PrintWriter(OUTPUT_FILE)
 
     val testInfo = new TestInfo[String, ExtractorResult, ExtractorSolution](
-      extractorFunction, inputs, solutions, comparator, output, configHeader())
+      extractorFunction, inputs, solutions, comparator(showExtractionInfo), output, configHeader())
 
     ModularTestRunner.runTests(testInfo)
     output.close()
@@ -111,7 +130,8 @@ object ExtractorTester {
     }) > 0
   }
 
-  private def comparator(comparison: Comparison): (TestResults, String) = {
+  private def comparator(showExtractionInfo: Boolean)
+                        (comparison: Comparison): (TestResults, String) = {
     val result = comparison._1
     val solMap = comparison._2._1
     val source = comparison._1.source
@@ -181,7 +201,9 @@ object ExtractorTester {
       out.append("\n")
     }
 
-    out.append(extractionInfo(source))
+    if (showExtractionInfo) {
+      out.append(extractionInfo(source))
+    }
 
     (counter, out.mkString)
   }
