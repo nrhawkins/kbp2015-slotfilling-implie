@@ -1,0 +1,2 @@
+CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson (an astrophysicist with the American Museum of Natural History);29	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28
+CLASS:nationality	TERM:persian;38	NP:Persian Emperor Xerxes;40	TERM:brazil;42	NP:Brazil's Rodrigo Santoro;45
