@@ -1,7 +1,9 @@
 CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson, an astrophysicist;21	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28
+CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson (an astrophysicist with the American Museum of Natural History);29	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28
 CLASS:jobTitle	TERM:executive deputy chief;6	NP:John Arterberry, executive deputy chief;6
 CLASS:jobTitle	TERM:critic;23	NP:critic Andre Bazin;25	CLASS:nationality	TERM:french;22	NP:French critic Andre Bazin;25
 CLASS:jobTitle	TERM:music teacher;25	NP:Petra Koepke-Eberler, 48, a music teacher;25
+CLASS:jobTitle	TERM:music teacher;26	NP:Petra Koepke-Eberler, 48, once a music teacher;26
 CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7
 CLASS:jobTitle	TERM:president;10	NP:President Hu;11	CLASS:nationality	TERM:chinese;9	NP:Chinese President Hu;11
 CLASS:nationality	TERM:west indian;31	NP:Daniel Peterson, a West Indian;31
