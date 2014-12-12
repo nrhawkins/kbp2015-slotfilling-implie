@@ -19,11 +19,11 @@ CLASS:jobTitle	TERM:critic;22	NP:the critic Andre Bazin;24|the critic Andre Bazi
 CLASS:jobTitle	TERM:music teacher;25	NP:Petra Koepke-Eberler, 48, a music teacher here;25|Petra Koepke-Eberler, 48, a music teacher;24
 CLASS:jobTitle	TERM:music teacher;19	NP:music teacher Petra Koepke-Eberlere;21
 CLASS:jobTitle	TERM:music teacher;21	NP:music teacher, Petra Koepke-Eberler;26|a local music teacher, Petra Koepke-Eberler;26
-CLASS:jobTitle	TERM:music teacher;26	NP:Petra Koepke-Eberler, 48, once a music teacher;26|Petra Koepke-Eberler, 48, once a music teacher here|27
+CLASS:jobTitle	TERM:music teacher;26	NP:Petra Koepke-Eberler, 48, once a music teacher;26|Petra Koepke-Eberler, 48, once a music teacher here;27
 CLASS:jobTitle	TERM:music teacher;8	NP:Petra Koepke-Eberler, 48, a music teacher;8|Petra Koepke-Eberler, 48, a music teacher here;9
 CLASS:jobTitle	TERM:music teacher;6	NP:Petra Koepke-Eberler (a music teacher);7
 CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7
-CLASS:jobTitle	TERM:classical singing teacher;3	NPClassical singing teacher Madame Violetta;5
+CLASS:jobTitle	TERM:classical singing teacher;3	NP:Classical singing teacher Madame Violetta;5
 CLASS:jobTitle	TERM:classical singing teacher;10	NP:Madame Violetta, who recently became a classical singing teacher;10
 CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta, a classical singing teacher;7|Madame Violetta, a classical singing teacher who recently got her job;12
 CLASS:jobTitle	TERM:classical singing teacher;7	NP:Madame Violetta (a classical singing teacher);8
@@ -50,7 +50,7 @@ CLASS:nationality 	TERM:persian;38	NP:Persian Emperor Xerxes;40	CLASS:nationalit
 CLASS:nationality 	TERM:persian;41	NP:Xerxes, a Persian Emperor;42|Xerxes, a Persian;41	CLASS:nationality	TERM:brazil;44	NP:Brazil's Rodrigo Santoro;47
 CLASS:nationality 	TERM:persian;42	NP:Xerxes, a fictional Persian Emperor;43|Xerxes, a fictional Persian;42	CLASS:nationality	TERM:brazil;45	NP:Brazil's Rodrigo Santoro;48
 CLASS:nationality 	TERM:persian;41	NP:Xerxes, a Persian Emperor who is fictional;45|Xerxes, a Persian Emperor;42|Xerxes, a Persian;41	CLASS:nationality	TERM:brazil;47	NP:Brazil's Rodrigo Santoro;50
-CLASS:nationality 	TERM:persian;43	NP:Xerxes, the recently crowned Persian Emperor	CLASS:nationality	TERM:brazil;46	NP:Brazil's Rodrigo Santoro;49
+CLASS:nationality 	TERM:persian;43	NP:Xerxes, the recently crowned Persian Emperor;44	CLASS:nationality	TERM:brazil;46	NP:Brazil's Rodrigo Santoro;49
 CLASS:nationality 	TERM:persian;41	NP:Xerxes, a Persian Emperor, who was recently crowned;47|Xerxes, a Persian Emperor;42|Xerxes, a Persian;41	CLASS:nationality	TERM:brazil;49	NP:Brazil's Rodrigo Santoro;52
 CLASS:nationality	TERM:persian;24	NP:Persian calligraphy;25|Persian calligraphy on the outside walls;29|stylized Persian calligraphy on the outside walls;29|stylized Persian calligraphy;25
 CLASS:nationality	TERM:persian;23	NP:Persian stylized calligraphy;25|Persian stylized calligraphy, on the outside walls;30
