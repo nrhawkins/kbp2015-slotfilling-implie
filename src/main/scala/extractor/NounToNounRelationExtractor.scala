@@ -15,6 +15,7 @@ import edu.stanford.nlp.parser.lexparser.LexicalizedParser
 import edu.stanford.nlp.trees._
 
 import scala.collection.JavaConversions._
+import scala.collection.immutable.StringOps
 import scala.collection.mutable
 
 /**
@@ -30,8 +31,11 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   private val parser = LexicalizedParser.loadModel(PARSER_MODEL)
   private val lemmatizer = MorphaStemmer
 
-  private val relationPatterns = constructRelationPatterns(config.getConfigList("relation-patterns").toList)
+  private val relationPatterns =
+    constructRelationPatterns(config.getConfigList("relation-patterns").toList)
   private val tagId = config.getString("tag-id")
+  private val enclosingPunctuation = constructEnclosingPunctuation(
+    config.getConfigList("enclosing-punctuation").toList)
 
   // memo function caches
   private val tagCache = mutable.Map[String, List[Type]]()
@@ -44,6 +48,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   type IDTable = mutable.Map[String, Set[IndexedString]]
   case class Rule(rel: String, gov: String, dep: String)
   case class NounToNounTDL(tdl: List[TypedDependency], tag: NounToNounRelation)
+  case class EnclosingPunctuation(open: String, close: String)
 
   // Used for tokenizer.
   def process(text: String): sentence.Sentence with Chunked with Lemmatized = {
@@ -257,17 +262,6 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
         })
     }
 
-    def phraseTokensFromTree(tree: Tree): List[IndexedString] = {
-      val labels = tree.`yield`().map(l => l.toString).toList
-      // Only labels of leaf nodes will have a dash.
-      // All others will be a name for a phrase type.
-      labels.filter(l => l.contains("-"))
-        .map(l => {
-        val (string, negIndex) = l.splitAt(l.lastIndexOf('-'))
-        new IndexedString(string, 0 - negIndex.toInt)
-      })
-    }
-
     if (tdl.size == 0) {
       return null
     }
@@ -283,9 +277,76 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     val firstChunk = tokenizedSentence(phraseTokens(0).index - 1)
     val lastChunk = tokenizedSentence(phraseTokens(phraseTokens.size - 1).index - 1)
 
+    val (startIndex, endIndex, wordIndex) = extendToEnclosePunctuation(
+      tree, sentence, firstChunk.offset, lastChunk.offset + lastChunk.string.length,
+      phraseTokens(0).index, phraseTokens(phraseTokens.size - 1).index, enclosingPunctuation)
+
     new IndexedString(
-      sentence.substring(firstChunk.offset, lastChunk.offset + lastChunk.string.length).trim(),
-      phraseTokens(phraseTokens.size - 1).index)
+      sentence.substring(startIndex, endIndex), wordIndex)
+  }
+
+  def phraseTokensFromTree(tree: Tree): List[IndexedString] = {
+    val labels = tree.`yield`().map(l => l.toString).toList
+    // Only labels of leaf nodes will have a dash.
+    // All others will be a name for a phrase type.
+    labels.filter(l => l.contains("-"))
+      .map(l => {
+      val (string, negIndex) = l.splitAt(l.lastIndexOf('-'))
+      new IndexedString(string, 0 - negIndex.toInt)
+    })
+  }
+
+  /**
+   * Determines the new offsets after extending the string extraction window
+   * to close any open paired punctuation.  The specified punctuation to do this
+   * is specified in extractor.conf in the field "enclosing-punctuation".
+   *
+   * @param tree Tree parse of the entire sentence.
+   * @param sentence Entire source sentence string.
+   * @param start Current starting character index of the extraction window. (inclusive)
+   * @param end Current ending character index of the extraction window. (exclusive)
+   * @param firstWordIndex Current starting parse index of the extraction window.
+   * @param lastWordIndex Current ending parse index of the extraction window.
+   * @param punct List of punctuation to handle, (specified in config).
+   * @return A triple of ints.  Th first and second are the character offsets
+   *         of the sentence for extracting the phrase after extending to
+   *         close all open punctuation.  The third is the parse index, which
+   *         needs to be added to NounToNounRelations.
+   */
+  def extendToEnclosePunctuation(tree: Tree, sentence: String, start: Int, end: Int,
+                                 firstWordIndex: Int, lastWordIndex: Int,
+                                 punct: List[EnclosingPunctuation]): (Int, Int, Int) = {
+    val tokens = phraseTokensFromTree(tree)
+    val chunks = getTokens(sentence) // token chunks
+    punct.foldLeft(start, end, lastWordIndex)((punctAcc, punctCur) => {
+      val lastOpen = tokens.lastIndexWhere(t => t.string.contains(punctCur.open), lastWordIndex)
+      val lastClose = tokens.lastIndexWhere(t => t.string.contains(punctCur.close), lastWordIndex)
+      lastOpen > lastClose && lastOpen >= firstWordIndex match {
+        case true =>
+          val newLastWordIndex = tokens.indexWhere(t => t.string.contains(punctCur.close), lastWordIndex + 1)
+          if (newLastWordIndex <= punctAcc._3) {
+            return punctAcc
+          }
+          val newLastCharIndex = chunks(newLastWordIndex).offset +
+            chunks(newLastWordIndex).string.length
+          (punctAcc._1, newLastCharIndex, newLastWordIndex + 1)
+        case false => punctAcc
+      }
+    })
+
+    // We won't handle nested enclosed punctuation, because that will likely overgeneralize.
+    // Just extend to the right
+/*
+    punct.foldLeft(start, end)((acc, cur) => {
+      val strOps = new StringOps(src)
+      val newend =
+        if (strOps.lastIndexOf(cur.open, end - 1) >
+            strOps.lastIndexOf(cur.close, end - 1)) {
+          strOps.indexOf(cur.close, end) + 1
+        } else { end }
+      (start, Math.max(acc._2, newend))
+    })
+*/
   }
 
   def genRelationFilter(relations: Set[String])(td: TypedDependency) = {
@@ -390,6 +451,11 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
         val patterns = getRuleList(Nil, rulesConf)
         constructRelationPatterns(tail) + ((expansionId, patterns))
     }
+  }
+
+  // Constructs a list of enclosing punctuation from the given config.
+  private def constructEnclosingPunctuation(punctConfs: List[Config]): List[EnclosingPunctuation] = {
+    punctConfs.map(pc => EnclosingPunctuation(pc.getString("open"), pc.getString("close")))
   }
 
   /**
