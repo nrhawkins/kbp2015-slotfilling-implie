@@ -1,1 +1,0 @@
-CLASS:nationality	TERM:u.s.;24	NP:Susan Michael, the U.S. director of the International Christian Embassy Jerusalem;31	CLASS:religion	TERM:christian;29	NP:the International Christian Embassy Jerusalem;31
