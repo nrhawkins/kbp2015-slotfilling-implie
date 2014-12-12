@@ -38,20 +38,29 @@ object ExtractorTester {
   val OUTPUT_FILE = config.getString("output-dir") +
     datetime.toString.replace(":", ";") + config.getString("output-file-tail")
 
+  // Messages
+  val PREPARE_MSG = "Preparing tests"
+  val RUN_MSG = "Running tests"
+
   def main(args: Array[String]) {
+    val output = new PrintWriter(OUTPUT_FILE)
+//    val print = ModularTestRunner.printMsg_(output)
+//    print(PREPARE_MSG)
+
     val inputs = trimSplit(Source.fromFile(INPUT_FILE).mkString, "\n")
     val solutions = trimSplit(Source.fromFile(SOLUTION_FILE).mkString, "\n").map(constructSolution)
-
-    val output = new PrintWriter(OUTPUT_FILE)
 
     val testInfo = new TestInfo[String, ExtractorResult, ExtractorSolution](
       extractorFunction, inputs, solutions, comparator, output, configHeader())
 
+//    print(RUN_MSG)
     ModularTestRunner.runTests(testInfo)
     output.close()
 
     println(Source.fromFile(OUTPUT_FILE).mkString)
   }
+
+
 
   private def extractorFunction(line: String): ExtractorResult = {
     val relations = extractor.extractRelations(line)
@@ -84,6 +93,10 @@ object ExtractorTester {
       val solutionSets = solMap.getOrElse(clas, mutable.Set[SingleSolutionSets]())
       for (termStr <- termStrs.tail) {
         val tokens = trimSplit(termStr, "NP:")
+
+        if (tokens.size != 2) {
+          println(tokens)
+        }
         assert(tokens.size == 2) // one with the term info, other with the NP info
         val termString = tokens(0)
         val npString = tokens(1)
