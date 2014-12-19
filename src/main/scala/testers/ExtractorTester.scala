@@ -52,11 +52,31 @@ object ExtractorTester {
   val OUTPUT_FILE = config.getString("output-dir") +
     datetime.toString.replace(":", ";") + config.getString("output-file-tail")
 
+  type OptionMap = Map[Symbol, Any]
+  val usage =
+    """
+      |Usage: ExtractorTester [--verbose] [--tag-info bool]
+    """.stripMargin
+
   def main(args: Array[String]) {
-    val showExtractionInfo = args.length match {
-      case 0 => true
-      case _ => args(0).toBoolean
+    // TODO: Add flexible command line arguments (https://github.com/scopt/scopt)
+    // TODO: Add command line vars to the config header
+    // Basic command line arg support
+    val arglist = args.toList
+    val defaultOptions = Map('verbose -> false, 'taginfo -> true)
+    def nextOption(map: OptionMap, list: List[String]): OptionMap = {
+      list match {
+        case Nil => map
+        case ("--verbose" | "-v") :: tail =>
+          nextOption(map ++ Map('verbose -> true), tail)
+        case ("--tag-info" | "-ti") :: value :: tail =>
+          nextOption(map ++ Map('taginfo -> value.toBoolean), tail)
+        case option :: tail =>
+          println("Unknown option "+option)
+          sys.exit(1)
+      }
     }
+    val options = nextOption(defaultOptions, arglist)
 
     val inputs = trimSplit(Source.fromFile(INPUT_FILE).mkString, "\n")
     val solutions = trimSplit(Source.fromFile(SOLUTION_FILE).mkString, "\n").map(constructSolution)
@@ -64,7 +84,9 @@ object ExtractorTester {
     val output = new PrintWriter(OUTPUT_FILE)
 
     val testInfo = new TestInfo[String, ExtractorResult, ExtractorSolution](
-      extractorFunction, inputs, solutions, comparator(showExtractionInfo), output, configHeader())
+      extractorFunction, inputs, solutions,
+      comparator(options),
+      output, configHeader())
 
     ModularTestRunner.runTests(testInfo)
     output.close()
@@ -130,7 +152,7 @@ object ExtractorTester {
     }) > 0
   }
 
-  private def comparator(showExtractionInfo: Boolean)
+  private def comparator(options: OptionMap)
                         (comparison: Comparison): (TestResults, String) = {
     val result = comparison._1
     val solMap = comparison._2._1
@@ -138,21 +160,23 @@ object ExtractorTester {
     val out = mutable.StringBuilder.newBuilder
     val counter = new TestResults()
 
+    // Flags
+    val verbose = options.getOrElse('verbose, false).asInstanceOf[Boolean]
+    val showTagInfo = options.getOrElse('taginfo, true).asInstanceOf[Boolean]
+
     out.append(s"Sentence:\t${comparison._1.source}\n")
     out.append(s"Expected:\t${comparison._2._2}\n")
-    // Two tabs to line up with the others.
     out.append(s"Actual:\t")
     if (result.relations.length != 0) {
       val relationsByClass = result.relations.sortBy(t => t.relation)
-      for (rel <- relationsByClass) {
-        rel.tag = new IndexedString(rel.tag.string.toLowerCase, rel.tag.index)
-      }
 
-      var curClass = ""
+      // Make all the tags lowercase for comparison
+      relationsByClass.foreach(rel =>
+        rel.tag = new IndexedString(rel.tag.string.toLowerCase, rel.tag.index))
+
       for (relation <- relationsByClass) {
-        out.append(s"CLASS:${relation.relation}\t")
-
-        out.append(s"TERM:${relation.tag.string};${relation.tag.index}\t" +
+        out.append(s"CLASS:${relation.relation}\t" +
+          s"TERM:${relation.tag.string};${relation.tag.index}\t" +
           s"NP:${relation.np.string};${relation.np.index}")
         val solutionSets = solMap.getOrElse(relation.relation, mutable.Set())
         val matching = solutionSets.filter(solution =>
@@ -170,8 +194,10 @@ object ExtractorTester {
           case _ =>
             out.append(s"\nMultiple matching terms!?  Sets with matches: $matching, " +
               s"Term: ${relation.tag.string}, ${relation.tag.index} " +
-              s"NP: ${relation.np.string}, ${relation.np.index}\n")
-
+              s"NP: ${relation.np.string}, ${relation.np.index}")
+        }
+        if (verbose) {
+          out.append(s"TRACE: ${relation.relationTrace}\t")
         }
       }
       out.append("\n")
@@ -201,7 +227,7 @@ object ExtractorTester {
       out.append("\n")
     }
 
-    if (showExtractionInfo) {
+    if (showTagInfo) {
       out.append(extractionInfo(source))
     }
 

@@ -68,8 +68,10 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     // Add indices to the tree for the relation identifying phase.
     parse.indexLeaves()
 
+    // Raw extractions in terms of typed dependency lists
     val processedTdl = processDependencies(tags, tdl, tokens)
 
+    // Refined results as noun to noun relations
     val results = getNounToNounRelations(parse, processedTdl, tokens, line)
 
     // Add the full sentence to the results.
@@ -203,7 +205,8 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   private def getNounToNounRelations(parseTree: Tree, nntdls: List[NounToNounTDL], tokens: Seq[ChunkedToken], sentence: String): List[NounToNounRelation] = {
     nntdls.map(nntdl =>
       new NounToNounRelation(nntdl.tag.tag, nntdl.tag.relation,
-        getNounPhrase(parseTree, nntdl.tdl, tokens, sentence)))
+        getNounPhrase(parseTree, nntdl.tdl, tokens, sentence),
+        nntdl.tag.sentence, nntdl.tag.relationTrace))
           .filter(nnr => nnr.np != null)
   }
 
@@ -405,7 +408,8 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
        .fold(Nil: List[TypedDependency])((acc, cur) => cur:::acc)
   }
 
-  private def processDependencies(tags: List[Type], tdl: List[TypedDependency], tokens: Seq[ChunkedToken]): List[NounToNounTDL] = {
+  private def processDependencies(tags: List[Type], tdl: List[TypedDependency],
+                                  tokens: Seq[ChunkedToken]): List[NounToNounTDL] = {
     def constructIdTable(tags: List[Type]): mutable.Map[String, Set[IndexedString]] = {
       // Only put in the last word.
       tags.foldLeft(mutable.Map[String, Set[IndexedString]]())((acc, cur) => {
@@ -425,7 +429,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
 
     expansions.map(pair => {
         val nnTag = new NounToNounRelation(pair._1.asIndexedString, pair._1.tag,
-          IndexedString.emptyInstance)
+          IndexedString.emptyInstance, "", pair._2)
         NounToNounTDL(pair._2, nnTag)
       }
     )
