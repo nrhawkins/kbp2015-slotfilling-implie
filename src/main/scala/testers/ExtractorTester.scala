@@ -3,7 +3,7 @@ package testers
 import java.io.PrintWriter
 
 import com.typesafe.config.ConfigFactory
-import edu.stanford.nlp.trees.TypedDependency
+import edu.stanford.nlp.trees.{TreePrint, TypedDependency}
 import extractor.{TagInfo, IndexedString, NounToNounRelation, NounToNounRelationExtractor}
 import org.joda.time.DateTime
 
@@ -55,7 +55,7 @@ object ExtractorTester {
   type OptionMap = Map[Symbol, Any]
   val usage =
     """
-      |Usage: ExtractorTester [--verbose] [--tag-info bool]
+      |Usage: ExtractorTester [--verbose | -v] [--tag-info | -ti bool] [-show-trace | -t]
     """.stripMargin
 
   def main(args: Array[String]) {
@@ -63,7 +63,8 @@ object ExtractorTester {
     // TODO: Add command line vars to the config header
     // Basic command line arg support
     val arglist = args.toList
-    val defaultOptions = Map('verbose -> false, 'taginfo -> true)
+    val defaultOptions =
+      Map('verbose -> false, 'taginfo -> true, 'showtrace -> false)
     def nextOption(map: OptionMap, list: List[String]): OptionMap = {
       list match {
         case Nil => map
@@ -71,8 +72,11 @@ object ExtractorTester {
           nextOption(map ++ Map('verbose -> true), tail)
         case ("--tag-info" | "-ti") :: value :: tail =>
           nextOption(map ++ Map('taginfo -> value.toBoolean), tail)
+        case ("--show-trace" | "-t") :: tail =>
+          nextOption(map ++ Map('showtrace -> true), tail)
         case option :: tail =>
           println("Unknown option "+option)
+          println(usage)
           sys.exit(1)
       }
     }
@@ -163,6 +167,7 @@ object ExtractorTester {
     // Flags
     val verbose = options.getOrElse('verbose, false).asInstanceOf[Boolean]
     val showTagInfo = options.getOrElse('taginfo, true).asInstanceOf[Boolean]
+    val showTrace = options.getOrElse('showTrace, false).asInstanceOf[Boolean]
 
     out.append(s"Sentence:\t${comparison._1.source}\n")
     out.append(s"Expected:\t${comparison._2._2}\n")
@@ -196,7 +201,7 @@ object ExtractorTester {
               s"Term: ${relation.tag.string}, ${relation.tag.index} " +
               s"NP: ${relation.np.string}, ${relation.np.index}")
         }
-        if (verbose) {
+        if (showTrace) {
           out.append(s"TRACE: ${relation.relationTrace}\t")
         }
       }
@@ -228,10 +233,26 @@ object ExtractorTester {
     }
 
     if (showTagInfo) {
+      // Print the relation hops for each tag.
       out.append(extractionInfo(source))
     }
 
+    if (verbose) {
+      out.append(verboseOutput(source))
+    }
+
     (counter, out.mkString)
+  }
+
+  private def verboseOutput(src: String) = {
+    // Parse tree + dependency list
+    val parse = extractor.getParse(src)
+    val builder = new mutable.StringBuilder
+    builder.append(parse._1.pennString())
+    for (td <- parse._2) {
+      builder.append(td + "\n")
+    }
+    builder.mkString
   }
 
   private def extractionInfo(src: String): String = {
