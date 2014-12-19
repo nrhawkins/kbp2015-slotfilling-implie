@@ -1,2 +1,1 @@
-CLASS:jobTitle	TERM:astrophysicist;21	NP:Neil deGrasse Tyson (an astrophysicist with the American Museum of Natural History);29	CLASS:nationality	TERM:american;24	NP:American Museum of Natural History;28
-CLASS:nationality	TERM:persian;38	NP:Persian Emperor Xerxes;40	TERM:brazil;42	NP:Brazil's Rodrigo Santoro;45
+CLASS:religion	TERM:christian;5	NP:Christian community leader, Iyad al-Ashouri;10	CLASS:jobTitle	TERM:leader;7	NP:community leader, Iyad al-Ashouri;10	CLASS:nationality	TERM:iraqi;14	NP:Iraqi government;15

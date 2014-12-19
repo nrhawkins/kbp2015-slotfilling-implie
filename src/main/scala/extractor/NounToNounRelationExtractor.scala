@@ -156,7 +156,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
           cur.head.gov().index() == td.dep().index() ||
           cur.head.gov().index() == td.gov().index()) &&
           !cur.contains(td)
-      ).map(td => td::cur)
+      ).map(td => td::cur):::acc
     )
   }
 
