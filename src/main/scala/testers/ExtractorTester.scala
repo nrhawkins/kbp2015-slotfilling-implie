@@ -83,7 +83,8 @@ object ExtractorTester {
     val options = nextOption(defaultOptions, arglist)
 
     val inputs = trimSplit(Source.fromFile(INPUT_FILE).mkString, "\n")
-    val solutions = trimSplit(Source.fromFile(SOLUTION_FILE).mkString, "\n").map(constructSolution)
+    val solutions = trimSplit(Source.fromFile(SOLUTION_FILE).mkString, "\n")
+      .map(constructSolution)
 
     val output = new PrintWriter(OUTPUT_FILE)
 
@@ -167,7 +168,7 @@ object ExtractorTester {
     // Flags
     val verbose = options.getOrElse('verbose, false).asInstanceOf[Boolean]
     val showTagInfo = options.getOrElse('taginfo, true).asInstanceOf[Boolean]
-    val showTrace = options.getOrElse('showTrace, false).asInstanceOf[Boolean]
+    val showTrace = options.getOrElse('showtrace, false).asInstanceOf[Boolean]
 
     out.append(s"Sentence:\t${comparison._1.source}\n")
     out.append(s"Expected:\t${comparison._2._2}\n")
