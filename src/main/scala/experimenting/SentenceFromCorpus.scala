@@ -16,12 +16,12 @@ import scala.collection.JavaConversions._
 object SentenceFromCorpus {
 
   // TODO: put stuff in config
-  val indir = "random-files/"
+  val indir = "tac_development/random-1000/sources/"
 //  val infile = s"${indir}AFP_ENG_20080920.0463.LDC2009T13.sgm"
   val infile= s"${indir}NYT_ENG_20070305.0050.LDC2009T13.sgm"
 
-  val outdir = "random-files-out/data/10wb/"
-  val outfile = s"${outdir}http-split.text"
+//  val outdir = "random-files-out/data/10wb/"
+//  val outfile = s"${outdir}http-split.text"
 
   val ltf: LexedTokenFactory[CoreLabel] = new CoreLabelTokenFactory(true)
   val options: String = "invertible=true,ptb3Escaping=true"
