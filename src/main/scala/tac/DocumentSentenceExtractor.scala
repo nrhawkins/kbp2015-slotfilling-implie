@@ -19,7 +19,6 @@ class DocumentSentenceExtractor(options: String = "invertible=true,ptb3Escaping=
     val textonly = HtmlUtils.removeHtml(document)
 
     // NOTE: Mostly copied from KBPOpenIE2013, with adjustments for Scala.
-    // TODO: put this into its own class and method (DocumentSentenceExtractor)
     val paragraphs = textonly.split("\n").filter(s => s.trim != "")
     paragraphs.foldLeft(Nil: List[String])((acc, paragraph) => {
       // Clean up for htmls, urls, emails, etc (Xiao), [edited by Gene]
@@ -37,8 +36,8 @@ class DocumentSentenceExtractor(options: String = "invertible=true,ptb3Escaping=
 
       val snts = sentenceProcessor.process(l).toList.map(snt => par.substring(
         snt(0).beginPosition(), snt.get(snt.size() - 1).endPosition()))
-      snts ::: acc
-    })
+      snts.reverse ::: acc
+    }).reverse
   }
 
   val whitespace_chars: String = "" +

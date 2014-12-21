@@ -12,24 +12,31 @@ import scala.io.Source
  * Created by Gene on 12/21/2014.
  */
 object TACDevelopmentRelationExtractor {
+
+  // TODO: add exit method that cleans up files in case of failure.
+  // TODO: add all of the class files into the tagger.  Make a separate test tagger and default tagger so
+  // that the tests don't start failing.
   case class InputLine(index: Int, file: String, sentence: String)
 
   val config = ConfigFactory.load("tac-extractor.conf")
   val resultDir = config.getString("result-dir")
   val sentenceDir = config.getString("sentence-dir")
   val seqFilename = config.getString("sequence-file")
-  val seq = getSeqNum(seqFilename)
+  // Use the fact that the current sequence number should be 1 greater than
+  // the most recently generated sentence file.
+  val seq = getSeqNum(seqFilename) - 1
 
   def main(args: Array[String]) {
-    val relationExtractor =
-      new NounToNounRelationExtractor(TaggerLoader.defaultTagger)
-
     val inputLines = input
     val out = output
 
+    val relationExtractor =
+      new NounToNounRelationExtractor(TaggerLoader.defaultTagger)
+
     for (inputLine <- inputLines) {
       val extraction = relationExtractor.extractRelations(inputLine.sentence)
-      out.println(s"${inputLine.index}\t${inputLine.file}\t$extraction")
+      out.println(s"${inputLine.index}\t${inputLine.file}\t$extraction" +
+        s"\t${inputLine.sentence}")
     }
 
     out.close()
@@ -42,7 +49,7 @@ object TACDevelopmentRelationExtractor {
 
     // Check if the file exists.
     if (!Files.exists(Paths.get(filename))) {
-      System.out.println(s"Sentence file doesn't exist!  " +
+      System.out.println(s"Sentence file $filename doesn't exist!  " +
         s"Please run the TACDevelopmentSentenceExtractor first, " +
         s"or check that the sequence number in $seqFilename is correct.\n" +
         s"Exiting...")
@@ -52,7 +59,7 @@ object TACDevelopmentRelationExtractor {
     // TODO: put the delimiter in config
     Source.fromFile(filename).getLines().map(line => {
       val tokens = line.trim.split("\t")
-      InputLine(tokens(0).asInstanceOf[Int], tokens(1), tokens(2))
+      InputLine(tokens(0).toInt, tokens(1), tokens(2))
     })
   }
 
@@ -61,7 +68,7 @@ object TACDevelopmentRelationExtractor {
 
     // Check if the file exists.
     if (Files.exists(Paths.get(filename))) {
-      System.out.println(s"Sentence file already exists!  " +
+      System.out.println(s"Result file $filename already exists!  " +
         s"Please set the number in $seqFilename to a non conflicting " +
         s"sequence number.\nExiting...")
       sys.exit(1)
@@ -75,5 +82,5 @@ object TACDevelopmentRelationExtractor {
   // We know that the sentence num is incremented after the sentence extractor,
   // so we take one less than what is recorded there.
   def getSeqNum(sequenceFile: String) = Source.fromFile(sequenceFile)
-    .getLines().next().trim.asInstanceOf[Int]
+    .getLines().next().trim.toInt
 }
