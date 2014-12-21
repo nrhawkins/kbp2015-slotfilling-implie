@@ -17,5 +17,6 @@ class NounToNounRelation(t: IndexedString, r: String, n: IndexedString,
   var np = n
   var sentence = s
   var relationTrace = rt
-  override def toString: String = s"($tag, $relation, $np), $sentence"
+  override def toString: String = s"($tag, $relation, $np)"
+  def longString: String = s"($tag, $relation, $np), $sentence"
 }
