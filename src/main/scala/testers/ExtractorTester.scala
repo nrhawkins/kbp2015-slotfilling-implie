@@ -60,7 +60,7 @@ object ExtractorTester {
 
   def main(args: Array[String]) {
     // TODO: Add flexible command line arguments (https://github.com/scopt/scopt)
-    // TODO: Add command line vars to the config header
+    // TODO: Add command line args to the config header
     // Basic command line arg support
     val arglist = args.toList
     val defaultOptions =
