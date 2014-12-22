@@ -22,33 +22,28 @@ class TaggerLoader {
 // TODO: reorganize so that the defaults are in one place and the functions
 // can take arguments instead.
 object TaggerLoader {
-  val default_config = ConfigFactory.load("default-tagger.conf")
+  val default_tagger_config = ConfigFactory.load("taggers/default-extractor-tagger.conf")
+  val basic_test_tagger_config = ConfigFactory.load("taggers/basic-test-tagger.conf")
   case class TagClass(name: String, files: List[String])
   case class TaggerResult(tags: List[Type], source: String)
 
   val chunker = new OpenNlpChunker()
-  val defaultTagger = getTagger
+  val defaultTagger = buildTagger(default_tagger_config)
+  val basicTestTagger = buildTagger(basic_test_tagger_config)
 
-  // TODO: put default values here
-  val DEFAULT_TAGGER_TYPE = default_config.getString("tagger-type")
-
-
-  def getClasses: List[TagClass] = {
-    val classes: List[Config] = default_config.getConfigList("classes").toList
-    classes.map(c => TagClass(c.getString("name"), c.getStringList("files").toList))
-  }
-
-  private def taggerFunction(line: String): TaggerResult = {
+  def taggerFunction
+      (tagger: TaggerCollection[Sentence with Chunked with Lemmatized])
+      (line: String): TaggerResult = {
     def process(text: String): Sentence with Chunked with Lemmatized = {
       new Sentence(text) with Chunker with Lemmatizer {
         val chunker = TaggerLoader.chunker
         val lemmatizer = MorphaStemmer
       }
     }
-    TaggerResult(defaultTagger.tag(process(line)).toList, line)
+    TaggerResult(tagger.tag(process(line)).toList, line)
   }
 
-  private def getTagger: TaggerCollection[Sentence with Chunked with Lemmatized] = {
+  private def buildTagger(config: Config): TaggerCollection[Sentence with Chunked with Lemmatized] = {
     /**
      * Builds string with the definitions of class term relation for tagger.
      * @param classes List of class to term list mappings.
@@ -57,7 +52,7 @@ object TaggerLoader {
     def createTaggerDefinition(classes: List[TagClass]): String = {
       val builder = StringBuilder.newBuilder
       for (clas <- classes) {
-        val taggerType = default_config.getString("tagger-type")
+        val taggerType = config.getString("tagger-type")
 
         builder.append(s"${clas.name} := $taggerType {\n")
         for (file <- clas.files) {
@@ -72,6 +67,12 @@ object TaggerLoader {
       }
       builder.mkString
     }
+
+    def getClasses: List[TagClass] = {
+      val classes: List[Config] = config.getConfigList("classes").toList
+      classes.map(c => TagClass(c.getString("name"), c.getStringList("files").toList))
+    }
+
     val taggerPattern = createTaggerDefinition(getClasses)
 
     // Setup structures for representing data.
