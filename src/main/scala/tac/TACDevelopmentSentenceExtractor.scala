@@ -19,8 +19,6 @@ object TACDevelopmentSentenceExtractor {
   val sources = config.getString("source-dir")
   val sentences = config.getString("sentence-dir")
 
-  val outfile = s"${sentences}http-split.text"
-
   def main(args: Array[String]) {
     val filestrs = inputs
     val out = output
@@ -28,8 +26,11 @@ object TACDevelopmentSentenceExtractor {
 
     var index = 0
     for ((filename, filestr) <- filestrs) {
-      for (sentence <- sentenceExtractor.extract(filestr)) {
-        out.println(s"$index\t$filename\t$sentence")
+      for {
+        sentence <- sentenceExtractor.extract(filestr)
+      } {
+        val docid = sentenceExtractor.getDocId(filestr)
+        out.println(s"$index\t$docid\t$sentence")
         index += 1
       }
     }

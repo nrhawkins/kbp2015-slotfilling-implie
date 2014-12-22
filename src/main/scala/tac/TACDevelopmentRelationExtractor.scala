@@ -16,7 +16,7 @@ object TACDevelopmentRelationExtractor {
   // TODO: add exit method that cleans up files in case of failure.
   // TODO: add all of the class files into the tagger.  Make a separate test tagger and default tagger so
   // that the tests don't start failing.
-  case class InputLine(index: Int, file: String, sentence: String)
+  case class InputLine(index: Int, docid: String, sentence: String)
 
   val config = ConfigFactory.load("tac-extractor.conf")
   val resultDir = config.getString("result-dir")
@@ -33,9 +33,15 @@ object TACDevelopmentRelationExtractor {
     val relationExtractor =
       new NounToNounRelationExtractor(TaggerLoader.defaultTagger)
 
-    for (inputLine <- inputLines) {
-      val extraction = relationExtractor.extractRelations(inputLine.sentence)
-      out.println(s"${inputLine.index}\t${inputLine.file}\t$extraction" +
+    var i = 0
+    for {
+      inputLine <- inputLines
+      extraction <- relationExtractor.extractRelations(inputLine.sentence)
+    } {
+      // Current Index, Sentence Index, Docid, Entity(NP), Relation, Slotfill(tag), Sentence
+      out.println(
+        s"$i\t${inputLine.index}\t${inputLine.docid}" +
+        s"\t${extraction.np}\t${extraction.relation}\t${extraction.tag}" +
         s"\t${inputLine.sentence}")
     }
 
