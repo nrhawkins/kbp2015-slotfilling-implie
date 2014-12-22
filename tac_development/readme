@@ -4,7 +4,7 @@ Then we run the extractor on the sentence file and store it in a file in the res
 
 
 The sentence and results file has the same name is prefixed with a sequence number that is stored in the file name "file_sequence_number".
-The sentence file is structured so that each line has the sentence sequence number, source filename, and then the sentence, each separated by a tab.
+The sentence file is structured so that each line has the sentence sequence number, source file docid, and then the sentence, each separated by a tab.
 The results file is structured the same way, but replaces the sentence with the extraction result, which should include the sentence.
 
 get_random_files.sh is used to get the files from the old tac development set.
