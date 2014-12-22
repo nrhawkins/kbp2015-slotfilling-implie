@@ -1,0 +1,9 @@
+DocID	entity	relation	slotfill	sentence
+APW_ENG_20070831.1410				Republican senator will not seek sixth term, offering valuable opportunity to Democrats in US Congress
+APW_ENG_20070831.1410	Republican Senator John Warner of Virginia	jobTitle	Senator	Republican Senator John Warner of Virginia, one of the most authoritative voices in the U.S. Congress on the military and a key figure in the debate over Iraq, said Friday he will not seek a sixth term in 2008.
+APW_ENG_20070831.1410	the U.S. Congress	nationality	U.S.	Republican Senator John Warner of Virginia, one of the most authoritative voices in the U.S. Congress on the military and a key figure in the debate over Iraq, said Friday he will not seek a sixth term in 2008.
+APW_ENG_20070831.1410	U.S. Navy secretary	nationality	U.S.	Warner, 80, has held the seat since 1979, when the dashing former U.S. Navy secretary campaigned alongside his wife at the time, Elizabeth Taylor.
+APW_ENG_20070831.1410				Warner is leaving what would have been a safe seat for the Republicans if he had chosen to run again. 
+APW_ENG_20070831.1410	the U.S. Senate	nationality	U.S.	His departure gives Democrats a better chance to protect or even expand their one-seat majority in the U.S. Senate.
+APW_ENG_20070831.1410	Warner, former chairman of the Senate Armed Services Committee	jobTitle	chairman	Warner, former chairman of the Senate Armed Services Committee, became a respected voice on the Iraq war because of his cautious views and loyalty to President George W. Bush, as well as his expertise on national security issues.
+APW_ENG_20070831.1410	President George W. Bush	jobTitle	President	Warner, former chairman of the Senate Armed Services Committee, became a respected voice on the Iraq war because of his cautious views and loyalty to President George W. Bush, as well as his expertise on national security issues.
