@@ -48,7 +48,7 @@ object TACDevelopmentSentenceExtractor {
     // Get current sequence num and increment.
     val seqFilename = config.getString("sequence-file")
     val seqNum = Source.fromFile(seqFilename)
-      .getLines().next().trim().asInstanceOf[Int]
+      .getLines().next().trim.toInt
     new PrintWriter(seqFilename).append(s"${seqNum + 1}").close()
 
     val filename = sentences + seqNum + "-sentence-file"
