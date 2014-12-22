@@ -43,6 +43,7 @@ object TACDevelopmentRelationExtractor {
         s"$i\t${inputLine.index}\t${inputLine.docid}" +
         s"\t${extraction.np}\t${extraction.relation}\t${extraction.tag}" +
         s"\t${inputLine.sentence}")
+      i += 1
     }
 
     out.close()
