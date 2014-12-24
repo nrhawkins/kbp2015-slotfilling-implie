@@ -33,19 +33,35 @@ object TACDevelopmentRelationExtractor {
     val relationExtractor =
       new NounToNounRelationExtractor(TaggerLoader.defaultTagger)
 
-    var i = 0
-    for {
-      inputLine <- inputLines
-      extraction <- relationExtractor.extractRelations(inputLine.sentence)
-    } {
-      // Current Index, Sentence Index, Docid, Entity(NP), Relation, Slotfill(tag), Sentence
-      out.println(
-        s"$i\t${inputLine.index}\t${inputLine.docid}" +
-        s"\t${extraction.np}\t${extraction.relation}\t${extraction.tag}" +
-        s"\t${inputLine.sentence}")
-      i += 1
-    }
+    // Print the column headers.
+    val columnHeaders = Array("Extraction Index", "Sentence Index", "DocId",
+      "Entity(NP)", "Relation", "Slotfill(tag)", "Sentence")
+    out.println(
+      columnHeaders.tail.foldLeft
+        (columnHeaders.head)
+        ((acc, cur) => acc + s"\t$cur"))
 
+    var i = 0
+    for (inputLine <- inputLines) {
+      val extractions = relationExtractor.extractRelations(inputLine.sentence)
+      if (extractions.length != 0) {
+        for (extraction <- extractions) {
+          // Extraction Index, Sentence Index, Docid, Entity(NP), Relation, Slotfill(tag), Sentence
+          out.println(
+            s"$i\t${inputLine.index}\t${inputLine.docid}" +
+              s"\t${extraction.np}\t${extraction.relation}\t${extraction.tag}" +
+              s"\t${inputLine.sentence}")
+          i += 1
+        }
+      } else {
+        // If no extraction, write NULL for the extraction.
+        out.println(
+          s"$i\t${inputLine.index}\t${inputLine.docid}" +
+            s"\tNULL" +
+            s"\t${inputLine.sentence}")
+        i += 1
+      }
+    }
     out.close()
   }
 
