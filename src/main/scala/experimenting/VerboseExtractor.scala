@@ -12,7 +12,7 @@ import scala.io.Source
  */
 object VerboseExtractor {
   val sentenceFile = "tac_development/small-subset/evaluation/details/sentences.txt"
-  val outputFile = "tac_development/small-subset/evaluation/details/verbose-extractions.txt"
+  val outputFile = "tac_development/small-subset/evaluation/details/verbose-extractions2.txt"
 
   def main(args: Array[String]) {
     val tagger = TaggerLoader.defaultTagger

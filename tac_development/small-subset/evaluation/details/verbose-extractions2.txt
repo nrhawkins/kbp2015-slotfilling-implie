@@ -1,0 +1,545 @@
+On Monday, Nika Gvaramia, Georgia's deputy chief prosecutor, said Okruashvili had retracted his accusations and admitted he made them for political purposes.
+extraction:(georgia-7, province, Nika Gvaramia, Georgia's deputy chief prosecutor,-12)
+	trace:List(poss(prosecutor-11, Georgia-7), appos(Gvaramia-5, prosecutor-11))
+extraction:(deputy chief prosecutor-11, jobTitle, Nika Gvaramia, Georgia's deputy chief prosecutor,-12)
+	trace:List(appos(Gvaramia-5, prosecutor-11), appos(Gvaramia-5, prosecutor-11), appos(Gvaramia-5, prosecutor-11))
+Extraction Info
+Tag: deputy chief prosecutor has tag jobTitle	Dependency Hops:	Single Hops appos(Gvaramia-5, prosecutor-11) amod(prosecutor-11, chief-10) amod(prosecutor-11, deputy-9) poss(prosecutor-11, Georgia-7) 	Double Hops List(amod(prosecutor-11, deputy-9), poss(prosecutor-11, Georgia-7)) List(amod(prosecutor-11, chief-10), poss(prosecutor-11, Georgia-7)) List(appos(Gvaramia-5, prosecutor-11), poss(prosecutor-11, Georgia-7)) List(poss(prosecutor-11, Georgia-7), amod(prosecutor-11, deputy-9)) List(amod(prosecutor-11, chief-10), amod(prosecutor-11, deputy-9)) List(appos(Gvaramia-5, prosecutor-11), amod(prosecutor-11, deputy-9)) List(poss(prosecutor-11, Georgia-7), amod(prosecutor-11, chief-10)) List(amod(prosecutor-11, deputy-9), amod(prosecutor-11, chief-10)) List(appos(Gvaramia-5, prosecutor-11), amod(prosecutor-11, chief-10)) List(nn(Gvaramia-5, Nika-4), appos(Gvaramia-5, prosecutor-11)) List(nsubj(said-13, Gvaramia-5), appos(Gvaramia-5, prosecutor-11)) List(nsubj(admitted-20, Gvaramia-5), appos(Gvaramia-5, prosecutor-11)) List(poss(prosecutor-11, Georgia-7), appos(Gvaramia-5, prosecutor-11)) List(amod(prosecutor-11, deputy-9), appos(Gvaramia-5, prosecutor-11)) List(amod(prosecutor-11, chief-10), appos(Gvaramia-5, prosecutor-11)) 
+Tag: georgia has tag province	Dependency Hops:	Single Hops poss(prosecutor-11, Georgia-7) 	Double Hops List(amod(prosecutor-11, deputy-9), poss(prosecutor-11, Georgia-7)) List(amod(prosecutor-11, chief-10), poss(prosecutor-11, Georgia-7)) List(appos(Gvaramia-5, prosecutor-11), poss(prosecutor-11, Georgia-7)) 
+
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (NNP Monday)))
+    (, ,)
+    (NP
+      (NP (NNP Nika) (NNP Gvaramia))
+      (, ,)
+      (NP
+        (NP (NNP Georgia) (POS 's))
+        (JJ deputy) (JJ chief) (NN prosecutor))
+      (, ,))
+    (VP
+      (VP (VBD said)
+        (SBAR
+          (S
+            (NP (NNP Okruashvili))
+            (VP (VBD had)
+              (VP (VBD retracted)
+                (NP (PRP$ his) (NNS accusations)))))))
+      (CC and)
+      (VP (VBD admitted)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBD made)
+              (NP (PRP them))
+              (PP (IN for)
+                (NP (JJ political) (NNS purposes))))))))
+    (. .)))
+prep_on(said-13, Monday-2)
+nn(Gvaramia-5, Nika-4)
+nsubj(said-13, Gvaramia-5)
+nsubj(admitted-20, Gvaramia-5)
+poss(prosecutor-11, Georgia-7)
+amod(prosecutor-11, deputy-9)
+amod(prosecutor-11, chief-10)
+appos(Gvaramia-5, prosecutor-11)
+root(ROOT-0, said-13)
+nsubj(retracted-16, Okruashvili-14)
+aux(retracted-16, had-15)
+ccomp(said-13, retracted-16)
+poss(accusations-18, his-17)
+dobj(retracted-16, accusations-18)
+conj_and(said-13, admitted-20)
+nsubj(made-22, he-21)
+ccomp(admitted-20, made-22)
+dobj(made-22, them-23)
+amod(purposes-26, political-25)
+prep_for(made-22, purposes-26)
+
+
+Irakly Okruashvili was arrested Sept. 27, the day after he accused President Mikhail Saakashvili of a murder plot and corruption -- allegations Saakashvili dismissed as "unpardonable lies."
+extraction:(president-13, jobTitle, President Mikhail Saakashvili-15)
+	trace:List(nn(Saakashvili-15, President-13))
+Extraction Info
+Tag: president has tag jobTitle	Dependency Hops:	Single Hops nn(Saakashvili-15, President-13) 	Double Hops List(nn(Saakashvili-15, Mikhail-14), nn(Saakashvili-15, President-13)) List(dobj(accused-12, Saakashvili-15), nn(Saakashvili-15, President-13)) List(prep_of(Saakashvili-15, plot-19), nn(Saakashvili-15, President-13)) List(prep_of(Saakashvili-15, corruption-21), nn(Saakashvili-15, President-13)) 
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Irakly) (NNP Okruashvili))
+      (VP (VBD was)
+        (VP
+          (VP (VBN arrested)
+            (NP (NNP Sept.) (CD 27)))
+          (, ,)
+          (NP
+            (NP (DT the) (NN day))
+            (SBAR (IN after)
+              (S
+                (NP (PRP he))
+                (VP (VBD accused)
+                  (NP
+                    (NP (NNP President) (NNP Mikhail) (NNP Saakashvili))
+                    (PP (IN of)
+                      (NP (DT a) (NN murder)
+                        (NX
+                          (NX (NN plot))
+                          (CC and)
+                          (NX (NN corruption)))))))))))))
+    (: --)
+    (S
+      (NP (NNP allegations) (NNP Saakashvili))
+      (VP (VBD dismissed)
+        (SBAR (IN as)
+          (S
+            (NP (NN "unpardonable))
+            (VP (VBZ lies))))))
+    (. .) ('' ")))
+nn(Okruashvili-2, Irakly-1)
+nsubj(arrested-4, Okruashvili-2)
+aux(arrested-4, was-3)
+root(ROOT-0, arrested-4)
+tmod(arrested-4, Sept.-5)
+num(Sept.-5, 27-6)
+det(day-9, the-8)
+dobj(arrested-4, day-9)
+nsubj(accused-12, he-11)
+prepc_after(day-9, accused-12)
+nn(Saakashvili-15, President-13)
+nn(Saakashvili-15, Mikhail-14)
+dobj(accused-12, Saakashvili-15)
+det(plot-19, a-17)
+dep(plot-19, murder-18)
+prep_of(Saakashvili-15, plot-19)
+prep_of(Saakashvili-15, corruption-21)
+conj_and(plot-19, corruption-21)
+nn(Saakashvili-24, allegations-23)
+nsubj(dismissed-25, Saakashvili-24)
+parataxis(arrested-4, dismissed-25)
+mark(lies-28, as-26)
+nsubj(lies-28, "unpardonable-27)
+advcl(dismissed-25, lies-28)
+punct(arrested-4, "-30)
+
+
+A court in the capital, Tbilisi, ruled Monday to free Okruashvili on bail equivalent to US$6 million (euro4.3 million).
+extraction:(tbilisi-7, city, the capital, Tbilisi,-8)
+	trace:List(appos(capital-5, Tbilisi-7), appos(capital-5, Tbilisi-7), appos(capital-5, Tbilisi-7))
+Extraction Info
+Tag: tbilisi has tag city	Dependency Hops:	Single Hops appos(capital-5, Tbilisi-7) 	Double Hops List(det(capital-5, the-4), appos(capital-5, Tbilisi-7)) List(prep_in(court-2, capital-5), appos(capital-5, Tbilisi-7)) 
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN court))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN capital))
+          (, ,)
+          (NP (NNP Tbilisi))
+          (, ,))))
+    (VP (VBD ruled)
+      (NP (NNP Monday))
+      (PP (TO to)
+        (NP (JJ free) (NNP Okruashvili)))
+      (PP (IN on)
+        (NP (NN bail) (NN equivalent)))
+      (PP (TO to)
+        (NP
+          (ADJP
+            (QP ($ US$) (CD 6) (CD million)))
+          (CD () (NNS euro4.3)
+          (QP (CD million) (CD ))))))
+    (. .)))
+det(court-2, A-1)
+nsubj(ruled-9, court-2)
+det(capital-5, the-4)
+prep_in(court-2, capital-5)
+appos(capital-5, Tbilisi-7)
+root(ROOT-0, ruled-9)
+tmod(ruled-9, Monday-10)
+amod(Okruashvili-13, free-12)
+prep_to(ruled-9, Okruashvili-13)
+nn(equivalent-16, bail-15)
+prep_on(ruled-9, equivalent-16)
+amod(euro4.3-22, US$-18)
+number(million-20, 6-19)
+num(US$-18, million-20)
+num(euro4.3-22, (-21)
+prep_to(ruled-9, euro4.3-22)
+number()-24, million-23)
+num(euro4.3-22, )-24)
+
+
+Helene ELLIOTT on the U.S. track and field Olympic trials.
+extraction:(u.s.-5, nationality, the U.S. track and field Olympic trials-10)
+	trace:List(nn(track-6, U.S.-5), conj_and(track-6, trials-10))
+Extraction Info
+Tag: u.s. has tag nationality	Dependency Hops:	Single Hops nn(track-6, U.S.-5) 	Double Hops List(det(track-6, the-4), nn(track-6, U.S.-5)) List(prep_on(ELLIOTT-2, track-6), nn(track-6, U.S.-5)) List(conj_and(track-6, trials-10), nn(track-6, U.S.-5)) 
+
+(ROOT
+  (S
+    (NP (NNP Helene))
+    (VP (VBP ELLIOTT)
+      (PP (IN on)
+        (NP
+          (NP (DT the) (NNP U.S.) (NN track))
+          (CC and)
+          (NP (NN field) (JJ Olympic) (NNS trials)))))
+    (. .)))
+nsubj(ELLIOTT-2, Helene-1)
+root(ROOT-0, ELLIOTT-2)
+det(track-6, the-4)
+nn(track-6, U.S.-5)
+prep_on(ELLIOTT-2, track-6)
+nn(trials-10, field-8)
+amod(trials-10, Olympic-9)
+prep_on(ELLIOTT-2, trials-10)
+conj_and(track-6, trials-10)
+
+
+The Top 10 North American ski resorts as determined by Ski.com: 1.
+extraction:(north american-5, nationality, The Top 10 North American ski-6)
+	trace:List(amod(ski-6, American-5))
+Extraction Info
+Tag: north american has tag nationality	Dependency Hops:	Single Hops amod(ski-6, American-5) 	Double Hops List(det(ski-6, The-1), amod(ski-6, American-5)) List(amod(ski-6, 10-3), amod(ski-6, American-5)) List(nn(ski-6, North-4), amod(ski-6, American-5)) List(nsubj(resorts-7, ski-6), amod(ski-6, American-5)) 
+
+(ROOT
+  (S
+    (NP (DT The)
+      (ADJP (NNP Top) (CD 10))
+      (NNP North) (JJ American) (NN ski))
+    (VP (VBZ resorts)
+      (SBAR (IN as)
+        (SINV
+          (VP (VBN determined)
+            (PP (IN by)
+              (NP (NNP Ski.com))))
+          (: :)
+          (NP (CD 1)))))
+    (. .)))
+det(ski-6, The-1)
+dep(10-3, Top-2)
+amod(ski-6, 10-3)
+nn(ski-6, North-4)
+amod(ski-6, American-5)
+nsubj(resorts-7, ski-6)
+root(ROOT-0, resorts-7)
+dep(determined-9, as-8)
+advcl(resorts-7, determined-9)
+prep_by(determined-9, Ski.com-11)
+dep(determined-9, 1-13)
+
+
+Whistler Blackcomb, British Columbia
+extraction:(whistler-1, city, Whistler Blackcomb, British Columbia-5)
+	trace:List(nn(Blackcomb-2, Whistler-1), appos(Blackcomb-2, Columbia-5), appos(Blackcomb-2, Columbia-5))
+extraction:(british-4, nationality, Whistler Blackcomb, British Columbia-5)
+	trace:List(nn(Columbia-5, British-4), appos(Blackcomb-2, Columbia-5), appos(Blackcomb-2, Columbia-5))
+Extraction Info
+Tag: british has tag nationality	Dependency Hops:	Single Hops nn(Columbia-5, British-4) 	Double Hops List(appos(Blackcomb-2, Columbia-5), nn(Columbia-5, British-4)) 
+Tag: whistler has tag city	Dependency Hops:	Single Hops nn(Blackcomb-2, Whistler-1) 	Double Hops List(root(ROOT-0, Blackcomb-2), nn(Blackcomb-2, Whistler-1)) List(appos(Blackcomb-2, Columbia-5), nn(Blackcomb-2, Whistler-1)) 
+
+(ROOT
+  (NP
+    (NP (NNP Whistler) (NNP Blackcomb))
+    (, ,)
+    (NP (NNP British) (NNP Columbia))))
+nn(Blackcomb-2, Whistler-1)
+root(ROOT-0, Blackcomb-2)
+nn(Columbia-5, British-4)
+appos(Blackcomb-2, Columbia-5)
+
+
+Following Kosovo's declaration of independence, UNMIK continues to operate on the understanding that resolution 1244 ( 1999) remains in force, unless the Security Council decides otherwise, Ban said in his latest report on the work of UNMIK to the Security Council.
+extraction:(kosovo-2, nationality, Kosovo's declaration of independence-6)
+	trace:List(poss(declaration-4, Kosovo-2), prep_of(declaration-4, independence-6))
+Extraction Info
+Tag: kosovo has tag nationality	Dependency Hops:	Single Hops poss(declaration-4, Kosovo-2) 	Double Hops List(prep_following(continues-9, declaration-4), poss(declaration-4, Kosovo-2)) List(prep_of(declaration-4, independence-6), poss(declaration-4, Kosovo-2)) 
+
+(ROOT
+  (S
+    (S
+      (PP (VBG Following)
+        (NP
+          (NP
+            (NP (NNP Kosovo) (POS 's))
+            (NN declaration))
+          (PP (IN of)
+            (NP (NN independence)))))
+      (, ,)
+      (NP (NNP UNMIK))
+      (VP (VBZ continues)
+        (S
+          (VP (TO to)
+            (VP (VB operate)
+              (PP (IN on)
+                (NP (DT the) (NN understanding)))
+              (SBAR (IN that)
+                (S
+                  (NP (NN resolution) (NNP 1244) (NNP ()
+                    (NP (CD 1999) (NNS ))))
+                  (VP (VBZ remains)
+                    (PP (IN in)
+                      (NP (NN force)))
+                    (, ,)
+                    (SBAR (IN unless)
+                      (S
+                        (NP (DT the) (NNP Security) (NNP Council))
+                        (VP (VBZ decides)
+                          (ADVP (RB otherwise)))))))))))))
+    (, ,)
+    (NP (NNP Ban))
+    (VP (VBD said)
+      (PP (IN in)
+        (NP
+          (NP (PRP$ his) (JJS latest) (NN report))
+          (PP (IN on)
+            (NP
+              (NP (DT the) (NN work))
+              (PP (IN of)
+                (NP (NNP UNMIK)))))))
+      (PP (TO to)
+        (NP (DT the) (NNP Security) (NNP Council))))
+    (. .)))
+poss(declaration-4, Kosovo-2)
+prep_following(continues-9, declaration-4)
+prep_of(declaration-4, independence-6)
+nsubj(continues-9, UNMIK-8)
+nsubj(operate-11, UNMIK-8)
+ccomp(said-33, continues-9)
+aux(operate-11, to-10)
+xcomp(continues-9, operate-11)
+det(understanding-14, the-13)
+prep_on(operate-11, understanding-14)
+mark(remains-21, that-15)
+nn((-18, resolution-16)
+nn((-18, 1244-17)
+nsubj(remains-21, (-18)
+num()-20, 1999-19)
+dep((-18, )-20)
+ccomp(operate-11, remains-21)
+prep_in(remains-21, force-23)
+mark(decides-29, unless-25)
+det(Council-28, the-26)
+nn(Council-28, Security-27)
+nsubj(decides-29, Council-28)
+advcl(remains-21, decides-29)
+advmod(decides-29, otherwise-30)
+nsubj(said-33, Ban-32)
+root(ROOT-0, said-33)
+poss(report-37, his-35)
+amod(report-37, latest-36)
+prep_in(said-33, report-37)
+det(work-40, the-39)
+prep_on(report-37, work-40)
+prep_of(work-40, UNMIK-42)
+det(Council-46, the-44)
+nn(Council-46, Security-45)
+prep_to(said-33, Council-46)
+
+
+The secretary-general said Kosovo's declaration of independence and subsequent events have posed significant challenges to UNMIK's ability to exercise its administrative authority in Kosovo.
+extraction:(kosovo-4, nationality, Kosovo's declaration of independence and subsequent events-11)
+	trace:List(poss(declaration-6, Kosovo-4), prep_of(declaration-6, events-11))
+Extraction Info
+Tag: kosovo has tag nationality	Dependency Hops:	Single Hops prep_in(exercise-21, Kosovo-26) 	Double Hops List(aux(exercise-21, to-20), prep_in(exercise-21, Kosovo-26)) List(vmod(ability-19, exercise-21), prep_in(exercise-21, Kosovo-26)) List(dobj(exercise-21, authority-24), prep_in(exercise-21, Kosovo-26)) 
+Tag: secretary-general has tag jobTitle	Dependency Hops:	Single Hops nsubj(said-3, secretary-general-2) det(secretary-general-2, The-1) 	Double Hops List(nsubj(said-3, secretary-general-2), det(secretary-general-2, The-1)) List(det(secretary-general-2, The-1), nsubj(said-3, secretary-general-2)) List(root(ROOT-0, said-3), nsubj(said-3, secretary-general-2)) List(ccomp(said-3, posed-13), nsubj(said-3, secretary-general-2)) 
+Tag: kosovo has tag nationality	Dependency Hops:	Single Hops poss(declaration-6, Kosovo-4) 	Double Hops List(nsubj(posed-13, declaration-6), poss(declaration-6, Kosovo-4)) List(prep_of(declaration-6, events-11), poss(declaration-6, Kosovo-4)) 
+
+(ROOT
+  (S
+    (NP (DT The) (NN secretary-general))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP
+            (NP
+              (NP (NNP Kosovo) (POS 's))
+              (NN declaration))
+            (PP (IN of)
+              (NP (NN independence)
+                (CC and)
+                (JJ subsequent) (NNS events))))
+          (VP (VBP have)
+            (VP (VBN posed)
+              (NP (JJ significant) (NNS challenges))
+              (PP (TO to)
+                (NP
+                  (NP (NNP UNMIK) (POS 's))
+                  (NN ability)
+                  (S
+                    (VP (TO to)
+                      (VP (VB exercise)
+                        (NP (PRP$ its) (JJ administrative) (NN authority))
+                        (PP (IN in)
+                          (NP (NNP Kosovo)))))))))))))
+    (. .)))
+det(secretary-general-2, The-1)
+nsubj(said-3, secretary-general-2)
+root(ROOT-0, said-3)
+poss(declaration-6, Kosovo-4)
+nsubj(posed-13, declaration-6)
+nn(events-11, independence-8)
+conj_and(independence-8, subsequent-10)
+nn(events-11, subsequent-10)
+prep_of(declaration-6, events-11)
+aux(posed-13, have-12)
+ccomp(said-3, posed-13)
+amod(challenges-15, significant-14)
+dobj(posed-13, challenges-15)
+poss(ability-19, UNMIK-17)
+prep_to(posed-13, ability-19)
+aux(exercise-21, to-20)
+vmod(ability-19, exercise-21)
+poss(authority-24, its-22)
+amod(authority-24, administrative-23)
+dobj(exercise-21, authority-24)
+prep_in(exercise-21, Kosovo-26)
+
+
+But he stressed that any violence, whether directed at UNMIK personnel or facilities or against members of any of Kosovo's communities, is unacceptable and cannot be tolerated.
+extraction:(kosovo-21, nationality, Kosovo's communities-23)
+	trace:List(poss(communities-23, Kosovo-21))
+Extraction Info
+Tag: kosovo has tag nationality	Dependency Hops:	Single Hops poss(communities-23, Kosovo-21) 	Double Hops List(prep_of(any-19, communities-23), poss(communities-23, Kosovo-21)) 
+
+(ROOT
+  (S (CC But)
+    (NP (PRP he))
+    (VP (VBD stressed)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT any) (NN violence))
+            (, ,)
+            (SBAR (IN whether)
+              (S
+                (VP (VBN directed)
+                  (PP
+                    (PP (IN at)
+                      (NP (NN UNMIK) (NNS personnel)
+                        (CC or)
+                        (NNS facilities)))
+                    (CC or)
+                    (PP (IN against)
+                      (NP
+                        (NP (NNS members))
+                        (PP (IN of)
+                          (NP
+                            (NP (DT any))
+                            (PP (IN of)
+                              (NP
+                                (NP (NNP Kosovo) (POS 's))
+                                (NNS communities)))))))))))
+            (, ,))
+          (VP (VBZ is)
+            (ADJP (JJ unacceptable)
+              (CC and)
+              (JJ cannot))
+            (S
+              (VP (VB be)
+                (VP (VBN tolerated))))))))
+    (. .)))
+cc(stressed-3, But-1)
+nsubj(stressed-3, he-2)
+root(ROOT-0, stressed-3)
+mark(unacceptable-26, that-4)
+det(violence-6, any-5)
+nsubj(unacceptable-26, violence-6)
+nsubj(cannot-28, violence-6)
+mark(directed-9, whether-8)
+dep(violence-6, directed-9)
+dep(violence-6, directed-9')
+conj_or(directed-9, directed-9')
+nn(personnel-12, UNMIK-11)
+prep_at(directed-9, personnel-12)
+prep_at(directed-9, facilities-14)
+conj_or(personnel-12, facilities-14)
+prep_against(directed-9', members-17)
+prep_of(members-17, any-19)
+poss(communities-23, Kosovo-21)
+prep_of(any-19, communities-23)
+cop(unacceptable-26, is-25)
+ccomp(stressed-3, unacceptable-26)
+ccomp(stressed-3, cannot-28)
+conj_and(unacceptable-26, cannot-28)
+auxpass(tolerated-30, be-29)
+ccomp(unacceptable-26, tolerated-30)
+
+
+Organisers said more than 200,000 young Catholics would gather at the Royal Randwick Racecourse in eastern Sydney where the pontiff was to address a prayer session, as the world's largest Christian festival approaches its conclusion.
+extraction:(christian-33, religion, the world's largest Christian festival approaches-35)
+	trace:List(amod(approaches-35, Christian-33))
+Extraction Info
+Tag: sydney has tag city	Dependency Hops:	Single Hops prep_in(Racecourse-14, Sydney-17) amod(Sydney-17, eastern-16) 	Double Hops List(prep_in(Racecourse-14, Sydney-17), amod(Sydney-17, eastern-16)) List(det(Racecourse-14, the-11), prep_in(Racecourse-14, Sydney-17)) List(nn(Racecourse-14, Royal-12), prep_in(Racecourse-14, Sydney-17)) List(nn(Racecourse-14, Randwick-13), prep_in(Racecourse-14, Sydney-17)) List(prep_at(gather-9, Racecourse-14), prep_in(Racecourse-14, Sydney-17)) List(amod(Sydney-17, eastern-16), prep_in(Racecourse-14, Sydney-17)) 
+Tag: christian has tag religion	Dependency Hops:	Single Hops amod(approaches-35, Christian-33) 	Double Hops List(poss(approaches-35, world-30), amod(approaches-35, Christian-33)) List(amod(approaches-35, largest-32), amod(approaches-35, Christian-33)) List(nn(approaches-35, festival-34), amod(approaches-35, Christian-33)) List(prep_as(address-23, approaches-35), amod(approaches-35, Christian-33)) 
+
+(ROOT
+  (SINV
+    (S
+      (NP (NNS Organisers))
+      (VP (VBD said)
+        (NP
+          (QP (JJR more) (IN than) (CD 200,000))
+          (JJ young) (NNPS Catholics))))
+    (VP (MD would)
+      (VP (VB gather)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NNP Royal) (NNP Randwick) (NNP Racecourse))
+            (PP (IN in)
+              (NP (JJ eastern) (NNP Sydney)))))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (DT the) (NN pontiff))
+            (VP (VBD was)
+              (S
+                (VP (TO to)
+                  (VP (VB address)
+                    (NP (DT a) (NN prayer) (NN session))
+                    (, ,)
+                    (PP (IN as)
+                      (NP
+                        (NP (DT the) (NN world) (POS 's))
+                        (JJS largest) (JJ Christian) (NN festival) (NNS approaches)))))))))))
+    (NP (PRP$ its) (NN conclusion))
+    (. .)))
+nsubj(said-2, Organisers-1)
+dep(gather-9, said-2)
+mwe(than-4, more-3)
+quantmod(200,000-5, than-4)
+num(Catholics-7, 200,000-5)
+amod(Catholics-7, young-6)
+dobj(said-2, Catholics-7)
+aux(gather-9, would-8)
+root(ROOT-0, gather-9)
+det(Racecourse-14, the-11)
+nn(Racecourse-14, Royal-12)
+nn(Racecourse-14, Randwick-13)
+prep_at(gather-9, Racecourse-14)
+amod(Sydney-17, eastern-16)
+prep_in(Racecourse-14, Sydney-17)
+advmod(was-21, where-18)
+det(pontiff-20, the-19)
+nsubj(was-21, pontiff-20)
+nsubj(address-23, pontiff-20)
+advcl(gather-9, was-21)
+aux(address-23, to-22)
+xcomp(was-21, address-23)
+det(session-26, a-24)
+nn(session-26, prayer-25)
+dobj(address-23, session-26)
+det(world-30, the-29)
+poss(approaches-35, world-30)
+amod(approaches-35, largest-32)
+amod(approaches-35, Christian-33)
+nn(approaches-35, festival-34)
+prep_as(address-23, approaches-35)
+poss(conclusion-37, its-36)
+nsubj(gather-9, conclusion-37)
+
+
