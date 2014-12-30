@@ -28,8 +28,21 @@ object TaggerLoader {
   case class TaggerResult(tags: List[Type], source: String)
 
   val chunker = new OpenNlpChunker()
-  val defaultTagger = buildTagger(default_tagger_config)
-  val basicTestTagger = buildTagger(basic_test_tagger_config)
+
+  val taggerMemo = scala.collection.mutable.Map
+    [String, TaggerCollection[Sentence with Chunked with Lemmatized]]()
+  def memoizedTagger(key: String, tagger_config: Config)() = {
+    taggerMemo.get(key) match {
+      case None =>
+        val result = buildTagger(tagger_config)
+        taggerMemo.put(key, result)
+        result
+      case Some(result) => result
+    }
+  }
+
+  def defaultTagger = memoizedTagger("default", default_tagger_config)
+  def basicTestTagger = memoizedTagger("basic_test", basic_test_tagger_config)
 
   def taggerFunction
       (tagger: TaggerCollection[Sentence with Chunked with Lemmatized])

@@ -45,7 +45,7 @@ object TACDevelopmentRelationExtractor {
       }
 
     val relationExtractor =
-      new NounToNounRelationExtractor(TaggerLoader.defaultTagger)
+      new NounToNounRelationExtractor(TaggerLoader.basicTestTagger)
 
     var i = 0
     for (inputLine <- inputLines) {
