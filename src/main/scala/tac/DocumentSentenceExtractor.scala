@@ -1,6 +1,7 @@
 package tac
 
-import java.io.StringReader
+import java.io.{InputStream, ByteArrayInputStream, StringReader}
+import javax.xml.parsers.DocumentBuilderFactory
 
 import edu.stanford.nlp.ling.CoreLabel
 import edu.stanford.nlp.process.{WordToSentenceProcessor, CoreLabelTokenFactory, LexedTokenFactory, PTBTokenizer}
@@ -38,6 +39,19 @@ class DocumentSentenceExtractor(options: String = "invertible=true,ptb3Escaping=
         snt(0).beginPosition(), snt.get(snt.size() - 1).endPosition()))
       snts.reverse ::: acc
     }).reverse
+  }
+
+  // NOTE: generally copied from KbpCorpusParser
+  def getDocId(document: String): String = {
+    val docStream: InputStream = new ByteArrayInputStream(document.getBytes("UTF8"))
+    val factory = DocumentBuilderFactory.newInstance()
+    factory.setIgnoringElementContentWhitespace(true)
+    val xmlDoc = factory.newDocumentBuilder().parse(docStream)
+    xmlDoc.getElementsByTagName("DOCID").getLength match {
+      case 0 => xmlDoc.getElementsByTagName("DOC").item(0).getAttributes
+        .getNamedItem("id").getTextContent.trim
+      case _ => xmlDoc.getElementsByTagName("DOCID").item(0).getTextContent.trim
+    }
   }
 
   val whitespace_chars: String = "" +

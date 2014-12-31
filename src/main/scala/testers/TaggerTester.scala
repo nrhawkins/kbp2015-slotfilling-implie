@@ -49,6 +49,7 @@ object TaggerTester {
   val CLASS_DIR = config.getString("class-dir")
   val CLASSES = getClasses
 
+  // TODO: change this to TaggerLoader, involes figuring out best way to get the classes information per tagger.
   val tagger = getTagger
   val chunker = new OpenNlpChunker()
 
