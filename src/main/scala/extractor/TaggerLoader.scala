@@ -11,21 +11,16 @@ import scala.collection.JavaConversions._
 import scala.io.Source
 
 /**
- * Created by Gene on 12/21/2014.
+ * Object for loading taggers from configurations.
+ * There are pre-specified tagger configurations for most needs as well as
+ * a buildTagger function that takes a Config for a tagger.
  */
-class TaggerLoader {
-
-  // Create functions that are more general.  Uses args rather than config
-  // to load tagger.
-}
-
-// TODO: reorganize so that the defaults are in one place and the functions
-// can take arguments instead.
 object TaggerLoader {
-  val default_tagger_config = ConfigFactory.load("taggers/default-extractor-tagger.conf")
-  val basic_test_tagger_config = ConfigFactory.load("taggers/basic-test-tagger.conf")
   case class TagClass(name: String, files: List[String])
   case class TaggerResult(tags: List[Type], source: String)
+
+  val default_tagger_config = ConfigFactory.load("taggers/default-extractor-tagger.conf")
+  val basic_test_tagger_config = ConfigFactory.load("taggers/basic-test-tagger.conf")
 
   val chunker = new OpenNlpChunker()
 
@@ -44,19 +39,12 @@ object TaggerLoader {
   def defaultTagger = memoizedTagger("default", default_tagger_config)
   def basicTestTagger = memoizedTagger("basic_test", basic_test_tagger_config)
 
-  def taggerFunction
-      (tagger: TaggerCollection[Sentence with Chunked with Lemmatized])
-      (line: String): TaggerResult = {
-    def process(text: String): Sentence with Chunked with Lemmatized = {
-      new Sentence(text) with Chunker with Lemmatizer {
-        val chunker = TaggerLoader.chunker
-        val lemmatizer = MorphaStemmer
-      }
-    }
-    TaggerResult(tagger.tag(process(line)).toList, line)
-  }
-
-  private def buildTagger(config: Config): TaggerCollection[Sentence with Chunked with Lemmatized] = {
+  /**
+   * Constructs a tagger from a tagger configuration.
+   * @param config Configuration for the tagger.
+   * @return TaggerCollection (tagger).
+   */
+  def buildTagger(config: Config): TaggerCollection[Sentence with Chunked with Lemmatized] = {
     /**
      * Builds string with the definitions of class term relation for tagger.
      * @param classes List of class to term list mappings.
@@ -91,5 +79,17 @@ object TaggerLoader {
     // Setup structures for representing data.
     val rules = new ParseRule[Sentence with Chunked with Lemmatized].parse(taggerPattern).get
     rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
+  }
+
+  private def taggerFunction
+    (tagger: TaggerCollection[Sentence with Chunked with Lemmatized])
+    (line: String): TaggerResult = {
+    def process(text: String): Sentence with Chunked with Lemmatized = {
+      new Sentence(text) with Chunker with Lemmatizer {
+        val chunker = TaggerLoader.chunker
+        val lemmatizer = MorphaStemmer
+      }
+    }
+    TaggerResult(tagger.tag(process(line)).toList, line)
   }
 }
