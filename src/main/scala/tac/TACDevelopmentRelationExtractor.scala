@@ -9,13 +9,10 @@ import extractor.{TaggerLoader, NounToNounRelationExtractor}
 import scala.io.Source
 
 /**
- * Created by Gene on 12/21/2014.
+ * Main method takes the sentence file specified in tac-extractor.conf and
+ * outputs the extractions to a file.
  */
 object TACDevelopmentRelationExtractor {
-
-  // TODO: add exit method that cleans up files in case of failure.
-  // TODO: add all of the class files into the tagger.  Make a separate test tagger and default tagger so
-  // that the tests don't start failing.
   case class InputLine(index: Int, docid: String, sentence: String)
 
   val config = ConfigFactory.load("tac-extractor.conf")
@@ -73,10 +70,9 @@ object TACDevelopmentRelationExtractor {
 
 
   def input = {
-    val inputFilename = sentenceDir + seq + "-sentence-file"
-
     // TODO: put the file name structure in the config so that the change can be
     // made in one place without breaking anything.
+    val inputFilename = sentenceDir + seq + "-sentence-file"
 
     // Check if the file exists.
     if (!Files.exists(Paths.get(inputFilename))) {

@@ -11,11 +11,10 @@ import scala.io.Source
 import scala.collection.JavaConversions._
 
 /**
- * Created by Gene on 12/18/2014.
+ * Simple sentence extractor for figuring out how to extract sentences from
+ * KBP source files.
  */
 object SentenceFromCorpus {
-
-  // TODO: put stuff in config
   val indir = "tac_development/random-1000/sources/"
 //  val infile = s"${indir}AFP_ENG_20080920.0463.LDC2009T13.sgm"
   val infile= s"${indir}NYT_ENG_20070305.0050.LDC2009T13.sgm"
@@ -40,7 +39,6 @@ object SentenceFromCorpus {
     println()
 
     // NOTE: Mostly copied from KBPOpenIE2013, with adjustments for Scala.
-    // TODO: put this into its own class and method (DocumentSentenceExtractor)
     val paragraphs = textonly.split("\n").filter(s => s.trim != "")
     for (paragraph <- paragraphs) {
       // Clean up for htmls, urls, emails, etc (Xiao), [edited by Gene]
