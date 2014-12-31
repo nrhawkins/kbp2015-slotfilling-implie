@@ -24,6 +24,8 @@ import scala.collection.mutable
  *
  * Created by Gene on 11/10/2014.
  */
+case class Rule(rel: String, gov: String, dep: String)
+
 class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
   val config = ConfigFactory.load("extractor.conf")
 
@@ -37,6 +39,8 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   private val enclosingPunctuation = constructEnclosingPunctuation(
     config.getConfigList("enclosing-punctuation").toList)
 
+  private val expansionFunctions = new ExpansionFunctions
+
   // memo function caches
   private val tagCache = mutable.Map[String, List[Type]]()
   private val parseCache = mutable.Map[String, (Tree, List[TypedDependency])]()
@@ -46,7 +50,6 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   type TagName = String
   type RelationPattern = Map[String, List[Rule]]
   type IDTable = mutable.Map[String, Set[IndexedString]]
-  case class Rule(rel: String, gov: String, dep: String)
   case class NounToNounTDL(tdl: List[TypedDependency], tag: NounToNounRelation)
   case class EnclosingPunctuation(open: String, close: String)
 
@@ -360,55 +363,19 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   // Givens an id, id value, a list of rules returns a function that checks that a typed dependency
   // satisfies the rules and identifier constraints.
   // If satisfied, returns the next step id and idValue.
-  def genIdRuleMap(id: String, idValue: IndexedString, rules: List[Rule], tokens: Seq[ChunkedToken], tdl: List[TypedDependency])
-                  (td: TypedDependency): (TypedDependency, String, IndexedString) = {
-    def simpleRuleResult(rule: Rule): (TypedDependency, String, IndexedString) = {
-      val matchesRelation = td.reln().toString.equals(rule.rel)
-      val matchesDep = rule.dep.equals(id) &&
-        tokens(idValue.index - 1).string.equals(td.dep.value()) &&
-        idValue.index == td.dep.index()
-      val matchesGov = rule.gov.equals(id) &&
-        tokens(idValue.index - 1).string.equals(td.gov.value()) &&
-        idValue.index == td.gov.index()
-      val result = matchesRelation && (matchesDep || matchesGov) && !(matchesDep && matchesGov)
+  // NOTE: NOT THREADSAFE!
+  def expandIdByRules
+    (id: String, idValue: IndexedString, rules: List[Rule],
+     tokens: Seq[ChunkedToken], tdl: List[TypedDependency])
+    (td: TypedDependency): (TypedDependency, String, IndexedString) = {
 
-      if (result && matchesDep) {
-        (td, rule.gov, new IndexedString(td.gov()))
-      } else if (result && matchesGov) {
-        (td, rule.dep, new IndexedString(td.dep()))
-      } else {
-        null
-      }
-    }
-
-    def prepOfNoDobjResult(rule: Rule): (TypedDependency, String, IndexedString) = {
-      val matchesRelation =
-        td.reln().toString.equals("prep_of") &&
-        rule.gov.equals(id) &&
-        tokens(idValue.index - 1).string.equals(td.gov.value()) &&
-        idValue.index == td.gov.index()
-
-      // Find if any dobj matches.
-      val matchingDobj =
-        tdl.exists(t => t.reln().toString == "dobj" &&
-                        t.dep.value() == td.gov.value() &&
-                        t.dep.index == td.gov.index)
-
-      if (matchesRelation && !matchingDobj) {
-        (td, rule.dep, new IndexedString(td.dep()))
-      } else {
-        null
-      }
-    }
+    expansionFunctions.prepareFunctions(id, idValue, rules, tokens, tdl)
 
     rules.foldLeft(null: (TypedDependency, String, IndexedString))((acc, cur) => {
       if (acc != null) {
         return acc
       }
-      cur.rel match {
-        case "prep_of_no_dobj" => prepOfNoDobjResult(cur)
-        case _ => simpleRuleResult(cur)
-      }
+      expansionFunctions.getFunctionForRelation(cur.rel)(td, cur)
     })
   }
 
@@ -428,7 +395,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     if (rules == Nil) {
       return Nil
     }
-    tdl.map(genIdRuleMap(id, idValue, rules, tokens, tdl))
+    tdl.map(expandIdByRules(id, idValue, rules, tokens, tdl))
        .filter(x => x != null)
        .map(triple => triple._1::expandByPattern(tdl, triple._2, triple._3, patterns, tokens))
        .fold(Nil: List[TypedDependency])((acc, cur) => cur:::acc)
