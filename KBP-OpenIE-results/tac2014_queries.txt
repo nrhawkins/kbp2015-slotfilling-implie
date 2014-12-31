@@ -1,0 +1,100 @@
+SF14_ENG_001	Ahmed	PER
+SF14_ENG_002	Wayne A. Holst	PER
+SF14_ENG_003	Craig Ranke	PER
+SF14_ENG_004	Tamaihia Lynae Moore	PER
+SF14_ENG_005	Korey Rowe	PER
+SF14_ENG_006	Christopher Bollyn	PER
+SF14_ENG_007	Benjamin Chertoff	PER
+SF14_ENG_008	Richard Gage	PER
+SF14_ENG_009	Frank Chiafari	PER
+SF14_ENG_010	Sandra Herold	PER
+SF14_ENG_011	Adela Dworin	PER
+SF14_ENG_012	Alan Gross	PER
+SF14_ENG_013	Jamie Leigh Jones	PER
+SF14_ENG_014	Mario Gonzalez	PER
+SF14_ENG_015	George Sodini	PER
+SF14_ENG_016	Norris Church Mailer	PER
+SF14_ENG_017	Carol Daniels	PER
+SF14_ENG_018	Arlo Looking Cloud	PER
+SF14_ENG_019	John Graham	PER
+SF14_ENG_020	Annie Mae Aquash	PER
+SF14_ENG_021	Pauliina Miettinen	PER
+SF14_ENG_022	Heloise	PER
+SF14_ENG_023	Vladimir Ladyzhenskiy	PER
+SF14_ENG_024	Ruben van Assouw	PER
+SF14_ENG_025	Asia Bibi	PER
+SF14_ENG_026	Nir Rosen	PER
+SF14_ENG_027	Shah Abdul Aziz	PER
+SF14_ENG_028	Eloise Spooner	PER
+SF14_ENG_029	Rene Piedra	PER
+SF14_ENG_030	Natalie Hagemo	PER
+SF14_ENG_031	Mark Fisher	PER
+SF14_ENG_032	Esther-Ethy Mamane	PER
+SF14_ENG_033	Wen Qiang	PER
+SF14_ENG_034	Xie Caiping	PER
+SF14_ENG_035	Chen Tao	PER
+SF14_ENG_036	Michael Lomax	PER
+SF14_ENG_037	Assaf Ramon	PER
+SF14_ENG_038	Andrew E. Lange	PER
+SF14_ENG_039	Frank Baldino Jr.	PER
+SF14_ENG_040	Sarah Kunstler	PER
+SF14_ENG_041	Youssoufou Bamba	PER
+SF14_ENG_042	Charles Ble Goude	PER
+SF14_ENG_043	Matteo Messina Denaro	PER
+SF14_ENG_044	Terry Jupp	PER
+SF14_ENG_045	Eugenio Vagni	PER
+SF14_ENG_046	Eliza Samudio	PER
+SF14_ENG_047	Joseph Cerniglia	PER
+SF14_ENG_048	Arline Kercher	PER
+SF14_ENG_049	Amanda Knox	PER
+SF14_ENG_050	Laura Silsby	PER
+SF14_ENG_051	Semen Gresik	ORG
+SF14_ENG_052	Coastal Conservation League	ORG
+SF14_ENG_053	Koch Foods	ORG
+SF14_ENG_054	Progressive Democrats of America	ORG
+SF14_ENG_055	Gay Men's Health Crisis	ORG
+SF14_ENG_056	Qatalys, Inc.	ORG
+SF14_ENG_057	bestpartyever.com	ORG
+SF14_ENG_058	Rocketboots	ORG
+SF14_ENG_059	Scrapblog	ORG
+SF14_ENG_060	United Association for Studies and Research	ORG
+SF14_ENG_061	Countrywide Financial	ORG
+SF14_ENG_062	High Point Church	ORG
+SF14_ENG_063	"The Good Broker, LLC"	ORG
+SF14_ENG_064	Sycamore Software Solutions	ORG
+SF14_ENG_065	Myanmar Equestrian Federation	ORG
+SF14_ENG_066	Central American Parliament	ORG
+SF14_ENG_067	Association of Chinese American Scientists and Engineers	ORG
+SF14_ENG_068	China Charity Federation	ORG
+SF14_ENG_069	Zirh	ORG
+SF14_ENG_070	Thai Petrochemical Industry Plc	ORG
+SF14_ENG_071	Dance Theatre of Harlem	ORG
+SF14_ENG_072	National Urban League	ORG
+SF14_ENG_073	Helen Keller International	ORG
+SF14_ENG_074	Huntington Library, Art Collections and Botanical Gardens	ORG
+SF14_ENG_075	National Restaurant Association	ORG
+SF14_ENG_076	Hollister Inc.	ORG
+SF14_ENG_077	American Association of University Women	ORG
+SF14_ENG_078	ALICO	ORG
+SF14_ENG_079	Alessi	ORG
+SF14_ENG_080	Menil Collection	ORG
+SF14_ENG_081	BedBug Central	ORG
+SF14_ENG_082	Pluribus Capital Management	ORG
+SF14_ENG_083	Morita Chemical Industries Co	ORG
+SF14_ENG_084	Greenberg Smoked Turkey	ORG
+SF14_ENG_085	Third Guard Division	ORG
+SF14_ENG_086	National Congress of American Indians	ORG
+SF14_ENG_087	National Taiwan Symphony Orchestra	ORG
+SF14_ENG_088	New Fabris	ORG
+SF14_ENG_089	ShopperTrak	ORG
+SF14_ENG_090	Tribeca Enterprises	ORG
+SF14_ENG_091	Corporate Library	ORG
+SF14_ENG_092	Pacific Asia Travel Association	ORG
+SF14_ENG_093	United Solutions and Services	ORG
+SF14_ENG_094	Organization of Asia-Pacific News Agencies	ORG
+SF14_ENG_095	Professional Ski Instructors of America	ORG
+SF14_ENG_096	ADF	ORG
+SF14_ENG_097	National Energy Administration	ORG
+SF14_ENG_098	Nuclear Decommissioning Authority	ORG
+SF14_ENG_099	St. Mary's	ORG
+SF14_ENG_100	Joint Victory Campaign 2004	ORG

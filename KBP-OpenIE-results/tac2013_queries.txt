@@ -1,100 +1,100 @@
-SF13_ENG_001	Ramazan Bashardost	    <docid>XIN_ENG_20090916.0146</docid>    <beg>660</beg>    <end>677</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_002	Marc Bolland	    <docid>AFP_ENG_20100525.0517</docid>    <beg>2669</beg>    <end>2680</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_003	Stuart Rose	    <docid>AFP_ENG_20100525.0561</docid>    <beg>730</beg>    <end>740</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_004	Douglas Flint	    <docid>APW_ENG_20100927.0149</docid>    <beg>659</beg>    <end>671</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_005	Tahawwur Hussain Rana	    <docid>XIN_ENG_20091112.0053</docid>    <beg>625</beg>    <end>645</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_006	Ali Akbar Khan	    <docid>NYT_ENG_20090622.0196</docid>    <beg>2234</beg>    <end>2247</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_007	Mohammed Sayed Tantawi	    <docid>AFP_ENG_20100319.0277</docid>    <beg>1542</beg>    <end>1563</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_008	Mathieu Montcourt	    <docid>APW_ENG_20090707.0407</docid>    <beg>80</beg>    <end>96</end>    	PER	    <nodeid>E0133275</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:country_of_birth</ignore>  </query>
-SF13_ENG_009	Anwar Chowdhry	    <docid>AFP_ENG_20100924.0361</docid>    <beg>1509</beg>    <end>1522</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_010	Ronnie James Dio	    <docid>NYT_ENG_20090629.0075</docid>    <beg>4016</beg>    <end>4031</end>    	PER	    <nodeid>E0654593</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth per:country_of_birth</ignore>  </query>
-SF13_ENG_011	Anthony Marshall	    <docid>APW_ENG_20090708.1139</docid>    <beg>360</beg>    <end>375</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_012	Adam Gadahn	    <docid>APW_ENG_20100307.0647</docid>    <beg>144</beg>    <end>154</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_013	Henry Olonga	    <docid>AFP_ENG_20100425.0486</docid>    <beg>1282</beg>    <end>1293</end>    	PER	    <nodeid>E0755246</nodeid>  </query>
-SF13_ENG_014	Mohammed Oudeh	    <docid>NYT_ENG_20100818.0143</docid>    <beg>1288</beg>    <end>1301</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_015	Lucille Clifton	    <docid>WPB_ENG_20100222.0055</docid>    <beg>277</beg>    <end>291</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_016	Paul Gray	    <docid>APW_ENG_20100524.1107</docid>    <beg>228</beg>    <end>236</end>    	PER	    <nodeid>E0736135</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth</ignore>  </query>
-SF13_ENG_017	Alexander Haig	    <docid>AFP_ENG_20100208.0028</docid>    <beg>1743</beg>    <end>1756</end>    	PER	    <nodeid>E0186379</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth per:religion</ignore>  </query>
-SF13_ENG_018	Harvey Pekar	    <docid>NYT_ENG_20090901.0220</docid>    <beg>1636</beg>    <end>1647</end>    	PER	    <nodeid>E0280333</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth per:country_of_birth</ignore>  </query>
-SF13_ENG_019	Keli McGregor	    <docid>APW_ENG_20090604.1238</docid>    <beg>719</beg>    <end>731</end>    	PER	    <nodeid>E0154746</nodeid>    <ignore>per:date_of_birth per:city_of_birth per:stateorprovince_of_birth</ignore>  </query>
-SF13_ENG_020	Mike Penner	    <docid>NYT_ENG_20100116.0110</docid>    <beg>3210</beg>    <end>3220</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_021	David Gutierrez	    <docid>APW_ENG_20101005.0481</docid>    <beg>545</beg>    <end>559</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_022	Mikel Karrera Sarobe	    <docid>AFP_ENG_20100520.0792</docid>    <beg>273</beg>    <end>292</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_023	Sheila Dixon	    <docid>NYT_ENG_20091109.0058</docid>    <beg>3734</beg>    <end>3745</end>    	PER	    <nodeid>E0269314</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth per:country_of_birth per:religion</ignore>  </query>
-SF13_ENG_024	Crystal Taylor	    <docid>APW_ENG_20090609.1096</docid>    <beg>317</beg>    <end>330</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_025	Nancy Kissel	    <docid>APW_ENG_20100211.0126</docid>    <beg>155</beg>    <end>166</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_026	Patricia Neal	    <docid>NYT_ENG_20091205.0019</docid>    <beg>853</beg>    <end>865</end>    	PER	    <nodeid>E0636306</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth per:country_of_birth</ignore>  </query>
-SF13_ENG_027	Abdul Aziz Al-Hakim	    <docid>XIN_ENG_20100306.0015</docid>    <beg>3574</beg>    <end>3592</end>    	PER	    <nodeid>E0128998</nodeid>    <ignore>per:date_of_birth per:city_of_birth per:country_of_birth per:religion</ignore>  </query>
-SF13_ENG_028	Billy Mays	    <docid>NYT_ENG_20100814.0011</docid>    <beg>5322</beg>    <end>5331</end>    	PER	    <nodeid>E0440880</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth</ignore>  </query>
-SF13_ENG_029	Laurent Fignon	    <docid>AFP_ENG_20090726.0176</docid>    <beg>2684</beg>    <end>2697</end>    	PER	    <nodeid>E0340225</nodeid>    <ignore>per:age per:date_of_birth</ignore>  </query>
-SF13_ENG_030	Sparky Anderson	    <docid>NYT_ENG_20090704.0104</docid>    <beg>4291</beg>    <end>4305</end>    	PER	    <nodeid>E0608230</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth</ignore>  </query>
-SF13_ENG_031	Blake Edwards	    <docid>NYT_ENG_20090621.0013</docid>    <beg>8367</beg>    <end>8379</end>    	PER	    <nodeid>E0368863</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth</ignore>  </query>
-SF13_ENG_032	Hwang Jang-Yop	    <docid>AFP_ENG_20091208.0728</docid>    <beg>2004</beg>    <end>2017</end>    	PER	    <nodeid>E0569501</nodeid>  </query>
-SF13_ENG_033	Vitaly Ginzburg	    <docid>AFP_ENG_20090702.0150</docid>    <beg>1905</beg>    <end>1919</end>    	PER	    <nodeid>E0049260</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:country_of_birth per:religion</ignore>  </query>
-SF13_ENG_034	Bobby Frankel	    <docid>APW_ENG_20091028.0956</docid>    <beg>2537</beg>    <end>2549</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_035	Maria Kaczynska	    <docid>AFP_ENG_20091021.0042</docid>    <beg>1038</beg>    <end>1052</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_036	Girija Prasad Koirala	    <docid>XIN_ENG_20090609.0088</docid>    <beg>599</beg>    <end>619</end>    	PER	    <nodeid>E0156446</nodeid>    <ignore>per:date_of_birth per:stateorprovince_of_birth per:country_of_birth per:religion</ignore>  </query>
-SF13_ENG_037	Claude Chabrol	    <docid>LTW_ENG_20090717.0081</docid>    <beg>2194</beg>    <end>2207</end>    	PER	    <nodeid>E0327546</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:country_of_birth</ignore>  </query>
-SF13_ENG_038	Merce Cunningham	    <docid>NYT_ENG_20100929.0087</docid>    <beg>881</beg>    <end>896</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_039	Jade Goody	    <docid>AFP_ENG_20090826.0152</docid>    <beg>415</beg>    <end>424</end>    	PER	    <nodeid>E0038107</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:country_of_birth</ignore>  </query>
-SF13_ENG_040	Wayman Tisdale	    <docid>APW_ENG_20101217.0204</docid>    <beg>4438</beg>    <end>4451</end>    	PER	    <nodeid>E0004973</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth</ignore>  </query>
-SF13_ENG_041	Don Hewitt	    <docid>LTW_ENG_20090916.0050</docid>    <beg>4497</beg>    <end>4506</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_042	Dudu Topaz	    <docid>APW_ENG_20090531.0325</docid>    <beg>359</beg>    <end>368</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_043	Ellie Greenwich	    <docid>NYT_ENG_20090916.0056</docid>    <beg>1779</beg>    <end>1793</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_044	Dominick Dunne	    <docid>NYT_ENG_20091213.0044</docid>    <beg>600</beg>    <end>613</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_045	Adam Goldstein	    <docid>APW_ENG_20090612.0011</docid>    <beg>2293</beg>    <end>2306</end>    	PER	    <nodeid>E0640229</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:stateorprovince_of_birth</ignore>  </query>
-SF13_ENG_046	Don Meredith	    <docid>NYT_ENG_20090910.0001</docid>    <beg>1446</beg>    <end>1457</end>    	PER	    <nodeid>E0176391</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:country_of_birth</ignore>  </query>
-SF13_ENG_047	Orlando Zapata	    <docid>AFP_ENG_20100205.0027</docid>    <beg>691</beg>    <end>704</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_048	Charles Gwathmey	    <docid>APW_ENG_20091218.0096</docid>    <beg>16025</beg>    <end>16040</end>    	PER	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_049	Benoit Mandelbrot	    <docid>AFP_ENG_20101212.0378</docid>    <beg>2930</beg>    <end>2946</end>    	PER	    <nodeid>E0071249</nodeid>    <ignore>per:age per:date_of_birth per:city_of_birth per:country_of_birth</ignore>  </query>
-SF13_ENG_050	Ko Yong-Hi	    <docid>APW_ENG_20090616.0268</docid>    <beg>1375</beg>    <end>1384</end>    	PER	    <nodeid>E0665392</nodeid>  </query>
-SF13_ENG_051	Election Complaints Commission	    <docid>XIN_ENG_20090902.0142</docid>    <beg>1204</beg>    <end>1233</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_052	Euskadi Ta Askatasuna	    <docid>WPB_ENG_20100504.0014</docid>    <beg>4294</beg>    <end>4314</end>    	ORG	    <nodeid>E0603675</nodeid>    <ignore>org:date_founded</ignore>  </query>
-SF13_ENG_053	United Steelworkers of America	    <docid>APW_ENG_20090829.0668</docid>    <beg>346</beg>    <end>375</end>    	ORG	    <nodeid>E0420518</nodeid>    <ignore>org:date_founded org:city_of_headquarters org:stateorprovince_of_headquarters org:number_of_employees_members org:website</ignore>  </query>
-SF13_ENG_054	Irish Nationwide Building Society	    <docid>AFP_ENG_20101221.0453</docid>    <beg>427</beg>    <end>459</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_055	River Road Asset Management	    <docid>NYT_ENG_20100610.0157</docid>    <beg>7226</beg>    <end>7252</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_056	Georgia Peanut Commission	    <docid>NYT_ENG_20090921.0069</docid>    <beg>1051</beg>    <end>1075</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_057	A123 Systems Inc.	    <docid>APW_ENG_20100115.1226</docid>    <beg>1514</beg>    <end>1530</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_058	Access Industries	    <docid>APW_ENG_20100323.0030</docid>    <beg>698</beg>    <end>714</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_059	Council of Mortgage Lenders	    <docid>APW_ENG_20100521.0432</docid>    <beg>290</beg>    <end>316</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_060	American Association for the Advancement of Science	    <docid>AFP_ENG_20100219.0016</docid>    <beg>912</beg>    <end>962</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_061	InterContinental Hotels Group	    <docid>XIN_ENG_20090618.0273</docid>    <beg>303</beg>    <end>331</end>    	ORG	    <nodeid>E0669806</nodeid>    <ignore>org:date_founded org:city_of_headquarters org:stateorprovince_of_headquarters org:country_of_headquarters org:website</ignore>  </query>
-SF13_ENG_062	U.S. High Speed Rail Association	    <docid>NYT_ENG_20090709.0108</docid>    <beg>2424</beg>    <end>2455</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_063	Burlington Northern Santa Fe Corp.	    <docid>APW_ENG_20090609.1425</docid>    <beg>848</beg>    <end>881</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_064	Stockholm International Peace Research Institute	    <docid>XIN_ENG_20100616.0320</docid>    <beg>1219</beg>    <end>1266</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_065	Benedictine Sisters of Virginia	    <docid>WPB_ENG_20100802.0063</docid>    <beg>2384</beg>    <end>2414</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_066	Nigeria Police Force	    <docid>APW_ENG_20100908.0507</docid>    <beg>580</beg>    <end>599</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_067	Public Library of Science	    <docid>XIN_ENG_20090826.0214</docid>    <beg>516</beg>    <end>540</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_068	Indoor Tanning Association	    <docid>NYT_ENG_20100504.0032</docid>    <beg>1555</beg>    <end>1580</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_069	International Agency for Research on Cancer	    <docid>AFP_ENG_20100714.0349</docid>    <beg>1459</beg>    <end>1501</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_070	Community Foundation of Middle Tennessee	    <docid>APW_ENG_20101007.0070</docid>    <beg>541</beg>    <end>580</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_071	Association of Greek Tourism Enterprises	    <docid>WPB_ENG_20100506.0018</docid>    <beg>1995</beg>    <end>2034</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_072	Moody's Corp.	    <docid>NYT_ENG_20090604.0149</docid>    <beg>308</beg>    <end>320</end>    	ORG	    <nodeid>E0139185</nodeid>    <ignore>org:date_founded org:city_of_headquarters org:website</ignore>  </query>
-SF13_ENG_073	Global Infrastructure Partners	    <docid>APW_ENG_20091113.0585</docid>    <beg>946</beg>    <end>975</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_074	SouthGobi Energy Resources	    <docid>AFP_ENG_20100129.0533</docid>    <beg>772</beg>    <end>797</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_075	Champalimaud Foundation	    <docid>APW_ENG_20100611.1051</docid>    <beg>341</beg>    <end>363</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_076	Swiss Bankers Association	    <docid>XIN_ENG_20090825.0070</docid>    <beg>644</beg>    <end>668</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_077	Nuclear Energy Institute	    <docid>NYT_ENG_20100629.0124</docid>    <beg>2932</beg>    <end>2955</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_078	Thomas More Law Center	    <docid>LTW_ENG_20091008.0086</docid>    <beg>2812</beg>    <end>2833</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_079	Stockholm International Water Institute	    <docid>AFP_ENG_20090817.0141</docid>    <beg>1287</beg>    <end>1325</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_080	International Water Management Institute	    <docid>WPB_ENG_20100401.0071</docid>    <beg>6842</beg>    <end>6881</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_081	Washington National Opera	    <docid>APW_ENG_20091024.0507</docid>    <beg>272</beg>    <end>296</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_082	National Council for Adoption	    <docid>APW_ENG_20100410.0635</docid>    <beg>4049</beg>    <end>4077</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_083	Joint Council on International Children's Services	    <docid>NYT_ENG_20100412.0158</docid>    <beg>1802</beg>    <end>1851</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_084	Bipartisan Policy Center	    <docid>AFP_ENG_20100910.0187</docid>    <beg>384</beg>    <end>407</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_085	China Banking Regulatory Commission	    <docid>XIN_ENG_20100916.0422</docid>    <beg>198</beg>    <end>232</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_086	State-owned Assets Supervision and Administration Commission	    <docid>XIN_ENG_20091023.0348</docid>    <beg>369</beg>    <end>428</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_087	Bolivarian Alternative for the Americas	    <docid>APW_ENG_20091213.0457</docid>    <beg>307</beg>    <end>345</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_088	Bank Julius Baer	    <docid>APW_ENG_20091223.0395</docid>    <beg>549</beg>    <end>564</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_089	Rosoboronexport	    <docid>AFP_ENG_20100901.0148</docid>    <beg>336</beg>    <end>350</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_090	Economic Cooperation Organization	    <docid>XIN_ENG_20101224.0002</docid>    <beg>326</beg>    <end>358</end>    	ORG	    <nodeid>E0810133</nodeid>    <ignore>org:date_founded org:city_of_headquarters org:country_of_headquarters org:website</ignore>  </query>
-SF13_ENG_091	Arcandor	    <docid>AFP_ENG_20090813.0301</docid>    <beg>1021</beg>    <end>1028</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_092	Escada	    <docid>APW_ENG_20090701.0600</docid>    <beg>675</beg>    <end>680</end>    	ORG	    <nodeid>E0111800</nodeid>    <ignore>org:date_founded org:city_of_headquarters org:country_of_headquarters org:website</ignore>  </query>
-SF13_ENG_093	Saudi Oger	    <docid>WPB_ENG_20101126.0020</docid>    <beg>6049</beg>    <end>6058</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_094	Rapiscan Systems	    <docid>APW_ENG_20091231.0046</docid>    <beg>4152</beg>    <end>4167</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_095	Attenti Holdings	    <docid>WPB_ENG_20100909.0065</docid>    <beg>1605</beg>    <end>1620</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_096	Freedom Communications	    <docid>APW_ENG_20090601.1284</docid>    <beg>886</beg>    <end>907</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_097	STX Finland	    <docid>APW_ENG_20091030.0832</docid>    <beg>674</beg>    <end>684</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_098	Millipore Corp.	    <docid>XIN_ENG_20101026.0239</docid>    <beg>848</beg>    <end>862</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_099	DCNS	    <docid>XIN_ENG_20100504.0193</docid>    <beg>1504</beg>    <end>1507</end>    	ORG	    <nodeid>NIL</nodeid>  </query>
-SF13_ENG_100	Galleon Group	    <docid>XIN_ENG_20091019.0276</docid>    <beg>856</beg>    <end>868</end>    	ORG	    <nodeid>NIL</nodeid>  </query></kbpslotfill>
+SF13_ENG_001	Ramazan Bashardost	PER
+SF13_ENG_002	Marc Bolland	PER
+SF13_ENG_003	Stuart Rose	PER
+SF13_ENG_004	Douglas Flint	PER
+SF13_ENG_005	Tahawwur Hussain Rana	PER
+SF13_ENG_006	Ali Akbar Khan	PER
+SF13_ENG_007	Mohammed Sayed Tantawi	PER
+SF13_ENG_008	Mathieu Montcourt	PER
+SF13_ENG_009	Anwar Chowdhry	PER
+SF13_ENG_010	Ronnie James Dio	PER
+SF13_ENG_011	Anthony Marshall	PER
+SF13_ENG_012	Adam Gadahn	PER
+SF13_ENG_013	Henry Olonga	PER
+SF13_ENG_014	Mohammed Oudeh	PER
+SF13_ENG_015	Lucille Clifton	PER
+SF13_ENG_016	Paul Gray	PER
+SF13_ENG_017	Alexander Haig	PER
+SF13_ENG_018	Harvey Pekar	PER
+SF13_ENG_019	Keli McGregor	PER
+SF13_ENG_020	Mike Penner	PER
+SF13_ENG_021	David Gutierrez	PER
+SF13_ENG_022	Mikel Karrera Sarobe	PER
+SF13_ENG_023	Sheila Dixon	PER
+SF13_ENG_024	Crystal Taylor	PER
+SF13_ENG_025	Nancy Kissel	PER
+SF13_ENG_026	Patricia Neal	PER
+SF13_ENG_027	Abdul Aziz Al-Hakim	PER
+SF13_ENG_028	Billy Mays	PER
+SF13_ENG_029	Laurent Fignon	PER
+SF13_ENG_030	Sparky Anderson	PER
+SF13_ENG_031	Blake Edwards	PER
+SF13_ENG_032	Hwang Jang-Yop	PER
+SF13_ENG_033	Vitaly Ginzburg	PER
+SF13_ENG_034	Bobby Frankel	PER
+SF13_ENG_035	Maria Kaczynska	PER
+SF13_ENG_036	Girija Prasad Koirala	PER
+SF13_ENG_037	Claude Chabrol	PER
+SF13_ENG_038	Merce Cunningham	PER
+SF13_ENG_039	Jade Goody	PER
+SF13_ENG_040	Wayman Tisdale	PER
+SF13_ENG_041	Don Hewitt	PER
+SF13_ENG_042	Dudu Topaz	PER
+SF13_ENG_043	Ellie Greenwich	PER
+SF13_ENG_044	Dominick Dunne	PER
+SF13_ENG_045	Adam Goldstein	PER
+SF13_ENG_046	Don Meredith	PER
+SF13_ENG_047	Orlando Zapata	PER
+SF13_ENG_048	Charles Gwathmey	PER
+SF13_ENG_049	Benoit Mandelbrot	PER
+SF13_ENG_050	Ko Yong-Hi	PER
+SF13_ENG_051	Election Complaints Commission	ORG
+SF13_ENG_052	Euskadi Ta Askatasuna	ORG
+SF13_ENG_053	United Steelworkers of America	ORG
+SF13_ENG_054	Irish Nationwide Building Society	ORG
+SF13_ENG_055	River Road Asset Management	ORG
+SF13_ENG_056	Georgia Peanut Commission	ORG
+SF13_ENG_057	A123 Systems Inc.	ORG
+SF13_ENG_058	Access Industries	ORG
+SF13_ENG_059	Council of Mortgage Lenders	ORG
+SF13_ENG_060	American Association for the Advancement of Science	ORG
+SF13_ENG_061	InterContinental Hotels Group	ORG
+SF13_ENG_062	U.S. High Speed Rail Association	ORG
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	ORG
+SF13_ENG_064	Stockholm International Peace Research Institute	ORG
+SF13_ENG_065	Benedictine Sisters of Virginia	ORG
+SF13_ENG_066	Nigeria Police Force	ORG
+SF13_ENG_067	Public Library of Science	ORG
+SF13_ENG_068	Indoor Tanning Association	ORG
+SF13_ENG_069	International Agency for Research on Cancer	ORG
+SF13_ENG_070	Community Foundation of Middle Tennessee	ORG
+SF13_ENG_071	Association of Greek Tourism Enterprises	ORG
+SF13_ENG_072	Moody's Corp.	ORG
+SF13_ENG_073	Global Infrastructure Partners	ORG
+SF13_ENG_074	SouthGobi Energy Resources	ORG
+SF13_ENG_075	Champalimaud Foundation	ORG
+SF13_ENG_076	Swiss Bankers Association	ORG
+SF13_ENG_077	Nuclear Energy Institute	ORG
+SF13_ENG_078	Thomas More Law Center	ORG
+SF13_ENG_079	Stockholm International Water Institute	ORG
+SF13_ENG_080	International Water Management Institute	ORG
+SF13_ENG_081	Washington National Opera	ORG
+SF13_ENG_082	National Council for Adoption	ORG
+SF13_ENG_083	Joint Council on International Children's Services	ORG
+SF13_ENG_084	Bipartisan Policy Center	ORG
+SF13_ENG_085	China Banking Regulatory Commission	ORG
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	ORG
+SF13_ENG_087	Bolivarian Alternative for the Americas	ORG
+SF13_ENG_088	Bank Julius Baer	ORG
+SF13_ENG_089	Rosoboronexport	ORG
+SF13_ENG_090	Economic Cooperation Organization	ORG
+SF13_ENG_091	Arcandor	ORG
+SF13_ENG_092	Escada	ORG
+SF13_ENG_093	Saudi Oger	ORG
+SF13_ENG_094	Rapiscan Systems	ORG
+SF13_ENG_095	Attenti Holdings	ORG
+SF13_ENG_096	Freedom Communications	ORG
+SF13_ENG_097	STX Finland	ORG
+SF13_ENG_098	Millipore Corp.	ORG
+SF13_ENG_099	DCNS	ORG
+SF13_ENG_100	Galleon Group	ORG
