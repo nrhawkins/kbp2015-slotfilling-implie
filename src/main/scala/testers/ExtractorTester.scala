@@ -38,7 +38,7 @@ object ExtractorTester {
   type ExtractorSolution = (mutable.Map[String, mutable.Set[SingleSolutionSets]], String)
   type Comparison = (ExtractorResult, ExtractorSolution)
 
-  case class ExtractorResult(relations: List[NounToNounRelation], source: String)
+  case class ExtractorResult(relations: List[ImplicitRelation], source: String)
 
   val tagger = TaggerTester.tagger
   val extractor = new NounToNounRelationExtractor(tagger)
@@ -143,14 +143,14 @@ object ExtractorTester {
     (solMap, solutionString)
   }
 
-  private def compareTags(solution: Tags, relation: NounToNounRelation): Boolean = {
+  private def compareTags(solution: Tags, relation: ImplicitRelation): Boolean = {
     solution.contains((relation.tag.string, relation.tag.index))
   }
 
   // Check that the solution is fully contained in the result relation.
   // Indices of solution are within the bounds of the result indices,
   // and the solution is a substring of the result.
-  private def compareNPs(solution: NPs, relation: NounToNounRelation): Boolean = {
+  private def compareNPs(solution: NPs, relation: ImplicitRelation): Boolean = {
     val end = relation.np.index
     solution.count(np => {
       (np._2 <= end) && relation.np.string.contains(np._1)

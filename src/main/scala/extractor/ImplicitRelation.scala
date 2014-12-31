@@ -10,7 +10,7 @@ import edu.stanford.nlp.trees.TypedDependency
  * sentence = original sentence
  * relationTrace = trace of dependency relations hopped to make the extraction
  */
-class NounToNounRelation(t: IndexedString, r: String, n: IndexedString,
+class ImplicitRelation(t: IndexedString, r: String, n: IndexedString,
                          s: String = "", rt: List[TypedDependency] = Nil) {
   var tag = t
   var relation = r

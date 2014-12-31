@@ -50,7 +50,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   type TagName = String
   type RelationPattern = Map[String, List[Rule]]
   type IDTable = mutable.Map[String, Set[IndexedString]]
-  case class NounToNounTDL(tdl: List[TypedDependency], tag: NounToNounRelation)
+  case class NounToNounTDL(tdl: List[TypedDependency], tag: ImplicitRelation)
   case class EnclosingPunctuation(open: String, close: String)
 
   // Used for tokenizer.
@@ -62,7 +62,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   }
 
   // Extracts implicit relations for a string.
-  def extractRelations(line: String): List[NounToNounRelation] = {
+  def extractRelations(line: String): List[ImplicitRelation] = {
     // Process uses the same chunker.
     val tags = getTags(line)
     val tokens = tagger.chunker.chunk(line)
@@ -205,9 +205,9 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
    * Private functions.
    */
 
-  private def getNounToNounRelations(parseTree: Tree, nntdls: List[NounToNounTDL], tokens: Seq[ChunkedToken], sentence: String): List[NounToNounRelation] = {
+  private def getNounToNounRelations(parseTree: Tree, nntdls: List[NounToNounTDL], tokens: Seq[ChunkedToken], sentence: String): List[ImplicitRelation] = {
     nntdls.map(nntdl =>
-      new NounToNounRelation(nntdl.tag.tag, nntdl.tag.relation,
+      new ImplicitRelation(nntdl.tag.tag, nntdl.tag.relation,
         getNounPhrase(parseTree, nntdl.tdl, tokens, sentence),
         nntdl.tag.sentence, nntdl.tag.relationTrace))
           .filter(nnr => nnr.np != null)
@@ -421,7 +421,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
       (tag, expandByPattern(tdl, tagId, tag.asIndexedString, relationPatterns, tokens)))
 
     expansions.map(pair => {
-        val nnTag = new NounToNounRelation(pair._1.asIndexedString, pair._1.tag,
+        val nnTag = new ImplicitRelation(pair._1.asIndexedString, pair._1.tag,
           IndexedString.emptyInstance, "", pair._2)
         NounToNounTDL(pair._2, nnTag)
       }
@@ -460,7 +460,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
    */
 
   // Prints a list of NounToNounRelations.
-  private def printNounToNounRelations(relns: Iterable[NounToNounRelation]) {
+  private def printNounToNounRelations(relns: Iterable[ImplicitRelation]) {
     println("NounToNounRelations")
     for (reln <- relns) {
       println(reln)
