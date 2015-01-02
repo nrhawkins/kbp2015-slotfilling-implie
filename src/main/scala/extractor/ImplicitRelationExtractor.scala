@@ -20,6 +20,8 @@ import scala.collection.mutable
  *
  * Created by Gene on 11/10/2014.
  */
+
+// TODO: make a file with all the clase classes.
 case class Rule(rel: String, gov: String, dep: String)
 
 class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
