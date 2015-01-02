@@ -26,7 +26,7 @@ import scala.collection.mutable
  */
 case class Rule(rel: String, gov: String, dep: String)
 
-class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
+class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
   val config = ConfigFactory.load("extractor.conf")
 
   private val PARSER_MODEL = config.getString("parser-model-file")

@@ -41,7 +41,7 @@ object ExtractorTester {
   case class ExtractorResult(relations: List[ImplicitRelation], source: String)
 
   val tagger = TaggerTester.tagger
-  val extractor = new NounToNounRelationExtractor(tagger)
+  val extractor = new ImplicitRelationExtractor(tagger)
 
   // Configuratons.
   // Set it here so we don't have methods that are passing entire configurations.

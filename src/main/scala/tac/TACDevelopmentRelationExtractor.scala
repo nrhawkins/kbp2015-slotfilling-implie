@@ -4,7 +4,7 @@ import java.io.{FileWriter, BufferedWriter, PrintWriter}
 import java.nio.file.{Paths, Files}
 
 import com.typesafe.config.ConfigFactory
-import extractor.{TaggerLoader, NounToNounRelationExtractor}
+import extractor.{TaggerLoader, ImplicitRelationExtractor}
 
 import scala.io.Source
 
@@ -42,7 +42,7 @@ object TACDevelopmentRelationExtractor {
       }
 
     val relationExtractor =
-      new NounToNounRelationExtractor(TaggerLoader.basicTestTagger)
+      new ImplicitRelationExtractor(TaggerLoader.basicTestTagger)
 
     var i = 0
     for (inputLine <- inputLines) {

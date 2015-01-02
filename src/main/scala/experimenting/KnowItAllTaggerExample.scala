@@ -4,7 +4,7 @@ import edu.knowitall.repr.sentence.{Chunked, Chunker, Lemmatized, Lemmatizer, Se
 import edu.knowitall.taggers.{NamedGroupType, ParseRule, TaggerCollection}
 import edu.knowitall.tool.chunk.OpenNlpChunker
 import edu.knowitall.tool.stem.MorphaStemmer
-import extractor.NounToNounRelationExtractor
+import extractor.ImplicitRelationExtractor
 
 object KnowItAllTaggerExample {
   val pattern = """
