@@ -2,7 +2,7 @@ package experimenting
 
 import java.io.PrintWriter
 
-import extractor.{ExtractionFormatUtils, NounToNounRelationExtractor, TaggerLoader}
+import extractor.{ExtractionFormatUtils, ImplicitRelationExtractor, TaggerLoader}
 
 import scala.collection.mutable
 import scala.io.Source
@@ -16,7 +16,7 @@ object VerboseExtractor {
 
   def main(args: Array[String]) {
     val tagger = TaggerLoader.defaultTagger
-    val extractor = new NounToNounRelationExtractor(tagger)
+    val extractor = new ImplicitRelationExtractor(tagger)
     val out = new PrintWriter(outputFile)
 
     for (sentence <- Source.fromFile(sentenceFile).getLines()) {

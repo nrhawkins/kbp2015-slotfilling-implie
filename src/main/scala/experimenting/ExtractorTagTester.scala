@@ -1,6 +1,6 @@
 package experimenting
 
-import extractor.NounToNounRelationExtractor
+import extractor.ImplicitRelationExtractor
 import testers.TaggerTester
 
 /**
@@ -9,7 +9,7 @@ import testers.TaggerTester
 object ExtractorTagTester {
   def main(args: Array[String]) {
     val tagger = TaggerTester.tagger
-    val extractor = new NounToNounRelationExtractor(tagger)
+    val extractor = new ImplicitRelationExtractor(tagger)
     val tags = extractor.getTags("John Arterberry, executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud.")
     for (typ <- tags) {
       println(s"Tag: ${typ.name}\tText: ${typ.text}")

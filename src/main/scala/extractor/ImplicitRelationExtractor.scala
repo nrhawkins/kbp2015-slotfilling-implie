@@ -1,21 +1,17 @@
 package extractor
 
-import java.util
-
-import com.typesafe.config.{ConfigObject, Config, ConfigList, ConfigFactory}
+import com.typesafe.config.{Config, ConfigFactory}
 import edu.knowitall.repr.sentence
 import edu.knowitall.repr.sentence._
 import edu.knowitall.taggers.TaggerCollection
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.knowitall.tool.stem.MorphaStemmer
 import edu.knowitall.tool.typer.Type
-import edu.stanford.nlp.ling
-import edu.stanford.nlp.ling.{CoreLabel, IndexedWord, Word}
+import edu.stanford.nlp.ling.{Sentence, IndexedWord, Word}
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser
 import edu.stanford.nlp.trees._
 
 import scala.collection.JavaConversions._
-import scala.collection.immutable.StringOps
 import scala.collection.mutable
 
 /**
@@ -26,7 +22,7 @@ import scala.collection.mutable
  */
 case class Rule(rel: String, gov: String, dep: String)
 
-class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
+class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
   val config = ConfigFactory.load("extractor.conf")
 
   private val PARSER_MODEL = config.getString("parser-model-file")
@@ -65,7 +61,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
   def extractRelations(line: String): List[ImplicitRelation] = {
     // Process uses the same chunker.
     val tags = getTags(line)
-    val tokens = tagger.chunker.chunk(line)
+    val tokens = getTokens(line)
     val (parse, tdl) = getParse(line)
 
     // Add indices to the tree for the relation identifying phase.
@@ -82,6 +78,7 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     results
   }
 
+  // Memoized tokenizer.
   def getTokens(line: String): Seq[ChunkedToken] = {
     tokenCache.get(line) match {
       case None =>
@@ -108,14 +105,14 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
     parseCache.get(line) match {
       case None =>
         val tokens = tagger.chunker.chunk(line)
-        val tokenizedSentence: scala.collection.immutable.List[Word] = tokens.toList.map(a => new Word(a.string))
-        val rawWords: util.List[CoreLabel] = ling.Sentence.toCoreLabelList(tokenizedSentence)
-        val parse: Tree = parser.apply(rawWords)
+        val tokenizedSentence = tokens.toList.map(a => new Word(a.string))
+        val rawWords = Sentence.toCoreLabelList(tokenizedSentence)
+        val parse = parser.apply(rawWords)
 
-        val tlp: TreebankLanguagePack = new PennTreebankLanguagePack
-        val gsf: GrammaticalStructureFactory = tlp.grammaticalStructureFactory
-        val gs: GrammaticalStructure = gsf.newGrammaticalStructure(parse)
-        val list = gs.typedDependenciesCCprocessed.toList
+        val tlp = new PennTreebankLanguagePack
+        val list = tlp.grammaticalStructureFactory
+                      .newGrammaticalStructure(parse)
+                      .typedDependenciesCCprocessed.toList
         parseCache.put(line, (parse, list))
         (parse, list)
       case Some(parse) => parse
@@ -339,20 +336,6 @@ class NounToNounRelationExtractor(tagger: TaggerCollection[sentence.Sentence wit
         case false => punctAcc
       }
     })
-
-    // We won't handle nested enclosed punctuation, because that will likely overgeneralize.
-    // Just extend to the right
-/*
-    punct.foldLeft(start, end)((acc, cur) => {
-      val strOps = new StringOps(src)
-      val newend =
-        if (strOps.lastIndexOf(cur.open, end - 1) >
-            strOps.lastIndexOf(cur.close, end - 1)) {
-          strOps.indexOf(cur.close, end) + 1
-        } else { end }
-      (start, Math.max(acc._2, newend))
-    })
-*/
   }
 
   def genRelationFilter(relations: Set[String])(td: TypedDependency) = {

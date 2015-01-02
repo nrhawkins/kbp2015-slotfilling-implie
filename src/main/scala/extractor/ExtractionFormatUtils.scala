@@ -8,7 +8,7 @@ import scala.collection.mutable
  * Created by Gene on 12/24/2014.
  */
 object ExtractionFormatUtils {
-  def verboseOutput(extractor: NounToNounRelationExtractor)(src: String) = {
+  def verboseOutput(extractor: ImplicitRelationExtractor)(src: String) = {
     // Parse tree + dependency list
     val parse = extractor.getParse(src)
     val builder = new mutable.StringBuilder
@@ -19,7 +19,7 @@ object ExtractionFormatUtils {
     builder.mkString
   }
 
-  def extractionInfo(extractor: NounToNounRelationExtractor)(src: String): String = {
+  def extractionInfo(extractor: ImplicitRelationExtractor)(src: String): String = {
     def printHops(map: Map[TagInfo, List[List[TypedDependency]]], builder: StringBuilder) {
       for ((k, v) <- map) {
         builder.append(s"Tag: ${k.text} has tag ${k.tag}\tDependency Hops:\t")
