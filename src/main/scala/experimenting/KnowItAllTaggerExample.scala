@@ -1,16 +1,15 @@
 package experimenting
 
 import edu.knowitall.repr.sentence.{Chunked, Chunker, Lemmatized, Lemmatizer, Sentence}
-import edu.knowitall.taggers.{ParseRule, TaggerCollection}
+import edu.knowitall.taggers.{NamedGroupType, ParseRule, TaggerCollection}
 import edu.knowitall.tool.chunk.OpenNlpChunker
 import edu.knowitall.tool.stem.MorphaStemmer
 import extractor.NounToNounRelationExtractor
 
-object Example {
+object KnowItAllTaggerExample {
   val pattern = """
-Animal := CaseInsensitiveKeywordTagger {
-classical singing teacher
-classical singing teacher
+Animal := NormalizedKeywordTagger {
+classical sing teacher
 cat
 kitten
 dog
@@ -18,7 +17,7 @@ red dog
 I have a
 have a red dog
 cliff has a
-Cliff has a
+cliff has a
 puppy
 scientology
 }
@@ -43,13 +42,13 @@ ColorfulAnimalAction := TypePatternTagger{
 I have a red dog, a
 Cliff has a yellow puppy.
 The yellow puppy ran.
-Madame Violetta, a classical singing teacher, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
+Madame Violetta, a classically singing teacher, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
 puppy dog cat kitten
 """
   val chunker = new OpenNlpChunker()
   def process(text: String): Sentence with Chunked with Lemmatized = {
     new Sentence(text) with Chunker with Lemmatizer {
-      val chunker = Example.this.chunker
+      val chunker = KnowItAllTaggerExample.this.chunker
       val lemmatizer = MorphaStemmer
     }
   }
@@ -57,7 +56,6 @@ puppy dog cat kitten
     val rules = new ParseRule[Sentence with Chunked with Lemmatized].parse(pattern).get
     val t = rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
     val lines = input.split("\n").map(f => f.trim()).filter(f => f!= "").toList
-    /*
     for (line <- lines){
       val types = t.tag(process(line)).toList
       println("Line: " + line)
@@ -72,11 +70,13 @@ puppy dog cat kitten
           println("COLOR:\t" + namedGroupType.text)
         }
       }
-    }*/
+    }
+/*
     val extractor = new NounToNounRelationExtractor(t)
     val sentence = "The lawsuits alleged that Scientology churches around the world have " +
       "been bombarded with thousands of harassing phone calls, millions of malicious and obscene e-mails, " +
       "and bomb and death threats by members of Anonymous."
     extractor.extractRelations(sentence)
+*/
   }
 }
