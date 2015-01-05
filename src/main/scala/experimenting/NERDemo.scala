@@ -3,9 +3,10 @@ package experimenting
 import edu.stanford.nlp.ie.AbstractSequenceClassifier
 import edu.stanford.nlp.ie.crf._
 import edu.stanford.nlp.io.IOUtils
-import edu.stanford.nlp.ling.CoreLabel
-import edu.stanford.nlp.ling.CoreAnnotations
+import edu.stanford.nlp.ling.{Word, CoreLabel, CoreAnnotations}
 import java.util.List
+
+import extractor.TaggerLoader
 
 import scala.collection.JavaConversions._
 
@@ -38,6 +39,34 @@ object NERDemo {
       serializedClassifier = args(0)
     }
     val classifier: AbstractSequenceClassifier[CoreLabel] = CRFClassifier.getClassifier(serializedClassifier)
+    val tagger = TaggerLoader.basicTestTagger
+/*
+
+    val sentence = "I go to school at Stanford University, which is located in California."
+    val simpleTokens = tagger.chunker.chunk(sentence)
+    val tokens = simpleTokens.map(token => new Word(token.string))
+    val classified = classifier.classifySentence(tokens)
+
+    println(s"token size: ${tokens.size}\tclassified size: ${classified.size}")
+    var i = 0
+    for (tok <- simpleTokens) {
+      println(s"$i\t${tok.chunk}\t${tok.offset}\t${tok.string}")
+      i += 1
+    }
+
+    i = 0
+    for (token <- tokens) {
+      println(s"$i\t${token.word()}\t${token.value()}")
+      i += 1
+    }
+
+    i = 0
+    for (clas <- classified) {
+      println(s"$i\t${clas.word()}\t${clas.get(classOf[CoreAnnotations.AnswerAnnotation])}")
+      i += 1
+    }
+*/
+
     if (args.length > 1) {
       val fileContents: String = IOUtils.slurpFile(args(1))
       var out = classifier.classify(fileContents)

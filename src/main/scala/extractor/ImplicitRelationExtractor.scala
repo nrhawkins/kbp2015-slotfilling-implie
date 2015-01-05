@@ -7,7 +7,9 @@ import edu.knowitall.taggers.TaggerCollection
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.knowitall.tool.stem.MorphaStemmer
 import edu.knowitall.tool.typer.Type
-import edu.stanford.nlp.ling.{Sentence, IndexedWord, Word}
+import edu.stanford.nlp.ie.crf.CRFClassifier
+import edu.stanford.nlp.ling.Sentence
+import edu.stanford.nlp.ling._
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser
 import edu.stanford.nlp.trees._
 
@@ -28,12 +30,17 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
   val config = ConfigFactory.load("extractor.conf")
 
   private val PARSER_MODEL = config.getString("parser-model-file")
+  private val NER_MODEL = config.getString("ner-model-file")
+  // TODO: make the parser and classifier arguments as well.
   private val parser = LexicalizedParser.loadModel(PARSER_MODEL)
+  private val classifier = CRFClassifier.getClassifier(NER_MODEL)
   private val lemmatizer = MorphaStemmer
 
   private val relationPatterns =
     constructRelationPatterns(config.getConfigList("relation-patterns").toList)
   private val tagId = config.getString("tag-id")
+  private val expectedEntities =
+    expectedTagEntities(config.getConfigList("tag-entities").toList)
   private val enclosingPunctuation = constructEnclosingPunctuation(
     config.getConfigList("enclosing-punctuation").toList)
 
@@ -59,12 +66,15 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     }
   }
 
-  // Extracts implicit relations for a string.
+  // Extracts implicit relations from a string.
   def extractRelations(line: String): List[ImplicitRelation] = {
     // Process uses the same chunker.
     val tags = getTags(line)
     val tokens = getTokens(line)
     val (parse, tdl) = getParse(line)
+
+    println(expectedEntities)
+    println
 
     // Add indices to the tree for the relation identifying phase.
     parse.indexLeaves()
@@ -73,10 +83,47 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     val processedTdl = processDependencies(tags, tdl, tokens)
 
     // Refined results as noun to noun relations
-    val results = getNounToNounRelations(parse, processedTdl, tokens, line)
+    val relations = getNounToNounRelations(parse, processedTdl, tokens, line)
 
     // Add the full sentence to the results.
-    results.foreach(nnr => nnr.sentence = line)
+    relations.foreach(nnr => nnr.sentence = line)
+
+    relations.foreach(r => println(r.longString))
+    println()
+
+    // Add NER tags for each extraction.
+    val taggedNERs = tagNERs(relations, line)
+
+    relations.foreach(r => {
+      println(r.longString)
+      println(r.getNERs)
+    })
+    println()
+
+    // Filter out NERs that don't match the keyword tag's expected entity type.
+    taggedNERs.foreach(extraction => {
+      val ners = extraction.getNERs
+      val tag = extraction.relation
+      extraction.setNERs(
+        ners.filter(ner => expectedEntities.getOrElse(tag, Nil).contains(ner.ner)))
+    })
+
+    relations.foreach(r => {
+      println(r.longString)
+      println(r.getNERs)
+    })
+    println()
+
+    // Filter out extractions where there are no remaining NER tags.
+    val results = taggedNERs.filter(extraction => extraction.getNERs.size > 0)
+
+    relations.foreach(r => {
+      println(r.longString)
+      println(r.getNERs)
+    })
+    println()
+
+
     results
   }
 
@@ -106,7 +153,7 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
   def getParse(line: String): (Tree, List[TypedDependency]) = {
     parseCache.get(line) match {
       case None =>
-        val tokens = tagger.chunker.chunk(line)
+        val tokens = getTokens(line)
         val tokenizedSentence = tokens.toList.map(a => new Word(a.string))
         val rawWords = Sentence.toCoreLabelList(tokenizedSentence)
         val parse = parser.apply(rawWords)
@@ -212,7 +259,9 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
           .filter(nnr => nnr.np != null)
   }
 
-  private def getNounPhrase(tree: Tree, tdl: List[TypedDependency], tokenizedSentence: Seq[ChunkedToken], sentence: String): IndexedString = {
+  private def getNounPhrase
+    (tree: Tree, tdl: List[TypedDependency],
+     tokenizedSentence: Seq[ChunkedToken], sentence: String): IndexedSubstring = {
     // Assume that the full tag noun phrase is a child of the noun phrase
     // containing the dep and gov.
     // If incorrect - TO-DO: expand dep to the full phrase.
@@ -284,10 +333,22 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
 
     val (startIndex, endIndex, wordIndex) = extendToEnclosePunctuation(
       tree, sentence, firstChunk.offset, lastChunk.offset + lastChunk.string.length,
-      phraseTokens(0).index, phraseTokens(phraseTokens.size - 1).index, enclosingPunctuation)
+      phraseTokens(0).index - 1, phraseTokens(phraseTokens.size - 1).index, enclosingPunctuation)
 
-    new IndexedString(
-      sentence.substring(startIndex, endIndex), wordIndex)
+    new IndexedSubstring(
+      sentence.substring(startIndex, endIndex),
+      phraseTokens(0).index - 1,
+      wordIndex,
+      startIndex,
+      endIndex,
+      sentence
+    )
+  }
+
+  def substringFromWordIndicies(string: String, beginIndex: Int, endIndex: Int): String = {
+    val tokens = getTokens(string)
+    string.substring(tokens(beginIndex).offset,
+      tokens(endIndex).offset + tokens(endIndex).string.length)
   }
 
   def phraseTokensFromTree(tree: Tree): List[IndexedString] = {
@@ -326,7 +387,7 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     punct.foldLeft(start, end, lastWordIndex)((punctAcc, punctCur) => {
       val lastOpen = tokens.lastIndexWhere(t => t.string.contains(punctCur.open), lastWordIndex)
       val lastClose = tokens.lastIndexWhere(t => t.string.contains(punctCur.close), lastWordIndex)
-      lastOpen > lastClose && lastOpen >= firstWordIndex match {
+      lastOpen > lastClose && lastOpen > firstWordIndex match {
         case true =>
           val newLastWordIndex = tokens.indexWhere(t => t.string.contains(punctCur.close), lastWordIndex + 1)
           if (newLastWordIndex <= punctAcc._3) {
@@ -407,10 +468,63 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
 
     expansions.map(pair => {
         val nnTag = new ImplicitRelation(pair._1.asIndexedString, pair._1.tag,
-          IndexedString.emptyInstance, "", pair._2)
+          IndexedSubstring.emptyInstance, "", pair._2)
         NounToNounTDL(pair._2, nnTag)
       }
     )
+  }
+
+  def tagNERs(extractions: List[ImplicitRelation],
+    line: String): List[ImplicitRelation] = {
+    // Run NER tagger and pair in the entity portion (check the indicies).
+    // TODO: make this a util function.
+    val wordTokens = getTokens(line).map(token => new Word(token.string))
+    val rawNERTags = classifier.classifySentence(wordTokens)
+
+    // Filter the default NER tag and group NER tags together by answer annotations.
+    val nerTags = rawNERTags
+      // Add token indicies to ner tags.
+      .foldLeft(Nil: List[(CoreLabel, Int)], 0)((acc, cur) =>
+        ((cur, acc._2)::acc._1, acc._2 + 1))._1.reverse
+      // TODO: generalize this filter so that the string isn't hardcoded.
+      .filter(tag => tag._1.get(classOf[CoreAnnotations.AnswerAnnotation]) != "O")
+      .foldLeft(Nil: List[NERTag])((acc, cur) => {
+        val curNER = cur._1.get(classOf[CoreAnnotations.AnswerAnnotation])
+        val curIndex = cur._2
+        acc match {
+          case Nil => new NERTag(cur._1.word, curNER, curIndex, curIndex, cur::Nil)::Nil
+          case head::tail =>
+            if (curNER == head.ner && curIndex == head.endIndex + 1) {
+              new NERTag(substringFromWordIndicies(line, head.beginIndex, curIndex),
+                curNER, head.beginIndex, curIndex, cur::head.tokens)::tail
+            } else {
+              new NERTag(cur._1.word, curNER, curIndex, curIndex, cur::Nil)::
+                head::tail
+            }
+        }
+      }).map(tag => new NERTag(tag.entityString, tag.ner, tag.beginIndex,
+        tag.endIndex, tag.tokens.reverse))
+
+    // For each extraction find the NER tags that are within the extraction bounds.
+    extractions.foldLeft(Nil: List[ImplicitRelation])(
+      (acc, cur) => {
+        val (beginIndex, endIndex) = (cur.np.beginWordIndex, cur.np.endWordIndex)
+        val nersWithinExtraction =
+          nerTags.foldLeft(Nil: List[NERTag])((acc, cur) => {
+            val tokensWithin = cur.tokens.filter(
+              pair => pair._2 >= beginIndex && pair._2 <= endIndex)
+            if (tokensWithin.size == 0) {
+              acc
+            } else {
+              val (curBegin, curEnd) = (tokensWithin(0)._2,
+                tokensWithin(tokensWithin.size - 1)._2)
+              new NERTag(substringFromWordIndicies(line, curBegin, curEnd),
+                cur.ner, curBegin, curEnd, tokensWithin) :: acc
+            }
+        })
+        cur.setNERs(nersWithinExtraction)
+        cur::acc
+      })
   }
 
   // Constructs a mapping of relation patterns given the config object for those patterns.
@@ -438,6 +552,16 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
   // Constructs a list of enclosing punctuation from the given config.
   private def constructEnclosingPunctuation(punctConfs: List[Config]): List[EnclosingPunctuation] = {
     punctConfs.map(pc => EnclosingPunctuation(pc.getString("open"), pc.getString("close")))
+  }
+
+  private def expectedTagEntities(confs: List[Config]): Map[String, List[String]] = {
+    val map = mutable.Map[String, List[String]]()
+    for (conf <- confs) {
+      val tag = conf.getString("tag")
+      val entityType = conf.getString("entity-type")
+      map.put(tag, entityType::Nil)
+    }
+    map.toMap
   }
 
   /**

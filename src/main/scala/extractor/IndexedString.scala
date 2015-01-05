@@ -4,6 +4,7 @@ import edu.stanford.nlp.ling.IndexedWord
 
 
 /**
+ * TODO: add comment, especially constructor params
  * Created by Gene on 11/21/2014.
  */
 class IndexedString(s: String, i: Int) {
@@ -15,9 +16,7 @@ class IndexedString(s: String, i: Int) {
   def contains(other: IndexedString) =
     string.contains(other.string) && index >= other.index
 
-  override def toString(): String = {
-    s"$string-$index"
-  }
+  override def toString: String = s"$string-$index"
 
   override def hashCode(): Int = string.hashCode() + index.hashCode()
 
