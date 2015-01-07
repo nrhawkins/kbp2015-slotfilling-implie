@@ -20,8 +20,9 @@ class ExpansionFunctions {
 
   private val table = Map[String, ExpansionFunction](
     "default" -> simpleRule,
-    "prep_of_no_dobj" ->  prepOfNoDobj,
-    "conj_and_appos" -> conjAndAppos
+    "prep_of_no_dobj" ->  prepOfNoDobj, // not used.
+    "conj_and_appos" -> conjAndAppos,
+    "prep_of_no_punct" -> prepOfNoPunct
   )
 
   def prepareFunctions(id: String, idValue: IndexedString, rules: List[Rule],
@@ -109,4 +110,42 @@ class ExpansionFunctions {
       null
     }
   }
+
+  private def prepOfNoPunct(td: TypedDependency, rule: Rule): (TypedDependency, String, IndexedString) = {
+    val punctuation = Set(".", ",", ";", ":", "(", ")")
+    val matchesRelation = td.reln().toString.equals("prep_of")
+    val matchesDep = rule.dep.equals(id) &&
+      tokens(idValue.index - 1).string.equals(td.dep.value()) &&
+      idValue.index == td.dep.index()
+    val matchesGov = rule.gov.equals(id) &&
+      tokens(idValue.index - 1).string.equals(td.gov.value()) &&
+      idValue.index == td.gov.index()
+    val result = matchesRelation && (matchesDep || matchesGov) && !(matchesDep && matchesGov)
+
+    // Find if there are any "of"s in between the two arguments where
+    // the previous token is a punctuation march.
+    val (max, min) = (
+      Math.max(td.gov.index, td.dep.index) - 1,
+      Math.max(Math.min(td.gov.index, td.dep.index) - 1, 0))
+    var punctBeforeOf = false
+    for (i <- min to max) {
+      if (tokens(i).string.equalsIgnoreCase("of") && i != min &&
+          punctuation.contains(tokens(i - 1).string)) {
+        punctBeforeOf = true
+      }
+    }
+
+    if (result && !punctBeforeOf) {
+      if (matchesDep) {
+        (td, rule.gov, new IndexedString(td.gov()))
+      } else if (matchesGov) {
+        (td, rule.dep, new IndexedString(td.dep()))
+      } else {
+        null
+      }
+    } else {
+      null
+    }
+  }
+
 }
