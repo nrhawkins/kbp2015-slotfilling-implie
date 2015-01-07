@@ -23,7 +23,7 @@ import scala.collection.mutable
  * Created by Gene on 11/10/2014.
  */
 
-// TODO: make a file with all the clase classes.
+// TODO: make a file with all the case classes.
 case class Rule(rel: String, gov: String, dep: String)
 
 class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
@@ -73,9 +73,6 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     val tokens = getTokens(line)
     val (parse, tdl) = getParse(line)
 
-    println(expectedEntities)
-    println
-
     // Add indices to the tree for the relation identifying phase.
     parse.indexLeaves()
 
@@ -88,17 +85,10 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     // Add the full sentence to the results.
     relations.foreach(nnr => nnr.sentence = line)
 
-    relations.foreach(r => println(r.longString))
-    println()
-
+    relations
+/*
     // Add NER tags for each extraction.
     val taggedNERs = tagNERs(relations, line)
-
-    relations.foreach(r => {
-      println(r.longString)
-      println(r.getNERs)
-    })
-    println()
 
     // Filter out NERs that don't match the keyword tag's expected entity type.
     taggedNERs.foreach(extraction => {
@@ -108,23 +98,11 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
         ners.filter(ner => expectedEntities.getOrElse(tag, Nil).contains(ner.ner)))
     })
 
-    relations.foreach(r => {
-      println(r.longString)
-      println(r.getNERs)
-    })
-    println()
-
     // Filter out extractions where there are no remaining NER tags.
     val results = taggedNERs.filter(extraction => extraction.getNERs.size > 0)
 
-    relations.foreach(r => {
-      println(r.longString)
-      println(r.getNERs)
-    })
-    println()
-
-
     results
+*/
   }
 
   // Memoized tokenizer.
