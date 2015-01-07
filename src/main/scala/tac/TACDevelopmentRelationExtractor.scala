@@ -58,9 +58,10 @@ object TACDevelopmentRelationExtractor {
         }
       } else {
         // If no extraction, write NULL for the extraction.
+        // Add 2 tabs to line up the sentence with the rest.
         out.println(
           s"$i\t${inputLine.index}\t${inputLine.docid}" +
-            s"\tNULL" +
+            s"\tNULL\t\t" +
             s"\t${inputLine.sentence}")
         i += 1
       }
