@@ -16,7 +16,7 @@ import scala.io.Source
  * a buildTagger function that takes a Config for a tagger.
  */
 object TaggerLoader {
-  case class TagClass(name: String, files: List[String])
+  case class TagClass(name: String, taggerType: String, files: List[String])
   case class TaggerResult(tags: List[Type], source: String)
 
   val default_tagger_config = ConfigFactory.load("taggers/default-extractor-tagger.conf")
@@ -53,9 +53,7 @@ object TaggerLoader {
     def createTaggerDefinition(classes: List[TagClass]): String = {
       val builder = StringBuilder.newBuilder
       for (clas <- classes) {
-        val taggerType = config.getString("tagger-type")
-
-        builder.append(s"${clas.name} := $taggerType {\n")
+        builder.append(s"${clas.name} := ${clas.taggerType} {\n")
         for (file <- clas.files) {
           val lines = Source.fromFile(file).getLines()
           for (line <- lines) {
@@ -71,7 +69,8 @@ object TaggerLoader {
 
     def getClasses: List[TagClass] = {
       val classes: List[Config] = config.getConfigList("classes").toList
-      classes.map(c => TagClass(c.getString("name"), c.getStringList("files").toList))
+      classes.map(c => TagClass(c.getString("name"), c.getString("tagger-type"),
+        c.getStringList("files").toList))
     }
 
     val taggerPattern = createTaggerDefinition(getClasses)
