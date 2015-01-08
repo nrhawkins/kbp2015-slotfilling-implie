@@ -1,0 +1,147 @@
+Extraction Index	Sentence Index	DocId	Entity(NP)	Relation	Slotfill(tag)	Sentence
+0	0	AFP_ENG_20070503.0097.LDC2009T13	NULL			Zimbabwean MP's rapists jailed for 29 years
+1	1	AFP_ENG_20070503.0097.LDC2009T13	NULL			Two armed robbers who raped a Zimbabwean lawmaker during a break- in at her home were each sentenced to 29 years in prison, state media reported Thursday.
+2	2	AFP_ENG_20070503.0097.LDC2009T13	NULL			Lovemore Mumvuri, 37, and Shepherd Ngulube, 31, sentenced to 15 years each for rape and 14 years for armed robbery, the state-run Herald said.
+3	3	AFP_ENG_20070503.0097.LDC2009T13	NULL			The sentences will be consecutive.
+4	4	AFP_ENG_20070503.0097.LDC2009T13	Prosecutor Angeline Sithole-3	jobTitle	prosecutor-1	Prosecutor Angeline Sithole said the pair used an axe to break into the MP's home to the east of Harare, and then ransacked the house before taking turns to rape the lawmaker who represents the ruling ZANU-PF party.
+5	5	AFP_ENG_20070503.0097.LDC2009T13	NULL			They made off with various property including a hi-fi, pots, pans, mobile phones and blankets altogether worth 37 million Zimbabwean dollars (150,000 US dollars).
+6	6	AFP_ENG_20070503.0097.LDC2009T13	NULL			Some of the property was recovered in neighbouring Mozambique.
+7	7	AFP_ENG_20070503.0097.LDC2009T13	NULL			Sentencing the pair, regional magistrate Gladys Pise said: "Rape is a very grave offence, especially in this case when it is committed on a respected member of society and you did not (only) demean and traumatise her, but shocked her as well."
+8	8	AFP_ENG_20070503.0097.LDC2009T13	NULL			The two robbers are also facing other charges including one of gang-raping a 13 -year-old schoolgirl who later died while waiting to be treated at a local clinic and killing a security guard.
+9	9	AFP_ENG_20080719.0301.LDC2009T13	NULL			Pope Benedict XVI arrives to address Australian vigil
+10	10	AFP_ENG_20080719.0301.LDC2009T13	NULL			Pope Benedict XVI arrived at a Sydney racecourse to address a candlelit vigil attended by tens of thousands for the Catholic church's World Youth Day on Saturday.
+11	11	AFP_ENG_20080719.0301.LDC2009T13	NULL			The pope arrived at 7:15 pm (0915 GMT) to a rapturous welcome, waving to the crowd to religious music.
+12	12	AFP_ENG_20080719.0301.LDC2009T13	NULL			Organisers said more than 200,000 young Catholics would gather at the Royal Randwick Racecourse in eastern Sydney where the pontiff was to address a prayer session, as the world's largest Christian festival approaches its conclusion.
+13	13	AFP_ENG_20080719.0301.LDC2009T13	NULL			A giant cross overshadowed the stage where Pope Benedict was to address the crowd, where dancers dressed in white performed ahead of his arrival, to the sound of religious songs.
+14	14	AFP_ENG_20080719.0301.LDC2009T13	NULL			Australia's biggest city has been transformed by the estimated 215,000 worshippers from around the country and the world who are in Sydney for a six- day Catholic youth celebration led by the 81 -year-old pontiff.
+15	15	APW_ENG_20071009.0547.LDC2009T13	NULL			Georgia ' s former defense minister freed on bail, leaves country
+16	16	APW_ENG_20071009.0547.LDC2009T13	NULL			TBILISI, Georgia 2007-10-09 10:57:04 UTC
+17	17	APW_ENG_20071009.0547.LDC2009T13	NULL			Georgia's former defense minister was freed on a multimillion- dollar bail early Tuesday after retracting his accusations against the president and left the country, news reports said.
+18	18	APW_ENG_20071009.0547.LDC2009T13	President Mikhail Saakashvili of a murder plot and corruption-21	jobTitle	president-13	Irakly Okruashvili was arrested Sept. 27, the day after he accused President Mikhail Saakashvili of a murder plot and corruption -- allegations Saakashvili dismissed as "unpardonable lies."
+19	19	APW_ENG_20071009.0547.LDC2009T13	NULL			Okruashvili was charged with extortion, money-laundering and abuse of power.
+20	20	APW_ENG_20071009.0547.LDC2009T13	Nika Gvaramia, Georgia's deputy chief prosecutor,-12	jobTitle	deputy chief prosecutor-11	On Monday, Nika Gvaramia, Georgia's deputy chief prosecutor, said Okruashvili had retracted his accusations and admitted he made them for political purposes.
+21	21	APW_ENG_20071009.0547.LDC2009T13	NULL			Gvaramia also said that Okruashvili had pleaded guilty to charges of extortion and failure to properly perform his duties.
+22	22	APW_ENG_20071009.0547.LDC2009T13	NULL			Georgian television stations on Monday broadcast footage of the questioning in which Okruashvili retracted his accusations.
+23	23	APW_ENG_20071009.0547.LDC2009T13	NULL			Okruashvili, wearing a track suit, looked tense and tired but spoke clearly.
+24	24	APW_ENG_20071009.0547.LDC2009T13	NULL			A court in the capital, Tbilisi, ruled Monday to free Okruashvili on bail equivalent to US$6 million (euro4.3 million).
+25	25	APW_ENG_20071009.0547.LDC2009T13	NULL			Okruashvili was freed overnight after he produced the money and was escorted home by police.
+26	26	APW_ENG_20071009.0547.LDC2009T13	NULL			He refused to answer reporters' questions.
+27	27	APW_ENG_20071009.0547.LDC2009T13	NULL			Later Tuesday, the Georgian Pirveli news agency quoted Okruashvili's bodyguards as saying he had left the country with his family.
+28	28	APW_ENG_20071009.0547.LDC2009T13	Prosecutor Keti Chomakhishvili-3	jobTitle	prosecutor-1	Prosecutor Keti Chomakhishvili who was in charge of Okruashvili's case couldn't confirm that he went abroad, but said it could be part of an arrangement with authorities.
+29	29	APW_ENG_20071009.0547.LDC2009T13	NULL			Okruashvili was a longtime Saakashvili ally who served as his defense minister until late last year.
+30	30	APW_ENG_20071009.0547.LDC2009T13	NULL			His accusations and arrest have thrown the ex-Soviet nation into its worst political turmoil since Saakashvili was propelled to power in the 2003 uprising known as the Rose Revolution.
+31	31	APW_ENG_20071009.0547.LDC2009T13	NULL			Opposition leaders said Monday that Okruashvili had been forced into making his statement and promised to go ahead with protests demanding Saakashvili's ouster.
+32	32	LTW_ENG_20080705.0056.LDC2009T13	NULL			20080705.0056
+33	33	LTW_ENG_20080705.0056.LDC2009T13	NULL			Olympics: OLY-SWIM -- OMAHA, Neb. -- Americans pursue records and spots on the Olympic team as the swimming trials continue.
+34	34	LTW_ENG_20080705.0056.LDC2009T13	NULL			Developing, by Lisa Dillman (Times).
+35	35	LTW_ENG_20080705.0056.LDC2009T13	NULL			Helene ELLIOTT on the U.S. track and field Olympic trials.
+36	36	LTW_ENG_20080705.0056.LDC2009T13	NULL			Major League Baseball: BBA- REDSOX-YANKEES -- NEW YORK -- In a game that has resumed after being delayed by rain, the Red Sox lead the Yankees, 6-3, in the eighth inning.
+37	37	LTW_ENG_20080705.0056.LDC2009T13	NULL			Developing, expecting version from Newsday or Courant.
+38	38	LTW_ENG_20080705.0056.LDC2009T13	NULL			BBA-BLUEJAYS-ANGELS -- ANAHEIM, Calif. -- Jered Weaver (7-8, 4.30), who pitched six no-hit innings in his last outing only to lose to the Dodgers, takes the mound against the Blue Jays and A.J. Burnett (8-7, 4.74).
+39	39	LTW_ENG_20080705.0056.LDC2009T13	NULL			Developing, by Mike DiGiovanna (Times).
+40	40	LTW_ENG_20080705.0056.LDC2009T13	NULL			BBN-DODGERS-GIANTS -- SAN FRANCISCO -- The Dodgers lead the Giants, 6-5, in the sixth inning.
+41	41	LTW_ENG_20080705.0056.LDC2009T13	NULL			Developing, by Dylan Hernandez (Times).
+42	42	LTW_ENG_20080705.0056.LDC2009T13	NULL			BBN-METS-PHILLIES -- PHILADELPHIA -- The Mets, coming off a one-sided victory in St. Louis, enter Citizens Bank Park with a chance to cut into a 3 1/2-game deficit against the NL East-leading Phillies with Johan Santana (7-7, 3.01) opposing J.A. Happ (0-0).
+43	43	LTW_ENG_20080705.0056.LDC2009T13	NULL			Developing, by David Lennon (Newsday).
+44	44	LTW_ENG_20080705.0056.LDC2009T13	NULL			Features and Columns: MORNING-BRIEFING.
+45	45	LTW_ENG_20081204.0078.LDC2009T13	NULL			The Death of Jonathan Luna: A Timeline
+46	46	LTW_ENG_20081204.0078.LDC2009T13	NULL			Dec. 4, 2003: Luna's car and body are discovered in a creek in rural Pennsylvania.
+47	47	LTW_ENG_20081204.0078.LDC2009T13	NULL			March 12, 2004: Law enforcement authorities offer a $100,000 reward for information leading to the "resolution of the investigation" into Luna's death.
+48	48	LTW_ENG_20081204.0078.LDC2009T13	NULL			They also announce that they are investigating whether it's possible that Luna stabbed himself.
+49	49	LTW_ENG_20081204.0078.LDC2009T13	NULL			Dec. 2, 2004: The Baltimore FBI office releases a statement concluding that Luna was alone from the time he left his courthouse office to the time his body was found.
+50	50	LTW_ENG_20081204.0078.LDC2009T13	NULL			January 2007: Luna's father asks a Pennsylvania coroner to conduct an inquest into his son's death but is refused.
+51	51	LTW_ENG_20081204.0078.LDC2009T13	NULL			Dec. 4, 2008: The five-year anniversary of Luna's death.
+52	52	LTW_ENG_20081204.0078.LDC2009T13	NULL			No official conclusion of the circumstances has been offered by law enforcement.
+53	53	NYT_ENG_20070126.0182.LDC2009T13	NULL			U.N. OFFICIAL ADVANCES PLAN THAT COULD MAKE KOSOVO INDEPENDENT
+54	54	NYT_ENG_20070126.0182.LDC2009T13	NULL			PARIS
+55	55	NYT_ENG_20070126.0182.LDC2009T13	NULL			The U.N. mediator Martti Ahtisaari presented his proposals for the final status of Kosovo on Friday, likely setting the tiny war-torn territory on its way toward independence.
+56	56	NYT_ENG_20070126.0182.LDC2009T13	NULL			Although that goal is still months away and subject to a vote at the United Nations, the presentation of a plan is an important and long-delayed step in resolving the still potentially explosive tensions that led to war in Europe eight years ago.
+57	57	NYT_ENG_20070126.0182.LDC2009T13	NULL			The recommendations would leave the former Yugoslav province free to declare independence from Serbia, according to Western diplomats who discussed the plan that will be made public next week.
+58	58	NYT_ENG_20070126.0182.LDC2009T13	NULL			But they say the plan would also impose international supervision, much like what exists in Bosnia, in what appears to be an attempt to provide protection for Kosovo's ethnic Serb minority.
+59	59	NYT_ENG_20070126.0182.LDC2009T13	NULL			As a result, the proposals fall short of the full independence so hoped for by the territory's majority population of ethnic Albanians, according to Western diplomats.
+60	60	NYT_ENG_20070126.0182.LDC2009T13	NULL			Even with the promise of international involvement, the diplomats say, Russia, a Serbian ally whose support is key, remains cool to the plan.
+61	61	NYT_ENG_20070126.0182.LDC2009T13	Remi Dourlot, Ahtisaari's spokesman,-38	jobTitle	spokesman-37	The proposals foresee a strong international presence for the indefinite future, and include "a lot of measures to guarantee and promote the rights of the minority communities," Remi Dourlot, Ahtisaari's spokesman, said in Vienna.
+62	62	NYT_ENG_20070126.0182.LDC2009T13	NULL			NATO troops, which have kept peace in Kosovo since fighting ended in 1999, would remain for the time being.
+63	63	NYT_ENG_20070126.0182.LDC2009T13	NULL			The U.N. mission governing the territory would be replaced by another international organization that would have executive powers to any annul legislation that breaches Kosovo's obligations under U.N. agreements, diplomats said.
+64	64	NYT_ENG_20070126.0182.LDC2009T13	NULL			If the U.N. Security Council approves the plan, Kosovo is expected to quickly declare its independence and could expect swift recognition from its U.S. and European supporters, even if Serbia rejected such a move.
+65	65	NYT_ENG_20070126.0182.LDC2009T13	NULL			But that step, diplomats caution, is probably months away.
+66	66	NYT_ENG_20070126.0182.LDC2009T13	NULL			Ahtisaari handed his recommendations to representatives of the United States, Britain, France, Germany, Italy and Russia during a meeting in Vienna, Austria.
+67	67	NYT_ENG_20070126.0182.LDC2009T13	NULL			It will be presented to the Serbian and Kosovo governments on Feb. 2.
+68	68	NYT_ENG_20070126.0182.LDC2009T13	NULL			Even then, only the broad outlines of the proposal are expected to be made public.
+69	69	NYT_ENG_20070126.0182.LDC2009T13	NULL			Kosovo and Belgrade remain far apart in their positions, and experts say it is unlikely Ahtisaari can close the gap.
+70	70	NYT_ENG_20070126.0182.LDC2009T13	NULL			Russia, which supports Serbia's efforts to keep Kosovo as a province, wants the Security Council vote delayed until Serbia has formed a government, diplomats in Vienna say.
+71	71	NYT_ENG_20080221.0095.LDC2009T13	NULL			POPE TRYING TO CONVERT JEWISH ' ELDER BROTHERS '
+72	72	NYT_ENG_20080221.0095.LDC2009T13	NULL			Cox News Service
+73	73	NYT_ENG_20080221.0095.LDC2009T13	NULL			WEST PALM BEACH, Fla. -- The pope could easily lose the respect his office deserves by the divisive decisions he has recently made.
+74	74	NYT_ENG_20080221.0095.LDC2009T13	NULL			He offended the Jewish community directly and, indirectly, insulted every thoughtful person.
+75	75	NYT_ENG_20080221.0095.LDC2009T13	NULL			Save that such actions are tragic for the church and the world, they would be quickly dismissed in any rational consideration of the church catholic.
+76	76	NYT_ENG_20080221.0095.LDC2009T13	NULL			Quite appropriately, Benedict XVI seeks the respect of the world as leader of more than a billion Catholics.
+77	77	NYT_ENG_20080221.0095.LDC2009T13	NULL			He behaves, however, as if he were running an exclusive club with no need to consider the sensibilities or intelligence of that world.
+78	78	NYT_ENG_20080221.0095.LDC2009T13	NULL			The pope approved a revision of a prayer for the Good Friday liturgy that asks God to enlighten the hearts of Jews "so that they may acknowledge Jesus Christ, the savior of all men."
+79	79	NYT_ENG_20080221.0095.LDC2009T13	NULL			That is such an affront to the Jewish community that the international assembly of Conservative Rabbis meeting this week is considering a resolution to condemn the prayer for endangering the mutual respect engendered in recent years.
+80	80	NYT_ENG_20080221.0095.LDC2009T13	NULL			The pope's revised prayer would undo much of the good will that his predecessor, John Paul II, did for Jewish relations.
+81	81	NYT_ENG_20080221.0095.LDC2009T13	NULL			John Paul called Jews his "elder brothers" in the faith.
+82	82	NYT_ENG_20080221.0095.LDC2009T13	NULL			Benedict wants to convert them.
+83	83	NYT_ENG_20080221.0095.LDC2009T13	NULL			He seems intent to undo the remarkable work of the Second Vatican Council in the 1960s to engage the contemporary world.
+84	84	NYT_ENG_20080221.0095.LDC2009T13	NULL			He declared a plenary indulgence for anyone who visits the French shrine at Lourdes during its 150th anniversary this year.
+85	85	NYT_ENG_20080221.0095.LDC2009T13	NULL			That kind of spiritual abuse triggered the 16th-century Protestant reformation.
+86	86	NYT_ENG_20080221.0095.LDC2009T13	NULL			Luther objected to indulgences offered by Pope Leo X in exchange for money to rebuild St. Peter's Basilica in Rome.
+87	87	NYT_ENG_20080221.0095.LDC2009T13	NULL			A plenary indulgence allows the faithful to bypass purgatory, escape God's judgment and proceed directly to heaven.
+88	88	NYT_ENG_20080221.0095.LDC2009T13	NULL			Playing games with the souls of the faithful worked for a while in the Middle Ages, but since Luther it has been seen for what it is: A fund-raising marketing tool that mocks the mission of the church, the theology of Scripture and the justice of God.
+89	89	NYT_ENG_20080221.0095.LDC2009T13	NULL			The pope needs to choose the role he wants to play.
+90	90	NYT_ENG_20080221.0095.LDC2009T13	NULL			He can act the cult leader catering to the emotional needs of his followers and the power lust of his institution.
+91	91	NYT_ENG_20080221.0095.LDC2009T13	NULL			He can take a responsible place in the world's religious community, embrace his "elder brothers" and give up the indulgence fantasies.
+92	92	NYT_ENG_20080221.0095.LDC2009T13	NULL			He can't do both.
+93	93	NYT_ENG_20080221.0095.LDC2009T13	NULL			Steve Gushee writes for The Palm Beach Post.
+94	94	NYT_ENG_20080221.0095.LDC2009T13	NULL			E-mail: sgushee AT pbpost.com
+95	95	NYT_ENG_20081106.0136.LDC2009T13	NULL			TOP NORTH AMERICAN SKI RESORTS
+96	96	NYT_ENG_20081106.0136.LDC2009T13	NULL			The Top 10 North American ski resorts as determined by Ski.com: 1.
+97	97	NYT_ENG_20081106.0136.LDC2009T13	NULL			Snowmass, Utah 2.
+98	98	NYT_ENG_20081106.0136.LDC2009T13	NULL			Breckenridge, Colo. 3.
+99	99	NYT_ENG_20081106.0136.LDC2009T13	NULL			Beaver Creek, Colo. 4.
+100	100	NYT_ENG_20081106.0136.LDC2009T13	NULL			Aspen, Colo. 5.
+101	101	NYT_ENG_20081106.0136.LDC2009T13	NULL			Vail, Colo. 6.
+102	102	NYT_ENG_20081106.0136.LDC2009T13	NULL			Park City, Utah 7.
+103	103	NYT_ENG_20081106.0136.LDC2009T13	NULL			Steamboat Springs, Colo. 8.
+104	104	NYT_ENG_20081106.0136.LDC2009T13	NULL			Deer Valley, Utah 9.
+105	105	NYT_ENG_20081106.0136.LDC2009T13	NULL			Telluride, Colo. 10.
+106	106	NYT_ENG_20081106.0136.LDC2009T13	NULL			Whistler Blackcomb, British Columbia
+107	107	NYT_ENG_20081106.0136.LDC2009T13	NULL			These are Skiing magazine's choices for Best Resorts for Apres- Ski for the 2008-2009 season:
+108	108	NYT_ENG_20081106.0136.LDC2009T13	NULL			1.
+109	109	NYT_ENG_20081106.0136.LDC2009T13	NULL			Whistler Blackcomb, British Columbia 2.
+110	110	NYT_ENG_20081106.0136.LDC2009T13	NULL			Telluride, Colo. 3.
+111	111	NYT_ENG_20081106.0136.LDC2009T13	NULL			Breckenridge, Colo. 4.
+112	112	NYT_ENG_20081106.0136.LDC2009T13	NULL			Vail, Colo. 5.
+113	113	NYT_ENG_20081106.0136.LDC2009T13	NULL			Park City, Utah 6.
+114	114	NYT_ENG_20081106.0136.LDC2009T13	NULL			Killington, Vt. 7.
+115	115	NYT_ENG_20081106.0136.LDC2009T13	NULL			Heavenly, Calif. 8.
+116	116	NYT_ENG_20081106.0136.LDC2009T13	NULL			Aspen, Colo. 9.
+117	117	NYT_ENG_20081106.0136.LDC2009T13	NULL			Steamboat, Colo. 10.
+118	118	NYT_ENG_20081106.0136.LDC2009T13	NULL			Deer Valley, Utah
+119	119	XIN_ENG_20080401.0121.LDC2009T13	NULL			UN mission continues to operate in Kosovo
+120	120	XIN_ENG_20080401.0121.LDC2009T13	NULL			UNITED NATIONS, April 1 (Xinhua)
+121	121	XIN_ENG_20080401.0121.LDC2009T13	NULL			UN Secretary-General Ban Ki- moon reiterated on Tuesday that the UN mission in Kosovo, or UNMIK, will continue to operate in accordance with UN Security Council resolution 1244.
+122	122	XIN_ENG_20080401.0121.LDC2009T13	NULL			"Following Kosovo's declaration of independence, UNMIK continues to operate on the understanding that resolution 1244 ( 1999) remains in force, unless the Security Council decides otherwise," Ban said in his latest report on the work of UNMIK to the Security Council.
+123	123	XIN_ENG_20080401.0121.LDC2009T13	NULL			The secretary-general said Kosovo's declaration of independence and subsequent events have posed significant challenges to UNMIK's ability to exercise its administrative authority in Kosovo.
+124	124	XIN_ENG_20080401.0121.LDC2009T13	NULL			"The evolving reality in Kosovo is likely to have significant operational implications for UNMIK," he said.
+125	125	XIN_ENG_20080401.0121.LDC2009T13	NULL			"Pending Security Council guidance, there might be a need for UNMIK to adjust its operational deployment to developments and changes on the ground in a manner consistent with the operational framework established under resolution 1244," he said.
+126	126	XIN_ENG_20080401.0121.LDC2009T13	NULL			The UN chief said despite "a number of serious security incidents," the overall security situation in Kosovo in recent months "remained calm though tense."
+127	127	XIN_ENG_20080401.0121.LDC2009T13	NULL			But he stressed that any violence, whether directed at UNMIK personnel or facilities or against members of any of Kosovo's communities, is unacceptable and cannot be tolerated.
+128	128	XIN_ENG_20080401.0121.LDC2009T13	NULL			In that context, he urges all sides to reaffirm and act upon their commitments to refrain from any actions or statements that could endanger peace, lead to violence or jeopardize security in Kosovo and the region.
+129	129	XIN_ENG_20080401.0121.LDC2009T13	NULL			He concluded by saying that the UN's efforts in Kosovo are aimed at ensuring that the political and security situation in Kosovo and the wider region remains stable, and that the safety and security of the population are preserved.
+130	130	XIN_ENG_20080401.0121.LDC2009T13	NULL			Adopted in June 1999, resolution 1244 recognizes the sovereignty and territorial integrity of Serbia and puts the breakaway province under UN administration.
+131	131	XIN_ENG_20080506.0239.LDC2009T13	NULL			North Carolina, Indiana primaries
+132	132	XIN_ENG_20080506.0239.LDC2009T13	NULL			WASHINGTON, May 6 (Xinhua)
+133	133	XIN_ENG_20080506.0239.LDC2009T13	NULL			Barack Obama and Hillary Rodham Clinton continued the battle to win the Democratic presidential nomination, with record turnouts in the North Carolina and Indiana primaries Tuesday.
+134	134	XIN_ENG_20080506.0239.LDC2009T13	NULL			Voters lined up before sunrise in the capital of the midwestern state of Indiana, where the first polling stations opened at 6:00 am (1100 GMT) under overcast skies.
+135	135	XIN_ENG_20080506.0239.LDC2009T13	NULL			The day's voting closes in North Carolina at 8:30 pm (0030 GMT), with a combined total of 187 pledged delegates on offer in the two states.
+136	136	XIN_ENG_20080506.0239.LDC2009T13	NULL			Pre-election polls showed Obama leading in North Carolina while Clinton appeared to have the edge in Indiana.
+137	137	XIN_ENG_20080506.0239.LDC2009T13	NULL			Judging by numbers, Obama is the Democratic front-runner so far, as he leads in pledged delegates and is also ahead in the popular vote.
+138	138	XIN_ENG_20080506.0239.LDC2009T13	NULL			However, he has also been unable to force Clinton out of the race.
+139	139	XIN_ENG_20080506.0239.LDC2009T13	NULL			If Obama can take both states, he will strengthen his advantage over Clinton and influence the superdelegates who will ultimately decide who will represent the Democratic Party in November's presidential election.
+140	140	XIN_ENG_20080506.0239.LDC2009T13	NULL			Clinton needs to at least take Indiana to stay in the race.
+141	141	XIN_ENG_20080506.0239.LDC2009T13	NULL			The Clinton camp admits she cannot overtake Obama in pledged delegate count, and is therefore pinning her hopes on persuading nearly 800 superdelegates, who look set to have the deciding vote, to choose her as the presidential candidate at the Democratic National Convention in August.
+142	142	XIN_ENG_20080506.0239.LDC2009T13	NULL			A rolling average of polls by RealClearPolitics.com gives Obama 1,491 pledged delegates from all the races so far to Clinton's 1,337.
+143	143	XIN_ENG_20080506.0239.LDC2009T13	NULL			Neither can reach the winning line of 2,025 without backing from the superdelegates -- party officials free to vote either way.
+144	144	XIN_ENG_20080506.0239.LDC2009T13	NULL			North Carolina and Indiana will also hold Republican presidential primaries Tuesday.
+145	145	XIN_ENG_20080506.0239.LDC2009T13	Sen. John McCain of Arizona, the presumptive Republican nominee,-11	jobTitle	sen.-1	Sen. John McCain of Arizona, the presumptive Republican nominee, is expected to pull in the majority of votes in what will be relatively light turnouts for Republicans.
