@@ -1,0 +1,1020 @@
+Extraction Index	Sentence Index	DocId	Entity(NP)	Relation	Slotfill(tag)	Sentence
+						
+Correct Extractions						
+0	11871	APW_ENG_20080924.0608.LDC2009T13	Police spokesman Urpo Lintula-4	jobTitle	spokesman-2	Police spokesman Urpo Lintula said Saari had acquired a permit for his weapon, a .22-caliber handgun, in August.
+10	13148	LTW_ENG_20070321.0111.LDC2009T13	former Vermont governor Howard Dean-15	jobTitle	governor-13	In the last election cycle, Blue State Digital helped former Vermont governor Howard Dean bring in a flood of low-dollar online donations that catapulted him into the spotlight.
+77	2160	AFP_ENG_20080202.0479.LDC2009T13	'players'' association chief Gene Upshaw-8'	jobTitle	chief-6	'However, players'' association chief Gene Upshaw warned Thursday that the union would not support regular testing for HGH via blood test.'
+193	20400	XIN_ENG_20070215.0225.LDC2009T13	President Mahmoud Abbas-22	jobTitle	president-20	GAZA, Feb. 15 (Xinhua) - Palestinian Prime Minister Ismail Haneya has officially presented his resignation before President Mahmoud Abbas in a meeting held on Thursday night in Gaza City.
+194	20400	XIN_ENG_20070215.0225.LDC2009T13	Palestinian Prime Minister Ismail Haneya-13	jobTitle	prime minister-11	GAZA, Feb. 15 (Xinhua) - Palestinian Prime Minister Ismail Haneya has officially presented his resignation before President Mahmoud Abbas in a meeting held on Thursday night in Gaza City.
+206	8445	APW_ENG_20071104.0155.LDC2009T13	U.N. resident coordinator Charles Petrie-19	jobTitle	resident coordinator-17	'Expected to be high on Gambari''s agenda is the junta''s accusation that U.N. resident coordinator Charles Petrie went beyond his duties by criticizing the generals'' failure to meet the economic and humanitarian needs of its people, and by saying this was the cause of September''s mass pro-democracy protests.'
+236	2291	AFP_ENG_20080314.0244.LDC2009T13	President Ahmedinejad-24	jobTitle	president-23	"I would hold to you that there are political consequences in that system for that failure, that fundamental failure of President Ahmedinejad and his (group) to live up to that basic commitment that they made to their people when they were elected," Casey said.
+242	12577	APW_ENG_20081119.1077.LDC2009T13	Cap Cana President Ricardo Hazoury-25	jobTitle	president-23	"Our project has been affected by the economic tsunami that has paralyzed the global financial markets," said Cap Cana President Ricardo Hazoury.
+288	22118	XIN_ENG_20081104.0058.LDC2009T13	National police spokesman Abubakar Nataprawira-5	jobTitle	spokesman-3	National police spokesman Abubakar Nataprawira said the threat was received through a telephone text message.
+295	4052	APW_ENG_20021119.0653.LDC2007T07	Foreign Minister Benjamin Netanyahu-8	jobTitle	foreign minister-6	Sharon is currently battling Foreign Minister Benjamin Netanyahu for Likud leadership, which will be decided in a primary next week.
+302	13189	LTW_ENG_20070324.0050.LDC2009T13	'Leonard Downie Jr., the newspaper''s executive editor,-10'	jobTitle	executive-8	'Leonard Downie Jr., the newspaper''s executive editor, said he was upset that the newsroom was not notified.'
+303	13189	LTW_ENG_20070324.0050.LDC2009T13	'Leonard Downie Jr., the newspaper''s executive editor,-10'	jobTitle	editor-9	'Leonard Downie Jr., the newspaper''s executive editor, said he was upset that the newsroom was not notified.'
+325	2323	AFP_ENG_20080321.0453.LDC2009T13	President Putin-3	jobTitle	president-2	'"President Putin just told me that it won''t be easier with you than with him.'
+327	692	AFP_ENG_20070404.0514.LDC2009T13	Taliban spokesman Yousuf Ahmadi-35	jobTitle	spokesman-33	"We have seized two foreigners and three Afghans -- two of them interpreters, one of them a driver -- on the road between Nimroz and Farah," said Taliban spokesman Yousuf Ahmadi.
+335	21616	XIN_ENG_20080503.0060.LDC2009T13	President Nicolas Sarkozy-43	jobTitle	president-41	The remarks by the senior French official are coming at a time when analysts both inside and outside Africa are wondering whether France will pursue a policy of continuity with Africa or "a new break" as promised by President Nicolas Sarkozy ahead of his electoral triumph.
+377	303	AFP_ENG_20070209.0210.LDC2009T13	Non-proliferation analyst Mark Fitzpatrick-4	jobTitle	analyst-2	'Non-proliferation analyst Mark Fitzpatrick, of the London think tank the International Institute for Strategic Studies, said: "Iran will be looking for a way to escape further sanctions" but he said that what Larijani "has to offer will likely fall short of the Security Council''s resolution for a verified suspension."'
+383	4090	APW_ENG_20070105.0655.LDC2009T13	Houten city spokeswoman Marloes van Kessel-16	jobTitle	spokeswoman-13	'"It''s in very good condition," said Houten city spokeswoman Marloes van Kessel.'
+400	13983	LTW_ENG_20071201.0056.LDC2009T13	former Lebanese Prime Minister Rafik Hariri-37	jobTitle	prime minister-35	'Hezbollah''s punishing war with Israel, its rapid rearmament and its successful intimidation of parliament have proceeded apace, while the United Nations tribunal charged with investigating the assassination of former Lebanese Prime Minister Rafik Hariri has dragged.'
+402	16549	NYT_ENG_20070711.0226.LDC2009T13	'President Hugo Chavez''s-40'	jobTitle	president-37	'Ambassador Bernardo Alvarez Herrera said Venezuela is continuing compensation talks with major oil companies that walked away from their multibillion-dollar Venezuelan operations last month rather than agree to terms of relinquishing control in the face of President Hugo Chavez''s nationalization of oil operations.'
+443	4794	APW_ENG_20070302.1121.LDC2009T13	Princess Lalla Salma-12	jobTitle	princess-10	'The North African kingdom''s massive pardon came after Princess Lalla Salma gave birth to a baby girl Wednesday.'
+469	20371	XIN_ENG_20070131.0263.LDC2009T13	NF chief Gillaume Soro-46	jobTitle	chief-44	'Desire Tagro, Gbagbo''s special envoy, accompanied by Burkina Faso''s Security Minister Djibril Bassole on Tuesday, arrived in Bouake, a stronghold of the rebel group New Forces (NF), with the aim of establishing contacts with NF chief Gillaume Soro.'
+470	20371	XIN_ENG_20070131.0263.LDC2009T13	'Burkina Faso''s Security Minister Djibril Bassole-17'	jobTitle	minister-15	'Desire Tagro, Gbagbo''s special envoy, accompanied by Burkina Faso''s Security Minister Djibril Bassole on Tuesday, arrived in Bouake, a stronghold of the rebel group New Forces (NF), with the aim of establishing contacts with NF chief Gillaume Soro.'
+476	9763	APW_ENG_20080401.0928.LDC2009T13	The governor of the Middle Juba region, Hajir Bile Sugal,-12	jobTitle	governor-2	The governor of the Middle Juba region, Hajir Bile Sugal, told The Associated Press that the government has dispatched soldiers to a village near Buale where he heard the gunmen had fled.
+478	2265	AFP_ENG_20080309.0384.LDC2009T13	President Pervez Musharraf-8	jobTitle	president-6	He was immediately pardoned by President Pervez Musharraf.
+487	19516	NYT_ENG_20080915.0021.LDC2009T13	'Hank Steinbrenner, the Yankees'' co-chairman,-9'	jobTitle	co-chairman-8	'Although Hank Steinbrenner, the Yankees'' co-chairman, has complimented Girardi, the uninspiring season has created questions about his performance.'
+492	11001	APW_ENG_20080727.0634.LDC2009T13	Public Safety spokesman Peter Olson-25	jobTitle	spokesman-23	A police helicopter was sent to rescue people reported to be standing on buildings and vehicles, state Department of Public Safety spokesman Peter Olson said.
+509	12451	APW_ENG_20081114.0274.LDC2009T13	spokeswoman Jill Fritzo-24	jobTitle	spokeswoman-22	"Kristin is, of course, disappointed, as she was very excited to work with John Corigliano," spokeswoman Jill Fritzo said.
+522	21880	XIN_ENG_20080826.0200.LDC2009T13	Prime Minister Topolanek-7	jobTitle	prime minister-6	The Czech government of Prime Minister Topolanek has backed Georgia in the recent conflict over South Ossetia.
+539	11868	APW_ENG_20080924.0608.LDC2009T13	investigation leader Jari Neulaniemi-16	jobTitle	leader-14	"He really went out with the intention of killing," investigation leader Jari Neulaniemi said.
+563	5847	APW_ENG_20070403.1031.LDC2009T13	'mayor Helen Zille''s-28'	jobTitle	mayor-25	'Approval for the building of the stadium was held up by local residents who questioned the positioning of the stadium, and then by mayor Helen Zille''s cautious approach to funding as she sought financial guarantees to cover potential building cost overruns.'
+597	6251	APW_ENG_20070530.1322.LDC2009T13	German Foreign Minister Frank-9	jobTitle	foreign minister-8	The four Quartet diplomats -- German Foreign Minister Frank- Walter Steinmeier, U.S. Secretary of State Condoleezza Rice, Russian Foreign Minister Sergey Lavrov and U.N. chief Ban Ki-moon -- met at the Foreign Ministry in Berlin.
+610	4702	APW_ENG_20070223.0894.LDC2009T13	President Toomas Hendrik Ilves-10	jobTitle	president-7	'The fight came one day after President Toomas Hendrik Ilves vetoed a law calling for the monument''s removal.'
+620	6382	APW_ENG_20070608.1166.LDC2009T13	court spokesman Allan Parachini-10	jobTitle	spokesman-8	'Sauer''s decision was announced by court spokesman Allan Parachini shortly before the start of a hearing that could put her behind bars again for violating probation in a reckless driving case.'
+623	6270	APW_ENG_20070531.0102.LDC2009T13	Mike Pound, a spokesman for Jeppesen,-8	jobTitle	spokesman-5	Mike Pound, a spokesman for Jeppesen, said company officials had not yet seen the lawsuit and had no immediate comment.
+632	7313	APW_ENG_20070820.0711.LDC2009T13	Canadian Prime Minister Stephen Harper-5	jobTitle	prime minister-3	Canadian Prime Minister Stephen Harper went to the Arctic earlier this month and announced Canada will build a new army training center and a deep-water port in the Northwest passage.
+646	20677	XIN_ENG_20070621.0245.LDC2009T13	Togolese youth and sports minister Richard Kwaku Attipoe-28	jobTitle	minister-25	According to the minister, among those who died in the crash, there were 11 Togolese nationals, including Togolese youth and sports minister Richard Kwaku Attipoe, two French pilots and a Senegalese national living in Togo.
+706	21144	XIN_ENG_20071205.0313.LDC2009T13	Togolese Public Service Minister Foli-Bazi Katari-6	jobTitle	minister-4	Togolese Public Service Minister Foli-Bazi Katari said the government will support "any efforts deployed to prevent leadership squabbles experienced by a number of unions in the country."
+733	8302	APW_ENG_20071019.0369.LDC2009T13	metropolitan Manila police chief Geary Barias-23	jobTitle	chief-21	The lunchtime blast rocked the restaurant in Makati, near the busy Glorietta shopping complex, said metropolitan Manila police chief Geary Barias.
+743	11392	APW_ENG_20080813.0002.LDC2009T13	New York Governor DeWitt Clinton-22	jobTitle	governor-20	'ALBANY, New York -- When the Erie Canal was first proposed in 1808, many thought New York Governor DeWitt Clinton was foolish for pursuing the idea -- they derided it as "Clinton''s ditch."'
+757	14643	LTW_ENG_20080715.0045.LDC2009T13	Hopkinson, author of foodie favorite "Roast Chicken and Other Stories-30	jobTitle	author-21	Last fall, Quadrille published a collection of weekly columns that ran in the Independent, written by Hopkinson, author of foodie favorite "Roast Chicken and Other Stories."
+771	457	AFP_ENG_20070221.0575.LDC2009T13	Federal Reserve chief Ben Bernanke-20	jobTitle	chief-18	'US consumer prices jumped in January, the government reported Wednesday, a week after Federal Reserve chief Ben Bernanke warned that inflation remains the central bank''s top concern.'
+772	21859	XIN_ENG_20080813.0595.LDC2009T13	Chinese captain Li Weifeng-18	jobTitle	captain-16	'"I don''t want to make any excuses for our loss," Chinese captain Li Weifeng said.'
+777	7709	APW_ENG_20070914.0302.LDC2009T13	Richard Whelden, deputy mission director for the U.S. Agency for International Development in Bangkok-34	jobTitle	deputy mission director-25	"I understand that there has been a lot of public awareness in Padang and Bengkulu," said Richard Whelden, deputy mission director for the U.S. Agency for International Development in Bangkok.
+781	8888	APW_ENG_20071213.0515.LDC2009T13	Sen. Thad Cochran-15	jobTitle	sen.-13	More recently, Democrats worked with pragmatic appropriations panel Republicans such as Sen. Thad Cochran and Rep. James Walsh to craft a split-the-differences bill cutting $11 billion (euro7.4 billion) from the earlier Democratic measures.
+794	16943	NYT_ENG_20070917.0130.LDC2009T13	Prime Minister Gordon Brown-13	jobTitle	prime minister-11	'Members of Britain''s opposition Conservative party Monday blamed Prime Minister Gordon Brown for ignoring warnings of a "looming debt crisis" for the past four years and for encouraging consumers to take on record debt when he was chancellor of the Exchequer during this period.'
+863	9118	APW_ENG_20080112.0653.LDC2009T13	Fayyaz Ahmad, an area police chief-30	jobTitle	chief-30	Meanwhile, police fatally shot two suspected militants in a shootout late Friday in Multan, a city in Punjab province, said Fayyaz Ahmad, an area police chief.
+923	14840	LTW_ENG_20080929.0015.LDC2009T13	Powerful Moscow Mayor Yuri M. Luzhkov-6	jobTitle	mayor-3	'Powerful Moscow Mayor Yuri M. Luzhkov, who has been banned from Ukraine for his rhetoric on Crimea, has said the region "doesn''t belong" to Ukraine.'
+925	15764	NYT_ENG_20070402.0104.LDC2009T13	Thomas E. Moloney, chairman of the board-29	jobTitle	chairman-26	'"You can''t just use kind of the multiple of going from x square feet to y," said Thomas E. Moloney, chairman of the board.'
+973	2338	AFP_ENG_20080321.0453.LDC2009T13	New York governor Eliot Spitzer-29	jobTitle	governor-27	-- Carolyn Capalbo on her daughter Ashley Youmans, aka "Kristen", identified as the high-class call girl allegedly hired for sex by New York governor Eliot Spitzer, who resigned.
+984	7721	APW_ENG_20070916.0099.LDC2009T13	Sen. Rosario Ibarra-21	jobTitle	sen.-19	'But this year, in another corner of the plaza, thousands of Calderon''s detractors led by Sen. Rosario Ibarra planned their own "grito," or cry of independence.'
+1002	17873	NYT_ENG_20080203.0075.LDC2009T13	former Vice President Dan Quayle-31	jobTitle	president-29	'Former Dallas Cowboys quarterback Roger Staubach, who''s leading the planning effort for the 2011 Super Bowl in North Texas, stopped by, and former Vice President Dan Quayle popped in to rub elbows with the legendary ballplayer.'
+1003	19158	NYT_ENG_20080721.0096.LDC2009T13	'Dr. Richard Bachur, chief of emergency services at Children''s Hospital Boston-49'	jobTitle	chief-41	'While the study''s design is sound, its small size and limited area - two hospitals within 15 minutes of each other - makes it hard to generalize to patients throughout the country, said Dr. Richard Bachur, chief of emergency services at Children''s Hospital Boston.'
+1006	535	AFP_ENG_20070301.0347.LDC2009T13	Paul Lombard, a lawyer representing the Picasso family-40	jobTitle	lawyer-36	The paintings were on display in the apartment located in the chic Left Bank area of Paris, but security precautions had been taken to protect the works, according to Paul Lombard, a lawyer representing the Picasso family.
+						
+Long or Ambiguous Entity						
+218	17390	NYT_ENG_20071228.0212.LDC2009T13	Archbishop Mousbegh Mardirossian, western prelate for the Armenian Apostolic Church of America, who presided over her funeral north of downtown Los Angeles-47	jobTitle	archbishop-24	"Though she is no longer with us physically, she is now resting peacefully in the presence of God," said Archbishop Mousbegh Mardirossian, western prelate for the Armenian Apostolic Church of America, who presided over her funeral north of downtown Los Angeles.
+254	18307	NYT_ENG_20080318.0090.LDC2009T13	Preston, the author of several books on Ireland, and her husband, John,-16	jobTitle	author-4	Preston, the author of several books on Ireland, and her husband, John, have these trips for 2008: Springtime in Ireland, April 19-26, for $1,269, land only
+361	12118	APW_ENG_20081010.0115.LDC2009T13	'Palin''s former brother-in-law, a state police officer-20'	jobTitle	officer-20	'The commissioner says he was dismissed for resisting pressure to fire Palin''s former brother-in-law, a state police officer.'
+546	2888	AFP_ENG_20080521.0381.LDC2009T13	Maulana Fazlullah, a radical pro-Taliban cleric who led an uprising to enforce Islamic Sharia law in the valley-34	jobTitle	cleric-22	The army launched a major offensive in October to clear Swat of militants loyal to Maulana Fazlullah, a radical pro-Taliban cleric who led an uprising to enforce Islamic Sharia law in the valley.
+810	14897	LTW_ENG_20081011.0097.LDC2009T13	his campaign manager, Rick Davis, who said he is worried the election is being "stolen" in several battleground states where irregularities have been alleged in voter registrations collected by ACORN, the Association of Community Organizations for Reform Now-54	jobTitle	campaign manager-14	The accusation about voter fraud came in a conference call with his campaign manager, Rick Davis, who said he is worried the election is being "stolen" in several battleground states where irregularities have been alleged in voter registrations collected by ACORN, the Association of Community Organizations for Reform Now.
+						
+						
+						
+Incorrect Extractions						
+35	9436	APW_ENG_20080226.0023.LDC2009T13	Art Resnick, spokesman for the Alcohol and Tobacco Tax and Trade Bureau in Washington, D.C. Wines over 14 percent alcohol, which fall into a higher tax category, must list alcohol levels with a tolerance of plus or minus 1 percent-73	jobTitle	spokesman-33	When a percentage is listed it can be off by up to 1.5 percent, a tolerance granted because one batch of wine may differ from another, said Art Resnick, spokesman for the Alcohol and Tobacco Tax and Trade Bureau in Washington, D.C. Wines over 14 percent alcohol, which fall into a higher tax category, must list alcohol levels with a tolerance of plus or minus 1 percent.
+199	89	AFP_ENG_20070112.0082.LDC2009T13	State Condoleezza Rice-34	jobTitle	secretary of state-32	'"I believe it''s a tragic mistake," said Senator Joseph Biden, a 2008 Democratic presidential hopeful and chairman of the Foreign Relations Committee, when Secretary of State Condoleezza Rice appeared before the panel Thursday to defend the Bush plan.'
+200	89	AFP_ENG_20070112.0082.LDC2009T13	Senator Joseph Biden, a 2008 Democratic presidential hopeful and chairman of the Foreign Relations Committee, when Secretary of State Condoleezza Rice appeared before the panel Thursday to defend the Bush plan-44	jobTitle	chairman-22	'"I believe it''s a tragic mistake," said Senator Joseph Biden, a 2008 Democratic presidential hopeful and chairman of the Foreign Relations Committee, when Secretary of State Condoleezza Rice appeared before the panel Thursday to defend the Bush plan.'
+201	89	AFP_ENG_20070112.0082.LDC2009T13	Senator Joseph Biden, a 2008 Democratic presidential hopeful and chairman of the Foreign Relations Committee, when Secretary of State Condoleezza Rice appeared before the panel Thursday to defend the Bush plan-44	jobTitle	senator-12	'"I believe it''s a tragic mistake," said Senator Joseph Biden, a 2008 Democratic presidential hopeful and chairman of the Foreign Relations Committee, when Secretary of State Condoleezza Rice appeared before the panel Thursday to defend the Bush plan.'
+413	1460	AFP_ENG_20070903.0070.LDC2009T13	State Condoleezza Rice and national security adviser Stephen Hadley-32	jobTitle	adviser-30	Staging a surprise detour from his trip to Sydney, Bush arrived at the Al-Asad air base in Anbar along with Secretary of State Condoleezza Rice and national security adviser Stephen Hadley.
+414	1460	AFP_ENG_20070903.0070.LDC2009T13	State Condoleezza Rice and national security adviser Stephen Hadley-32	jobTitle	secretary of state-24	Staging a surprise detour from his trip to Sydney, Bush arrived at the Al-Asad air base in Anbar along with Secretary of State Condoleezza Rice and national security adviser Stephen Hadley.
+595	6251	APW_ENG_20070530.1322.LDC2009T13	State Condoleezza Rice, Russian Foreign Minister Sergey Lavrov and U.N. chief Ban Ki-moon-30	jobTitle	foreign minister-23	The four Quartet diplomats -- German Foreign Minister Frank- Walter Steinmeier, U.S. Secretary of State Condoleezza Rice, Russian Foreign Minister Sergey Lavrov and U.N. chief Ban Ki-moon -- met at the Foreign Ministry in Berlin.
+596	6251	APW_ENG_20070530.1322.LDC2009T13	State Condoleezza Rice, Russian Foreign Minister Sergey Lavrov and U.N. chief Ban Ki-moon-30	jobTitle	secretary of state-17	The four Quartet diplomats -- German Foreign Minister Frank- Walter Steinmeier, U.S. Secretary of State Condoleezza Rice, Russian Foreign Minister Sergey Lavrov and U.N. chief Ban Ki-moon -- met at the Foreign Ministry in Berlin.
+						
+						
+No extractions						
+1	6929	APW_ENG_20070717.0848.LDC2009T13	NULL			--The group will continue to seek weapons of mass destruction -- chemical, biological or nuclear material -- and "would not hesitate to use them."
+2	12212	APW_ENG_20081017.0820.LDC2009T13	NULL			'Earlier, Tokyo''s Nikkei 225 stock average advanced 235.27 points, or 2.78 percent, at 8,693.82.'
+3	4724	APW_ENG_20070224.0104.LDC2009T13	NULL			A rush of water could be heard from its depths, and authorities feared it could widen or others could open up.
+4	1011	AFP_ENG_20070614.0078.LDC2009T13	NULL			New car sales in Europe fell for the fourth consecutive month in May, dragged down by a poor showing in western Europe despite strong performance further east, the European automobile association ACEA said Wednesday
+5	7998	APW_ENG_20070924.0721.LDC2009T13	NULL			Extras: (1b, 4lb, 6w, 1nb) 12
+6	17506	NYT_ENG_20080107.0224.LDC2009T13	NULL			The report is not likely to be the last word on the antidepressant debate, experts said.
+7	21744	XIN_ENG_20080722.0265.LDC2009T13	NULL			Like Zinger, Michael Kolganov, who will be the Israeli flag bearer at the Beijing Olympics opening ceremony, told Xinhua that he is prepared for the Games.
+8	1479	AFP_ENG_20070903.0070.LDC2009T13	NULL			The evacuation of the troops to a desert airbase west of Basra paves the way for a full British handover of security in the region to Iraqi authorities, which could take place in the autumn.
+9	10352	APW_ENG_20080423.0015.LDC2009T13	NULL			'Mabel Wisse Smit -- WIH''-suh SMIT'
+11	7938	APW_ENG_20070919.1310.LDC2009T13	NULL			Fall of wickets: 1-136, 2-144, 3-155, 4-216.
+12	19814	NYT_ENG_20081106.0136.LDC2009T13	NULL			Vail, Colo. 6.
+13	16395	NYT_ENG_20070622.0068.LDC2009T13	NULL			'"Today, Americans who seek information under FOIA remain less likely to obtain it than during any other time in FOIA''s 41-year history," Leahy said.'
+14	13806	LTW_ENG_20071015.0003.LDC2009T13	NULL			He is yawning and tired.
+15	11141	APW_ENG_20080806.0063.LDC2009T13	NULL			One individual is known only by an alias online, and his place of origin is unknown.
+16	21712	XIN_ENG_20080718.0237.LDC2009T13	NULL			"We were lucky, but lots of the people in my hometown were not.
+17	5507	APW_ENG_20070325.0005.LDC2009T13	NULL			C
+18	10179	APW_ENG_20080423.0015.LDC2009T13	NULL			'Jabril Rajoub -- jahb-REEL'' rah-JOOB'''
+19	12143	APW_ENG_20081012.0400.LDC2009T13	NULL			Watson will get more bowling on the final day once Australia decide when to declare its innings and push for victory.
+20	5542	APW_ENG_20070325.0005.LDC2009T13	NULL			'Chickasha -- CHIK''-uh-shay'
+21	15586	NYT_ENG_20070306.0155.LDC2009T13	NULL			-- The idea of replacing crude oil with algae may seem like a harebrained way to clean up the planet and bolster national security.
+22	10186	APW_ENG_20080423.0015.LDC2009T13	NULL			'Abdel Aziz Rantisi -- AHB''-duhl ah-ZEEZ'' rahn-TEE''-see'
+23	14366	LTW_ENG_20080317.0056.LDC2009T13	NULL			Censorship officials huffed about how her gesture was out of place and pledged to tighten controls over foreign performers in China.
+24	1487	AFP_ENG_20070906.0447.LDC2009T13	NULL			'URGENT ¥¥¥ Bank of England says ''too soon'' to assess credit squeeze impact'
+25	7981	APW_ENG_20070924.0721.LDC2009T13	NULL			TOTAL: (for 5 wickets) 157
+26	6657	APW_ENG_20070630.0255.LDC2009T13	NULL			It was not immediately clear whether Lawrence will face prison time.
+27	20070	NYT_ENG_20081217.0168.LDC2009T13	NULL			A transition official said that in future meetings, "the military will get a chance to articulate their preferences."
+28	8438	APW_ENG_20071104.0155.LDC2009T13	NULL			UN envoy seeks talks between Myanmar military, pro-democracy opponents
+29	2445	AFP_ENG_20080408.0078.LDC2009T13	NULL			Alcoa fell 0.69 percent to 37.18 dollars.
+30	8754	APW_ENG_20071129.1235.LDC2009T13	NULL			Al-Jazeera aired two brief excerpts of a few seconds each of the audiotape, which al-Qaida had announced several days ago that it would release soon.
+31	2183	AFP_ENG_20080210.0023.LDC2009T13	NULL			"This country was built on the impossible.
+32	6329	APW_ENG_20070531.1915.LDC2009T13	NULL			"There are a lot," she said.
+33	16401	NYT_ENG_20070625.0073.LDC2009T13	NULL			Now he was spending his days testifying against rebel leaders being tried by a United Nations court for war crimes and helping prosecutors gather evidence against Taylor.
+34	12940	LTW_ENG_20070104.0108.LDC2009T13	NULL			The Democratic leaders in retreat, Sheehan seized the microphone.
+36	754	AFP_ENG_20070415.0098.LDC2009T13	NULL			'We''d like it to be on in the coming days," she added.'
+37	6327	APW_ENG_20070531.1915.LDC2009T13	NULL			Yes, Moreno is single.
+38	13263	LTW_ENG_20070404.0066.LDC2009T13	NULL			False.
+39	3688	AFP_ENG_20081118.0662.LDC2009T13	NULL			'We''re abandoned," he said.'
+40	22220	XIN_ENG_20081125.0212.LDC2009T13	NULL			'Echoing Bush''s views, Olmert said: "It continues with your guidance and support and inspiration.'
+41	6968	APW_ENG_20070718.1602.LDC2009T13	NULL			---
+42	16234	NYT_ENG_20070602.0129.LDC2009T13	NULL			Some 27.1 percent of the treated patients were alive a year later, twice as many as the 13.3 percent of the control group.
+43	5214	APW_ENG_20070325.0005.LDC2009T13	NULL			'Naveed Afzal Haq -- nah-VEED'' AHF''-zal hahk'
+44	9445	APW_ENG_20080226.0023.LDC2009T13	NULL			The two are separated by distilling and the water is then put back into the wine.
+45	9493	APW_ENG_20080229.0273.LDC2009T13	NULL			'"The controller didn''t recognize the error on read-back," Bergen said.'
+46	4859	APW_ENG_20070311.0678.LDC2009T13	NULL			The Israeli official, speaking on condition of anonymity because the meeting was closed, said Olmert pressed Abbas to halt Palestinian rocket fire from Gaza and arms smuggling from Egypt, and win the release of an Israeli soldier captured in June by Hamas-linked gunmen.
+47	10846	APW_ENG_20080706.0392.LDC2009T13	NULL			7
+48	887	AFP_ENG_20070502.0586.LDC2009T13	NULL			'The newspaper is a standby for top business leaders, and counts on its faithful readers to appreciate its somewhat austere presentation and its celebrated drawings, instead of photographs, of the world''s movers and shakers.'
+49	8150	APW_ENG_20071013.0809.LDC2009T13	NULL			Pakistan vs. Iraq
+50	9175	APW_ENG_20080117.0097.LDC2009T13	NULL			'The president''s action will not allow the anti-submarine warfare training to go forward because an injunction is in place, but the Navy believes it will significantly strengthen its argument in court.'
+51	15763	NYT_ENG_20070402.0104.LDC2009T13	NULL			'It was an easy sell to the museum''s board, given the institution''s needs.'
+52	11026	APW_ENG_20080729.0848.LDC2009T13	NULL			Morgan Hamm said he got the anti-inflammatory shot on May 2 from his doctor after taping, ultrasound and other therapies failed to reduce the pain and swelling in his left ankle.
+53	451	AFP_ENG_20070220.0506.LDC2009T13	NULL			The National Basketball Association club announced the injury here on Tuesday, adding him to a list of absentees that include center Kwame Brown and forward Luke Walton, who both have sprained ankles.
+54	15396	NYT_ENG_20070208.0083.LDC2009T13	NULL			(Atlanta Journal-Constitution)
+55	10675	APW_ENG_20080519.0518.LDC2009T13	NULL			First top civil servants will hold talks, then the two foreign ministers.
+56	15474	NYT_ENG_20070222.0015.LDC2009T13	NULL			"All vehicles are improving their gasoline mileage," Taylor said.
+57	16974	NYT_ENG_20070919.0124.LDC2009T13	NULL			'In today''s perpetual workplace, where downtime has merged with work time, where you can carry your office in your pocket, where collars are no longer distinctly blue or white, how does one measure overtime?'
+58	11662	APW_ENG_20080904.1055.LDC2009T13	NULL			For now, Moore hopes "Slacker Uprising" will help spur young people to vote this November.
+59	7774	APW_ENG_20070919.0847.LDC2009T13	NULL			Update: AFGHAN-VIOLENCE.
+60	4715	APW_ENG_20070223.1663.LDC2009T13	NULL			'Dow Jones announced on Wednesday that its board expects to elect independent director Peter McPherson as the company''s next chairman at its next shareholder meeting in April.'
+61	13487	LTW_ENG_20070728.0017.LDC2009T13	NULL			'Detractors say there''s no hard proof that the method works.'
+62	21090	XIN_ENG_20071123.0120.LDC2009T13	NULL			The deadline for Lebanese parliament to elect a new president is imminent on Friday, while uncertainty and doubt are running high as rival pro- and anti- Syrian politicians are still at odds on a compromise presidential candidate.
+63	17300	NYT_ENG_20071205.0169.LDC2009T13	NULL			'SOUTHFIELD -- After Metro Detroit Jewish families lit the first candle on their menorahs this week, many of the Hanukkah presents exchanged weren''t dreidels and gelts.'
+64	20919	XIN_ENG_20071018.0247.LDC2009T13	NULL			'China''s education officials are joining with employment authorities to mount investigations into reports of agencies and individuals who lure minors to work, said the Ministry of Education on Thursday.'
+65	20835	XIN_ENG_20070919.0266.LDC2009T13	NULL			New constitution will be for Turkey instead of AKP: Turkish PM
+66	16267	NYT_ENG_20070606.0275.LDC2009T13	NULL			Though many Brazilians are reluctant to acknowledge it, bicheiros also play a central, even essential, role in Carnival here.
+67	15440	NYT_ENG_20070220.0216.LDC2009T13	NULL			Although the Episcopal Church is known as an inclusive haven, Hopkins said, he already knows gay men and lesbians who are leaving.
+68	8025	APW_ENG_20070924.1107.LDC2009T13	NULL			"Why did this happen?
+69	2653	AFP_ENG_20080430.0252.LDC2009T13	NULL			Italian party urges review of EU borders pact: report
+70	3172	AFP_ENG_20080808.0619.LDC2009T13	NULL			'"Let''s hope one legacy of the Games will be the realisation of the damage that has been done to the environment and will continue to be done unless they are more careful."'
+71	3019	AFP_ENG_20080725.0315.LDC2009T13	NULL			"I never doubted his identity," she told the newspaper.
+72	16059	NYT_ENG_20070514.0026.LDC2009T13	NULL			- Laurie Hoffman, Atlanta Journal-Constitution.
+73	5460	APW_ENG_20070325.0005.LDC2009T13	NULL			'Ladan Bijani -- LAH''-dahn'
+74	21818	XIN_ENG_20080806.0410.LDC2009T13	NULL			IOC to wait until last minute for DPRK and South Korea to decide on joint march
+75	9361	APW_ENG_20080131.0031.LDC2009T13	NULL			The black Baptists ended their meeting early so they could join the Carter-led event, which critics have dismissed as little more than a Democratic rally.
+76	752	AFP_ENG_20070415.0098.LDC2009T13	NULL			"Our patience is not in infinite supply but given the kind of complexities that did arise with some of the banking issues, it is probably prudent to give this a few more days to see if the statement of February 13 is something they are going to follow through on," the State Department official said.
+78	17461	NYT_ENG_20071231.0111.LDC2009T13	NULL			Over the weekend, she responded sharply to these jabs, noting that she was the first high-level American to go to Bosnia after the Dayton peace accords.
+79	11355	APW_ENG_20080813.0002.LDC2009T13	NULL			'Tree-killing bug menaces Europe''s pine forests'
+80	10838	APW_ENG_20080706.0392.LDC2009T13	NULL			3
+81	879	AFP_ENG_20070502.0586.LDC2009T13	NULL			The prize asset of Dow Jones &amp
+82	18791	NYT_ENG_20080508.0246.LDC2009T13	NULL			'I''ve planned for contingencies."'
+83	3290	AFP_ENG_20080916.0850.LDC2009T13	NULL			'Obama asked at a campaign event in Colorado, as his supporters immediately branded McCain as out of touch and the inheritor to the Bush administration''s economic legacy.'
+84	16948	NYT_ENG_20070917.0130.LDC2009T13	NULL			In a bid to shore up confidence, Darling announced Monday that the government would guarantee all deposits in Northern Rock even if the bank should collapse and would extend similar guarantees to any other troubled financial institution that approached the government.
+85	16426	NYT_ENG_20070625.0073.LDC2009T13	NULL			Staying strong
+86	7450	APW_ENG_20070904.0656.LDC2009T13	NULL			Another 1,000 people were removed from low-lying coastal areas and smaller islands.
+87	11290	APW_ENG_20080813.0002.LDC2009T13	NULL			In the South, in California, and even in New York City, you might see colors well into November.
+88	3907	AFP_ENG_20081221.0104.LDC2009T13	NULL			A senior Israeli defence official told AFP that a major military confrontation in the besieged territory was unavoidable.
+89	14037	LTW_ENG_20071202.0013.LDC2009T13	NULL			'"Our government doesn''t have any sovereignty.'
+90	21301	XIN_ENG_20080110.0023.LDC2009T13	NULL			A manager of the Hong Kong-invested company that produced hardware and plastic in the outer Longgang District in the Guangdong Province city, said the workers suffered headaches, nausea and vomiting after eating Chinese cabbage and kidney beans for lunch in the staff canteen.
+91	253	AFP_ENG_20070207.0194.LDC2009T13	NULL			Under the proposal, auto makers would be required to limit average emissions across their fleet to 130 grammes per kilometer by improving the technology they use.
+92	19169	NYT_ENG_20080721.0096.LDC2009T13	NULL			'"Patients are sick, they''re anxious, tired, frustrated," Engel said.'
+93	2529	AFP_ENG_20080422.0407.LDC2009T13	NULL			'It was Dobriansky''s 12th meeting with the Dalai Lama aimed at finding a way to resolve the Tibet issue amicably, the US State Department said.'
+94	940	AFP_ENG_20070510.0580.LDC2009T13	NULL			In 2006, 1,629 people died on Greek roads, according to the national statistics office (ESYE), an increase of 0.9 percent despite a decrease in the number of actual accidents.
+95	10720	APW_ENG_20080522.0213.LDC2009T13	NULL			'Last year, both generals were integral to crafting and implementing Bush''s new military strategy in Iraq, which included the deployment of 30,000 additional troops.'
+96	10453	APW_ENG_20080423.0015.LDC2009T13	NULL			'Traunstein -- TROWN''-styn'
+97	20772	XIN_ENG_20070822.0387.LDC2009T13	NULL			The following are some of the major international news stories scheduled to be covered or pursued by Xinhua on Thursday.
+98	17420	NYT_ENG_20071228.0212.LDC2009T13	NULL			'"No wonder I cry day after day, I am lonely without a friend, I feel locked up in a den, life is tragic I don''t know why."'
+99	13264	LTW_ENG_20070404.0066.LDC2009T13	NULL			About 70 percent of cervical cancers can be prevented by the vaccine.
+100	6785	APW_ENG_20070711.1665.LDC2009T13	NULL			The drug, which treats age-related macular degeneration, was approved last June.
+101	3882	AFP_ENG_20081217.0764.LDC2009T13	NULL			TV on the Radio, "Dear Science": A third album from the avant- gardiste New Yorkers that propelled them from cult heroes to stardom, with a distinct sound that mixes ambient, electro, Afrobeat, hard guitar riffs and handclaps.
+102	7940	APW_ENG_20070919.1310.LDC2009T13	NULL			Bowling: James Anderson 4-0-25-0 (4w), Stuart Broad 4-0-60-0 (2w), Andrew Flintoff 4-0-33-1 (1w), Dimitri Mascarenhas 1-0-15-0, Chris Tremlett 4-0-45-2 (1nb, 2w), Paul Collingwood 1-0-13-0, Darren Maddy 2-0-20-1.
+103	15810	NYT_ENG_20070402.0104.LDC2009T13	NULL			KidPower, in the front atrium on the ground floor, gives children a chance to launch tennis balls by pulling a rope attached to a bowling ball.
+104	13179	LTW_ENG_20070324.0050.LDC2009T13	NULL			'The Democratic presidential candidate had already announced@ that he was continuing his campaign, despite the recurrence of his wife''s cancer, when washingtonpost.com put up a headline at 12:32:20 p.m. Thursday: ``John Edwards Suspends White House Bid.'''''
+105	9208	APW_ENG_20080118.0028.LDC2009T13	NULL			The U.S. has been wrestling with such perceptions of its plan to place 10 interceptors in Poland and a radar base in the Czech Republic since opening negotiations with the two countries early last year.
+106	16771	NYT_ENG_20070824.0204.LDC2009T13	NULL			Lendl and John McEnroe also won three in a row.
+107	10373	APW_ENG_20080423.0015.LDC2009T13	NULL			'Srinagar -- SREE''-nuh-gur'
+108	15371	NYT_ENG_20070208.0083.LDC2009T13	NULL			Documentarian Harry Moses has got one in the eye-opening "Who the $.
+109	13792	LTW_ENG_20071015.0003.LDC2009T13	NULL			Not knowing where else to go, Michelle heads upstairs to the PTSD offices.
+110	6010	APW_ENG_20070422.0277.LDC2009T13	NULL			He told the Dubai-based station that he would even be willing to visit the Jewish state to help bring peace to the Middle East.
+111	4676	APW_ENG_20070221.1461.LDC2009T13	NULL			While Venezuela held its fourth-place ranking among U.S. crude suppliers, the volume of 1.139 million barrels a day was the lowest in any year since 1994.
+112	15261	NYT_ENG_20070115.0224.LDC2009T13	NULL			"It was tough, knowing that what happened gives people a misconception of me," Manning said.
+113	5677	APW_ENG_20070325.0151.LDC2009T13	NULL			Boston lost that game 7-0 to start a four-game losing streak.
+114	15674	NYT_ENG_20070401.0013.LDC2009T13	NULL			His students paid more attention to a funny paragraph than to a bunch of sentences.
+115	3188	AFP_ENG_20080811.0245.LDC2009T13	NULL			'The main obstacle to England''s progress will be Croatia, who stopped Steve McClaren''s team reaching Euro 2008 when they won 3-2 at Wembley last year.'
+116	11555	APW_ENG_20080814.0003.LDC2009T13	NULL			Matthew Lee, Pauline Jelinek and Lolita C. Baldor in Washington
+117	5642	APW_ENG_20070325.0005.LDC2009T13	NULL			'Elan -- ee-LAHN'''
+118	19234	NYT_ENG_20080727.0036.LDC2009T13	NULL			-- DAVID G. ALLAN
+119	20490	XIN_ENG_20070409.0245.LDC2009T13	NULL			A review of procedures has been ordered by the Ministry of Defense.
+120	19924	NYT_ENG_20081118.0192.LDC2009T13	NULL			"Having said that, there is an enormous amount of work that is facing the Senate, and we all have to move on and work together to address these issues," Sanders said.
+121	12977	LTW_ENG_20070124.0139.LDC2009T13	NULL			Oh, the agony, the nitpicking, the sighs.
+122	9665	APW_ENG_20080306.0239.LDC2009T13	NULL			if they survived, they were sent on to work in America.
+123	3879	AFP_ENG_20081217.0764.LDC2009T13	NULL			Here is a selection of the 10 best albums of the year selected by AFP.
+124	3259	AFP_ENG_20080915.0273.LDC2009T13	NULL			'Lehman Brothers -- the fourth largest investment bank in the United States -- shook the world''s financial system on Monday by seeking bankruptcy protection.'
+125	20177	NYT_ENG_20081227.0061.LDC2009T13	NULL			Neither my local bookstore nor Pantheon -- whose parent, Random House, announced this month it would cut costs by reducing five divisions to three -- nor the author got a share.
+126	15722	NYT_ENG_20070401.0013.LDC2009T13	NULL			"The people who laugh together bond," Alleen Nilsen said.
+127	10774	APW_ENG_20080525.0525.LDC2009T13	NULL			TV umpire: Ian Gould, England.
+128	5035	APW_ENG_20070320.1337.LDC2009T13	NULL			The Pakistan coach died Sunday in hospital after being found unconscious in his hotel room.
+129	14998	LTW_ENG_20081031.0044.LDC2009T13	NULL			'"It''s not like you go to Costco and pick up a kidney," Krikorian said.'
+130	292	AFP_ENG_20070209.0210.LDC2009T13	NULL			It is at the heart of US charges that Iran is hiding work to develop nuclear weapons.
+131	12018	APW_ENG_20081004.0102.LDC2009T13	NULL			"It was clear that Anna Nicole was unconscious during the videotaping, and even more disturbing, the videotape focused on areas of her nude body that were unrelated to the location of the surgery," he said in the declaration.
+132	4839	APW_ENG_20070307.0215.LDC2009T13	NULL			The banded rat snake -- rarely found in Malaysia and protected under local laws and international wildlife treaties -- is an expensive delicacy in some Asian countries, the New Straits Times and The Star reported.
+133	14861	LTW_ENG_20080929.0015.LDC2009T13	NULL			On the steps of the sanctuary, priests spoke of their emotional ties to generations of sailors, and of their unwillingness to hoist a Ukrainian flag.
+134	14804	LTW_ENG_20080929.0015.LDC2009T13	NULL			Product makers want "national, uniform standards," said Robin Conrad, a lawyer for the U.S. Chamber of Commerce, not differentFrom E_M_A_I_L Sat Sep 27 14:00:38 2008 Return-Path: E_M_A_I_L X -Original-To: latwp@ldc.upenn.edu Delivered-To: latwp@ldc.upenn.edu Received: from iron.acquiremedia.com (prodmail.acquiremedia.com [63.236.87.105]) (using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate requested) by lorax.ldc.upenn.edu (Postfix) with ESMTP id 7F854B2503 for latwp@ldc.upenn.edu
+135	1733	AFP_ENG_20071109.0598.LDC2009T13	NULL			Hong Kong was in third place with 13.7 percent of the total or 598.5 million dollars.
+136	182	AFP_ENG_20070202.0012.LDC2009T13	NULL			It is the biggest private steel firm in India.
+137	19864	NYT_ENG_20081108.0093.LDC2009T13	NULL			It has more to do with the balance of time.
+138	4606	APW_ENG_20070219.0628.LDC2009T13	NULL			A string of bombings killed at least 15 people Monday in the Baghdad area, a day after a massive car bomb attack in a Shiite area market delivered the first major blow to the U.S.-led security crackdown.
+139	56	AFP_ENG_20070104.0235.LDC2009T13	NULL			'The vehicle was on its way back to the soldiers'' base at Al Diwaniyah, southeast of Baghdad, the armed forces said in a statement.'
+140	4354	APW_ENG_20070121.0531.LDC2009T13	NULL			This is the lesson of history."
+141	19068	NYT_ENG_20080715.0116.LDC2009T13	NULL			"There must be what, 30 million basketball fans in this country?
+142	7540	APW_ENG_20070907.0177.LDC2009T13	NULL			"Historically the anniversary of 9-11 has never been drawn to attacks.
+143	2078	AFP_ENG_20080119.0274.LDC2009T13	NULL			'John, 44, who lives with 10,200 other people displaced by the violence in a tented camp in Eldoret, only two miles from his home, said the opposition politicians had a slogan: ''Kalenjins, with no other tribes remaining''.'
+144	16613	NYT_ENG_20070723.0163.LDC2009T13	NULL			In many ways, consciously or not, all of us make these subtle tweaks in our communication styles all the time.
+145	13231	LTW_ENG_20070404.0066.LDC2009T13	NULL			Vaccinating young women against the sexually transmitted virus is likely to make them more promiscuous.
+146	15198	NYT_ENG_20070108.0110.LDC2009T13	NULL			Or they can move apart until their paths around the planet cause them to coalesce on the far side.
+147	10686	APW_ENG_20080519.0518.LDC2009T13	NULL			'Pakistan''s military spokesman could not immediately be reached Monday but he has denied the previous incident.'
+148	8677	APW_ENG_20071128.0730.LDC2009T13	NULL			'China''s rise as a global trading power obligates it to drop barriers preventing foreign competition in its domestic market and contributing to its ballooning trade surplus, the European Union''s top trade official said Wednesday.'
+149	5443	APW_ENG_20070325.0005.LDC2009T13	NULL			'David Bena -- BEN''-uh'
+150	13306	LTW_ENG_20070526.0073.LDC2009T13	NULL			'Earlier this week, al-Sadr''s representatives in the Baghdad slum dubbed Sadr City, after his revered father, met with Sunni sheiks who have rallied against al-Qaida in nearby al-Anbar province.'
+151	2851	AFP_ENG_20080517.0296.LDC2009T13	NULL			The boat was not carrying any cargo at the time.
+152	4907	APW_ENG_20070314.1213.LDC2009T13	NULL			3
+153	10390	APW_ENG_20080423.0015.LDC2009T13	NULL			'Sukkot -- soo-KOHT'''
+154	20643	XIN_ENG_20070523.0154.LDC2009T13	NULL			The deadline for design submission is June 25.
+155	9635	APW_ENG_20080304.1376.LDC2009T13	NULL			'However, it said the assets in Daniel''s trust should be shared equally if she had future children.'
+156	11039	APW_ENG_20080730.0965.LDC2009T13	NULL			It said a similar plan for intercontinental flights will follow soon.
+157	15211	NYT_ENG_20070108.0110.LDC2009T13	NULL			"The most important thing to realize," he said, "is that modern geology is just a snapshot of a continuous-action movie.
+158	472	AFP_ENG_20070221.0575.LDC2009T13	NULL			"That view must be qualified, however, by an unexpectedly large 0.8 percent jump in the medical care component -- the largest such reading since August 1991," he said.
+159	8627	APW_ENG_20071120.1117.LDC2009T13	NULL			To compound the problems, Palma said, some of the products Venezuela looks to import, such as milk and sugar, are scarce internationally.
+160	2453	AFP_ENG_20080408.0078.LDC2009T13	NULL			In London, the FTSE 100 index was down 0.41 percent at 5,990.20 while in Paris, the CAC 40 shed 0.65 percent to 4,912.69 and in Frankfurt the Dax fell 0.72 percent to 6,771.98.
+161	22243	XIN_ENG_20081210.0194.LDC2009T13	NULL			'"China should be commended, and an expanded sustainable forestry will both offset carbon emissions and produce development dividends," said Oxley, adding that China''s efforts have largely been ignored at the climate talks in Poznan.'
+162	9432	APW_ENG_20080226.0023.LDC2009T13	NULL			'"You don''t do that with a 15.5 percent or 16 percent alcohol wine," he added.'
+163	2777	AFP_ENG_20080513.0583.LDC2009T13	NULL			A380 flights to Tokyo are to begin on May 20.
+164	18766	NYT_ENG_20080508.0246.LDC2009T13	NULL			'A MAYOR '' S FALL FROM GRACE'
+165	3448	AFP_ENG_20081012.0107.LDC2009T13	NULL			'Germany''s Timo Boll came from a set down to beat Belarussian Vladimir Samsonov 4-2 and be crowned European table tennis champion on Sunday.'
+166	18959	NYT_ENG_20080710.0261.LDC2009T13	NULL			T representatives were unsure whether the same kind of lines that formed last year for the iPhone would reappear this time around.
+167	13508	LTW_ENG_20070728.0017.LDC2009T13	NULL			John Fincham Jr., 72, of Winchester, has a penchant for his pendulum, an amethyst quartz stone hanging from a fine chain.
+168	21980	XIN_ENG_20080923.0198.LDC2009T13	NULL			Xinhua world economic news summary at 0430 GMT, Sept. 23
+169	21283	XIN_ENG_20080109.0113.LDC2009T13	NULL			'He said that the new futures market could thus help the country''s tighter monetary policy and alleviate inflation pressure.'
+170	17221	NYT_ENG_20071024.0190.LDC2009T13	NULL			When Giuliani was asked in a recent interview if he could be viewed as an evenhanded broker when it came to Israeli- Palestinian issues, he questioned the premise of the question.
+171	10413	APW_ENG_20080423.0015.LDC2009T13	NULL			TAM airlines -- tahm
+172	16996	NYT_ENG_20070919.0124.LDC2009T13	NULL			So if you are spooning your yogurt and ordering from Amazon, you are on your lunch break, right?
+173	2278	AFP_ENG_20080314.0244.LDC2009T13	NULL			'The United States raised doubts about whether Iranians had a "full menu of political choices" in Friday''s parliamentary elections, but declined to pronounce them unfair.'
+174	5559	APW_ENG_20070325.0005.LDC2009T13	NULL			'Coeur d''Alene -- kohr duh-LAYN'''
+175	900	AFP_ENG_20070502.0586.LDC2009T13	NULL			and STOXX Ltd., a joint venture with Frankfurt stock-exchange operator Deutsche Boerse and SWX Group.
+176	4782	APW_ENG_20070225.0071.LDC2009T13	NULL			Yum Brands, the parent company of KFC-Taco Bell, said the incident was unacceptable and a violation of its high standards.
+177	9716	APW_ENG_20080331.1340.LDC2009T13	NULL			Those who have been trained in traditional cardiopulmonary resuscitation can still opt to use it.
+178	17265	NYT_ENG_20071108.0033.LDC2009T13	NULL			DECISION TIME FOR JACKSON: Still uncertain is whether Jackson will return beyond this season.
+179	12696	APW_ENG_20081209.1278.LDC2009T13	NULL			Aaron Hunt threatened with a low shot but it narrowly missed the net.
+180	11132	APW_ENG_20080806.0063.LDC2009T13	NULL			'Sullivan said the alleged thieves weren''t computer geniuses, just opportunists who used a technique called "wardriving," which involved cruising through different areas with a laptop and looking for accessible wireless Internet signals.'
+181	4851	APW_ENG_20070311.0678.LDC2009T13	NULL			Israel has kept Karni closed often, citing security threats.
+182	3642	AFP_ENG_20081113.0621.LDC2009T13	NULL			Microsoft worked with Sabi as part of an IP Ventures program that licenses propriety technology to startups in exchange for equity stakes in firms.
+183	7614	APW_ENG_20070907.0462.LDC2009T13	NULL			Exporting uranium for nuclear power remains a touchy issue among many Australians, who are uneasy about its environmental impact and potential for weapons use.
+184	9235	APW_ENG_20080118.0118.LDC2009T13	NULL			'It''s an interesting mix that eventually goes haywire toward the end, when Lichtenstein seems intent on one-upping the gross- out factor he''d established early on.'
+185	13683	LTW_ENG_20070919.0152.LDC2009T13	NULL			He has also begun a "huge, expensive" Rand Corp. research study on detainee motivation and morale and has plans for a major communication campaign.
+186	2087	AFP_ENG_20080121.0681.LDC2009T13	NULL			'A more relaxed policy towards China, the island''s largest export market and favorite investment site, has been a focus of the two presidential candidates.'
+187	11886	APW_ENG_20080928.0527.LDC2009T13	NULL			Nico Rosberg, Germany, Williams, 61, 1:57:19.261.
+188	20963	XIN_ENG_20071021.0175.LDC2009T13	NULL			Other international media such as the British Broadcasting Corporation (BBC), the Australian Associated Press and electronic and web news media of Singapore also issued reports on the closing of the CPC National Congress.
+189	12697	APW_ENG_20081209.1278.LDC2009T13	NULL			'Substitute Mario Balotelli was left unmarked at the far post of Bremen''s goal in the 79th, but he headed high from close range.'
+190	20629	XIN_ENG_20070517.0134.LDC2009T13	NULL			COLOMBO -- Share prices on the Colombo Stock Exchange closed down on Thursday, with the key Colombo All Share Price Index decreasing by 32.02 points or 1.27 percent to close at 2,493.87 points.
+191	11824	APW_ENG_20080918.1157.LDC2009T13	NULL			'The space center shut down a few days before Ike''s strike.'
+192	13818	LTW_ENG_20071015.0003.LDC2009T13	NULL			The VA mileage rate has not changed since 1977.
+195	4739	APW_ENG_20070224.0104.LDC2009T13	NULL			"The city government had contracted a robotic camera system to go down there, but the disaster occurred first."
+196	1192	AFP_ENG_20070718.0107.LDC2009T13	NULL			Centre-left daily El Pais dedicated an entire page to the US priest sex scandal on Wednesday under the headline: "The abuse that did not go to trial".
+197	6131	APW_ENG_20070510.1782.LDC2009T13	NULL			"The (U.S.) government is working very hard on this.
+198	3712	AFP_ENG_20081126.0638.LDC2009T13	NULL			The group, which now employs 900 in its head office, said about two-thirds of the job cuts would be made in 2009.
+202	14721	LTW_ENG_20080802.0036.LDC2009T13	NULL			Every concert takes another little piece of my heart with the final encore.
+203	19418	NYT_ENG_20080825.0224.LDC2009T13	NULL			Joey Galloway, who missed all of training camp and all three preseason games with a groin strain, practiced at full speed for the first time Monday.
+204	8492	APW_ENG_20071111.0643.LDC2009T13	NULL			Manchester United moved ahead of Arsenal, but the Gunners can move back into first place on Monday when they visit Reading.
+205	12812	CNA_ENG_20070921.0025.LDC2009T13	NULL			'Although the money is left up to the administrative chief''s discretion, half of the fund can be spent without any proof of spending, while use of the other half must be substantiated with receipts.'
+207	13292	LTW_ENG_20070526.0073.LDC2009T13	NULL			'Al-Sadr''s return to a public platform comes as frustration is mounting with the fractured government'
+208	20124	NYT_ENG_20081221.0031.LDC2009T13	NULL			-- Anya
+209	16543	NYT_ENG_20070705.0126.LDC2009T13	NULL			276 pages.
+210	59	AFP_ENG_20070104.0235.LDC2009T13	NULL			'Lawmakers in Latvia, which is a staunch ally of the United States, voted three weeks ago to extend the mission of the Baltic state''s troops in Iraq by one more year.'
+211	16103	NYT_ENG_20070520.0148.LDC2009T13	NULL			There is no privacy.
+212	6880	APW_ENG_20070716.1418.LDC2009T13	NULL			CNN, in its statement, noted that it has given Moore multiple opportunities to discuss his concerns about the report on the air.
+213	20746	XIN_ENG_20070818.0166.LDC2009T13	NULL			A video clip shot by sailors aboard U.S. nuclear-powered aircraft carrier Ronald Reagan has been pulled off the YouTube video sharing website after Navy officials complained it might compromise security, a report said Saturday.
+214	12838	CNA_ENG_20071030.0033.LDC2009T13	NULL			Customs officials stopped and questioned them after discovering that they were holding fake passports, the officials noted.
+215	14945	LTW_ENG_20081031.0044.LDC2009T13	NULL			Such patients are at increased risk of heart attacks and infections.
+216	16226	NYT_ENG_20070602.0129.LDC2009T13	NULL			"The theory is ginseng would help the body moderate the negative things going on," she said.
+217	6494	APW_ENG_20070614.0263.LDC2009T13	NULL			Crude oil inventories rose by 100,000 barrels last week, when analysts had expected a 400,000-barrel decline.
+219	15110	NYT_ENG_20070108.0110.LDC2009T13	NULL			LONG-TERM GLOBAL FORECAST?
+220	17845	NYT_ENG_20080202.0017.LDC2009T13	NULL			'But it''s perfect for, say, water.'
+221	10054	APW_ENG_20080423.0015.LDC2009T13	NULL			'Raila Odinga -- ry-EE''-luh oh-DING''-uh'
+222	19756	NYT_ENG_20081017.0103.LDC2009T13	NULL			'Unlike McCain, who''s only willing to tackle immigration in Spanish so he won''t get burned by his party''s more restrictionist base, de Jesus said, Obama shares his views in both languages.'
+223	12909	CNA_ENG_20081117.0007.LDC2009T13	NULL			Tsai said that the M.D. Anderson Cancer in Houston, ranked as the top U.S. facility for cancer care, forged sisterhood ties with the Taiwan hospital in June in an effort to introduce advanced technology for cancer diagnosis and treatment to Taiwan through the hospital.
+224	5096	APW_ENG_20070321.1122.LDC2009T13	NULL			JERUSALEM 2007-03-21 17:05:02 UTC
+225	1381	AFP_ENG_20070828.0366.LDC2009T13	NULL			Ahmadinejad, who has long boasted of his ability to work hard, said he is often at his desk by 5:30 am and sometimes does not leave until after midnight.
+226	14551	LTW_ENG_20080529.0008.LDC2009T13	NULL			serving a decent meal when necessary
+227	1880	AFP_ENG_20071207.0235.LDC2009T13	NULL			An internal IMF group advising the organization has recommended that the fund sell some of its valuable gold reserves and invest the proceeds in income- generating assets in a bid to improve its financial stance.
+228	20450	XIN_ENG_20070313.0267.LDC2009T13	NULL			MOSCOW, March 13 (Xinhua)
+229	21886	XIN_ENG_20080901.0111.LDC2009T13	NULL			The Pakistani Adviser to Prime Minister on Interior Rehman Malik Monday said all-out efforts were underway to recover two missing Chinese engineers.
+230	11556	APW_ENG_20080814.0003.LDC2009T13	NULL			John Heilprin at the United Nations
+231	12009	APW_ENG_20081004.0102.LDC2009T13	NULL			'The order settles alawsuit filed last year by Howard K. Stern, the executor of Smith''s estate, who was trying to stop Dr. Gerald Johnson and his wife from distributing the tapes of the former Playboy Playmate and reality star who died last year.'
+232	5555	APW_ENG_20070325.0005.LDC2009T13	NULL			'Richard Cizik -- SY''-zik'
+233	19591	NYT_ENG_20080930.0156.LDC2009T13	NULL			The concept of a third term has broad support among City Council members, business leaders and newspaper editorial boards, all of whom Bloomberg has assiduously courted behind the scenes.
+234	12103	APW_ENG_20081010.0035.LDC2009T13	NULL			NATO officials explained that it could, for example, allow U.S. planes to bomb drug labs in northern Afghanistan without involving the German troops based there.
+235	18721	NYT_ENG_20080501.0011.LDC2009T13	NULL			Looking ahead over the next three years, the company expects profit per share of 90 cents to $1 in 2009, $1.10 to $1.20 in 2010 and $1.35 to $1.50 in 2011.
+237	13582	LTW_ENG_20070816.0142.LDC2009T13	NULL			He spoke on the condition of anonymity because he was not cleared to speak to reporters.
+238	4179	APW_ENG_20070111.0138.LDC2009T13	NULL			It makes for a pleasant evening stroll through the snow around the shore of the partially iced-over Emerald Bay, listening to the honking of hundreds of Canada geese.
+239	5188	APW_ENG_20070325.0005.LDC2009T13	NULL			Shinzo Abe -- shin-zoh ah-bay
+240	19045	NYT_ENG_20080715.0116.LDC2009T13	NULL			when it assesses the impact of an immigrant like Boston boxing champ John L. Sullivan on his community
+241	13581	LTW_ENG_20070816.0142.LDC2009T13	NULL			'``We would want them to say whether they stand by all the information in the report.'''''
+243	19797	NYT_ENG_20081105.0163.LDC2009T13	NULL			Whether Democrat or Republican, incumbents won across the board in the Tampa Bay area with just three exceptions a Republican Hillsborough commissioner with a truckload of baggage, and the two Democratic Hernando commissioners.
+244	15306	NYT_ENG_20070208.0083.LDC2009T13	NULL			FASHION
+245	271	AFP_ENG_20070208.0323.LDC2009T13	NULL			NATO expanded its operations from Kabul and the relatively quiet north and west of the conflict-torn country, to the south and east, where a resurgent Taliban militia has opposed it.
+246	10537	APW_ENG_20080423.0015.LDC2009T13	NULL			Wii -- wee
+247	4969	APW_ENG_20070316.0001.LDC2009T13	NULL			The Marine sergeant said he regretted the deaths.
+248	12227	APW_ENG_20081021.0609.LDC2009T13	NULL			The Maplewood, Minnesota-based company said net income edged higher to $991 million, or $1.41 per share, from $960 million, or $1.32 per share, a year ago.
+249	2892	AFP_ENG_20080528.0524.LDC2009T13	NULL			Germany on Wednesday pledged half a billion euros (785 million dollars) to help defend threatened forests and called on others to join its effort as a UN conference on biodiversity engaged top gear.
+250	4028	APW_ENG_19981029.1082.LDC2007T07	NULL			'The man said Yassin''s first appointment outside his home was Friday morning and that he had not planned to go out before then.'
+251	18541	NYT_ENG_20080330.0100.LDC2009T13	NULL			'We''re down again after ((Reich)) left, and everyone pulled up their socks again, so congrats to everyone for standing in there."'
+252	647	AFP_ENG_20070320.0189.LDC2009T13	NULL			Under the plan, Kosovo would have its own constitution but would "for an initial phase" be placed under the international monitoring of "civilian personnel" named by the European Union.
+253	20788	XIN_ENG_20070903.0046.LDC2009T13	NULL			'The basic principles designate that the country''s administrative regions will, as similar to the present, be demarcated as seven regions (now known as divisions) and seven states of national races, and six other ethnic minorities who will have their self- administered zones or higher-level division.'
+255	10796	APW_ENG_20080531.0072.LDC2009T13	NULL			They said the International Red Cross was waiting for permission to send 30 foreign staffers into the delta.
+256	325	AFP_ENG_20070209.0733.LDC2009T13	NULL			'"I''m 100 percent confident that if best practice in process and technology were applied to testing my sample back in July, I would be racing my bike this season," Landis said.'
+257	9409	APW_ENG_20080217.0500.LDC2009T13	NULL			2008-02-17 15:25:56 UTC
+258	8246	APW_ENG_20071015.0723.LDC2009T13	NULL			July 16-22 -- Internazionali Femminili di Tennis di Palermo, RCO (Agnes Szavay)
+259	2501	AFP_ENG_20080418.0285.LDC2009T13	NULL			It is a national movement."
+260	15723	NYT_ENG_20070401.0013.LDC2009T13	NULL			'Making fun of one''s self also is fairly safe.'
+261	16845	NYT_ENG_20070907.0024.LDC2009T13	NULL			In the statement, Wuterich took responsibility for his decisions in the heat of battle to kill people in the two houses who he said were suspected of being armed insurgents, and for the order he gave to his men to "shoot first, ask questions later."
+262	9431	APW_ENG_20080226.0023.LDC2009T13	NULL			One definition of the "right" alcohol level is if two people can finish a bottle and "wish there was a little bit more," said Dunn.
+263	14027	LTW_ENG_20071202.0013.LDC2009T13	NULL			'"Despite the Tunisian government''s attempts to ban the veil, beards, and to jail Islamists, there''s a religious revival in the nation.'
+264	2457	AFP_ENG_20080415.0196.LDC2009T13	NULL			Egypt said on Sunday it would step up airport security procedures for British officials after airport authorities tried to physically search Shenuda, 84, who has a diplomatic passport, before he boarded his flight.
+265	143	AFP_ENG_20070129.0392.LDC2009T13	NULL			The appointment was announced by royal decree on Monday.
+266	8006	APW_ENG_20070924.0721.LDC2009T13	NULL			Toss: won by India.
+267	10265	APW_ENG_20080423.0015.LDC2009T13	NULL			'Almutah Saunders -- al-MOO''-tuh'
+268	5626	APW_ENG_20070325.0005.LDC2009T13	NULL			'Duquesne University -- doo-KAYN'''
+269	12843	CNA_ENG_20071204.0045.LDC2009T13	NULL			'Two Germans win Taiwan''s Tsungming Tu Award'
+270	6263	APW_ENG_20070531.0102.LDC2009T13	NULL			Elkassim Britel, an Italian citizen, in May 2002
+271	3256	AFP_ENG_20080915.0273.LDC2009T13	NULL			It has lost 34.3 percent since the start of the year.
+272	15463	NYT_ENG_20070222.0015.LDC2009T13	NULL			Roads are still congested.
+273	2649	AFP_ENG_20080429.0359.LDC2009T13	NULL			a comment piece in the Beijing News asked.
+274	16992	NYT_ENG_20070919.0124.LDC2009T13	NULL			Lawsuits brought under the Fair Labor Standards Act, by employees claiming they had been illegally declared ineligible and demanding back overtime pay, have increased by 50 percent since the changes were made, mostly in the form of large class-action suits.
+275	6474	APW_ENG_20070613.1615.LDC2009T13	NULL			Cleveland will be the next chance for fans to see the standing start, which Champ Car is expected to use the remainder of the season.
+276	12721	APW_ENG_20081229.0589.LDC2009T13	NULL			many in the crowd shouted.
+277	15453	NYT_ENG_20070222.0015.LDC2009T13	NULL			'On Wednesday, the commission began a two-day hearing with California transit officials at the Metropolitan Transportation Authority''s downtown Los Angeles office to discuss the region''s needs.'
+278	10320	APW_ENG_20080423.0015.LDC2009T13	NULL			'Cindy Sheehan -- SHEE''-han'
+279	447	AFP_ENG_20070219.0134.LDC2009T13	NULL			Media speculation about the identity of the bomber has focused on a disgruntled motorist or animal rights extremists.
+280	9095	APW_ENG_20080112.0203.LDC2009T13	NULL			Transparency International says Suharto and his family also amassed billions of dollars in state funds -- an allegation he has denied.
+281	8609	APW_ENG_20071120.1117.LDC2009T13	NULL			CARACAS, Venezuela 2007-11-20 18:41:19 UTC
+282	20221	NYT_ENG_20081227.0061.LDC2009T13	NULL			'Helene Hanff''s slim volume used to be cherished for its depiction of a vanished era.'
+283	8223	APW_ENG_20071015.0723.LDC2009T13	NULL			Apr. 2-8 -- Bausch &amp
+284	4729	APW_ENG_20070224.0104.LDC2009T13	NULL			'"We are going to a friend''s house now.'
+285	11463	APW_ENG_20080813.0051.LDC2009T13	NULL			Less than two weeks ago, authorities recovered another shank from his cell.
+286	20480	XIN_ENG_20070407.0063.LDC2009T13	NULL			Geo reported that the authorities have issued shoot-at-sight order if any one tried to violate curfew.
+287	2747	AFP_ENG_20080511.0364.LDC2009T13	NULL			"He pulls back his chin in the air so I felt I could throw a counter right and it worked in the sixth.
+289	10444	APW_ENG_20080423.0015.LDC2009T13	NULL			'Tocopilla -- toh-koh-PEE''-yah'
+290	18589	NYT_ENG_20080401.0002.LDC2009T13	NULL			'The records came on the eve of a congressional committee appearance by executives from the nation''s five largest oil companies.'
+291	15402	NYT_ENG_20070208.0083.LDC2009T13	NULL			Questions should be directed to CoxNet, the Cox News Service, in Atlanta at 404 572-1800 M-F 8 am.-5 p.m. ET.
+292	10259	APW_ENG_20080423.0015.LDC2009T13	NULL			'Anucha Browne Sanders -- ah-NOOK''-kah'
+293	5034	APW_ENG_20070320.1337.LDC2009T13	NULL			'Both teams and match officials, who all wore black arm-bands, lined up on either side of the pitch to observe a minutes'' silence as a mark of respect for Bob Woolmer.'
+294	20747	XIN_ENG_20070818.0166.LDC2009T13	NULL			'The video, apparently shot by sailors based at a naval base in California, has caused one sailor to be "counseled" and the ship''s captain to be called to the Pentagon to review security procedures, according to the San Diego Union-Tribune newspaper.'
+296	10072	APW_ENG_20080423.0015.LDC2009T13	NULL			'Hussain Osman -- hoo-SAYN'' AHZ''-muhn'
+297	8765	APW_ENG_20071202.0341.LDC2009T13	NULL			The reports could not be independently verified because the areas are remote and inaccessible.
+298	4663	APW_ENG_20070221.1461.LDC2009T13	NULL			Now, the fractional edge given to African crude oil suppliers underscores a number of market changes and may grow wider in coming years.
+299	11425	APW_ENG_20080813.0002.LDC2009T13	NULL			Monday, Aug. 11
+300	3301	AFP_ENG_20080916.0850.LDC2009T13	NULL			'"Barack Obama''s short career as a public servant has been defined by pessimism, defeatism and weakness in the face of the great challenges of our time," he said.'
+301	3159	AFP_ENG_20080807.0196.LDC2009T13	NULL			Auction-rate securities, essentially debt instruments issued by financial firms, municipalities and student-loan companies, typically have a fairly lengthy maturity, but the interest rates on such securities can be volatile and change at weekly and monthly auctions overseen by banks.
+304	17130	NYT_ENG_20071014.0071.LDC2009T13	NULL			'In the meantime, Johnson came into the race with five victories at Lowe''s and an air of invincibility here.'
+305	20032	NYT_ENG_20081212.0159.LDC2009T13	NULL			'"We''re all just going to have to keep on keeping on," Williams said.'
+306	18260	NYT_ENG_20080303.0071.LDC2009T13	NULL			Mark Feeney can be reached at mfeeney@globe.com.
+307	21171	XIN_ENG_20071211.0110.LDC2009T13	NULL			However, one notable success so far is the agreement on Monday evening on the Adaptation Fund, with the final text being greeted by enthusiastic applause.
+308	4536	APW_ENG_20070214.0305.LDC2009T13	NULL			Emelec debuted Argentines players Jeronimo Morales and Cesar Asis, Colombian Sebastian Hernandez, and Paraguayan Israel Rodriguez.
+309	836	AFP_ENG_20070425.0672.LDC2009T13	NULL			29/02/2004: Colombo Sri Lanka won by 3 wkts
+310	21519	XIN_ENG_20080401.0121.LDC2009T13	NULL			'He concluded by saying that the UN''s efforts in Kosovo are aimed at ensuring that the political and security situation in Kosovo and the wider region remains stable, and that the safety and security of the population are preserved.'
+311	1061	AFP_ENG_20070622.0308.LDC2009T13	NULL			Wall Street lower amid Blackstone IPO splash
+312	7833	APW_ENG_20070919.0847.LDC2009T13	NULL			'Envoys meet in London on Kosovo''s future'
+313	21264	XIN_ENG_20080109.0113.LDC2009T13	NULL			The China Securities Journal also reported people lining up outside futures brokers to open accounts in eastern Zhejiang Province.
+314	11951	APW_ENG_20080928.0527.LDC2009T13	NULL			BMW Sauber, 120.
+315	6091	APW_ENG_20070427.1076.LDC2009T13	NULL			All three pieces were made in 1975-76 by the well-known Meissen porcelain manufacturer and were specially ordered by the East German parliament.
+316	17824	NYT_ENG_20080202.0017.LDC2009T13	NULL			'It''s a notch above this, their Hollywood debut.'
+317	3396	AFP_ENG_20081006.0189.LDC2009T13	NULL			a senior defense official said.
+318	18936	NYT_ENG_20080516.0037.LDC2009T13	NULL			The Flyers scored on the power play, when Briere swept in the rebound of a slap shot by defenseman Randy Jones at 11:48.
+319	11208	APW_ENG_20080810.0857.LDC2009T13	NULL			China allows worship only in officially approved churches such as the one Bush visited Sunday with first lady Laura Bush, so millions of people pray privately in house churches to avoid detection.
+320	1502	AFP_ENG_20070913.0346.LDC2009T13	NULL			'German researchers said they measured the size and location of Wednesday''s earthquake off Indonesia within a record five minutes in a development that could mean the difference between life and death for people in the path of a tsunami.'
+321	15614	NYT_ENG_20070318.0045.LDC2009T13	NULL			T Champions Classic.
+322	9790	APW_ENG_20080403.1144.LDC2009T13	NULL			'Schneider said the producer attempted the interview in the parking lot of Blankenship''s office in eastern Kentucky after unsuccessful attempts to arrange a face to face meeting.'
+323	9773	APW_ENG_20080402.1466.LDC2009T13	NULL			It uses its leglike pectoral fins to burrow into cracks and crevices of coral reefs in search of food.
+324	20118	NYT_ENG_20081217.0189.LDC2009T13	NULL			When it comes to the private quarters, on the second and third floors, and the Oval Office, though, the decor is the "personal decision of the first family," said Tom Savage, director of museum affairs at Winterthur in Delaware and a member of the Committee for the Preservation of the White House during the Clinton administration.
+326	16650	NYT_ENG_20070820.0234.LDC2009T13	NULL			'About 700,000 of Allstate''s 917,000 Texas policyholders are insured by Allstate Texas Lloyds.'
+328	12034	APW_ENG_20081005.0146.LDC2009T13	NULL			This is a controlled event," Segovia said.
+329	6999	APW_ENG_20070727.0111.LDC2009T13	NULL			The title seems to suggest that it only pertains to children, but actually, it brims with articles of great human interest and originality on topics that range from infancy to grandfatherhood, from the origins of aggression to the mysteries of human resilience.
+330	6148	APW_ENG_20070510.1782.LDC2009T13	NULL			During the 1999 Cuban trial of two Salvadorans in the bombings, prosecutors said Posada organized and financed the attacks, recruiting the bombers in Central America and paying about US$4,500 for each mission.
+331	14889	LTW_ENG_20081011.0097.LDC2009T13	NULL			"They can run misleading ads.
+332	14683	LTW_ENG_20080802.0036.LDC2009T13	NULL			When we get older, we learn to appreciate what we have more."
+333	6597	APW_ENG_20070629.0114.LDC2009T13	NULL			'In a classic bit of movie trivia, the little-seen 1986 animated film "Transformers: The Movie" was Orson Welles'' last film.'
+334	20600	XIN_ENG_20070512.0155.LDC2009T13	NULL			Police are still interrogating the man.
+336	5395	APW_ENG_20070325.0005.LDC2009T13	NULL			'Zaki Badawi -- ZAH''-kee buh-DOW''-ee'
+337	6535	APW_ENG_20070615.0816.LDC2009T13	NULL			The awards were presented for the first time in a single ceremony that combined East and West coast winners at the Hollywood &amp
+338	10719	APW_ENG_20080522.0213.LDC2009T13	NULL			The two Army generals were set to testify before the Senate Armed Services Committee, giving Democrats a chance to question them on when more troops might come home and whether the U.S. war effort in Iraq has aggravated the violence there.
+339	4313	APW_ENG_20070117.1688.LDC2009T13	NULL			'Ban, who took over as U.N. chief on Jan. 1, said the United Nations would, nonetheless, try to increase its role in furthering the International Compact for Iraq, a five-year plan to ensure that Iraq''s government has funds to survive and enact key political and economic reforms.'
+340	16967	NYT_ENG_20070919.0124.LDC2009T13	NULL			A woman in a Chicago workplace caused quite a stir recently when she submitted her time sheet.
+341	19587	NYT_ENG_20080930.0156.LDC2009T13	NULL			City voters passed term limits by overwhelming margins in 1993, and reaffirmed their support in 1996.
+342	14181	LTW_ENG_20080128.0035.LDC2009T13	NULL			'The official Lebanese news agency also reported violent demonstrations in the country''s mostly Shiite south.'
+343	2587	AFP_ENG_20080427.0269.LDC2009T13	NULL			'Clarke, who for many years had been a mainstay in Europe''s Ryder Cup team, had watched his world ranking plummet out of the top 50 to 236 at the start of the BMW Asian Open.'
+344	1499	AFP_ENG_20070909.0345.LDC2009T13	NULL			The government again defended the price hike in the statement Sunday, saying it was necessary because of high world oil prices that had made fuel subsidies unaffordable.
+345	19453	NYT_ENG_20080825.0224.LDC2009T13	NULL			Rick Stroud can be reached at stroudsptimes.com.
+346	2362	AFP_ENG_20080327.0122.LDC2009T13	NULL			McCormack said "extremist criminal elements" on Sunday, Tuesday, Wednesday, and again on Thursday fired rockets into the zone that serves as the seat of the Iraqi government and the US embassy.
+347	3108	AFP_ENG_20080801.0112.LDC2009T13	NULL			'"We''re in no rush" to have a response "in the next 24 hours."'
+348	9381	APW_ENG_20080208.1275.LDC2009T13	NULL			Singles
+349	17862	NYT_ENG_20080203.0075.LDC2009T13	NULL			This year, the traditional Nike, Sports Illustrated, ESPN, Maxim and Playboy parties were on tap, with access limited to VIPs and those with plenty of disposable income.
+350	20891	XIN_ENG_20071005.0195.LDC2009T13	NULL			More than 3,000 people taming forest fires in northeast China
+351	20686	XIN_ENG_20070704.0229.LDC2009T13	NULL			Senior Chinese legislator starts visit to four Latin American nations
+352	75	AFP_ENG_20070111.0683.LDC2009T13	NULL			'"If Americans are to be placed in harm''s way, all of us, from every income group and position in society, must share the burden of war," Rangel said.'
+353	3867	AFP_ENG_20081217.0760.LDC2009T13	NULL			But having a perfect physique can have its disadvantages.
+354	11792	APW_ENG_20080918.0656.LDC2009T13	NULL			TEHRAN, Iran 2008-09-18 13:02:35 UTC
+355	53	AFP_ENG_20070104.0235.LDC2009T13	NULL			'"We can never get used to these tragedies," Major Ilmars Lejins told AFP at the church in Riga''s Old Town.'
+356	16107	NYT_ENG_20070520.0148.LDC2009T13	NULL			In Gaza City, schools, stores and businesses reopened Sunday and people resumed their lives after a week of self-imposed curfew because of the clashes.
+357	9601	APW_ENG_20080302.0793.LDC2009T13	NULL			-- determines domestic and foreign policy
+358	11742	APW_ENG_20080918.0478.LDC2009T13	NULL			Authorities established a maze of roadblocks and checkpoints and continuously changed traffic patterns in Colombo in an effort to prevent new attacks.
+359	10603	APW_ENG_20080423.0015.LDC2009T13	NULL			'Abu Zubaydah -- ah-BOO'' zoo-BY''-dah'
+360	17309	NYT_ENG_20071205.0169.LDC2009T13	NULL			amp
+362	711	AFP_ENG_20070407.0309.LDC2009T13	NULL			Israeli Arab kidnapped in Gaza
+363	3933	AFP_ENG_20081222.0022.LDC2009T13	NULL			US retailers were also struggling "amid fears that steep discounts have been used to entice consumer spending, and that cold and snowy weather in many markets weighed down holiday spending," Schwab &amp
+364	4296	APW_ENG_20070114.0760.LDC2009T13	NULL			ATHENS, Greece 2007-01-14 19:38:55 UTC
+365	11032	APW_ENG_20080730.0965.LDC2009T13	NULL			FRANKFURT, Germany 2008-07-30 16:47:22 UTC
+366	2115	AFP_ENG_20080130.0403.LDC2009T13	NULL			Boeing said its total company backlog as of December 31 stood at 327 billion dollars, up 31 percent year-over-year, because of commercial airplane orders and defense program wins.
+367	1498	AFP_ENG_20070909.0345.LDC2009T13	NULL			Amnesty International estimates that more than 150 people have been arrested over the protests, which were sparked by a massive hike in fuel prices last month.
+368	7315	APW_ENG_20070820.0711.LDC2009T13	NULL			As the summit approached, Calderon was considering cutting his trip short to return to Mexico, where Hurricane Dean was poised to slam into the coastline.
+369	2643	AFP_ENG_20080429.0359.LDC2009T13	NULL			A local official denied there was any cover-up at his level, saying the incident had been reported to higher authorities.
+370	9093	APW_ENG_20080112.0203.LDC2009T13	NULL			He has been accused of overseeing a purge of more than a half-million leftist opponents soon after seizing power in a 1965 coup.
+371	4716	APW_ENG_20070223.1663.LDC2009T13	NULL			'Kann, who is 64, had previously also served as the company''s chief executive from 1991 until Feb. 1 of last year, when he was succeeded by Richard Zannino.'
+372	18020	NYT_ENG_20080218.0136.LDC2009T13	NULL			Miller likes working with vintage pieces because he gets to see work from other eras and other cultures.
+373	3754	AFP_ENG_20081210.0089.LDC2009T13	NULL			US government approval will be needed to allow Cuban players into US venues because of their diplomatic disagreements.
+374	10883	APW_ENG_20080716.1245.LDC2009T13	NULL			'The whole mentality is ''Get out of my way.''"'
+375	16441	NYT_ENG_20070625.0073.LDC2009T13	NULL			That was the battle line."
+376	15331	NYT_ENG_20070208.0083.LDC2009T13	NULL			The blog keeps a weekly tally on how much DM management racks up in potential legal judgments.
+378	2035	AFP_ENG_20080117.0307.LDC2009T13	NULL			'A few strains showed through on Wednesday''s tour, as when two workmen admitted to nervousness while "painting" and "repainting" a ceiling.'
+379	14157	LTW_ENG_20080128.0035.LDC2009T13	NULL			At least seven civilians were killed Sunday evening during an hourslong clash between Lebanese soldiers and young Shiite Muslim men protesting electricity cuts, security officials said.
+380	9867	APW_ENG_20080408.1488.LDC2009T13	NULL			Earlier this year, the department recalled 143 million pounds of meat from Westland/Hallmark Meat Co. in Chino, California, following an undercover video by the Humane Society of the United States that showed slaughterhouse workers abusing "downer" cattle -- those too sick or injured to stand.
+381	15321	NYT_ENG_20070208.0083.LDC2009T13	NULL			WITH
+382	7118	APW_ENG_20070805.0576.LDC2009T13	NULL			They are dying every day."
+384	15899	NYT_ENG_20070410.0095.LDC2009T13	NULL			'Many young athletes don''t eat much during the day and therefore are starving at night.'
+385	1248	AFP_ENG_20070805.5002.LDC2009T13	NULL			"In the first half I remember our backs taking their guys on in the middle of the field one-on-one and making clean line breaks which we should have finished off.
+386	4741	APW_ENG_20070224.0104.LDC2009T13	NULL			He said the army had been considering a controlled explosion to clear the pipe, which carries both rainwater and sewage for much of the capital.
+387	5454	APW_ENG_20070325.0005.LDC2009T13	NULL			'Beslan -- bez-LAHN'''
+388	15627	NYT_ENG_20070318.0045.LDC2009T13	NULL			Five others -- including Loren Roberts, Jim Thorpe and Gil Morgan -- are tied for fourth two shots back and 14players are within three shots of the lead.
+389	21913	XIN_ENG_20080903.0351.LDC2009T13	NULL			Wen thanked them for lending a hand to quake survivors.
+390	11938	APW_ENG_20080928.0527.LDC2009T13	NULL			8
+391	787	AFP_ENG_20070418.0217.LDC2009T13	NULL			But Israel "has to be always ready for the worst so as not be taken by surprise as was the case in 1973" when Israeli leaders were unprepared for a coordinated attack from Syria and Egypt, Hanegbi said.
+392	16767	NYT_ENG_20070824.0204.LDC2009T13	NULL			Federer wore a white blazer with the "RF" crest at Wimbledon, where he has won five straight titles.
+393	2094	AFP_ENG_20080123.0501.LDC2009T13	NULL			URGENT ¥¥¥ French FM to travel to Rwanda: ministry
+394	15720	NYT_ENG_20070401.0013.LDC2009T13	NULL			Someone else adds a funny thought.
+395	7526	APW_ENG_20070907.0177.LDC2009T13	NULL			Analysts noted that al-Qaida tends to mark the Sept. 11 anniversary with a slew of messages, and the U.S. Department of Homeland Security said Thursday it had no credible information warning of an imminent threat to the United States.
+396	7017	APW_ENG_20070731.0993.LDC2009T13	NULL			PARIS 2007-07-31 16:04:26 UTC
+397	22244	XIN_ENG_20081210.0194.LDC2009T13	NULL			'According to a new report by World Growth, China pledged in 2006 to expand the country''s forest area to 20 percent of total land by 2010, which would increase the size of China''s total carbon sink by 50 million tons of carbon dioxide -- roughly enough to offset the emissions of the entire country of Sweden for a whole year.'
+398	21989	XIN_ENG_20080923.0198.LDC2009T13	NULL			'The facility was aimed to remedy the situation of inter-bank deposits in the UAE, which has been affected by the liquidity constraints in international money markets, said a statement posted on the bank''s website.'
+399	5680	APW_ENG_20070325.0151.LDC2009T13	NULL			At Philadelphia, Andy Hilbert scored the decisive goal for the Islanders with less than 5 minutes remaining.
+401	10025	APW_ENG_20080423.0015.LDC2009T13	NULL			'El Nino -- el NEEN''-yoh'
+403	13055	LTW_ENG_20070126.0127.LDC2009T13	NULL			U.S. District Judge Reggie Walton warned the defense that Libby would have to take the stand if he wanted to try to persuade the jury that his own memory was flawed.
+404	8909	APW_ENG_20071220.0775.LDC2009T13	NULL			Slovenia was once part of Yugoslavia, a country whose breakup in the 1990s triggered wars, genocide, hatred and suffering.
+405	19910	NYT_ENG_20081118.0192.LDC2009T13	NULL			Two other Senate seats, in Minnesota and Georgia, have yet to be decided as well.
+406	4785	APW_ENG_20070225.0071.LDC2009T13	NULL			West was one of them.
+407	17404	NYT_ENG_20071228.0212.LDC2009T13	NULL			But because of her failing liver, doctors recommended a transplant.
+408	21808	XIN_ENG_20080805.0276.LDC2009T13	NULL			South Korea hosted the 1988 Olympic Games in Seoul, the capital, and finishing with its best Olympic haul to 33 medals, including 12 golds.
+409	12424	APW_ENG_20081112.0142.LDC2009T13	NULL			Men
+410	20381	XIN_ENG_20070206.0133.LDC2009T13	NULL			Zhejiang, a booming province in east China, notched up 139 billion U.S. dollars in foreign trade last year, year-on-year growth of 30 percent.
+411	8437	APW_ENG_20071101.1217.LDC2009T13	NULL			"We deeply regret that Martina Hingis ended her outstanding career under the circumstances of such accusations."
+412	2442	AFP_ENG_20080408.0078.LDC2009T13	NULL			Troubled bank Washington Mutual (WaMu) meanwhile said it was raising new funds through the sale of equity securities to TPG Capital, a US private equity firm, and other investors.
+415	6476	APW_ENG_20070613.1615.LDC2009T13	NULL			'"I''m not sure which I prefer.'
+416	8953	APW_ENG_20071221.0554.LDC2009T13	NULL			That is our principal mandate."
+417	2390	AFP_ENG_20080401.0679.LDC2009T13	NULL			'The Chicago index, a measure of business activity in the US Midwest and considered a precursor to the Institute for Supply Management''s manufacturing survey, rose to 48.2 in March from 44.5 a month earlier, beating expectations.'
+418	2761	AFP_ENG_20080511.0364.LDC2009T13	NULL			I was sloppy though and just couldn’t get my timing right.
+419	16653	NYT_ENG_20070820.0234.LDC2009T13	NULL			The range of rates coastal residents will pay was not available, he said.
+420	18895	NYT_ENG_20080511.0078.LDC2009T13	NULL			Pierce and Allen have not been the same players they were during the regular season.
+421	21662	XIN_ENG_20080518.0007.LDC2009T13	NULL			SHARM EL SHEIKH, Egypt, May 18 (Xinhua)
+422	2258	AFP_ENG_20080309.0384.LDC2009T13	NULL			Pakistan nuclear expert home from hospital: report
+423	6736	APW_ENG_20070705.1382.LDC2009T13	NULL			After playing with the U.S. Coast Guard band at Ellis Island during World War II, he toured with clarinetist Jimmy Dorsey and his orchestra.
+424	2655	AFP_ENG_20080430.0252.LDC2009T13	NULL			"There are things to negotiate," Umberto Bossi told lawmakers, according to the ANSA news agency.
+425	7935	APW_ENG_20070919.1310.LDC2009T13	NULL			Extras: (7lb, 10w, 1nb) 18
+426	14190	LTW_ENG_20080215.0053.LDC2009T13	NULL			Thirteen white-clad relatives of Dam Lam, 87, formed a circle, each cradling a stack of paper models: a foot-long 747 jetliner, a black-and-gold car sitting in the courtyard of a 2-foot-tall, red-tiled paper mansion.
+427	19173	NYT_ENG_20080721.0096.LDC2009T13	NULL			'"And that''s really where the whole secret to successful medical care lies."'
+428	17489	NYT_ENG_20080107.0181.LDC2009T13	NULL			Iowa winner Mike Huckabee is an also-ran in New Hampshire, where Romney and McCain are battling in a close race.
+429	21106	XIN_ENG_20071202.0018.LDC2009T13	NULL			At least two persons were killed and 40 others were injured when a passenger bus bound for Kilchowk from Gorkha fell down 100 meter below the road in Tanahun district in western Nepal on Saturday night, THT Online reported on Sunday.
+430	2040	AFP_ENG_20080117.0307.LDC2009T13	NULL			.... So.
+431	15020	NYT_ENG_20000216.0440.LDC2007T07	NULL			The company has also supplied the turfgrass-grounding for many major league athletic facilities, and its product was even used by White House landscapers.
+432	196	AFP_ENG_20070202.0386.LDC2009T13	NULL			'British broadcaster pulls sex shows after ''Bullywood'' furore'
+433	12244	APW_ENG_20081023.1359.LDC2009T13	NULL			The former Bush administration official said he wanted to support the candidate that has the best chance for changing the way Washington works and getting things done.
+434	16197	NYT_ENG_20070602.0129.LDC2009T13	NULL			Shark cartilage, a widely used alternative therapy for cancer, did not help patients with lung cancer live longer, according to the results of one of the first rigorous studies of the approach.
+435	4404	APW_ENG_20070129.1041.LDC2009T13	NULL			Plans to draw the line on what is considered unacceptable behavior in hospitals, carrying risks for patients, were first raised three years ago during the debate over Muslim head scarves.
+436	2652	AFP_ENG_20080429.0359.LDC2009T13	NULL			It appeared to have originated in southern China, then spread globally to infect more than 8,000 people and kill around 800 worldwide, including 349 in China.
+437	18226	NYT_ENG_20080303.0071.LDC2009T13	NULL			'"Writing the script, I was a bit afraid that my audience would love Burger because he''s so heroic and has the right ideals and is the one who stands up against the Nazis.'
+438	16181	NYT_ENG_20070602.0004.LDC2009T13	NULL			'"I sensed from our conversation it won''t happen again," Torre said.'
+439	13097	LTW_ENG_20070301.0125.LDC2009T13	NULL			Appearing in a live webcast, the Most Rev. Katharine Jefferts Schori acknowledged that the church, the American wing of the global Anglican Communion, risks losing its place and voice in that fellowship if it does not comply with demands from Anglican leaders that it bar official blessings for same-sex couples and take other actions.
+440	17968	NYT_ENG_20080212.0010.LDC2009T13	NULL			His parents have already put up their house as collateral for $120,000 bail after he was released from the Hillsborough County Jail on Feb. 2, he said.
+441	8034	APW_ENG_20070924.1107.LDC2009T13	NULL			'I don''t know who''s told you that we have this."'
+442	3661	AFP_ENG_20081118.0662.LDC2009T13	NULL			'But both were laid off last month, joining the swelling ranks of Chinese workers cut adrift by the crisis, and who now pose a looming stability problem for China''s leaders.'
+444	6739	APW_ENG_20070705.1382.LDC2009T13	NULL			"Nobody played violin like him," said his son.
+445	9126	APW_ENG_20080112.0749.LDC2009T13	NULL			South Africa takes series 2-1 with innings win against West Indies in 3rd test
+446	6110	APW_ENG_20070501.1427.LDC2009T13	NULL			'The deal makes the Gospel Music Channel available in America''s 10 largest markets, and it expects to finish the year with more than 20 million subscribers, the network said.'
+447	14297	LTW_ENG_20080307.0008.LDC2009T13	NULL			Virginia Left Behind: Opting Out of No Child Left Behind Would Be a Costly Mistake
+448	7623	APW_ENG_20070908.0481.LDC2009T13	NULL			Car bomb at a barracks in Algeria kills at least 17, injures 30
+449	11342	APW_ENG_20080813.0002.LDC2009T13	NULL			--
+450	4523	APW_ENG_20070212.1205.LDC2009T13	NULL			The guards returned fire, seized the vehicle and detained the two men, the statement said.
+451	15447	NYT_ENG_20070222.0015.LDC2009T13	NULL			'To be fair, federal officials say, it''s not just energy-efficient autos that are sucking the fund dry.'
+452	10530	APW_ENG_20080423.0015.LDC2009T13	NULL			Wen Jiabao -- win jah-bow
+453	20052	NYT_ENG_20081215.0241.LDC2009T13	NULL			In June, the Princess of the Stars, a passenger ship with 850 passengers and crew, sank in the central Philippines after being lashed by a typhoon.
+454	1900	AFP_ENG_20071214.0109.LDC2009T13	NULL			Delegates said one key sticking point was a US-led call on developing countries to commit to slashing carbon emissions.
+455	9655	APW_ENG_20080306.0239.LDC2009T13	NULL			Lily turns to a "cult church" and drags April along to knock on doors on Saturday mornings.
+456	868	AFP_ENG_20070426.0570.LDC2009T13	NULL			Unknown Spaniard Oscar Hernandez, who has played just eight career matches off of the clay, upset sixth seed Jarkko Nieminen 6-1, 6-7 (6/8), 6-3 with the frustrated Finn missing on 17 or 19 break chances, including six in the marathon final game.
+457	5637	APW_ENG_20070325.0005.LDC2009T13	NULL			'Jan Egeland -- yahn EHG''-lahnd'
+458	3212	AFP_ENG_20080816.0188.LDC2009T13	NULL			Turkish foreign ministry officials were not available for comment.
+459	14862	LTW_ENG_20080929.0015.LDC2009T13	NULL			In a scene that seemed cut from czarist times, Russian navy officials and Orthodox priests sat at a long table, knocking back shots of vodka and proclaiming emotional toasts.
+460	5697	APW_ENG_20070325.0151.LDC2009T13	NULL			At Raleigh, North Carolina, Cam Ward made the most of his first start in goal in nearly two weeks and Andrew Ladd scored twice, helping Carolina beat San Jose.
+461	6940	APW_ENG_20070717.0848.LDC2009T13	NULL			"The arrest and prosecution by U.S. law enforcement of a small number of violent Islamic extremists inside the United States ... points to the possibility that others may become sufficiently radicalized that they will view the use of violence here as legitimate," the estimate said.
+462	4286	APW_ENG_20070113.0514.LDC2009T13	NULL			Further epidemic prevention procedures, including sterilization of the farm, are also under way, he added.
+463	4107	APW_ENG_20070105.0655.LDC2009T13	NULL			shears
+464	13539	LTW_ENG_20070807.0103.LDC2009T13	NULL			'If it were me, I''d fight having wall-to-wall carpeting installed a second time.'
+465	16956	NYT_ENG_20070917.0130.LDC2009T13	NULL			'"I hate to take out the money, but I just don''t want to risk anything," she said, adding that she did not yet know what she would do with it.'
+466	15638	NYT_ENG_20070318.0045.LDC2009T13	NULL			Bean hopes they can both put their best golf on display.
+467	8478	APW_ENG_20071110.0815.LDC2009T13	NULL			Andrei Markov scored his fifth goal of the season on a power play 11:11 in and the Canadiens nearly made it stand.
+468	2485	AFP_ENG_20080418.0285.LDC2009T13	NULL			'Iraqi troops were in a tense standoff with radical Shiite cleric Moqtada al- Sadr''s supporters on Friday after they surrounded an office block occupied by the group in the southern city of Basra.The move was blasted by Sadr''s supporters as a "provocation" but the Iraqi government said the operation only aimed to recover offices unfairly occupied by political groups.'
+471	8217	APW_ENG_20071015.0723.LDC2009T13	NULL			3 -- Qatar Total Open, HO (Justine Henin)
+472	6564	APW_ENG_20070623.0029.LDC2009T13	NULL			'Hamadeh, a leading anti-Syrian politician, said that while all pro-government groups had agreed to Moussa''s three-point proposal to resume dialogue, the opposition rejected it.'
+473	7003	APW_ENG_20070727.0111.LDC2009T13	NULL			Research Studies
+474	15837	NYT_ENG_20070410.0048.LDC2009T13	NULL			Kemp has been off to a solid start, but in the fourth inning he chased a drive by Jeff Baker to the wall in right.
+475	20449	XIN_ENG_20070313.0267.LDC2009T13	NULL			Over 300 terrorist attacks averted last year in Russia: official
+477	6915	APW_ENG_20070717.0848.LDC2009T13	NULL			"Of note," the analysts said, "we assess that al-Qaida will probably seek to leverage the contacts and capabilities of al- Qaida in Iraq (AQI), its most visible and capable affiliate and the only one known to have expressed a desire to attack the homeland."
+479	7327	APW_ENG_20070820.0711.LDC2009T13	NULL			Bush will meet privately with Calderon at Fairmont Le Chateau Montebello, a small summer retreat on the banks of the Ottawa river.
+480	15378	NYT_ENG_20070208.0083.LDC2009T13	NULL			SIN-EATER-REVIEW -- WEST PALM BEACH, Fla. -- The latest entry from Fox Faith films manages to sustain some suspense under the direction of Michael Landon Jr. (Erstein, Palm Beach Post).
+481	3560	AFP_ENG_20081028.0065.LDC2009T13	NULL			"Frankfurt will be much more difficult than Wolfsburg - it will be a battle against them," said Klinsmann.
+482	17093	NYT_ENG_20071013.0017.LDC2009T13	NULL			'He''s just unable to go 100 percent," coach Jon Gruden said Friday.'
+483	11845	APW_ENG_20080923.0468.LDC2009T13	NULL			'Protesters sailed to Gaza last month to protest Israel''s yearlong blockade of Gaza imposed after the Islamic militant group Hamas overran the territory.'
+484	1563	AFP_ENG_20070922.0379.LDC2009T13	NULL			New Zealand 108 Portugal 13
+485	14505	LTW_ENG_20080430.0024.LDC2009T13	NULL			'"It''s a joy to make a difference in the life of the growers," said Mergoum, who worked earlier in the international program that developed higher-yielding "green revolution" wheats.'
+486	7553	APW_ENG_20070907.0177.LDC2009T13	NULL			That absence sparked widespread speculation he was ill, wounded or possibly dead.
+488	19589	NYT_ENG_20080930.0156.LDC2009T13	NULL			"Democracy," he added, "is bigger than any one person."
+489	16844	NYT_ENG_20070907.0024.LDC2009T13	NULL			Before the proceeding closed, Wuterich read a nine-page statement to Ware, who will advise a Marine general whether sufficient evidence exists to forward the charges to a court-martial.
+490	8464	APW_ENG_20071104.0155.LDC2009T13	NULL			They maintain diplomatic and economic sanctions against the regime, and block assistance from multilateral aid agencies such as the World Bank.
+491	22174	XIN_ENG_20081118.0271.LDC2009T13	NULL			Eight managed to escape.
+493	10618	APW_ENG_20080430.0993.LDC2009T13	NULL			The collection includes pieces made by Native American craftsmen in El Salvador, Guatemala, Panama, Peru and Colombia in addition to Costa Rica.
+494	9017	APW_ENG_20071230.0022.LDC2009T13	NULL			Several hours before the tape was issued, the top U.S. commander in Iraq, Gen. David Petraeus, said al-Qaida was becoming increasingly fearful of losing the support of Sunni Arabs and had begun targeting the leaders of the Awakening Councils.
+495	2140	AFP_ENG_20080201.0259.LDC2009T13	NULL			Most of his co-accused were released from a Zimbabwean prison in 2005.
+496	15495	NYT_ENG_20070227.0136.LDC2009T13	NULL			"From the perspective of cancer prevention, this seems like a clear-cut case in favor of the vaccine," he said.
+497	18567	NYT_ENG_20080331.0223.LDC2009T13	NULL			INSURERS CITED AS CAUSE OF CLOGGED SOCIAL SECURITY DISABILITY SYSTEM
+498	19108	NYT_ENG_20080716.0084.LDC2009T13	NULL			'But whether he would have proved he could play at a very high level - a consistent level - we''ll never know."'
+499	2237	AFP_ENG_20080303.0684.LDC2009T13	NULL			The KOSPI ended down 39.89 points at 1,671.73, after falling to as low as 1,657.79.
+500	21526	XIN_ENG_20080401.0263.LDC2009T13	NULL			Around 2 p.m. on March 14, Tanzen allegedly participated in such criminal activities as randomly assaulting passersby, vandalizing properties, looting and arson in the neighborhood of Duosengge Road in the Tibetan capital.
+501	3699	AFP_ENG_20081120.0780.LDC2009T13	NULL			Malaysian island may lose heritage status over building row: report
+502	19232	NYT_ENG_20080727.0036.LDC2009T13	NULL			(May 18).
+503	7110	APW_ENG_20070805.0576.LDC2009T13	NULL			"My revenge is to be here in Israel with daughter and granddaughter," she said.
+504	18026	NYT_ENG_20080218.0136.LDC2009T13	NULL			Tip: Worried that your yellow gold vintage jewelry or "something borrowed" will clash with the silver beads on your dress?
+505	19682	NYT_ENG_20081005.0087.LDC2009T13	NULL			'MUSIC-JAYZ -- Hip-hop megastar Jay-Z performed a free concert Saturday night at Detroit''s Cobo Arena.'
+506	21444	XIN_ENG_20080304.0396.LDC2009T13	NULL			A former union leader, he joined FARC in the 1970s.
+507	11698	APW_ENG_20080906.0325.LDC2009T13	NULL			Nigerian president returns home after long trip
+508	20648	XIN_ENG_20070524.0346.LDC2009T13	NULL			'Although record low rainfall made most of California''s coastal waters safer to bathe in over the past year by reducing contaminated storm and creek runoff into the ocean, it wasn''t enough to improve potentially risky bacteria levels at some of Los Angeles County''s best known beaches, according to the report published by the Los Angeles Times on Thursday.'
+510	2547	AFP_ENG_20080422.0711.LDC2009T13	NULL			The Western Conference playoffs also conclude Tuesday with game seven between Calgary and host San Jose.
+511	22179	XIN_ENG_20081124.0160.LDC2009T13	NULL			Chavez called on the electors to stay calm and trust the results to be announced by the Electoral National Council.
+512	4364	APW_ENG_20070122.0704.LDC2009T13	NULL			"In the context of a 10-minute presentation I was making an analytical observation, not an official statement."
+513	12190	APW_ENG_20081017.0820.LDC2009T13	NULL			'On Friday, the Dow Jones index underperformed Europe''s indexes, trading 46.28 points, or 0.5 percent, lower at 8,932.98 after further evidence emerged that the U.S. is heading for a deep and protracted recession.'
+514	8457	APW_ENG_20071104.0155.LDC2009T13	NULL			Protest leaders who recently escaped to Thailand say some still look on the United Nations with hope, but others are deeply disillusioned that it has failed to be more forceful in dealing with the generals.
+515	17295	NYT_ENG_20071123.0006.LDC2009T13	NULL			Several local officials have said that pressure from the rising water is a factor in many, if not all, the recent landslides.
+516	12182	APW_ENG_20081017.0245.LDC2009T13	NULL			That purchase will give it a 9.9 percent stake in the investment bank.
+517	6770	APW_ENG_20070711.0318.LDC2009T13	NULL			Four North Koreans have entered the Danish Embassy in Vietnam in an apparent bid for asylum, a South Korean activist said Wednesday.
+518	12423	APW_ENG_20081112.0142.LDC2009T13	NULL			OTHER TOURNAMENTS
+519	13249	LTW_ENG_20070404.0066.LDC2009T13	NULL			At least half of sexually active people will acquire genital HPV virus in their lifetime.
+520	6574	APW_ENG_20070623.0029.LDC2009T13	NULL			The latest victim was anti-Syrian lawmaker Walid Eido, who was killed along with his son, two bodyguards and six passers-by last week in a car bombing in Beirut.
+521	5283	APW_ENG_20070325.0005.LDC2009T13	NULL			'Abdullah Mahmoud al-Khattab -- MAH''-mood ahl-huh-TAHB'''
+523	12287	APW_ENG_20081031.1009.LDC2009T13	NULL			'The company attributed the downgrade in part to last week''s government proposal to nationalize private pension funds, which has greatly spooked investors, sending overall confidence in the local markets into a tailspin.'
+524	7006	APW_ENG_20070727.0111.LDC2009T13	NULL			An article by Eugene J. Mahon, M.D., a training and supervising analyst at the Columbia Psychoanalytic Institute in New York, for example, offers an intriguing view of "purgatory."
+525	15273	NYT_ENG_20070126.0182.LDC2009T13	NULL			U.N. OFFICIAL ADVANCES PLAN THAT COULD MAKE KOSOVO INDEPENDENT
+526	8583	APW_ENG_20071116.0635.LDC2009T13	NULL			Entry to the club costs euro70 (US$100), according to its Web site, which shows pictures of an ornate bar and private rooms featuring double beds and huge bath tubs.
+527	21542	XIN_ENG_20080401.0263.LDC2009T13	NULL			To date, the deadly riot has claimed the lives of 18 civilians and one police officer.
+528	9749	APW_ENG_20080401.0928.LDC2009T13	NULL			Somali gunmen kidnap a British and a Kenyan worker
+529	10626	APW_ENG_20080511.0383.LDC2009T13	NULL			BERLIN 2008-05-11 13:03:15 UTC
+530	5287	APW_ENG_20070325.0005.LDC2009T13	NULL			'Ali Hassan al-Majid -- ah-LEE'' hah-SAHN'' ahl mah-ZHEED'''
+531	7613	APW_ENG_20070907.0462.LDC2009T13	NULL			'Australia has the world''s largest reserves of the atomic resource, but has no nuclear power program of its own.'
+532	12174	APW_ENG_20081017.0245.LDC2009T13	NULL			'The filing with the U.S. Securities and Exchange Commission, posted on Blackstone''s Web site, did not require regulatory approval.'
+533	15624	NYT_ENG_20070318.0045.LDC2009T13	NULL			When asked about his success while playing with the lead, Irwin stuck his fingers in his ears and said, "La, la, la, la, la, la!"
+534	9111	APW_ENG_20080112.0653.LDC2009T13	NULL			"We found explosives, suicide belts and maps of military installations" in their hideouts, he said.
+535	8338	APW_ENG_20071025.1505.LDC2009T13	NULL			Kerik is expected to confront the results of the investigation as early as next month -- and it is widely believed he will either be indicted or reach a plea agreement with prosecutors.
+536	19365	NYT_ENG_20080820.0167.LDC2009T13	NULL			The concerns of East Montpelier residents are reflected in the Great Lakes Resources compact, a broad water-management agreement already approved by the U.S. Senate and by eight Midwestern states and two Canadian provinces.
+537	16710	NYT_ENG_20070824.0098.LDC2009T13	NULL			The airline industry had fought such a requirement, contending that it would be too slow and costly.
+538	13206	LTW_ENG_20070404.0066.LDC2009T13	NULL			HPV: How Much Do You Know?
+540	13543	LTW_ENG_20070807.0103.LDC2009T13	NULL			Some people tell me it needs to be done annually.
+541	3557	AFP_ENG_20081028.0065.LDC2009T13	NULL			German giants Bayern Munich can go third in the table if they pick up their fourth straight win at Eintracht Frankfurt on Wednesday and other results go their way.
+542	16209	NYT_ENG_20070602.0129.LDC2009T13	NULL			But in the trial, those who received the shark cartilage extract lived a median of 14.4 months, meaning that half the patients had died by that point.
+543	8413	APW_ENG_20071101.1217.LDC2009T13	NULL			"They say that cocaine increases self-confidence and creates a type of euphoria," she said in a statement.
+544	15284	NYT_ENG_20070126.0182.LDC2009T13	NULL			If the U.N. Security Council approves the plan, Kosovo is expected to quickly declare its independence and could expect swift recognition from its U.S. and European supporters, even if Serbia rejected such a move.
+545	13220	LTW_ENG_20070404.0066.LDC2009T13	NULL			6
+547	10496	APW_ENG_20080423.0015.LDC2009T13	NULL			'Michel Veillette -- mee-SHEHL'' vee-YEHT'''
+548	18039	NYT_ENG_20080220.0046.LDC2009T13	NULL			JUSTICES MAKE IT TOUGHER TO SUE OVER FDA-APPROVED DEVICES
+549	3007	AFP_ENG_20080725.0315.LDC2009T13	NULL			Mila Damianov, a Belgrade native who says she met Karadzic under his assumed name Dragan Dabic at an alternative health seminar in late 2007, denied that their relationship went beyond a professional interest.
+550	20889	XIN_ENG_20070930.0121.LDC2009T13	NULL			'The last FWWC goal scored against Germany was in the 2003 Final shortly before the half-time break by Sweden''s Hanna Ljungberg.'
+551	6369	APW_ENG_20070608.0911.LDC2009T13	NULL			Japanese automaker Suzuki to build a car assembly plant in Russia
+552	20475	XIN_ENG_20070407.0063.LDC2009T13	NULL			Army was called out and curfew imposed in the city of Parachinar, the capital of tribal Kurram Agency, some 290 km west of the capital, Islamabad after the clashes took place on Friday.
+553	7906	APW_ENG_20070919.0847.LDC2009T13	NULL			BUSINESS &amp
+554	3419	AFP_ENG_20081008.0139.LDC2009T13	NULL			'"But I''m happy the way that I turned back the match and in the end I won 6-1 and that''s really good for my confidence.'
+555	18338	NYT_ENG_20080319.0200.LDC2009T13	NULL			'The initiatives are intended to restore an authentic coffeehouse experience to the company''s stores and, in turn, re-energize an ailing stock that has lost half its value in the last 15 months.'
+556	14222	LTW_ENG_20080215.0053.LDC2009T13	NULL			Perched nearby, a papier-mache tabby with plastic whiskers and a lush coat of paper strips glares through beaded eyes at a paper microwave.
+557	6448	APW_ENG_20070613.1615.LDC2009T13	NULL			Champ Car traditionally has used rolling starts, the generally accepted practice in American racing where the cars already are moving and gaining speed when the green flag is thrown.
+558	6742	APW_ENG_20070705.1382.LDC2009T13	NULL			When Carson asked him why he had waited so long to launch his jazz violin career, he replied that he did not want there to be enough time for him to become a has-been, his son said.
+559	16133	NYT_ENG_20070527.0200.LDC2009T13	NULL			"I felt a little out of sorts, but I think the biggest thing was just getting some pitches in," Millwood said. "
+560	17464	NYT_ENG_20071231.0111.LDC2009T13	NULL			'"It''s that experience, that understanding, not just of what world leaders I went and talked to in the ambassador''s house I had tea with, but understanding the lives of the people like my grandmother who lives in a tiny hut in Africa," he said.'
+561	21811	XIN_ENG_20080806.0256.LDC2009T13	NULL			PHNOM PENH, Aug. 7 (Xinhua)
+562	1432	AFP_ENG_20070831.0165.LDC2009T13	NULL			The disease has hit livestock in The Netherlands, Germany, Belgium and northern France in the past year after previously being confined to countries on the Mediterranean basin.
+564	21047	XIN_ENG_20071111.0220.LDC2009T13	NULL			Following are the Italian Serie A top scorers on Sunday:
+565	21656	XIN_ENG_20080515.0315.LDC2009T13	NULL			The military sources just revealed that four temporary bridge had been built Thursday over the Zipingpu reservoir in Dujiangyan City, connecting the city with Yingxiu town.
+566	15547	NYT_ENG_20070305.0216.LDC2009T13	NULL			The Bush administration has been thrown on the defensive, and members of Congress have been quick to express outrage.
+567	12879	CNA_ENG_20080921.0018.LDC2009T13	NULL			It had maximum sustained winds of 118.8 kph near the center, with gusts reaching 154.8 kph.
+568	10853	APW_ENG_20080706.0392.LDC2009T13	NULL			Linda Schuecker, Germany, 9:52:50.
+569	357	AFP_ENG_20070213.0296.LDC2009T13	NULL			Republicans last week blocked a 1,600-word bipartisan Senate resolution opposing the new Iraq policy, the first major setback for majority Democrats.
+570	3507	AFP_ENG_20081021.0075.LDC2009T13	NULL			Football: Win over Fiorentina puts Bayern on the brink
+571	17518	NYT_ENG_20080110.0091.LDC2009T13	NULL			'FOR IMMEDIATE RELEASE DON '' T EXPECT RECENT GUN-CONTROL LAW TO REDUCE NRA '' S INFLUENCE ON CONGRESS'
+572	14951	LTW_ENG_20081031.0044.LDC2009T13	NULL			Congress tried to establish a balance.
+573	5430	APW_ENG_20070325.0005.LDC2009T13	NULL			'Victor Batarseh -- bah-TAHR''-seh'
+574	3257	AFP_ENG_20080915.0273.LDC2009T13	NULL			There were similar drops in other Gulf stock markets, which have already been reeling under yet another correction wave.
+575	10544	APW_ENG_20080423.0015.LDC2009T13	NULL			'Wuer Kaixi -- wehr KY''-shee'
+576	10990	APW_ENG_20080725.0669.LDC2009T13	NULL			'"There isn''t one player I have spoken to who is comfortable about traveling to Pakistan at the moment," Mills said.'
+577	10974	APW_ENG_20080725.0669.LDC2009T13	NULL			'The safety and security of our players is paramount and we won''t compromise on that."'
+578	7545	APW_ENG_20070907.0177.LDC2009T13	NULL			'But he said increased activity overseas and recent arrests of militants in Germany reinforce the department''s assessment that the country is currently in a period of increased risk.'
+579	19250	NYT_ENG_20080809.0130.LDC2009T13	NULL			'Scheunemann, who has worked for McCain''s campaign since early 2007, took a leave from his firm, Orion Strategies LLC, in March of this year.'
+580	14953	LTW_ENG_20081031.0044.LDC2009T13	NULL			The federal government agreed to share the cost of caring for poor illegal immigrants through state-run Emergency Medicaid programs.
+581	9189	APW_ENG_20080117.0097.LDC2009T13	NULL			'Complying with the environmental law would "undermine the Navy''s ability to conduct realistic training exercises that are necessary to ensure the combat effectiveness of carrier and expeditionary strike groups," Bush said.'
+582	17577	NYT_ENG_20080111.0088.LDC2009T13	NULL			However, the events of the past six months have clearly demonstrated that Bosnia is still not fully prepared to go it alone.
+583	9908	APW_ENG_20080413.0540.LDC2009T13	NULL			Antonio Di Natale put Udinese ahead in the 52th minute, before Mirko Vucinic equalized in the 64th.
+584	5563	APW_ENG_20070325.0005.LDC2009T13	NULL			'Jon Corzine -- KOHR''-zyn'
+585	12223	APW_ENG_20081021.0609.LDC2009T13	NULL			3M posts 3rd-quarter gain on higher sales abroad
+586	11764	APW_ENG_20080918.0478.LDC2009T13	NULL			The soldier, who refused to be identified because he was not authorized to speak to the media, said he had seen the bodies, and many were so badly disfigured they had to be buried in closed-caskets funerals.
+587	10566	APW_ENG_20080423.0015.LDC2009T13	NULL			Jiang Yanyong --junhg yen-yawng
+588	839	AFP_ENG_20070425.0672.LDC2009T13	NULL			26/01/2006: Adelaide Australia won by 5 wkts
+589	16423	NYT_ENG_20070625.0073.LDC2009T13	NULL			Taylor arrived in Boston in 1972 and lived here for a decade while studying economics at Chamberlayne Junior College in Newton and Bentley College in Waltham.
+590	19537	NYT_ENG_20080915.0021.LDC2009T13	NULL			Girardi squeezed contributions out of Kyle Farnsworth and production from Jose Veras, Edwar Ramirez and Brian Bruney.
+591	16639	NYT_ENG_20070723.0163.LDC2009T13	NULL			'But even a highly detailed e-mail or a terse, clipped phone call can offer insights into another person''s personality.'
+592	7506	APW_ENG_20070906.0497.LDC2009T13	NULL			'"China''s growth is undeniably good for the world.'
+593	17491	NYT_ENG_20080107.0181.LDC2009T13	NULL			Such a fractured field is all Giuliani could have hoped for, said Miller.
+594	22160	XIN_ENG_20081118.0182.LDC2009T13	NULL			'The bloc''s associate members include Bolivia, Chile, Colombia, Peru and Ecuador.'
+598	13446	LTW_ENG_20070726.0001.LDC2009T13	NULL			Within days, a fatwa was posted online, calling me an infidel and saying that I should be killed.
+599	5694	APW_ENG_20070325.0151.LDC2009T13	NULL			Backup goalie Jocelyn Thibault stopped 25 of 26 shots for the Pittsburgh, which snapped a two-game losing streak.
+600	7270	APW_ENG_20070815.0586.LDC2009T13	NULL			'It was unclear whether that projection would hold, after Tuesday''s staggering death tolls.'
+601	6591	APW_ENG_20070624.0434.LDC2009T13	NULL			The battle began after authorities received a tip that a group of militants had crossed from Pakistan-controlled Kashmir.
+602	19279	NYT_ENG_20080818.0153.LDC2009T13	NULL			This month, legislation in the national parliament to set the groundwork for crucial provincial elections collapsed in a bitter dispute over Kirkuk, as Arabs and Turkmens demanded that the Kurds be forced to cede some of their power here.
+603	1669	AFP_ENG_20071030.0153.LDC2009T13	NULL			Norway will contribute 60 million kroner to two projects run by the United Nations Development Programme (UNDP), and an additional 70 million kroner to a special rain forest fund.
+604	8757	APW_ENG_20071202.0341.LDC2009T13	NULL			KANDAHAR, Afghanistan 2007-12-02 11:46:07 UTC
+605	10391	APW_ENG_20080423.0015.LDC2009T13	NULL			'Sunni Muslim -- SOO''-nee'
+606	10399	APW_ENG_20080423.0015.LDC2009T13	NULL			'Antonio Taguba -- tah-GOO''-bah'
+607	19315	NYT_ENG_20080818.0153.LDC2009T13	NULL			The U.S. military commander here, Col. David Paschal, said he feared that if Baghdad sent in additional troops, Kurdish leaders would retaliate by sending in their own militia from northern Iraq, creating a potentially disastrous confrontation.
+608	11434	APW_ENG_20080813.0002.LDC2009T13	NULL			'Russia''s strength stokes immigrant pride.'
+609	6255	APW_ENG_20070530.1322.LDC2009T13	NULL			'On Wednesday, Israel''s Security Cabinet said it would continue its two-week-old campaign of airstrikes against cells of Hamas militants firing rockets across the Gaza border.'
+611	15059	NYT_ENG_20070104.0284.LDC2009T13	NULL			He said Israeli troops returned fire, but did not initiate it.
+612	914	AFP_ENG_20070503.0495.LDC2009T13	NULL			'The base houses a radar station intended for use as part of Washington''s planned missile shield programme.'
+613	20181	NYT_ENG_20081227.0061.LDC2009T13	NULL			'Cody''s, in its prime one of the country''s great stores, closed its last outlet in June.'
+614	21442	XIN_ENG_20080304.0396.LDC2009T13	NULL			'Bespectacled and bearded Reyes, had been regarded as FARC''s No. 2 leader and a possible successor to the group''s 77-year-old head Manuel Marulanda.'
+615	13902	LTW_ENG_20071015.0003.LDC2009T13	NULL			"Plus, the fact that guys are missing arms and have bullet holes and everything else.
+616	10522	APW_ENG_20080423.0015.LDC2009T13	NULL			'Jim Weidmann -- WYD''-mun'
+617	3322	AFP_ENG_20080917.0380.LDC2009T13	NULL			"When some banking establishments or some credit establishments have committed mistakes, when they have been imprudent, it is not abnormal that one day they pay for the consequences," he said.
+618	20384	XIN_ENG_20070206.0133.LDC2009T13	NULL			'The province''s exports grew 31 percent to 101 billion U.S. dollars, and imports surged 25 percent to 38 billion U.S dollars, Wang said'
+619	18235	NYT_ENG_20080303.0071.LDC2009T13	NULL			Talking about the Second World War is talking about the Nazis, talking about the Holocaust."
+621	6280	APW_ENG_20070531.0102.LDC2009T13	NULL			Wizner said the executive branch has evoked a state secrets defense in similar lawsuits.
+622	16798	NYT_ENG_20070824.0204.LDC2009T13	NULL			Like last week, people talk, people think.
+624	10042	APW_ENG_20080423.0015.LDC2009T13	NULL			'Barack Obama -- buh-RAHK'' oh-BAH''-muh'
+625	20179	NYT_ENG_20081227.0061.LDC2009T13	NULL			Lesser is the publisher of The Threepenny Review, a literary journal.
+626	10908	APW_ENG_20080719.0770.LDC2009T13	NULL			Hurricanes Fausto off Mexico, Bertha off New England pose no threat to land
+627	15892	NYT_ENG_20070410.0095.LDC2009T13	NULL			An orange has about 50 milligrams of calcium, and so does a handful of almonds.
+628	17225	NYT_ENG_20071030.0276.LDC2009T13	NULL			NEW YORK
+629	20508	XIN_ENG_20070419.0037.LDC2009T13	NULL			'China''s cultural authorities are introducing a national qualification program for actors, singers and dancers.'
+630	9610	APW_ENG_20080302.0793.LDC2009T13	NULL			-- may dissolve the State Duma under procedures envisioned by the constitution
+631	21126	XIN_ENG_20071203.0283.LDC2009T13	NULL			'Similarly, there are thousands of people, who became physically disabled after losing their limbs and body parts during a decade long insurgency, still languishing for government''s attention.'
+633	4193	APW_ENG_20070111.0138.LDC2009T13	NULL			'But it''s always a quiet refuge, the perfect place to curl up with a good book, listen to the crackle of the fire and watch the softly falling snow deepen outside the door.'
+634	21234	XIN_ENG_20080109.0113.LDC2009T13	NULL			4th LD-Writethru-China Focus: China gold futures trading makes strong debut
+635	20595	XIN_ENG_20070512.0155.LDC2009T13	NULL			BEIJING, May 12 (Xinhua)
+636	3426	AFP_ENG_20081008.0311.LDC2009T13	NULL			Bush to sign US-India nuclear deal law
+637	12089	APW_ENG_20081010.0035.LDC2009T13	NULL			Afghanistan has appealed for more NATO help to attack heroin dealers whose thriving trade is blamed for bankrolling the widening insurgency against the pro-Western government and international forces.
+638	19504	NYT_ENG_20080915.0021.LDC2009T13	NULL			'For whatever reason or whatever number of reasons, we didn''t get to where we thought we were going to get."'
+639	10012	APW_ENG_20080423.0015.LDC2009T13	NULL			'Ido Nehustan -- ee-DOH'' neh-HOHS''-tarn'
+640	19385	NYT_ENG_20080820.0167.LDC2009T13	NULL			Replenishment from rain or surface water, or "recharge" as the experts term it, tends to be gradual.
+641	6383	APW_ENG_20070608.1166.LDC2009T13	NULL			'"Judge Sauer has instructed the Sheriff''s Department to go to Ms. Hilton''s residence, pick her up and bring her here.'
+642	8623	APW_ENG_20071120.1117.LDC2009T13	NULL			'More investment is needed in agriculture but the government''s agrarian reform effort -- assuming control of vast farmlands and offering them to poor farmers -- has made traditional producers reluctant to invest, he said.'
+643	5700	APW_ENG_20070325.0151.LDC2009T13	NULL			The 23-year-old Ward missed three games with a laceration on his leg, then relieved John Grahame in a come-from-behind victory over Washington on Thursday.
+644	4780	APW_ENG_20070225.0071.LDC2009T13	NULL			Eisenberg, the exterminator, said wiping out vermin is impossible.
+645	10159	APW_ENG_20080423.0015.LDC2009T13	NULL			Quds -- kuhdz
+647	7706	APW_ENG_20070914.0302.LDC2009T13	NULL			In Bangladesh, volunteers with bullhorns warned villagers to evacuate to higher or inland areas, while local television and radio stations issued warnings as town halls opened control rooms to monitor the situation.
+648	15242	NYT_ENG_20070115.0224.LDC2009T13	NULL			'I''m married to a beautiful lady.'
+649	6750	APW_ENG_20070711.0103.LDC2009T13	NULL			In Medford, Oregon, the temperature was forecast to hit 105 (40.5 Celsius).
+650	17498	NYT_ENG_20080107.0181.LDC2009T13	NULL			'Miller said Giuliani will try to win at least a handful of Michigan''s 60 delegates (30 if the national GOP''s penalties against the state stick), focusing on congressional districts where the campaign''s internal polling shows it has the best chance to win.'
+651	16424	NYT_ENG_20070625.0073.LDC2009T13	NULL			He returned in 1984, after being charged with embezzling Liberian government funds, only to be arrested here.
+652	7291	APW_ENG_20070815.0586.LDC2009T13	NULL			Demonstrators shouted anti-American slogans and called for an end to what they called random raids and rights violations targeting the movement.
+653	21596	XIN_ENG_20080502.0172.LDC2009T13	NULL			SANTIAGO, May 2 (Xinhua)
+654	2550	AFP_ENG_20080422.0711.LDC2009T13	NULL			Washington had not met the Flyers in the playoffs in 20 years, since rallying from a 3-1 series deficit to eliminate Philadelphia.
+655	12930	LTW_ENG_20070104.0108.LDC2009T13	NULL			Anne Kornblut of the New York Times asked McHenry if his complaint might come across as whining.
+656	20970	XIN_ENG_20071023.0036.LDC2009T13	NULL			Two of the three injured died later in the hospital.
+657	1218	AFP_ENG_20070729.0031.LDC2009T13	NULL			Tennis: Sharapova makes San Diego title defence return
+658	11017	APW_ENG_20080728.0268.LDC2009T13	NULL			The union had sought a pay rise of 9.8 percent this year, and rejected a Lufthansa offer of 6.7 percent spread through February 2010, plus a one-time bonus payment.
+659	5117	APW_ENG_20070323.0969.LDC2009T13	NULL			Osman said he heard the sound of an anti-aircraft missile being fired shortly before the crash.
+660	16984	NYT_ENG_20070919.0124.LDC2009T13	NULL			But greater clarity was not necessarily a result.
+661	3439	AFP_ENG_20081008.0311.LDC2009T13	NULL			She also pushed hard for the agreement to be approved by both Houses of Congress.
+662	15141	NYT_ENG_20070108.0110.LDC2009T13	NULL			Forecasts of future continental motion developed slowly as offshoots of the theory of plate tectonics, which won acceptance in the 1960s and 1970s, shattering old dogmas of continental immobility.
+663	6509	APW_ENG_20070614.1652.LDC2009T13	NULL			RAFAH, Egypt 2007-06-14 21:17:03 UTC
+664	17183	NYT_ENG_20071024.0190.LDC2009T13	NULL			'Giuliani has taken an aggressive position on Iran''s efforts to build a nuclear program, saying last month it was a "promise" that as president he would take military action to keep the Iranians from developing a nuclear weapon.'
+665	21920	XIN_ENG_20080903.0351.LDC2009T13	NULL			The Premier presented flowers and bowed three times under the national flag on the campus to mark the victims.
+666	5416	APW_ENG_20070325.0005.LDC2009T13	NULL			'Bangui -- bahng-GEE'''
+667	1623	AFP_ENG_20071025.0800.LDC2009T13	NULL			Market expectations that the US Federal Reserve will lower its benchmark lending rate at its two-day meeting next week were also making dollar assets less attractive, dealers said.
+668	15312	NYT_ENG_20070208.0083.LDC2009T13	NULL			Moving in general news and lifestyle categories.
+669	22025	XIN_ENG_20081010.0142.LDC2009T13	NULL			The financial crisis, which originated in the United States, has deepened in Europe in recent weeks, with several European banks falling prey to the global credit crunch, prompting EU governments to save their banks by injecting large amounts of money or even nationalizing them.
+670	4638	APW_ENG_20070219.0628.LDC2009T13	NULL			In previous days, Shiite families opened their doors to welcome the troops -- feeling that the American presence would be a buffer against feared attacks from Sunni militia.
+671	10806	APW_ENG_20080531.0072.LDC2009T13	NULL			"The forced evictions are part of government efforts to demonstrate that the emergency relief period is over and that the affected population is capable of rebuilding their lives without foreign assistance," Human Rights Watch said.
+672	10097	APW_ENG_20080423.0015.LDC2009T13	NULL			'Paso Robles -- PAS''-uh ROH''-bulz'
+673	13005	LTW_ENG_20070124.0139.LDC2009T13	NULL			'``We''ve never been through something like this together, but it''s better than going through it alone.'''''
+674	20084	NYT_ENG_20081217.0168.LDC2009T13	NULL			'Thomas Donilon, who is expected to be Jones'' deputy'
+675	2957	AFP_ENG_20080710.0068.LDC2009T13	NULL			"Almost seven years have passed since that September morning when nearly 3,000 men, women, and children were murdered in our midst," Bush said.
+676	7939	APW_ENG_20070919.1310.LDC2009T13	NULL			Did not bat: Rohit Sharma, Harbhajan Singh, Joginder Sharma, Sree Sreesanth, Rudra Singh.
+677	15195	NYT_ENG_20070108.0110.LDC2009T13	NULL			Over billions of years, the continents have split and joined repeatedly in a slow dance.
+678	9404	APW_ENG_20080214.0227.LDC2009T13	NULL			Bird flu remains hard for people to catch, but health experts worry the virus could mutate into a form that passes easily among humans, sparking a pandemic.
+679	12694	APW_ENG_20081209.1278.LDC2009T13	NULL			'Inter''s Brazilian keeper also fumbled a shot by Jurica Vranjes but recovered the ball.'
+680	6282	APW_ENG_20070531.0102.LDC2009T13	NULL			The Bush administration has insisted it receives guarantees from countries receiving terror suspects that prisoners will not be tortured.
+681	21088	XIN_ENG_20071123.0120.LDC2009T13	NULL			'Lebanon''s presidential election deadline imminent amid doubts'
+682	17716	NYT_ENG_20080123.0149.LDC2009T13	NULL			Klitschko is enjoying his training here, where he is surrounded by members of his team.
+683	8730	APW_ENG_20071129.0782.LDC2009T13	NULL			'"When somebody is named Muhammad by his parents and then turns out to be a thief, is it an insult to religion to say, ''That Muhammad is a thief''?'
+684	10080	APW_ENG_20080423.0015.LDC2009T13	NULL			'Rolandas Paksas -- roh-LAHN''-dahs PAHK''-sahs'
+685	10703	APW_ENG_20080521.0637.LDC2009T13	NULL			The militant Hamas that controls Gaza said the wounded Wednesday were civilian bystanders.
+686	10971	APW_ENG_20080725.0669.LDC2009T13	NULL			'Collier said England''s players would be consulted before any decision is taken.'
+687	12535	APW_ENG_20081118.1030.LDC2009T13	NULL			Inc.
+688	4648	APW_ENG_20070219.0628.LDC2009T13	NULL			There has been growing suspicion that militants have posed as Iraqi soldiers in some attacks and ambushes.
+689	21461	XIN_ENG_20080312.0202.LDC2009T13	NULL			On Economic, Social and Cultural rights
+690	1330	AFP_ENG_20070825.0331.LDC2009T13	NULL			The 28-year-old Kim is 6-6 with a 5.23 ERA in 19 games - 16 starts - with the Colorado Rockies, Marlins and Arizona Diamondbacks this season.
+691	16618	NYT_ENG_20070723.0163.LDC2009T13	NULL			The program also cautions not to assume that someone you have trouble communicating with is simply dense or difficult.
+692	8099	APW_ENG_20071009.0547.LDC2009T13	NULL			Okruashvili was charged with extortion, money-laundering and abuse of power.
+693	16642	NYT_ENG_20070820.0234.LDC2009T13	NULL			RATE HIKE LOOMS FOR MANY TEXAS ALLSTATE POLICYHOLDERS
+694	13357	LTW_ENG_20070626.0067.LDC2009T13	NULL			'There are easy steps you can take to go green and lighten your ``carbon footprint.'''''
+695	10663	APW_ENG_20080519.0518.LDC2009T13	NULL			India has accused Pakistan-based Islamic militants of involvement in past attacks.
+696	19996	NYT_ENG_20081212.0159.LDC2009T13	NULL			Taylor, 59, was killing time at Campus Martius, a town-square- like meeting place in the heart of downtown.
+697	21710	XIN_ENG_20080718.0237.LDC2009T13	NULL			'The girls'' hometown was hit by a major earthquake in May in which more than 80,000 were dead or missing.'
+698	20143	NYT_ENG_20081227.0061.LDC2009T13	NULL			BARGAIN-HUNTING, AND FEELING SHEEPISH ABOUT IT
+699	10448	APW_ENG_20080423.0015.LDC2009T13	NULL			'Judy Topinka -- toh-PIN''-kuh'
+700	7468	APW_ENG_20070904.0656.LDC2009T13	NULL			Diego Mendez in San Salvador, El Salvador
+701	7993	APW_ENG_20070924.0721.LDC2009T13	NULL			Shahid Afridi c Sreesanth b Irfan Pathan 0
+702	7562	APW_ENG_20070907.0227.LDC2009T13	NULL			Charlton says England will struggle unless Premier League limits foreign players
+703	15309	NYT_ENG_20070208.0083.LDC2009T13	NULL			RELIGION
+704	8746	APW_ENG_20071129.0782.LDC2009T13	NULL			Last year, he vowed to lead a jihad, or holy war, against U.N. peacekeepers if they deployed in the Darfur region of western Sudan.
+705	17852	NYT_ENG_20080203.0075.LDC2009T13	NULL			PHOENIX More parties.
+707	17071	NYT_ENG_20071008.0208.LDC2009T13	NULL			Prop?t attorney Bruce Kaser declined to comment because the litigation is ongoing.
+708	6041	APW_ENG_20070426.0423.LDC2009T13	NULL			Two days earlier, a double truck-bombing killed nine U.S. soldiers in the volatile province.
+709	17277	NYT_ENG_20071123.0006.LDC2009T13	NULL			Initial reports from state news media on Wednesday stated that one construction worker died, another was injured and two more were trapped in a landslide on Tuesday at a railroad construction site in Badong County, upstream of the Three Gorges Dam.
+710	10166	APW_ENG_20080423.0015.LDC2009T13	NULL			R
+711	17032	NYT_ENG_20070925.0140.LDC2009T13	NULL			'British actor Damian Lewis is a natural lead as an oddball American in NBC''s "Life," which premieres Wednesday night.'
+712	1046	AFP_ENG_20070615.0397.LDC2009T13	NULL			But I recognise that more should be done, especially by member states," Barroso said.
+713	17156	NYT_ENG_20071015.0116.LDC2009T13	NULL			Something in between?
+714	7834	APW_ENG_20070919.0847.LDC2009T13	NULL			'LONDON -- Kosovo''s ethnic Albanian leaders join talks on the future of the disputed province with envoys from the United States, European Union and Russia amid concerns that patience is at breaking point.'
+715	4970	APW_ENG_20070316.0001.LDC2009T13	NULL			"There is nothing that I can possibly say to make up or make well the deaths of those women and children, and I am absolutely sorry it happened that day," Wuterich told CBS.
+716	11171	APW_ENG_20080806.1271.LDC2009T13	NULL			The dollar climbed to eight-week highs against the euro and seven-month highs against the yen Wednesday as fears of a global slowdown helped the dollar continue its rally.
+717	559	AFP_ENG_20070304.0145.LDC2009T13	NULL			Advocates of changing the 141-year-old treaty rules defining who is a Cherokee say the tribal nation has a sovereign right to decide citizenship and that other tribes base membership on blood lines.
+718	10672	APW_ENG_20080519.0518.LDC2009T13	NULL			The negotiations between Pakistan and India are aimed at ultimately resolving their conflict over the divided Himalayan territory of Kashmir.
+719	13026	LTW_ENG_20070124.0139.LDC2009T13	NULL			'``I talked with Al this morning,'''' said Davis Guggenheim, the film''s director.'
+720	1304	AFP_ENG_20070821.0230.LDC2009T13	NULL			'Egypt, which provides between five and 10 percent of Gaza''s electricity, said the supplies should not be used for political ends.'
+721	11721	APW_ENG_20080907.0093.LDC2009T13	NULL			Drew has been playing golf on family outings for two years.
+722	10732	APW_ENG_20080525.0525.LDC2009T13	NULL			England vs. New Zealand Scoreboard
+723	13463	LTW_ENG_20070726.0001.LDC2009T13	NULL			'Nevertheless, I find myself inspired by Luther''s courageous uprising.'
+724	6230	APW_ENG_20070526.0545.LDC2009T13	NULL			"This is hypocrisy by this regime," he said.
+725	161	AFP_ENG_20070130.0048.LDC2009T13	NULL			'Some 500 experts are meeting in Paris this week ahead of the release on Friday of the IPCC''s first report since 2001 on the state of scientific knowledge on global warming.'
+726	5413	APW_ENG_20070325.0005.LDC2009T13	NULL			'David Banach -- BAN''-ich'
+727	18942	NYT_ENG_20080516.0037.LDC2009T13	NULL			But Philadelphia ended the period with a 17-13 edge in shots.
+728	17222	NYT_ENG_20071024.0190.LDC2009T13	NULL			'"America shouldn''t be even-handed in dealing with the difference between an elected democracy that''s a government ruled by law, and a group of terrorists," he said.'
+729	11276	APW_ENG_20080813.0002.LDC2009T13	NULL			WITH:
+730	6943	APW_ENG_20070718.1602.LDC2009T13	NULL			company claims best quarterly growth since 2001
+731	2083	AFP_ENG_20080121.0681.LDC2009T13	NULL			Taiwan may ease China-bound investment restrictions: reports
+732	14466	LTW_ENG_20080424.0148.LDC2009T13	NULL			"I would love to see something really good happen for this family," wrote Heaton, 38, of Glen Allen, Va.
+734	6908	APW_ENG_20070717.0848.LDC2009T13	NULL			New intelligence report: Al-Qaida may use Iraqi network to attack U.S.
+735	18811	NYT_ENG_20080508.0246.LDC2009T13	NULL			'"The whole emphasis has been on ((the high school)) and that it''s going to be built no matter what."'
+736	10640	APW_ENG_20080511.0383.LDC2009T13	NULL			"It is our general policy not to comment on such market rumors," he said.
+737	5665	APW_ENG_20070325.0005.LDC2009T13	NULL			'Roger Etchegaray -- roh-ZHAY'' eh-cheh-gah-RAY'''
+738	17869	NYT_ENG_20080203.0075.LDC2009T13	NULL			Locals welcome
+739	835	AFP_ENG_20070425.0672.LDC2009T13	NULL			27/02/2004: Colombo Australia won by 40 runs
+740	21540	XIN_ENG_20080401.0263.LDC2009T13	NULL			Another two males killed in the riots have not yet been identified.
+741	4657	APW_ENG_20070220.0555.LDC2009T13	NULL			Shares were up 0.2 percent at euro44.40 (US$58.31).
+742	12372	APW_ENG_20081105.1636.LDC2009T13	NULL			'Banks continued to ratchet down the rates they charge one another for borrowing on Wednesday, but the key interbank lending rate -- the London Interbank Offered Rate, or Libor -- remains well above the Federal Reserve''s target interest rate of 1 percent.'
+744	21762	XIN_ENG_20080731.0146.LDC2009T13	NULL			Santander Group owns Banco de Venezuela and it has 700 million U.S. dollars invested in Venezuela operations, and it is the third largest bank regarding deposits and the fourth on credit portfolio.
+745	20783	XIN_ENG_20070903.0046.LDC2009T13	NULL			Observers here said this is the formal end of the first step of a seven-step roadmap to democracy.
+746	10270	APW_ENG_20080423.0015.LDC2009T13	NULL			'Schadenfreude -- SHAHD''-ehn-froy-duh'
+747	9073	APW_ENG_20080107.1008.LDC2009T13	NULL			All, with the exception of "Hairspray," were also contenders for best picture, along with "American Gangster," "The Diving Bell and the Butterfly," "The Kite Runner" and "There Will Be Blood."
+748	12536	APW_ENG_20081118.1030.LDC2009T13	NULL			The new company, named Anheuser-Busch InBev, will be headed by InBev CEO Carlos Brito and will be headquartered at Leuven, Belgium.
+749	9015	APW_ENG_20071230.0022.LDC2009T13	NULL			"The Iraqi people -- every day, and in increasing numbers -- are choosing freedom and standing against the murderous, hateful ideology of AQI.
+750	13199	LTW_ENG_20070327.0091.LDC2009T13	NULL			Born: Jan. 30, 1909, in Chicago
+751	13467	LTW_ENG_20070728.0017.LDC2009T13	NULL			On a sloping patch of withered grass at his Clarke County, Va., farm one recent afternoon, William Cross did what any seasoned farmer touched with the gift will do in search of a spot to dig a well.
+752	1106	AFP_ENG_20070704.0639.LDC2009T13	NULL			'More than 600 senior executives are registered for the two-day meeting of the UN''s Global Compact, a controversial seven year- old partnership set up by Ban''s predecessor Kofi Annan.'
+753	17590	NYT_ENG_20080114.0047.LDC2009T13	NULL			Jim Rockford very much belongs in the great, shaggy tradition of the LA detective.
+754	14697	LTW_ENG_20080802.0036.LDC2009T13	NULL			The clock is ticking, not only for Reed, but for a generation of venerated musicians.
+755	6070	APW_ENG_20070426.1787.LDC2009T13	NULL			Liddell said Vista beat internal forecasts by $300 million (euro220.65 million) to $400 million (euro294.2 million), and Office 2007 sales were $200 million (euro147.1 million) better than expected.
+756	12736	APW_ENG_20081229.0589.LDC2009T13	NULL			"No, no to Israel," they shouted as they burned Israeli and American flags.
+758	1915	AFP_ENG_20071221.0268.LDC2009T13	NULL			Temptations are many, you know," said Sami, a Canadian Muslim from Toronto performing the hajj with his wife.
+759	297	AFP_ENG_20070209.0210.LDC2009T13	NULL			But diplomacy in Munich could be stilled by the long shadow of the United States, and perhaps hardline allies like Britain, which reject such simultaneity and want any Iranian enrichment pause to come first and be unconditional in order to keep Iran from winning additional time to continue strategic fuel work.
+760	1589	AFP_ENG_20071006.0398.LDC2009T13	NULL			Jacobson made his presence felt on Friday afternoon, firing a five-under 65 en route to a 131 overall.
+761	427	AFP_ENG_20070215.0008.LDC2009T13	NULL			'"These facilities are fundamental in underpinning and giving practical effect to the US alliance, and the government is strongly committed to the alliance as the key guarantee to our nation''s security," Downer said.'
+762	10355	APW_ENG_20080423.0015.LDC2009T13	NULL			'Societe Generale -- soh-see-ay-TAY'' zheh-neh-RAHL'''
+763	6663	APW_ENG_20070630.0255.LDC2009T13	NULL			Nearly all involved online gambling.
+764	6901	APW_ENG_20070716.1418.LDC2009T13	NULL			The network said it was comfortable letting viewers judge for themselves.
+765	12279	APW_ENG_20081027.0493.LDC2009T13	NULL			'The country''s main automobile producer, the Zaporizhye Automobile Building Plant, said Monday its output fell by 8.6 percent in September compared to last year''s figures.'
+766	18865	NYT_ENG_20080511.0078.LDC2009T13	NULL			Did I think this would happen?
+767	6364	APW_ENG_20070601.0964.LDC2009T13	NULL			Military officials would not comment on the movement and journalists were ordered further back from the camp.
+768	8073	APW_ENG_20070929.0276.LDC2009T13	NULL			MELBOURNE, Australia 2007-09-29 08:08:35 UTC
+769	21915	XIN_ENG_20080903.0351.LDC2009T13	NULL			Wen returned to the school, which is in makeshift buildings, during this visit.
+770	12137	APW_ENG_20081012.0400.LDC2009T13	NULL			Since then he has had regular problems with a troublesome hamstring but fought his way into the test team through consistent performances in the Indian Premier League and the one- day international side.
+773	10727	APW_ENG_20080522.0213.LDC2009T13	NULL			'The command''s area of responsibility includes some of the most troubling hot spots: Iraq, Iran, Pakistan, Lebanon, parts of Africa and Afghanistan.'
+774	2707	AFP_ENG_20080509.0144.LDC2009T13	NULL			'In that event, "we can make a pretty strong claim that we have got the most runs and it''s the ninth inning and we have won," Obama said Thursday, using a baseball analogy.'
+775	6673	APW_ENG_20070630.0255.LDC2009T13	NULL			The World Trade Organization ruled in December that the law is unfair to offshore casinos.
+776	14296	LTW_ENG_20080219.0041.LDC2009T13	NULL			Potential borrowers with less- than-stellar credit will be turned away from any kind of loan these days, as will people who owe more on their mortgages than their homes are worth.
+778	12612	APW_ENG_20081119.1077.LDC2009T13	NULL			Some hotels are offering cheap, last-minute deals.
+779	14419	LTW_ENG_20080405.0119.LDC2009T13	NULL			'But evidence of the Clintons'' skyrocketing wealth -- including investments in a pair of hedge funds -- isn''t likely to help the former first lady in Pennsylvania or West Virginia, where she is counting on the support of financially stressed blue-collar voters.'
+780	3673	AFP_ENG_20081118.0662.LDC2009T13	NULL			An estimated 30 million workers lost jobs from 1996-2004 as the government restructured state-owned companies, causing widespread protests and contributing to the masses of migrant workers today.
+782	16592	NYT_ENG_20070723.0163.LDC2009T13	NULL			Frustrated with a spouse who is overly sensitive, or who can be blunt and unemotional.
+783	20593	XIN_ENG_20070512.0041.LDC2009T13	NULL			(Armenia- Parliament)
+784	18169	NYT_ENG_20080225.0148.LDC2009T13	NULL			'Turkish officials have withheld precise figures for the number of soldiers involved in the Turkish military''s ground operation against Kurdish rebels in northern Iraq.'
+785	7433	APW_ENG_20070904.0656.LDC2009T13	NULL			Only 31 such storms have been recorded in the Atlantic, including eight in the last five seasons.
+786	10476	APW_ENG_20080423.0015.LDC2009T13	NULL			'Michael Uberuaga -- oo-buh-RAH''-guh'
+787	18533	NYT_ENG_20080330.0100.LDC2009T13	NULL			'when you''re playing road hockey."'
+788	22101	XIN_ENG_20081101.0134.LDC2009T13	NULL			(EC- Hungary-Finance)
+789	18577	NYT_ENG_20080331.0223.LDC2009T13	NULL			'"Anybody who is forced to come into this system, and who doesn''t need to be there, is affecting someone else," said Nibali, who retired in 2002 and is serving as an expert witness for the plaintiffs.'
+790	6351	APW_ENG_20070601.0964.LDC2009T13	NULL			He spoke on condition of anonymity for fear of militant reprisals.
+791	4088	APW_ENG_20070105.0655.LDC2009T13	NULL			Archaeologists in the Netherlands have uncovered what they believe is part of the military road that marked the northern boundary of the Roman Empire from the middle of the first century A.D.
+792	2220	AFP_ENG_20080229.0270.LDC2009T13	NULL			The French-Belgian bank Dexia, which specialises in financing local authorities, reported a 7.9-percent fall in net profit on Friday but said it had been little affected by the US home-loan subprime crisis.
+793	12117	APW_ENG_20081010.0115.LDC2009T13	NULL			Palin, running mate to Republican presidential nominee John McCain, is the subject of two inquiries into whether she abused her power by firing her public safety commissioner.
+795	3637	AFP_ENG_20081113.0621.LDC2009T13	NULL			With technology powerhouse Microsoft as a partner, Johnson on Wednesday debuted the first of what she hopes will be a line of computer games that revives a moribund "edutainment" market for children.
+796	8198	APW_ENG_20071013.0809.LDC2009T13	NULL			The group winners and runners-up qualify for the 2010 World Cup.
+797	9945	APW_ENG_20080414.0477.LDC2009T13	NULL			'The governor of Germany''s eastern Saxony state announced his resignation Monday amid turmoil linked to the state''s SachsenLB bank that was battered by its exposure to U.S. subprime mortgages.'
+798	4351	APW_ENG_20070121.0531.LDC2009T13	NULL			"When we are talking about rallying public opinion on genocide, who will lead the charge if not us?"
+799	14266	LTW_ENG_20080219.0041.LDC2009T13	NULL			Under the new plan, the Fannie Mae and Freddie Mac loan limits will be set to 125 percent of the median home price in every metropolitan statistical area.
+800	14035	LTW_ENG_20071202.0013.LDC2009T13	NULL			He is now serving a 10-year sentence for belonging to a terrorist organization.
+801	14806	LTW_ENG_20080929.0015.LDC2009T13	NULL			Sat, 27 Sep 2008 14:00:38 -0400 Message-Id: E_M_A_I_L From: E_M_A_I_L To: latwp@ldc.upenn.edu Subject: LATWP 092708: bc-russia-sevastopol Date: Sat, 27 Sep 2008 14:00:30 -0400 Content-Type: text/plain
+802	16675	NYT_ENG_20070821.0174.LDC2009T13	NULL			'The bitter dispute surrounding the report''s release suggests the depth of anger that remains, nearly six years after the fact, over where blame should be assigned for the intelligence failures surrounding Sept. 11.'
+803	5964	APW_ENG_20070419.1372.LDC2009T13	NULL			CIT Aerospace has ordered five additional narrow-bodied Boeing 737-700s, valued at about $295 million (euro216.9 million) at list prices, Boeing Co. said Thursday.
+804	2726	AFP_ENG_20080511.0177.LDC2009T13	NULL			"Many roads are still blocked and impassable," she said.
+805	14045	LTW_ENG_20071202.0013.LDC2009T13	NULL			'"He came to me and said, `I''m going to Iraq.'
+806	7741	APW_ENG_20070917.0809.LDC2009T13	NULL			The damages caused are estimated at euro750,000 (US$1 million), he said.
+807	22232	XIN_ENG_20081205.0104.LDC2009T13	NULL			He said the national regulation unit was also monitoring areas close to the Zimbabwean border -- the origin of contamination -- to determine the health of the communities of Musina and Madibo.
+808	15464	NYT_ENG_20070222.0015.LDC2009T13	NULL			Traffic is getting worse.
+809	21831	XIN_ENG_20080812.0211.LDC2009T13	NULL			The airport in the Belgian capital continues to be a scene of thousands of stranded travelers, heaps of luggage and signs listing scores of delayed, diverted or cancelled flights, Belgian broadcaster VRT reported.
+811	4918	APW_ENG_20070314.1213.LDC2009T13	NULL			Mikel Gaztanaga, Spain, Agritubel, same time.
+812	18780	NYT_ENG_20080508.0246.LDC2009T13	NULL			"It is a sad irony that the mayor may best serve the city he loves by announcing that he will not run for another term," said longtime supporter Paul Levy, CEO of Beth Israel Deaconess Medical Center.
+813	17898	NYT_ENG_20080205.0181.LDC2009T13	NULL			'During a four-year stint at Novell, Schmidt warned that it was foolhardy for any Microsoft rival to "moon the giant," as he put it, and incite Microsoft''s wrath.'
+814	10646	APW_ENG_20080515.0849.LDC2009T13	NULL			Ortiz, 35, had argued she was not a celebrity and said news organizations have been harassing her and her companion, Enrique Martin Llop.
+815	12470	APW_ENG_20081114.0274.LDC2009T13	NULL			"Things are less predictable than they were last season."
+816	11760	APW_ENG_20080918.0478.LDC2009T13	NULL			'Each side commonly exaggerates its enemy''s casualties and plays down its own.'
+817	2315	AFP_ENG_20080320.0477.LDC2009T13	NULL			I think a lot of people felt for him, but when Grant performs very well they certainly affect our team in a very positive way."
+818	21061	XIN_ENG_20071111.0220.LDC2009T13	NULL			Giampaolo Pazzini (Fiorentina)
+819	19146	NYT_ENG_20080721.0096.LDC2009T13	NULL			Researchers asked patients to recall what their doctors told them about their diagnosis and cause, emergency department care, post-emergency department care, and return instructions.
+820	18897	NYT_ENG_20080511.0078.LDC2009T13	NULL			'The team that won 66 games hasn''t demonstrated the fortitude of a champion.'
+821	14420	LTW_ENG_20080405.0119.LDC2009T13	NULL			'Hillary Clinton accounted for about $11 million of the couple''s income -- most of it from the $10.5 million she''s earned from her 2002 autobiography "Living History."'
+822	10293	APW_ENG_20080423.0015.LDC2009T13	NULL			'Audrey Seiler -- SEE''-lur'
+823	152	AFP_ENG_20070129.0392.LDC2009T13	NULL			In a November 2001 interview with the Saudi MBC television channel, he confirmed meeting bin Laden several times in Saudi Arabia and Pakistan before 1994.
+824	14139	LTW_ENG_20080123.0002.LDC2009T13	NULL			The plan would allow congested airports to charge airlines a fee to take off or land at peak travel times.
+825	11583	APW_ENG_20080828.0744.LDC2009T13	NULL			Also Thursday, Tropical Storm Hanna formed in the Atlantic, northeast of the northern Leeward Islands.
+826	1700	AFP_ENG_20071108.0076.LDC2009T13	NULL			ICC match referee Roshan Mahanama imposed the fines after the teams were ruled to be one over short of their targets when time allowances were taken into consideration.
+827	9302	APW_ENG_20080126.0812.LDC2009T13	NULL			Saturday, Jan. 26
+828	15610	NYT_ENG_20070318.0045.LDC2009T13	NULL			IRWIN STILL HAS LEAD
+829	18696	NYT_ENG_20080501.0011.LDC2009T13	NULL			The results included reorganization costs of about 3 cents a share.
+830	15080	NYT_ENG_20070104.0284.LDC2009T13	NULL			'Olmert''s office is being rocked, though, by a new corruption scandal.'
+831	15894	NYT_ENG_20070410.0095.LDC2009T13	NULL			Q: My son plays basketball and is 6-foot-2 and still growing.
+832	1719	AFP_ENG_20071109.0162.LDC2009T13	NULL			Heightening tensions further, a suicide bomber blew himself up at the house of a minister in the northwestern city of Peshawar, killing four people.
+833	15754	NYT_ENG_20070402.0104.LDC2009T13	NULL			The defining feature of the newer space is its open feel.
+834	18520	NYT_ENG_20080328.0036.LDC2009T13	NULL			He fouled out with four points.
+835	13104	LTW_ENG_20070301.0125.LDC2009T13	NULL			'Instead, he said, it should ``get on with the work of the Gospel.'''''
+836	18952	NYT_ENG_20080710.0261.LDC2009T13	NULL			While some folks may be standing in line awaiting the newer model, owners of the iPhone released just over a year ago will be receiving iPhone 2.0 software via download.
+837	9679	APW_ENG_20080310.1947.LDC2009T13	NULL			But the minister rejected the possibility of a directly negotiating with the Niger Movement for Justice, known by its French acronym of MNJ, who grabbed the 25 hostages during a raid last June.
+838	4921	APW_ENG_20070314.1213.LDC2009T13	NULL			10
+839	8346	APW_ENG_20071025.1505.LDC2009T13	NULL			You can count on that."
+840	10766	APW_ENG_20080525.0525.LDC2009T13	NULL			Daniel Flynn did not bat
+841	14318	LTW_ENG_20080307.0008.LDC2009T13	NULL			'Too bad it''s one that ignores the interests of children.'
+842	20365	XIN_ENG_20070126.0256.LDC2009T13	NULL			Yu Zhendong, the banker, was convicted of misappropriating 483 million U.S. dollars before fleeing to the United States.
+843	460	AFP_ENG_20070221.0575.LDC2009T13	NULL			The Labor Department said the consumer price index advanced 0.2 percent last month compared to December on surging food and medical costs.
+844	17430	NYT_ENG_20071231.0111.LDC2009T13	NULL			'"His ads are hurting me," he said, adding that if failing to fight back with negative ads costs him the presidency "then I''ll probably be the last guy to ever do this."'
+845	20691	XIN_ENG_20070707.0141.LDC2009T13	NULL			KATHMANDU, July 7 (Xinhua)
+846	20509	XIN_ENG_20070419.0037.LDC2009T13	NULL			The program, expected to start later this year, is open to all current and aspiring performing artists, said Guo Wei, an official with the Center of Cultural and Artistic Talents (CCAT) with the Ministry of Culture.
+847	7736	APW_ENG_20070917.0809.LDC2009T13	NULL			LJUBLJANA, Slovenia 2007-09-17 14:25:08 UTC
+848	11408	APW_ENG_20080813.0002.LDC2009T13	NULL			-0-
+849	2312	AFP_ENG_20080320.0477.LDC2009T13	NULL			'"He''s certainly of great value to our team.'
+850	6973	APW_ENG_20070723.0411.LDC2009T13	NULL			'"It''s important that we establish our own position and are clear about the need for a strong European leadership but also strong European unity in this area," Britain''s Foreign Secretary David Miliband said as he arrived for the monthly meeting of EU foreign ministers.'
+851	3585	AFP_ENG_20081107.5006.LDC2009T13	NULL			Marseille, Lyon and Bordeaux all posted excellent European wins, but that has been overshadowed by the fate of one Marseille fan facing an eight-year jail term following an incident at an Atletico Madrid match.
+852	21569	XIN_ENG_20080417.0353.LDC2009T13	NULL			"200 meters is very short, but I shall run the most splendid and beautiful moment in my life," he said.
+853	3295	AFP_ENG_20080916.0850.LDC2009T13	NULL			An ABC News/Washington Post poll earlier this month found 47 percent of voters trusted Obama to run the economy and 42 percent trusted McCain.
+854	12124	APW_ENG_20081012.0400.LDC2009T13	NULL			After three years in the test wilderness, cricket allrounder Shane Watson was having the time of his life Sunday on his return to the Australia side for the first of four tests against India.
+855	9871	APW_ENG_20080408.1488.LDC2009T13	NULL			Those three were in addition to the plant that was suspended for insufficient stunning.
+856	16105	NYT_ENG_20070520.0148.LDC2009T13	NULL			The internal cease-fire reached in Gaza was the fifth in a week
+857	16925	NYT_ENG_20070917.0130.LDC2009T13	NULL			Alliance &amp
+858	14916	LTW_ENG_20081020.0053.LDC2009T13	NULL			But he declined to run, citing concerns about his privacy and a lack of passion for political combat.
+859	11335	APW_ENG_20080813.0002.LDC2009T13	NULL			By Michael Kuchwara.
+860	17234	NYT_ENG_20071030.0276.LDC2009T13	NULL			She was a volunteer receptionist at the church.
+861	8226	APW_ENG_20071015.0723.LDC2009T13	NULL			Apr. 16-22 -- Fed Cup I
+862	18368	NYT_ENG_20080319.0200.LDC2009T13	NULL			In the face of those pressures, Schultz returned as chief executive 11 weeks ago.
+864	11322	APW_ENG_20080813.0002.LDC2009T13	NULL			He carries a can, and inside it is a weird, blood-red mass -- a hunk of goo the size and consistency of a generous bowl of lumpy raspberry Jell-O.
+865	11546	APW_ENG_20080814.0003.LDC2009T13	NULL			Georgia rallied to beat Russia in beach volleyball, two sets to one.
+866	19680	NYT_ENG_20081005.0087.LDC2009T13	NULL			By David Goricki.
+867	9474	APW_ENG_20080227.0701.LDC2009T13	NULL			Arroyo has denied accusations of media harassment, citing efforts by her government to stop the growing number of killings of journalists and left-wing activists.
+868	21063	XIN_ENG_20071111.0220.LDC2009T13	NULL			Alberto Gilardino (AC Milan)
+869	16494	NYT_ENG_20070628.0157.LDC2009T13	NULL			FED, STILL WARY ON INFLATION, LEAVES A KEY RATE UNCHANGED
+870	8342	APW_ENG_20071025.1505.LDC2009T13	NULL			'Giuliani aides play down any political implications, but they acknowledge that Kerik''s woes could be a distraction during a period in which they want their candidate promoting his vision for the United States.'
+871	16614	NYT_ENG_20070723.0163.LDC2009T13	NULL			But we often do this by trial and error, and only after repeated personality conflicts that finally force a new approach.
+872	22208	XIN_ENG_20081124.0171.LDC2009T13	NULL			The leaders urged companies to incorporate social responsibility into their business strategies to take account of social, labor and environmental concerns.
+873	13433	LTW_ENG_20070726.0001.LDC2009T13	NULL			I lost a lot of friends after that.
+874	15251	NYT_ENG_20070115.0224.LDC2009T13	NULL			'"I miss some of the guys'' parties that they''re throwing," Manning said, "but they understand.'
+875	15386	NYT_ENG_20070208.0083.LDC2009T13	NULL			MOVIEGOING -- ATLANTA -- Q&amp
+876	19653	NYT_ENG_20081005.0087.LDC2009T13	NULL			By Charlie Cain and Mark Hornbeck
+877	17283	NYT_ENG_20071123.0006.LDC2009T13	NULL			As yet, it is not certain what caused this particular landslide, but scientists and critics have been warning for years that the reservoir created by the Three Gorges Dam might further destabilize hillsides, causing landslides and possibly even earthquakes.
+878	5362	APW_ENG_20070325.0005.LDC2009T13	NULL			'Michael Arif -- uh-REEF'''
+879	15740	NYT_ENG_20070402.0104.LDC2009T13	NULL			'Anyone who ventured into the Children''s Museum before is familiar with the old building''s shortcomings.'
+880	17721	NYT_ENG_20080123.0149.LDC2009T13	NULL			He typically trains in the Poconos in Pennsylvania but decided to come here after a conversation about golf at Oktoberfest in his adopted hometown of Hamburg, Germany.
+881	5607	APW_ENG_20070325.0005.LDC2009T13	NULL			'Curtis Doebbler -- DOHB''-blur'
+882	7683	APW_ENG_20070914.0302.LDC2009T13	NULL			By most accounts, the Indian Ocean Tsunami Warning and Mitigation System passed its first big test, with the massive earthquakes in Indonesia providing the perfect opportunity for drills from Asia to Africa.
+883	20521	XIN_ENG_20070427.0058.LDC2009T13	NULL			But major opposition parties like the ANPP and Action Congress claimed that they do not believe and would not accept the election results.
+884	16907	NYT_ENG_20070907.0252.LDC2009T13	NULL			'The tiger will not enter the football stadium for at least LSU''s initial two home games, Baker said.'
+885	6731	APW_ENG_20070705.1382.LDC2009T13	NULL			CHICAGO 2007-07-05 21:22:45 UTC
+886	7974	APW_ENG_20070924.0721.LDC2009T13	NULL			Robin Uthappa c Shahid Afridi b Sohail Tanvir 8
+887	2366	AFP_ENG_20080329.0084.LDC2009T13	NULL			'This was the perfect response to Arsenal''s impressively resilient victory at Bolton earlier in the day that appeared to revive the London club title claims.'
+888	2336	AFP_ENG_20080321.0453.LDC2009T13	NULL			Handle with care
+889	736	AFP_ENG_20070415.0098.LDC2009T13	NULL			North Korea wins time as nuke deadline slips by Philippe Agret
+890	14915	LTW_ENG_20081020.0053.LDC2009T13	NULL			He looked to be a formidable candidate in the 1996 race: a black centrist, long an independent, who had led the victorious U.S. military during the 1991 Persian Gulf War.
+891	7150	APW_ENG_20070810.0204.LDC2009T13	NULL			'Wall Street''s deepening fears about a spreading credit crunch sent stocks plunging again, with the Dow Jones industrials extending their series of triple-digit swings and falling more than 380 points.'
+892	20324	XIN_ENG_20070109.0332.LDC2009T13	NULL			Kuwaiti crude oil price rises
+893	3646	AFP_ENG_20081113.0621.LDC2009T13	NULL			"Out of that came Living Ink, which we hope delights children in that what they draw comes to life and they interact with it," Johnson said.
+894	2823	AFP_ENG_20080516.0743.LDC2009T13	NULL			'All I''ve got are the clothes that I''m wearing," he says with a blank look behind his small oval glasses.'
+895	3591	AFP_ENG_20081107.5006.LDC2009T13	NULL			'"It''s like that at Marseille, it''s a family, we never forget.'
+896	14462	LTW_ENG_20080424.0148.LDC2009T13	NULL			'They hadn''t been able to afford to take along teachers who would help with the kids.'
+897	2879	AFP_ENG_20080519.0535.LDC2009T13	NULL			Oil and gas leader Woodside Petroleum surged 10 percent to a record 69.50 dollars and Santos gained 6.8 percent to 19.76 dollars.
+898	7859	APW_ENG_20070919.0847.LDC2009T13	NULL			By Katy Pownall.
+899	9207	APW_ENG_20080118.0028.LDC2009T13	NULL			'"Let''s tell the truth here, it''s not aimed against Iran, or against Vietnam or whatever -- it''s against Russia."'
+900	21180	XIN_ENG_20071211.0110.LDC2009T13	NULL			'"The text is a good start, but I don''t think we''ll see an agreement on the roadmap before Friday," warns a delegate.'
+901	19058	NYT_ENG_20080715.0116.LDC2009T13	NULL			'Finally, only Cousy was left, so our slogan was ''Don''t lose the Cooz."'''
+902	18998	NYT_ENG_20080710.0261.LDC2009T13	NULL			The new software enables some new features, including the ability to get e-mail, contacts and calendar information from the Microsoft Exchange servers used by many businesses
+903	21196	XIN_ENG_20071224.0298.LDC2009T13	NULL			Nepal receives 425 mln USD foreign aid commitments in 10 months
+904	21743	XIN_ENG_20080722.0265.LDC2009T13	NULL			'Gilad Lustig, director of Israel''s Elite Sport Department, a body set up in 1984 to oversee the selection of athletes for the Olympics, said that "I hope we claim between one or two medals and reach between six and eight finals."'
+905	18787	NYT_ENG_20080508.0246.LDC2009T13	NULL			'and expensive technological efficiencies, like a fuel efficient heating system, account for the school''s high cost, he said.'
+906	235	AFP_ENG_20070203.0316.LDC2009T13	NULL			'"He won''t complete a full match but he''s been cleared by the doctors and is fit to play a few minutes, half an hour or more," added the Dutchman.'
+907	16932	NYT_ENG_20070917.0130.LDC2009T13	NULL			'Northern''s woes ricocheted back to the United States, where Citigroup fell 61 cents, to $46.03.'
+908	13968	LTW_ENG_20071026.0132.LDC2009T13	NULL			"If the industry decides to dig in its heels against the clear guidance of the advisory committee I hope the FDA has the ability to stop them," Sharfstein said.
+909	18682	NYT_ENG_20080417.0200.LDC2009T13	NULL			Most want nothing to do with religious feuding and blame politicians for the ungodly messes going on in Iraq, Palestine, Afghanistan and elsewhere.
+910	13497	LTW_ENG_20070728.0017.LDC2009T13	NULL			He said dowsers found him plentiful supplies on three properties.
+911	5873	APW_ENG_20070407.0636.LDC2009T13	NULL			Alinghi finished with 78 points, 14 more than two-time season winner Emirates Team New Zealand.
+912	1975	AFP_ENG_20071227.0085.LDC2009T13	NULL			Her welcome home parade was hit in the deadliest terror attack in Pakistani history, killing 139 people, while her talks with Musharraf ended in acrimony after he declared emergency rule on November 3.
+913	21897	XIN_ENG_20080903.0351.LDC2009T13	NULL			"The relief work [so far] is successful," said Wen, on his fourth visit to Sichuan since the quake.
+914	16037	NYT_ENG_20070514.0026.LDC2009T13	NULL			On the fly: Bird-watchers can set their sights here for a gallery, news, forums and hobby-related links.
+915	13562	LTW_ENG_20070807.0103.LDC2009T13	NULL			'You''ll likely have to repeat the procedure a couple of times each spring and again during the summer.'
+916	9280	APW_ENG_20080118.1269.LDC2009T13	NULL			'Through a translator, Perez'' brother, Anival Perez, called the Bedford officers'' taped conversations "unrespectful."'
+917	21487	XIN_ENG_20080317.0049.LDC2009T13	NULL			2nd Ld, Writethru: Japanese government nominates Tanami as new BOJ chief
+918	3684	AFP_ENG_20081118.0662.LDC2009T13	NULL			"We have been cheated.
+919	13912	LTW_ENG_20071026.0132.LDC2009T13	NULL			"Kids with colds were getting these medicines that had never been shown to be either effective or safe."
+920	9621	APW_ENG_20080302.0793.LDC2009T13	NULL			-- manages federal property.
+921	2204	AFP_ENG_20080210.0023.LDC2009T13	NULL			He has been often the voice in the wilderness," he added.
+922	915	AFP_ENG_20070503.0495.LDC2009T13	NULL			A Danish court convicted them of illegal entry the following month and fined them approximately 670 euros (910 dollars) each, a ruling confirmed on appeal.
+924	3179	AFP_ENG_20080808.0619.LDC2009T13	NULL			"However, we are missing the point by having so much attention on the short-term exposure while the long-term exposure is really ignored -- that is where we have a problem," the Swede said.
+926	19289	NYT_ENG_20080818.0153.LDC2009T13	NULL			All in all, U.S. officials say they believe, far more people were killed and wounded in the riot than in the bombing that touched it off.
+927	2295	AFP_ENG_20080320.0377.LDC2009T13	NULL			More than 18,700 Chinese tourists visited the East African nation in 2007, up 27 percent from the number of arrivals recorded in 2006, she said at a press conference.
+928	15320	NYT_ENG_20070208.0083.LDC2009T13	NULL			(Harrison, Atlanta Journal-Constitution)
+929	14627	LTW_ENG_20080715.0045.LDC2009T13	NULL			Import.
+930	10816	APW_ENG_20080706.0392.LDC2009T13	NULL			Eneko Llanos, Spain, 8:01:49.
+931	1811	AFP_ENG_20071124.0020.LDC2009T13	NULL			"The feeling of scoring here at Camp Nou and then celebrating with my team-mates was incredible."
+932	14136	LTW_ENG_20080123.0002.LDC2009T13	NULL			'The following editorial appeared in Tuesday''s Washington Post:'
+933	20704	XIN_ENG_20070713.0196.LDC2009T13	NULL			Department stores saw sales fall by 1 percent.
+934	20735	XIN_ENG_20070805.0258.LDC2009T13	NULL			JAKARTA, Aug. 6 (Xinhua)
+935	21868	XIN_ENG_20080825.0251.LDC2009T13	NULL			It even surged 4.30 dollars Wednesday from 109.77 to 114.07 dollars and kept rising on Friday to 114.63 dollars.
+936	19847	NYT_ENG_20081108.0055.LDC2009T13	NULL			"But we also believe in blunting a gay agenda that we see at work in other states with regard to marriage and adoption issues."
+937	13941	LTW_ENG_20071026.0132.LDC2009T13	NULL			"Where do parents get a lot of their information?
+938	4446	APW_ENG_20070130.1375.LDC2009T13	NULL			Associated Press Writers Jenny Barchfield in Paris, Seth Borenstien in Washington, and Tom Maliti in Nairoibi, Kenya, contributed to this report.
+939	990	AFP_ENG_20070611.0321.LDC2009T13	NULL			US entertainment and media giant Walt Disney Co. is teaming up with Indian film studio Yash Raj Films to make Disney-branded animation films with the voices of Bollywood stars, the Wall Street Journal reported Monday.
+940	18275	NYT_ENG_20080308.0082.LDC2009T13	NULL			Throughout the campaign, Rajoy has attacked Zapatero for negotiating with ETA.
+941	9433	APW_ENG_20080226.0023.LDC2009T13	NULL			'"You''d be lying on the floor."'
+942	13401	LTW_ENG_20070726.0001.LDC2009T13	NULL			I joined a hard-line Salafi group.
+943	6035	APW_ENG_20070426.0423.LDC2009T13	NULL			The attack occurred at about 8 a.m. in Zumar, a town that is 70 kilometers (45 miles) west of Mosul, the capital of Ninevah province.
+944	3475	AFP_ENG_20081015.0264.LDC2009T13	NULL			Bernanke said the crisis "has many novel aspects" stemming from the globalization of markets and quick movements of money and information but that "the current situation also has much in common with past experiences."
+945	5392	APW_ENG_20070325.0005.LDC2009T13	NULL			'Kjetil Backen -- SHETT''-il'
+946	1208	AFP_ENG_20070725.0295.LDC2009T13	NULL			Skoko, 31, had agreed a new contract with the Premiership club during the close season but was unable to play until his work permit was ratified by the British Home Office.
+947	4815	APW_ENG_20070302.1288.LDC2009T13	NULL			"All of our trials undergo rigorous scrutiny and this study had been fully authorized by all the necessary Russian agencies," he said.
+948	19791	NYT_ENG_20081105.0163.LDC2009T13	NULL			'Is it possible that a public defender type facing off against a big-law-firm, developers'' attorney was a factor, too?'
+949	8788	APW_ENG_20071202.0604.LDC2009T13	NULL			'His work visa in Saudi Arabia will expire at the end of this month if he can''t make it back, he said, but he was not included on the list of those allowed to leave.'
+950	12245	APW_ENG_20081023.1359.LDC2009T13	NULL			'He''s the second former Bush administration figure this week to publicly back Obama, following former Secretary of State Colin Powell.'
+951	6962	APW_ENG_20070718.1602.LDC2009T13	NULL			'Software is IBM''s smallest unit but accounts for an outsized portion of IBM''s profit.'
+952	6721	APW_ENG_20070705.0756.LDC2009T13	NULL			Dinner guest in Belgium finds bodies in deep freeze
+953	13666	LTW_ENG_20070919.0152.LDC2009T13	NULL			The new religious training, Stone said, helps U.S. forces pinpoint the hard-core extremists.
+954	17146	NYT_ENG_20071014.0071.LDC2009T13	NULL			Although Stewart finished seventh, he fell 198 points behind Gordon.
+955	7518	APW_ENG_20070906.0497.LDC2009T13	NULL			Howard said the three-way talks were not directed at China, whose rapid military buildup has been a source of concern in Washington and other regional capitals.
+956	12269	APW_ENG_20081027.0493.LDC2009T13	NULL			IMF loan to Ukraine hinges on political crisis
+957	15573	NYT_ENG_20070306.0155.LDC2009T13	NULL			BIZ-COVER-NYT
+958	3324	AFP_ENG_20080920.0343.LDC2009T13	NULL			URGENT ¥¥¥ ANC tells South Africa president to stand down
+959	18232	NYT_ENG_20080303.0071.LDC2009T13	NULL			'That''s a real difference.'
+960	16812	NYT_ENG_20070825.0080.LDC2009T13	NULL			'The glow of a welding torch looks like a tiny firefly against the hulking mass of a half-built ship''s hull.'
+961	2367	AFP_ENG_20080329.0084.LDC2009T13	NULL			'That win meant United kicked off just three points ahead of Arsene Wenger''s side and, with Chelsea set to face Middlesbrough the following day, anything less than three points would have given the three-way battle at the head of the table a new twist.'
+962	4990	APW_ENG_20070320.0179.LDC2009T13	NULL			'"It''s so cute.'
+963	11657	APW_ENG_20080904.1055.LDC2009T13	NULL			To receive the download, people can sign up at SlackerUprising.com.
+964	4941	APW_ENG_20070314.1213.LDC2009T13	NULL			9
+965	8621	APW_ENG_20071120.1117.LDC2009T13	NULL			Economists say the factors behind the shortages are numerous, including surging demand due to economic growth.
+966	567	AFP_ENG_20070304.0145.LDC2009T13	NULL			Election results will remain unofficial until certified by the Cherokee Nation Election Commission, but officials said percentages were not expected to change significantly.
+967	1087	AFP_ENG_20070622.0443.LDC2009T13	NULL			The euro stood at 1.3468 dollars.
+968	1271	AFP_ENG_20070811.0272.LDC2009T13	NULL			'Asked about whether the blast may have been related to Islamic militant activity, he said Indonesia''s anti-terror unit, Detachment 88, had "been monitoring activities in the area, but I cannot confirm specifically the whereabouts, so let''s just wait."'
+969	3349	AFP_ENG_20080923.0500.LDC2009T13	NULL			"It is unfair and unjust for me to be judged and condemned on the basis of the findings in the Zuma matter," said Mbeki in his application.
+970	128	AFP_ENG_20070125.0424.LDC2009T13	NULL			One person was killed and about 20 more injured in clashes between rival Sunni and Shiite Muslim demonstrators in Beirut on Thursday, hospital sources said.
+971	16550	NYT_ENG_20070711.0226.LDC2009T13	NULL			'But those who stay -- or come later -- will do so with Venezuela''s government-controlled oil company in charge, Alvarez told the Houston Chronicle editorial board.'
+972	10119	APW_ENG_20080423.0015.LDC2009T13	NULL			'Jeanine Pirro -- juh-NEEN'' PEER''-oh'
+974	21143	XIN_ENG_20071205.0313.LDC2009T13	NULL			For varied reasons and contradictory action by unions, problems afflicting Togolese workers have not been addressed in a concerted manner, notably the situation of nearly 3,000 casual workers in the public service which has never been given the attention it deserves to ensure their full integration, affirmed the unionists.
+975	2553	AFP_ENG_20080422.0711.LDC2009T13	NULL			"We never stopped believing in each other."
+976	16315	NYT_ENG_20070622.0017.LDC2009T13	NULL			'At Fukuoka University of Economics, in this city on Kyushu, a southern island, administrators responded to the plunge in applications with a $50 million project in 1999 to build lavish dormitories, in which all 700 rooms are singles -- a luxury on Japan''s traditionally Spartan campuses -- and are wired for the Internet.'
+977	15204	NYT_ENG_20070108.0110.LDC2009T13	NULL			But he said his vision bore no special likelihood of coming true.
+978	14402	LTW_ENG_20080326.0132.LDC2009T13	NULL			Verizon entered into competition with Comcast and Time Warner Cable through its FiOS fiber-optic network, which offers television services.
+979	13498	LTW_ENG_20070728.0017.LDC2009T13	NULL			The use of twigs and rods dates to biblical times, dowsers say.
+980	16886	NYT_ENG_20070907.0252.LDC2009T13	NULL			Others have discontinued the practice as being inhumane or too costly for appropriate care.
+981	11876	APW_ENG_20080924.0608.LDC2009T13	NULL			After that massacre, the government promised to raise the minimum age for buying a gun from 15 to 18, but legislation was never passed.
+982	19775	NYT_ENG_20081105.0163.LDC2009T13	NULL			??
+983	14845	LTW_ENG_20080929.0015.LDC2009T13	NULL			Pro-Russia leaders also accuse the Ukrainian government of slowly moving people into the region from other parts of the country, and of installing pro-Kiev leaders in the city government.
+985	14704	LTW_ENG_20080802.0036.LDC2009T13	NULL			Ringo Starr and his All Starr Band.
+986	5062	APW_ENG_20070320.1432.LDC2009T13	NULL			International Commission on Holocaust Era Insurance Claims: U_R_L
+987	6959	APW_ENG_20070718.1602.LDC2009T13	NULL			'IBM''s services division inked $11.7 billion (euro8.49 billion) in contracts in the second quarter, compared with an unusually soft $9.6 billion (euro6.97 billion) a year ago.'
+988	14007	LTW_ENG_20071202.0013.LDC2009T13	NULL			Why are we subjected to this?
+989	16396	NYT_ENG_20070622.0068.LDC2009T13	NULL			'"This bill would help to reverse this trend and to restore the public''s trust in their government."'
+990	8403	APW_ENG_20071101.1217.LDC2009T13	NULL			She came within one match of winning the Grand Slam in 1997, losing only in the French Open final.
+991	9109	APW_ENG_20080112.0653.LDC2009T13	NULL			The arrests were only made public within the past week.
+992	10138	APW_ENG_20080423.0015.LDC2009T13	NULL			'Pristina -- PREE''-shtee-nah'
+993	10946	APW_ENG_20080724.1214.LDC2009T13	NULL			Cooke said the treatment, which is administered every four weeks by intravenous infusion, retails for about US$30,000 (euro20,000) annually per patient following a recent 3 percent price rise.
+994	21176	XIN_ENG_20071211.0110.LDC2009T13	NULL			Parties also acknowledged the need to strengthen existing commitments and enhance their implementation, especially with regard to developing countries.
+995	18814	NYT_ENG_20080508.0246.LDC2009T13	NULL			He can be "awkward socially" but funny, she said.
+996	11968	APW_ENG_20080930.0927.LDC2009T13	NULL			Republicans acknowledge that McCain is behind, but say the race is closer than the polling indicates.
+997	18267	NYT_ENG_20080308.0082.LDC2009T13	NULL			Rajoy still contends that he was a victim of circumstances in 2004, robbed of victory after his party insisted that the outlawed Basque separatist group ETA was responsible for the attack, despite evidence that pointed to radical Islamists.
+998	1579	AFP_ENG_20070922.0379.LDC2009T13	NULL			Argentina 63 Namibia 3
+999	7263	APW_ENG_20070815.0586.LDC2009T13	NULL			'"We''re continuing to investigate, and we''ll learn more in the coming days."'
+1000	19328	NYT_ENG_20080818.0153.LDC2009T13	NULL			A video captured the crowd furiously beating Barzanji, chanting: "Kill him!
+1001	14499	LTW_ENG_20080430.0024.LDC2009T13	NULL			Even then, there is no assurance that farmers will buy the seed year after year.
+1004	18057	NYT_ENG_20080220.0046.LDC2009T13	NULL			"Pretty bad for patients, pretty good for industry profits," she said.
+1005	18860	NYT_ENG_20080511.0078.LDC2009T13	NULL			'They swept through Texas, which is virtually impossible in today''s NBA.'
+1007	3313	AFP_ENG_20080917.0126.LDC2009T13	NULL			It also trimmed its 2009 forecast to 1.00 percent from 1.03 percent.
