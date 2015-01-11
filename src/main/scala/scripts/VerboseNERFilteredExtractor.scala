@@ -50,7 +50,7 @@ object VerboseNERFilteredExtractor {
   }
 
   def outputFilename: String = {
-    val dateStr = DateTimeFormat.forPattern("MM-dd-yyyy_HH_mm").print(DateTime.now)
+    val dateStr = DateTimeFormat.forPattern("MM-dd-yyyy_HHmm").print(DateTime.now)
     s"$dateStr"
   }
 }
