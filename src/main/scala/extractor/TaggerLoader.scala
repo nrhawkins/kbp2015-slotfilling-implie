@@ -58,7 +58,7 @@ object TaggerLoader {
           val lines = Source.fromFile(file).getLines()
           for (line <- lines) {
             if (line.trim.length != 0) {
-              builder.append(line.trim.toLowerCase).append("\n")
+              builder.append(line.trim).append("\n")
             }
           }
         }
