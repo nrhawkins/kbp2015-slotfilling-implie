@@ -5,17 +5,18 @@ import edu.knowitall.tool.typer.Type
 /**
  * Created by Gene on 12/8/2014.
  */
-class TagInfo(tag_ : String, text_ : String, index_ : Int) {
+class TagInfo(tag_ : String, text_ : String, intervalStart_ : Int, intervalEnd_ : Int) {
   def tag = tag_
   def text = text_
-  def index = index_
+  def intervalStart = intervalStart_
+  def intervalEnd = intervalEnd_
+  def index = intervalEnd_
 
-  def this(tag_ : String, iStr : IndexedString) = this(tag_, iStr.string, iStr.index)
-  def this(typ: Type) = this(typ.name, typ.text, typ.tokenInterval.end)
+  def this(typ: Type) = this(typ.name, typ.text, typ.tokenInterval.start, typ.tokenInterval.end)
 
   def asIndexedString = new IndexedString(text, index)
 
-  override def toString(): String = {
+  override def toString: String = {
     s"$tag: $text-$index"
   }
 

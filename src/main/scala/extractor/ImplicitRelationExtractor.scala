@@ -207,23 +207,28 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
    * Private functions.
    */
 
-  private def implicitRelationsFromRawExtractions(parseTree: Tree, nntdls: List[NounToNounTDL], tokens: Seq[ChunkedToken], sentence: String): List[ImplicitRelation] = {
+  private def implicitRelationsFromRawExtractions(
+    parseTree: Tree,
+    nntdls: List[NounToNounTDL],
+    tokens: Seq[ChunkedToken],
+    sentence: String): List[ImplicitRelation] = {
+
     nntdls.map(nntdl =>
       new ImplicitRelation(nntdl.tag.tag, nntdl.tag.relation,
-        getNounPhrase(parseTree, nntdl.tdl, tokens, sentence),
+        getNounPhrase(parseTree, nntdl.tdl, nntdl.tag.tag, tokens, sentence),
         nntdl.tag.sentence, nntdl.tag.relationTrace))
           .filter(nnr => nnr.np != null)
   }
 
   private def getNounPhrase
-    (tree: Tree, tdl: List[TypedDependency],
+    (tree: Tree, tdl: List[TypedDependency], tag: TagInfo,
      tokenizedSentence: Seq[ChunkedToken], sentence: String): IndexedSubstring = {
     // Assume that the full tag noun phrase is a child of the noun phrase
     // containing the dep and gov.
     // If incorrect - TO-DO: expand dep to the full phrase.
     def getNPRoot(tree: Tree, dep: IndexedWord, gov: IndexedWord): (Tree, Boolean, Boolean) = {
       if (tree.isLeaf) {
-        val label = tree.label()toString()
+        val label = tree.label().toString
         if (label.equalsIgnoreCase(s"${dep.value()}-${dep.index()}")) {
           (tree, true, false)
         } else if (label.equalsIgnoreCase(s"${gov.value()}-${gov.index()}")) {
@@ -244,8 +249,12 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     }
 
     // Gets the indexed words that represent the left most and rightmost indices
-    def getLeftAndRight(tdl: List[TypedDependency]): (IndexedWord, IndexedWord) = {
-      tdl.foldLeft(null: IndexedWord, null: IndexedWord)((acc, cur) =>
+    def getLeftAndRight(
+      startLeft: IndexedWord,
+      startRight: IndexedWord,
+      tdl: List[TypedDependency]): (IndexedWord, IndexedWord) = {
+
+      tdl.foldLeft(startLeft, startRight)((acc, cur) =>
         acc match {
           case (null, null) =>
             if (cur.dep.index() < cur.gov.index()) {
@@ -276,7 +285,11 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
       return null
     }
     // get the leftmost and rightmost terms.
-    val (leftmost, rightmost) = getLeftAndRight(tdl)
+    val indexedWordTag = tree.`yield`().toList
+                         .slice(tag.intervalStart, tag.intervalEnd)
+                         .map(x => new IndexedWord(x))
+    val (leftmost, rightmost) = getLeftAndRight(indexedWordTag(0),
+      indexedWordTag(indexedWordTag.size - 1), tdl)
 
     // Get root of noun phrase that contains both the dependent and govenor words.
     val npRoot = getNPRoot(tree, leftmost, rightmost)._1
@@ -405,14 +418,6 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
 
   private def rawExtractionTDLs(tags: List[Type], tdl: List[TypedDependency],
                                   tokens: Seq[ChunkedToken]): List[NounToNounTDL] = {
-    def constructIdTable(tags: List[Type]): mutable.Map[String, Set[IndexedString]] = {
-      // Only put in the last word.
-      tags.foldLeft(mutable.Map[String, Set[IndexedString]]())((acc, cur) => {
-        acc.put(tagId, acc.getOrElse(tagId, Set[IndexedString]()) + new IndexedString(cur.text.toLowerCase, cur.tokenInterval.end))
-        acc
-      })
-    }
-    val idTable = constructIdTable(tags)
     val tagMap = createTagMap(tags)
 
     val tagWords = tdl
@@ -423,7 +428,7 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
       (tag, expandByPattern(tdl, tagId, tag.asIndexedString, relationPatterns, tokens)))
 
     expansions.map(pair => {
-        val nnTag = new ImplicitRelation(pair._1.asIndexedString, pair._1.tag,
+        val nnTag = new ImplicitRelation(pair._1, pair._1.tag,
           IndexedSubstring.emptyInstance, "", pair._2)
         NounToNounTDL(pair._2, nnTag)
       }

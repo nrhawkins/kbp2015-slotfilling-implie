@@ -144,7 +144,7 @@ object ExtractorTester {
   }
 
   private def compareTags(solution: Tags, relation: ImplicitRelation): Boolean = {
-    solution.contains((relation.tag.string, relation.tag.index))
+    solution.contains((relation.tag.asIndexedString.string, relation.tag.index))
   }
 
   // Check that the solution is fully contained in the result relation.
@@ -178,11 +178,12 @@ object ExtractorTester {
 
       // Make all the tags lowercase for comparison
       relationsByClass.foreach(rel =>
-        rel.tag = new IndexedString(rel.tag.string.toLowerCase, rel.tag.index))
+        rel.tag = new TagInfo(rel.tag.tag.toLowerCase, rel.tag.text.toLowerCase,
+          rel.tag.intervalStart, rel.tag.intervalEnd))
 
       for (relation <- relationsByClass) {
         out.append(s"CLASS:${relation.relation}\t" +
-          s"TERM:${relation.tag.string};${relation.tag.index}\t" +
+          s"TERM:${relation.tag.asIndexedString.string};${relation.tag.index}\t" +
           s"NP:${relation.np.string};${relation.np.index}")
         val solutionSets = solMap.getOrElse(relation.relation, mutable.Set())
         val matching = solutionSets.filter(solution =>
@@ -199,7 +200,7 @@ object ExtractorTester {
             solutionSets.remove(matching.iterator.next())
           case _ =>
             out.append(s"\nMultiple matching terms!?  Sets with matches: $matching, " +
-              s"Term: ${relation.tag.string}, ${relation.tag.index} " +
+              s"Term: ${relation.tag.asIndexedString.string}, ${relation.tag.index} " +
               s"NP: ${relation.np.string}, ${relation.np.index}")
         }
         if (showTrace) {
