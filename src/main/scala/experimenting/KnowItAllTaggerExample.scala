@@ -8,7 +8,7 @@ import extractor.ImplicitRelationExtractor
 
 object KnowItAllTaggerExample {
   val pattern = """
-Animal := NormalizedKeywordTagger {
+Animal := KeywordTagger {
 classical sing teacher
 cat
 kitten
@@ -19,9 +19,10 @@ have a red dog
 cliff has a
 cliff has a
 puppy
-scientology
+Madame Violetta
+Scientology
 }
-Color := NormalizedKeywordTagger{
+Color := KeywordTagger{
 blue
 red
 yellow

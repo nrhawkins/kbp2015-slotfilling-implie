@@ -11,7 +11,6 @@ Correct Extractions
 242	12577	APW_ENG_20081119.1077.LDC2009T13	Cap Cana President Ricardo Hazoury-25	jobTitle	president-23	"Our project has been affected by the economic tsunami that has paralyzed the global financial markets," said Cap Cana President Ricardo Hazoury.
 288	22118	XIN_ENG_20081104.0058.LDC2009T13	National police spokesman Abubakar Nataprawira-5	jobTitle	spokesman-3	National police spokesman Abubakar Nataprawira said the threat was received through a telephone text message.
 295	4052	APW_ENG_20021119.0653.LDC2007T07	Foreign Minister Benjamin Netanyahu-8	jobTitle	foreign minister-6	Sharon is currently battling Foreign Minister Benjamin Netanyahu for Likud leadership, which will be decided in a primary next week.
-302	13189	LTW_ENG_20070324.0050.LDC2009T13	'Leonard Downie Jr., the newspaper''s executive editor,-10'	jobTitle	executive-8	'Leonard Downie Jr., the newspaper''s executive editor, said he was upset that the newsroom was not notified.'
 303	13189	LTW_ENG_20070324.0050.LDC2009T13	'Leonard Downie Jr., the newspaper''s executive editor,-10'	jobTitle	editor-9	'Leonard Downie Jr., the newspaper''s executive editor, said he was upset that the newsroom was not notified.'
 325	2323	AFP_ENG_20080321.0453.LDC2009T13	President Putin-3	jobTitle	president-2	'"President Putin just told me that it won''t be easier with you than with him.'
 327	692	AFP_ENG_20070404.0514.LDC2009T13	Taliban spokesman Yousuf Ahmadi-35	jobTitle	spokesman-33	"We have seized two foreigners and three Afghans -- two of them interpreters, one of them a driver -- on the road between Nimroz and Farah," said Taliban spokesman Yousuf Ahmadi.
@@ -73,7 +72,7 @@ Incorrect Extractions
 414	1460	AFP_ENG_20070903.0070.LDC2009T13	State Condoleezza Rice and national security adviser Stephen Hadley-32	jobTitle	secretary of state-24	Staging a surprise detour from his trip to Sydney, Bush arrived at the Al-Asad air base in Anbar along with Secretary of State Condoleezza Rice and national security adviser Stephen Hadley.
 595	6251	APW_ENG_20070530.1322.LDC2009T13	State Condoleezza Rice, Russian Foreign Minister Sergey Lavrov and U.N. chief Ban Ki-moon-30	jobTitle	foreign minister-23	The four Quartet diplomats -- German Foreign Minister Frank- Walter Steinmeier, U.S. Secretary of State Condoleezza Rice, Russian Foreign Minister Sergey Lavrov and U.N. chief Ban Ki-moon -- met at the Foreign Ministry in Berlin.
 596	6251	APW_ENG_20070530.1322.LDC2009T13	State Condoleezza Rice, Russian Foreign Minister Sergey Lavrov and U.N. chief Ban Ki-moon-30	jobTitle	secretary of state-17	The four Quartet diplomats -- German Foreign Minister Frank- Walter Steinmeier, U.S. Secretary of State Condoleezza Rice, Russian Foreign Minister Sergey Lavrov and U.N. chief Ban Ki-moon -- met at the Foreign Ministry in Berlin.
-						
+302	13189	LTW_ENG_20070324.0050.LDC2009T13	'Leonard Downie Jr., the newspaper''s executive editor,-10'	jobTitle	executive-8	'Leonard Downie Jr., the newspaper''s executive editor, said he was upset that the newsroom was not notified.'
 						
 No extractions						
 1	6929	APW_ENG_20070717.0848.LDC2009T13	NULL			--The group will continue to seek weapons of mass destruction -- chemical, biological or nuclear material -- and "would not hesitate to use them."
