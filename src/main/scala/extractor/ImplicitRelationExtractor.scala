@@ -71,10 +71,11 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     parse.indexLeaves()
 
     // Raw extractions in terms of typed dependency lists
-    val processedTdl = processDependencies(tags, tdl, tokens)
+    val processedTdl = rawExtractionTDLs(tags, tdl, tokens)
 
     // Refined results as noun to noun relations
-    val relations = getNounToNounRelations(parse, processedTdl, tokens, line)
+    val relations =
+      implicitRelationsFromRawExtractions(parse, processedTdl, tokens, line)
 
     // Add the full sentence to the results.
     relations.foreach(nnr => nnr.sentence = line)
@@ -206,7 +207,7 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
    * Private functions.
    */
 
-  private def getNounToNounRelations(parseTree: Tree, nntdls: List[NounToNounTDL], tokens: Seq[ChunkedToken], sentence: String): List[ImplicitRelation] = {
+  private def implicitRelationsFromRawExtractions(parseTree: Tree, nntdls: List[NounToNounTDL], tokens: Seq[ChunkedToken], sentence: String): List[ImplicitRelation] = {
     nntdls.map(nntdl =>
       new ImplicitRelation(nntdl.tag.tag, nntdl.tag.relation,
         getNounPhrase(parseTree, nntdl.tdl, tokens, sentence),
@@ -402,7 +403,7 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
        .fold(Nil: List[TypedDependency])((acc, cur) => cur:::acc)
   }
 
-  private def processDependencies(tags: List[Type], tdl: List[TypedDependency],
+  private def rawExtractionTDLs(tags: List[Type], tdl: List[TypedDependency],
                                   tokens: Seq[ChunkedToken]): List[NounToNounTDL] = {
     def constructIdTable(tags: List[Type]): mutable.Map[String, Set[IndexedString]] = {
       // Only put in the last word.
