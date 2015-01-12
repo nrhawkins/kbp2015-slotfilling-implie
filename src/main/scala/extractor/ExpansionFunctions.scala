@@ -2,7 +2,6 @@ package extractor
 
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.stanford.nlp.trees.TypedDependency
-import extractor.Types.ExpansionFunction
 
 /**
  * Created by Gene on 12/31/2014.
