@@ -24,46 +24,55 @@ object TACDevelopmentRelationExtractor {
   val seq = getSeqNum(seqFilename) - 1
 
   def main(args: Array[String]) {
-    val (inputLines, out) =
-      if (args.size > 0) {
+    val (inputLines, (out, nullout)) =
+      if (args.size > 1) {
+        // Run subset of sentences.
+        val sentenceMin = args(0).toInt
+        val sentenceMax = args(1).toInt
+        (subsetInput(sentenceMin, sentenceMax), outputs)
+      } else if (args.size > 0) {
+        // Restore/Continue run.
         val sequenceNum = args(0).toInt
-        (incompleteInput(sequenceNum), appendOutput(sequenceNum))
+        (incompleteInput(sequenceNum), appendOutputs(sequenceNum))
       } else {
-        val result = (input, output)
+        val result = (input, outputs)
 
         // Starting a new file, print the column headers.
         val columnHeaders = Array("Extraction Index", "Sentence Index", "DocId",
           "Entity(NP)", "Relation", "Slotfill(tag)", "Sentence")
-        result._2.println(
-          columnHeaders.tail.foldLeft
-            (columnHeaders.head)
-            ((acc, cur) => acc + s"\t$cur"))
+        val nullColumnHeaders = Array("Extraction Index", "Sentence Index", "DocId",
+          "Sentence")
+        val header =
+        result._2._1.println(columnHeaders.tail.foldLeft
+                             (columnHeaders.head)
+                             ((acc, cur) => acc + s"\t$cur"))
+        result._2._2.println(nullColumnHeaders.tail.foldLeft
+                             (nullColumnHeaders.head)
+                             ((acc, cur) => acc + s"\t$cur"))
         result
       }
 
     val relationExtractor =
       new ImplicitRelationExtractor(TaggerLoader.defaultTagger)
 
-    var i = 0
+    var i1 = 0
+    var i2 = 0
     for (inputLine <- inputLines) {
       val extractions = relationExtractor.extractRelations(inputLine.sentence)
       if (extractions.length != 0) {
         for (extraction <- extractions) {
           // Extraction Index, Sentence Index, Docid, Entity(NP), Relation, Slotfill(tag), Sentence
           out.println(
-            s"$i\t${inputLine.index}\t${inputLine.docid}" +
+            s"$i1\t${inputLine.index}\t${inputLine.docid}" +
               s"\t${extraction.np}\t${extraction.relation}\t${extraction.tag.asIndexedString}" +
               s"\t${inputLine.sentence}")
-          i += 1
+          i1 += 1
         }
       } else {
-        // If no extraction, write NULL for the extraction.
-        // Add 2 tabs to line up the sentence with the rest.
-        out.println(
-          s"$i\t${inputLine.index}\t${inputLine.docid}" +
-            s"\tNULL\t\t" +
-            s"\t${inputLine.sentence}")
-        i += 1
+        // If no extraction, write to null outputs.
+        nullout.println(
+          s"$i2\t${inputLine.index}\t${inputLine.docid}\t${inputLine.sentence}")
+        i2 += 1
       }
     }
     out.close()
@@ -123,8 +132,23 @@ object TACDevelopmentRelationExtractor {
     })
   }
 
-  def output = {
+  def subsetInput(min: Int, max: Int) = {
+    val inputFilename = sentenceDir + seq + "-sentence-file"
+
+    // Get the input file.
+    Source.fromFile(inputFilename).getLines()
+    .map(line => line.trim.split("\t"))
+    .filter(tokens => {
+      val index = tokens(0).toInt
+      index >= min && index < max
+    })
+    .map(tokens => InputLine(tokens(0).toInt, tokens(1), tokens(2)))
+  }
+
+
+  def outputs = {
     val outFilename = resultDir + seq + "-result-file"
+    val nullOutFilename = outFilename + "-nulls"
 
     // Check if the file exists.
     if (Files.exists(Paths.get(outFilename))) {
@@ -135,12 +159,14 @@ object TACDevelopmentRelationExtractor {
     }
 
     // If not, create new file with the given sequence num.
-    new PrintWriter(outFilename)
+    (new PrintWriter(outFilename), new PrintWriter(nullOutFilename))
   }
 
-  def appendOutput(sequenceNum: Int) = {
+  def appendOutputs(sequenceNum: Int) = {
     val outFilename = resultDir + sequenceNum + "-result-file"
-    new PrintWriter(new BufferedWriter(new FileWriter(outFilename, true)))
+    val nullOutFilename = outFilename + "-nulls"
+    (new PrintWriter(new BufferedWriter(new FileWriter(outFilename, true))),
+      new PrintWriter(new BufferedWriter(new FileWriter(nullOutFilename, true))))
   }
 
   // This method is a bit of a hack.
