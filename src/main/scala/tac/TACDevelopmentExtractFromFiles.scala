@@ -6,7 +6,7 @@ package tac
 object TACDevelopmentExtractFromFiles {
   def main(args: Array[String]) {
     // TODO: fix this so it works even with larger numbers.
-    if (args.length == 0) {
+    if (args.length != 1) {
       println("Extracting Sentences.")
       TACDevelopmentSentenceExtractor.main(args)
     }

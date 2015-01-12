@@ -52,9 +52,12 @@ object TACDevelopmentRelationExtractor {
         result
       }
 
+    println("Loading Extractor.")
     val relationExtractor =
       new ImplicitRelationExtractor(TaggerLoader.defaultTagger)
 
+    println("Extracting Sentences.")
+    println(s"${inputLines.size} sentences to process.")
     var i1 = 0
     var i2 = 0
     for (inputLine <- inputLines) {
@@ -74,8 +77,13 @@ object TACDevelopmentRelationExtractor {
           s"$i2\t${inputLine.index}\t${inputLine.docid}\t${inputLine.sentence}")
         i2 += 1
       }
+
+      if (inputLine.index % 100 == 0) {
+        println(s"Sentence ${inputLine.index} processed.")
+      }
     }
     out.close()
+    nullout.close()
   }
 
 
@@ -97,7 +105,7 @@ object TACDevelopmentRelationExtractor {
     Source.fromFile(inputFilename).getLines().map(line => {
       val tokens = line.trim.split("\t")
       InputLine(tokens(0).toInt, tokens(1), tokens(2))
-    })
+    }).toList
   }
 
   def incompleteInput(sequenceNum: Int) = {
@@ -129,7 +137,7 @@ object TACDevelopmentRelationExtractor {
       .map(line => {
       val tokens = line.trim.split("\t")
       InputLine(tokens(0).toInt, tokens(1), tokens(2))
-    })
+    }).toList
   }
 
   def subsetInput(min: Int, max: Int) = {
@@ -142,7 +150,7 @@ object TACDevelopmentRelationExtractor {
       val index = tokens(0).toInt
       index >= min && index < max
     })
-    .map(tokens => InputLine(tokens(0).toInt, tokens(1), tokens(2)))
+    .map(tokens => InputLine(tokens(0).toInt, tokens(1), tokens(2))).toList
   }
 
 
