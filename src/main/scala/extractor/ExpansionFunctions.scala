@@ -2,6 +2,7 @@ package extractor
 
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.stanford.nlp.trees.TypedDependency
+import extractor.Types.ExpansionFunction
 
 /**
  * Created by Gene on 12/31/2014.
@@ -15,8 +16,6 @@ class ExpansionFunctions {
   private var tokens: Seq[ChunkedToken] = Nil
   private var tdl: List[TypedDependency] = Nil
 
-  type ExpansionFunction =
-    (TypedDependency, Rule) => (TypedDependency, String, IndexedString)
 
   private val table = Map[String, ExpansionFunction](
     "default" -> simpleRule,

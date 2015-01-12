@@ -3,9 +3,10 @@ package scripts
 import java.io.PrintWriter
 
 import com.typesafe.config.ConfigFactory
-import extractor.{ExtractionFormatUtils, TaggerLoader, NERFilteredIRE}
+import extractor.{TaggerLoader, NERFilteredIRE}
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
+import utils.ExtractionFormatUtils
 
 import scala.io.Source
 

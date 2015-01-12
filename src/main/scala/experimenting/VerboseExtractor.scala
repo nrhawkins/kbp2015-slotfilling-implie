@@ -2,7 +2,8 @@ package experimenting
 
 import java.io.PrintWriter
 
-import extractor.{ExtractionFormatUtils, ImplicitRelationExtractor, TaggerLoader}
+import extractor.{ImplicitRelationExtractor, TaggerLoader}
+import utils.ExtractionFormatUtils
 
 import scala.collection.mutable
 import scala.io.Source

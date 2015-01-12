@@ -6,6 +6,7 @@ import com.typesafe.config.ConfigFactory
 import edu.stanford.nlp.trees.{TreePrint, TypedDependency}
 import extractor._
 import org.joda.time.DateTime
+import utils.ExtractionFormatUtils
 
 import scala.collection.mutable
 import scala.io.Source

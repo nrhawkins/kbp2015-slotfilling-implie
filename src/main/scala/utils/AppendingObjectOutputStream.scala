@@ -1,6 +1,6 @@
-package extractor
+package utils
 
-import java.io.{OutputStream, ObjectOutputStream}
+import java.io.{ObjectOutputStream, OutputStream}
 
 /**
  * Created by Gene on 1/11/2015.

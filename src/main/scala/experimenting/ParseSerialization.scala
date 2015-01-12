@@ -7,7 +7,7 @@ import edu.knowitall.tool.chunk.ChunkedToken
 import edu.stanford.nlp.ling.{Sentence, Word}
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser
 import edu.stanford.nlp.trees.{TypedDependency, Tree, PennTreebankLanguagePack}
-import extractor.{ParseEntry, ImplicitRelationExtractor, TaggerLoader}
+import extractor.{ImplicitRelationExtractor, ParseEntry, TaggerLoader}
 
 import scala.collection.JavaConversions._
 

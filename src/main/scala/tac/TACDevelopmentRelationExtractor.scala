@@ -4,7 +4,7 @@ import java.io.{FileWriter, BufferedWriter, PrintWriter}
 import java.nio.file.{Paths, Files}
 
 import com.typesafe.config.ConfigFactory
-import extractor.{NERFilteredIRE, TaggerLoader, ImplicitRelationExtractor}
+import extractor.{ImplicitRelationExtractor, NERFilteredIRE, TaggerLoader}
 
 import scala.io.Source
 

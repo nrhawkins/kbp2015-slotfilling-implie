@@ -1,9 +1,10 @@
-package extractor
+package utils
 
 import java.io._
 
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.stanford.nlp.trees.{Tree, TypedDependency}
+import extractor.ParseEntry
 
 import scala.collection.JavaConversions._
 import scala.io.Source
@@ -81,11 +82,23 @@ object SerializationUtils {
   }
 
   def loadSerializedTokenizedSentences(file: String): Map[String, Seq[ChunkedToken]] = {
-    getSerializedChunkedSentences(file).toMap
+    print("Loading serialized tokenized sentences...")
+    val start = System.nanoTime()
+    val result = getSerializedChunkedSentences(file).toMap
+    val end = System.nanoTime()
+    val diff = (end - start).toDouble / 1000000000
+    println(f"[$diff%.3f sec]")
+    result
   }
 
   def loadSerializedParses(file: String): Map[String, (Tree, List[TypedDependency])] = {
-    getSerializedObjects[ParseEntry](file).map(pe => (pe.sentence, (pe.tree, pe.tdl.toList))).toMap
+    print("Loading serialized parses...")
+    val start = System.nanoTime()
+    val result = getSerializedObjects[ParseEntry](file).map(pe => (pe.sentence, (pe.tree, pe.tdl.toList))).toMap
+    val end = System.nanoTime()
+    val diff = (end - start).toDouble / 1000000000
+    println(f"[$diff%.3f sec]")
+    result
   }
 
   def outputStream(file: String): ObjectOutputStream = {

@@ -1,6 +1,6 @@
 package experimenting
 
-import extractor.{TaggerLoader, ImplicitRelationExtractor}
+import extractor.{ImplicitRelationExtractor, TaggerLoader}
 import testers.TaggerTester
 
 /**

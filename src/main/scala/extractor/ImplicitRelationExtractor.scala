@@ -9,10 +9,10 @@ import edu.knowitall.taggers.TaggerCollection
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.knowitall.tool.stem.MorphaStemmer
 import edu.knowitall.tool.typer.Type
-import edu.stanford.nlp.ling.Sentence
-import edu.stanford.nlp.ling._
+import edu.stanford.nlp.ling.{Sentence, _}
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser
 import edu.stanford.nlp.trees._
+import utils.SerializationUtils
 
 import scala.collection.JavaConversions._
 import scala.collection.mutable
@@ -25,7 +25,6 @@ import scala.collection.mutable
  */
 
 // TODO: make a file with all the case classes.
-case class Rule(rel: String, gov: String, dep: String)
 
 class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
   val config = ConfigFactory.load("extractor.conf")
@@ -54,13 +53,6 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     SerializationUtils.loadSerializedTokenizedSentences(serializedTokenFile)
   private val serializedParseCache =
     SerializationUtils.loadSerializedParses(serializedParseFile)
-
-  type Phrase = String
-  type TagName = String
-  type RelationPattern = Map[String, List[Rule]]
-  type IDTable = mutable.Map[String, Set[IndexedString]]
-  case class NounToNounTDL(tdl: List[TypedDependency], tag: ImplicitRelation)
-  case class EnclosingPunctuation(open: String, close: String)
 
   // Used for tokenizer.
   def process(text: String): sentence.Sentence with Chunked with Lemmatized = {

@@ -1,6 +1,7 @@
-package extractor
+package utils
 
 import edu.stanford.nlp.trees.TypedDependency
+import extractor.{ImplicitRelationExtractor, TagInfo}
 
 import scala.collection.mutable
 
