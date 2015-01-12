@@ -1,5 +1,7 @@
 package extractor
 
+import java.util
+
 import com.typesafe.config.{Config, ConfigFactory}
 import edu.knowitall.repr.sentence
 import edu.knowitall.repr.sentence._
@@ -45,6 +47,14 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
   private val parseCache = mutable.Map[String, (Tree, List[TypedDependency])]()
   private val tokenCache = mutable.Map[String, Seq[ChunkedToken]]()
 
+  // serialized caches
+  private val serializedTokenFile = config.getString("tokenization-cache")
+  private val serializedParseFile = config.getString("parse-cache")
+  private val serializedTokenCache =
+    SerializationUtils.loadSerializedTokenizedSentences(serializedTokenFile)
+  private val serializedParseCache =
+    SerializationUtils.loadSerializedParses(serializedParseFile)
+
   type Phrase = String
   type TagName = String
   type RelationPattern = Map[String, List[Rule]]
@@ -83,17 +93,6 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     relations
   }
 
-  // Memoized tokenizer.
-  def getTokens(line: String): Seq[ChunkedToken] = {
-    tokenCache.get(line) match {
-      case None =>
-        val newtokens = tagger.chunker.chunk(line)
-        tokenCache.put(line, newtokens)
-        newtokens
-      case Some(tokens) => tokens
-    }
-  }
-
   // Memoized tagger.
   def getTags(line: String): List[Type] = {
     tagCache.get(line) match {
@@ -105,22 +104,45 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     }
   }
 
-  // Memoized parser.
-  def getParse(line: String): (Tree, List[TypedDependency]) = {
-    parseCache.get(line) match {
+  // Memoized & serially cached tokenizer.
+  def getTokens(line: String): Seq[ChunkedToken] = {
+    serializedTokenCache.get(line) match {
+      case Some(tokens) => tokens
       case None =>
-        val tokens = getTokens(line)
-        val tokenizedSentence = tokens.toList.map(a => new Word(a.string))
-        val rawWords = Sentence.toCoreLabelList(tokenizedSentence)
-        val parse = parser.apply(rawWords)
+        tokenCache.get (line) match {
+          case Some(tokens) => tokens
+          case None =>
+            val newtokens = tagger.chunker.chunk(line)
+            tokenCache.put(line, newtokens)
+            SerializationUtils.addSerializedChunkedSentence(
+              serializedTokenFile, line, newtokens)
+            newtokens
+        }
+    }
+  }
 
-        val tlp = new PennTreebankLanguagePack
-        val list = tlp.grammaticalStructureFactory
-                      .newGrammaticalStructure(parse)
-                      .typedDependenciesCCprocessed.toList
-        parseCache.put(line, (parse, list))
-        (parse, list)
+  // Memoized & serially cached parser.
+  def getParse(line: String): (Tree, List[TypedDependency]) = {
+    serializedParseCache.get(line) match {
       case Some(parse) => parse
+      case None =>
+        parseCache.get (line) match {
+          case Some(parse) => parse
+          case None =>
+            val tokens = getTokens (line)
+            val tokenizedSentence = tokens.toList.map (a => new Word (a.string) )
+            val rawWords = Sentence.toCoreLabelList (tokenizedSentence)
+            val parse = parser.apply (rawWords)
+
+            val tlp = new PennTreebankLanguagePack
+            val list = tlp.grammaticalStructureFactory
+                       .newGrammaticalStructure(parse)
+                       .typedDependenciesCCprocessed.toList
+            parseCache.put(line, (parse, list))
+            SerializationUtils.addSerializedObject(serializedParseFile,
+              new ParseEntry(line, parse, new util.ArrayList(list)))
+            (parse, list)
+        }
     }
   }
 
