@@ -42,7 +42,7 @@ object TACDevelopmentRelationExtractor {
       }
 
     val relationExtractor =
-      new NERFilteredIRE(TaggerLoader.basicTestTagger)
+      new ImplicitRelationExtractor(TaggerLoader.defaultTagger)
 
     var i = 0
     for (inputLine <- inputLines) {
@@ -52,7 +52,7 @@ object TACDevelopmentRelationExtractor {
           // Extraction Index, Sentence Index, Docid, Entity(NP), Relation, Slotfill(tag), Sentence
           out.println(
             s"$i\t${inputLine.index}\t${inputLine.docid}" +
-              s"\t${extraction.np}\t${extraction.relation}\t${extraction.tag}" +
+              s"\t${extraction.np}\t${extraction.relation}\t${extraction.tag.asIndexedString}" +
               s"\t${inputLine.sentence}")
           i += 1
         }
