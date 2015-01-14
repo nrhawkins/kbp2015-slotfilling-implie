@@ -76,7 +76,7 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     val processedTdl = rawExtractionTDLs(tags, tdl, tokens)
 
 //    val npFn: NounPhraseFunction = NounPhraseFunctions.firstNounPhraseAncestor
-    val npFn: NounPhraseFunction = NounPhraseFunctions.expandFromSmallNP
+    val npFn: NounPhraseFunction = NounPhraseFunctions.ignoreNP
 
     // Refined results as noun to noun relations
     val relations =

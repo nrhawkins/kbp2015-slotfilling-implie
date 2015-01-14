@@ -108,6 +108,47 @@ object NounPhraseFunctions {
     )
   }
 
+  def ignoreNP(
+    tree: Tree,
+    tdl: List[TypedDependency],
+    tag: TagInfo,
+    tokenizedSentence: Seq[ChunkedToken],
+    sentence: String,
+    extractor: ImplicitRelationExtractor): IndexedSubstring = {
+
+    if (tdl.size == 0) {
+      return null
+    }
+    // get the leftmost and rightmost terms.
+    val indexedWordTag = tree.`yield`().toList
+                         .slice(tag.intervalStart, tag.intervalEnd)
+                         .map(x => new IndexedWord(x))
+
+    // left and right without np root.
+    val (left, right) = getLeftAndRight(indexedWordTag(0),
+      indexedWordTag(indexedWordTag.size - 1), tdl)
+
+    val firstChunkIndex = left.index - 1
+    val lastChunkIndex = right.index() - 1
+    val firstChunk = tokenizedSentence(firstChunkIndex)
+    val lastChunk = tokenizedSentence(lastChunkIndex)
+
+    val (startIndex, endIndex, wordIndex) = extendToEnclosePunctuation(
+      tree, sentence, firstChunk.offset,
+      lastChunk.offset + lastChunk.string.length,
+      firstChunkIndex, lastChunkIndex + 1,
+      extractor)
+
+    new IndexedSubstring(
+      sentence.substring(startIndex, endIndex),
+      firstChunkIndex,
+      wordIndex,
+      startIndex,
+      endIndex,
+      sentence
+    )
+  }
+
   // Assume that the full tag noun phrase is a child of the noun phrase
   // containing the dep and gov.
   // If incorrect - TO-DO: expand dep to the full phrase.
