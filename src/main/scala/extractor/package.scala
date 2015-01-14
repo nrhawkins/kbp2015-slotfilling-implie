@@ -16,7 +16,7 @@ package object extractor {
   type RelationPattern = Map[String, List[Rule]]
   type IDTable = mutable.Map[String, Set[IndexedString]]
   type ExpansionFunction = (TypedDependency, Rule) => (TypedDependency, String, IndexedString)
-  type NounPhraseFunction = (Tree, List[TypedDependency], TagInfo,
+  type EntityExtractionFunction = (Tree, List[TypedDependency], TagInfo,
     Seq[ChunkedToken], String, ImplicitRelationExtractor) =>
       (IndexedSubstring)
 }

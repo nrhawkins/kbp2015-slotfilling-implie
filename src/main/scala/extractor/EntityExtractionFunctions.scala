@@ -9,9 +9,10 @@ import scala.collection.JavaConversions._
 /**
  * Set of NP extraction functions.
  *
- * Various functions to pull out a noun phrase substring from extraction information.
+ * Various functions to pull out a entity substring from extraction information.
+ * Many of them attempt to find a noun phrase entity.
  */
-object NounPhraseFunctions {
+object EntityExtractionFunctions {
   def firstNounPhraseAncestor(
     tree: Tree,
     tdl: List[TypedDependency],

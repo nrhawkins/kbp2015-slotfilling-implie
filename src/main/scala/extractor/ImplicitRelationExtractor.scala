@@ -76,11 +76,11 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     val processedTdl = rawExtractionTDLs(tags, tdl, tokens)
 
 //    val npFn: NounPhraseFunction = NounPhraseFunctions.firstNounPhraseAncestor
-    val npFn: NounPhraseFunction = NounPhraseFunctions.ignoreNP
+    val eeFn: EntityExtractionFunction = EntityExtractionFunctions.ignoreNP
 
     // Refined results as noun to noun relations
     val relations =
-      implicitRelationsFromRawExtractions(parse, processedTdl, tokens, line, npFn)
+      implicitRelationsFromRawExtractions(parse, processedTdl, tokens, line, eeFn)
 
     // Add the full sentence to the results.
     relations.foreach(nnr => nnr.sentence = line)
@@ -231,11 +231,11 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     nntdls: List[NounToNounTDL],
     tokens: Seq[ChunkedToken],
     sentence: String,
-    nounPhraseFn: NounPhraseFunction): List[ImplicitRelation] = {
+    entityExtractionFn: EntityExtractionFunction): List[ImplicitRelation] = {
 
     nntdls.map(nntdl =>
       new ImplicitRelation(nntdl.tag.tag, nntdl.tag.relation,
-        nounPhraseFn(parseTree, nntdl.tdl, nntdl.tag.tag, tokens, sentence, this),
+        entityExtractionFn(parseTree, nntdl.tdl, nntdl.tag.tag, tokens, sentence, this),
         nntdl.tag.sentence, nntdl.tag.relationTrace))
           .filter(nnr => nnr.np != null)
   }
