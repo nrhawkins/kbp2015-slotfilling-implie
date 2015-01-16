@@ -30,7 +30,6 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
   val config = ConfigFactory.load("extractor.conf")
 
   private val PARSER_MODEL = config.getString("parser-model-file")
-  // TODO: make the parser and classifier arguments as well.
   private val parser = LexicalizedParser.loadModel(PARSER_MODEL)
 
   private val relationPatterns =

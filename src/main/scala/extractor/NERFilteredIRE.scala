@@ -24,6 +24,7 @@ class NERFilteredIRE(tagger: TaggerCollection[Sentence with Chunked with Lemmati
     expectedTagEntities(nerConfig.getConfigList("tag-entities").toList)
   private val NER_MODEL = nerConfig.getString("ner-model-file")
   private val classifier = CRFClassifier.getClassifier(NER_MODEL)
+  private val NER_TAGS_TO_IGNORE = nerConfig.getStringList("ner-tag-ignore").toList
 
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val unfiltered = super.extractRelations(line)
@@ -52,18 +53,17 @@ class NERFilteredIRE(tagger: TaggerCollection[Sentence with Chunked with Lemmati
   def tagNERs(extractions: List[ImplicitRelation],
     line: String): List[ImplicitRelation] = {
     // Run NER tagger and pair in the entity portion (check the indicies).
-    // TODO: make this a util function.
     val wordTokens = getTokens(line).map(token => new Word(token.string))
     val rawNERTags = classifier.classifySentence(wordTokens)
 
     // Filter the default NER tag and group NER tags together by answer annotations.
-    val nerTags = rawNERTags
-                  // Add token indicies to ner tags.
-                  .foldLeft(Nil: List[(CoreLabel, Int)], 0)((acc, cur) =>
-      ((cur, acc._2)::acc._1, acc._2 + 1))._1.reverse
-                  // TODO: generalize this filter so that the string isn't hardcoded.
-                  .filter(tag => tag._1.get(classOf[CoreAnnotations.AnswerAnnotation]) != "O")
-                  .foldLeft(Nil: List[NERTag])((acc, cur) => {
+    val nerTags =
+      rawNERTags
+      // Add token indicies to ner tags.
+      .foldLeft(Nil: List[(CoreLabel, Int)], 0)((acc, cur) =>
+        ((cur, acc._2)::acc._1, acc._2 + 1))._1.reverse
+      .filter(tag => NER_TAGS_TO_IGNORE.contains(tag._1.get(classOf[CoreAnnotations.AnswerAnnotation])))
+      .foldLeft(Nil: List[NERTag])((acc, cur) => {
       val curNER = cur._1.get(classOf[CoreAnnotations.AnswerAnnotation])
       val curIndex = cur._2
       acc match {

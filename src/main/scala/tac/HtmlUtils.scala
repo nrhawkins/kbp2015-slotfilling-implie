@@ -18,7 +18,6 @@ object HtmlUtils {
   private var breakPatterns: java.util.HashSet[Pattern] = null
   private var initialized: Boolean = false
 
-  // TODO: split apart header stuff and the rest, use them in separate methods
   private val breakTags: Array[String] = Array("blockquote", "br", "center",
     "dd", "div", "dt", "fieldset", "h\\d", "hr", "img", "input", "isindex",
     "li", "noframes", "noscript", "p", "pre", "q", "table", "td", "textarea",

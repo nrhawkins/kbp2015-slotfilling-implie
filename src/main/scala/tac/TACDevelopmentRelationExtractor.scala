@@ -11,6 +11,9 @@ import scala.io.Source
 /**
  * Main method takes the sentence file specified in tac-extractor.conf and
  * outputs the extractions to a file.
+ *
+ * Results are tab-delimited for easy processing and reading from a spreadsheet
+ * program.
  */
 object TACDevelopmentRelationExtractor {
   case class InputLine(index: Int, docid: String, sentence: String)
@@ -19,11 +22,18 @@ object TACDevelopmentRelationExtractor {
   val resultDir = config.getString("result-dir")
   val sentenceDir = config.getString("sentence-dir")
   val seqFilename = config.getString("sequence-file")
+
+  val sentenceFileSuffix = config.getString("sentence-file-suffix")
+  val resultFileSuffix = config.getString("result-file-suffix")
+  val nullFileSuffix = config.getString("null-result-file-suffix")
+
   // Use the fact that the current sequence number should be 1 greater than
   // the most recently generated sentence file.
   val seq = getSeqNum(seqFilename) - 1
 
   def main(args: Array[String]) {
+    // NOTE: very hacky arguments.
+    // Functionality changes depending on number of arguments.
     val (inputLines, (out, nullout)) =
       if (args.size > 1) {
         // Run subset of sentences.
@@ -40,9 +50,8 @@ object TACDevelopmentRelationExtractor {
         // Starting a new file, print the column headers.
         val columnHeaders = Array("Extraction Index", "Sentence Index", "DocId",
           "Entity(NP)", "Relation", "Slotfill(tag)", "Sentence")
-        val nullColumnHeaders = Array("Extraction Index", "Sentence Index", "DocId",
-          "Sentence")
-        val header =
+        val nullColumnHeaders = Array("Extraction Index", "Sentence Index",
+          "DocId", "Sentence")
         result._2._1.println(columnHeaders.tail.foldLeft
                              (columnHeaders.head)
                              ((acc, cur) => acc + s"\t$cur"))
@@ -88,9 +97,7 @@ object TACDevelopmentRelationExtractor {
 
 
   def input = {
-    // TODO: put the file name structure in the config so that the change can be
-    // made in one place without breaking anything.
-    val inputFilename = sentenceDir + seq + "-sentence-file"
+    val inputFilename = sentenceDir + seq + sentenceFileSuffix
 
     // Check if the file exists.
     if (!Files.exists(Paths.get(inputFilename))) {
@@ -101,7 +108,6 @@ object TACDevelopmentRelationExtractor {
       sys.exit(1)
     }
 
-    // TODO: put the delimiter in config
     Source.fromFile(inputFilename).getLines().map(line => {
       val tokens = line.trim.split("\t")
       InputLine(tokens(0).toInt, tokens(1), tokens(2))
@@ -109,8 +115,8 @@ object TACDevelopmentRelationExtractor {
   }
 
   def incompleteInput(sequenceNum: Int) = {
-    val inputFilename = sentenceDir + sequenceNum + "-sentence-file"
-    val outFilename = resultDir + sequenceNum + "-result-file"
+    val inputFilename = sentenceDir + sequenceNum + sentenceFileSuffix
+    val outFilename = resultDir + sequenceNum + resultFileSuffix
 
 
     val lastSentenceProcessed = Source.fromFile(outFilename).getLines().toList.tail
@@ -129,7 +135,7 @@ object TACDevelopmentRelationExtractor {
         done = true
       }
     }
-    new PrintWriter("outFilename").println(fixedFile.mkString)
+    new PrintWriter(outFilename).println(fixedFile.mkString)
 
     // Get the input file.
     Source.fromFile(inputFilename).getLines()
@@ -141,7 +147,7 @@ object TACDevelopmentRelationExtractor {
   }
 
   def subsetInput(min: Int, max: Int) = {
-    val inputFilename = sentenceDir + seq + "-sentence-file"
+    val inputFilename = sentenceDir + seq + sentenceFileSuffix
 
     // Get the input file.
     Source.fromFile(inputFilename).getLines()
@@ -155,8 +161,8 @@ object TACDevelopmentRelationExtractor {
 
 
   def outputs = {
-    val outFilename = resultDir + seq + "-result-file"
-    val nullOutFilename = outFilename + "-nulls"
+    val outFilename = resultDir + seq + resultFileSuffix
+    val nullOutFilename = outFilename + nullFileSuffix
 
     // Check if the file exists.
     if (Files.exists(Paths.get(outFilename))) {
@@ -171,8 +177,8 @@ object TACDevelopmentRelationExtractor {
   }
 
   def appendOutputs(sequenceNum: Int) = {
-    val outFilename = resultDir + sequenceNum + "-result-file"
-    val nullOutFilename = outFilename + "-nulls"
+    val outFilename = resultDir + sequenceNum + resultFileSuffix
+    val nullOutFilename = outFilename + nullFileSuffix
     (new PrintWriter(new BufferedWriter(new FileWriter(outFilename, true))),
       new PrintWriter(new BufferedWriter(new FileWriter(nullOutFilename, true))))
   }
