@@ -12,7 +12,9 @@ import scala.collection.mutable
 import scala.collection.JavaConversions._
 
 /**
- * Created by Gene on 1/7/2015.
+ * An ImplicitRelationExtractor that also filters by NER types.
+ *
+ * The filters for each tag are specified in resources/ner-filtered-ire.conf.
  */
 class NERFilteredIRE(tagger: TaggerCollection[Sentence with Chunked with Lemmatized])
   extends ImplicitRelationExtractor(tagger) {
