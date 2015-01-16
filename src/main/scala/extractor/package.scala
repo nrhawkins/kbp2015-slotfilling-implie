@@ -4,11 +4,11 @@ import edu.stanford.nlp.trees.{Tree, TypedDependency}
 import scala.collection.mutable
 
 /**
- * Created by Gene on 1/12/2015.
+ * Case Classes and Types used by the extractor.
  */
 package object extractor {
   case class Rule(rel: String, gov: String, dep: String)
-  case class NounToNounTDL(tdl: List[TypedDependency], tag: ImplicitRelation)
+  case class RawTDLRelation(tdl: List[TypedDependency], tag: ImplicitRelation)
   case class EnclosingPunctuation(open: String, close: String)
 
   type Phrase = String

@@ -12,20 +12,20 @@ import edu.knowitall.tool.typer.Type
 import edu.stanford.nlp.ling.{Sentence, _}
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser
 import edu.stanford.nlp.trees._
-import utils.SerializationUtils
+import utils.{ExtractionUtils, SerializationUtils}
 
 import scala.collection.JavaConversions._
 import scala.collection.mutable
 
 /**
- * TODO: add comment
- * TODO: consider replacing IndexedString with stanford's IndexedWord
+ * Basic implicit relation extractor.
  *
- * Created by Gene on 11/10/2014.
+ * Identifies relation terms from the tagger passed into the constructor.
+ * Then expands on specific dependency relations from the Stanford Parser to
+ * extract the entity that the relation term modifies.
+ *
+ * The rules for the extraction are in resources/extractor.conf.
  */
-
-// TODO: make a file with all the case classes.
-
 class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized]) {
   val config = ConfigFactory.load("extractor.conf")
 
@@ -62,7 +62,11 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     }
   }
 
-  // Extracts implicit relations from a string.
+  /**
+   * Extracts implicit relations from a string.
+   * @param line String, line of text to extract.
+   * @return List[ImplicitRelation], list of relations extracted from the string.
+   */
   def extractRelations(line: String): List[ImplicitRelation] = {
     // Process uses the same chunker.
     val tags = getTags(line)
@@ -75,12 +79,12 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     // Raw extractions in terms of typed dependency lists
     val processedTdl = rawExtractionTDLs(tags, tdl, tokens)
 
-//    val npFn: NounPhraseFunction = NounPhraseFunctions.firstNounPhraseAncestor
-    val eeFn: EntityExtractionFunction = EntityExtractionFunctions.firstNounPhraseAncestor
+    val eeFn: EntityExtractionFunction =
+      EntityExtractionFunctions.firstNounPhraseAncestor
 
     // Refined results as noun to noun relations
-    val relations =
-      implicitRelationsFromRawExtractions(parse, processedTdl, tokens, line, eeFn)
+    val relations = implicitRelationsFromRawExtractions(
+      parse, processedTdl, tokens, line, eeFn)
 
     // Add the full sentence to the results.
     relations.foreach(nnr => nnr.sentence = line)
@@ -143,92 +147,18 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
 
   def getEnclosingPunctuation = enclosingPunctuation
 
-  // pre: each index can have at most 1 tag
-  // Creates a mapping from the token index to the TagInfo.
-  def createTagMap(tags: List[Type]): Map[Int, TagInfo] = {
-    def tagMapHelper (acc: Map[Int, TagInfo], tags: List[Type]): Map[Int, TagInfo] = {
-      tags match {
-        case Nil => acc
-        case (tag :: tail) =>
-          val newacc = acc + ((tag.tokenInterval.end, new TagInfo(tag)))
-          tagMapHelper(newacc, tail)
-      }
-    }
-    tagMapHelper(Map(), tags)
-  }
-
-  /**
-   * Methods for testing.
-   */
 
   /*
-    To get hops from tag:
-      Get word that is modified by tag: the govenor word
-      go through every dependency, where the tagged word is included.
-      Get all dependencies where the dep of the previous
-    */
-  // Pre: tdl has all the tagged dependencies for a specific tag
-  // tagged and tdl must come from the same extraction.  Otherwise the result is undefined.
-  // Pull out any hop that includes the tag's govenor word.
-  def getSingleHops(tagged: List[TypedDependency], tdl: List[TypedDependency]): List[TypedDependency] = {
-    tagged.map(tagDep => tdl.filter(td => td.gov().endPosition() == tagDep.gov().endPosition() || td.dep().endPosition() == tagDep.gov().endPosition())).flatten
-  }
 
-  def expandByOneHop(curtdl: List[List[TypedDependency]], tdl: List[TypedDependency]): List[List[TypedDependency]] = {
-    curtdl.foldLeft(List[List[TypedDependency]]())((acc, cur: List[TypedDependency]) =>
-      tdl.filter(td =>
-        (cur.head.dep().index() == td.dep().index() ||
-          cur.head.dep().index() == td.gov().index() ||
-          cur.head.gov().index() == td.dep().index() ||
-          cur.head.gov().index() == td.gov().index()) &&
-          !cur.contains(td)
-      ).map(td => td::cur):::acc
-    )
-  }
+  Private functions.
 
-  def expandAllByOneHop(tdlMaps: Map[TagInfo, List[List[TypedDependency]]],
-                        tdl: List[TypedDependency]): Map[TagInfo, List[List[TypedDependency]]] = {
-    val newMap = mutable.Map[TagInfo, List[List[TypedDependency]]]()
-    for ((k, v) <- tdlMaps) {
-      newMap.put(k, expandByOneHop(v, tdl))
-    }
-    newMap.toMap
-  }
-
-  def dependencyHopsByTag(tags: List[Type], tdl: List[TypedDependency])
-  : Map[TagInfo, List[TypedDependency]] = {
-    val tagMap = createTagMap(tags)
-
-    val results = mutable.Map[TagInfo, List[TypedDependency]]()
-
-    for (td <- tdl) {
-      tagMap.get(td.dep().index()) match {
-        case None => null
-        case Some(tagInfo: TagInfo) =>
-          results.get(tagInfo) match {
-            case None => results.put(tagInfo, td::Nil)
-            case Some(current) => results.put(tagInfo, td::current)
-          }
-      }
-      tagMap.get(td.gov().index()) match {
-        case None => null
-        case Some(tagInfo: TagInfo) =>
-          results.get(tagInfo) match {
-            case None => results.put(tagInfo, td::Nil)
-            case Some(current) => results.put(tagInfo, td::current)
-          }
-      }
-    }
-    results.toMap
-  }
-
-  /**
-   * Private functions.
    */
 
+  // Extracts the entity and created a list of ImplicitRelation classes from
+  // the raw dependency list relation data.
   private def implicitRelationsFromRawExtractions(
     parseTree: Tree,
-    nntdls: List[NounToNounTDL],
+    nntdls: List[RawTDLRelation],
     tokens: Seq[ChunkedToken],
     sentence: String,
     entityExtractionFn: EntityExtractionFunction): List[ImplicitRelation] = {
@@ -240,13 +170,9 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
           .filter(nnr => nnr.np != null)
   }
 
-  def substringFromWordIndicies(string: String, beginIndex: Int, endIndex: Int): String = {
-    val tokens = getTokens(string)
-    string.substring(tokens(beginIndex).offset,
-      tokens(endIndex).offset + tokens(endIndex).string.length)
-  }
 
-  def genRelationFilter(relations: Set[String])(td: TypedDependency) = {
+  // Relation filter generator.
+  private def genRelationFilter(relations: Set[String])(td: TypedDependency) = {
      relations.contains(td.reln().getShortName)
   }
 
@@ -255,8 +181,7 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
   // satisfies the rules and identifier constraints.
   // If satisfied, returns the next step id and idValue.
   // NOTE: NOT THREADSAFE!
-  def expandIdByRules
-    (id: String, idValue: IndexedString, rules: List[Rule],
+  private def expandIdByRules(id: String, idValue: IndexedString, rules: List[Rule],
      tokens: Seq[ChunkedToken], tdl: List[TypedDependency])
     (td: TypedDependency): (TypedDependency, String, IndexedString) = {
 
@@ -273,7 +198,7 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
   // Find relations that match the given id/idValue and satisfy the relation
   // rules.  Expand each of those relations by the corresponding pattern
   // and concatenate all the results.
-  def expandByPattern(tdl: List[TypedDependency],
+  private def expandByPattern(tdl: List[TypedDependency],
                       id: String,
                       idValue: IndexedString,
                       patterns: RelationPattern,
@@ -292,9 +217,11 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
        .fold(Nil: List[TypedDependency])((acc, cur) => cur:::acc)
   }
 
+  // Returns a raw extraction in terms of the tag and the expanded dependencies.
   private def rawExtractionTDLs(tags: List[Type], tdl: List[TypedDependency],
-                                  tokens: Seq[ChunkedToken]): List[NounToNounTDL] = {
-    val tagMap = createTagMap(tags)
+    tokens: Seq[ChunkedToken]): List[RawTDLRelation] = {
+
+    val tagMap = ExtractionUtils.createTagMap(tags)
 
     val tagWords = tdl
       .map(td => tagMap.getOrElse(td.dep.index, tagMap.getOrElse(td.gov.index, null)))
@@ -306,7 +233,7 @@ class ImplicitRelationExtractor(tagger: TaggerCollection[sentence.Sentence with 
     expansions.map(pair => {
         val nnTag = new ImplicitRelation(pair._1, pair._1.tag,
           IndexedSubstring.emptyInstance, "", pair._2)
-        NounToNounTDL(pair._2, nnTag)
+        RawTDLRelation(pair._2, nnTag)
       }
     )
   }

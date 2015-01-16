@@ -1,12 +1,14 @@
 package utils
 
+import edu.knowitall.tool.typer.Type
 import edu.stanford.nlp.trees.TypedDependency
 import extractor.{ImplicitRelationExtractor, TagInfo}
 
 import scala.collection.mutable
 
 /**
- * Created by Gene on 12/24/2014.
+ * Utilty functions for obtaining different output formats for extractions
+ * including verbose output and the extraction trace.
  */
 object ExtractionFormatUtils {
   def verboseOutput(extractor: ImplicitRelationExtractor)(src: String) = {
@@ -32,9 +34,9 @@ object ExtractionFormatUtils {
     }
     val tags = extractor.getTags(src)
     val (parse, tdl) = extractor.getParse(src)
-    val singleHops = extractor.dependencyHopsByTag(tags, tdl)
+    val singleHops = tagToDependencyMap(tags, tdl)
     val singleGeneralized = singleHops map { case (k, v) => (k, v.map(td => td::Nil))}
-    val doubleHops = extractor.expandAllByOneHop(singleGeneralized, tdl)
+    val doubleHops = expandAllByOneHop(singleGeneralized, tdl)
 
     val builder = mutable.StringBuilder.newBuilder
     builder.append("Extraction Info\n")
@@ -54,5 +56,74 @@ object ExtractionFormatUtils {
     }
 
     builder.mkString
+  }
+
+
+  /*
+
+  Helper methods.
+
+   */
+
+  /*
+    To get hops from tag:
+      Get word that is modified by tag: the govenor word
+      go through every dependency, where the tagged word is included.
+      Get all dependencies where the dep of the previous
+    */
+  // Pre: tdl has all the tagged dependencies for a specific tag
+  // tagged and tdl must come from the same extraction.  Otherwise the result is undefined.
+  // Pull out any hop that includes the tag's govenor word.
+  def getSingleHops(tagged: List[TypedDependency], tdl: List[TypedDependency]): List[TypedDependency] = {
+    tagged.map(tagDep => tdl.filter(td => td.gov().endPosition() == tagDep.gov().endPosition() || td.dep().endPosition() == tagDep.gov().endPosition())).flatten
+  }
+
+  def expandByOneHop(curtdl: List[List[TypedDependency]], tdl: List[TypedDependency]): List[List[TypedDependency]] = {
+    curtdl.foldLeft(List[List[TypedDependency]]())((acc, cur: List[TypedDependency]) =>
+      tdl.filter(td =>
+        (cur.head.dep().index() == td.dep().index() ||
+          cur.head.dep().index() == td.gov().index() ||
+          cur.head.gov().index() == td.dep().index() ||
+          cur.head.gov().index() == td.gov().index()) &&
+          !cur.contains(td)
+      ).map(td => td::cur):::acc
+    )
+  }
+
+  def expandAllByOneHop(tdlMaps: Map[TagInfo, List[List[TypedDependency]]],
+    tdl: List[TypedDependency]): Map[TagInfo, List[List[TypedDependency]]] = {
+    val newMap = mutable.Map[TagInfo, List[List[TypedDependency]]]()
+    for ((k, v) <- tdlMaps) {
+      newMap.put(k, expandByOneHop(v, tdl))
+    }
+    newMap.toMap
+  }
+
+  // Create a map of each tag to a list of TypedDependency objects that contain
+  // that tag.
+  def tagToDependencyMap(tags: List[Type],
+    tdl: List[TypedDependency]): Map[TagInfo, List[TypedDependency]] = {
+
+    val tagMap = ExtractionUtils.createTagMap(tags)
+    val results = mutable.Map[TagInfo, List[TypedDependency]]()
+    for (td <- tdl) {
+      tagMap.get(td.dep().index()) match {
+        case None => null
+        case Some(tagInfo: TagInfo) =>
+          results.get(tagInfo) match {
+            case None => results.put(tagInfo, td::Nil)
+            case Some(current) => results.put(tagInfo, td::current)
+          }
+      }
+      tagMap.get(td.gov().index()) match {
+        case None => null
+        case Some(tagInfo: TagInfo) =>
+          results.get(tagInfo) match {
+            case None => results.put(tagInfo, td::Nil)
+            case Some(current) => results.put(tagInfo, td::current)
+          }
+      }
+    }
+    results.toMap
   }
 }

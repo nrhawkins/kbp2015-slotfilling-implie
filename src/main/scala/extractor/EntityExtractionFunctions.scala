@@ -7,12 +7,29 @@ import edu.stanford.nlp.trees.{TypedDependency, Tree}
 import scala.collection.JavaConversions._
 
 /**
- * Set of NP extraction functions.
+ * Set of entity extraction functions.
  *
  * Various functions to pull out a entity substring from extraction information.
  * Many of them attempt to find a noun phrase entity.
+ *
+ * Each of the functions take the following parameters
+ *  Tree, represents that entire sentence that the extraction is from
+ *  List[TypedDependency], list with the extraction expansions
+ *  TagInfo, information about the tagged term for the implicit relation extracted
+ *  Seq[ChunkedToken], tokenized version of the sentence
+ *  String, the original sentence
+ *  ImplicitRelationExtractor, the extractor used in the extraction.
+ *
+ * and returns
+ *  IndexedSubstring, a substring of the sentence representing the entity for
+ *    the extraction.
  */
 object EntityExtractionFunctions {
+  /**
+   * Takes the leftmost and rightmost nodes in the Tree from the extraction
+   * dependency list, then creates a substring entity from the subtree rooted
+   * by the first common ancestor that is a noun phrase.
+   */
   def firstNounPhraseAncestor(
     tree: Tree,
     tdl: List[TypedDependency],
@@ -57,6 +74,11 @@ object EntityExtractionFunctions {
     )
   }
 
+  /**
+   * Identifies a parent noun phrase of the tag and the first TypedDependency.
+   * Then expands on the noun phrase using the tdl to create the complete 
+   * entity substring.
+   */
   def expandFromSmallNP(
     tree: Tree,
     tdl: List[TypedDependency],
@@ -109,7 +131,11 @@ object EntityExtractionFunctions {
     )
   }
 
-  def ignoreNP(
+  /**
+   * Extracts the smallest substring of the sentence that contains all
+   * components of the tdl.
+   */
+  def smallestSubstring(
     tree: Tree,
     tdl: List[TypedDependency],
     tag: TagInfo,
@@ -150,9 +176,17 @@ object EntityExtractionFunctions {
     )
   }
 
-  // Assume that the full tag noun phrase is a child of the noun phrase
-  // containing the dep and gov.
-  // If incorrect - TO-DO: expand dep to the full phrase.
+
+  /*
+
+  Helper methods
+
+   */
+
+  /**
+   * Returns the subtree of the first common ancestor of the two indexed words
+   * that is a noun phrase.
+   */
   def getNPAncestor(tree: Tree, dep: IndexedWord,
     gov: IndexedWord): (Tree, Boolean, Boolean) = {
     if (tree.isLeaf) {
@@ -178,7 +212,9 @@ object EntityExtractionFunctions {
     }
   }
 
-  // Gets the indexed words that represent the left most and rightmost indices
+    /**
+     * Gets the indexed words that represent the left most and rightmost indices.
+     */
   def getLeftAndRight(
     startLeft: IndexedWord,
     startRight: IndexedWord,
@@ -211,6 +247,10 @@ object EntityExtractionFunctions {
       })
   }
 
+  /**
+   * Returns a list of indexed strings that represent a flattened version
+   * of the tree.  Should be readable as a sentence.
+   */
   def phraseTokensFromTree(tree: Tree): List[IndexedString] = {
     val labels = tree.`yield`().map(l => l.toString).toList
     // Only labels of leaf nodes will have a dash.
@@ -218,6 +258,7 @@ object EntityExtractionFunctions {
     labels.filter(l => l.contains("-"))
     .map(l => {
       val (string, negIndex) = l.splitAt(l.lastIndexOf('-'))
+      // Indices are interpreted as negative because of the dash, so flip.
       new IndexedString(string, 0 - negIndex.toInt)
     })
   }

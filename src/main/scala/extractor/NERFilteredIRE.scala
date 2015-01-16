@@ -5,6 +5,7 @@ import edu.knowitall.repr.sentence.{Sentence, Chunked, Lemmatized}
 import edu.knowitall.taggers.TaggerCollection
 import edu.stanford.nlp.ie.crf.CRFClassifier
 import edu.stanford.nlp.ling.{CoreAnnotations, CoreLabel, Word}
+import utils.ExtractionUtils
 
 import scala.collection.mutable
 
@@ -67,7 +68,8 @@ class NERFilteredIRE(tagger: TaggerCollection[Sentence with Chunked with Lemmati
         case Nil => new NERTag(cur._1.word, curNER, curIndex, curIndex, cur::Nil)::Nil
         case head::tail =>
           if (curNER == head.ner && curIndex == head.endIndex + 1) {
-            new NERTag(substringFromWordIndicies(line, head.beginIndex, curIndex),
+            new NERTag(
+              ExtractionUtils.substringFromWordIndicies(line, getTokens(line), head.beginIndex, curIndex),
               curNER, head.beginIndex, curIndex, cur::head.tokens)::tail
           } else {
             new NERTag(cur._1.word, curNER, curIndex, curIndex, cur::Nil)::
@@ -90,7 +92,8 @@ class NERFilteredIRE(tagger: TaggerCollection[Sentence with Chunked with Lemmati
             } else {
               val (curBegin, curEnd) = (tokensWithin(0)._2,
                 tokensWithin(tokensWithin.size - 1)._2)
-              new NERTag(substringFromWordIndicies(line, curBegin, curEnd),
+              new NERTag(
+                ExtractionUtils.substringFromWordIndicies(line, getTokens(line), curBegin, curEnd),
                 cur.ner, curBegin, curEnd, tokensWithin) :: acc
             }
           })
