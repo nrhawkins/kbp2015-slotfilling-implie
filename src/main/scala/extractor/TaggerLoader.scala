@@ -16,7 +16,7 @@ import scala.io.Source
  * a buildTagger function that takes a Config for a tagger.
  */
 object TaggerLoader {
-  case class TagClass(name: String, taggerType: String, files: List[String])
+  case class TagClass(name: String, taggerType: String, files: List[String], ignoreFiles: List[String])
   case class TaggerResult(tags: List[Type], source: String)
 
   val default_tagger_config = ConfigFactory.load("taggers/default-extractor-tagger.conf")
@@ -51,17 +51,21 @@ object TaggerLoader {
      * @return String definitions of each class.
      */
     def createTaggerDefinition(classes: List[TagClass]): String = {
+      def termsFromFile(file: String, caseInsensitive: Boolean): Set[String] = {
+        val result = Source.fromFile(file).getLines().map(term => term.trim)
+          .filter(term => term != "").toSet
+        if (caseInsensitive) result.map(term => term.toLowerCase) else result
+      }
+
       val builder = StringBuilder.newBuilder
       for (clas <- classes) {
         builder.append(s"${clas.name} := ${clas.taggerType} {\n")
-        for (file <- clas.files) {
-          val lines = Source.fromFile(file).getLines()
-          for (line <- lines) {
-            if (line.trim.length != 0) {
-              builder.append(line.trim).append("\n")
-            }
-          }
-        }
+        val caseInsensitive = clas.taggerType.toLowerCase.contains("caseinsensitive")
+        val terms = clas.files.foldLeft(Set[String]())((acc, cur) =>
+          acc ++ termsFromFile(cur, caseInsensitive))
+        val ignoreTerms = clas.ignoreFiles.foldLeft(Set[String]())((acc, cur) =>
+          acc ++ termsFromFile(cur, caseInsensitive))
+        (terms -- ignoreTerms).foreach(term => builder.append(term).append("\n"))
         builder.append("}\n")
       }
       builder.mkString
@@ -70,7 +74,12 @@ object TaggerLoader {
     def getClasses: List[TagClass] = {
       val classes: List[Config] = config.getConfigList("classes").toList
       classes.map(c => TagClass(c.getString("name"), c.getString("tagger-type"),
-        c.getStringList("files").toList))
+          c.getStringList("files").toList,
+          if (c.hasPath("ignore-files")) {
+            c.getStringList("ignore-files").toList
+          } else {
+            Nil
+          }))
     }
 
     val taggerPattern = createTaggerDefinition(getClasses)

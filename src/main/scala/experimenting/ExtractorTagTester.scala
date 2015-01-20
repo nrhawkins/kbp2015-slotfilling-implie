@@ -12,7 +12,9 @@ object ExtractorTagTester {
     val tagger = TaggerLoader.basicTestTagger
     val extractor = new ImplicitRelationExtractor(tagger)
 //    val sentence = "John Arterberry, executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud."
-    val sentence = "Staging a surprise detour from his trip to Sydney, Bush arrived at the Al-Asad air base in Anbar along with Secretary of State Condoleezza Rice and national security adviser Stephen Hadley."
+//    val sentence = "Staging a surprise detour from his trip to Sydney, Bush arrived at the Al-Asad air base in Anbar along with Secretary of State Condoleezza Rice and national security adviser Stephen Hadley."
+
+    val sentence = "As spelled out in the executive summary that was released on Tuesday, the report found neither a single point of failure nor a silver bullet that would have allowed the CIA to prevent the Sept. 11 attacks."
     val result = extractor.extractRelations(sentence)
 
     println(result)
