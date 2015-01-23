@@ -3,8 +3,9 @@ package testers
 import java.io.PrintWriter
 import java.nio.file.{Paths, Files}
 
-import scala.collection.mutable
+import scala.collection.mutable._
 import scala.io.Source
+//import collection.mutable.HashMap
 
 import com.typesafe.config.ConfigFactory
 
@@ -26,40 +27,47 @@ object ExtractionScoring {
   // *Don't need to keep all of the fields
   // ------------------------------------------------------------------------
   case class AnswerKeyItem(sentIndex: Int, docid: String, relation: String, 
-      slotfill: String, correct: Int, incorrect: Int, sentence: String)
+      slotfill: String, correct: String, incorrect: String, sentence: String)
   // ------------------------------------------------------------------------
   // ExtractionInputLine fields:
   // 1)ExtractionIndex 2)SentenceIndex 3)DocId 4)Entity(NP) 5)Relation 
   // 6)Slotfill(tag) 7)Sentence
   // *Keep all of the fields so untagged extractions can be written to file    
   // ------------------------------------------------------------------------
-  case class ExtractionInputLine(sentIndex: Int, docid: String, entity: String,
-      relation: String, slotfill: String, sentence: String)
+  case class ExtractionInputLine(extrIndex: Int, sentIndex: Int, docid: String, 
+      entity: String, relation: String, slotfill: String, sentence: String)
   // ------------------------------------------------------------------------
   // MatchKey fields:
   // 1)SentenceIndex 2)DocId 3)Relation 4)Slotfill(tag)
   // example: Relation=jobtitle, Slotfill=coroner
   // ------------------------------------------------------------------------
   case class MatchKey(sentIndex: Int, docid: String, relation: String, 
-      slotfill: String)  
-
+      slotfill: String) 
+      
+  // ------------------------------------------------------------------------
+  // RelationCounts:
+  // 1)relation 2)numCorrect 3)numIncorrect 4)numUntagged 
+  // ------------------------------------------------------------------------
+  //case class RelationCounts(relation: String, correct: Int, incorrect: Int) 
+      
+  // ----------------------------------------------------------
+  // Configuration File - specifies input and output files
+  // ----------------------------------------------------------  
+  val config = ConfigFactory.load("extraction-scoring.conf")  
+  val seqFilename = config.getString("sequence-file")
   // --------------------------------------------------------------
   // seq - append this number in front of the files being output
   //     - this number is one greater than the last one written
   // --------------------------------------------------------------
-  val seq = getSeqNum(seqFilename) - 1
-  
-  // ----------------------------------------------------------
-  // Configuration File - specifies input and output files
-  // ----------------------------------------------------------  
-  // TODO: identify files to specify in the .conf file
-  val config = ConfigFactory.load("extraction-scoring.conf")  
-  val seqFilename = config.getString("sequence-file")
+  val seq = getSeqNum(seqFilename) - 1 
   val extractions_file = config.getString("extractions-file")
   val answerkey_file = config.getString("answer-key")
-  val scoringreport_file = config.getString("output-dir") + seq + config.getString("score-report-file-tail")
-  val newextractions_file = config.getString("output-dir") + seq + config.getString("new-extractions-file-tail")
-
+  val scoringreport_file = config.getString("output-dir") + seq + 
+    config.getString("score-report-file-tail")
+  //val newextractions_file = config.getString("answer-key")
+  val newextractions_file = config.getString("output-dir") + seq + 
+    config.getString("new-extractions-file-tail")
+  
   // ------------------------------------------------
   // Options - 1)verbose 2)taginfo 3)showtrace
   // ------------------------------------------------
@@ -124,11 +132,14 @@ object ExtractionScoring {
     //val extractionsLines = Source.fromFile(extractions_file).getLines
     //  .map(line=>line.trim()).filter(line=>line!="").toList
 
+    
+    println("Reading Extractions")
+    
     // -------------------------------------------------------
     // Extractions to Score -  
     //   list of ExtractionInputLine's
     // -------------------------------------------------------
-    def extractions = {
+    val extractions = {
      
       val inputFilename = extractions_file
     
@@ -140,9 +151,13 @@ object ExtractionScoring {
 
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
-        ExtractionInputLine(tokens(1).toInt, tokens(2), tokens(3), tokens(4), tokens(5), tokens(6))
-      }).toList
+        ExtractionInputLine(tokens(0).toInt, tokens(1).toInt, tokens(2), tokens(3), tokens(4), 
+            tokens(5), tokens(6))}).toList
     } 
+    
+    println("Extractions size: " + extractions.size)
+    
+    println("Reading Answer Key")
         
     // -------------------------------------------------------
     // Answer Key - 
@@ -155,7 +170,7 @@ object ExtractionScoring {
     // Answer Key -  
     //   list of AnswerKeyItem's
     // -------------------------------------------------------
-    def answerkeyItems = {
+    val answerkeyItems = {
      
       val inputFilename = answerkey_file
     
@@ -167,11 +182,22 @@ object ExtractionScoring {
 
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
-        AnswerKeyItem(tokens(1).toInt, tokens(2), tokens(4), tokens(5), tokens(6).toInt,
-            tokens(7).toInt, tokens(8))
+          //println("tokens size: " + tokens.length)
+          if(tokens.length ==9){
+            //sentIndex: Int, docid: String, relation: String, 
+            //slotfill: String, correct: String, incorrect: String, sentence: String)
+            AnswerKeyItem(tokens(1).toInt, tokens(2), tokens(4), tokens(5), tokens(6),tokens(7), tokens(8))
+          }
+          else{//tokens.length==7
+            AnswerKeyItem(tokens(1).toInt, tokens(2), tokens(4), tokens(5), "","", tokens(6))
+          }
       }).toList
     }       
-      
+    
+    println("AKI size: " + answerkeyItems.size)
+    
+    println("Opening files for scoring report and new extractions")
+    
     // -------------------------------------------------------
     // Scoring Report - write out
     //   1) the extractions and their score
@@ -187,25 +213,24 @@ object ExtractionScoring {
     // -------------------------------------------------------  
     val newextractions = new PrintWriter(newextractions_file)    
     
-    // -------------------------------------------------------
-    // Scoring Steps:
-    // 
-    // 1. Build Answer Key
-    // 2. Check each extraction
-    // 3. Write out extractions not found in answer key
-    // 4. Compute and write summary stats
-    // 
-    // -------------------------------------------------------
 
+    println("Building Answer Key")
+ 
+           
     // -------------------------------------------------------
-    // Build Answer Key
+    // Build Answer Key 
+    // -- Divide Answer Key Items by Correct or Incorrect
     // -------------------------------------------------------    
-    val answerkeyItemsCorrect = answerkeyItems.filter(aki => aki.correct == 1).toSet
-    val answerkeyItemsIncorrect = answerkeyItems.filter(aki => aki.incorrect == 1).toSet     
+    val answerkeyItemsCorrect = answerkeyItems.filter(aki => aki.correct == "1").toSet
+    val answerkeyItemsIncorrect = answerkeyItems.filter(aki => aki.incorrect == "1").toSet     
 
-    // -------------------------------------------------------
-    // Build a Set of MatchKey's from AnswerKeyItem's above
-    // -------------------------------------------------------
+    println("AK Correct size: " + answerkeyItemsCorrect.size)
+    println("AK Incorrect size: " + answerkeyItemsIncorrect.size)
+    
+    // -------------------------------------------------------------
+    // Create MatchKey sets for Correct and Incorrect
+    // -- can use these to check if the extraction is in either set
+    // -------------------------------------------------------------
     val matchkeyItemsCorrect = for(answerkeyItem <- answerkeyItemsCorrect) yield {
        MatchKey(answerkeyItem.sentIndex,answerkeyItem.docid, answerkeyItem.relation, 
            answerkeyItem.slotfill)  
@@ -215,6 +240,11 @@ object ExtractionScoring {
        MatchKey(answerkeyItem.sentIndex,answerkeyItem.docid, answerkeyItem.relation, 
            answerkeyItem.slotfill)  
     }
+
+    println("MK Correct size: " + matchkeyItemsCorrect.size)
+    println("MK Incorrect size: " + matchkeyItemsIncorrect.size)
+    
+    println("Scoring Extractions")
     
     // -------------------------------------------------------
     // Summary Stats
@@ -222,6 +252,11 @@ object ExtractionScoring {
     var numCorrect = 0
     var numIncorrect = 0
     var numUntagged = 0
+    val numMissed = matchkeyItemsCorrect.size
+    val testResults = new TestResults()
+    //var relationScores :HashMap[String,RelationCounts] = HashMap()
+    var relationScoresCorrect :HashMap[String,Int] = HashMap()
+    var relationScoresIncorrect :HashMap[String,Int] = HashMap()
     
     // -------------------------------------------------------
     // Check each extraction
@@ -233,17 +268,56 @@ object ExtractionScoring {
       var untagged = false
       var correctField = ""
       var incorrectField = ""  
-      
+      //var correctRelation = 0
+      //var incorrectRelation = 0
+        
       val extrCheck = MatchKey(extraction.sentIndex, extraction.docid, extraction.relation, 
           extraction.slotfill)
        
       correct = matchkeyItemsCorrect.contains(extrCheck)
       if(correct){ numCorrect += 1
-                   correctField = "1"} 
+                   correctField = "1"  
+                   //if(relationScores.contains(extraction.relation)){
+                   //   correctRelation = relationScores(extraction.relation).correct + 1 
+                   //   incorrectRelation = relationScores(extraction.relation).incorrect 
+                   //}
+                   //else{
+                   //  correctRelation = 1 
+                   //  incorrectRelation = 0 
+                   //}
+                   //relationScores += (extraction.relation -> 
+                   //  RelationCounts(extraction.relation,correctRelation,incorrectRelation))
+                   
+                   if(relationScoresCorrect.contains(extraction.relation)){
+                     relationScoresCorrect(extraction.relation) += 1
+                   }  
+                   else{
+                     relationScoresCorrect(extraction.relation) = 1 
+                   }                       
+                     
+                 } 
       else {
         incorrect = matchkeyItemsIncorrect.contains(extrCheck)        
         if(incorrect){ numIncorrect += 1
-                       incorrectField = "1"}
+                       incorrectField = "1"
+                       //if(relationScores.contains(extraction.relation)){
+                       //  val correctRelation = relationScores(extraction.relation).correct
+                       //  val incorrectRelation = relationScores(extraction.relation).incorrect + 1
+                       //}
+                       //else{
+                       //  correctRelation = 0 
+                       //  incorrectRelation = 1 
+                       //}
+                       //relationScores += (extraction.relation -> 
+                       //   RelationCounts(extraction.relation,correctRelation,incorrectRelation))
+                       if(relationScoresIncorrect.contains(extraction.relation)){
+                         relationScoresIncorrect(extraction.relation) += 1
+                       }  
+                       else{
+                         relationScoresIncorrect(extraction.relation) = 1 
+                       }     
+                           
+                     }
         else {
           numUntagged += 1                        
           untagged = true
@@ -251,9 +325,10 @@ object ExtractionScoring {
       }
 
       if(untagged){
-        newextractions.append(extraction.sentIndex + "\t" + extraction.docid + "\t" + 
-            extraction.entity + "\t" + extraction.relation + "\t" + extraction.slotfill + 
-            "\t" + extraction.sentence + "\n")  
+        newextractions.append(extraction.extrIndex + "\t" + extraction.sentIndex + "\t" + 
+            extraction.docid + "\t" + extraction.entity + "\t" + extraction.relation + "\t" + 
+            extraction.slotfill + "\t" + correctField + "\t" + incorrectField + "\t" + 
+            extraction.sentence + "\n")
       }
       else{                     
         scoringreport.append(extraction.sentIndex + "\t" + extraction.docid + "\t" + 
@@ -262,19 +337,72 @@ object ExtractionScoring {
       }
             
     }
-    
-    // -------------------------------------------------------
-    // Compute and Output Summary Stats
-    //
-    // Overall and by relation,
-    // -number correct, number incorrect, precision
-    // -------------------------------------------------------
 
-    //TODO: this section
-    //
-    // scoringreport.append()    
-
+    println("Writing Scoring Report")
     
+    // -----------------------------------------------------------
+    // Compute and Output Summary Statistics
+    //
+    // Overall and by relation, write:
+    // 
+    // --number correct, number incorrect, precision, relation
+    // -----------------------------------------------------------
+ 
+    scoringreport.append("\n" + "Number of Extractions: " + extractions.size + "\n")
+    scoringreport.append("Number of Tagged Extractions: " + (extractions.size - numUntagged) + "\n")
+    scoringreport.append("Number of Untagged Extractions: " + numUntagged + "\n")
+    scoringreport.append("Number of AnswerKeyItems: " + answerkeyItems.size + "\n")
+    scoringreport.append("Number of AnswerKeyItems Correct: " + answerkeyItemsCorrect.size + "\n")
+    scoringreport.append("Number of AnswerKeyItems Incorrect: " + answerkeyItemsIncorrect.size + "\n")
+    
+    // ------------------------------------------------
+    // Write heading line for table
+    // ------------------------------------------------
+    scoringreport.append("\n" + "Correct" + "\t" + "Error" + "\t" + 
+        "Precision" + "\t" + "Relation" + "\n\n")    
+
+    // ------------------------------------------------    
+    // Write results by relation    
+    // ------------------------------------------------    
+    //relationScores.foreach(kv => { 
+    //   val extractionRelation = kv._1
+    //   testResults.correct = kv._2.correct
+    //   testResults.incorrect = kv._2.incorrect
+    //   testResults.missed = matchkeyItemsCorrect.filter(mki => mki.relation == extractionRelation).size
+    //   scoringreport.append(testResults.correct + "\t" + testResults.incorrect + 
+    //    "\t" + testResults.precision + "\t" + extractionRelation + "\n")  
+    //  }
+    //)
+        
+    val relationScoresKeys = relationScoresCorrect.keySet ++ relationScoresIncorrect.keySet    
+        
+    relationScoresKeys.foreach(k => {
+      val extractionRelation = k
+      val countCorrect = relationScoresCorrect.getOrElse(extractionRelation, 0)
+      val countIncorrect = relationScoresIncorrect.getOrElse(extractionRelation, 0)
+      val countMissed = matchkeyItemsCorrect.filter(mki => mki.relation == extractionRelation).size
+      val testResultsRelation = new TestResults(countCorrect,countIncorrect,countMissed)
+      scoringreport.append(testResultsRelation.correct + "\t\t" + testResultsRelation.incorrect + 
+        "\t\t" + "%1.2f".format(testResultsRelation.precision) + "\t\t" + extractionRelation + "\n")  
+    })
+        
+        
+    // -----------------------------------------------------------        
+    // Write results for the total (i.e. includes all relations)   
+    // -----------------------------------------------------------
+    testResults.correct = numCorrect
+    testResults.incorrect = numIncorrect
+    testResults.missed = numMissed    
+    
+    scoringreport.append("\n" + testResults.correct + "\t\t" + testResults.incorrect + 
+        "\t\t" + "%1.2f".format(testResults.precision) + "\t\t" + "total" + "\n")    
+        
+    
+    println("Closing PrintWriters")    
+                
+    newextractions.close()    
+    scoringreport.close()     
+        
   }
 
   // This method is a bit of a hack.
