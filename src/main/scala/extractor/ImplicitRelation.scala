@@ -18,6 +18,8 @@ class ImplicitRelation(t: TagInfo, r: String, n: IndexedSubstring,
   var sentence = s
   var relationTrace = rt
   var ners: List[NERTag] = Nil
+  var head: String = null
+  // TODO: make verbose with wordnet results.
 
   override def toString: String = s"(${tag.asIndexedString}, $relation, $np)"
   def longString: String = s"($tag, $relation, $np), $sentence"
@@ -31,4 +33,8 @@ class ImplicitRelation(t: TagInfo, r: String, n: IndexedSubstring,
   }
 
   def getNERs = ners
+
+  def setHead(_head: String) {
+    head = _head
+  }
 }

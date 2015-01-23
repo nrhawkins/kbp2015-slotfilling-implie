@@ -10,6 +10,8 @@ package object extractor {
   case class Rule(rel: String, gov: String, dep: String)
   case class RawTDLRelation(tdl: List[TypedDependency], tag: ImplicitRelation)
   case class EnclosingPunctuation(open: String, close: String)
+  case class FilterLists(hypernyms: List[String], hypernymInstances: List[String])
+  case class WordNetFilter(tag: String, accept: FilterLists, reject: FilterLists)
 
   type Phrase = String
   type TagName = String
