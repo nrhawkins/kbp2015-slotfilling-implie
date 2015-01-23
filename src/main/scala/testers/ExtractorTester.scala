@@ -41,12 +41,15 @@ object ExtractorTester {
 
   case class ExtractorResult(relations: List[ImplicitRelation], source: String)
 
+  val config = ConfigFactory.load("extractor-tester.conf")
   val tagger = TaggerTester.tagger
-  val extractor = new ImplicitRelationExtractor(tagger)
+  val extractor = new ImplicitRelationExtractor(
+    tagger,
+    config.getString("tokenization-cache"),
+    config.getString("parse-cache"))
 
   // Configuratons.
   // Set it here so we don't have methods that are passing entire configurations.
-  val config = ConfigFactory.load("extractor-tester.conf")
   val datetime = DateTime.now
   val INPUT_FILE = config.getString("input-file")
   val SOLUTION_FILE = config.getString("solution-file")

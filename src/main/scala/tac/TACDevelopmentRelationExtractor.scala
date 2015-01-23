@@ -63,7 +63,10 @@ object TACDevelopmentRelationExtractor {
 
     println("Loading Extractor.")
     val relationExtractor =
-      new ImplicitRelationExtractor(TaggerLoader.defaultTagger)
+      new ImplicitRelationExtractor(
+        TaggerLoader.defaultTagger,
+        config.getString("tokenization-cache"),
+        config.getString("parse-cache"))
 
     println("Extracting Sentences.")
     println(s"${inputLines.size} sentences to process.")
