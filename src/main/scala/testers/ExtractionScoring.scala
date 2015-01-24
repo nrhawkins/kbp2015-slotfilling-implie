@@ -358,8 +358,8 @@ object ExtractionScoring {
     // ------------------------------------------------
     // Write heading line for table
     // ------------------------------------------------
-    scoringreport.append("\n" + "Correct" + "\t" + "Error" + "\t" + 
-        "Precision" + "\t" + "Relation" + "\n\n")    
+    scoringreport.append("\n" + "Correct" + "\t\t" + "Error" + "\t\t" + 
+        "Precision" + "\t\t" + "Relation" + "\n\n")    
 
     // ------------------------------------------------    
     // Write results by relation    
@@ -382,8 +382,8 @@ object ExtractionScoring {
       val countIncorrect = relationScoresIncorrect.getOrElse(extractionRelation, 0)
       val countMissed = matchkeyItemsCorrect.filter(mki => mki.relation == extractionRelation).size
       val testResultsRelation = new TestResults(countCorrect,countIncorrect,countMissed)
-      scoringreport.append(testResultsRelation.correct + "\t\t" + testResultsRelation.incorrect + 
-        "\t\t" + "%1.2f".format(testResultsRelation.precision) + "\t\t" + extractionRelation + "\n")  
+      scoringreport.append(testResultsRelation.correct + "\t\t\t" + testResultsRelation.incorrect + 
+        "\t\t\t" + "%1.2f".format(testResultsRelation.precision) + "\t\t\t" + extractionRelation + "\n")  
     })
         
         
@@ -394,8 +394,8 @@ object ExtractionScoring {
     testResults.incorrect = numIncorrect
     testResults.missed = numMissed    
     
-    scoringreport.append("\n" + testResults.correct + "\t\t" + testResults.incorrect + 
-        "\t\t" + "%1.2f".format(testResults.precision) + "\t\t" + "total" + "\n")    
+    scoringreport.append("\n" + testResults.correct + "\t\t\t" + testResults.incorrect + 
+        "\t\t\t" + "%1.2f".format(testResults.precision) + "\t\t\t" + "total" + "\n")    
         
     
     println("Closing PrintWriters")    
