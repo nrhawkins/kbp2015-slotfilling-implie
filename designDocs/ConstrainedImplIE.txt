@@ -1,0 +1,18 @@
+Rules for correctness of the contrained ImplIE system.
+
+nationality - Person
+jobTitle - Person
+city - Person, Organization
+province - Person, Organization
+religion - Person, Organization
+school - Person, Organization
+
+For these to be considered correct, the entity does not necessarily need to be a Pronoun.
+For example: the entity: "the man, a journalist" is still correct, since "the man" refers to a person.
+
+An incomplete match can be correct as long as it still makes sense.
+For example: in a sentence containing the phrase "Barack Obama, US President",
+							the extraction "Obama, US President" is still correct, though not ideal.
+
+Under these specifications some capitalized entities are incorrect, such as mascots.
+For example: the entity: "Arizona Wildcats" is an incorrect extraction since Wildcats is a mascot, not a person or an organization.
