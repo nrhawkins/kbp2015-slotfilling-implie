@@ -1,5 +1,3 @@
-//package extractor
-
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.stanford.nlp.trees.{Tree, TypedDependency}
 
