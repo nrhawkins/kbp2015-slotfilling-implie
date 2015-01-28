@@ -5,17 +5,20 @@ import java.nio.file.{Paths, Files}
 
 import scala.collection.mutable._
 import scala.io.Source
-//import collection.mutable.HashMap
 
 import com.typesafe.config.ConfigFactory
 
 import extractor._
-//import utils.ExtractionFormatUtils
 
 /**
- * Main method takes an extractions file and an answer key file,
- * specified in a configurations file, extraction-scoring.conf, and
- * outputs a score report file. 
+ * Main method takes: 
+ * 1) an extractions file 
+ * 2) an answer key file,
+ * both specified in the configuration file, extraction-scoring.conf, 
+ * and outputs: 
+ * 1) a score report file
+ * 2) an answer key file with new extractions (to be scored) appended
+ * 
  */
 
 object ExtractionScoring {
@@ -45,12 +48,6 @@ object ExtractionScoring {
   case class MatchKey(sentIndex: Int, docid: String, relation: String, 
       slotfill: String) 
       
-  // ------------------------------------------------------------------------
-  // RelationCounts:
-  // 1)relation 2)numCorrect 3)numIncorrect 4)numUntagged 
-  // ------------------------------------------------------------------------
-  //case class RelationCounts(relation: String, correct: Int, incorrect: Int) 
-      
   // ----------------------------------------------------------
   // Configuration File - specifies input and output files
   // ----------------------------------------------------------  
@@ -60,81 +57,36 @@ object ExtractionScoring {
   // seq - append this number in front of the files being output
   //     - this number is one greater than the last one written
   // --------------------------------------------------------------
-  val seq = getSeqNum(seqFilename) - 1 
-  val extractions_file = config.getString("extractions-file")
-  val answerkey_file = config.getString("answer-key")
-  val scoringreport_file = config.getString("output-dir") + seq + 
-    config.getString("score-report-file-tail")
-  //val newextractions_file = config.getString("answer-key")
-  val newextractions_file = config.getString("output-dir") + seq + 
-    config.getString("new-extractions-file-tail")
-  
-  // ------------------------------------------------
-  // Options - 1)verbose 2)taginfo 3)showtrace
-  // ------------------------------------------------
-  /*type OptionMap = Map[Symbol, Any]
-  val usage =
-    """
-      |Usage: ExtractorTester [--verbose | -v] [--tag-info | -ti bool] [-show-trace | -t]
-    """.stripMargin
-  */
+  var seq = getSeqNum(seqFilename)
+  val extractions_file = config.getString("input-dir-results") + 
+     seq + config.getString("extractions-file-tail")
+  val answerkey_file = config.getString("input-dir-answers") + 
+     (seq-1) + config.getString("answer-key-file-tail")
+  val scoringreport_file = config.getString("output-dir") + 
+     seq + config.getString("score-report-file-tail")
+  val newextractions_file = config.getString("output-dir") + 
+     seq + config.getString("new-extractions-file-tail")
 
   // -----------------------------------------------------------------
   // -----------------------------------------------------------------
-  // Main - args are options, 
+  // Main - args are not used, 
   //        the inputs and outputs are specified by the .conf file,
   //        which has already be read-in and is a val of the object
   // -----------------------------------------------------------------      
   // -----------------------------------------------------------------
   def main(args: Array[String]) {
-  
-    //val arglist = args.toList
 
-    // --------------------------------------------------------
-    // Default Options: --verbose = false
-    //                  --taginfo = true
-    //                  --showtrace = false
-    // --------------------------------------------------------
-    //val defaultOptions =
-    //  Map('verbose -> false, 'taginfo -> true, 'showtrace -> false)
-      
-    // ------------------------------------------------------------------------------
-    // def nextOption - if the arglist is Nil, returns defaultOptions, 
-    //                - else, recursively builds an option map based on the arglist 
-    // ------------------------------------------------------------------------------
-    /*  def nextOption(map: OptionMap, list: List[String]): OptionMap = {
-      list match {
-        case Nil => map
-        case ("--verbose" | "-v") :: tail =>
-          nextOption(map ++ Map('verbose -> true), tail)
-        case ("--tag-info" | "-ti") :: value :: tail =>
-          nextOption(map ++ Map('taginfo -> value.toBoolean), tail)
-        case ("--show-trace" | "-t") :: tail =>
-          nextOption(map ++ Map('showtrace -> true), tail)
-        case option :: tail =>
-          println("Unknown option "+option)
-          println(usage)
-          sys.exit(1)
+    if(args.length > 0){
+      try{
+         val seqNum = args(0).toInt              
+         seq = seqNum
+      } 
+      catch{
+        case e: Exception => println("es: Command line argument for sequence number is not an integer.")
       }
     }
-    */
-    
-    // ---------------------------------------------------
-    // Options - set them to the values in the arglist,
-    //           if there is a valid arglist, 
-    //           else set them to the default values
-    // ---------------------------------------------------
-    //val options = nextOption(defaultOptions, arglist)
-    
-    // -------------------------------------------------------
-    // Extractions to Score -  
-    //   list of lines from extractions file
-    // -------------------------------------------------------
-    //val extractionsLines = Source.fromFile(extractions_file).getLines
-    //  .map(line=>line.trim()).filter(line=>line!="").toList
-
-    
-    println("Reading Extractions")
+        
+    println("es: Reading Extractions")
     
     // -------------------------------------------------------
     // Extractions to Score -  
@@ -152,20 +104,24 @@ object ExtractionScoring {
 
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
-        ExtractionInputLine(tokens(0).toInt, tokens(1).toInt, tokens(2), tokens(3), tokens(4), 
-            tokens(5), tokens(6))}).toList
-    } 
-    
-    println("Extractions size: " + extractions.size)
-    
-    println("Reading Answer Key")
+        try{
+             ExtractionInputLine(tokens(0).toInt, tokens(1).toInt, tokens(2), tokens(3), tokens(4), 
+                tokens(5), tokens(6))  
+        }catch{ 
+           // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
+           // and filtering it out before returning the list
+           // Eg. a header line will not start with an integer
+           case e: Exception => ExtractionInputLine(-1, -1, "tokens(2)", "tokens(3)", "tokens(4)", 
+                "tokens(5)", "tokens(6)")  
+        }
         
-    // -------------------------------------------------------
-    // Answer Key - 
-    //   list of lines from answerkey file
-    // -------------------------------------------------------    
-    //val answerkeyLines = Source.fromFile(answerkey_file).getLines
-    //  .map(line=>line.trim()).filter(line=>line!="").toList
+      }).toList.filter(l => l.extrIndex >= 0)
+           
+    } 
+       
+    println("es: Extractions size: " + extractions.size)
+    
+    println("es: Reading Answer Key")
 
     // -------------------------------------------------------
     // Answer Key -  
@@ -183,7 +139,7 @@ object ExtractionScoring {
 
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
-          //println("tokens size: " + tokens.length)
+        try{  
           if(tokens.length ==9){
             //extrIndex: Int, sentIndex: Int, docid: String, entity: String, relation: String, 
             //slotfill: String, correct: String, incorrect: String, sentence: String)
@@ -194,12 +150,20 @@ object ExtractionScoring {
             AnswerKeyItem(tokens(0).toInt, tokens(1).toInt, tokens(2), tokens(3), tokens(4), tokens(5), 
                "","", tokens(6))
           }
-      }).toList
+        }catch{
+          // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
+          // and filtering it out before returning the list
+          // Eg. a header line will not start with an integer
+        case e: Exception => AnswerKeyItem(-1, -1, "tokens(2)", "tokens(3)", "tokens(4)", 
+                "tokens(5)", "tokens(6)", "tokens(7)", "tokens(8)")  
+        }   
+        
+      }).toList.filter(l => l.extrIndex >= 0)
     }       
     
-    println("AKI size: " + answerkeyItems.size)
+    println("es: AKI size: " + answerkeyItems.size)
     
-    println("Building Answer Key")
+    println("es: Building Answer Key")
            
     // -------------------------------------------------------
     // Build Answer Key 
@@ -208,8 +172,8 @@ object ExtractionScoring {
     val answerkeyItemsCorrect = answerkeyItems.filter(aki => aki.correct == "1").toSet
     val answerkeyItemsIncorrect = answerkeyItems.filter(aki => aki.incorrect == "1").toSet     
 
-    println("AK Correct size: " + answerkeyItemsCorrect.size)
-    println("AK Incorrect size: " + answerkeyItemsIncorrect.size)
+    println("es: AK Correct size: " + answerkeyItemsCorrect.size)
+    println("es: AK Incorrect size: " + answerkeyItemsIncorrect.size)
     
     // -------------------------------------------------------------
     // Create MatchKey sets for Correct and Incorrect
@@ -225,11 +189,34 @@ object ExtractionScoring {
            answerkeyItem.slotfill)  
     }
 
-    println("MK Correct size: " + matchkeyItemsCorrect.size)
-    println("MK Incorrect size: " + matchkeyItemsIncorrect.size)
+    println("es: MK Correct size: " + matchkeyItemsCorrect.size)
+    println("es: MK Incorrect size: " + matchkeyItemsIncorrect.size)
     
     
-    println("Opening files for scoring report and new extractions")
+    println("es: Opening files for scoring report and new extractions")
+
+    // --------------------------------------------------------
+    // --------------------------------------------------------
+    // Check if output files exist already
+    // If they do, exit with error message
+    // --------------------------------------------------------
+    // --------------------------------------------------------
+    
+    // Check if the scoring report file exists; if it does, exit with error message
+    if (Files.exists(Paths.get(scoringreport_file))) {
+      System.out.println(s"Scoring Report file $scoringreport_file already exists!  " +
+        s"Please set the number in $seqFilename to a non conflicting " +
+        s"sequence number.\nExiting...")
+      sys.exit(1)
+    }
+    
+    // Check if the new extractions file exists; if it does, exit with error message
+    if (Files.exists(Paths.get(newextractions_file))) {
+      System.out.println(s"Scoring Report file $newextractions_file already exists!  " +
+        s"Please set the number in $seqFilename to a non conflicting " +
+        s"sequence number.\nExiting...")
+      sys.exit(1)
+    }
 
     // -------------------------------------------------------
     // -------------------------------------------------------
@@ -239,6 +226,7 @@ object ExtractionScoring {
     //      -- # correct, # incorrect, precision
     // -------------------------------------------------------
     // -------------------------------------------------------
+    
     val scoringreport = new PrintWriter(scoringreport_file)    
     
     scoringreport.append("SentenceIndex" + "\t" + "DocumentId" + "\t" + 
@@ -252,6 +240,7 @@ object ExtractionScoring {
     //        so they can be tagged
     // -------------------------------------------------------  
     // -------------------------------------------------------        
+             
     val newextractions = new PrintWriter(newextractions_file)    
     //val newextractions = new PrintWriter(new BufferedWriter(new FileWriter(newextractions_file, true)))    
 
@@ -281,7 +270,7 @@ object ExtractionScoring {
     })
     
     
-    println("Scoring Extractions")
+    println("es: Scoring Extractions")
     
     // -------------------------------------------------------
     // Summary Stats
@@ -291,7 +280,6 @@ object ExtractionScoring {
     var numUntagged = 0
     val numMissed = matchkeyItemsCorrect.size
     val testResults = new TestResults()
-    //var relationScores :HashMap[String,RelationCounts] = HashMap()
     var relationScoresCorrect :HashMap[String,Int] = HashMap()
     var relationScoresIncorrect :HashMap[String,Int] = HashMap()
     
@@ -305,8 +293,6 @@ object ExtractionScoring {
       var untagged = false
       var correctField = ""
       var incorrectField = ""  
-      //var correctRelation = 0
-      //var incorrectRelation = 0
         
       val extrCheck = MatchKey(extraction.sentIndex, extraction.docid, extraction.relation, 
           extraction.slotfill)
@@ -314,16 +300,6 @@ object ExtractionScoring {
       correct = matchkeyItemsCorrect.contains(extrCheck)
       if(correct){ numCorrect += 1
                    correctField = "1"  
-                   //if(relationScores.contains(extraction.relation)){
-                   //   correctRelation = relationScores(extraction.relation).correct + 1 
-                   //   incorrectRelation = relationScores(extraction.relation).incorrect 
-                   //}
-                   //else{
-                   //  correctRelation = 1 
-                   //  incorrectRelation = 0 
-                   //}
-                   //relationScores += (extraction.relation -> 
-                   //  RelationCounts(extraction.relation,correctRelation,incorrectRelation))
                    
                    if(relationScoresCorrect.contains(extraction.relation)){
                      relationScoresCorrect(extraction.relation) += 1
@@ -337,16 +313,7 @@ object ExtractionScoring {
         incorrect = matchkeyItemsIncorrect.contains(extrCheck)        
         if(incorrect){ numIncorrect += 1
                        incorrectField = "1"
-                       //if(relationScores.contains(extraction.relation)){
-                       //  val correctRelation = relationScores(extraction.relation).correct
-                       //  val incorrectRelation = relationScores(extraction.relation).incorrect + 1
-                       //}
-                       //else{
-                       //  correctRelation = 0 
-                       //  incorrectRelation = 1 
-                       //}
-                       //relationScores += (extraction.relation -> 
-                       //   RelationCounts(extraction.relation,correctRelation,incorrectRelation))
+                       
                        if(relationScoresIncorrect.contains(extraction.relation)){
                          relationScoresIncorrect(extraction.relation) += 1
                        }  
@@ -375,7 +342,7 @@ object ExtractionScoring {
             
     }
 
-    println("Writing Scoring Report")
+    println("es: Writing Scoring Report")
     
     // -----------------------------------------------------------
     // Compute and Output Summary Statistics
@@ -407,20 +374,10 @@ object ExtractionScoring {
         formattedIncorrectHeading + "\t\t" + 
         formattedPrecisionHeading + "\t\t" + 
         formattedRelationHeading + "\n")    
-    //val columnWidth = 10
-        
-    // ------------------------------------------------    
-    // Write results by relation    
-    // ------------------------------------------------    
-    //relationScores.foreach(kv => { 
-    //   val extractionRelation = kv._1
-    //   testResults.correct = kv._2.correct
-    //   testResults.incorrect = kv._2.incorrect
-    //   testResults.missed = matchkeyItemsCorrect.filter(mki => mki.relation == extractionRelation).size
-    //   scoringreport.append(testResults.correct + "\t" + testResults.incorrect + 
-    //    "\t" + testResults.precision + "\t" + extractionRelation + "\n")  
-    //  }
-    //)
+   
+    // -----------------------------------------------------------        
+    // Write stats for each relation   
+    // -----------------------------------------------------------
         
     val relationScoresKeys = relationScoresCorrect.keySet ++ relationScoresIncorrect.keySet    
         
@@ -440,10 +397,9 @@ object ExtractionScoring {
       scoringreport.append(formattedCorrect + "\t\t" + formattedIncorrect + "\t\t" + 
            formattedPrecision + "\t\t" + extractionRelation + "\n")  
     })
-        
-        
+                
     // -----------------------------------------------------------        
-    // Write results for the total (i.e. includes all relations)   
+    // Write stats for the total (i.e. includes all relations)   
     // -----------------------------------------------------------
     testResults.correct = numCorrect
     testResults.incorrect = numIncorrect
@@ -462,7 +418,7 @@ object ExtractionScoring {
         + "total" + "\n")    
         
     
-    println("Closing PrintWriters")    
+    println("es: Closing PrintWriters")    
                 
     newextractions.close()    
     scoringreport.close()     
