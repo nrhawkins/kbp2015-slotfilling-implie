@@ -58,13 +58,13 @@ object ExtractionScoring {
   //     - this number is one greater than the last one written
   // --------------------------------------------------------------
   var seq = getSeqNum(seqFilename)
-  val extractions_file = config.getString("input-dir-results") + 
+  var extractions_file = config.getString("input-dir-results") + 
      seq + config.getString("extractions-file-tail")
-  val answerkey_file = config.getString("input-dir-answers") + 
+  var answerkey_file = config.getString("input-dir-answers") + 
      (seq-1) + config.getString("answer-key-file-tail")
-  val scoringreport_file = config.getString("output-dir") + 
+  var scoringreport_file = config.getString("output-dir") + 
      seq + config.getString("score-report-file-tail")
-  val newextractions_file = config.getString("output-dir") + 
+  var newextractions_file = config.getString("output-dir") + 
      seq + config.getString("new-extractions-file-tail")
 
   // -----------------------------------------------------------------
@@ -80,6 +80,14 @@ object ExtractionScoring {
       try{
          val seqNum = args(0).toInt              
          seq = seqNum
+         extractions_file = config.getString("input-dir-results") + 
+            seq + config.getString("extractions-file-tail")
+         answerkey_file = config.getString("input-dir-answers") + 
+            (seq-1) + config.getString("answer-key-file-tail")
+         scoringreport_file = config.getString("output-dir") + 
+            seq + config.getString("score-report-file-tail")
+         newextractions_file = config.getString("output-dir") + 
+            seq + config.getString("new-extractions-file-tail")         
       } 
       catch{
         case e: Exception => println("es: Command line argument for sequence number is not an integer.")
