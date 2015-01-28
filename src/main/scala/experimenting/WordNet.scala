@@ -13,7 +13,7 @@ import scala.collection.JavaConversions._
 object WordNet {
   def main(args: Array[String]) {
     // construct the URL to the Wordnet dictionary directory
-    val path = "C:/Program Files/WordNet/2.1/dict"
+    val path = "C:/Program Files (x86)/WordNet/2.1/dict"
     val url = new URL("file", null, path)
 
     // construct the dictionary object and open it

@@ -1,0 +1,2 @@
+# to get all one word terms in a file.
+grep -x "[a-zA-Z][a-zA-Z]*" school.txt > one_word_school.txt
