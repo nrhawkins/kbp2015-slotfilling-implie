@@ -57,7 +57,7 @@ object ExtractionScoring {
   // seq - append this number in front of the files being output
   //     - this number is one greater than the last one written
   // --------------------------------------------------------------
-  var seq = getSeqNum(seqFilename)
+  var seq = getSeqNum(seqFilename) - 1
   var extractions_file = config.getString("input-dir-results") + 
      seq + config.getString("extractions-file-tail")
   var answerkey_file = config.getString("input-dir-answers") + 
@@ -75,6 +75,8 @@ object ExtractionScoring {
   // -----------------------------------------------------------------      
   // -----------------------------------------------------------------
   def main(args: Array[String]) {
+    
+    println("es: Args length: " + args.length)
 
     if(args.length > 0){
       try{
