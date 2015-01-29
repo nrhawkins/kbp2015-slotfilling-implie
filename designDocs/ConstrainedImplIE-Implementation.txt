@@ -1,0 +1,7 @@
+In order to constrain the ImplIE system we will filter by word hypernyms and Named-Entity Recognition classification.
+
+The system will be constrained so that for the head word of the extraction must either have a hypernym of the corresponding categories or be a named entity of that category.
+
+The head word is found using the Stanford edu.stanford.nlp.trees.SemanticHeadFinder.
+Word hypernyms are found using WordNet 2.1.
+The NER classifications are found using the Stanford edu.stanford.nlp.ie.crf.CRFClassifier.
