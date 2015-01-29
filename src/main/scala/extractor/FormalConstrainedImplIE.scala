@@ -46,11 +46,6 @@ class FormalConstrainedImplIE
     // Return everything that satisfies WordNet or NER.
     val wordnetFiltered = filterWordNet(line, unfiltered)
     val nerFiltered = filterNERs(line, unfiltered)
-    println("extract relations.")
-    println(unfiltered)
-    println(wordnetFiltered)
-    println(nerFiltered)
-    println(wordnetFiltered.toSet union nerFiltered.toSet)
     (wordnetFiltered.toSet union nerFiltered.toSet).toList
   }
 }
