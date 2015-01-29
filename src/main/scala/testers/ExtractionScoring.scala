@@ -25,20 +25,20 @@ object ExtractionScoring {
 
   // ------------------------------------------------------------------------
   // AnswerKeyItem fields:
-  // 1)ExtractionIndex 2)SentenceIndex 3)DocId 4)Entity(NP) 5)Relation 
-  // 6)Slotfill(tag) 7)Correct 8)Incorrect 9)Sentence
+  // 1)SentenceIndex 2)DocId 3)Entity(NP) 4)Relation 
+  // 5)Slotfill(tag) 6)Correct 7)Incorrect 8)Sentence
   // *Keep all of the fields so can re-write file with new extractions
   // ------------------------------------------------------------------------
-  case class AnswerKeyItem(extrIndex: Int, sentIndex: Int, docid: String, 
+  case class AnswerKeyItem(sentIndex: Int, docid: String, 
       entity: String, relation: String, slotfill: String, correct: String, 
       incorrect: String, sentence: String)
   // ------------------------------------------------------------------------
   // ExtractionInputLine fields:
-  // 1)ExtractionIndex 2)SentenceIndex 3)DocId 4)Entity(NP) 5)Relation 
-  // 6)Slotfill(tag) 7)Sentence
+  // 1)SentenceIndex 2)DocId 3)Entity(NP) 4)Relation 
+  // 5)Slotfill(tag) 6)Sentence
   // *Keep all of the fields so untagged extractions can be written to file    
   // ------------------------------------------------------------------------
-  case class ExtractionInputLine(extrIndex: Int, sentIndex: Int, docid: String, 
+  case class ExtractionInputLine(sentIndex: Int, docid: String, 
       entity: String, relation: String, slotfill: String, sentence: String)
   // ------------------------------------------------------------------------
   // MatchKey fields:
@@ -115,17 +115,17 @@ object ExtractionScoring {
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
         try{
-             ExtractionInputLine(tokens(0).toInt, tokens(1).toInt, tokens(2), tokens(3), tokens(4), 
-                tokens(5), tokens(6))  
+             ExtractionInputLine(tokens(0).toInt, tokens(1), tokens(2), tokens(3), tokens(4),
+                tokens(5))
         }catch{ 
            // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
            // and filtering it out before returning the list
            // Eg. a header line will not start with an integer
-           case e: Exception => ExtractionInputLine(-1, -1, "tokens(2)", "tokens(3)", "tokens(4)", 
-                "tokens(5)", "tokens(6)")  
+           case e: Exception => ExtractionInputLine(-1, "tokens(1)", "tokens(2)", "tokens(3)",
+                "tokens(4)", "tokens(5)")
         }
         
-      }).toList.filter(l => l.extrIndex >= 0)
+      }).toList.filter(l => l.sentIndex >= 0)
            
     } 
        
@@ -150,25 +150,25 @@ object ExtractionScoring {
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
         try{  
-          if(tokens.length ==9){
-            //extrIndex: Int, sentIndex: Int, docid: String, entity: String, relation: String, 
+          if(tokens.length == 8){
+            //sentIndex: Int, docid: String, entity: String, relation: String, 
             //slotfill: String, correct: String, incorrect: String, sentence: String)
-            AnswerKeyItem(tokens(0).toInt, tokens(1).toInt, tokens(2), tokens(3), tokens(4), 
-               tokens(5), tokens(6), tokens(7), tokens(8))
+            AnswerKeyItem(tokens(0).toInt, tokens(1), tokens(2), tokens(3), tokens(4), 
+               tokens(5), tokens(6), tokens(7))
           }
-          else{//tokens.length==7
-            AnswerKeyItem(tokens(0).toInt, tokens(1).toInt, tokens(2), tokens(3), tokens(4), tokens(5), 
-               "","", tokens(6))
+          else{//tokens.length == 6
+            AnswerKeyItem(tokens(0).toInt, tokens(1), tokens(2), tokens(3), tokens(4),
+               "","", tokens(5))
           }
         }catch{
           // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
           // and filtering it out before returning the list
           // Eg. a header line will not start with an integer
-        case e: Exception => AnswerKeyItem(-1, -1, "tokens(2)", "tokens(3)", "tokens(4)", 
-                "tokens(5)", "tokens(6)", "tokens(7)", "tokens(8)")  
+        case e: Exception => AnswerKeyItem(-1, "tokens(1)", "tokens(2)", "tokens(3)", 
+                "tokens(4)", "tokens(5)", "tokens(6)", "tokens(7)")  
         }   
         
-      }).toList.filter(l => l.extrIndex >= 0)
+      }).toList.filter(l => l.sentIndex >= 0)
     }       
     
     println("es: AKI size: " + answerkeyItems.size)
@@ -261,20 +261,20 @@ object ExtractionScoring {
     // -----------------------------------------------------------------------------       
     
     // Write header line
-    newextractions.append("ExtractionIndex" + "\t" + "SentenceIndex" + "\t" + "DocumentId" +
+    newextractions.append("SentenceIndex" + "\t" + "DocumentId" +
         "\t" + "Entity" + "\t" + "Relation" + "\t" + "Slotfill" + "\t" + "Correct" + "\t" + 
         "Incorrect" + "\t" + "Sentence" + "\n")
 
     // Write correct answer key items
     answerkeyItemsCorrect.foreach(k => {
-       newextractions.append(k.extrIndex + "\t" + k.sentIndex + "\t" + k.docid +
+       newextractions.append(k.sentIndex + "\t" + k.docid +
            "\t" + k.entity + "\t" + k.relation + "\t" + k.slotfill + "\t" + 
            k.correct + "\t" + k.incorrect + "\t" + k.sentence + "\n")             
     })
 
     // Write incorrect answer key items
     answerkeyItemsIncorrect.foreach(k => {
-       newextractions.append(k.extrIndex + "\t" + k.sentIndex + "\t" + k.docid +
+       newextractions.append(k.sentIndex + "\t" + k.docid +
            "\t" + k.entity + "\t" + k.relation + "\t" + k.slotfill + "\t" + 
            k.correct + "\t" + k.incorrect + "\t" + k.sentence + "\n")             
     })
@@ -339,7 +339,7 @@ object ExtractionScoring {
       }
 
       if(untagged){
-        newextractions.append(extraction.extrIndex + "\t" + extraction.sentIndex + "\t" + 
+        newextractions.append(extraction.sentIndex + "\t" + 
             extraction.docid + "\t" + extraction.entity + "\t" + extraction.relation + "\t" + 
             extraction.slotfill + "\t" + correctField + "\t" + incorrectField + "\t" + 
             extraction.sentence + "\n")
@@ -395,7 +395,7 @@ object ExtractionScoring {
       val extractionRelation = k
       val countCorrect = relationScoresCorrect.getOrElse(extractionRelation, 0)
       val countIncorrect = relationScoresIncorrect.getOrElse(extractionRelation, 0)
-      val countMissed = matchkeyItemsCorrect.filter(mki => mki.relation == extractionRelation).size
+      val countMissed = matchkeyItemsCorrect.count(mki => mki.relation == extractionRelation)
       val testResultsRelation = new TestResults(countCorrect,countIncorrect,countMissed)
       var x = testResultsRelation.correct
       val formattedCorrect = f"$x%10s"

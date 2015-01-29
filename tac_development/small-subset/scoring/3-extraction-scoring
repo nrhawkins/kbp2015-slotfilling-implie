@@ -1,0 +1,12 @@
+SentenceIndex	DocumentId	Entity	Relation	Slotfill(tag)	Correct	Incorrect	Sentence
+
+Number of Extractions: 57
+Number of Tagged Extractions: 0
+Number of Untagged Extractions: 57
+Number of AnswerKeyItems: 3137
+Number of AnswerKeyItems Correct: 0
+Number of AnswerKeyItems Incorrect: 0
+
+   Correct		 Incorrect		 Precision		  Relation
+
+         0		         0		       NaN		total
