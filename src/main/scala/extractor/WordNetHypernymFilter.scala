@@ -49,7 +49,7 @@ trait WordNetHypernymFilter extends WordNetFilterable {
       val stemmedHead = stem(rel.head)
 
       if (stemmedHead == "") {
-        return null
+        null
       } else {
         val idxWord = wordnetDictionary.getIndexWord(stemmedHead, POS.NOUN)
         val hypernyms = findAllHypernyms(idxWord)
