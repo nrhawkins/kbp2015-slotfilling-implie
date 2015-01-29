@@ -1,11 +1,13 @@
 package extractor
 
+import com.typesafe.config.Config
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.stanford.nlp.ie.crf.CRFClassifier
 import edu.stanford.nlp.ling.{CoreAnnotations, CoreLabel, Word}
 import utils.ExtractionUtils
 
 import scala.collection.JavaConversions._
+import scala.collection.mutable
 
 /**
  * Trait for any class that wants to be able to filter extractions by NER tags.
@@ -22,24 +24,7 @@ trait NERFilterable {
 
   def getTokens(line: String): Seq[ChunkedToken]
 
-  def filterNERs(src: String, relations: List[ImplicitRelation]): List[ImplicitRelation] = {
-    // Add NER tags for each extraction.
-    val taggedNERs = tagNERs(relations, src)
-
-    // Filter out NERs that don't match the keyword tag's expected entity type.
-    taggedNERs.foreach(extraction => {
-      val ners = extraction.getNERs
-      val tag = extraction.relation
-      extraction.setNERs(
-        ners.filter(ner => expectedEntities.getOrElse(tag, Nil).contains(ner.ner)))
-    })
-
-    // Filter out extractions where there are no remaining NER tags.
-    val results = taggedNERs.filter(extraction => extraction.getNERs.size > 0)
-
-    results
-  }
-
+  def filterNERs(src: String, relations: List[ImplicitRelation]): List[ImplicitRelation]
 
   def tagNERs(extractions: List[ImplicitRelation],
               line: String): List[ImplicitRelation] = {
@@ -93,5 +78,15 @@ trait NERFilterable {
         cur.setNERs(nersWithinExtraction)
         cur::acc
       })
+  }
+
+  def expectedTagEntities(confs: List[Config]): Map[String, List[String]] = {
+    val map = mutable.Map[String, List[String]]()
+    for (conf <- confs) {
+      val tag = conf.getString("tag")
+      val entityTypes = conf.getStringList("entity-types").toList
+      map.put(tag, entityTypes)
+    }
+    map.toMap
   }
 }

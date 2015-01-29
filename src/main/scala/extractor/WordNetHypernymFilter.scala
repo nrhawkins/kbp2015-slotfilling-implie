@@ -1,5 +1,6 @@
 package extractor
 
+import com.typesafe.config.Config
 import edu.mit.jwi.Dictionary
 import edu.mit.jwi.item.{IWord, Pointer, IIndexWord, POS}
 import edu.mit.jwi.morph.WordnetStemmer
@@ -112,6 +113,33 @@ trait WordNetHypernymFilter extends WordNetFilterable {
 
     lemmas:::hypernyms.foldLeft(Nil: List[String])((acc, hypernym) =>
       expandByPointerThenHypernym(hypernym(0), Pointer.HYPERNYM):::acc)
+  }
+
+  /**
+   * Get the wordnet filter definitions from the config file.
+   * @param confs Config that contains the wordnet filter information.
+   * @return Mapping of tags to the corresponding wordnet filter definition.
+   */
+  def getWordnetFilters(confs: List[Config]): Map[String, WordNetFilter] = {
+    def getOrEmpty(conf: Config, field: String): List[String] = {
+      if (conf.hasPath(field)) {
+        conf.getStringList(field).toList
+      } else {
+        Nil
+      }
+    }
+
+    def filterLists(conf: Config) = {
+      FilterLists(getOrEmpty(conf, "hypernyms"), getOrEmpty(conf, "hypernym-instances"))
+    }
+
+    val map = scala.collection.mutable.HashMap[String, WordNetFilter]()
+    confs.foreach(conf => {
+      val name = conf.getString("tag")
+      map.put(name, WordNetFilter(name, filterLists(conf.getConfig("accept")),
+        filterLists(conf.getConfig("reject"))))
+    })
+    map.toMap
   }
 
   /**

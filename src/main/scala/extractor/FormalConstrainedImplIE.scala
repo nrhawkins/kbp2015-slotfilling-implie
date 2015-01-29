@@ -2,29 +2,28 @@ package extractor
 
 import java.net.URL
 
-import com.typesafe.config.{Config, ConfigFactory}
+import com.typesafe.config.ConfigFactory
 import edu.knowitall.repr.sentence.{Lemmatized, Chunked, Sentence}
 import edu.knowitall.taggers.TaggerCollection
 import edu.mit.jwi.Dictionary
+import edu.stanford.nlp.ie.crf.CRFClassifier
+import edu.stanford.nlp.ling.CoreLabel
 
 import scala.collection.JavaConversions._
 
 /**
- * An ImplicitRelationExtractor that also filters by WordNet types.
- * The filtering finds the head word of the extraction, then looks at its
- * WordNet type for filtering.
- *
- * Since WordNet only
- *
- * The filters for each tag are specified in resources/wordnet-filtered-ire.conf.
+ * Created by Gene on 1/29/2015.
  */
-class WordNetFilteredIRE
+class FormalConstrainedImplIE
   (tagger: TaggerCollection[Sentence with Chunked with Lemmatized],
    serializedTokenCacheFile: String = null,
    serializedParseCacheFile: String = null)
   extends ImplicitRelationExtractor(
     tagger, serializedTokenCacheFile, serializedParseCacheFile)
-  with WordNetHypernymFilter {
+  // filterWordNet function.
+  with WordNetHypernymFilter
+  // filterNERs function.
+  with NERFilterByHeadWord {
 
   protected val wordnetConfig = ConfigFactory.load("wordnet-filtered-ire.conf")
   protected val wordnetFilterParams =
@@ -32,9 +31,17 @@ class WordNetFilteredIRE
   protected val wordnetDictionary = new Dictionary(new URL(
     "file", null, wordnetConfig.getString("wordnet-dictionary")))
 
+  val nerConfig = ConfigFactory.load("ner-filtered-ire.conf")
+  protected val expectedEntities =
+    expectedTagEntities(nerConfig.getConfigList("tag-entities").toList)
+  protected val NER_MODEL = nerConfig.getString("ner-model-file")
+  protected val classifier: CRFClassifier[CoreLabel] = CRFClassifier.getClassifier(NER_MODEL)
+  protected val NER_TAGS_TO_IGNORE = nerConfig.getStringList("ner-tag-ignore").toList
+
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val unfiltered = super.extractRelations(line)
     addHeadsToExtractions(unfiltered)
-    filterWordNet(line, unfiltered)
+    val wordnetFiltered = filterWordNet(line, unfiltered)
+    filterNERs(line, wordnetFiltered)
   }
 }

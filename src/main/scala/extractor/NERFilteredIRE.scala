@@ -22,7 +22,7 @@ class NERFilteredIRE
   extends ImplicitRelationExtractor(
     tagger, serializedTokenCacheFile, serializedParseCacheFile)
   // filterNERs function.
-  with NERFilterable {
+  with NERFilterByAnyInEntity {
 
   val nerConfig = ConfigFactory.load("ner-filtered-ire.conf")
   protected val expectedEntities =
@@ -34,15 +34,5 @@ class NERFilteredIRE
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val unfiltered = super.extractRelations(line)
     filterNERs(line, unfiltered)
-  }
-
-  private def expectedTagEntities(confs: List[Config]): Map[String, List[String]] = {
-    val map = mutable.Map[String, List[String]]()
-    for (conf <- confs) {
-      val tag = conf.getString("tag")
-      val entityType = conf.getString("entity-type")
-      map.put(tag, entityType::Nil)
-    }
-    map.toMap
   }
 }

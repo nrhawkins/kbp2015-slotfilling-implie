@@ -16,17 +16,7 @@ import edu.stanford.nlp.trees.{TypedDependency, Tree, SemanticHeadFinder}
 trait WordNetFilterable {
   def getParse(line: String): (Tree, List[TypedDependency])
 
-  // TODO: Add index to the head.
-  // TODO: add WordNetStemmer
-  // TODO: move to normal ImplicitRelationExtractor
-  def addHeadsToExtractions(extractions: List[ImplicitRelation]) {
-    // Get heads of the extractions.
-    val headFinder = new SemanticHeadFinder()
-    extractions.foreach(rel => {
-      val tree = getParse(rel.np.string)._1
-      rel.setHead(tree.headTerminal(headFinder).value())
-    })
-  }
+  def addHeadsToExtractions(extractions: List[ImplicitRelation])
 
   def filterWordNet(line: String, relations: List[ImplicitRelation]): List[ImplicitRelation]
 }

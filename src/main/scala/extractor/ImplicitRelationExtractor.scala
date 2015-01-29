@@ -295,4 +295,15 @@ class ImplicitRelationExtractor(
   private def constructEnclosingPunctuation(punctConfs: List[Config]): List[EnclosingPunctuation] = {
     punctConfs.map(pc => EnclosingPunctuation(pc.getString("open"), pc.getString("close")))
   }
+
+  // TODO: Add index to the head.
+  // TODO: move to normal ImplicitRelationExtractor
+  def addHeadsToExtractions(extractions: List[ImplicitRelation]) {
+    // Get heads of the extractions.
+    val headFinder = new SemanticHeadFinder()
+    extractions.foreach(rel => {
+      val tree = getParse(rel.np.string)._1
+      rel.setHead(tree.headTerminal(headFinder).value())
+    })
+  }
 }
