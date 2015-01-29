@@ -6,6 +6,7 @@ import com.typesafe.config.ConfigFactory
 import edu.knowitall.repr.sentence.{Lemmatized, Chunked, Sentence}
 import edu.knowitall.taggers.TaggerCollection
 import edu.mit.jwi.Dictionary
+import edu.mit.jwi.morph.WordnetStemmer
 import edu.stanford.nlp.ie.crf.CRFClassifier
 import edu.stanford.nlp.ling.CoreLabel
 
@@ -30,6 +31,7 @@ class FormalConstrainedImplIE
     getWordnetFilters(wordnetConfig.getConfigList("wordnet-filters").toList)
   protected val wordnetDictionary = new Dictionary(new URL(
     "file", null, wordnetConfig.getString("wordnet-dictionary")))
+  val stemmer = new WordnetStemmer(wordnetDictionary)
 
   val nerConfig = ConfigFactory.load("ner-filtered-ire.conf")
   protected val expectedEntities =

@@ -15,7 +15,7 @@ import scala.collection.JavaConversions._
 trait WordNetHypernymFilter extends WordNetFilterable {
   protected val wordnetFilterParams: Map[String, WordNetFilter]
   protected val wordnetDictionary: Dictionary
-  val stemmer = new WordnetStemmer(wordnetDictionary)
+  val stemmer: WordnetStemmer
 
   /**
    * Filters by the (recursive) hypernyms as specified in wordnetFilterParams.
