@@ -21,6 +21,7 @@ object TaggerLoader {
 
   val default_tagger_config = ConfigFactory.load("taggers/default-extractor-tagger.conf")
   val basic_test_tagger_config = ConfigFactory.load("taggers/basic-test-tagger.conf")
+  val no_tags_ignored_config = ConfigFactory.load("taggers/no-tags-ignored-tagger.conf")
 
   val chunker = new OpenNlpChunker()
 
@@ -38,6 +39,7 @@ object TaggerLoader {
 
   def defaultTagger = memoizedTagger("default", default_tagger_config)
   def basicTestTagger = memoizedTagger("basic_test", basic_test_tagger_config)
+  def noTagsIgnoredTagger = memoizedTagger("no_tags_ignored", no_tags_ignored_config)
 
   /**
    * Constructs a tagger from a tagger configuration.
