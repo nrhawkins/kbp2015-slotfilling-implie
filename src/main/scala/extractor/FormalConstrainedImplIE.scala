@@ -41,7 +41,9 @@ class FormalConstrainedImplIE
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val unfiltered = super.extractRelations(line)
     addHeadsToExtractions(unfiltered)
+    // Return everything that satisfies WordNet or NER.
     val wordnetFiltered = filterWordNet(line, unfiltered)
-    filterNERs(line, wordnetFiltered)
+    val nerFiltered = filterNERs(line, unfiltered)
+    (wordnetFiltered.toSet union nerFiltered.toSet).toList
   }
 }
