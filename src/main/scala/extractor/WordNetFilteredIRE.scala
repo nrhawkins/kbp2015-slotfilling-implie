@@ -24,10 +24,10 @@ class WordNetFilteredIRE
    serializedParseCacheFile: String = null)
   extends ImplicitRelationExtractor(
     tagger, serializedTokenCacheFile, serializedParseCacheFile)
-  with WordNetFilterable {
+  with WordNetHypernymFilter {
 
   protected val wordnetConfig = ConfigFactory.load("wordnet-filtered-ire.conf")
-  protected val wordnetFilters =
+  protected val wordnetFilterParams =
     getWordnetFilters(wordnetConfig.getConfigList("wordnet-filters").toList)
   protected val wordnetDictionary = new Dictionary(new URL(
     "file", null, wordnetConfig.getString("wordnet-dictionary")))
