@@ -48,9 +48,9 @@ object TACDevelopmentRelationExtractor {
         val result = (input, outputs)
 
         // Starting a new file, print the column headers.
-        val columnHeaders = Array("Extraction Index", "Sentence Index", "DocId",
+        val columnHeaders = Array("Sentence Index", "DocId",
           "Entity(NP)", "Relation", "Slotfill(tag)", "Sentence")
-        val nullColumnHeaders = Array("Extraction Index", "Sentence Index",
+        val nullColumnHeaders = Array("Sentence Index",
           "DocId", "Sentence")
         result._2._1.println(columnHeaders.tail.foldLeft
                              (columnHeaders.head)
@@ -70,24 +70,20 @@ object TACDevelopmentRelationExtractor {
 
     println("Extracting Sentences.")
     println(s"${inputLines.size} sentences to process.")
-    var i1 = 0
-    var i2 = 0
     for (inputLine <- inputLines) {
       val extractions = relationExtractor.extractRelations(inputLine.sentence)
       if (extractions.length != 0) {
         for (extraction <- extractions) {
-          // Extraction Index, Sentence Index, Docid, Entity(NP), Relation, Slotfill(tag), Sentence
+          // Sentence Index, Docid, Entity(NP), Relation, Slotfill(tag), Sentence
           out.println(
-            s"$i1\t${inputLine.index}\t${inputLine.docid}" +
+            s"${inputLine.index}\t${inputLine.docid}" +
               s"\t${extraction.np}\t${extraction.relation}\t${extraction.tag.asIndexedString}" +
               s"\t${inputLine.sentence}")
-          i1 += 1
         }
       } else {
         // If no extraction, write to null outputs.
         nullout.println(
-          s"$i2\t${inputLine.index}\t${inputLine.docid}\t${inputLine.sentence}")
-        i2 += 1
+          s"${inputLine.index}\t${inputLine.docid}\t${inputLine.sentence}")
       }
 
       if (inputLine.index % 100 == 0) {

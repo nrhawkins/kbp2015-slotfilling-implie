@@ -21,7 +21,7 @@ object RerunSentenceExtraction {
                   .filter(l => l.trim != "")
                   .map(l => {
       val tokens = l.split("\t").filter(t => t.trim != "")
-      SentenceEntry(tokens(1).toInt, tokens(2), tokens(6))
+      SentenceEntry(tokens(0).toInt, tokens(1), tokens(5))
     })
 
     val split = RandomSentenceSetExtractor.splitList(Nil, entries, 20)

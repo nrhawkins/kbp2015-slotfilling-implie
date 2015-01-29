@@ -67,7 +67,7 @@ object RandomSentenceSetExtractor {
     val out = new PrintWriter(file)
 
     // Column Headers.
-    val columnHeaders = Array("Extraction Index", "Sentence Index", "DocId",
+    val columnHeaders = Array("Sentence Index", "DocId",
       "Entity(NP)", "Relation", "Slotfill(tag)", "Sentence")
     out.println(
       columnHeaders.tail.foldLeft
@@ -75,25 +75,22 @@ object RandomSentenceSetExtractor {
       ((acc, cur) => acc + s"\t$cur"))
 
     // Data.
-    var i = 0
     for ((extractions, se) <- results) {
       if (extractions.length != 0) {
         for (extraction <- extractions) {
-          // Extraction Index, Sentence Index, Docid, Entity(NP), Relation, Slotfill(tag), Sentence
+          // Sentence Index, Docid, Entity(NP), Relation, Slotfill(tag), Sentence
           out.println(
-            s"$i\t${se.index}\t${se.docId}" +
+            s"${se.index}\t${se.docId}" +
               s"\t${extraction.np}\t${extraction.relation}\t${extraction.tag}" +
               s"\t${se.sentence}")
-          i += 1
         }
       } else {
         // If no extraction, write NULL for the extraction.
         // Add 2 tabs to line up the sentence with the rest.
         out.println(
-          s"$i\t${se.index}\t${se.docId}" +
+          s"${se.index}\t${se.docId}" +
             s"\tNULL\t\t" +
             s"\t${se.sentence}")
-        i += 1
       }
     }
     out.close()
