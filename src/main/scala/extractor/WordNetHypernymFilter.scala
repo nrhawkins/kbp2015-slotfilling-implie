@@ -2,6 +2,7 @@ package extractor
 
 import edu.mit.jwi.Dictionary
 import edu.mit.jwi.item.{IWord, Pointer, IIndexWord, POS}
+import edu.mit.jwi.morph.WordnetStemmer
 
 import scala.collection.JavaConversions._
 
@@ -13,6 +14,7 @@ import scala.collection.JavaConversions._
 trait WordNetHypernymFilter extends WordNetFilterable {
   protected val wordnetFilterParams: Map[String, WordNetFilter]
   protected val wordnetDictionary: Dictionary
+  val stemmer = new WordnetStemmer(wordnetDictionary)
 
   /**
    * Filters by the (recursive) hypernyms as specified in wordnetFilterParams.
@@ -41,14 +43,20 @@ trait WordNetHypernymFilter extends WordNetFilterable {
     //    2. Filter out ones in the reject list.
     //    3. Filter out any that aren't in the accept list.
     val results = relations.map(rel => {
-      val filter = wordnetFilterParams.getOrElse(rel.tag.tag,
+      val filterParams = wordnetFilterParams.getOrElse(rel.tag.tag,
         WordNetFilter(rel.tag.tag, FilterLists(Nil, Nil), FilterLists(Nil, Nil)))
+      val stemmedHead = stem(rel.head)
 
-      val idxWord = wordnetDictionary.getIndexWord(rel.head, POS.NOUN)
-      val hypernyms = findAllHypernyms(idxWord)
-      val instanceHypernyms = findAllInstanceHypernyms(idxWord)
-      (filter, idxWord, hypernyms, instanceHypernyms, rel)
+      if (stemmedHead == "") {
+        return null
+      } else {
+        val idxWord = wordnetDictionary.getIndexWord(stemmedHead, POS.NOUN)
+        val hypernyms = findAllHypernyms(idxWord)
+        val instanceHypernyms = findAllInstanceHypernyms(idxWord)
+        (filterParams, idxWord, hypernyms, instanceHypernyms, rel)
+      }
     })
+    .filter(q => q != null)
     // Remove ones in reject.
     .filter(quint => {
       val (filter, idxWord, hypernyms, instanceHypernyms, rel) = quint
@@ -106,4 +114,16 @@ trait WordNetHypernymFilter extends WordNetFilterable {
       expandByPointerThenHypernym(hypernym(0), Pointer.HYPERNYM):::acc)
   }
 
+  /**
+   * Find a word's corresponding WordNet stem.
+   *
+   * @requires word must be a noun in the WordNet dictionary.
+   * @param word the word to find the stem of.
+   * @param n which stem to return - set this to 0, rarely will you want others.
+s   * @return If word's nth WordNet stem exists, returns it; else empty string.
+   */
+  private def stem(word: String, n: Int = 0): String = {
+    val stems = stemmer.findStems(word, POS.NOUN)
+    if (stems.length > n) stems(n) else ""
+  }
 }
