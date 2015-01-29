@@ -37,4 +37,16 @@ class ImplicitRelation(t: TagInfo, r: String, n: IndexedSubstring,
   def setHead(_head: String) {
     head = _head
   }
+
+  override def hashCode(): Int = tag.hashCode() + relation.hashCode +
+    np.hashCode() + sentence.hashCode
+
+  override def equals(other: Any): Boolean = other match {
+    case o: ImplicitRelation =>
+        o.tag.equals(this.tag) &&
+        o.relation.equals(this.relation) &&
+        o.np.equals(this.np) &&
+        o.sentence.equals(this.sentence)
+    case _ => false
+  }
 }

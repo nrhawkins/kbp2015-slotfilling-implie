@@ -23,6 +23,19 @@ class IndexedSubstring(s: String, bWordIndex: Int, eWordIndex: Int, bOffset: Int
   def setSource(newSource: String) {
     sourceSentence = newSource
   }
+
+  override def hashCode(): Int = string.hashCode() + index.hashCode() +
+    beginWordIndex.hashCode() + beginOffset.hashCode() + endOffset.hashCode()
+
+  override def equals(other: Any): Boolean = other match {
+    case o: IndexedSubstring =>
+        o.string.equals(this.string) &&
+        o.index.equals(this.index) &&
+        o.beginWordIndex.equals(this.beginWordIndex) &&
+        o.beginOffset.equals(this.beginOffset) &&
+        o.endOffset.equals(this.endOffset)
+    case _ => false
+  }
 }
 
 object IndexedSubstring {
