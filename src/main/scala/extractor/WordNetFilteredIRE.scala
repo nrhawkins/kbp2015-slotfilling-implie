@@ -34,7 +34,6 @@ class WordNetFilteredIRE
 
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val unfiltered = super.extractRelations(line)
-//    println(unfiltered)
     addHeadsToExtractions(unfiltered)
     filterWordNet(line, unfiltered)
   }

@@ -4,8 +4,7 @@ import com.typesafe.config.{ConfigFactory, Config}
 import edu.knowitall.repr.sentence.{Sentence, Chunked, Lemmatized}
 import edu.knowitall.taggers.TaggerCollection
 import edu.stanford.nlp.ie.crf.CRFClassifier
-import edu.stanford.nlp.ling.{CoreAnnotations, CoreLabel, Word}
-import utils.ExtractionUtils
+import edu.stanford.nlp.ling.CoreLabel
 
 import scala.collection.mutable
 

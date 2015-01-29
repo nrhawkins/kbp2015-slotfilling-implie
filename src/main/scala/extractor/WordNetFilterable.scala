@@ -44,11 +44,6 @@ trait WordNetFilterable {
       val filter = wordnetFilters.getOrElse(rel.tag.tag,
         WordNetFilter(rel.tag.tag, FilterLists(Nil, Nil), FilterLists(Nil, Nil)))
 
-/*
-      println(rel)
-      println(rel.head)
-      println
-*/
       val idxWord = wordnetDictionary.getIndexWord(rel.head, POS.NOUN)
       val hypernyms = findAllHypernyms(idxWord)
       val instanceHypernyms = findAllInstanceHypernyms(idxWord)
@@ -86,7 +81,7 @@ trait WordNetFilterable {
     }
     idxWord.getWordIDs.toList.foldLeft(Nil: List[String])((acc, wordID) =>
       expandByPointerThenHypernym(wordnetDictionary.getWord(wordID),
-        Pointer.HYPERNYM_INSTANCE))
+        Pointer.HYPERNYM_INSTANCE):::acc)
   }
 
   private def findAllHypernyms(idxWord: IIndexWord): List[String] = {
@@ -95,7 +90,7 @@ trait WordNetFilterable {
     }
     idxWord.getWordIDs.toList.foldLeft(Nil: List[String])((acc, wordID) =>
       expandByPointerThenHypernym(wordnetDictionary.getWord(wordID),
-        Pointer.HYPERNYM))
+        Pointer.HYPERNYM):::acc)
   }
 
   private def expandByPointerThenHypernym(word: IWord,
@@ -105,7 +100,6 @@ trait WordNetFilterable {
       .getRelatedSynsets(pointer).toList
       .map(id => wordnetDictionary.getSynset(id).getWords)
     val lemmas = hypernyms.flatten.map(word => word.getLemma)
-//    println(lemmas)
 
     lemmas:::hypernyms.foldLeft(Nil: List[String])((acc, hypernym) =>
         expandByPointerThenHypernym(hypernym(0), Pointer.HYPERNYM):::acc)
