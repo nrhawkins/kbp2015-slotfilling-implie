@@ -22,15 +22,19 @@ object ExtractorTagTester {
     println(wordnetresult)
     println(result)
 
-    val sentence2 = "The explosion happened just after midnight (2200 GMT " +
-      "Monday) on a crowded seafront close to the Aloha Puerto hotel, a " +
-      "police spokesman told AFP."
+    val sentence2 = "\"In a recent speech to the Jewish Coalition, he went further, accusing the Democrats of putting too much stock in diplomacy."
     val wordnetresult2 = wordnetextractor.extractRelations(sentence2)
     val result2 = extractor.extractRelations(sentence2)
 
     println(wordnetresult2)
     println(result2)
 
+    val sentence3 = "The client division sales \"are surprisingly ahead of where we thought they would come in,\" said Sid Parakh, an analyst at McAdams Wright Ragen."
+    val wordnetresult3 = wordnetextractor.extractRelations(sentence3)
+    val result3 = extractor.extractRelations(sentence3)
+
+    println(wordnetresult3)
+    println(result3)
     /*
         for (typ <- tags) {
           println(s"Tag: ${typ.name}\tText: ${typ.text}")

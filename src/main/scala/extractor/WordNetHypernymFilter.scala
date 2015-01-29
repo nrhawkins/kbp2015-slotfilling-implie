@@ -39,8 +39,7 @@ trait WordNetHypernymFilter extends WordNetFilterable {
     // For each head
     //    1. Search WordNet for all the hypernyms and hypernym instances
     //    2. Filter out ones in the reject list.
-    //    3. Filter out any that aren't in the accept list, nor have a
-    //         Pronoun head word.
+    //    3. Filter out any that aren't in the accept list.
     val results = relations.map(rel => {
       val filter = wordnetFilterParams.getOrElse(rel.tag.tag,
         WordNetFilter(rel.tag.tag, FilterLists(Nil, Nil), FilterLists(Nil, Nil)))
@@ -50,25 +49,26 @@ trait WordNetHypernymFilter extends WordNetFilterable {
       val instanceHypernyms = findAllInstanceHypernyms(idxWord)
       (filter, idxWord, hypernyms, instanceHypernyms, rel)
     })
-      // Remove ones in reject.
-      .filter(quint => {
+    // Remove ones in reject.
+    .filter(quint => {
       val (filter, idxWord, hypernyms, instanceHypernyms, rel) = quint
       hypernyms.foldLeft(true)((acc, cur) =>
         !filter.reject.hypernyms.contains(cur) && acc) &&
         instanceHypernyms.foldLeft(true)((acc, cur) =>
           !filter.reject.hypernymInstances.contains(cur) && acc)
     })
-      // Filter out ones that are neither a Pronoun, nor in the accept list.
-      // TODO: Add extra pronouns : he, she, her, one, etc.
-      // For now we just check that the head word is not all lowercase.
-      .filter(quint => {
+    // Filter out ones that are not in the accept list.
+    // TODO: Add extra pronouns : he, she, her, one, etc.
+    .filter(quint => {
       val (filter, idxWord, hypernyms, instanceHypernyms, rel) = quint
-      val acceptListResult =
+//      val acceptListResult =
         hypernyms.foldLeft(false)((acc, cur) =>
           filter.accept.hypernyms.contains(cur) || acc) ||
           instanceHypernyms.foldLeft(false)((acc, cur) =>
             filter.accept.hypernymInstances.contains(cur) || acc)
-      acceptListResult || rel.head != rel.head.toLowerCase
+//      No longer filtering pronouns here.  They can be added in another step if
+//      wanted.
+//      acceptListResult || rel.head != rel.head.toLowerCase
     }).map(_._5)
 
     wordnetDictionary.close()
