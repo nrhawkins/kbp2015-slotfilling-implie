@@ -6,6 +6,7 @@ import com.typesafe.config.{Config, ConfigFactory}
 import edu.knowitall.repr.sentence.{Lemmatized, Chunked, Sentence}
 import edu.knowitall.taggers.TaggerCollection
 import edu.mit.jwi.Dictionary
+import edu.mit.jwi.morph.WordnetStemmer
 
 import scala.collection.JavaConversions._
 
@@ -31,6 +32,7 @@ class WordNetFilteredIRE
     getWordnetFilters(wordnetConfig.getConfigList("wordnet-filters").toList)
   protected val wordnetDictionary = new Dictionary(new URL(
     "file", null, wordnetConfig.getString("wordnet-dictionary")))
+  val stemmer = new WordnetStemmer(wordnetDictionary)
 
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val unfiltered = super.extractRelations(line)
