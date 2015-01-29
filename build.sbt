@@ -1,4 +1,4 @@
-name := "ImplicitRelationExtractor"
+name := "ImplIE"
 
 version := "1.0"
 
