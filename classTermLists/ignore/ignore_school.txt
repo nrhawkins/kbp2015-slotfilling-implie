@@ -1,4 +1,3 @@
-bronxville
 campus
 canisius
 cincinnati
@@ -10,29 +9,26 @@ cuny
 doug
 dubuque
 duke
-duquesne
-fachhochschule
 florida
-fordham
 fudan
+geography
 hartt
+high school
 honolulu
 insead
 jersey
-luiss
 mainland
-manhattanville
 northwestern
 oahu
 oise
 orleans
 politecnico
 seminary
-spertus
 suny
 technion
+the desert
+the university
 training
-tsinghua
 union
 univ
 universidad
@@ -40,6 +36,4 @@ universidade
 universita
 universiti
 univesity
-vassar
 wisconsin
-wustl
