@@ -42,11 +42,11 @@ object ExtractionScoring {
       entity: String, relation: String, slotfill: String, sentence: String)
   // ------------------------------------------------------------------------
   // MatchKey fields:
-  // 1)SentenceIndex 2)DocId 3)Relation 4)Slotfill(tag)
-  // example: Relation=jobtitle, Slotfill=coroner
+  // 1)SentenceIndex 2)DocId 3)Relation 4)Slotfill(tag) 5)Entity
+  // example: Relation=jobtitle, Slotfill=coroner, Entity="coroner John Smith"
   // ------------------------------------------------------------------------
   case class MatchKey(sentIndex: Int, docid: String, relation: String, 
-      slotfill: String) 
+      slotfill: String, entity: String)
       
   // ----------------------------------------------------------
   // Configuration File - specifies input and output files
@@ -191,12 +191,12 @@ object ExtractionScoring {
     // -------------------------------------------------------------
     val matchkeyItemsCorrect = for(answerkeyItem <- answerkeyItemsCorrect) yield {
        MatchKey(answerkeyItem.sentIndex,answerkeyItem.docid, answerkeyItem.relation, 
-           answerkeyItem.slotfill)  
+           answerkeyItem.slotfill, answerkeyItem.entity)
     }
     
     val matchkeyItemsIncorrect = for(answerkeyItem <- answerkeyItemsIncorrect) yield {
        MatchKey(answerkeyItem.sentIndex,answerkeyItem.docid, answerkeyItem.relation, 
-           answerkeyItem.slotfill)  
+           answerkeyItem.slotfill, answerkeyItem.entity)
     }
 
     println("es: MK Correct size: " + matchkeyItemsCorrect.size)
@@ -305,7 +305,7 @@ object ExtractionScoring {
       var incorrectField = ""  
         
       val extrCheck = MatchKey(extraction.sentIndex, extraction.docid, extraction.relation, 
-          extraction.slotfill)
+          extraction.slotfill, extraction.entity)
        
       correct = matchkeyItemsCorrect.contains(extrCheck)
       if(correct){ numCorrect += 1
