@@ -1,10 +1,13 @@
 import string
 
+# Writes all single word terms that are contained in another term that is not itself.
+# This should catch most terms that are too general.
+# Such as "university"
 def main():
-    inf = open('school.txt', 'r')
-    onef = open('one_word_school.txt', 'r')
+    inf = open('../jobTitle.txt', 'r')
+    onef = open('raw_one_jobTitle.txt', 'r')
 
-    out = open('wordcompout.txt', 'w')
+    out = open('jobTitle_wordcompout.txt', 'w')
     inl = inf.read().splitlines()
     onel = onef.read().splitlines()
     for one in onel:
