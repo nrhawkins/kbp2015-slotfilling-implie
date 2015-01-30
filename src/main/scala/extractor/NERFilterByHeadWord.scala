@@ -26,6 +26,6 @@ trait NERFilterByHeadWord extends NERFilterable {
     // Filter out words where the head word isn't one of the NER tags.
     taggedNERs.filter(extraction =>
       extraction.ners.foldLeft(false)((acc, cur) =>
-        cur.entityString.contains(extraction.head) || acc))
+        cur.entityString.contains(extraction.head.string) || acc))
   }
 }

@@ -46,7 +46,7 @@ trait WordNetHypernymFilter extends WordNetFilterable {
     val results = relations.map(rel => {
       val filterParams = wordnetFilterParams.getOrElse(rel.tag.tag,
         WordNetFilter(rel.tag.tag, FilterLists(Nil, Nil), FilterLists(Nil, Nil)))
-      val stemmedHead = stem(rel.head)
+      val stemmedHead = stem(rel.head.string)
 
       if (stemmedHead == "") {
         null

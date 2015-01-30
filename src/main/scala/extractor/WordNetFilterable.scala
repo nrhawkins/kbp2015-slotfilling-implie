@@ -15,8 +15,5 @@ import edu.stanford.nlp.trees.{TypedDependency, Tree, SemanticHeadFinder}
  */
 trait WordNetFilterable {
   def getParse(line: String): (Tree, List[TypedDependency])
-
-  def addHeadsToExtractions(extractions: List[ImplicitRelation])
-
   def filterWordNet(line: String, relations: List[ImplicitRelation]): List[ImplicitRelation]
 }

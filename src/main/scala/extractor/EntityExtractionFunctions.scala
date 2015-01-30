@@ -3,6 +3,7 @@ package extractor
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.stanford.nlp.ling.IndexedWord
 import edu.stanford.nlp.trees.{TypedDependency, Tree}
+import utils.ExtractionUtils
 
 import scala.collection.JavaConversions._
 
@@ -53,7 +54,7 @@ object EntityExtractionFunctions {
 
     // Cut out the appropriate noun phrase from the sentence.
     // Phrase tokens don't have character offsets so get them from the chunked sentence.
-    val phraseTokens = phraseTokensFromTree(npRoot)
+    val phraseTokens = ExtractionUtils.phraseTokensFromTree(npRoot)
     val firstChunk = tokenizedSentence(phraseTokens(0).index - 1)
     val lastChunk = tokenizedSentence(
       phraseTokens(phraseTokens.size - 1).index - 1)
@@ -109,7 +110,7 @@ object EntityExtractionFunctions {
 
     // Cut out the appropriate noun phrase from the sentence.
     // Phrase tokens don't have character offsets so get them from the chunked sentence.
-    val phraseTokens = phraseTokensFromTree(npRoot)
+    val phraseTokens = ExtractionUtils.phraseTokensFromTree(npRoot)
     val firstChunkIndex = Math.min(phraseTokens(0).index, left.index) - 1
     val lastChunkIndex = Math.max(phraseTokens(phraseTokens.size - 1).index, right.index()) - 1
     val firstChunk = tokenizedSentence(firstChunkIndex)
@@ -249,22 +250,6 @@ object EntityExtractionFunctions {
   }
 
   /**
-   * Returns a list of indexed strings that represent a flattened version
-   * of the tree.  Should be readable as a sentence.
-   */
-  def phraseTokensFromTree(tree: Tree): List[IndexedString] = {
-    val labels = tree.`yield`().map(l => l.toString).toList
-    // Only labels of leaf nodes will have a dash.
-    // All others will be a name for a phrase type.
-    labels.filter(l => l.contains("-"))
-    .map(l => {
-      val (string, negIndex) = l.splitAt(l.lastIndexOf('-'))
-      // Indices are interpreted as negative because of the dash, so flip.
-      new IndexedString(string, 0 - negIndex.toInt)
-    })
-  }
-
-  /**
    * Determines the new offsets after extending the string extraction window
    * to close any open paired punctuation.  The specified punctuation to do this
    * is specified in extractor.conf in the field "enclosing-punctuation".
@@ -285,7 +270,7 @@ object EntityExtractionFunctions {
   def extendToEnclosePunctuation(tree: Tree, sentence: String, start: Int, end: Int,
     firstWordIndex: Int, lastWordIndex: Int,
     extractor: ImplicitRelationExtractor): (Int, Int, Int) = {
-    val tokens = phraseTokensFromTree(tree)
+    val tokens = ExtractionUtils.phraseTokensFromTree(tree)
     val chunks = extractor.getTokens(sentence) // token chunks
     extractor.getEnclosingPunctuation.foldLeft(start, end, lastWordIndex)((punctAcc, punctCur) => {
       val lastOpen = tokens.lastIndexWhere(t => t.string.contains(punctCur.open), lastWordIndex)

@@ -92,10 +92,16 @@ class ImplicitRelationExtractor(
     val relations = implicitRelationsFromRawExtractions(
       parse, processedTdl, tokens, line, eeFn)
 
-    // Add the full sentence to the results.
-    relations.foreach(nnr => nnr.sentence = line)
+    // Add heads to extractions.
+    addHeadsToExtractions(relations)
 
-    relations
+    // Filter out extractions where the head word is the tag word.
+    val headFiltered = removeSelfModifyingRelations(relations)
+
+    // Add the full sentence to the results.
+    headFiltered.foreach(nnr => nnr.sentence = line)
+
+    headFiltered
   }
 
   // Memoized tagger.
@@ -184,6 +190,10 @@ class ImplicitRelationExtractor(
   Private functions.
 
    */
+
+  private def removeSelfModifyingRelations(relations: List[ImplicitRelation]) = {
+    relations.filter(rel => rel.head.index != rel.tag.index)
+  }
 
   // Extracts the entity and created a list of ImplicitRelation classes from
   // the raw dependency list relation data.
@@ -296,14 +306,30 @@ class ImplicitRelationExtractor(
     punctConfs.map(pc => EnclosingPunctuation(pc.getString("open"), pc.getString("close")))
   }
 
-  // TODO: Add index to the head.
-  // TODO: move to normal ImplicitRelationExtractor
+  // Note: This relies on the parse of the entity being consistent with the parse
+  //        of the tree.  This is unlikely to be guaranteed.
+  // TODO: Find the head during entity extraction so we have access to the parse tree and the proper index.
   def addHeadsToExtractions(extractions: List[ImplicitRelation]) {
     // Get heads of the extractions.
     val headFinder = new SemanticHeadFinder()
     extractions.foreach(rel => {
       val tree = getParse(rel.np.string)._1
-      rel.setHead(tree.headTerminal(headFinder).value())
+      tree.indexLeaves()
+
+      val headlist = tree.headTerminal(headFinder).`yield`().toList
+      val headStr = headlist(0).toString
+      val lastStr = headlist(headlist.size - 1).toString
+
+      // Index is negative because of the dash.
+      val (headWord, headNegIndex) = headStr.splitAt(headStr.lastIndexOf('-'))
+      val (lastWord, lastNegIndex) = lastStr.splitAt(lastStr.lastIndexOf('-'))
+
+      // Since these are negative indices, add the difference rather than subtract.
+      val index = rel.np.endWordIndex + (lastNegIndex.toInt - headNegIndex.toInt)
+
+      val head = new IndexedString(headWord, index)
+
+      rel.setHead(head)
     })
   }
 }

@@ -2,7 +2,10 @@ package utils
 
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.knowitall.tool.typer.Type
-import extractor.TagInfo
+import edu.stanford.nlp.trees.Tree
+import extractor.{IndexedString, TagInfo}
+
+import scala.collection.JavaConversions._
 
 /**
  * General utility functions for extractions.
@@ -31,5 +34,21 @@ object ExtractionUtils {
 
     string.substring(tokens(beginIndex).offset,
       tokens(endIndex).offset + tokens(endIndex).string.length)
+  }
+
+
+  /**
+   * Returns a list of indexed strings that represent a flattened version
+   * of the tree.  Should be readable as a sentence.
+   */
+  def phraseTokensFromTree(tree: Tree): List[IndexedString] = {
+    val labels = tree.`yield`().map(l => l.toString).toList
+    // Only labels of leaf nodes will have a dash.
+    // All others will be a name for a phrase type.
+    labels.filter(l => l.contains("-")).map(l => {
+      val (string, negIndex) = l.splitAt(l.lastIndexOf('-'))
+      // Indices are interpreted as negative because of the dash, so flip.
+      new IndexedString(string, 0 - negIndex.toInt)
+    })
   }
 }
