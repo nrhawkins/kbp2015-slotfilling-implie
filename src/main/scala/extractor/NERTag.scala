@@ -3,7 +3,9 @@ package extractor
 import edu.stanford.nlp.ling.CoreLabel
 
 /**
- * Created by Gene on 1/3/2015.
+ * Simple struct for keeping track of an NER tag.
+ * Meant for simplicity and to be able to express multiword NER tags so we
+ * can merge tags together if adjacent.
  */
 class NERTag(
   entityStr: String,

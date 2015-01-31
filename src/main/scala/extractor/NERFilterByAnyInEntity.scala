@@ -1,7 +1,11 @@
 package extractor
 
 /**
- * Created by Gene on 1/29/2015.
+ * Original NER filter.
+ *
+ * It assumes nothing about the head word of the entity.
+ * It only filters out entities that have NO words that don't match an
+ * expected NER class of the relation tag.
  */
 trait NERFilterByAnyInEntity extends NERFilterable {
   def filterNERs(src: String, relations: List[ImplicitRelation]): List[ImplicitRelation] = {
