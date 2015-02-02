@@ -145,7 +145,7 @@ object ExtractionScoring {
       if (!Files.exists(Paths.get(inputFilename))) {
         System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
         sys.exit(1)
-      } 
+      }
 
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")

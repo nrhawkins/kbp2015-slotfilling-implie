@@ -69,10 +69,10 @@ object TACDevelopmentRelationExtractorForScoring {
     
     println("Loading Extractor.")
     val relationExtractor =
-//      new ImplicitRelationExtractor(
-//        TaggerLoader.defaultTagger,
-      new FormalConstrainedImplIE(
-        TaggerLoader.noTagsIgnoredTagger,
+      new ImplicitRelationExtractor(
+        TaggerLoader.defaultTagger,
+//      new FormalConstrainedImplIE(
+//        TaggerLoader.noTagsIgnoredTagger,
         config.getString("tokenization-cache"),
         config.getString("parse-cache"))
 
