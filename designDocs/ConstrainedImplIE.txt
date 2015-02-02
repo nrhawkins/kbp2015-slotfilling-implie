@@ -7,6 +7,12 @@ province - Person, Organization
 religion - Person, Organization
 school - Person, Organization
 
+A person can be a group of people, but not an organization.  So "soldiers" can have the class
+person, but "City Council" cannot have class person.  There are many example that are
+ambiguous by the term alone, but depends on the context.  An example of this is team mascots.
+"Washington Huskies" can in some contexts mean the football team adminstration, and in some
+contexts mean a group of people that support the team.
+
 For these to be considered correct, the entity does not necessarily need to be a Pronoun.
 For example: the entity: "the man, a journalist" is still correct, since "the man" refers to a person.
 
@@ -14,5 +20,7 @@ An incomplete match can be correct as long as it still makes sense.
 For example: in a sentence containing the phrase "Barack Obama, US President",
 							the extraction "Obama, US President" is still correct, though not ideal.
 
-Under these specifications some capitalized entities are incorrect, such as mascots.
-For example: the entity: "Arizona Wildcats" is an incorrect extraction since Wildcats is a mascot, not a person or an organization.
+Under these specifications some capitalized entities are incorrect.  An example of this is if a term that
+can only be a person class is labeled as an organization name.
+For example: the entity: "Chinese Defense Department" is an incorrect extraction since a Defense Department 
+is an organization, but a nationality term can only have the class person.
