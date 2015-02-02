@@ -283,14 +283,14 @@ object ExtractionScoring {
         "Incorrect" + "\t" + "Sentence" + "\n")
 
     // Write correct answer key items
-    answerkeyItemsCorrect.foreach(k => {
+    answerkeyItemsCorrect.toList.sortBy(e => e.sentIndex).foreach(k => {
        newextractions.append(k.sentIndex + "\t" + k.docid +
            "\t" + k.entity + "\t" + k.relation + "\t" + k.slotfill + "\t" + 
            k.correct + "\t" + k.incorrect + "\t" + k.sentence + "\n")             
     })
 
     // Write incorrect answer key items
-    answerkeyItemsIncorrect.foreach(k => {
+    answerkeyItemsIncorrect.toList.sortBy(e => e.sentIndex).foreach(k => {
        newextractions.append(k.sentIndex + "\t" + k.docid +
            "\t" + k.entity + "\t" + k.relation + "\t" + k.slotfill + "\t" + 
            k.correct + "\t" + k.incorrect + "\t" + k.sentence + "\n")             
