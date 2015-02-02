@@ -449,7 +449,7 @@ object ExtractionScoring {
   private def fixEntityParens(entity: String) = {
     val surroundingRemoved =
       if (entity(entity.length - 1) == '\"') {
-        entity.substring(1, entity.length - 2)
+        entity.substring(1, entity.length - 1)
       } else {
         entity
       }
