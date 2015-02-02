@@ -16,6 +16,7 @@ trait WordNetHypernymFilter extends WordNetFilterable {
   protected val wordnetFilterParams: Map[String, WordNetFilter]
   protected val wordnetDictionary: Dictionary
   val stemmer: WordnetStemmer
+  val wordSenseLimit: Int
 
   /**
    * Filters by the (recursive) hypernyms as specified in wordnetFilterParams.
@@ -89,18 +90,20 @@ trait WordNetHypernymFilter extends WordNetFilterable {
     if (idxWord == null) {
       return Nil
     }
-    idxWord.getWordIDs.toList.foldLeft(Nil: List[String])((acc, wordID) =>
-      expandByPointerThenHypernym(wordnetDictionary.getWord(wordID),
-        Pointer.HYPERNYM_INSTANCE):::acc)
+    idxWord.getWordIDs.toList.slice(0, wordSenseLimit)
+      .foldLeft(Nil: List[String])((acc, wordID) =>
+        expandByPointerThenHypernym(wordnetDictionary.getWord(wordID),
+          Pointer.HYPERNYM_INSTANCE):::acc)
   }
 
   private def findAllHypernyms(idxWord: IIndexWord): List[String] = {
     if (idxWord == null) {
       return Nil
     }
-    idxWord.getWordIDs.toList.foldLeft(Nil: List[String])((acc, wordID) =>
-      expandByPointerThenHypernym(wordnetDictionary.getWord(wordID),
-        Pointer.HYPERNYM):::acc)
+    idxWord.getWordIDs.toList.slice(0, wordSenseLimit)
+      .foldLeft(Nil: List[String])((acc, wordID) =>
+        expandByPointerThenHypernym(wordnetDictionary.getWord(wordID),
+          Pointer.HYPERNYM):::acc)
   }
 
   private def expandByPointerThenHypernym(word: IWord,

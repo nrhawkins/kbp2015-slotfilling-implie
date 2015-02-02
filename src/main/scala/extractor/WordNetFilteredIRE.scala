@@ -33,6 +33,7 @@ class WordNetFilteredIRE
   protected val wordnetDictionary = new Dictionary(new URL(
     "file", null, wordnetConfig.getString("wordnet-dictionary")))
   val stemmer = new WordnetStemmer(wordnetDictionary)
+  val wordSenseLimit = wordnetConfig.getInt("word-sense-limit")
 
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val unfiltered = super.extractRelations(line)
