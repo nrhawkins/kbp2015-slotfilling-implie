@@ -18,6 +18,7 @@ lord
 minister
 officer
 OPERATOR
+owner
 planner
 premier
 SENIOR
