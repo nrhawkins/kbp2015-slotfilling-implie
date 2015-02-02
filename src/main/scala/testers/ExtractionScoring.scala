@@ -101,6 +101,11 @@ object ExtractionScoring {
     // -------------------------------------------------------
     // Extractions to Score -  
     //   list of ExtractionInputLine's
+    //
+    // Note: 
+    // Any line not starting with an integer is ignored,
+    // i.e. falls into the catch{}
+    // This allows #comment lines in the input file
     // -------------------------------------------------------
     val extractions = {
      
@@ -136,6 +141,10 @@ object ExtractionScoring {
     // -------------------------------------------------------
     // Answer Key -  
     //   list of AnswerKeyItem's
+    // Note: 
+    // Any line not starting with an integer is ignored,
+    // i.e. falls into the catch{}
+    // This allows #comment lines in the input file
     // -------------------------------------------------------
     val answerkeyItems = {
      
@@ -228,20 +237,28 @@ object ExtractionScoring {
       sys.exit(1)
     }
 
-    // -------------------------------------------------------
-    // -------------------------------------------------------
+    // ------------------------------------------------------------
+    // ------------------------------------------------------------
     // Scoring Report - write out
-    //   1) the extractions and their score
+    //   1) the extractions and their score (correct or incorrect)
     //   2) summary of results, overall and by relation
     //      -- # correct, # incorrect, precision
-    // -------------------------------------------------------
-    // -------------------------------------------------------
+    // ------------------------------------------------------------
+    // ------------------------------------------------------------
     
     val scoringreport = new PrintWriter(scoringreport_file)    
     
-    scoringreport.append("SentenceIndex" + "\t" + "DocumentId" + "\t" + 
-            "Entity" + "\t" + "Relation" + "\t" + "Slotfill(tag)" + 
-            "\t" + "Correct" + "\t" + "Incorrect" + "\t" + "Sentence" + "\n")               
+    scoringreport.append("Input Files: " + "\n")
+    scoringreport.append("   Extractions File: " + extractions_file + "\n")
+    scoringreport.append("   Answer Key File: " + answerkey_file + "\n")
+    scoringreport.append("Output Files: " + "\n") 
+    scoringreport.append("   Scoring Report: " + scoringreport_file + "\n")
+    scoringreport.append("   New Answer Key: " + newextractions_file + "\n")
+    scoringreport.append("\n\n")
+    
+    //scoringreport.append("SentenceIndex" + "\t" + "DocumentId" + "\t" + 
+    //        "Entity" + "\t" + "Relation" + "\t" + "Slotfill(tag)" + 
+    //        "\t" + "Correct" + "\t" + "Incorrect" + "\t" + "Sentence" + "\n")               
     
     // -------------------------------------------------------        
     // -------------------------------------------------------
@@ -296,6 +313,9 @@ object ExtractionScoring {
     // -------------------------------------------------------
     // Check each extraction
     // -------------------------------------------------------
+    var extractionsCorrect :Set[ExtractionInputLine] = Set()
+    var extractionsIncorrect :Set[ExtractionInputLine] = Set()
+    
     for(extraction <- extractions){
 
       var correct = false
@@ -345,15 +365,57 @@ object ExtractionScoring {
             extraction.sentence + "\n")
       }
       else{                     
-        scoringreport.append(extraction.sentIndex + "\t" + extraction.docid + "\t" + 
-            extraction.entity + "\t" + extraction.relation + "\t" + extraction.slotfill + 
-            "\t" + correctField + "\t" + incorrectField + "\t" + extraction.sentence + "\n")        
+        //scoringreport.append(extraction.sentIndex + "\t" + extraction.docid + "\t" + 
+        //    extraction.entity + "\t" + extraction.relation + "\t" + extraction.slotfill + 
+        //    "\t" + correctField + "\t" + incorrectField + "\t" + extraction.sentence + "\n")        
+        
+        //Save the extractions so they can be written in groups (correct and incorrect)
+        if(correct){           
+          extractionsCorrect = extractionsCorrect + extraction   
+        }
+        else if(incorrect){
+          extractionsIncorrect = extractionsIncorrect + extraction   
+        }
+        
       }
             
     }
 
     println("es: Writing Scoring Report")
     
+    println("es: Number of Correct Extractions: " + extractionsCorrect.size)
+    println("es: Number of Incorrect Extractions: " + extractionsIncorrect.size)
+    
+    // -----------------------------------------------------------
+    // Write Extractions found in Answer Key
+    // 
+    // 1)Correct Extractions
+    // 2)Incorrect Extractions
+    //
+    // -----------------------------------------------------------
+
+    scoringreport.append("Correct Extractions ------------------------------------------------" + "\n\n")
+    
+    scoringreport.append("SentenceIndex" + "\t" + "DocumentId" + "\t" + 
+            "Entity" + "\t" + "Relation" + "\t" + "Slotfill(tag)" + 
+            "\t" + "Correct" + "\t" + "Incorrect" + "\t" + "Sentence" + "\n")  
+    
+    extractionsCorrect.toList.sortBy(e => e.sentIndex).foreach(e => 
+      scoringreport.append(e.sentIndex + "\t" + e.docid + "\t" + 
+            e.entity + "\t" + e.relation + "\t" + e.slotfill + 
+            "\t" + "1" + "\t" + "" + "\t" + e.sentence + "\n"))
+            
+    scoringreport.append("\n\nIncorrect Extractions ------------------------------------------------" + "\n\n")
+    
+    scoringreport.append("SentenceIndex" + "\t" + "DocumentId" + "\t" + 
+            "Entity" + "\t" + "Relation" + "\t" + "Slotfill(tag)" + 
+            "\t" + "Correct" + "\t" + "Incorrect" + "\t" + "Sentence" + "\n")  
+       
+    extractionsIncorrect.toList.sortBy(e => e.sentIndex).foreach(e => 
+      scoringreport.append(e.sentIndex + "\t" + e.docid + "\t" + 
+            e.entity + "\t" + e.relation + "\t" + e.slotfill + 
+            "\t" + "" + "\t" + "1" + "\t" + e.sentence + "\n"))
+                
     // -----------------------------------------------------------
     // Compute and Output Summary Statistics
     //
@@ -403,7 +465,6 @@ object ExtractionScoring {
       val formattedIncorrect = f"$x%10s"
       var formattedPrecision = "%1.2f".format(testResultsRelation.precision)
       formattedPrecision = f"$formattedPrecision%10s"
-      println(formattedCorrect)
       scoringreport.append(formattedCorrect + "\t\t" + formattedIncorrect + "\t\t" + 
            formattedPrecision + "\t\t" + extractionRelation + "\n")  
     })
