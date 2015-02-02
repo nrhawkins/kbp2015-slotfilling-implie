@@ -1,7 +1,12 @@
 package extractor
 
 /**
- * Created by Gene on 1/29/2015.
+ * Trait that provides a method for filtering by NER tags on the head word of
+ * each extracted relation.
+ *
+ * The provided only returns extracted relations where the head word is tagged
+ * as one of the expected NER types for the given relation class of the
+ * extraction.
  */
 trait NERFilterByHeadWord extends NERFilterable {
   def addHeadsToExtractions(extractions: List[ImplicitRelation])
