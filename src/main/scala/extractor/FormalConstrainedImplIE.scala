@@ -43,6 +43,7 @@ class FormalConstrainedImplIE
   protected val wordnetDictionary = new Dictionary(new URL(
     "file", null, wordnetConfig.getString("wordnet-dictionary")))
   val stemmer = new WordnetStemmer(wordnetDictionary)
+  val wordSenseLimit = wordnetConfig.getInt("word-sense-limit")
 
   val nerConfig = ConfigFactory.load("ner-filtered-ire.conf")
   protected val expectedEntities =
