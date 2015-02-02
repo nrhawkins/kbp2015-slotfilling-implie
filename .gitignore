@@ -4,3 +4,4 @@ target/
 .~lock*
 *.iml
 cache/
+.nfs*
