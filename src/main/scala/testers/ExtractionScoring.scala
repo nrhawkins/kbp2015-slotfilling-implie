@@ -115,7 +115,7 @@ object ExtractionScoring {
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
         try{
-             ExtractionInputLine(tokens(0).toInt, tokens(1), tokens(2).replaceAll("\"", ""), tokens(3), tokens(4),
+             ExtractionInputLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
                 tokens(5))
         }catch{ 
            // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
@@ -145,7 +145,7 @@ object ExtractionScoring {
       if (!Files.exists(Paths.get(inputFilename))) {
         System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
         sys.exit(1)
-      }
+      } 
 
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
@@ -153,11 +153,11 @@ object ExtractionScoring {
           if(tokens.length == 8){
             //sentIndex: Int, docid: String, entity: String, relation: String, 
             //slotfill: String, correct: String, incorrect: String, sentence: String)
-            AnswerKeyItem(tokens(0).toInt, tokens(1), tokens(2).replaceAll("\"", ""),
+            AnswerKeyItem(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)),
               tokens(3), tokens(4), tokens(5), tokens(6), tokens(7))
           }
           else{//tokens.length == 6
-            AnswerKeyItem(tokens(0).toInt, tokens(1), tokens(2).replaceAll("\"", ""),
+            AnswerKeyItem(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)),
               tokens(3), tokens(4), "","", tokens(5))
           }
         }catch{
@@ -440,6 +440,19 @@ object ExtractionScoring {
   // so we take one less than what is recorded there.
   def getSeqNum(sequenceFile: String) = Source.fromFile(sequenceFile)
     .getLines().next().trim.toInt
-  
-  
+
+  /**
+   * If the entire entity is surrounded by quotes, remove them.
+   * Replace any double quotes with a single quote.
+   * @param entity
+   */
+  private def fixEntityParens(entity: String) = {
+    val surroundingRemoved =
+      if (entity(entity.length - 1) == '\"') {
+        entity.substring(1, entity.length - 2)
+      } else {
+        entity
+      }
+    surroundingRemoved.replaceAll("\"\"", "\"")
+  }
 }
