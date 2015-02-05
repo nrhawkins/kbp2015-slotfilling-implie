@@ -69,7 +69,8 @@ object ExtractionScoring {
 
   // -----------------------------------------------------------------
   // -----------------------------------------------------------------
-  // Main - args are not used, 
+  // Main - args can optionally be used to specify the sequence number
+  //        specifying which input and output files to read and write, 
   //        the inputs and outputs are specified by the .conf file,
   //        which has already be read-in and is a val of the object
   // -----------------------------------------------------------------      
