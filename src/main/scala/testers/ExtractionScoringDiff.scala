@@ -112,13 +112,13 @@ object ExtractionScoringDiff {
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
         try{
-             ExtractionInputLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
+             ScoringReportExtractionLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
                 tokens(5), tokens(6), tokens(7))
         }catch{ 
            // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
            // and filtering it out before returning the list
            // Eg. a header line will not start with an integer
-           case e: Exception => ExtractionInputLine(-1, "tokens(1)", "tokens(2)", "tokens(3)",
+           case e: Exception => ScoringReportExtractionLine(-1, "tokens(1)", "tokens(2)", "tokens(3)",
                 "tokens(4)", "tokens(5)", "tokens(6)", "tokens(7)")
         }
         
@@ -152,13 +152,13 @@ object ExtractionScoringDiff {
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
         try{
-             ExtractionInputLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
+             ScoringReportExtractionLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
                 tokens(5), tokens(6), tokens(7))
         }catch{ 
            // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
            // and filtering it out before returning the list
            // Eg. a header line will not start with an integer
-           case e: Exception => ExtractionInputLine(-1, "tokens(1)", "tokens(2)", "tokens(3)",
+           case e: Exception => ScoringReportExtractionLine(-1, "tokens(1)", "tokens(2)", "tokens(3)",
                 "tokens(4)", "tokens(5)", "tokens(6)", "tokens(7)")
         }
         
@@ -166,7 +166,7 @@ object ExtractionScoringDiff {
            
     } 
        
-    println("es: Scoring Report 2's Correct Extractions size: " + extractionsCorrectSR1.size)
+    println("es: Scoring Report 2's Correct Extractions size: " + extractionsCorrectSR2.size)
     
     
     println("es: Create MatchKey Sets to Find Diffs")
@@ -231,7 +231,7 @@ object ExtractionScoringDiff {
     extractionsCorrectSR1.foreach(e => {
       
        val extrCheck = MatchKey(e.sentIndex, e.docid, e.relation, e.slotfill, e.entity)       
-       correct = matchkeyItemsCorrectSR2.contains(extrCheck)
+       val correct = matchkeyItemsCorrectSR2.contains(extrCheck)
        if(!correct){
          extractionsCorrectDiffSR1 = extractionsCorrectDiffSR1 + e         
        }
@@ -265,7 +265,7 @@ object ExtractionScoringDiff {
     extractionsCorrectSR2.foreach(e => {
       
        val extrCheck = MatchKey(e.sentIndex, e.docid, e.relation, e.slotfill, e.entity)       
-       correct = matchkeyItemsCorrectSR1.contains(extrCheck)
+       val correct = matchkeyItemsCorrectSR1.contains(extrCheck)
        if(!correct){
          extractionsCorrectDiffSR2 = extractionsCorrectDiffSR2 + e         
        }
