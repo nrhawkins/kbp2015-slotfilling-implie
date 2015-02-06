@@ -2,7 +2,6 @@ Activist
 ADVISER
 Aide
 chairman
-CHANCELLOR
 CHief
 CONSULTANT
 Correspondent
@@ -25,3 +24,6 @@ SENIOR
 senior communist
 specialist
 VOLUNTEER
+prophet
+dealer
+speaker
