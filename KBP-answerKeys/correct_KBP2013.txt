@@ -1,0 +1,1727 @@
+SF13_ENG_001	Ramazan Bashardost	per:age	43
+SF13_ENG_001	Ramazan Bashardost	per:age	44
+SF13_ENG_001	Ramazan Bashardost	per:age	47
+SF13_ENG_001	Ramazan Bashardost	per:alternate_names	Mohammad Ramzan Bashardost
+SF13_ENG_001	Ramazan Bashardost	per:alternate_names	Ramzan Bashardost
+SF13_ENG_001	Ramazan Bashardost	per:cities_of_residence	Kabul
+SF13_ENG_001	Ramazan Bashardost	per:cities_of_residence	Paris
+SF13_ENG_001	Ramazan Bashardost	per:countries_of_residence	Afghanistan
+SF13_ENG_001	Ramazan Bashardost	per:countries_of_residence	France
+SF13_ENG_001	Ramazan Bashardost	per:countries_of_residence	Iran
+SF13_ENG_001	Ramazan Bashardost	per:countries_of_residence	Pakistan
+SF13_ENG_001	Ramazan Bashardost	per:country_of_birth	Afghanistan
+SF13_ENG_001	Ramazan Bashardost	per:date_of_birth	1965
+SF13_ENG_001	Ramazan Bashardost	per:date_of_birth	1965-XX-XX
+SF13_ENG_001	Ramazan Bashardost	per:employee_or_member_of	Afghan embassy
+SF13_ENG_001	Ramazan Bashardost	per:employee_or_member_of	Afghanistan
+SF13_ENG_001	Ramazan Bashardost	per:employee_or_member_of	cabinet
+SF13_ENG_001	Ramazan Bashardost	per:employee_or_member_of	European Affairs Department
+SF13_ENG_001	Ramazan Bashardost	per:employee_or_member_of	Foreign Ministry
+SF13_ENG_001	Ramazan Bashardost	per:employee_or_member_of	parliament
+SF13_ENG_001	Ramazan Bashardost	per:origin	Afghan
+SF13_ENG_001	Ramazan Bashardost	per:origin	Afghanistan
+SF13_ENG_001	Ramazan Bashardost	per:origin	Hazara
+SF13_ENG_001	Ramazan Bashardost	per:schools_attended	Toloz University
+SF13_ENG_001	Ramazan Bashardost	per:schools_attended	University of Toulouse
+SF13_ENG_001	Ramazan Bashardost	per:stateorprovince_of_birth	Ghazni
+SF13_ENG_001	Ramazan Bashardost	per:stateorprovince_of_birth	Ghazni Province
+SF13_ENG_001	Ramazan Bashardost	per:title	", a member"
+SF13_ENG_001	Ramazan Bashardost	per:title	A lawmaker
+SF13_ENG_001	Ramazan Bashardost	per:title	Cabinet minister
+SF13_ENG_001	Ramazan Bashardost	per:title	campaigner
+SF13_ENG_001	Ramazan Bashardost	per:title	candidate
+SF13_ENG_001	Ramazan Bashardost	per:title	Doctor
+SF13_ENG_001	Ramazan Bashardost	per:title	Dr.
+SF13_ENG_001	Ramazan Bashardost	per:title	lawmaker
+SF13_ENG_001	Ramazan Bashardost	per:title	legislator
+SF13_ENG_001	Ramazan Bashardost	per:title	member of parliament
+SF13_ENG_001	Ramazan Bashardost	per:title	parliamentarian
+SF13_ENG_001	Ramazan Bashardost	per:title	Planning Minister
+SF13_ENG_001	Ramazan Bashardost	per:title	Presidential candidate
+SF13_ENG_001	Ramazan Bashardost	per:title	representative
+SF13_ENG_001	Ramazan Bashardost	per:title	scholar
+SF13_ENG_002	Marc Bolland	per:age	50
+SF13_ENG_002	Marc Bolland	per:countries_of_residence	Dutchman
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Heineken
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	M&amp;S
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	M&S
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Marks & Spencer
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Marks & Spencer Group PLC
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Morrison Supermarkets
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Morrison Supermarkets PLC
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Morrisons
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Morrisons PLC
+SF13_ENG_002	Marc Bolland	per:origin	Dutchman
+SF13_ENG_002	Marc Bolland	per:origin	Netherlands
+SF13_ENG_002	Marc Bolland	per:title	CEO
+SF13_ENG_002	Marc Bolland	per:title	chief
+SF13_ENG_002	Marc Bolland	per:title	chief executive
+SF13_ENG_002	Marc Bolland	per:title	chief operating officer
+SF13_ENG_003	Stuart Rose	per:countries_of_residence	Briton
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	M&amp;S
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	M&S
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	Marks
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	Marks &amp; Spencer
+SF13_ENG_003	Stuart Rose	per:origin	Britain
+SF13_ENG_003	Stuart Rose	per:origin	British
+SF13_ENG_003	Stuart Rose	per:origin	Briton
+SF13_ENG_003	Stuart Rose	per:title	boss
+SF13_ENG_003	Stuart Rose	per:title	CEO
+SF13_ENG_003	Stuart Rose	per:title	chairman
+SF13_ENG_003	Stuart Rose	per:title	chief executive
+SF13_ENG_003	Stuart Rose	per:title	company chairman
+SF13_ENG_003	Stuart Rose	per:title	executive chairman
+SF13_ENG_004	Douglas Flint	per:age	55
+SF13_ENG_004	Douglas Flint	per:employee_or_member_of	Audit Committee
+SF13_ENG_004	Douglas Flint	per:employee_or_member_of	BP 's Audit Committee
+SF13_ENG_004	Douglas Flint	per:employee_or_member_of	BP's Audit Committee
+SF13_ENG_004	Douglas Flint	per:employee_or_member_of	HSBC
+SF13_ENG_004	Douglas Flint	per:title	chairman
+SF13_ENG_004	Douglas Flint	per:title	chief
+SF13_ENG_004	Douglas Flint	per:title	Chief Financial Officer
+SF13_ENG_004	Douglas Flint	per:title	director
+SF13_ENG_004	Douglas Flint	per:title	finance director
+SF13_ENG_005	Tahawwur Hussain Rana	per:age	48
+SF13_ENG_005	Tahawwur Hussain Rana	per:age	49
+SF13_ENG_005	Tahawwur Hussain Rana	per:alternate_names	Tahawwur Hussein Rana
+SF13_ENG_005	Tahawwur Hussain Rana	per:alternate_names	Tahawwur Rana
+SF13_ENG_005	Tahawwur Hussain Rana	per:alternate_names	Tahawwur Rehman Rana
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	conspiracy
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	conspiracy to provide material support to a foreign terrorism conspiracy
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	terror
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	terror activities
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	terrorist attacks
+SF13_ENG_005	Tahawwur Hussain Rana	per:cities_of_residence	Chicago
+SF13_ENG_005	Tahawwur Hussain Rana	per:countries_of_residence	Canada
+SF13_ENG_005	Tahawwur Hussain Rana	per:countries_of_residence	Canadian
+SF13_ENG_005	Tahawwur Hussain Rana	per:countries_of_residence	Pakistan
+SF13_ENG_005	Tahawwur Hussain Rana	per:countries_of_residence	Pakistani
+SF13_ENG_005	Tahawwur Hussain Rana	per:countries_of_residence	U.S.
+SF13_ENG_005	Tahawwur Hussain Rana	per:country_of_birth	Pakistan
+SF13_ENG_005	Tahawwur Hussain Rana	per:country_of_birth	Pakistani
+SF13_ENG_005	Tahawwur Hussain Rana	per:employee_or_member_of	First World Immigration Services
+SF13_ENG_005	Tahawwur Hussain Rana	per:employee_or_member_of	Iqbal Society
+SF13_ENG_005	Tahawwur Hussain Rana	per:origin	Canada
+SF13_ENG_005	Tahawwur Hussain Rana	per:origin	Canadian
+SF13_ENG_005	Tahawwur Hussain Rana	per:origin	Pakistan
+SF13_ENG_005	Tahawwur Hussain Rana	per:origin	U.S.
+SF13_ENG_005	Tahawwur Hussain Rana	per:religion	Islamist
+SF13_ENG_005	Tahawwur Hussain Rana	per:schools_attended	Hasan Abdal Cadet College
+SF13_ENG_005	Tahawwur Hussain Rana	per:title	businessman
+SF13_ENG_005	Tahawwur Hussain Rana	per:title	counselor
+SF13_ENG_005	Tahawwur Hussain Rana	per:title	doctor
+SF13_ENG_005	Tahawwur Hussain Rana	per:title	medical doctor
+SF13_ENG_005	Tahawwur Hussain Rana	per:title	operatives
+SF13_ENG_005	Tahawwur Hussain Rana	per:title	owner
+SF13_ENG_005	Tahawwur Hussain Rana	per:title	terrorists
+SF13_ENG_006	Ali Akbar Khan	per:age	13
+SF13_ENG_006	Ali Akbar Khan	per:age	87
+SF13_ENG_006	Ali Akbar Khan	per:age	88
+SF13_ENG_006	Ali Akbar Khan	per:cause_of_death	kidney failure
+SF13_ENG_006	Ali Akbar Khan	per:cause_of_death	prolonged kidney ailment
+SF13_ENG_006	Ali Akbar Khan	per:children	Aashish
+SF13_ENG_006	Ali Akbar Khan	per:children	Aashish Khan
+SF13_ENG_006	Ali Akbar Khan	per:children	Aasish
+SF13_ENG_006	Ali Akbar Khan	per:children	Alam
+SF13_ENG_006	Ali Akbar Khan	per:children	Manik
+SF13_ENG_006	Ali Akbar Khan	per:cities_of_residence	Bombay
+SF13_ENG_006	Ali Akbar Khan	per:cities_of_residence	Maihar
+SF13_ENG_006	Ali Akbar Khan	per:cities_of_residence	Mumbai
+SF13_ENG_006	Ali Akbar Khan	per:city_of_birth	Shibpur
+SF13_ENG_006	Ali Akbar Khan	per:city_of_birth	Shivpur
+SF13_ENG_006	Ali Akbar Khan	per:city_of_death	San Anselmo
+SF13_ENG_006	Ali Akbar Khan	per:country_of_birth	Bangladesh
+SF13_ENG_006	Ali Akbar Khan	per:country_of_death	United States
+SF13_ENG_006	Ali Akbar Khan	per:date_of_birth	4/14/1922
+SF13_ENG_006	Ali Akbar Khan	per:date_of_birth	14-Apr-22
+SF13_ENG_006	Ali Akbar Khan	per:date_of_birth	1922-XX-XX
+SF13_ENG_006	Ali Akbar Khan	per:date_of_death	6/18/2009
+SF13_ENG_006	Ali Akbar Khan	per:date_of_death	6/19/2009
+SF13_ENG_006	Ali Akbar Khan	per:date_of_death	Friday
+SF13_ENG_006	Ali Akbar Khan	per:employee_or_member_of	Ali Akbar College of Music
+SF13_ENG_006	Ali Akbar Khan	per:employee_or_member_of	All-India Radio
+SF13_ENG_006	Ali Akbar Khan	per:origin	Indian
+SF13_ENG_006	Ali Akbar Khan	per:other_family	Ravi Shankar
+SF13_ENG_006	Ali Akbar Khan	per:parents	Allauddin Khan
+SF13_ENG_006	Ali Akbar Khan	per:siblings	Annapurna Devi
+SF13_ENG_006	Ali Akbar Khan	per:spouse	Mary Khan
+SF13_ENG_006	Ali Akbar Khan	per:stateorprovince_of_birth	East Bengal
+SF13_ENG_006	Ali Akbar Khan	per:title	Composer
+SF13_ENG_006	Ali Akbar Khan	per:title	music director
+SF13_ENG_006	Ali Akbar Khan	per:title	musician
+SF13_ENG_006	Ali Akbar Khan	per:title	sarod player
+SF13_ENG_007	Mohammed Sayed Tantawi	per:age	81
+SF13_ENG_007	Mohammed Sayed Tantawi	per:alternate_names	Mohamed Sayyid Tantawi
+SF13_ENG_007	Mohammed Sayed Tantawi	per:alternate_names	Mohammed Tantawi
+SF13_ENG_007	Mohammed Sayed Tantawi	per:cause_of_death	heart attack
+SF13_ENG_007	Mohammed Sayed Tantawi	per:children	Amr Tantawi
+SF13_ENG_007	Mohammed Sayed Tantawi	per:city_of_birth	Salim
+SF13_ENG_007	Mohammed Sayed Tantawi	per:city_of_death	Riyadh
+SF13_ENG_007	Mohammed Sayed Tantawi	per:countries_of_residence	Egypt
+SF13_ENG_007	Mohammed Sayed Tantawi	per:countries_of_residence	Egyptian
+SF13_ENG_007	Mohammed Sayed Tantawi	per:country_of_death	Saudi Arabia
+SF13_ENG_007	Mohammed Sayed Tantawi	per:country_of_death	Saudi_Arabia
+SF13_ENG_007	Mohammed Sayed Tantawi	per:date_of_birth	10/28/1928
+SF13_ENG_007	Mohammed Sayed Tantawi	per:date_of_birth	1928-XX-XX
+SF13_ENG_007	Mohammed Sayed Tantawi	per:date_of_death	3/10/2010
+SF13_ENG_007	Mohammed Sayed Tantawi	per:date_of_death	3/10/2012
+SF13_ENG_007	Mohammed Sayed Tantawi	per:employee_or_member_of	Al-Azhar
+SF13_ENG_007	Mohammed Sayed Tantawi	per:employee_or_member_of	Al-Azhar University
+SF13_ENG_007	Mohammed Sayed Tantawi	per:employee_or_member_of	Egypt
+SF13_ENG_007	Mohammed Sayed Tantawi	per:origin	Egypt
+SF13_ENG_007	Mohammed Sayed Tantawi	per:origin	Egyptian
+SF13_ENG_007	Mohammed Sayed Tantawi	per:religion	Sunni Islam
+SF13_ENG_007	Mohammed Sayed Tantawi	per:schools_attended	Al-Azhar
+SF13_ENG_007	Mohammed Sayed Tantawi	per:schools_attended	Al-Azhar University
+SF13_ENG_007	Mohammed Sayed Tantawi	per:stateorprovince_of_birth	Sohag
+SF13_ENG_007	Mohammed Sayed Tantawi	per:stateorprovince_of_birth	Sohag Governorate
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	cleric
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	Grand Imam
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	grand mufti
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	mufti
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	scholar
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	the Grand Imam
+SF13_ENG_008	Mathieu Montcourt	per:cause_of_death	a heart attack
+SF13_ENG_008	Mathieu Montcourt	per:cause_of_death	heart attack
+SF13_ENG_008	Mathieu Montcourt	per:charges	betting
+SF13_ENG_008	Mathieu Montcourt	per:cities_of_residence	Paris
+SF13_ENG_008	Mathieu Montcourt	per:city_of_death	Boulogne-Billancourt
+SF13_ENG_008	Mathieu Montcourt	per:city_of_death	Paris
+SF13_ENG_008	Mathieu Montcourt	per:countries_of_residence	French
+SF13_ENG_008	Mathieu Montcourt	per:origin	France
+SF13_ENG_008	Mathieu Montcourt	per:origin	French
+SF13_ENG_008	Mathieu Montcourt	per:title	player
+SF13_ENG_008	Mathieu Montcourt	per:title	tennis player
+SF13_ENG_009	Anwar Chowdhry	per:age	87
+SF13_ENG_009	Anwar Chowdhry	per:age	88
+SF13_ENG_009	Anwar Chowdhry	per:cause_of_death	heart attack
+SF13_ENG_009	Anwar Chowdhry	per:cause_of_death	illness
+SF13_ENG_009	Anwar Chowdhry	per:city_of_death	Karachi
+SF13_ENG_009	Anwar Chowdhry	per:countries_of_residence	Pakistan
+SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	AIBA
+SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	International Amateur Boxing Association
+SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	International Boxing Association
+SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	International_Amateur_Boxing_Association
+SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	Pakistan Boxing Federation
+SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	the Pakistan Boxing Federation
+SF13_ENG_009	Anwar Chowdhry	per:origin	Pakistan
+SF13_ENG_009	Anwar Chowdhry	per:title	chief
+SF13_ENG_009	Anwar Chowdhry	per:title	former head
+SF13_ENG_009	Anwar Chowdhry	per:title	incumbent
+SF13_ENG_009	Anwar Chowdhry	per:title	president
+SF13_ENG_009	Anwar Chowdhry	per:title	Prof
+SF13_ENG_009	Anwar Chowdhry	per:title	Prof.
+SF13_ENG_009	Anwar Chowdhry	per:title	Professor
+SF13_ENG_010	Ronnie James Dio	per:alternate_names	Ronald James Padavona
+SF13_ENG_010	Ronnie James Dio	per:cause_of_death	stomach cancer
+SF13_ENG_010	Ronnie James Dio	per:children	Dan Padavona
+SF13_ENG_010	Ronnie James Dio	per:children	Daniel
+SF13_ENG_010	Ronnie James Dio	per:cities_of_residence	Cortland
+SF13_ENG_010	Ronnie James Dio	per:city_of_death	Los Angeles
+SF13_ENG_010	Ronnie James Dio	per:date_of_death	5/16/2010
+SF13_ENG_010	Ronnie James Dio	per:date_of_death	Sunday
+SF13_ENG_010	Ronnie James Dio	per:employee_or_member_of	Black Sabbath
+SF13_ENG_010	Ronnie James Dio	per:employee_or_member_of	Dio
+SF13_ENG_010	Ronnie James Dio	per:employee_or_member_of	Elf
+SF13_ENG_010	Ronnie James Dio	per:employee_or_member_of	Heaven and Hell
+SF13_ENG_010	Ronnie James Dio	per:employee_or_member_of	Rainbow
+SF13_ENG_010	Ronnie James Dio	per:origin	American
+SF13_ENG_010	Ronnie James Dio	per:other_family	David Feinstein
+SF13_ENG_010	Ronnie James Dio	per:other_family	Joey
+SF13_ENG_010	Ronnie James Dio	per:other_family	Julie
+SF13_ENG_010	Ronnie James Dio	per:parents	Pat Padavona
+SF13_ENG_010	Ronnie James Dio	per:spouse	Wendy Dio
+SF13_ENG_010	Ronnie James Dio	per:statesorprovinces_of_residence	New York
+SF13_ENG_010	Ronnie James Dio	per:title	frontman
+SF13_ENG_010	Ronnie James Dio	per:title	lead singer
+SF13_ENG_010	Ronnie James Dio	per:title	musician
+SF13_ENG_010	Ronnie James Dio	per:title	performer
+SF13_ENG_010	Ronnie James Dio	per:title	singer
+SF13_ENG_010	Ronnie James Dio	per:title	vocalist
+SF13_ENG_010	Ronnie James Dio	per:title	voice
+SF13_ENG_011	Anthony Marshall	per:age	85
+SF13_ENG_011	Anthony Marshall	per:alternate_names	Tony
+SF13_ENG_011	Anthony Marshall	per:charges	battery
+SF13_ENG_011	Anthony Marshall	per:charges	conspiracy
+SF13_ENG_011	Anthony Marshall	per:charges	defrauding
+SF13_ENG_011	Anthony Marshall	per:charges	domestic violence
+SF13_ENG_011	Anthony Marshall	per:charges	felony
+SF13_ENG_011	Anthony Marshall	per:charges	first-degree grand larceny
+SF13_ENG_011	Anthony Marshall	per:charges	forgery
+SF13_ENG_011	Anthony Marshall	per:charges	fraud
+SF13_ENG_011	Anthony Marshall	per:charges	grand larceny
+SF13_ENG_011	Anthony Marshall	per:charges	larceny
+SF13_ENG_011	Anthony Marshall	per:charges	looting
+SF13_ENG_011	Anthony Marshall	per:charges	steal
+SF13_ENG_011	Anthony Marshall	per:charges	stealing
+SF13_ENG_011	Anthony Marshall	per:children	Philip
+SF13_ENG_011	Anthony Marshall	per:children	Philip Marshall
+SF13_ENG_011	Anthony Marshall	per:countries_of_residence	U.S.
+SF13_ENG_011	Anthony Marshall	per:countries_of_residence	US
+SF13_ENG_011	Anthony Marshall	per:employee_or_member_of	Marine
+SF13_ENG_011	Anthony Marshall	per:employee_or_member_of	Marine Corps
+SF13_ENG_011	Anthony Marshall	per:employee_or_member_of	Marines
+SF13_ENG_011	Anthony Marshall	per:origin	U.S.
+SF13_ENG_011	Anthony Marshall	per:origin	United States
+SF13_ENG_011	Anthony Marshall	per:parents	Astor
+SF13_ENG_011	Anthony Marshall	per:parents	Brooke Astor
+SF13_ENG_011	Anthony Marshall	per:spouse	Charlene
+SF13_ENG_011	Anthony Marshall	per:spouse	Charlene Marshall
+SF13_ENG_011	Anthony Marshall	per:title	ambassador
+SF13_ENG_011	Anthony Marshall	per:title	author
+SF13_ENG_011	Anthony Marshall	per:title	diplomat
+SF13_ENG_011	Anthony Marshall	per:title	Marine
+SF13_ENG_011	Anthony Marshall	per:title	producer
+SF13_ENG_012	Adam Gadahn	per:age	31
+SF13_ENG_012	Adam Gadahn	per:age	31-year-old
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Abu Yahiya Gadahn
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Adam Pearlman
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Adam Yahiye Gadahn
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Azzam al-Ameriki
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Azzam Al-Amreeki
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Azzam al-Amriki
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Azzam the American
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Yahya Majadin Adams
+SF13_ENG_012	Adam Gadahn	per:charges	treason
+SF13_ENG_012	Adam Gadahn	per:cities_of_residence	Karachi
+SF13_ENG_012	Adam Gadahn	per:countries_of_residence	American
+SF13_ENG_012	Adam Gadahn	per:countries_of_residence	Pakistan
+SF13_ENG_012	Adam Gadahn	per:country_of_birth	America
+SF13_ENG_012	Adam Gadahn	per:country_of_birth	U.S.
+SF13_ENG_012	Adam Gadahn	per:date_of_birth	1978
+SF13_ENG_012	Adam Gadahn	per:date_of_birth	9/1/1978
+SF13_ENG_012	Adam Gadahn	per:date_of_birth	1978-XX-XX
+SF13_ENG_012	Adam Gadahn	per:employee_or_member_of	Al-Qaeda
+SF13_ENG_012	Adam Gadahn	per:employee_or_member_of	al-Qaida
+SF13_ENG_012	Adam Gadahn	per:employee_or_member_of	Qaida
+SF13_ENG_012	Adam Gadahn	per:origin	American
+SF13_ENG_012	Adam Gadahn	per:origin	U.S.
+SF13_ENG_012	Adam Gadahn	per:religion	Islam
+SF13_ENG_012	Adam Gadahn	per:religion	Muslims
+SF13_ENG_012	Adam Gadahn	per:stateorprovince_of_birth	Oregon
+SF13_ENG_012	Adam Gadahn	per:statesorprovinces_of_residence	California
+SF13_ENG_012	Adam Gadahn	per:title	commander
+SF13_ENG_012	Adam Gadahn	per:title	operative
+SF13_ENG_012	Adam Gadahn	per:title	propagandist
+SF13_ENG_012	Adam Gadahn	per:title	spokesman
+SF13_ENG_013	Henry Olonga	per:age	26
+SF13_ENG_013	Henry Olonga	per:age	34
+SF13_ENG_013	Henry Olonga	per:charges	treason
+SF13_ENG_013	Henry Olonga	per:countries_of_residence	England
+SF13_ENG_013	Henry Olonga	per:countries_of_residence	Zimbabwe
+SF13_ENG_013	Henry Olonga	per:countries_of_residence	Zimbabwean
+SF13_ENG_013	Henry Olonga	per:employee_or_member_of	Lashings World XI
+SF13_ENG_013	Henry Olonga	per:employee_or_member_of	Zimbabwe
+SF13_ENG_013	Henry Olonga	per:origin	Zimbabwe
+SF13_ENG_013	Henry Olonga	per:origin	Zimbabwean
+SF13_ENG_013	Henry Olonga	per:title	black player
+SF13_ENG_013	Henry Olonga	per:title	bowler
+SF13_ENG_013	Henry Olonga	per:title	cricketer
+SF13_ENG_013	Henry Olonga	per:title	fast bowler
+SF13_ENG_013	Henry Olonga	per:title	player
+SF13_ENG_014	Mohammed Oudeh	per:age	73
+SF13_ENG_014	Mohammed Oudeh	per:alternate_names	Abu Daoud
+SF13_ENG_014	Mohammed Oudeh	per:cause_of_death	kidney disease
+SF13_ENG_014	Mohammed Oudeh	per:cause_of_death	kidney failure
+SF13_ENG_014	Mohammed Oudeh	per:children	Hana
+SF13_ENG_014	Mohammed Oudeh	per:children	Wafa
+SF13_ENG_014	Mohammed Oudeh	per:cities_of_residence	Jerusalem
+SF13_ENG_014	Mohammed Oudeh	per:cities_of_residence	Ramallah
+SF13_ENG_014	Mohammed Oudeh	per:city_of_birth	Jerusalem
+SF13_ENG_014	Mohammed Oudeh	per:city_of_death	Damascus
+SF13_ENG_014	Mohammed Oudeh	per:countries_of_residence	Jordan
+SF13_ENG_014	Mohammed Oudeh	per:countries_of_residence	Lebanon
+SF13_ENG_014	Mohammed Oudeh	per:date_of_birth	1937
+SF13_ENG_014	Mohammed Oudeh	per:date_of_birth	1937-XX-XX
+SF13_ENG_014	Mohammed Oudeh	per:date_of_death	7/2/2010
+SF13_ENG_014	Mohammed Oudeh	per:date_of_death	7/3/2010
+SF13_ENG_014	Mohammed Oudeh	per:date_of_death	2010-07-XX
+SF13_ENG_014	Mohammed Oudeh	per:date_of_death	Friday
+SF13_ENG_014	Mohammed Oudeh	per:date_of_death	Saturday
+SF13_ENG_014	Mohammed Oudeh	per:employee_or_member_of	Black September
+SF13_ENG_014	Mohammed Oudeh	per:employee_or_member_of	Fatah Revolutionary Council
+SF13_ENG_014	Mohammed Oudeh	per:employee_or_member_of	Palestine Liberation Organization
+SF13_ENG_014	Mohammed Oudeh	per:employee_or_member_of	PLO
+SF13_ENG_014	Mohammed Oudeh	per:origin	Palestine
+SF13_ENG_014	Mohammed Oudeh	per:origin	Palestinian
+SF13_ENG_014	Mohammed Oudeh	per:stateorprovince_of_death	Damascus
+SF13_ENG_014	Mohammed Oudeh	per:title	lawyer
+SF13_ENG_014	Mohammed Oudeh	per:title	leader
+SF13_ENG_014	Mohammed Oudeh	per:title	math teacher
+SF13_ENG_014	Mohammed Oudeh	per:title	teacher
+SF13_ENG_015	Lucille Clifton	per:age	73
+SF13_ENG_015	Lucille Clifton	per:children	Alexia
+SF13_ENG_015	Lucille Clifton	per:children	Channing
+SF13_ENG_015	Lucille Clifton	per:children	Frederica
+SF13_ENG_015	Lucille Clifton	per:children	Gillian
+SF13_ENG_015	Lucille Clifton	per:children	Gillian Clifton-Monell
+SF13_ENG_015	Lucille Clifton	per:children	Graham
+SF13_ENG_015	Lucille Clifton	per:children	Sidney
+SF13_ENG_015	Lucille Clifton	per:children	Sidney Clifton
+SF13_ENG_015	Lucille Clifton	per:cities_of_residence	Baltimore
+SF13_ENG_015	Lucille Clifton	per:cities_of_residence	Buffalo
+SF13_ENG_015	Lucille Clifton	per:cities_of_residence	Columbia
+SF13_ENG_015	Lucille Clifton	per:city_of_birth	Depew
+SF13_ENG_015	Lucille Clifton	per:city_of_death	Baltimore
+SF13_ENG_015	Lucille Clifton	per:date_of_birth	6/27/1936
+SF13_ENG_015	Lucille Clifton	per:date_of_death	2010-02-XX
+SF13_ENG_015	Lucille Clifton	per:employee_or_member_of	Coppin State College
+SF13_ENG_015	Lucille Clifton	per:employee_or_member_of	Office of Education
+SF13_ENG_015	Lucille Clifton	per:employee_or_member_of	St. Mary's College of Maryland
+SF13_ENG_015	Lucille Clifton	per:employee_or_member_of	the University of California at Santa Cruz
+SF13_ENG_015	Lucille Clifton	per:employee_or_member_of	U.S. Office of Education
+SF13_ENG_015	Lucille Clifton	per:employee_or_member_of	University of California
+SF13_ENG_015	Lucille Clifton	per:employee_or_member_of	"University of California, Santa Cruz"
+SF13_ENG_015	Lucille Clifton	per:origin	African
+SF13_ENG_015	Lucille Clifton	per:origin	American
+SF13_ENG_015	Lucille Clifton	per:parents	Samuel
+SF13_ENG_015	Lucille Clifton	per:parents	Thelma
+SF13_ENG_015	Lucille Clifton	per:schools_attended	Howard University
+SF13_ENG_015	Lucille Clifton	per:siblings	Elaine Philip
+SF13_ENG_015	Lucille Clifton	per:spouse	Fred Clifton
+SF13_ENG_015	Lucille Clifton	per:title	poet
+SF13_ENG_015	Lucille Clifton	per:title	poet laureate
+SF13_ENG_015	Lucille Clifton	per:title	visiting professor
+SF13_ENG_015	Lucille Clifton	per:title	writer
+SF13_ENG_015	Lucille Clifton	per:title	writer in residence
+SF13_ENG_016	Paul Gray	per:charges	"possession of marijuana, cocaine and syringes"
+SF13_ENG_016	Paul Gray	per:cities_of_residence	Johnston
+SF13_ENG_016	Paul Gray	per:employee_or_member_of	Slipknot
+SF13_ENG_016	Paul Gray	per:spouse	Brenna
+SF13_ENG_016	Paul Gray	per:spouse	Brenna Gray
+SF13_ENG_016	Paul Gray	per:stateorprovince_of_death	Iowa
+SF13_ENG_016	Paul Gray	per:statesorprovinces_of_residence	Iowa
+SF13_ENG_016	Paul Gray	per:title	bass guitarist
+SF13_ENG_016	Paul Gray	per:title	bassist
+SF13_ENG_016	Paul Gray	per:title	star
+SF13_ENG_017	Alexander Haig	per:alternate_names	Alexander M. Haig Jr.
+SF13_ENG_017	Alexander Haig	per:alternate_names	Alexander Meigs Haig
+SF13_ENG_017	Alexander Haig	per:cause_of_death	complications from an infection
+SF13_ENG_017	Alexander Haig	per:children	Alexander
+SF13_ENG_017	Alexander Haig	per:children	Barbara
+SF13_ENG_017	Alexander Haig	per:children	Brian
+SF13_ENG_017	Alexander Haig	per:city_of_death	Baltimore
+SF13_ENG_017	Alexander Haig	per:countries_of_residence	American
+SF13_ENG_017	Alexander Haig	per:countries_of_residence	US
+SF13_ENG_017	Alexander Haig	per:date_of_death	2/20/2010
+SF13_ENG_017	Alexander Haig	per:date_of_death	Saturday
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	Army
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	National Security Council
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	NATO
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	Pentagon
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	the Pentagon
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	United States
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	United Technologies
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	US
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	White House
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	Worldwide Associates
+SF13_ENG_017	Alexander Haig	per:origin	American
+SF13_ENG_017	Alexander Haig	per:origin	United States
+SF13_ENG_017	Alexander Haig	per:schools_attended	Georgetown
+SF13_ENG_017	Alexander Haig	per:schools_attended	U.S. Military Academy
+SF13_ENG_017	Alexander Haig	per:spouse	Fox
+SF13_ENG_017	Alexander Haig	per:spouse	Patricia
+SF13_ENG_017	Alexander Haig	per:spouse	Patricia Fox
+SF13_ENG_017	Alexander Haig	per:stateorprovince_of_death	Maryland
+SF13_ENG_017	Alexander Haig	per:title	adviser
+SF13_ENG_017	Alexander Haig	per:title	aide
+SF13_ENG_017	Alexander Haig	per:title	battalion commander
+SF13_ENG_017	Alexander Haig	per:title	brigadier general
+SF13_ENG_017	Alexander Haig	per:title	chief of staff
+SF13_ENG_017	Alexander Haig	per:title	Col.
+SF13_ENG_017	Alexander Haig	per:title	colonel
+SF13_ENG_017	Alexander Haig	per:title	commander in chief
+SF13_ENG_017	Alexander Haig	per:title	deputy
+SF13_ENG_017	Alexander Haig	per:title	diplomat
+SF13_ENG_017	Alexander Haig	per:title	Gen.
+SF13_ENG_017	Alexander Haig	per:title	general
+SF13_ENG_017	Alexander Haig	per:title	Lieutenant
+SF13_ENG_017	Alexander Haig	per:title	lieutenant colonel
+SF13_ENG_017	Alexander Haig	per:title	lobbyist
+SF13_ENG_017	Alexander Haig	per:title	military adviser
+SF13_ENG_017	Alexander Haig	per:title	Military Assistant
+SF13_ENG_017	Alexander Haig	per:title	president
+SF13_ENG_017	Alexander Haig	per:title	secretary
+SF13_ENG_017	Alexander Haig	per:title	secretary of state
+SF13_ENG_017	Alexander Haig	per:title	soldier
+SF13_ENG_017	Alexander Haig	per:title	State Secretary
+SF13_ENG_017	Alexander Haig	per:title	statesman
+SF13_ENG_017	Alexander Haig	per:title	supreme allied commander
+SF13_ENG_017	Alexander Haig	per:title	vice chief of staff
+SF13_ENG_018	Harvey Pekar	per:alternate_names	Harvey Lawrence Pekar
+SF13_ENG_018	Harvey Pekar	per:children	Danielle
+SF13_ENG_018	Harvey Pekar	per:cities_of_residence	Cleveland
+SF13_ENG_018	Harvey Pekar	per:cities_of_residence	Cleveland Heights
+SF13_ENG_018	Harvey Pekar	per:country_of_death	US
+SF13_ENG_018	Harvey Pekar	per:date_of_death	7/12/2010
+SF13_ENG_018	Harvey Pekar	per:date_of_death	XXXX-07-12
+SF13_ENG_018	Harvey Pekar	per:employee_or_member_of	Jazz Review
+SF13_ENG_018	Harvey Pekar	per:origin	American
+SF13_ENG_018	Harvey Pekar	per:religion	Jewish
+SF13_ENG_018	Harvey Pekar	per:schools_attended	Case Western Reserve University
+SF13_ENG_018	Harvey Pekar	per:spouse	Brabner
+SF13_ENG_018	Harvey Pekar	per:spouse	Joyce Brabner
+SF13_ENG_018	Harvey Pekar	per:stateorprovince_of_death	Ohio
+SF13_ENG_018	Harvey Pekar	per:statesorprovinces_of_residence	Ohio
+SF13_ENG_018	Harvey Pekar	per:title	artist
+SF13_ENG_018	Harvey Pekar	per:title	book writer
+SF13_ENG_018	Harvey Pekar	per:title	cartoonist
+SF13_ENG_018	Harvey Pekar	per:title	creator
+SF13_ENG_018	Harvey Pekar	per:title	critic
+SF13_ENG_018	Harvey Pekar	per:title	Editor
+SF13_ENG_018	Harvey Pekar	per:title	file clerk
+SF13_ENG_018	Harvey Pekar	per:title	graphic artist
+SF13_ENG_018	Harvey Pekar	per:title	jazz critic
+SF13_ENG_018	Harvey Pekar	per:title	writer
+SF13_ENG_019	Keli McGregor	per:age	47
+SF13_ENG_019	Keli McGregor	per:age	48
+SF13_ENG_019	Keli McGregor	per:alternate_names	Keli S. McGregor
+SF13_ENG_019	Keli McGregor	per:cause_of_death	natural causes
+SF13_ENG_019	Keli McGregor	per:cause_of_death	viral heart infection
+SF13_ENG_019	Keli McGregor	per:children	Landri
+SF13_ENG_019	Keli McGregor	per:children	Logan
+SF13_ENG_019	Keli McGregor	per:children	Taylor
+SF13_ENG_019	Keli McGregor	per:city_of_death	Salt Lake City
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	All-Century Team
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Broncos
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Colorado Rockies
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Colorado State
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Colorado State Hall of Fame
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Colorado State University
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Denver Broncos
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Indianapolis Colts
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	National Football League
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Rockies
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Seattle Seahawks
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	the Denver Broncos
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	University of Arkansas
+SF13_ENG_019	Keli McGregor	per:origin	American
+SF13_ENG_019	Keli McGregor	per:schools_attended	Colorado State University
+SF13_ENG_019	Keli McGregor	per:schools_attended	Lakewood High
+SF13_ENG_019	Keli McGregor	per:schools_attended	University of Florida
+SF13_ENG_019	Keli McGregor	per:spouse	Lori
+SF13_ENG_019	Keli McGregor	per:stateorprovince_of_death	Utah
+SF13_ENG_019	Keli McGregor	per:statesorprovinces_of_residence	Colorado
+SF13_ENG_019	Keli McGregor	per:title	president
+SF13_ENG_019	Keli McGregor	per:title	Rockies president
+SF13_ENG_019	Keli McGregor	per:title	senior vice president
+SF13_ENG_020	Mike Penner	per:age	52
+SF13_ENG_020	Mike Penner	per:alternate_names	Christine Daniels
+SF13_ENG_020	Mike Penner	per:cities_of_residence	Los Angeles
+SF13_ENG_020	Mike Penner	per:city_of_birth	Inglewood
+SF13_ENG_020	Mike Penner	per:city_of_death	Los Angeles
+SF13_ENG_020	Mike Penner	per:date_of_birth	10/10/1957
+SF13_ENG_020	Mike Penner	per:date_of_death	11/27/2009
+SF13_ENG_020	Mike Penner	per:date_of_death	Friday
+SF13_ENG_020	Mike Penner	per:employee_or_member_of	Anaheim Bulletin
+SF13_ENG_020	Mike Penner	per:employee_or_member_of	L.A. Times
+SF13_ENG_020	Mike Penner	per:employee_or_member_of	Los Angeles Times
+SF13_ENG_020	Mike Penner	per:employee_or_member_of	The Times
+SF13_ENG_020	Mike Penner	per:employee_or_member_of	Times
+SF13_ENG_020	Mike Penner	per:title	sports writer
+SF13_ENG_020	Mike Penner	per:title	Sportswriter
+SF13_ENG_021	David Gutierrez	per:age	43
+SF13_ENG_021	David Gutierrez	per:charges	10 counts of aggravated assault for each sexual partner
+SF13_ENG_021	David Gutierrez	per:charges	adultery
+SF13_ENG_021	David Gutierrez	per:charges	aggravated assault
+SF13_ENG_021	David Gutierrez	per:charges	indecent acts
+SF13_ENG_021	David Gutierrez	per:charges	multiple indecent acts
+SF13_ENG_021	David Gutierrez	per:charges	obstruction of justice
+SF13_ENG_021	David Gutierrez	per:charges	violating his commander's order
+SF13_ENG_021	David Gutierrez	per:charges	violating his squadron commander's October 2009 order
+SF13_ENG_021	David Gutierrez	per:charges	violating military law
+SF13_ENG_021	David Gutierrez	per:cities_of_residence	Wichita
+SF13_ENG_021	David Gutierrez	per:employee_or_member_of	Maintenance Operations Squadron
+SF13_ENG_021	David Gutierrez	per:statesorprovinces_of_residence	Kansas
+SF13_ENG_021	David Gutierrez	per:title	Tech Sgt.
+SF13_ENG_021	David Gutierrez	per:title	Tech. Sgt.
+SF13_ENG_022	Mikel Karrera Sarobe	per:age	37
+SF13_ENG_022	Mikel Karrera Sarobe	per:alternate_names	Ata
+SF13_ENG_022	Mikel Karrera Sarobe	per:charges	aggravated homicide
+SF13_ENG_022	Mikel Karrera Sarobe	per:charges	attempted homicide
+SF13_ENG_022	Mikel Karrera Sarobe	per:charges	criminal association
+SF13_ENG_022	Mikel Karrera Sarobe	per:charges	possession of false documents
+SF13_ENG_022	Mikel Karrera Sarobe	per:charges	terrorism
+SF13_ENG_022	Mikel Karrera Sarobe	per:charges	violation of weapons laws
+SF13_ENG_022	Mikel Karrera Sarobe	per:employee_or_member_of	ETA
+SF13_ENG_022	Mikel Karrera Sarobe	per:origin	Spanish
+SF13_ENG_022	Mikel Karrera Sarobe	per:title	commander
+SF13_ENG_022	Mikel Karrera Sarobe	per:title	ETA leader
+SF13_ENG_022	Mikel Karrera Sarobe	per:title	military chief
+SF13_ENG_022	Mikel Karrera Sarobe	per:title	military leader
+SF13_ENG_023	Sheila Dixon	per:employee_or_member_of	Baltimore
+SF13_ENG_023	Sheila Dixon	per:employee_or_member_of	Democratic Party
+SF13_ENG_023	Sheila Dixon	per:title	Ave.  Mayor
+SF13_ENG_023	Sheila Dixon	per:title	female mayor
+SF13_ENG_023	Sheila Dixon	per:title	Mayor
+SF13_ENG_023	Sheila Dixon	per:title	public school teacher
+SF13_ENG_023	Sheila Dixon	per:title	St.  Mayor
+SF13_ENG_023	Sheila Dixon	per:title	teacher
+SF13_ENG_024	Crystal Taylor	per:age	38
+SF13_ENG_024	Crystal Taylor	per:alternate_names	Cristal Taylor
+SF13_ENG_024	Crystal Taylor	per:charges	failing to pay
+SF13_ENG_024	Crystal Taylor	per:charges	forgery
+SF13_ENG_024	Crystal Taylor	per:charges	probation violation
+SF13_ENG_024	Crystal Taylor	per:charges	stealing
+SF13_ENG_024	Crystal Taylor	per:charges	theft
+SF13_ENG_024	Crystal Taylor	per:date_of_birth	1971-XX-XX
+SF13_ENG_025	Nancy Kissel	per:age	45
+SF13_ENG_025	Nancy Kissel	per:age	46
+SF13_ENG_025	Nancy Kissel	per:alternate_names	milkshake murderer
+SF13_ENG_025	Nancy Kissel	per:charges	milkshake murder
+SF13_ENG_025	Nancy Kissel	per:charges	murder
+SF13_ENG_025	Nancy Kissel	per:cities_of_residence	Adrian
+SF13_ENG_025	Nancy Kissel	per:cities_of_residence	Hong Kong
+SF13_ENG_025	Nancy Kissel	per:cities_of_residence	Minneapolis
+SF13_ENG_025	Nancy Kissel	per:city_of_birth	Adrian
+SF13_ENG_025	Nancy Kissel	per:origin	American
+SF13_ENG_025	Nancy Kissel	per:other_family	Andrew Kissel
+SF13_ENG_025	Nancy Kissel	per:other_family	Jane Kissel Clayton
+SF13_ENG_025	Nancy Kissel	per:parents	Ira Keeshin
+SF13_ENG_025	Nancy Kissel	per:parents	Jean McGlothlin
+SF13_ENG_025	Nancy Kissel	per:parents	Jean McGothlin
+SF13_ENG_025	Nancy Kissel	per:siblings	Brooks Keeshin
+SF13_ENG_025	Nancy Kissel	per:spouse	Robert
+SF13_ENG_025	Nancy Kissel	per:spouse	Robert Kissel
+SF13_ENG_025	Nancy Kissel	per:stateorprovince_of_birth	Michigan
+SF13_ENG_025	Nancy Kissel	per:statesorprovinces_of_residence	Michigan
+SF13_ENG_026	Patricia Neal	per:alternate_names	Patrick Neal
+SF13_ENG_026	Patricia Neal	per:cause_of_death	lung cancer
+SF13_ENG_026	Patricia Neal	per:children	Lucy
+SF13_ENG_026	Patricia Neal	per:children	Olivia
+SF13_ENG_026	Patricia Neal	per:children	Ophelia
+SF13_ENG_026	Patricia Neal	per:children	Tessa Dahl
+SF13_ENG_026	Patricia Neal	per:children	Theo
+SF13_ENG_026	Patricia Neal	per:cities_of_residence	Edgarton
+SF13_ENG_026	Patricia Neal	per:cities_of_residence	Edgartown
+SF13_ENG_026	Patricia Neal	per:cities_of_residence	Knoxville
+SF13_ENG_026	Patricia Neal	per:cities_of_residence	Manhattan
+SF13_ENG_026	Patricia Neal	per:city_of_death	Edgarton
+SF13_ENG_026	Patricia Neal	per:countries_of_residence	US
+SF13_ENG_026	Patricia Neal	per:date_of_death	8/8/2010
+SF13_ENG_026	Patricia Neal	per:employee_or_member_of	BBC
+SF13_ENG_026	Patricia Neal	per:employee_or_member_of	Warner Bros.
+SF13_ENG_026	Patricia Neal	per:origin	U.S.
+SF13_ENG_026	Patricia Neal	per:schools_attended	Northwestern University
+SF13_ENG_026	Patricia Neal	per:siblings	Margaret Ann VandeNoord
+SF13_ENG_026	Patricia Neal	per:spouse	Roald Dahl
+SF13_ENG_026	Patricia Neal	per:stateorprovince_of_death	Mass.
+SF13_ENG_026	Patricia Neal	per:stateorprovince_of_death	Massachusetts
+SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	Mass.
+SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	Massachusetts
+SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	New York
+SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	Tenn.
+SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	Tennessee
+SF13_ENG_026	Patricia Neal	per:title	Actress
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:age	59
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:alternate_names	Abdel Aziz al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:alternate_names	Abdul Aziz Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:cause_of_death	cancer
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:cause_of_death	lung cancer
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:children	Amar al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:children	Ammar
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:children	Ammar Abdul Aziz al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:children	Ammar al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:children	Ammar Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:children	Mohsen Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:city_of_death	Tehran
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:countries_of_residence	Iran
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:countries_of_residence	Iraq
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:countries_of_residence	Iraqi
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:country_of_death	Iran
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:date_of_death	8/26/2009
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:date_of_death	Wednesday
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Badr Organisation
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Badr Organization
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Iraqi Governing Council
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	ISCI
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Islamic Supreme Council of Iraq
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Party
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	SIIC
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Supreme Council
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Supreme Iraqi Islamic Council
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Supreme Islamic Iraqi Council
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:origin	Iraqi
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:parents	Ayatollah Mohsen al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:parents	Mohsen al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:siblings	Ayatollah Mohammed Baqir al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:siblings	Ayatollah Mohammed Baqr al
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:siblings	Mohammed Baqir al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:siblings	Mohammed Baqr
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:stateorprovince_of_death	Tehran
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:statesorprovinces_of_residence	Najaf
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:title	Chairman
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:title	cleric
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:title	founder
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:title	His Eminence
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:title	politician
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:title	president
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:title	theologian
+SF13_ENG_028	Billy Mays	per:alternate_names	William D. Mays
+SF13_ENG_028	Billy Mays	per:alternate_names	William D. Mays Jr.
+SF13_ENG_028	Billy Mays	per:alternate_names	William Mays
+SF13_ENG_028	Billy Mays	per:cause_of_death	heart attack
+SF13_ENG_028	Billy Mays	per:cause_of_death	heart disease
+SF13_ENG_028	Billy Mays	per:cause_of_death	hypertension
+SF13_ENG_028	Billy Mays	per:children	Billy Mays III
+SF13_ENG_028	Billy Mays	per:children	Billy Mays Jr.
+SF13_ENG_028	Billy Mays	per:children	Elizabeth
+SF13_ENG_028	Billy Mays	per:cities_of_residence	Pittsburgh
+SF13_ENG_028	Billy Mays	per:cities_of_residence	Tampa
+SF13_ENG_028	Billy Mays	per:city_of_death	Tampa
+SF13_ENG_028	Billy Mays	per:date_of_death	6/28/2009
+SF13_ENG_028	Billy Mays	per:date_of_death	2009-06-XX
+SF13_ENG_028	Billy Mays	per:employee_or_member_of	Church & Dwight
+SF13_ENG_028	Billy Mays	per:employee_or_member_of	Discovery Channel
+SF13_ENG_028	Billy Mays	per:employee_or_member_of	Mays Promotions Inc.
+SF13_ENG_028	Billy Mays	per:employee_or_member_of	Media Enterprise
+SF13_ENG_028	Billy Mays	per:employee_or_member_of	Media Enterprises
+SF13_ENG_028	Billy Mays	per:origin	American
+SF13_ENG_028	Billy Mays	per:spouse	Deborah
+SF13_ENG_028	Billy Mays	per:spouse	Deborah Mays
+SF13_ENG_028	Billy Mays	per:stateorprovince_of_death	Fla.
+SF13_ENG_028	Billy Mays	per:stateorprovince_of_death	Florida
+SF13_ENG_028	Billy Mays	per:statesorprovinces_of_residence	Florida
+SF13_ENG_028	Billy Mays	per:title	businessman
+SF13_ENG_028	Billy Mays	per:title	pitchman
+SF13_ENG_028	Billy Mays	per:title	spokesman
+SF13_ENG_028	Billy Mays	per:title	television pitchman
+SF13_ENG_029	Laurent Fignon	per:alternate_names	Laurent Patrick Fignon
+SF13_ENG_029	Laurent Fignon	per:alternate_names	Professor
+SF13_ENG_029	Laurent Fignon	per:cause_of_death	cancer
+SF13_ENG_029	Laurent Fignon	per:children	Jeremy
+SF13_ENG_029	Laurent Fignon	per:children	Tiphaine
+SF13_ENG_029	Laurent Fignon	per:cities_of_residence	Paris
+SF13_ENG_029	Laurent Fignon	per:city_of_birth	Paris
+SF13_ENG_029	Laurent Fignon	per:city_of_death	Paris
+SF13_ENG_029	Laurent Fignon	per:country_of_birth	France
+SF13_ENG_029	Laurent Fignon	per:date_of_death	8/31/2010
+SF13_ENG_029	Laurent Fignon	per:date_of_death	31-Aug
+SF13_ENG_029	Laurent Fignon	per:date_of_death	Tuesday
+SF13_ENG_029	Laurent Fignon	per:employee_or_member_of	Army
+SF13_ENG_029	Laurent Fignon	per:employee_or_member_of	France 2
+SF13_ENG_029	Laurent Fignon	per:employee_or_member_of	France 2 network
+SF13_ENG_029	Laurent Fignon	per:employee_or_member_of	France Television
+SF13_ENG_029	Laurent Fignon	per:employee_or_member_of	Renault
+SF13_ENG_029	Laurent Fignon	per:origin	France
+SF13_ENG_029	Laurent Fignon	per:origin	French
+SF13_ENG_029	Laurent Fignon	per:origin	Frenchman
+SF13_ENG_029	Laurent Fignon	per:schools_attended	University of Villetaneuse
+SF13_ENG_029	Laurent Fignon	per:title	commentator
+SF13_ENG_029	Laurent Fignon	per:title	cyclist
+SF13_ENG_029	Laurent Fignon	per:title	rider
+SF13_ENG_029	Laurent Fignon	per:title	sports commentator
+SF13_ENG_030	Sparky Anderson	per:alternate_names	Captain Hook
+SF13_ENG_030	Sparky Anderson	per:cause_of_death	complications
+SF13_ENG_030	Sparky Anderson	per:cause_of_death	complications from dementia
+SF13_ENG_030	Sparky Anderson	per:cause_of_death	dementia
+SF13_ENG_030	Sparky Anderson	per:children	Albert
+SF13_ENG_030	Sparky Anderson	per:children	Albert Anderson
+SF13_ENG_030	Sparky Anderson	per:children	Lee
+SF13_ENG_030	Sparky Anderson	per:children	Lee Anderson
+SF13_ENG_030	Sparky Anderson	per:children	Shirlee Englebrecht
+SF13_ENG_030	Sparky Anderson	per:children	Shirley Englebrecht
+SF13_ENG_030	Sparky Anderson	per:cities_of_residence	Bridgewater
+SF13_ENG_030	Sparky Anderson	per:cities_of_residence	Los Angeles
+SF13_ENG_030	Sparky Anderson	per:cities_of_residence	Thousand Oaks
+SF13_ENG_030	Sparky Anderson	per:city_of_death	Thousand Oaks
+SF13_ENG_030	Sparky Anderson	per:date_of_death	11/4/2010
+SF13_ENG_030	Sparky Anderson	per:date_of_death	Thursday
+SF13_ENG_030	Sparky Anderson	per:date_of_death	XXXX-11-XX
+SF13_ENG_030	Sparky Anderson	per:employee_or_member_of	Hall of Fame
+SF13_ENG_030	Sparky Anderson	per:employee_or_member_of	Reds
+SF13_ENG_030	Sparky Anderson	per:employee_or_member_of	Tigers
+SF13_ENG_030	Sparky Anderson	per:parents	LeRoy
+SF13_ENG_030	Sparky Anderson	per:spouse	Carol
+SF13_ENG_030	Sparky Anderson	per:spouse	Carol Anderson
+SF13_ENG_030	Sparky Anderson	per:stateorprovince_of_death	California
+SF13_ENG_030	Sparky Anderson	per:statesorprovinces_of_residence	Calif.
+SF13_ENG_030	Sparky Anderson	per:statesorprovinces_of_residence	California
+SF13_ENG_030	Sparky Anderson	per:title	coach
+SF13_ENG_030	Sparky Anderson	per:title	manager
+SF13_ENG_030	Sparky Anderson	per:title	second baseman
+SF13_ENG_031	Blake Edwards	per:alternate_names	Blake McEdwards
+SF13_ENG_031	Blake Edwards	per:alternate_names	William Blake Crump
+SF13_ENG_031	Blake Edwards	per:cause_of_death	complications of pneumonia
+SF13_ENG_031	Blake Edwards	per:cause_of_death	pneumonia
+SF13_ENG_031	Blake Edwards	per:children	Amy
+SF13_ENG_031	Blake Edwards	per:children	Geoffrey
+SF13_ENG_031	Blake Edwards	per:children	Geoffrey Edwards
+SF13_ENG_031	Blake Edwards	per:children	Jennifer
+SF13_ENG_031	Blake Edwards	per:children	Jennifer Edwards
+SF13_ENG_031	Blake Edwards	per:children	Joanna
+SF13_ENG_031	Blake Edwards	per:cities_of_residence	Tulsa
+SF13_ENG_031	Blake Edwards	per:city_of_death	Santa Monica
+SF13_ENG_031	Blake Edwards	per:countries_of_residence	US
+SF13_ENG_031	Blake Edwards	per:date_of_death	12/15/2010
+SF13_ENG_031	Blake Edwards	per:date_of_death	XXXX-12-15
+SF13_ENG_031	Blake Edwards	per:employee_or_member_of	20th Century Fox
+SF13_ENG_031	Blake Edwards	per:employee_or_member_of	Coast Guard
+SF13_ENG_031	Blake Edwards	per:parents	Jack McEdwards
+SF13_ENG_031	Blake Edwards	per:parents	Lillian
+SF13_ENG_031	Blake Edwards	per:parents	Lillian McEdwards
+SF13_ENG_031	Blake Edwards	per:spouse	Andrews
+SF13_ENG_031	Blake Edwards	per:spouse	Julie Andrews
+SF13_ENG_031	Blake Edwards	per:spouse	Patricia Walker
+SF13_ENG_031	Blake Edwards	per:stateorprovince_of_death	Calif.
+SF13_ENG_031	Blake Edwards	per:stateorprovince_of_death	California
+SF13_ENG_031	Blake Edwards	per:title	actor
+SF13_ENG_031	Blake Edwards	per:title	director
+SF13_ENG_031	Blake Edwards	per:title	filmmaker
+SF13_ENG_031	Blake Edwards	per:title	Movie director
+SF13_ENG_031	Blake Edwards	per:title	painter
+SF13_ENG_031	Blake Edwards	per:title	partner
+SF13_ENG_031	Blake Edwards	per:title	producer
+SF13_ENG_031	Blake Edwards	per:title	"producer, director"
+SF13_ENG_031	Blake Edwards	per:title	right director
+SF13_ENG_031	Blake Edwards	per:title	screenwriter
+SF13_ENG_031	Blake Edwards	per:title	writer
+SF13_ENG_031	Blake Edwards	per:title	writing partner
+SF13_ENG_032	Hwang Jang-Yop	per:age	87
+SF13_ENG_032	Hwang Jang-Yop	per:cause_of_death	heart failure
+SF13_ENG_032	Hwang Jang-Yop	per:cause_of_death	natural causes
+SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	National Defense Commission
+SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	North Korea
+SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	Supreme People's Assembly
+SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	Worker' Party
+SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	Workers ' Party
+SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	Workers Party
+SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	Workers' Party
+SF13_ENG_032	Hwang Jang-Yop	per:origin	North Korean
+SF13_ENG_032	Hwang Jang-Yop	per:schools_attended	Kim Il Sung University
+SF13_ENG_032	Hwang Jang-Yop	per:schools_attended	Moscow University
+SF13_ENG_032	Hwang Jang-Yop	per:title	chairman
+SF13_ENG_032	Hwang Jang-Yop	per:title	former secretary
+SF13_ENG_032	Hwang Jang-Yop	per:title	secretary
+SF13_ENG_032	Hwang Jang-Yop	per:title	tutor
+SF13_ENG_033	Vitaly Ginzburg	per:alternate_names	Vitaly L. Ginzburg
+SF13_ENG_033	Vitaly Ginzburg	per:cause_of_death	cardiac arrest
+SF13_ENG_033	Vitaly Ginzburg	per:cause_of_death	heart failure
+SF13_ENG_033	Vitaly Ginzburg	per:city_of_death	Moscow
+SF13_ENG_033	Vitaly Ginzburg	per:countries_of_residence	Russian
+SF13_ENG_033	Vitaly Ginzburg	per:date_of_death	11/8/2009
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	Communist Party
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	Department of Theoretical Physics
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	FIAN
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	Lebedev Physical Institute of Russian Academy of Science
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	Lebedev Physics Institute
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	Soviet Academy of Sciences
+SF13_ENG_033	Vitaly Ginzburg	per:origin	Russia
+SF13_ENG_033	Vitaly Ginzburg	per:origin	Russian
+SF13_ENG_033	Vitaly Ginzburg	per:schools_attended	Moscow State University
+SF13_ENG_033	Vitaly Ginzburg	per:title	astrophysicist
+SF13_ENG_033	Vitaly Ginzburg	per:title	physicist
+SF13_ENG_034	Bobby Frankel	per:age	68
+SF13_ENG_034	Bobby Frankel	per:alternate_names	Robert J. Frankel
+SF13_ENG_034	Bobby Frankel	per:alternate_names	Robert Jules Frankel
+SF13_ENG_034	Bobby Frankel	per:cause_of_death	cancer
+SF13_ENG_034	Bobby Frankel	per:cause_of_death	leukemia
+SF13_ENG_034	Bobby Frankel	per:cause_of_death	lymphoma
+SF13_ENG_034	Bobby Frankel	per:children	Bethenny Frankel
+SF13_ENG_034	Bobby Frankel	per:cities_of_residence	Los Angeles
+SF13_ENG_034	Bobby Frankel	per:date_of_birth	9-Jul-41
+SF13_ENG_034	Bobby Frankel	per:date_of_death	11/16/2009
+SF13_ENG_034	Bobby Frankel	per:employee_or_member_of	Hall of Fame
+SF13_ENG_034	Bobby Frankel	per:spouse	Bonita Boniface
+SF13_ENG_034	Bobby Frankel	per:stateorprovince_of_birth	N.Y.
+SF13_ENG_034	Bobby Frankel	per:stateorprovince_of_birth	New York
+SF13_ENG_034	Bobby Frankel	per:stateorprovince_of_death	California
+SF13_ENG_034	Bobby Frankel	per:statesorprovinces_of_residence	Calif.
+SF13_ENG_034	Bobby Frankel	per:title	horse trainer
+SF13_ENG_034	Bobby Frankel	per:title	owner
+SF13_ENG_034	Bobby Frankel	per:title	racehorse trainer
+SF13_ENG_034	Bobby Frankel	per:title	trainer
+SF13_ENG_035	Maria Kaczynska	per:age	59
+SF13_ENG_035	Maria Kaczynska	per:age	66
+SF13_ENG_035	Maria Kaczynska	per:age	67
+SF13_ENG_035	Maria Kaczynska	per:cause_of_death	air crash
+SF13_ENG_035	Maria Kaczynska	per:cause_of_death	plane crash
+SF13_ENG_035	Maria Kaczynska	per:children	Marta
+SF13_ENG_035	Maria Kaczynska	per:city_of_death	Smolensk
+SF13_ENG_035	Maria Kaczynska	per:countries_of_residence	Poland
+SF13_ENG_035	Maria Kaczynska	per:countries_of_residence	Polish
+SF13_ENG_035	Maria Kaczynska	per:country_of_death	Russia
+SF13_ENG_035	Maria Kaczynska	per:date_of_death	4/10/2010
+SF13_ENG_035	Maria Kaczynska	per:origin	Polish
+SF13_ENG_035	Maria Kaczynska	per:other_family	Jaroslaw Kaczynski
+SF13_ENG_035	Maria Kaczynska	per:spouse	Kaczynski
+SF13_ENG_035	Maria Kaczynska	per:spouse	Lech Kaczynski
+SF13_ENG_035	Maria Kaczynska	per:spouse	Lech Kaczysnki
+SF13_ENG_035	Maria Kaczynska	per:title	economist
+SF13_ENG_035	Maria Kaczynska	per:title	first lady
+SF13_ENG_035	Maria Kaczynska	per:title	translator
+SF13_ENG_036	Girija Prasad Koirala	per:age	85
+SF13_ENG_036	Girija Prasad Koirala	per:age	86
+SF13_ENG_036	Girija Prasad Koirala	per:age	87
+SF13_ENG_036	Girija Prasad Koirala	per:alternate_names	G.P. Koirala
+SF13_ENG_036	Girija Prasad Koirala	per:cause_of_death	respiratory disease
+SF13_ENG_036	Girija Prasad Koirala	per:children	Sujata Koirala
+SF13_ENG_036	Girija Prasad Koirala	per:city_of_birth	Bihar
+SF13_ENG_036	Girija Prasad Koirala	per:city_of_death	Kathmandu
+SF13_ENG_036	Girija Prasad Koirala	per:city_of_death	Katmandu
+SF13_ENG_036	Girija Prasad Koirala	per:countries_of_residence	India
+SF13_ENG_036	Girija Prasad Koirala	per:countries_of_residence	Nepal
+SF13_ENG_036	Girija Prasad Koirala	per:country_of_death	Nepal
+SF13_ENG_036	Girija Prasad Koirala	per:date_of_death	3/20/2010
+SF13_ENG_036	Girija Prasad Koirala	per:date_of_death	2010-03-20TAF
+SF13_ENG_036	Girija Prasad Koirala	per:employee_or_member_of	Congress
+SF13_ENG_036	Girija Prasad Koirala	per:employee_or_member_of	HLPM
+SF13_ENG_036	Girija Prasad Koirala	per:employee_or_member_of	NC
+SF13_ENG_036	Girija Prasad Koirala	per:employee_or_member_of	Nepalese Congress
+SF13_ENG_036	Girija Prasad Koirala	per:employee_or_member_of	Nepali Congress
+SF13_ENG_036	Girija Prasad Koirala	per:employee_or_member_of	Nepali Congress party
+SF13_ENG_036	Girija Prasad Koirala	per:employee_or_member_of	the Nepali Congress party
+SF13_ENG_036	Girija Prasad Koirala	per:title	Chairman
+SF13_ENG_036	Girija Prasad Koirala	per:title	patriarch
+SF13_ENG_036	Girija Prasad Koirala	per:title	PM
+SF13_ENG_036	Girija Prasad Koirala	per:title	politician
+SF13_ENG_036	Girija Prasad Koirala	per:title	president
+SF13_ENG_036	Girija Prasad Koirala	per:title	Prime Minister
+SF13_ENG_036	Girija Prasad Koirala	per:title	statesman
+SF13_ENG_036	Girija Prasad Koirala	per:title	union organiser
+SF13_ENG_037	Claude Chabrol	per:children	Cecile Maistre
+SF13_ENG_037	Claude Chabrol	per:children	Jean-Yves
+SF13_ENG_037	Claude Chabrol	per:cities_of_residence	Paris
+SF13_ENG_037	Claude Chabrol	per:cities_of_residence	Sardent
+SF13_ENG_037	Claude Chabrol	per:city_of_death	Paris
+SF13_ENG_037	Claude Chabrol	per:countries_of_residence	France
+SF13_ENG_037	Claude Chabrol	per:countries_of_residence	French
+SF13_ENG_037	Claude Chabrol	per:countries_of_residence	Switzerland
+SF13_ENG_037	Claude Chabrol	per:date_of_death	9/12/2010
+SF13_ENG_037	Claude Chabrol	per:date_of_death	2010-09-12TMO
+SF13_ENG_037	Claude Chabrol	per:date_of_death	Sunday
+SF13_ENG_037	Claude Chabrol	per:employee_or_member_of	Cahiers du Cinema
+SF13_ENG_037	Claude Chabrol	per:origin	France
+SF13_ENG_037	Claude Chabrol	per:origin	French
+SF13_ENG_037	Claude Chabrol	per:spouse	Agn
+SF13_ENG_037	Claude Chabrol	per:spouse	Agn s Goute
+SF13_ENG_037	Claude Chabrol	per:spouse	Agnes Marie-Madeleine Goute
+SF13_ENG_037	Claude Chabrol	per:spouse	Audran
+SF13_ENG_037	Claude Chabrol	per:spouse	Aurore Pajot
+SF13_ENG_037	Claude Chabrol	per:spouse	Stephane Audran
+SF13_ENG_037	Claude Chabrol	per:title	author
+SF13_ENG_037	Claude Chabrol	per:title	authored
+SF13_ENG_037	Claude Chabrol	per:title	critic
+SF13_ENG_037	Claude Chabrol	per:title	director
+SF13_ENG_037	Claude Chabrol	per:title	directors
+SF13_ENG_037	Claude Chabrol	per:title	film critic
+SF13_ENG_037	Claude Chabrol	per:title	film director
+SF13_ENG_037	Claude Chabrol	per:title	film maker
+SF13_ENG_037	Claude Chabrol	per:title	filmmaker
+SF13_ENG_037	Claude Chabrol	per:title	film-maker
+SF13_ENG_037	Claude Chabrol	per:title	producer
+SF13_ENG_037	Claude Chabrol	per:title	screenwriter
+SF13_ENG_037	Claude Chabrol	per:title	writer
+SF13_ENG_038	Merce Cunningham	per:age	20
+SF13_ENG_038	Merce Cunningham	per:age	80
+SF13_ENG_038	Merce Cunningham	per:age	90
+SF13_ENG_038	Merce Cunningham	per:alternate_names	Mercier Philip Cunningham
+SF13_ENG_038	Merce Cunningham	per:cause_of_death	natural causes
+SF13_ENG_038	Merce Cunningham	per:cities_of_residence	New York
+SF13_ENG_038	Merce Cunningham	per:city_of_birth	Centralia
+SF13_ENG_038	Merce Cunningham	per:city_of_death	Manhattan
+SF13_ENG_038	Merce Cunningham	per:city_of_death	New York
+SF13_ENG_038	Merce Cunningham	per:city_of_death	New York City
+SF13_ENG_038	Merce Cunningham	per:date_of_birth	4/16/1919
+SF13_ENG_038	Merce Cunningham	per:date_of_death	2009
+SF13_ENG_038	Merce Cunningham	per:date_of_death	7/26/2009
+SF13_ENG_038	Merce Cunningham	per:date_of_death	July-XX-XX
+SF13_ENG_038	Merce Cunningham	per:date_of_death	last July
+SF13_ENG_038	Merce Cunningham	per:date_of_death	XXXX-07-26
+SF13_ENG_038	Merce Cunningham	per:origin	American
+SF13_ENG_038	Merce Cunningham	per:origin	US
+SF13_ENG_038	Merce Cunningham	per:parents	Clifford Cunningham
+SF13_ENG_038	Merce Cunningham	per:parents	Mayme Joach
+SF13_ENG_038	Merce Cunningham	per:schools_attended	Black Mountain College
+SF13_ENG_038	Merce Cunningham	per:schools_attended	Cornish School
+SF13_ENG_038	Merce Cunningham	per:schools_attended	Cornish School of Fine Arts
+SF13_ENG_038	Merce Cunningham	per:siblings	Jack Cunningham
+SF13_ENG_038	Merce Cunningham	per:stateorprovince_of_birth	Wash.
+SF13_ENG_038	Merce Cunningham	per:title	choreographer
+SF13_ENG_038	Merce Cunningham	per:title	dancer
+SF13_ENG_038	Merce Cunningham	per:title	performer
+SF13_ENG_038	Merce Cunningham	per:title	students
+SF13_ENG_038	Merce Cunningham	per:title	teacher
+SF13_ENG_039	Jade Goody	per:cause_of_death	cancer
+SF13_ENG_039	Jade Goody	per:cause_of_death	cervical cancer
+SF13_ENG_039	Jade Goody	per:countries_of_residence	British
+SF13_ENG_039	Jade Goody	per:date_of_death	22-Mar
+SF13_ENG_039	Jade Goody	per:date_of_death	last year
+SF13_ENG_039	Jade Goody	per:origin	British
+SF13_ENG_039	Jade Goody	per:spouse	Jack Tweed
+SF13_ENG_039	Jade Goody	per:title	dental nurse
+SF13_ENG_039	Jade Goody	per:title	reality television star
+SF13_ENG_039	Jade Goody	per:title	reality TV star
+SF13_ENG_039	Jade Goody	per:title	star
+SF13_ENG_039	Jade Goody	per:title	television star
+SF13_ENG_039	Jade Goody	per:title	TV personality
+SF13_ENG_040	Wayman Tisdale	per:cause_of_death	Cancer
+SF13_ENG_040	Wayman Tisdale	per:date_of_death	2009-05-XX
+SF13_ENG_040	Wayman Tisdale	per:date_of_death	last May
+SF13_ENG_040	Wayman Tisdale	per:title	jazz artist
+SF13_ENG_040	Wayman Tisdale	per:title	jazzman
+SF13_ENG_041	Don Hewitt	per:age	6
+SF13_ENG_041	Don Hewitt	per:age	80
+SF13_ENG_041	Don Hewitt	per:age	86
+SF13_ENG_041	Don Hewitt	per:alternate_names	Donald Shepard Hewitt
+SF13_ENG_041	Don Hewitt	per:cause_of_death	cancer
+SF13_ENG_041	Don Hewitt	per:cause_of_death	pancreatic cancer
+SF13_ENG_041	Don Hewitt	per:children	Jeffrey
+SF13_ENG_041	Don Hewitt	per:children	Jilian Childers Hewitt
+SF13_ENG_041	Don Hewitt	per:children	Jilian Hewitt
+SF13_ENG_041	Don Hewitt	per:children	Lisa Cassara
+SF13_ENG_041	Don Hewitt	per:children	Steven
+SF13_ENG_041	Don Hewitt	per:cities_of_residence	Boston
+SF13_ENG_041	Don Hewitt	per:cities_of_residence	New Rochelle
+SF13_ENG_041	Don Hewitt	per:city_of_birth	New York City
+SF13_ENG_041	Don Hewitt	per:city_of_death	Bridgehampton
+SF13_ENG_041	Don Hewitt	per:date_of_birth	12/14/1922
+SF13_ENG_041	Don Hewitt	per:date_of_death	8/19/2009
+SF13_ENG_041	Don Hewitt	per:date_of_death	Wednesday
+SF13_ENG_041	Don Hewitt	per:employee_or_member_of	Acme Newspictures
+SF13_ENG_041	Don Hewitt	per:employee_or_member_of	CBS
+SF13_ENG_041	Don Hewitt	per:employee_or_member_of	CBS News
+SF13_ENG_041	Don Hewitt	per:employee_or_member_of	Merchant Marines
+SF13_ENG_041	Don Hewitt	per:employee_or_member_of	New York Herald Tribune
+SF13_ENG_041	Don Hewitt	per:schools_attended	Merchant Marine Academy
+SF13_ENG_041	Don Hewitt	per:schools_attended	New York University
+SF13_ENG_041	Don Hewitt	per:spouse	Frankie Childers
+SF13_ENG_041	Don Hewitt	per:spouse	Marilyn
+SF13_ENG_041	Don Hewitt	per:spouse	Marilyn Berger
+SF13_ENG_041	Don Hewitt	per:spouse	Mary Weaver
+SF13_ENG_041	Don Hewitt	per:stateorprovince_of_birth	New York
+SF13_ENG_041	Don Hewitt	per:stateorprovince_of_death	N.Y.
+SF13_ENG_041	Don Hewitt	per:stateorprovince_of_death	New York
+SF13_ENG_041	Don Hewitt	per:statesorprovinces_of_residence	N.Y.
+SF13_ENG_041	Don Hewitt	per:title	associate director
+SF13_ENG_041	Don Hewitt	per:title	consultant
+SF13_ENG_041	Don Hewitt	per:title	director
+SF13_ENG_041	Don Hewitt	per:title	executive
+SF13_ENG_041	Don Hewitt	per:title	executive producer
+SF13_ENG_041	Don Hewitt	per:title	newsman
+SF13_ENG_041	Don Hewitt	per:title	producer
+SF13_ENG_041	Don Hewitt	per:title	reporter
+SF13_ENG_041	Don Hewitt	per:title	TV newsman
+SF13_ENG_042	Dudu Topaz	per:age	62
+SF13_ENG_042	Dudu Topaz	per:alternate_names	David Goldenberg
+SF13_ENG_042	Dudu Topaz	per:cause_of_death	hanging
+SF13_ENG_042	Dudu Topaz	per:cause_of_death	killed himself
+SF13_ENG_042	Dudu Topaz	per:cause_of_death	suicide
+SF13_ENG_042	Dudu Topaz	per:charges	aggravated assault
+SF13_ENG_042	Dudu Topaz	per:charges	assault and battery
+SF13_ENG_042	Dudu Topaz	per:charges	conspiracy to commit a crime
+SF13_ENG_042	Dudu Topaz	per:charges	extortion
+SF13_ENG_042	Dudu Topaz	per:charges	hiring thugs to assault Israeli media executives
+SF13_ENG_042	Dudu Topaz	per:charges	obstruction of justice
+SF13_ENG_042	Dudu Topaz	per:charges	plotting attacks
+SF13_ENG_042	Dudu Topaz	per:children	Daniel
+SF13_ENG_042	Dudu Topaz	per:cities_of_residence	Tel Aviv
+SF13_ENG_042	Dudu Topaz	per:countries_of_residence	Israel
+SF13_ENG_042	Dudu Topaz	per:countries_of_residence	Israeli
+SF13_ENG_042	Dudu Topaz	per:date_of_death	8/20/2009
+SF13_ENG_042	Dudu Topaz	per:origin	Israel
+SF13_ENG_042	Dudu Topaz	per:origin	Israeli
+SF13_ENG_042	Dudu Topaz	per:title	entertainer
+SF13_ENG_042	Dudu Topaz	per:title	television star
+SF13_ENG_042	Dudu Topaz	per:title	TV star
+SF13_ENG_043	Ellie Greenwich	per:age	68
+SF13_ENG_043	Ellie Greenwich	per:alternate_names	Eleanor Louise Greenwich
+SF13_ENG_043	Ellie Greenwich	per:cause_of_death	heart attack
+SF13_ENG_043	Ellie Greenwich	per:city_of_death	Manhattan
+SF13_ENG_043	Ellie Greenwich	per:date_of_birth	10/23/1940
+SF13_ENG_043	Ellie Greenwich	per:date_of_death	8/26/2009
+SF13_ENG_043	Ellie Greenwich	per:date_of_death	2009-W34
+SF13_ENG_043	Ellie Greenwich	per:date_of_death	2009-XX-XX
+SF13_ENG_043	Ellie Greenwich	per:employee_or_member_of	Songwriters Hall of Fame
+SF13_ENG_043	Ellie Greenwich	per:employee_or_member_of	The Jivettes
+SF13_ENG_043	Ellie Greenwich	per:origin	American
+SF13_ENG_043	Ellie Greenwich	per:other_family	Jessica Weiner
+SF13_ENG_043	Ellie Greenwich	per:schools_attended	Hofstra
+SF13_ENG_043	Ellie Greenwich	per:schools_attended	Hofstra University
+SF13_ENG_043	Ellie Greenwich	per:schools_attended	Queens College
+SF13_ENG_043	Ellie Greenwich	per:siblings	Laura Weiner
+SF13_ENG_043	Ellie Greenwich	per:spouse	Barry
+SF13_ENG_043	Ellie Greenwich	per:spouse	Jeff Barry
+SF13_ENG_043	Ellie Greenwich	per:stateorprovince_of_birth	N.Y.
+SF13_ENG_043	Ellie Greenwich	per:stateorprovince_of_death	New York
+SF13_ENG_043	Ellie Greenwich	per:title	arranger
+SF13_ENG_043	Ellie Greenwich	per:title	melody writer
+SF13_ENG_043	Ellie Greenwich	per:title	performer
+SF13_ENG_043	Ellie Greenwich	per:title	producer
+SF13_ENG_043	Ellie Greenwich	per:title	record producer
+SF13_ENG_043	Ellie Greenwich	per:title	singer
+SF13_ENG_043	Ellie Greenwich	per:title	song doctor
+SF13_ENG_043	Ellie Greenwich	per:title	songwriter
+SF13_ENG_043	Ellie Greenwich	per:title	writer
+SF13_ENG_044	Dominick Dunne	per:age	83
+SF13_ENG_044	Dominick Dunne	per:alternate_names	Dominick John Dunne
+SF13_ENG_044	Dominick Dunne	per:alternate_names	Nick
+SF13_ENG_044	Dominick Dunne	per:cause_of_death	bladder cancer
+SF13_ENG_044	Dominick Dunne	per:charges	slander
+SF13_ENG_044	Dominick Dunne	per:children	Alexander
+SF13_ENG_044	Dominick Dunne	per:children	Alexander Dunne
+SF13_ENG_044	Dominick Dunne	per:children	Dominique
+SF13_ENG_044	Dominick Dunne	per:children	Dominique Dunne
+SF13_ENG_044	Dominick Dunne	per:children	Griffin
+SF13_ENG_044	Dominick Dunne	per:children	Griffin Dunne
+SF13_ENG_044	Dominick Dunne	per:cities_of_residence	Los Angeles
+SF13_ENG_044	Dominick Dunne	per:cities_of_residence	New York City
+SF13_ENG_044	Dominick Dunne	per:city_of_birth	Hartford
+SF13_ENG_044	Dominick Dunne	per:city_of_death	New York
+SF13_ENG_044	Dominick Dunne	per:city_of_death	New York City
+SF13_ENG_044	Dominick Dunne	per:date_of_birth	1925
+SF13_ENG_044	Dominick Dunne	per:date_of_birth	10/29/1925
+SF13_ENG_044	Dominick Dunne	per:date_of_birth	1925-XX-XX
+SF13_ENG_044	Dominick Dunne	per:date_of_death	8/26/2009
+SF13_ENG_044	Dominick Dunne	per:date_of_death	XXXX-08-26
+SF13_ENG_044	Dominick Dunne	per:employee_or_member_of	ABC
+SF13_ENG_044	Dominick Dunne	per:employee_or_member_of	Army
+SF13_ENG_044	Dominick Dunne	per:employee_or_member_of	CBS
+SF13_ENG_044	Dominick Dunne	per:employee_or_member_of	Vanity Fair
+SF13_ENG_044	Dominick Dunne	per:origin	Irish
+SF13_ENG_044	Dominick Dunne	per:other_family	Hannah
+SF13_ENG_044	Dominick Dunne	per:other_family	Joan Didion
+SF13_ENG_044	Dominick Dunne	per:parents	Richard
+SF13_ENG_044	Dominick Dunne	per:religion	Catholic
+SF13_ENG_044	Dominick Dunne	per:religion	Roman Catholic
+SF13_ENG_044	Dominick Dunne	per:schools_attended	Williams College
+SF13_ENG_044	Dominick Dunne	per:siblings	John Gregory Dunne
+SF13_ENG_044	Dominick Dunne	per:siblings	Stephen
+SF13_ENG_044	Dominick Dunne	per:spouse	"Ellen ""Lenny"" Griffin Dunne"
+SF13_ENG_044	Dominick Dunne	per:spouse	Ellen Griffin Dunne
+SF13_ENG_044	Dominick Dunne	per:stateorprovince_of_birth	Conn.
+SF13_ENG_044	Dominick Dunne	per:stateorprovince_of_birth	Connecticut
+SF13_ENG_044	Dominick Dunne	per:stateorprovince_of_death	New York
+SF13_ENG_044	Dominick Dunne	per:statesorprovinces_of_residence	New York
+SF13_ENG_044	Dominick Dunne	per:title	Author
+SF13_ENG_044	Dominick Dunne	per:title	correspondent
+SF13_ENG_044	Dominick Dunne	per:title	executive producer
+SF13_ENG_044	Dominick Dunne	per:title	film producer
+SF13_ENG_044	Dominick Dunne	per:title	host
+SF13_ENG_044	Dominick Dunne	per:title	journalist
+SF13_ENG_044	Dominick Dunne	per:title	movie producer
+SF13_ENG_044	Dominick Dunne	per:title	novelist
+SF13_ENG_044	Dominick Dunne	per:title	reporter
+SF13_ENG_044	Dominick Dunne	per:title	stage manager
+SF13_ENG_044	Dominick Dunne	per:title	television personality
+SF13_ENG_044	Dominick Dunne	per:title	Writer
+SF13_ENG_045	Adam Goldstein	per:alternate_names	DJ AM
+SF13_ENG_045	Adam Goldstein	per:cause_of_death	drug overdose
+SF13_ENG_045	Adam Goldstein	per:cities_of_residence	Los Angeles
+SF13_ENG_045	Adam Goldstein	per:cities_of_residence	New York City
+SF13_ENG_045	Adam Goldstein	per:cities_of_residence	Philadelphia
+SF13_ENG_045	Adam Goldstein	per:city_of_death	New York City
+SF13_ENG_045	Adam Goldstein	per:date_of_death	8/28/2009
+SF13_ENG_045	Adam Goldstein	per:employee_or_member_of	MTV
+SF13_ENG_045	Adam Goldstein	per:parents	Andrea Gross
+SF13_ENG_045	Adam Goldstein	per:stateorprovince_of_death	New York
+SF13_ENG_045	Adam Goldstein	per:title	disc disc jockey
+SF13_ENG_045	Adam Goldstein	per:title	disc jockey
+SF13_ENG_045	Adam Goldstein	per:title	DJ
+SF13_ENG_045	Adam Goldstein	per:title	host
+SF13_ENG_045	Adam Goldstein	per:title	turntablist
+SF13_ENG_046	Don Meredith	per:alternate_names	Dandy Don
+SF13_ENG_046	Don Meredith	per:alternate_names	Joseph Donald Meredith
+SF13_ENG_046	Don Meredith	per:cause_of_death	brain hemorrhage
+SF13_ENG_046	Don Meredith	per:cities_of_residence	Mount Vernon
+SF13_ENG_046	Don Meredith	per:cities_of_residence	Santa Fe
+SF13_ENG_046	Don Meredith	per:city_of_death	Santa Fe
+SF13_ENG_046	Don Meredith	per:date_of_death	12/5/2010
+SF13_ENG_046	Don Meredith	per:date_of_death	5-Dec
+SF13_ENG_046	Don Meredith	per:date_of_death	Sunday
+SF13_ENG_046	Don Meredith	per:employee_or_member_of	ABC
+SF13_ENG_046	Don Meredith	per:employee_or_member_of	Cowboys
+SF13_ENG_046	Don Meredith	per:employee_or_member_of	Dallas Cowboys
+SF13_ENG_046	Don Meredith	per:employee_or_member_of	Lipton
+SF13_ENG_046	Don Meredith	per:employee_or_member_of	NFL
+SF13_ENG_046	Don Meredith	per:parents	Hazel
+SF13_ENG_046	Don Meredith	per:parents	Jeff
+SF13_ENG_046	Don Meredith	per:schools_attended	Southern Methodist University
+SF13_ENG_046	Don Meredith	per:spouse	Susan
+SF13_ENG_046	Don Meredith	per:stateorprovince_of_death	N.M.
+SF13_ENG_046	Don Meredith	per:stateorprovince_of_death	New Mexico
+SF13_ENG_046	Don Meredith	per:stateorprovince_of_death	New_Mexico
+SF13_ENG_046	Don Meredith	per:statesorprovinces_of_residence	Texas
+SF13_ENG_046	Don Meredith	per:title	announcer
+SF13_ENG_046	Don Meredith	per:title	broadcaster
+SF13_ENG_046	Don Meredith	per:title	color commentator
+SF13_ENG_046	Don Meredith	per:title	Cowboy
+SF13_ENG_046	Don Meredith	per:title	pitchman
+SF13_ENG_046	Don Meredith	per:title	quarterback
+SF13_ENG_047	Orlando Zapata	per:age	42
+SF13_ENG_047	Orlando Zapata	per:alternate_names	Orlando Zapata Tamayo
+SF13_ENG_047	Orlando Zapata	per:cause_of_death	hunger strike
+SF13_ENG_047	Orlando Zapata	per:cause_of_death	starved to death
+SF13_ENG_047	Orlando Zapata	per:cause_of_death	the result of an 85-day hunger strike
+SF13_ENG_047	Orlando Zapata	per:cities_of_residence	Banes
+SF13_ENG_047	Orlando Zapata	per:city_of_death	Havana
+SF13_ENG_047	Orlando Zapata	per:countries_of_residence	Cuba
+SF13_ENG_047	Orlando Zapata	per:countries_of_residence	Cuban
+SF13_ENG_047	Orlando Zapata	per:date_of_death	2/23/2010
+SF13_ENG_047	Orlando Zapata	per:date_of_death	23-Feb
+SF13_ENG_047	Orlando Zapata	per:date_of_death	2010-02
+SF13_ENG_047	Orlando Zapata	per:date_of_death	2010-02-XX
+SF13_ENG_047	Orlando Zapata	per:date_of_death	2010-XX-XX
+SF13_ENG_047	Orlando Zapata	per:date_of_death	2012-02-XX
+SF13_ENG_047	Orlando Zapata	per:date_of_death	Tuesday
+SF13_ENG_047	Orlando Zapata	per:date_of_death	XXXX-02-23
+SF13_ENG_047	Orlando Zapata	per:origin	Cuba
+SF13_ENG_047	Orlando Zapata	per:origin	Cuban
+SF13_ENG_047	Orlando Zapata	per:parents	Reina Luisa Tamayo
+SF13_ENG_047	Orlando Zapata	per:parents	Reina Tamayo
+SF13_ENG_047	Orlando Zapata	per:parents	Reyna Luisa Tamayo
+SF13_ENG_047	Orlando Zapata	per:statesorprovinces_of_residence	Camaguey
+SF13_ENG_047	Orlando Zapata	per:title	carpenter
+SF13_ENG_047	Orlando Zapata	per:title	construction worker
+SF13_ENG_047	Orlando Zapata	per:title	laborer
+SF13_ENG_047	Orlando Zapata	per:title	plumber
+SF13_ENG_048	Charles Gwathmey	per:age	71
+SF13_ENG_048	Charles Gwathmey	per:cause_of_death	cancer
+SF13_ENG_048	Charles Gwathmey	per:cause_of_death	esophageal cancer
+SF13_ENG_048	Charles Gwathmey	per:children	Eric Steel
+SF13_ENG_048	Charles Gwathmey	per:children	Steel
+SF13_ENG_048	Charles Gwathmey	per:cities_of_residence	Charlotte
+SF13_ENG_048	Charles Gwathmey	per:date_of_birth	1938
+SF13_ENG_048	Charles Gwathmey	per:date_of_birth	6/19/1938
+SF13_ENG_048	Charles Gwathmey	per:date_of_birth	1938-XX-XX
+SF13_ENG_048	Charles Gwathmey	per:date_of_death	8/3/2009
+SF13_ENG_048	Charles Gwathmey	per:date_of_death	8/10/2009
+SF13_ENG_048	Charles Gwathmey	per:date_of_death	2009-08-XX
+SF13_ENG_048	Charles Gwathmey	per:date_of_death	Monday
+SF13_ENG_048	Charles Gwathmey	per:employee_or_member_of	New York Five
+SF13_ENG_048	Charles Gwathmey	per:employee_or_member_of	New York School
+SF13_ENG_048	Charles Gwathmey	per:parents	Robert Gwathmey
+SF13_ENG_048	Charles Gwathmey	per:parents	Rosalie
+SF13_ENG_048	Charles Gwathmey	per:schools_attended	University of Pennsylvania
+SF13_ENG_048	Charles Gwathmey	per:schools_attended	Yale University
+SF13_ENG_048	Charles Gwathmey	per:spouse	Bette-Ann Damson
+SF13_ENG_048	Charles Gwathmey	per:spouse	Emily Gwathmey
+SF13_ENG_048	Charles Gwathmey	per:stateorprovince_of_birth	N.C.
+SF13_ENG_048	Charles Gwathmey	per:title	architect
+SF13_ENG_049	Benoit Mandelbrot	per:alternate_names	Benoit B. Mandelbrot
+SF13_ENG_049	Benoit Mandelbrot	per:cause_of_death	pancreatic cancer
+SF13_ENG_049	Benoit Mandelbrot	per:children	Laurent
+SF13_ENG_049	Benoit Mandelbrot	per:cities_of_residence	Cambridge
+SF13_ENG_049	Benoit Mandelbrot	per:city_of_death	Cambridge
+SF13_ENG_049	Benoit Mandelbrot	per:countries_of_residence	American
+SF13_ENG_049	Benoit Mandelbrot	per:countries_of_residence	France
+SF13_ENG_049	Benoit Mandelbrot	per:countries_of_residence	Poland
+SF13_ENG_049	Benoit Mandelbrot	per:country_of_death	US
+SF13_ENG_049	Benoit Mandelbrot	per:date_of_death	10/14/2010
+SF13_ENG_049	Benoit Mandelbrot	per:employee_or_member_of	Centre National de la Recherche Scientifique
+SF13_ENG_049	Benoit Mandelbrot	per:employee_or_member_of	IBM
+SF13_ENG_049	Benoit Mandelbrot	per:employee_or_member_of	Mandelbrot Foundation for Fractals
+SF13_ENG_049	Benoit Mandelbrot	per:employee_or_member_of	Yale University
+SF13_ENG_049	Benoit Mandelbrot	per:origin	French
+SF13_ENG_049	Benoit Mandelbrot	per:origin	Lithuanian
+SF13_ENG_049	Benoit Mandelbrot	per:religion	Jewish
+SF13_ENG_049	Benoit Mandelbrot	per:spouse	Aliette
+SF13_ENG_049	Benoit Mandelbrot	per:stateorprovince_of_death	Mass
+SF13_ENG_049	Benoit Mandelbrot	per:stateorprovince_of_death	Massachusetts
+SF13_ENG_049	Benoit Mandelbrot	per:statesorprovinces_of_residence	Massachusetts
+SF13_ENG_049	Benoit Mandelbrot	per:statesorprovinces_of_residence	Massachusetts.
+SF13_ENG_049	Benoit Mandelbrot	per:title	mathematician
+SF13_ENG_049	Benoit Mandelbrot	per:title	professor
+SF13_ENG_049	Benoit Mandelbrot	per:title	professor emeritus
+SF13_ENG_049	Benoit Mandelbrot	per:title	researcher
+SF13_ENG_050	Ko Yong-Hi	per:age	51
+SF13_ENG_050	Ko Yong-Hi	per:cause_of_death	breast cancer
+SF13_ENG_050	Ko Yong-Hi	per:children	Jong-Un
+SF13_ENG_050	Ko Yong-Hi	per:children	Kim
+SF13_ENG_050	Ko Yong-Hi	per:countries_of_residence	Japanese
+SF13_ENG_050	Ko Yong-Hi	per:date_of_death	2004-XX-XX
+SF13_ENG_050	Ko Yong-Hi	per:spouse	Kim Jong Il
+SF13_ENG_050	Ko Yong-Hi	per:title	dancer
+SF13_ENG_051	Election Complaints Commission	org:alternate_names	ECC
+SF13_ENG_051	Election Complaints Commission	org:alternate_names	Election Complained Commission
+SF13_ENG_051	Election Complaints Commission	org:alternate_names	Electoral Complaints Commission
+SF13_ENG_051	Election Complaints Commission	org:alternate_names	Electoral_Complaints_Commission
+SF13_ENG_051	Election Complaints Commission	org:country_of_headquarters	Afghanistan
+SF13_ENG_051	Election Complaints Commission	org:number_of_employees_members	5
+SF13_ENG_051	Election Complaints Commission	org:top_members_employees	Ahmad Zia Rafat
+SF13_ENG_051	Election Complaints Commission	org:top_members_employees	Aman Tajali
+SF13_ENG_051	Election Complaints Commission	org:top_members_employees	Grant Kippen
+SF13_ENG_051	Election Complaints Commission	org:top_members_employees	Mahgul Yamam
+SF13_ENG_052	Euskadi Ta Askatasuna	org:alternate_names	ETA
+SF13_ENG_052	Euskadi Ta Askatasuna	org:country_of_headquarters	Spain
+SF13_ENG_052	Euskadi Ta Askatasuna	org:number_of_employees_members	150
+SF13_ENG_052	Euskadi Ta Askatasuna	org:subsidiaries	Batasuna
+SF13_ENG_052	Euskadi Ta Askatasuna	org:top_members_employees	Aitzol Etxaburu
+SF13_ENG_052	Euskadi Ta Askatasuna	org:top_members_employees	Arkaitz Aguirregabiria del Barrio
+SF13_ENG_052	Euskadi Ta Askatasuna	org:top_members_employees	Franciso Javier Lopez Pena
+SF13_ENG_052	Euskadi Ta Askatasuna	org:top_members_employees	Javier Lopez Pena
+SF13_ENG_052	Euskadi Ta Askatasuna	org:top_members_employees	Jose Miguel Benaran Ordenana
+SF13_ENG_052	Euskadi Ta Askatasuna	org:top_members_employees	Mikel Karrera Sarobe
+SF13_ENG_053	United Steelworkers of America	org:alternate_names	Steelworkers
+SF13_ENG_053	United Steelworkers of America	org:alternate_names	"The United Steel, Paper and Forestry, Rubber, Manufacturing, Energy, Allied Industrial and Service Workers International Union"
+SF13_ENG_053	United Steelworkers of America	org:alternate_names	United Steel Workers
+SF13_ENG_053	United Steelworkers of America	org:alternate_names	United Steelworkers
+SF13_ENG_053	United Steelworkers of America	org:alternate_names	United Steelworkers Union
+SF13_ENG_053	United Steelworkers of America	org:alternate_names	USW
+SF13_ENG_053	United Steelworkers of America	org:alternate_names	USWA
+SF13_ENG_053	United Steelworkers of America	org:country_of_headquarters	United States
+SF13_ENG_053	United Steelworkers of America	org:subsidiaries	Local 1005
+SF13_ENG_053	United Steelworkers of America	org:subsidiaries	Local 1660
+SF13_ENG_053	United Steelworkers of America	org:subsidiaries	Local 2604
+SF13_ENG_053	United Steelworkers of America	org:subsidiaries	Local 6500
+SF13_ENG_053	United Steelworkers of America	org:subsidiaries	Local 7-669
+SF13_ENG_053	United Steelworkers of America	org:subsidiaries	Local No. 6992
+SF13_ENG_053	United Steelworkers of America	org:top_members_employees	Leo Gerard
+SF13_ENG_053	United Steelworkers of America	org:top_members_employees	Wayne Ranick
+SF13_ENG_054	Irish Nationwide Building Society	org:alternate_names	INBS
+SF13_ENG_054	Irish Nationwide Building Society	org:alternate_names	Irish Nationwide
+SF13_ENG_054	Irish Nationwide Building Society	org:city_of_headquarters	Dublin
+SF13_ENG_054	Irish Nationwide Building Society	org:country_of_headquarters	Ireland
+SF13_ENG_054	Irish Nationwide Building Society	org:top_members_employees	Gerry McGinn
+SF13_ENG_054	Irish Nationwide Building Society	org:top_members_employees	Michael Fingleton
+SF13_ENG_054	Irish Nationwide Building Society	org:website	http://www.iniom.com
+SF13_ENG_055	River Road Asset Management	org:city_of_headquarters	Louisville
+SF13_ENG_055	River Road Asset Management	org:parents	Aviva PLC
+SF13_ENG_055	River Road Asset Management	org:stateorprovince_of_headquarters	Kentucky
+SF13_ENG_055	River Road Asset Management	org:top_members_employees	Andrew Beck
+SF13_ENG_055	River Road Asset Management	org:website	http://www.riverroadam.com
+SF13_ENG_055	River Road Asset Management	org:website	http://www.riverroadam.com/
+SF13_ENG_055	River Road Asset Management	org:website	www.riverroadam.com
+SF13_ENG_056	Georgia Peanut Commission	org:stateorprovince_of_headquarters	Georgia
+SF13_ENG_056	Georgia Peanut Commission	org:top_members_employees	Armond Morris
+SF13_ENG_056	Georgia Peanut Commission	org:top_members_employees	Don Koehler
+SF13_ENG_056	Georgia Peanut Commission	org:top_members_employees	Don McGough
+SF13_ENG_056	Georgia Peanut Commission	org:website	http://www.gapeanuts.com
+SF13_ENG_057	A123 Systems Inc.	org:alternate_names	A123
+SF13_ENG_057	A123 Systems Inc.	org:alternate_names	A123 Systems
+SF13_ENG_057	A123 Systems Inc.	org:city_of_headquarters	Watertown
+SF13_ENG_057	A123 Systems Inc.	org:date_founded	2001-XX-XX
+SF13_ENG_057	A123 Systems Inc.	org:stateorprovince_of_headquarters	Massachusetts
+SF13_ENG_057	A123 Systems Inc.	org:top_members_employees	David Vieau
+SF13_ENG_057	A123 Systems Inc.	org:top_members_employees	Jason Forcier
+SF13_ENG_057	A123 Systems Inc.	org:website	http://www.a123systems.com
+SF13_ENG_057	A123 Systems Inc.	org:website	http://www.a123systems.com/
+SF13_ENG_057	A123 Systems Inc.	org:website	www.a123systems.com
+SF13_ENG_058	Access Industries	org:alternate_names	Access
+SF13_ENG_058	Access Industries	org:alternate_names	Access Industries Holdings
+SF13_ENG_058	Access Industries	org:city_of_headquarters	New York
+SF13_ENG_058	Access Industries	org:date_founded	1986-XX-XX
+SF13_ENG_058	Access Industries	org:founded_by	Len Blavatnik
+SF13_ENG_058	Access Industries	org:shareholders	Len Blavatnik
+SF13_ENG_058	Access Industries	org:stateorprovince_of_headquarters	New York
+SF13_ENG_058	Access Industries	org:subsidiaries	Basell
+SF13_ENG_058	Access Industries	org:subsidiaries	LyondellBasell
+SF13_ENG_058	Access Industries	org:top_members_employees	Blavatnik
+SF13_ENG_058	Access Industries	org:top_members_employees	Len Blavatnik
+SF13_ENG_058	Access Industries	org:website	http://www.accessindustries.com
+SF13_ENG_058	Access Industries	org:website	www.accessindustries.com
+SF13_ENG_059	Council of Mortgage Lenders	org:alternate_names	CML
+SF13_ENG_059	Council of Mortgage Lenders	org:country_of_headquarters	Britain
+SF13_ENG_059	Council of Mortgage Lenders	org:top_members_employees	Michael Coogan
+SF13_ENG_059	Council of Mortgage Lenders	org:website	http://www.cml.org.uk
+SF13_ENG_060	American Association for the Advancement of Science	org:alternate_names	AAAS
+SF13_ENG_060	American Association for the Advancement of Science	org:country_of_headquarters	America
+SF13_ENG_060	American Association for the Advancement of Science	org:country_of_headquarters	United States
+SF13_ENG_060	American Association for the Advancement of Science	org:stateorprovince_of_headquarters	Washington
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	Alan I. Leshner
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	Alan Leshner
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	D.S. Greenberg
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	Emilio Quincy Daddario
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	Holdren
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	Jane Lubchenco
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	John P. Holdren
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	Mary Good
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	Peter Agre
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	Peter C. Agre
+SF13_ENG_060	American Association for the Advancement of Science	org:top_members_employees	Peter Raven
+SF13_ENG_060	American Association for the Advancement of Science	org:website	http://www.aaas.org
+SF13_ENG_061	InterContinental Hotels Group	org:alternate_names	IHG
+SF13_ENG_061	InterContinental Hotels Group	org:alternate_names	InterContinental
+SF13_ENG_061	InterContinental Hotels Group	org:alternate_names	Intercontinental Hotels
+SF13_ENG_061	InterContinental Hotels Group	org:alternate_names	InterContinental Hotels Group PLC
+SF13_ENG_061	InterContinental Hotels Group	org:members	Holiday Inn
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	Candlewood Suites
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	Crowne Plaza
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	Holiday Inn
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	Holiday Inn Express
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	Holiday Inn Worldwide
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	Hotel Indigo
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	InterContinental
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	Staybridge Suites
+SF13_ENG_061	InterContinental Hotels Group	org:top_members_employees	Andrew Cosslett
+SF13_ENG_061	InterContinental Hotels Group	org:top_members_employees	Caroline Sanfilippo
+SF13_ENG_061	InterContinental Hotels Group	org:top_members_employees	Don Berg
+SF13_ENG_062	U.S. High Speed Rail Association	org:alternate_names	U.S. High Speed Rail
+SF13_ENG_062	U.S. High Speed Rail Association	org:city_of_headquarters	Washington
+SF13_ENG_062	U.S. High Speed Rail Association	org:country_of_headquarters	U.S.
+SF13_ENG_062	U.S. High Speed Rail Association	org:top_members_employees	Andy Kunz
+SF13_ENG_062	U.S. High Speed Rail Association	org:top_members_employees	Thomas A. Hart
+SF13_ENG_062	U.S. High Speed Rail Association	org:website	http://www.ushsr.com
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:alternate_names	BNSF
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:alternate_names	Burlington Northern Santa Fe
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:city_of_headquarters	Fort Worth
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:country_of_headquarters	U.S.
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:country_of_headquarters	United States
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:country_of_headquarters	US
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:parents	Berkshire
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:parents	Berkshire Hathaway Inc.
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:shareholders	Berkshire Hathaway
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:shareholders	Berkshire Hathaway Inc.
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:stateorprovince_of_headquarters	Texas
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:top_members_employees	Matt Rose
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:top_members_employees	Robert D. Krebs
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:website	http://www.bnsf.com
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:website	http:\\www.bnsf.com
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:website	www.bnsf.com
+SF13_ENG_064	Stockholm International Peace Research Institute	org:alternate_names	SIPRI
+SF13_ENG_064	Stockholm International Peace Research Institute	org:city_of_headquarters	Stockholm
+SF13_ENG_064	Stockholm International Peace Research Institute	org:top_members_employees	Bates Gill
+SF13_ENG_064	Stockholm International Peace Research Institute	org:website	http://www.sipri.org/
+SF13_ENG_064	Stockholm International Peace Research Institute	org:website	http:\\www.sipri.org\
+SF13_ENG_064	Stockholm International Peace Research Institute	org:website	www.sipri.org
+SF13_ENG_065	Benedictine Sisters of Virginia	org:city_of_headquarters	Bristow
+SF13_ENG_065	Benedictine Sisters of Virginia	org:stateorprovince_of_headquarters	Virginia
+SF13_ENG_065	Benedictine Sisters of Virginia	org:website	http://www.osbva.org
+SF13_ENG_065	Benedictine Sisters of Virginia	org:website	http://www.osbva.org/
+SF13_ENG_066	Nigeria Police Force	org:alternate_names	Nigerian police force
+SF13_ENG_066	Nigeria Police Force	org:country_of_headquarters	Nigeria
+SF13_ENG_066	Nigeria Police Force	org:top_members_employees	Mike Okiro
+SF13_ENG_066	Nigeria Police Force	org:website	http://www.npf.gov.ng
+SF13_ENG_067	Public Library of Science	org:alternate_names	PLoS
+SF13_ENG_067	Public Library of Science	org:city_of_headquarters	San Francisco
+SF13_ENG_067	Public Library of Science	org:country_of_headquarters	US
+SF13_ENG_067	Public Library of Science	org:top_members_employees	Harold Varmus
+SF13_ENG_067	Public Library of Science	org:website	http://www.plos.org
+SF13_ENG_067	Public Library of Science	org:website	http://www.plos.org/
+SF13_ENG_067	Public Library of Science	org:website	www.plos.org
+SF13_ENG_068	Indoor Tanning Association	org:alternate_names	ITA
+SF13_ENG_068	Indoor Tanning Association	org:stateorprovince_of_headquarters	Washington
+SF13_ENG_068	Indoor Tanning Association	org:top_members_employees	Dan Humiston
+SF13_ENG_068	Indoor Tanning Association	org:top_members_employees	John Overstreet
+SF13_ENG_068	Indoor Tanning Association	org:website	http://www.theita.com
+SF13_ENG_068	Indoor Tanning Association	org:website	http:\\www.theita.com
+SF13_ENG_068	Indoor Tanning Association	org:website	www.theita.com
+SF13_ENG_069	International Agency for Research on Cancer	org:alternate_names	IARC
+SF13_ENG_069	International Agency for Research on Cancer	org:city_of_headquarters	Lyon
+SF13_ENG_069	International Agency for Research on Cancer	org:country_of_headquarters	France
+SF13_ENG_069	International Agency for Research on Cancer	org:member_of	World Health Organization
+SF13_ENG_069	International Agency for Research on Cancer	org:parents	World Health Organisation
+SF13_ENG_069	International Agency for Research on Cancer	org:parents	World Health Organization
+SF13_ENG_069	International Agency for Research on Cancer	org:top_members_employees	Christopher Wild
+SF13_ENG_069	International Agency for Research on Cancer	org:top_members_employees	Peter Boyle
+SF13_ENG_069	International Agency for Research on Cancer	org:top_members_employees	Vincent Cogliano
+SF13_ENG_069	International Agency for Research on Cancer	org:website	http://www.iarc.fr/
+SF13_ENG_069	International Agency for Research on Cancer	org:website	http:\\www.iarc.fr\
+SF13_ENG_069	International Agency for Research on Cancer	org:website	www.iarc.fr
+SF13_ENG_070	Community Foundation of Middle Tennessee	org:alternate_names	Community Relief Foundation of Middle Tennessee
+SF13_ENG_070	Community Foundation of Middle Tennessee	org:city_of_headquarters	Nashville
+SF13_ENG_070	Community Foundation of Middle Tennessee	org:stateorprovince_of_headquarters	Tennessee
+SF13_ENG_070	Community Foundation of Middle Tennessee	org:website	http://www.cfmt.org
+SF13_ENG_071	Association of Greek Tourism Enterprises	org:alternate_names	SETE
+SF13_ENG_071	Association of Greek Tourism Enterprises	org:country_of_headquarters	Greece
+SF13_ENG_071	Association of Greek Tourism Enterprises	org:top_members_employees	George Drakopoulos
+SF13_ENG_071	Association of Greek Tourism Enterprises	org:top_members_employees	Nikos Aggelopoulos
+SF13_ENG_071	Association of Greek Tourism Enterprises	org:website	http://www.sete.gr/
+SF13_ENG_071	Association of Greek Tourism Enterprises	org:website	http:\\www.sete.gr\
+SF13_ENG_071	Association of Greek Tourism Enterprises	org:website	www.sete.gr
+SF13_ENG_072	Moody's Corp.	org:alternate_names	Moody's
+SF13_ENG_072	Moody's Corp.	org:founded_by	John Moody
+SF13_ENG_072	Moody's Corp.	org:members	Moody's Analytics
+SF13_ENG_072	Moody's Corp.	org:shareholders	Berkshire Hathaway Inc.
+SF13_ENG_072	Moody's Corp.	org:shareholders	Warren Buffett
+SF13_ENG_072	Moody's Corp.	org:shareholders	Warren E. Buffett
+SF13_ENG_072	Moody's Corp.	org:stateorprovince_of_headquarters	New York
+SF13_ENG_072	Moody's Corp.	org:subsidiaries	Moody 's Investors Service
+SF13_ENG_072	Moody's Corp.	org:subsidiaries	Moody's Analytics
+SF13_ENG_072	Moody's Corp.	org:subsidiaries	Moody's Investors Service
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Arnaud Mares
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Eric Kolchinsky
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Jean-Francois Tremblay
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Kathrin Muehlbronner
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Ken Chan
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Raymond McDaniel
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Raymond W. McDaniel Jr
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Raymond W. McDaniel Jr.
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Sarah Carlson
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	Tadashi Usui
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	William Black
+SF13_ENG_073	Global Infrastructure Partners	org:alternate_names	GIP
+SF13_ENG_073	Global Infrastructure Partners	org:country_of_headquarters	US
+SF13_ENG_073	Global Infrastructure Partners	org:shareholders	Credit Suisse
+SF13_ENG_073	Global Infrastructure Partners	org:stateorprovince_of_headquarters	New York
+SF13_ENG_073	Global Infrastructure Partners	org:subsidiaries	London City Airport
+SF13_ENG_073	Global Infrastructure Partners	org:website	http://www.global-infra.com
+SF13_ENG_073	Global Infrastructure Partners	org:website	www.global-infra.com
+SF13_ENG_074	SouthGobi Energy Resources	org:alternate_names	SouthGobi Energy Resources Ltd.
+SF13_ENG_074	SouthGobi Energy Resources	org:country_of_headquarters	Canada
+SF13_ENG_074	SouthGobi Energy Resources	org:parents	Ivanhoe Mines
+SF13_ENG_074	SouthGobi Energy Resources	org:shareholders	China Investment Corp
+SF13_ENG_074	SouthGobi Energy Resources	org:shareholders	Ivanhoe Mines Ltd.
+SF13_ENG_074	SouthGobi Energy Resources	org:website	http://www.southgobi.com
+SF13_ENG_074	SouthGobi Energy Resources	org:website	www.southgobi.com
+SF13_ENG_075	Champalimaud Foundation	org:alternate_names	Champalimaud
+SF13_ENG_075	Champalimaud Foundation	org:country_of_headquarters	Portugal
+SF13_ENG_075	Champalimaud Foundation	org:date_founded	2004-XX-XX
+SF13_ENG_075	Champalimaud Foundation	org:top_members_employees	Leonor Beleza
+SF13_ENG_075	Champalimaud Foundation	org:website	http://www.fchampalimaud.org/
+SF13_ENG_075	Champalimaud Foundation	org:website	www.fchampalimaud.org
+SF13_ENG_076	Swiss Bankers Association	org:alternate_names	SBA
+SF13_ENG_076	Swiss Bankers Association	org:city_of_headquarters	Basel
+SF13_ENG_076	Swiss Bankers Association	org:country_of_headquarters	Swiss
+SF13_ENG_076	Swiss Bankers Association	org:country_of_headquarters	Switzerland
+SF13_ENG_076	Swiss Bankers Association	org:top_members_employees	Claude-Alain Margelisch
+SF13_ENG_076	Swiss Bankers Association	org:top_members_employees	Patrick Odier
+SF13_ENG_076	Swiss Bankers Association	org:top_members_employees	Pierre Mirabaud
+SF13_ENG_076	Swiss Bankers Association	org:top_members_employees	Urs P. Roth
+SF13_ENG_076	Swiss Bankers Association	org:top_members_employees	Urs Roth
+SF13_ENG_076	Swiss Bankers Association	org:website	http://www.swissbanking.org
+SF13_ENG_076	Swiss Bankers Association	org:website	www.swissbanking.org
+SF13_ENG_077	Nuclear Energy Institute	org:alternate_names	NEI
+SF13_ENG_077	Nuclear Energy Institute	org:city_of_headquarters	Washington
+SF13_ENG_077	Nuclear Energy Institute	org:country_of_headquarters	U.S.
+SF13_ENG_077	Nuclear Energy Institute	org:stateorprovince_of_headquarters	Washington
+SF13_ENG_077	Nuclear Energy Institute	org:top_members_employees	Alex Flint
+SF13_ENG_077	Nuclear Energy Institute	org:top_members_employees	Marvin Fertel
+SF13_ENG_077	Nuclear Energy Institute	org:top_members_employees	Richard Myers
+SF13_ENG_077	Nuclear Energy Institute	org:website	http://www.nei.org
+SF13_ENG_077	Nuclear Energy Institute	org:website	http://www.nei.org/
+SF13_ENG_078	Thomas More Law Center	org:city_of_headquarters	Ann Arbor
+SF13_ENG_078	Thomas More Law Center	org:political_religious_affiliation	Christian
+SF13_ENG_078	Thomas More Law Center	org:stateorprovince_of_headquarters	Michigan
+SF13_ENG_078	Thomas More Law Center	org:top_members_employees	Richard Thompson
+SF13_ENG_078	Thomas More Law Center	org:website	http://www.thomasmore.org
+SF13_ENG_079	Stockholm International Water Institute	org:alternate_names	SIWI
+SF13_ENG_079	Stockholm International Water Institute	org:city_of_headquarters	Stockholm
+SF13_ENG_079	Stockholm International Water Institute	org:top_members_employees	Anders Berntell
+SF13_ENG_079	Stockholm International Water Institute	org:top_members_employees	Anders Bertil
+SF13_ENG_079	Stockholm International Water Institute	org:website	http://www.siwi.org
+SF13_ENG_080	International Water Management Institute	org:alternate_names	IWMI
+SF13_ENG_080	International Water Management Institute	org:country_of_headquarters	Sri Lanka
+SF13_ENG_080	International Water Management Institute	org:member_of	Consultative Group on International Agricultural Research
+SF13_ENG_080	International Water Management Institute	org:top_members_employees	Colin Chartres
+SF13_ENG_080	International Water Management Institute	org:top_members_employees	David Molden
+SF13_ENG_080	International Water Management Institute	org:website	http://www.iwmi.cgiar.org
+SF13_ENG_080	International Water Management Institute	org:website	www.iwmi.cgiar.org
+SF13_ENG_081	Washington National Opera	org:alternate_names	D.C. Opera
+SF13_ENG_081	Washington National Opera	org:alternate_names	Opera Society of Washington
+SF13_ENG_081	Washington National Opera	org:alternate_names	Washington Opera
+SF13_ENG_081	Washington National Opera	org:alternate_names	WNO
+SF13_ENG_081	Washington National Opera	org:country_of_headquarters	United States
+SF13_ENG_081	Washington National Opera	org:top_members_employees	Domingo
+SF13_ENG_081	Washington National Opera	org:top_members_employees	Kenneth Feinberg
+SF13_ENG_081	Washington National Opera	org:top_members_employees	Kenneth R. Feinberg
+SF13_ENG_081	Washington National Opera	org:top_members_employees	Mark J. Weinstein
+SF13_ENG_081	Washington National Opera	org:top_members_employees	Pl cido Domingo
+SF13_ENG_081	Washington National Opera	org:top_members_employees	Placido Domingo
+SF13_ENG_081	Washington National Opera	org:website	http://www.dc-opera.org/
+SF13_ENG_082	National Council for Adoption	org:city_of_headquarters	Alexandria
+SF13_ENG_082	National Council for Adoption	org:country_of_headquarters	U.S.
+SF13_ENG_082	National Council for Adoption	org:stateorprovince_of_headquarters	Virginia
+SF13_ENG_082	National Council for Adoption	org:top_members_employees	Chuck Johnson
+SF13_ENG_082	National Council for Adoption	org:top_members_employees	Mary F. Robinson
+SF13_ENG_082	National Council for Adoption	org:top_members_employees	Mary Robinson
+SF13_ENG_082	National Council for Adoption	org:top_members_employees	Thomas Atwood
+SF13_ENG_082	National Council for Adoption	org:website	http://www.adoptioncouncil.org
+SF13_ENG_082	National Council for Adoption	org:website	www.adoptioncouncil.org
+SF13_ENG_083	Joint Council on International Children's Services	org:top_members_employees	Thomas DiFilipo
+SF13_ENG_083	Joint Council on International Children's Services	org:top_members_employees	Tom DeFilipo
+SF13_ENG_083	Joint Council on International Children's Services	org:top_members_employees	Tom DiFilipo
+SF13_ENG_083	Joint Council on International Children's Services	org:website	http://www.jcics.org/
+SF13_ENG_083	Joint Council on International Children's Services	org:website	www.jcics.org
+SF13_ENG_084	Bipartisan Policy Center	org:alternate_names	Bipartisan Policy
+SF13_ENG_084	Bipartisan Policy Center	org:alternate_names	Bipartisan Policy Group
+SF13_ENG_084	Bipartisan Policy Center	org:alternate_names	BPC
+SF13_ENG_084	Bipartisan Policy Center	org:date_founded	2007
+SF13_ENG_084	Bipartisan Policy Center	org:date_founded	2007-XX-XX
+SF13_ENG_084	Bipartisan Policy Center	org:founded_by	Bob Dole
+SF13_ENG_084	Bipartisan Policy Center	org:founded_by	George Mitchell
+SF13_ENG_084	Bipartisan Policy Center	org:founded_by	Howard Baker
+SF13_ENG_084	Bipartisan Policy Center	org:founded_by	Tom Daschle
+SF13_ENG_084	Bipartisan Policy Center	org:subsidiaries	National Commission on Energy Policy
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Alice Rivlin
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Charles Konigsberg
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Eileen McMenamin
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	George Mitchell
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Howard Baker
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Jason Grumet
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Jason S. Grumet
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Paul Bledsoe
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Pete Domenici
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Tom Daschle
+SF13_ENG_084	Bipartisan Policy Center	org:website	http://www.bipartisanpolicy.org/
+SF13_ENG_084	Bipartisan Policy Center	org:website	http:\\www.bipartisanpolicy.org\
+SF13_ENG_085	China Banking Regulatory Commission	org:alternate_names	CBRC
+SF13_ENG_085	China Banking Regulatory Commission	org:country_of_headquarters	China
+SF13_ENG_085	China Banking Regulatory Commission	org:country_of_headquarters	Chinese
+SF13_ENG_085	China Banking Regulatory Commission	org:parents	China
+SF13_ENG_085	China Banking Regulatory Commission	org:stateorprovince_of_headquarters	Beijing
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Jia Kang
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Jiang Dingzhi
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Li Fuan
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Liu
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Liu Mingkang
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Liu Minkang
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Wang Zhaoxing
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Yan Qingmin
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Yang Xilun
+SF13_ENG_085	China Banking Regulatory Commission	org:website	http://www.cbrc.gov.cn
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:alternate_names	SASAC
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:country_of_headquarters	China
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:date_founded	2003-XX-XX
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:parents	Cabinet
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:parents	China
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:parents	State Council
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:subsidiaries	China Mobile
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Huang Danhua
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Huang Shuhe
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Li Rongrong
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Li Wei
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Shao Ning
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Wang Yong
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:website	http://www.sasac.gov.cn
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:alternate_names	ALBA
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:alternate_names	Bolivarian Alliance for the Americas
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:date_founded	2004
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:date_founded	2004-XX-XX
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:founded_by	Chavez
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:founded_by	Cuba
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:founded_by	Fidel Castro
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:founded_by	Hugo Chavez
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:founded_by	Venezuela
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Antigua and Barbuda
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Bolivia
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Cuba
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Dominica
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Ecuador
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Honduras
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Nicaragua
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Saint Vincent and the Grenadines
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Venezuela
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:top_members_employees	Hugo Chavez
+SF13_ENG_088	Bank Julius Baer	org:alternate_names	Bank Julius Baer & Co.
+SF13_ENG_088	Bank Julius Baer	org:alternate_names	Bank Julius Baer Co.
+SF13_ENG_088	Bank Julius Baer	org:alternate_names	Julius Baer
+SF13_ENG_088	Bank Julius Baer	org:alternate_names	Julius Baer Group
+SF13_ENG_088	Bank Julius Baer	org:city_of_headquarters	Basel
+SF13_ENG_088	Bank Julius Baer	org:city_of_headquarters	Zurich
+SF13_ENG_088	Bank Julius Baer	org:country_of_headquarters	Swiss
+SF13_ENG_088	Bank Julius Baer	org:country_of_headquarters	Switzerland
+SF13_ENG_088	Bank Julius Baer	org:date_founded	1890-XX-XX
+SF13_ENG_088	Bank Julius Baer	org:founded_by	Julius Baer
+SF13_ENG_088	Bank Julius Baer	org:top_members_employees	Boris Collardi
+SF13_ENG_088	Bank Julius Baer	org:top_members_employees	Frank Gut
+SF13_ENG_088	Bank Julius Baer	org:top_members_employees	Raymond J. Baer
+SF13_ENG_089	Rosoboronexport	org:alternate_names	ROE
+SF13_ENG_089	Rosoboronexport	org:country_of_headquarters	Russia
+SF13_ENG_089	Rosoboronexport	org:country_of_headquarters	Russian
+SF13_ENG_089	Rosoboronexport	org:country_of_headquarters	Russian Federation
+SF13_ENG_089	Rosoboronexport	org:date_founded	11/4/2000
+SF13_ENG_089	Rosoboronexport	org:founded_by	Vladimir Putin
+SF13_ENG_089	Rosoboronexport	org:parents	Russia
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Alexander Mikheyev
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Anatoli Isaikin
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Anatoly Isaikin
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Anatoly Isaykin
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Sergei Chemezov
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Sergey Chemezov
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Serguei Ladiguin
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Valeri Varlamov
+SF13_ENG_090	Economic Cooperation Organization	org:alternate_names	ECO
+SF13_ENG_090	Economic Cooperation Organization	org:alternate_names	Economic Cooperation Organisation
+SF13_ENG_090	Economic Cooperation Organization	org:founded_by	Iran
+SF13_ENG_090	Economic Cooperation Organization	org:founded_by	Pakistan
+SF13_ENG_090	Economic Cooperation Organization	org:founded_by	Turkey
+SF13_ENG_090	Economic Cooperation Organization	org:members	Afghanistan
+SF13_ENG_090	Economic Cooperation Organization	org:members	Azerbaijan
+SF13_ENG_090	Economic Cooperation Organization	org:members	Iran
+SF13_ENG_090	Economic Cooperation Organization	org:members	Kazakhstan
+SF13_ENG_090	Economic Cooperation Organization	org:members	Kyrgyzstan
+SF13_ENG_090	Economic Cooperation Organization	org:members	Pakistan
+SF13_ENG_090	Economic Cooperation Organization	org:members	Tajikistan
+SF13_ENG_090	Economic Cooperation Organization	org:members	Turkey
+SF13_ENG_090	Economic Cooperation Organization	org:members	Turkmenistan
+SF13_ENG_090	Economic Cooperation Organization	org:members	Uzbekistan
+SF13_ENG_091	Arcandor	org:alternate_names	Arcandor AG
+SF13_ENG_091	Arcandor	org:alternate_names	KarstadtQuelle
+SF13_ENG_091	Arcandor	org:city_of_headquarters	Essen
+SF13_ENG_091	Arcandor	org:country_of_headquarters	German
+SF13_ENG_091	Arcandor	org:country_of_headquarters	Germany
+SF13_ENG_091	Arcandor	org:date_founded	1881-XX-XX
+SF13_ENG_091	Arcandor	org:number_of_employees_members	"50,000"
+SF13_ENG_091	Arcandor	org:shareholders	Karl-Gerhard Eick
+SF13_ENG_091	Arcandor	org:shareholders	Madeleine Schickedanz
+SF13_ENG_091	Arcandor	org:shareholders	Oppenheim
+SF13_ENG_091	Arcandor	org:shareholders	Sal Oppenheim
+SF13_ENG_091	Arcandor	org:subsidiaries	KaDeWe
+SF13_ENG_091	Arcandor	org:subsidiaries	Kardstadt
+SF13_ENG_091	Arcandor	org:subsidiaries	Karstadt
+SF13_ENG_091	Arcandor	org:subsidiaries	Karstadt Warenhaus GmbH
+SF13_ENG_091	Arcandor	org:subsidiaries	Primondo
+SF13_ENG_091	Arcandor	org:subsidiaries	Quelle
+SF13_ENG_091	Arcandor	org:subsidiaries	Quelle GmbH
+SF13_ENG_091	Arcandor	org:top_members_employees	Karl-Gerhard Eick
+SF13_ENG_091	Arcandor	org:top_members_employees	Middelhoff
+SF13_ENG_091	Arcandor	org:top_members_employees	Thomas Middelhoff
+SF13_ENG_091	Arcandor	org:top_members_employees	Thomas Middlehoff
+SF13_ENG_092	Escada	org:alternate_names	escada AG
+SF13_ENG_094	Rapiscan Systems	org:parents	OSI Systems Inc.
+SF13_ENG_094	Rapiscan Systems	org:stateorprovince_of_headquarters	Calif.
+SF13_ENG_094	Rapiscan Systems	org:stateorprovince_of_headquarters	California
+SF13_ENG_094	Rapiscan Systems	org:top_members_employees	Peter Kant
+SF13_ENG_094	Rapiscan Systems	org:top_members_employees	Terry Whittock
+SF13_ENG_095	Attenti Holdings	org:alternate_names	Attenti Holdings SA
+SF13_ENG_095	Attenti Holdings	org:city_of_headquarters	Tel Aviv
+SF13_ENG_095	Attenti Holdings	org:country_of_headquarters	Israel
+SF13_ENG_095	Attenti Holdings	org:country_of_headquarters	Israeli
+SF13_ENG_095	Attenti Holdings	org:number_of_employees_members	340
+SF13_ENG_096	Freedom Communications	org:alternate_names	Freedom Communications Inc.
+SF13_ENG_096	Freedom Communications	org:city_of_headquarters	Irvine
+SF13_ENG_096	Freedom Communications	org:country_of_headquarters	United States
+SF13_ENG_096	Freedom Communications	org:date_founded	1930-XX-XX
+SF13_ENG_096	Freedom Communications	org:date_founded	19XX-XX-XX
+SF13_ENG_096	Freedom Communications	org:founded_by	R.C. Hoiles
+SF13_ENG_096	Freedom Communications	org:stateorprovince_of_headquarters	California
+SF13_ENG_096	Freedom Communications	org:subsidiaries	Orange County Register
+SF13_ENG_096	Freedom Communications	org:subsidiaries	"The Orange County Register,"
+SF13_ENG_096	Freedom Communications	org:top_members_employees	Burl Osborne
+SF13_ENG_096	Freedom Communications	org:top_members_employees	Scott Flanders
+SF13_ENG_096	Freedom Communications	org:top_members_employees	Scott N. Flanders
+SF13_ENG_097	STX Finland	org:country_of_headquarters	Finland
+SF13_ENG_097	STX Finland	org:country_of_headquarters	Finnish
+SF13_ENG_097	STX Finland	org:member_of	STX
+SF13_ENG_097	STX Finland	org:member_of	STX Europe Group
+SF13_ENG_097	STX Finland	org:number_of_employees_members	"3,000"
+SF13_ENG_097	STX Finland	org:parents	STX Europe Group
+SF13_ENG_097	STX Finland	org:top_members_employees	Juha Heikinheimo
+SF13_ENG_097	STX Finland	org:top_members_employees	Martin Landtman
+SF13_ENG_097	STX Finland	org:website	http://www.stxeurope.com
+SF13_ENG_097	STX Finland	org:website	www.stxeurope.com
+SF13_ENG_098	Millipore Corp.	org:alternate_names	EMD Millipore
+SF13_ENG_098	Millipore Corp.	org:alternate_names	Millipore
+SF13_ENG_098	Millipore Corp.	org:city_of_headquarters	Billerica
+SF13_ENG_098	Millipore Corp.	org:country_of_headquarters	U.S.
+SF13_ENG_098	Millipore Corp.	org:country_of_headquarters	US
+SF13_ENG_098	Millipore Corp.	org:date_founded	1954-XX-XX
+SF13_ENG_098	Millipore Corp.	org:number_of_employees_members	"5,900"
+SF13_ENG_098	Millipore Corp.	org:number_of_employees_members	6100
+SF13_ENG_098	Millipore Corp.	org:parents	Merck
+SF13_ENG_098	Millipore Corp.	org:parents	Merck Group
+SF13_ENG_098	Millipore Corp.	org:parents	Merck KGaA
+SF13_ENG_098	Millipore Corp.	org:parents	Merck Millipore
+SF13_ENG_098	Millipore Corp.	org:stateorprovince_of_headquarters	Mass.
+SF13_ENG_098	Millipore Corp.	org:stateorprovince_of_headquarters	Massachusetts
+SF13_ENG_098	Millipore Corp.	org:top_members_employees	Martin D. Madaus
+SF13_ENG_099	DCNS	org:alternate_names	DCN
+SF13_ENG_099	DCNS	org:city_of_headquarters	Paris
+SF13_ENG_099	DCNS	org:country_of_headquarters	France
+SF13_ENG_099	DCNS	org:country_of_headquarters	French
+SF13_ENG_099	DCNS	org:number_of_employees_members	"12,000"
+SF13_ENG_099	DCNS	org:parents	Thales
+SF13_ENG_099	DCNS	org:shareholders	Thales
+SF13_ENG_099	DCNS	org:subsidiaries	Armaris
+SF13_ENG_099	DCNS	org:top_members_employees	Patrick Boissier
+SF13_ENG_100	Galleon Group	org:alternate_names	Galleon
+SF13_ENG_100	Galleon Group	org:alternate_names	Galleon Fund
+SF13_ENG_100	Galleon Group	org:alternate_names	Galleon Group LLP
+SF13_ENG_100	Galleon Group	org:country_of_headquarters	U.S.
+SF13_ENG_100	Galleon Group	org:date_founded	1996-XX-XX
+SF13_ENG_100	Galleon Group	org:founded_by	Gary Rosenbach
+SF13_ENG_100	Galleon Group	org:founded_by	Raj Rajaratnam
+SF13_ENG_100	Galleon Group	org:number_of_employees_members	125
+SF13_ENG_100	Galleon Group	org:stateorprovince_of_headquarters	New York
+SF13_ENG_100	Galleon Group	org:top_members_employees	Raj Rajaratnam
