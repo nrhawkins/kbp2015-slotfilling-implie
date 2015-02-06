@@ -1,3 +1,8 @@
+Output after reverting the first of expansion:
+  Notes: lost ~130 correct extractions from before.
+         removed ~50 incorrect extractions from before.
+         Precision stayed the same within 0.01.
+
 Input Files: 
    Extractions File: tac_development/benchmark/results/11-result-file
    Answer Key File: tac_development/benchmark/scoring/10-answer-key.txt
