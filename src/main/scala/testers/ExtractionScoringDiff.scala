@@ -52,13 +52,14 @@ object ExtractionScoringDiff {
   // seq - append this number in front of the files being output
   //     - this number is one greater than the last one written
   // --------------------------------------------------------------
-  var seq = getSeqNum(seqFilename) - 1
+  var seq1 = getSeqNum(seqFilename) - 1
+  var seq2 = seq1 + 1
   var scoringreport1_file = config.getString("input-dir") + 
-     seq + config.getString("score-report-file-tail")
+     seq1 + config.getString("score-report-file-tail")
   var scoringreport2_file = config.getString("input-dir") + 
-     (seq+1) + config.getString("score-report-file-tail")
+     seq2 + config.getString("score-report-file-tail")
   var scoringreportdiff_file = config.getString("output-dir") + 
-     seq + "-" + (seq+1) + config.getString("score-report-diff-file-tail")
+     seq1 + "-" + seq2 + config.getString("score-report-diff-file-tail")
 
   // -----------------------------------------------------------------
   // -----------------------------------------------------------------
@@ -66,106 +67,52 @@ object ExtractionScoringDiff {
   //        number identifying the scoring reports to be diff'ed, 
   //        the inputs and outputs are specified by the .conf file,
   //        which has already be read-in and is a val of the object
+  //   
+  //  If 1 arg: seq1 = arg(0), seq2 = seq1 + 2
+  //  If 2 args: seq1 = arg(0), seq2 = arg(1) 
   // -----------------------------------------------------------------      
   // -----------------------------------------------------------------
   def main(args: Array[String]) {
     
     println("es: Args length: " + args.length)
 
-    if(args.length > 0){
+    if(args.length == 1){
       try{
          val seqNum = args(0).toInt              
-         seq = seqNum - 1
-         scoringreport1_file = config.getString("input-dir") + seq + 
+         seq1 = seqNum - 1
+         seq2 = seq1+1
+         scoringreport1_file = config.getString("input-dir") + seq1 + 
             config.getString("score-report-file-tail")
-         scoringreport2_file = config.getString("input-dir") + (seq+1) + 
+         scoringreport2_file = config.getString("input-dir") + seq2 + 
             config.getString("score-report-file-tail")
-         scoringreportdiff_file = config.getString("output-dir") + seq + "-" + (seq+1) + 
+         scoringreportdiff_file = config.getString("output-dir") + seq1 + "-" + seq2 + 
+            config.getString("score-report-diff-file-tail")
+      } 
+      catch{
+        case e: Exception => println("es: Command line argument for sequence number is not an integer.")
+      }
+    }else if(args.length == 2){
+      try{
+         seq1 = args(0).toInt              
+         seq2 = args(1).toInt
+         scoringreport1_file = config.getString("input-dir") + seq1 + 
+            config.getString("score-report-file-tail")
+         scoringreport2_file = config.getString("input-dir") + seq2 + 
+            config.getString("score-report-file-tail")
+         scoringreportdiff_file = config.getString("output-dir") + seq1 + "-" + seq2 + 
             config.getString("score-report-diff-file-tail")
       } 
       catch{
         case e: Exception => println("es: Command line argument for sequence number is not an integer.")
       }
     }
-        
+    
     println("es: Reading Scoring Report 1's Correct Extractions")
-    
-    // -------------------------------------------------------
-    // Correct Extractions to Compare -  
-    //   list of ScoringReportExtractionLine's
-    //
-    // Note: 
-    // Any line not starting with an integer is ignored,
-    // i.e. falls into the catch{}
-    // This allows #comment lines in the input file
-    // -------------------------------------------------------
-    val extractionsCorrectSR1 = {
-     
-      val inputFilename = scoringreport1_file
-    
-      // Does file exist?
-      if (!Files.exists(Paths.get(inputFilename))) {
-        System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
-        sys.exit(1)
-      }
 
-      Source.fromFile(inputFilename).getLines().map(line => {
-        val tokens = line.trim.split("\t")
-        try{
-             ScoringReportExtractionLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
-                tokens(5), tokens(6), tokens(7))
-        }catch{ 
-           // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
-           // and filtering it out before returning the list
-           // Eg. a header line will not start with an integer
-           case e: Exception => ScoringReportExtractionLine(-1, "tokens(1)", "tokens(2)", "tokens(3)",
-                "tokens(4)", "tokens(5)", "tokens(6)", "tokens(7)")
-        }
-        
-      }).toList.filter(l => l.sentIndex >= 0).filter(l => l.correct == "1")
-           
-    } 
-       
-    println("es: Scoring Report 1's Correct Extractions size: " + extractionsCorrectSR1.size)
+    val extractionsCorrectSR1 = extractionsCorrect(scoringreport1_file)
+    val extractionsCorrectSR2 = extractionsCorrect(scoringreport2_file)
 
-    println("es: Reading Scoring Report 2's Correct Extractions")
-    
-    // -------------------------------------------------------
-    // Correct Extractions to Compare -  
-    //   list of ScoringReportExtractionLine's
-    //
-    // Note: 
-    // Any line not starting with an integer is ignored,
-    // i.e. falls into the catch{}
-    // This allows #comment lines in the input file
-    // -------------------------------------------------------
-    val extractionsCorrectSR2 = {
-     
-      val inputFilename = scoringreport2_file
-    
-      // Does file exist?
-      if (!Files.exists(Paths.get(inputFilename))) {
-        System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
-        sys.exit(1)
-      }
-
-      Source.fromFile(inputFilename).getLines().map(line => {
-        val tokens = line.trim.split("\t")
-        try{
-             ScoringReportExtractionLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
-                tokens(5), tokens(6), tokens(7))
-        }catch{ 
-           // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
-           // and filtering it out before returning the list
-           // Eg. a header line will not start with an integer
-           case e: Exception => ScoringReportExtractionLine(-1, "tokens(1)", "tokens(2)", "tokens(3)",
-                "tokens(4)", "tokens(5)", "tokens(6)", "tokens(7)")
-        }
-        
-      }).toList.filter(l => l.sentIndex >= 0).filter(l => l.correct == "1")
-           
-    } 
-       
+    println("es: Scoring Report 1's Correct Extractions size: " + extractionsCorrectSR1.size)    
     println("es: Scoring Report 2's Correct Extractions size: " + extractionsCorrectSR2.size)
     
     
@@ -205,6 +152,10 @@ object ExtractionScoringDiff {
         s"sequence number.\nExiting...")
       sys.exit(1)
     }
+    
+    // If file doesn't already exist, and command-line args not being used, 
+    // increment number in sequence-file
+    if(args.length ==0) new PrintWriter(seqFilename).append(s"${seq2 + 1}").close()
 
     // -------------------------------------------------------------------------
     // -------------------------------------------------------------------------
@@ -216,14 +167,14 @@ object ExtractionScoringDiff {
     
     val diffscoringreport = new PrintWriter(scoringreportdiff_file)    
 
+    diffscoringreport.append("Input Files: " + "\n")
+    diffscoringreport.append("   Scoring Report 1: " + scoringreport1_file + "\n")
+    diffscoringreport.append("   Scoring Report 2: " + scoringreport2_file + "\n")
+    diffscoringreport.append("\n\n")
     
     // ------------------------------------------------------
     // Diff for Scoring Report 1
     // ------------------------------------------------------
-
-    diffscoringreport.append("\n\n")
-    diffscoringreport.append("Correct Extractions in Scoring Report 1 not in Scoring Report 2")
-    diffscoringreport.append("\n\n")
     
     var extractionsCorrectDiffSR1 :Set[ScoringReportExtractionLine] = Set()
 
@@ -239,6 +190,11 @@ object ExtractionScoringDiff {
       }
     )
 
+    diffscoringreport.append("\n\n")
+    diffscoringreport.append("Number of Correct Extractions in Scoring Report 1 not in Scoring Report 2: " + 
+       extractionsCorrectDiffSR1.size + "\n")
+    diffscoringreport.append("\n\n")
+    
     // If any elements in the diff write them to the diff scoring report
     if(extractionsCorrectDiffSR1.size > 0){
       
@@ -252,12 +208,11 @@ object ExtractionScoringDiff {
            e.correct + "\t" + e.incorrect + "\t" + e.sentence + "\n"))       
     }
     
+    println("Size of diffSR1: " + extractionsCorrectDiffSR1.size)
+    
     // ------------------------------------------------------
     // Diff for Scoring Report 2
     // ------------------------------------------------------
-    diffscoringreport.append("\n\n")
-    diffscoringreport.append("Correct Extractions in Scoring Report 2 not in Scoring Report 1")
-    diffscoringreport.append("\n\n")
     
     var extractionsCorrectDiffSR2 :Set[ScoringReportExtractionLine] = Set()
 
@@ -273,6 +228,11 @@ object ExtractionScoringDiff {
       }
     )
 
+    diffscoringreport.append("\n\n")
+    diffscoringreport.append("Number of Correct Extractions in Scoring Report 2 not in Scoring Report 1: " + 
+       extractionsCorrectDiffSR2.size + "\n")
+    diffscoringreport.append("\n\n")
+    
     // If any elements in the diff write them to the diff scoring report
     if(extractionsCorrectDiffSR2.size > 0){
       
@@ -280,18 +240,61 @@ object ExtractionScoringDiff {
             "Entity" + "\t" + "Relation" + "\t" + "Slotfill(tag)" + 
             "\t" + "Correct" + "\t" + "Incorrect" + "\t" + "Sentence" + "\n")               
 
-       extractionsCorrectDiffSR1.toList.sortBy(e => e.sentIndex).foreach(e => 
+       extractionsCorrectDiffSR2.toList.sortBy(e => e.sentIndex).foreach(e => 
            diffscoringreport.append(e.sentIndex + "\t" + 
            e.docid + "\t" + e.entity + "\t" + e.relation + "\t" + e.slotfill + "\t" + 
            e.correct + "\t" + e.incorrect + "\t" + e.sentence + "\n"))       
     }
     
-   
+    println("Size of diffSR2: " + extractionsCorrectDiffSR2.size)
+    
+
+    
+    // -----------------------------------------------------------------
     println("es: Closing PrintWriters")    
-                
+    // -----------------------------------------------------------------
+    
     diffscoringreport.close()     
         
   }
+  
+    // -------------------------------------------------------
+    // Correct Extractions to Compare -  
+    //   list of ScoringReportExtractionLine's
+    //
+    // Note: 
+    // Any line not starting with an integer is ignored,
+    // i.e. falls into the catch{}
+    // This allows #comment lines in the input file
+    // -------------------------------------------------------
+    
+    def extractionsCorrect(scoringreport_filename :String) = {
+      
+      val inputFilename = scoringreport_filename
+    
+      // Does file exist?
+      if (!Files.exists(Paths.get(inputFilename))) {
+        System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
+        sys.exit(1)
+      }
+
+      Source.fromFile(inputFilename).getLines().map(line => {
+        val tokens = line.trim.split("\t")
+        try{
+             ScoringReportExtractionLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), 
+                tokens(3), tokens(4), tokens(5), tokens(6), tokens(7))
+        }catch{ 
+           // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
+           // and filtering it out before returning the list
+           // Eg. a header line will not start with an integer
+           case e: Exception => ScoringReportExtractionLine(-1, "tokens(1)", "tokens(2)", 
+               "tokens(3)", "tokens(4)", "tokens(5)", "tokens(6)", "tokens(7)")
+        }
+        
+      }).toList.filter(l => l.sentIndex >= 0).filter(l => l.correct == "1")
+           
+    } 
+  
 
   // This method is a bit of a hack.
   // We know that the sentence num is incremented after the sentence extractor,
