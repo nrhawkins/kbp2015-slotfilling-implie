@@ -86,7 +86,8 @@ class ImplicitRelationExtractor(
     val processedTdl = rawExtractionTDLs(tags, tdl, tokens)
 
     val eeFn: EntityExtractionFunction =
-      EntityExtractionFunctions.firstNounPhraseAncestor
+//      EntityExtractionFunctions.firstNounPhraseAncestor
+      EntityExtractionFunctions.expandFromSmallNP
 
     // Refined results as noun to noun relations
     val relations = implicitRelationsFromRawExtractions(
