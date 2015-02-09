@@ -34,7 +34,7 @@ object ExtractionScoringDiff {
   // ------------------------------------------------------------------------
   case class ScoringReportExtractionLine(sentIndex: Int, docid: String, 
       entity: String, relation: String, slotfill: String, correct: String, 
-      incorrect: String, sentence: String)
+      incorrect: String, sentence: String)  
   // ------------------------------------------------------------------------
   // MatchKey fields:
   // 1)SentenceIndex 2)DocId 3)Relation 4)Slotfill(tag) 5)Entity
@@ -107,13 +107,26 @@ object ExtractionScoringDiff {
       }
     }
     
-    println("es: Reading Scoring Report 1's Correct Extractions")
+    println("es: Reading Scoring Report 1 and 2's Correct Extractions")
 
-    val extractionsCorrectSR1 = extractionsCorrect(scoringreport1_file)
-    val extractionsCorrectSR2 = extractionsCorrect(scoringreport2_file)
+    //val extractionsCorrectSR1 = extractionsCorrect(scoringreport1_file)
+    //val extractionsCorrectSR2 = extractionsCorrect(scoringreport2_file)
 
+    val extractionsCorrectSR1 = getExtractions(scoringreport1_file).filter(l => l.correct == "1")
+    val extractionsCorrectSR2 = getExtractions(scoringreport2_file).filter(l => l.correct == "1")
+    
+    val extractionsIncorrectSR1 = getExtractions(scoringreport1_file).filter(l => l.incorrect == "1")
+    val extractionsIncorrectSR2 = getExtractions(scoringreport2_file).filter(l => l.incorrect == "1")
+    
     println("es: Scoring Report 1's Correct Extractions size: " + extractionsCorrectSR1.size)    
     println("es: Scoring Report 2's Correct Extractions size: " + extractionsCorrectSR2.size)
+    println("es: Scoring Report 1's Incorrect Extractions size: " + extractionsIncorrectSR1.size)    
+    println("es: Scoring Report 2's Incorrect Extractions size: " + extractionsIncorrectSR2.size)
+
+    println("es: Reading Scoring Report 1 and 2's Summary Stat Tables")
+
+    val summaryStatsTableSR1 = getSummaryStatsTable(scoringreport1_file)
+    val summaryStatsTableSR2 = getSummaryStatsTable(scoringreport2_file)
     
     
     println("es: Create MatchKey Sets to Find Diffs")
@@ -122,19 +135,23 @@ object ExtractionScoringDiff {
     // Create MatchKey sets for Correct and Incorrect
     // -- can use these to check if the extraction is in either set
     // -------------------------------------------------------------
-    val matchkeyItemsCorrectSR1 = for(correctExtraction <- extractionsCorrectSR1) yield {
-       MatchKey(correctExtraction.sentIndex,correctExtraction.docid, correctExtraction.relation, 
-           correctExtraction.slotfill, correctExtraction.entity)
+    val matchkeyItemsCorrectSR1 = for(e <- extractionsCorrectSR1) yield {
+       MatchKey(e.sentIndex, e.docid, e.relation, e.slotfill, e.entity)
     }
+    val matchkeyItemsCorrectSR2 = for(e <- extractionsCorrectSR2) yield {
+       MatchKey(e.sentIndex,e.docid, e.relation, e.slotfill, e.entity)
+    }
+    val matchkeyItemsIncorrectSR1 = for(e <- extractionsIncorrectSR1) yield {
+       MatchKey(e.sentIndex, e.docid, e.relation, e.slotfill, e.entity)
+    }    
+    val matchkeyItemsIncorrectSR2 = for(e <- extractionsIncorrectSR2) yield {
+       MatchKey(e.sentIndex, e.docid, e.relation, e.slotfill, e.entity)
+    }    
     
-    val matchkeyItemsCorrectSR2 = for(correctExtraction <- extractionsCorrectSR2) yield {
-       MatchKey(correctExtraction.sentIndex,correctExtraction.docid, correctExtraction.relation, 
-           correctExtraction.slotfill, correctExtraction.entity)
-    }
-
     println("es: MK Correct SR1 size: " + matchkeyItemsCorrectSR1.size)
     println("es: MK Correct SR2 size: " + matchkeyItemsCorrectSR2.size)
-    
+    println("es: MK Incorrect SR1 size: " + matchkeyItemsIncorrectSR1.size)
+    println("es: MK Incorrect SR2 size: " + matchkeyItemsIncorrectSR2.size)
     
     println("es: Opening files for diff scoring report")
 
@@ -173,22 +190,16 @@ object ExtractionScoringDiff {
     diffscoringreport.append("\n\n")
     
     // ------------------------------------------------------
-    // Diff for Scoring Report 1
+    // Diff for Scoring Report 1 - Correct
     // ------------------------------------------------------
     
     var extractionsCorrectDiffSR1 :Set[ScoringReportExtractionLine] = Set()
 
     // Do diff for Scoring Report 1
-    extractionsCorrectSR1.foreach(e => {
-      
+    extractionsCorrectSR1.foreach(e => {      
        val extrCheck = MatchKey(e.sentIndex, e.docid, e.relation, e.slotfill, e.entity)       
        val correct = matchkeyItemsCorrectSR2.contains(extrCheck)
-       if(!correct){
-         extractionsCorrectDiffSR1 = extractionsCorrectDiffSR1 + e         
-       }
-       
-      }
-    )
+       if(!correct){extractionsCorrectDiffSR1 = extractionsCorrectDiffSR1 + e}})
 
     diffscoringreport.append("\n\n")
     diffscoringreport.append("Number of Correct Extractions in Scoring Report 1 not in Scoring Report 2: " + 
@@ -208,25 +219,19 @@ object ExtractionScoringDiff {
            e.correct + "\t" + e.incorrect + "\t" + e.sentence + "\n"))       
     }
     
-    println("Size of diffSR1: " + extractionsCorrectDiffSR1.size)
+    println("Size of diffSR1 correct: " + extractionsCorrectDiffSR1.size)
     
     // ------------------------------------------------------
-    // Diff for Scoring Report 2
+    // Diff for Scoring Report 2 - Correct
     // ------------------------------------------------------
     
     var extractionsCorrectDiffSR2 :Set[ScoringReportExtractionLine] = Set()
 
     // Do diff for Scoring Report 2
-    extractionsCorrectSR2.foreach(e => {
-      
+    extractionsCorrectSR2.foreach(e => {      
        val extrCheck = MatchKey(e.sentIndex, e.docid, e.relation, e.slotfill, e.entity)       
        val correct = matchkeyItemsCorrectSR1.contains(extrCheck)
-       if(!correct){
-         extractionsCorrectDiffSR2 = extractionsCorrectDiffSR2 + e         
-       }
-       
-      }
-    )
+       if(!correct){extractionsCorrectDiffSR2 = extractionsCorrectDiffSR2 + e}})
 
     diffscoringreport.append("\n\n")
     diffscoringreport.append("Number of Correct Extractions in Scoring Report 2 not in Scoring Report 1: " + 
@@ -246,12 +251,89 @@ object ExtractionScoringDiff {
            e.correct + "\t" + e.incorrect + "\t" + e.sentence + "\n"))       
     }
     
-    println("Size of diffSR2: " + extractionsCorrectDiffSR2.size)
+    println("Size of diffSR2 correct: " + extractionsCorrectDiffSR2.size)
     
+    // ------------------------------------------------------
+    // Diff for Scoring Report 1 - Incorrect
+    // ------------------------------------------------------
+    
+    var extractionsIncorrectDiffSR1 :Set[ScoringReportExtractionLine] = Set()
 
+    // Do diff for Scoring Report 1
+    extractionsIncorrectSR1.foreach(e => {      
+       val extrCheck = MatchKey(e.sentIndex, e.docid, e.relation, e.slotfill, e.entity)       
+       val correct = matchkeyItemsIncorrectSR2.contains(extrCheck)
+       if(!correct){extractionsIncorrectDiffSR1 = extractionsIncorrectDiffSR1 + e}})
+
+    diffscoringreport.append("\n\n")
+    diffscoringreport.append("Number of Incorrect Extractions in Scoring Report 1 not in Scoring Report 2: " + 
+       extractionsIncorrectDiffSR1.size + "\n")
+    diffscoringreport.append("\n\n")
     
+    // If any elements in the diff write them to the diff scoring report
+    if(extractionsIncorrectDiffSR1.size > 0){
+      
+       diffscoringreport.append("SentenceIndex" + "\t" + "DocumentId" + "\t" + 
+            "Entity" + "\t" + "Relation" + "\t" + "Slotfill(tag)" + 
+            "\t" + "Correct" + "\t" + "Incorrect" + "\t" + "Sentence" + "\n")               
+
+       extractionsIncorrectDiffSR1.toList.sortBy(e => e.sentIndex).foreach(e => 
+           diffscoringreport.append(e.sentIndex + "\t" + 
+           e.docid + "\t" + e.entity + "\t" + e.relation + "\t" + e.slotfill + "\t" + 
+           e.correct + "\t" + e.incorrect + "\t" + e.sentence + "\n"))       
+    }
+    
+    println("Size of diffSR1 incorrect: " + extractionsIncorrectDiffSR1.size)
+    
+    // ------------------------------------------------------
+    // Diff for Scoring Report 2 - Incorrect
+    // ------------------------------------------------------
+    
+    var extractionsIncorrectDiffSR2 :Set[ScoringReportExtractionLine] = Set()
+
+    // Do diff for Scoring Report 2
+    extractionsIncorrectSR2.foreach(e => {      
+       val extrCheck = MatchKey(e.sentIndex, e.docid, e.relation, e.slotfill, e.entity)       
+       val correct = matchkeyItemsIncorrectSR1.contains(extrCheck)
+       if(!correct){extractionsIncorrectDiffSR2 = extractionsIncorrectDiffSR2 + e}})
+
+    diffscoringreport.append("\n\n")
+    diffscoringreport.append("Number of Incorrect Extractions in Scoring Report 2 not in Scoring Report 1: " + 
+       extractionsIncorrectDiffSR2.size + "\n")
+    diffscoringreport.append("\n\n")
+    
+    // If any elements in the diff write them to the diff scoring report
+    if(extractionsIncorrectDiffSR2.size > 0){
+      
+       diffscoringreport.append("SentenceIndex" + "\t" + "DocumentId" + "\t" + 
+            "Entity" + "\t" + "Relation" + "\t" + "Slotfill(tag)" + 
+            "\t" + "Correct" + "\t" + "Incorrect" + "\t" + "Sentence" + "\n")               
+
+       extractionsIncorrectDiffSR2.toList.sortBy(e => e.sentIndex).foreach(e => 
+           diffscoringreport.append(e.sentIndex + "\t" + 
+           e.docid + "\t" + e.entity + "\t" + e.relation + "\t" + e.slotfill + "\t" + 
+           e.correct + "\t" + e.incorrect + "\t" + e.sentence + "\n"))       
+    }
+    
+    println("Size of diffSR2 incorrect: " + extractionsIncorrectDiffSR2.size)
+    
+    
+    if(summaryStatsTableSR1.size > 0){ 
+      diffscoringreport.append("\n\n")
+      diffscoringreport.append("Scoring Report 1's Summary Stats Table:" + "\n\n")
+      summaryStatsTableSR1.foreach(row => diffscoringreport.append(row + "\n"))      
+    }
+    
+    if(summaryStatsTableSR2.size > 0){ 
+      diffscoringreport.append("\n\n")
+      diffscoringreport.append("Scoring Report 2's Summary Stats Table:" + "\n\n")
+      summaryStatsTableSR2.foreach(row => diffscoringreport.append(row + "\n"))      
+    }    
+
+    // -----------------------------------------------------------------
     // -----------------------------------------------------------------
     println("es: Closing PrintWriters")    
+    // -----------------------------------------------------------------
     // -----------------------------------------------------------------
     
     diffscoringreport.close()     
@@ -266,6 +348,11 @@ object ExtractionScoringDiff {
     // Any line not starting with an integer is ignored,
     // i.e. falls into the catch{}
     // This allows #comment lines in the input file
+    //
+    // Note: 
+    // This was used before both correct and incorrect
+    // extractions were included in the diff report
+    // Can probably delete this function.
     // -------------------------------------------------------
     
     def extractionsCorrect(scoringreport_filename :String) = {
@@ -295,7 +382,95 @@ object ExtractionScoringDiff {
            
     } 
   
+    // -------------------------------------------------------
+    // Extractions to Compare -  
+    //   list of ScoringReportExtractionLine's
+    //
+    // Note: 
+    // Any line not starting with an integer is ignored,
+    // i.e. falls into the catch{}
+    // This allows #comment lines in the input file
+    // -------------------------------------------------------
+    
+    def getExtractions(scoringreport_filename :String) = {
+      
+      val inputFilename = scoringreport_filename
+    
+      // Does file exist?
+      if (!Files.exists(Paths.get(inputFilename))) {
+        System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
+        sys.exit(1)
+      }
 
+      Source.fromFile(inputFilename).getLines().map(line => {
+        val tokens = line.trim.split("\t")
+        try{
+             ScoringReportExtractionLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), 
+                tokens(3), tokens(4), tokens(5), tokens(6), tokens(7))
+        }catch{ 
+           // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
+           // and filtering it out before returning the list
+           // Eg. a header line will not start with an integer
+           case e: Exception => ScoringReportExtractionLine(-1, "tokens(1)", "tokens(2)", 
+               "tokens(3)", "tokens(4)", "tokens(5)", "tokens(6)", "tokens(7)")
+        }
+        
+      }).toList.filter(l => l.sentIndex >= 0)
+           
+    } 
+
+    // --------------------------------------------------
+    // Extract Summary Stats Table rows from 
+    // extraction-scoring report
+    // --------------------------------------------------
+    def getSummaryStatsTable(scoringreport_filename : String) = {
+      
+      val inputFilename = scoringreport_filename
+    
+      // Does file exist?
+      if (!Files.exists(Paths.get(inputFilename))) {
+        System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
+        sys.exit(1)
+      }
+      
+      var startTable = false
+
+      Source.fromFile(inputFilename).getLines().map(line => {
+        val tokens = line.trim.split("\t\t")
+        if(tokens(0) == "Correct") println("Length Tokens:" + tokens.length)
+        
+        if(tokens.length==4 && tokens(0) == "Correct")
+        {  startTable = true    
+           line
+        }
+        else if(tokens.length==4 && tokens(3)=="total"){
+          startTable = false          
+          line
+        }
+        else if(tokens.length==4 && startTable){
+          line                    
+        }else{
+          "-1"
+        }   
+        
+      }).toList.filter(l => l != "-1")
+      
+    }    
+    
+    
+  // -------------------------------------- 
+  // check if String is of type Int  
+  // --------------------------------------      
+  def isInteger(token: String) = {    
+    try{
+      val x = token.toInt
+      true
+    }
+    catch{
+      case e: Exception => false      
+    }
+  } 
+    
   // This method is a bit of a hack.
   // We know that the sentence num is incremented after the sentence extractor,
   // so we take one less than what is recorded there.
