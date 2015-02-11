@@ -17,6 +17,7 @@ class ImplicitRelation(t: TagInfo, r: String, n: IndexedSubstring,
   var np = n
   var sentence = s
   var relationTrace = rt
+  var explicitRelationTraces: List[List[TypedDependency]] = Nil
   var ners: List[NERTag] = Nil
   var head: IndexedString = null
   // TODO: make verbose with wordnet results.
@@ -37,6 +38,12 @@ class ImplicitRelation(t: TagInfo, r: String, n: IndexedSubstring,
   def setHead(_head: IndexedString) {
     head = _head
   }
+
+  def setExplicitRelationTraces(ert: List[List[TypedDependency]]) {
+    explicitRelationTraces = ert
+  }
+
+  def getExplicitRelationTraces = explicitRelationTraces
 
   override def hashCode(): Int = tag.hashCode() + relation.hashCode +
     np.hashCode() + sentence.hashCode

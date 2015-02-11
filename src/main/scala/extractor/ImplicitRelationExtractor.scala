@@ -31,6 +31,10 @@ class ImplicitRelationExtractor(
     serializedTokenCacheFile: String = null,
     serializedParseCacheFile: String = null) {
 
+  private case class ExpansionStep
+    (step: TypedDependency, id: String,
+     idValue: IndexedString, prev: TypedDependency)
+
   val config = ConfigFactory.load("extractor.conf")
 
   // Parser.
@@ -218,22 +222,22 @@ class ImplicitRelationExtractor(
      relations.contains(td.reln().getShortName)
   }
 
-
   // Givens an id, id value, a list of rules returns a function that checks that a typed dependency
   // satisfies the rules and identifier constraints.
   // If satisfied, returns the next step id and idValue.
   // NOTE: NOT THREADSAFE!
   private def expandIdByRules(id: String, idValue: IndexedString, rules: List[Rule],
      tokens: Seq[ChunkedToken], tdl: List[TypedDependency])
-    (td: TypedDependency): (TypedDependency, String, IndexedString) = {
+    (td: TypedDependency): ExpansionStep = {
 
     expansionFunctions.prepareFunctions(id, idValue, rules, tokens, tdl)
 
-    rules.foldLeft(null: (TypedDependency, String, IndexedString))((acc, cur) => {
+    rules.foldLeft(null: ExpansionStep)((acc, cur) => {
       if (acc != null) {
         return acc
       }
-      expansionFunctions.getFunctionForRelation(cur.rel)(td, cur)
+      val triple = expansionFunctions.getFunctionForRelation(cur.rel)(td, cur)
+      ExpansionStep(triple._1, triple._2, triple._3, td)
     })
   }
 
@@ -244,7 +248,7 @@ class ImplicitRelationExtractor(
                       id: String,
                       idValue: IndexedString,
                       patterns: RelationPattern,
-                      tokens: Seq[ChunkedToken]): List[TypedDependency] = {
+                      tokens: Seq[ChunkedToken]): List[List[TypedDependency]] = {
     // filter by relation
     // map relations to the next hop id and idval
     // map to expand pattern on the filtered results
@@ -255,8 +259,9 @@ class ImplicitRelationExtractor(
     }
     tdl.map(expandIdByRules(id, idValue, rules, tokens, tdl))
        .filter(x => x != null)
-       .map(triple => triple._1::expandByPattern(tdl, triple._2, triple._3, patterns, tokens))
-       .fold(Nil: List[TypedDependency])((acc, cur) => cur:::acc)
+       .map(step => expandByPattern(tdl, step.id, step.idValue, patterns, tokens)
+                        .map(lst => step.step::lst))
+       .foldLeft(Nil: List[List[TypedDependency]])((acc, cur) => cur:::acc)
   }
 
   // Returns a raw extraction in terms of the tag and the expanded dependencies.
@@ -273,9 +278,11 @@ class ImplicitRelationExtractor(
       (tag, expandByPattern(tdl, tagId, tag.asIndexedString, relationPatterns, tokens)))
 
     expansions.map(pair => {
+        val flattenedTrace = pair._2.flatten
         val nnTag = new ImplicitRelation(pair._1, pair._1.tag,
-          IndexedSubstring.emptyInstance, "", pair._2)
-        RawTDLRelation(pair._2, nnTag)
+          IndexedSubstring.emptyInstance, "", flattenedTrace)
+        nnTag.setExplicitRelationTraces(pair._2)
+        RawTDLRelation(flattenedTrace, nnTag)
       }
     )
   }
