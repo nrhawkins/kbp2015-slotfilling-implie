@@ -252,7 +252,8 @@ class ImplicitRelationExtractor(
                       id: String,
                       idValue: IndexedString,
                       patterns: RelationPattern,
-                      tokens: Seq[ChunkedToken]): List[List[TypedDependency]] = {
+                      tokens: Seq[ChunkedToken],
+                      seenTdSet: Set[TypedDependency] = Set()): List[List[TypedDependency]] = {
     // filter by relation
     // map relations to the next hop id and idval
     // map to expand pattern on the filtered results
@@ -261,9 +262,12 @@ class ImplicitRelationExtractor(
     if (rules == Nil) {
       return List(Nil)
     }
-    tdl.map(expandIdByRules(id, idValue, rules, tokens, tdl))
+    // Only expand on dependencies that we haven't yet.
+    // Since we merge all paths, we don't need to be exhaustive in any one of them.
+    tdl.filter(td => !seenTdSet.contains(td))
+       .map(expandIdByRules(id, idValue, rules, tokens, tdl))
        .filter(x => x != null)
-       .map(step => expandByPattern(tdl, step.id, step.idValue, patterns, tokens)
+       .map(step => expandByPattern(tdl, step.id, step.idValue, patterns, tokens, seenTdSet + step.step)
                         .map(lst => step.step::lst))
        .foldLeft(Nil: List[List[TypedDependency]])((acc, cur) => cur:::acc)
       match {
