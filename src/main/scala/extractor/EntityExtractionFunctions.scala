@@ -265,6 +265,7 @@ object EntityExtractionFunctions {
     // Calculate min and max indices for tag, nps, and expansion rules.
     val firstChunkIndex = Math.min(tagleft.index(), Math.min(tdlleft.index(), npmin)) - 1
     val lastChunkIndex = Math.max(tagright.index(), Math.max(tdlright.index(), npmax)) - 1
+    println(s"indices: ($firstChunkIndex, $lastChunkIndex}}), tokens: $tokenizedSentence")
     val firstChunk = tokenizedSentence(firstChunkIndex)
     val lastChunk = tokenizedSentence(lastChunkIndex)
 
