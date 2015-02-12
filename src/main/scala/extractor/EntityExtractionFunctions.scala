@@ -248,7 +248,8 @@ object EntityExtractionFunctions {
       .map(nproot => nproot.getLeaves[Tree]().toList)
       .foldLeft(Nil: List[Tree])((acc, cur) => cur:::acc)
       .foldLeft((-1, -1): (Int, Int))((acc, cur) => {
-        val index = cur.label().toString.split("-")(1).toInt
+        val dashSplits = cur.label().toString.split("-")
+        val index = dashSplits(dashSplits.size - 1).toInt
         if (acc._1 == -1) {
           (index, index)
         } else {
@@ -265,8 +266,6 @@ object EntityExtractionFunctions {
     // Calculate min and max indices for tag, nps, and expansion rules.
     val firstChunkIndex = Math.min(tagleft.index(), Math.min(tdlleft.index(), npmin)) - 1
     val lastChunkIndex = Math.max(tagright.index(), Math.max(tdlright.index(), npmax)) - 1
-    println(s"nps ($npmin, $npmax), tdls ($tdlleft, $tdlright), tags ($tagleft, $tagright)")
-    println(s"indices: ($firstChunkIndex, $lastChunkIndex), tokens: $tokenizedSentence")
     val firstChunk = tokenizedSentence(firstChunkIndex)
     val lastChunk = tokenizedSentence(lastChunkIndex)
 
