@@ -237,7 +237,11 @@ class ImplicitRelationExtractor(
         return acc
       }
       val triple = expansionFunctions.getFunctionForRelation(cur.rel)(td, cur)
-      ExpansionStep(triple._1, triple._2, triple._3, td)
+      if (triple == null) {
+        null
+      } else {
+        ExpansionStep(triple._1, triple._2, triple._3, td)
+      }
     })
   }
 
@@ -255,13 +259,19 @@ class ImplicitRelationExtractor(
     // fold to merge
     val rules = patterns.getOrElse(id, Nil)
     if (rules == Nil) {
-      return Nil
+      return List(Nil)
     }
     tdl.map(expandIdByRules(id, idValue, rules, tokens, tdl))
        .filter(x => x != null)
        .map(step => expandByPattern(tdl, step.id, step.idValue, patterns, tokens)
                         .map(lst => step.step::lst))
        .foldLeft(Nil: List[List[TypedDependency]])((acc, cur) => cur:::acc)
+      match {
+        // In order to allow proper processing in other steps, the base case must be
+        // List(Nil), not Nil.
+        case Nil => List(Nil)
+        case x => x
+    }
   }
 
   // Returns a raw extraction in terms of the tag and the expanded dependencies.
