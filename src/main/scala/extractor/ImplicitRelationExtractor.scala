@@ -91,7 +91,8 @@ class ImplicitRelationExtractor(
 
     val eeFn: EntityExtractionFunction =
 //      EntityExtractionFunctions.firstNounPhraseAncestor
-      EntityExtractionFunctions.expandFromSmallNP
+//      EntityExtractionFunctions.expandFromSmallNP
+				EntityExtractionFunctions.smallestSubstring
 
     // Refined results as noun to noun relations
     val relations = implicitRelationsFromRawExtractions(
