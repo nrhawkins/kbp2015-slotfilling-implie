@@ -52,11 +52,34 @@ class ImplicitRelationExtractorNoLists(
   //
   // ToDo: define this function, as-is nothing is filtered out
   // -----------------------------------------------------------------------
-  def filterNoLists(implicitRelations: List[ImplicitRelation]): List[ImplicitRelation] = {
+  def filterNoLists(relations: List[ImplicitRelation]): List[ImplicitRelation] = {
+
+    //Already, a list which has a "conj_and" in the dependency and an "and" in the entity
+    //is excluded by ExpansionFunctions - 
+    //private def conjAndAppos(td: TypedDependency, rule: Rule): (TypedDependency, String, IndexedString)
+    //This would exclude an extraction entity like:
+    //Austria, Belgium, Denmark, Finland, France, Germany, Greece, Iceland, Italy, Luxembourg, 
+    //the Netherlands, Norway, Portugal, Spain and Sweden-39
+    //which produces 14 nationality extractions
     
-    implicitRelations
+    relations
+    
+    //relations.filter(rel => rel.head.index != rel.tag.index)
     
   }
-  
+
+  // -----------------------------------------------------------------------
+  // Filter out implicitRelations which have a self-referential slotfill,
+  // for example, 
+  // Cincinatti, OH  has city Cincinatti
+  //
+  // ToDo: define this function, as-is nothing is filtered out
+  // -----------------------------------------------------------------------
+  def filterNoSelfReferentials(relations: List[ImplicitRelation]): List[ImplicitRelation] = {
+    
+    relations
+
+  } 
+ 
   
 }
