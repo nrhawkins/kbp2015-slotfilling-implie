@@ -25,7 +25,6 @@ object ExplicitListDev {
       println(result)
       for (r <- result) {
         println(s"ners ${r.getNERs}}")
-        println(s"head ${r.head}")
         println(s"explicit traces ${r.explicitRelationTraces}")
       }
     }
