@@ -211,11 +211,13 @@ class ImplicitRelationExtractor(
     sentence: String,
     entityExtractionFn: EntityExtractionFunction): List[ImplicitRelation] = {
 
-    nntdls.map(nntdl =>
-      new ImplicitRelation(nntdl.tag.tag, nntdl.tag.relation,
+    nntdls.map(nntdl => {
+      val rel = new ImplicitRelation(nntdl.tag.tag, nntdl.tag.relation,
         entityExtractionFn(parseTree, nntdl.tdl, nntdl.tag.tag, tokens, sentence, this),
-        nntdl.tag.sentence, nntdl.tag.relationTrace))
-          .filter(nnr => nnr.np != null)
+        nntdl.tag.sentence, nntdl.tag.relationTrace)
+      rel.setExplicitRelationTraces(nntdl.tag.getExplicitRelationTraces)
+      rel
+    }).filter(nnr => nnr.np != null)
   }
 
 
