@@ -102,6 +102,8 @@ object EntityExtractionFunctions {
     }
     val (smallLeftmost, smallRightmost) = getLeftAndRight(indexedWordTag(0),
       indexedWordTag(indexedWordTag.size - 1), firstTd)
+
+
     val npRoot = getNPAncestor(tree, smallLeftmost, smallRightmost)._1
 
     // left and right without np root.
@@ -158,6 +160,112 @@ object EntityExtractionFunctions {
 
     val firstChunkIndex = left.index - 1
     val lastChunkIndex = right.index() - 1
+    val firstChunk = tokenizedSentence(firstChunkIndex)
+    val lastChunk = tokenizedSentence(lastChunkIndex)
+
+    val (startIndex, endIndex, wordIndex) = extendToEnclosePunctuation(
+      tree, sentence, firstChunk.offset,
+      lastChunk.offset + lastChunk.string.length,
+      firstChunkIndex, lastChunkIndex + 1,
+      extractor)
+
+    new IndexedSubstring(
+      sentence.substring(startIndex, endIndex),
+      firstChunkIndex,
+      wordIndex,
+      startIndex,
+      endIndex,
+      sentence
+    )
+  }
+
+  /**
+   * Extracts the smallest substring of the sentence that contains all
+   * components of the tdl after each noun component is expanded to it's parent
+   * if and only if the parent is an NP.
+   */
+  def smallestSubstringWithParentNPs
+    (tree: Tree,
+     tdl: List[TypedDependency],
+     tag: TagInfo,
+     tokenizedSentence: Seq[ChunkedToken],
+     sentence: String,
+     extractor: ImplicitRelationExtractor): IndexedSubstring = {
+
+    /*
+    Expand tag to the parent if the parent is an NP.
+    Expand any NN or NNP leaves to the parent if it's an NP.
+    Then find the smallest substring.
+     */
+    if (tdl.size == 0) {
+      return null
+    }
+
+    // get the leftmost and rightmost terms.
+    val indexedWordTag = tree.`yield`().toList
+      .slice(tag.intervalStart, tag.intervalEnd)
+      .map(x => new IndexedWord(x))
+    // Start with NP that only includes the tag and the first extraction step.
+    val firstTd = tdl match {
+      case head::tail => head::Nil
+      case Nil => Nil
+    }
+    val (tagleft, tagright) = getLeftAndRight(indexedWordTag(0),
+      indexedWordTag(indexedWordTag.size - 1), firstTd)
+
+    // left and right from just the tdl.
+    val (tdlleft, tdlright) = getLeftAndRight(indexedWordTag(0),
+      indexedWordTag(indexedWordTag.size - 1), tdl)
+
+
+    val leaves = tree.getLeaves[Tree]()
+    val relns = Set("NP", "NNP", "np", "nnp")
+    val terms = tdl.foldLeft(List(tagleft, tagright): List[IndexedWord])((acc, cur) => cur.gov()::cur.dep()::acc)
+
+    // Get parents of the leaves if the parent is an NP, else just return the leaf.
+    val nproots = terms.map(iw => {
+      leaves.foldLeft(null: Tree)((acc, cur) => {
+        if (acc != null) {
+          acc
+        } else {
+          if (cur.label().toString.equalsIgnoreCase(s"${iw.value()}-${iw.index()}")) {
+            // Found it.
+            val node = cur.parent(tree) // This isn't acutally the parent, it's the encapsulating tree node for the leaf.
+            if (relns.contains(node.parent(tree).label().toString)) {
+              node.parent(tree)
+            } else {
+              node
+            }
+          } else {
+            null
+          }
+        }
+      })
+    })
+
+    // Calculate min and max indices for all np chunks in the expansion.
+    val (npmin, npmax) = nproots
+      .map(nproot => nproot.getLeaves[Tree]().toList)
+      .foldLeft(Nil: List[Tree])((acc, cur) => cur:::acc)
+      .foldLeft((-1, -1): (Int, Int))((acc, cur) => {
+        val dashSplits = cur.label().toString.split("-")
+        val index = dashSplits(dashSplits.size - 1).toInt
+        if (acc._1 == -1) {
+          (index, index)
+        } else {
+          if (index < acc._1) {
+            (index, acc._2)
+          } else if (index > acc._2) {
+            (acc._1, index)
+          } else {
+            acc
+          }
+        }
+      })
+
+    // Calculate min and max indices for tag, nps, and expansion rules.
+    val firstChunkIndex = Math.min(tagleft.index(), Math.min(tdlleft.index(), npmin)) - 1
+    val lastChunkIndex = Math.max(tagright.index(), Math.max(tdlright.index(), npmax)) - 1
     val firstChunk = tokenizedSentence(firstChunkIndex)
     val lastChunk = tokenizedSentence(lastChunkIndex)
 

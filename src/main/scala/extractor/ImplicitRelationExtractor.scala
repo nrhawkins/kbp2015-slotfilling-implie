@@ -92,7 +92,8 @@ class ImplicitRelationExtractor(
     val eeFn: EntityExtractionFunction =
 //      EntityExtractionFunctions.firstNounPhraseAncestor
 //      EntityExtractionFunctions.expandFromSmallNP
-				EntityExtractionFunctions.smallestSubstring
+//				EntityExtractionFunctions.smallestSubstring
+        EntityExtractionFunctions.smallestSubstringWithParentNPs
 
     // Refined results as noun to noun relations
     val relations = implicitRelationsFromRawExtractions(
@@ -210,11 +211,13 @@ class ImplicitRelationExtractor(
     sentence: String,
     entityExtractionFn: EntityExtractionFunction): List[ImplicitRelation] = {
 
-    nntdls.map(nntdl =>
-      new ImplicitRelation(nntdl.tag.tag, nntdl.tag.relation,
+    nntdls.map(nntdl => {
+      val rel = new ImplicitRelation(nntdl.tag.tag, nntdl.tag.relation,
         entityExtractionFn(parseTree, nntdl.tdl, nntdl.tag.tag, tokens, sentence, this),
-        nntdl.tag.sentence, nntdl.tag.relationTrace))
-          .filter(nnr => nnr.np != null)
+        nntdl.tag.sentence, nntdl.tag.relationTrace)
+      rel.setExplicitRelationTraces(nntdl.tag.getExplicitRelationTraces)
+      rel
+    }).filter(nnr => nnr.np != null)
   }
 
 
@@ -339,9 +342,10 @@ class ImplicitRelationExtractor(
       val tree = getParse(rel.np.string)._1
       tree.indexLeaves()
 
+      val alllist = tree.`yield`().toList
       val headlist = tree.headTerminal(headFinder).`yield`().toList
       val headStr = headlist(0).toString
-      val lastStr = headlist(headlist.size - 1).toString
+      val lastStr = alllist(alllist.size - 1).toString
 
       // Index is negative because of the dash.
       val (headWord, headNegIndex) = headStr.splitAt(headStr.lastIndexOf('-'))
