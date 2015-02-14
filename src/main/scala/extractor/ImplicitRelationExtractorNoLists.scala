@@ -50,36 +50,37 @@ class ImplicitRelationExtractorNoLists(
   // -----------------------------------------------------------------------
   // Filter out implicitRelations which have a list in the entity 
   //
-  // ToDo: define this function, as-is nothing is filtered out
+  // Filter out relation if there is a sequence of: 
+  // 1) 2 or more conj_and's 
+  // or
+  // 2) 2 or more appos
   // -----------------------------------------------------------------------
   def filterNoLists(relations: List[ImplicitRelation]): List[ImplicitRelation] = {
 
-    //Already, a list which has a "conj_and" in the dependency and an "and" in the entity
-    //is excluded by ExpansionFunctions - 
-    //private def conjAndAppos(td: TypedDependency, rule: Rule): (TypedDependency, String, IndexedString)
-    //This would exclude an extraction entity like:
-    //Austria, Belgium, Denmark, Finland, France, Germany, Greece, Iceland, Italy, Luxembourg, 
-    //the Netherlands, Norway, Portugal, Spain and Sweden-39
-    //which produces 14 nationality extractions
+    val relationsFiltered = for(rel <- relations) yield{      
+      
+      rel.explicitRelationTraces.foreach(ert => { 
+        
+         var countConjAnd = 0
+         var countAppos = 0  
+        ert.foreach(t => {  
+          if(t.toString.contains("conj_and")) countConjAnd += 1 
+          if(t.toString.contains("appos")) countAppos += 1          
+        })
+       if(countConjAnd >= 2 || countAppos >= 2){
+         rel.relation = "dropThisRelation"
+       }
+         
+      }) 
+
+      rel
     
-    relations
+    }
     
-    //relations.filter(rel => rel.head.index != rel.tag.index)
+    relationsFiltered.filter(rel => rel.relation != "dropThisRelation")   
     
   }
 
-  // -----------------------------------------------------------------------
-  // Filter out implicitRelations which have a self-referential slotfill,
-  // for example, 
-  // Cincinatti, OH  has city Cincinatti
-  //
-  // ToDo: define this function, as-is nothing is filtered out
-  // -----------------------------------------------------------------------
-  def filterNoSelfReferentials(relations: List[ImplicitRelation]): List[ImplicitRelation] = {
-    
-    relations
-
-  } 
  
   
 }

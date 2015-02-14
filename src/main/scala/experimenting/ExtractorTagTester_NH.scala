@@ -13,10 +13,12 @@ object ExtractorTagTester_NH {
     val extractor = new ImplicitRelationExtractor(tagger)
     val wordnetextractor = new WordNetFilteredIRE(tagger)
     val constrained = new FormalConstrainedImplIE(tagger)
-
+    
+    val sentence = "Most want nothing to do with religious feuding and blame politicians for the ungodly messes going on in Iraq, Palestine, Afghanistan and elsewhere."
+    //val sentence = "HANOI -- Vietnam's stock market index, VN-Index, closed at 1, 059.79 points on Thursday, up 18.8 points, or 1.81 percent against Wednesday."
     //Wilson, Phil Mickelson, two-time Singapore winner Adam Scott, Ernie Els, Darren Clarke, Ian Poulter, K.J. Choi-43
     //Wilson, Phil Mickelson, two-time Singapore winner Adam Scott, Ernie Els, Darren Clarke, Ian Poulter, K.J. Choi and Thai star Thongchai Jaidee-48
-    val sentence = "Notes: Ireland's Padraig Harrington, the British Open and U.S. PGA Championship winner, tops the field along with Wilson, Phil Mickelson, two-time Singapore winner Adam Scott, Ernie Els, Darren Clarke, Ian Poulter, K.J. Choi and Thai star Thongchai Jaidee."
+    //val sentence = "Notes: Ireland's Padraig Harrington, the British Open and U.S. PGA Championship winner, tops the field along with Wilson, Phil Mickelson, two-time Singapore winner Adam Scott, Ernie Els, Darren Clarke, Ian Poulter, K.J. Choi and Thai star Thongchai Jaidee."
     //val sentence = "Mercosur was founded in 1991 by Brazil, Argentina, Uruguay and Paraguay."
     //head index = 6, tag index = 1, both for CAIRO
     //val sentence = "CAIRO, Egypt 2007-09-07 01:21:47 UTC"
@@ -38,8 +40,15 @@ object ExtractorTagTester_NH {
       println("ner size: " + r.ners.size)
       println("rt size: " + r.relationTrace.size)
       println("ert size: " + r.explicitRelationTraces.size)
-      println(r.relationTrace.foreach(rt => println(rt.toString)))
-      //println(r.explicitRelationTraces.foreach(rt => rt.foreach(rt => println(rt.toString))))
+      //println(r.relationTrace.foreach(rt => println(rt.toString)))
+      println(r.explicitRelationTraces.foreach(rt => { 
+        println("RT")
+        rt.foreach(rt => {
+          val x = rt.toString
+          println(rt.toString) 
+          println(x.contains("conj_and"))        
+        })
+      }))
     })
     
     //val sentence = "John Arterberry, executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud."
