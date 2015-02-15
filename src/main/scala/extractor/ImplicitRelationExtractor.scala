@@ -89,11 +89,9 @@ class ImplicitRelationExtractor(
     // Raw extractions in terms of typed dependency lists
     val processedTdl = rawExtractionTDLs(tags, tdl, tokens)
 
+    // Look at EntityExtractionFunctions for alternate extraction methods.
     val eeFn: EntityExtractionFunction =
-//      EntityExtractionFunctions.firstNounPhraseAncestor
-//      EntityExtractionFunctions.expandFromSmallNP
-//				EntityExtractionFunctions.smallestSubstring
-        EntityExtractionFunctions.smallestSubstringWithParentNPs
+				EntityExtractionFunctions.smallestSubstring
 
     // Refined results as noun to noun relations
     val relations = implicitRelationsFromRawExtractions(
