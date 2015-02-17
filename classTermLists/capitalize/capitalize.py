@@ -16,7 +16,8 @@ for term in infile.read().splitlines():
     # If all one case, then modify...
     if term.islower() or term.isupper():
         tokens = term.split()
-        newtokens = map(lambda tok: tok if '.' in tok else tok[:1].upper() + tok[1:].lower(), tokens)
+				#newtokens = map(lambda tok: tok if '.' in tok else tok[:1].upper() + tok[1:].lower(), tokens)
+        newtokens = map(lambda tok: tok[:1].upper() + tok[1:].lower(), tokens)
         outfile.write(' '.join(newtokens) + '\n')
 
     # otherwise just write as is.

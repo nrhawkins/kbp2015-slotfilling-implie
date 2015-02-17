@@ -335,7 +335,7 @@ Angelina College Penny
 Angelina Community College
 Angelo State
 Angelo State University
-Angenore Fabbri b. Perez Special Education Center
+Angenore Fabbri B. Perez Special Education Center
 Angley College
 Anglia Polytechnic University
 Anglia Ruskin University
@@ -753,7 +753,7 @@ Bay State College
 Bay State School Of Technology
 Bay Vista College
 Bay Vista College Of Beauty
-"bayam, n. Central University"
+"bayam, N. Central University"
 Bayamon Central University
 Bayamon Community College
 Baylor College
@@ -846,7 +846,7 @@ Bellingham Technical College
 Belmont Abbey College
 Belmont Technical College
 Belmont University
-Belmopan jr. College
+Belmopan Jr. College
 Beloit College
 Beloit College In Beloit
 Bemidiji State University
@@ -861,8 +861,8 @@ Benedictine University
 Bengal Engineering College
 Benjamin Cardozo School Of Law
 Benjamin Franklin University
-Benjamin n. Cardozo School
-Benjamin n. Cardozo School Of Law
+Benjamin N. Cardozo School
+Benjamin N. Cardozo School Of Law
 Benjaminirvine Lum Valley College
 Bennet College
 Bennett College
@@ -900,7 +900,7 @@ Berlin Technical University
 Bermuda College
 Bernadean University
 Bernard Baruch College
-Bernard m. Baruch College
+Bernard M. Baruch College
 Berry Alexis Ayalacollege
 Berry College
 Bessemer State Technical College
@@ -1242,7 +1242,7 @@ Brussels University
 Bryan Career College
 Bryan College
 Bryan College Of Court Reporting
-Bryan Cranston Johnson c. Smith University
+Bryan Cranston Johnson C. Smith University
 Bryanlgh College
 Bryanlgh College Of Health Sciences
 Bryant And Stratton Business Institute
@@ -1317,9 +1317,9 @@ C E G E P De Baie Comeau
 C E G E P De Matane
 C E G E P Vanier College
 C H I Institute
-C U n. Y Brooklyn College
+C U N. Y Brooklyn College
 C W Post College
-c. w. Post College
+C. W. Post College
 Cabell County Career Technology Center
 Cabrillo College
 Cabrillo Community College
@@ -1329,7 +1329,7 @@ Cactus Worldwide Limited
 Caddo Kiowa Technology Center
 Cadimar College
 Caguas Central College
-Caguas inst. Of Mechanical Technology
+Caguas Inst. Of Mechanical Technology
 Caguas Institute Of Mechanical Technology
 Cain's Barber College
 Cairo American College
@@ -1456,8 +1456,8 @@ Calpoly
 Caltech
 Calumet College
 Calumet College Of Saint Joseph
-Calumet College Of st. Joseph
-Calumet College Of st. Joseph
+Calumet College Of St. Joseph
+Calumet College Of St. Joseph
 Calvary Baptist Seminary
 Calvary Baptist Theological Seminary
 Calvary Bible College
@@ -1637,7 +1637,7 @@ Carthage College
 Carthage Collegecollege
 Cartmel College
 Carver Bible College
-Carver State tech. College
+Carver State Tech. College
 Casa Loma College
 Cascade College
 Cascadia Community College
@@ -1691,7 +1691,7 @@ Cc's Cosmetology College
 Cdi College
 Cdi Stw Management Institute
 Cebu Institute Of Technology
-Cecil c. Humphreys School
+Cecil C. Humphreys School
 Cecil College
 Cecils College
 Cedar Crest College
@@ -1735,7 +1735,7 @@ Central Connecticutnancy Kerrigan State University
 Central Conneticut State University
 Central Conservatory
 Central Conservatory Of Music
-Central Eastern conn. University
+Central Eastern Conn. University
 Central Electrochemical Research Institue
 Central European University
 Central Florida College
@@ -1834,7 +1834,7 @@ Chaminade College
 Chaminade University
 Chaminade University Of Honolulu
 Champion Beauty College
-Champlain C E G E P st. Lambert
+Champlain C E G E P St. Lambert
 Champlain College
 Champlain James Pickens Jr College
 Champlain Regional College
@@ -1860,8 +1860,8 @@ Charles A Catholic Theological Union
 Charles County Community College
 Charles Frank Covenant College
 Charles Of Italy Beauty College
-Charles r. Drew University Of Medicine & Science
-Charles r. Drew University Of Medicine And
+Charles R. Drew University Of Medicine & Science
+Charles R. Drew University Of Medicine And
 Charles Stewart Mott Community College
 Charles Sturt University
 Charles University
@@ -1948,7 +1948,7 @@ Chinese Culture University In Taipei
 Chinese University
 Chinook College
 Chipola College
-Chipola jr. College
+Chipola Jr. College
 Chipola Junior College
 Chippewa Valley Technical College
 Chisholm Trail Technology Center
@@ -2017,7 +2017,7 @@ Cincinnati Conservatory Of Music
 Cincinnati State College
 Cincinnati State Technical And Community College
 Cincinnati State Technical Community College
-Cincinnati tech. College
+Cincinnati Tech. College
 Cincinnati Technical College
 Cindy Wentworth Institute Of O Callaghan Technology
 Cinton Community College
@@ -2055,7 +2055,7 @@ City Univ Of New York Bernard Baruch College
 City Univ Of New York Bronx Community College
 City Univ Of New York Brooklyn College
 City Univ Of New York City College
-City Univ Of New York Herbert h. Lehman College
+City Univ Of New York Herbert H. Lehman College
 City Univ Of New York Hostos Comm College
 City Univ Of New York Hunter College
 City Univ Of New York Kingsborough Comm College
@@ -2275,7 +2275,7 @@ College Of Marin
 College Of Max New Jersey
 College Of Mount Saint Joseph
 College Of Mount Saint Vincent
-College Of Mount st. Vincent
+College Of Mount St. Vincent
 College Of New Jersey
 College Of New Rochelle
 College Of North West London
@@ -2295,9 +2295,9 @@ College Of Security Technology And Management
 College Of Southern Idaho
 College Of Southern Maryland
 College Of Southern Nevada
-College Of st. Catherine
-College Of st. Scholastica
-College Of st. Scholastica
+College Of St. Catherine
+College Of St. Scholastica
+College Of St. Scholastica
 College Of Staten Island
 College Of The Ablemarle
 College Of The Albemarle
@@ -2504,7 +2504,7 @@ Concordia University Oregon
 Concordia University Portland
 Concordia University Saint Paul
 Concordia University Seward
-Concordia University st. Paul
+Concordia University St. Paul
 Concordia University Wisconsin
 Condie Junior College
 Conestoga College
@@ -2522,7 +2522,7 @@ Connors State College
 Connors State Community College
 Conrad Grebel College
 Conrad Grebel University College
-Conrad n. Hilton College
+Conrad N. Hilton College
 Conservatoire De Musique De Montreal
 Conservatoire National
 Conservatory Of Music Of Puerto Rico
@@ -2690,7 +2690,7 @@ Cuny
 "cuny, College Of Staten Island"
 "cuny, Graduate Center"
 "cuny, Graduate School And University Center"
-"cuny, Herbert h. Lehman College"
+"cuny, Herbert H. Lehman College"
 "cuny, Honors College"
 "cuny, Hostos Community College"
 "cuny, Hunter College"
@@ -2731,7 +2731,7 @@ Czech Technical University
 Czech Technical University In Prague
 D Q University
 D Youville College
-d. c. Teachers College
+D. C. Teachers College
 Da Yeh Institute Of Technology
 Dabney Lancaster Community College
 Dabney's Lancaster Community College
@@ -2749,7 +2749,7 @@ Dakota State University
 Dakota Wesleyan University
 Dalhousie Law School
 Dalhousie University
-Dalhousie University st. Mary's University
+Dalhousie University St. Mary's University
 Dalian University
 Dalian University Of Foreign Languages
 Dalian University Of Technology
@@ -2794,15 +2794,15 @@ Dav College
 Davenport College
 Davenport University
 David Game College
-David h. Myers College
+David H. Myers College
 David Hudson County Community College Steinberg
 David Husson College
 David Lipscomb College
 David Lipscomb University
-David n. Myers College
-David n. Myers College
-David n. Myers University
-David n. Myers University
+David N. Myers College
+David N. Myers College
+David N. Myers University
+David N. Myers University
 Davidson College
 Davidson County Community College
 Daviduniversity Of Illinois Oxley At Urbana Champaign
@@ -3033,7 +3033,7 @@ Dowling College
 Downing College
 Downtown Business High School
 Dr Scholl College
-dr. Ambedkar Government Law College
+Dr. Ambedkar Government Law College
 Drake College
 Drake Law School
 Drake University
@@ -3252,7 +3252,7 @@ Edison Technical College
 Edith Cowan University
 Edmonds Community College
 Edmonds Community Collegetulane University
-Edmund a. Walsh School
+Edmund A. Walsh School
 Edna Manley College
 Edp College Of Puerto Rico Inc
 Eduardo Noriega College
@@ -3458,8 +3458,8 @@ Exeter College
 Exeter University
 Exponent Telegram Philander Smith College
 Express 3500 Lawrence Technological University
-f.w. Olin Graduate School Of Business
-f.w. Olin School
+F.w. Olin Graduate School Of Business
+F.w. Olin School
 Fabolous Mountain Community College
 Fachhochschule
 Fachhochschule Augsburg
@@ -3699,9 +3699,9 @@ Franklin Pierce Law Center
 Franklin Pierce Law Center In Concord
 Franklin Pierce Law School
 Franklin Pierce University
-Franklin w. Olin College
+Franklin W. Olin College
 Frazer Northland International University
-Fred m. Millersville University Of Pennsylvania
+Fred M. Millersville University Of Pennsylvania
 Frederick Community College
 Fredonia State University
 Fredrick And Charles Beauty College
@@ -3734,10 +3734,10 @@ Frostburg State College
 Frostburg State University
 Frostburg University
 Fsu College
-ft. Hays State University
-ft. Lewis College
-ft. Lewis College
-ft. Valley State University
+Ft. Hays State University
+Ft. Lewis College
+Ft. Lewis College
+Ft. Valley State University
 Fu Jen Catholic University
 Fudan
 Fudan University
@@ -3824,8 +3824,8 @@ George Brown College
 "george Brown College, The City College"
 George C Wallace Community College
 George C Wallace State Community College Selma
-George c. Wallace Community College
-George c. Wallace State Community College Selma
+George C. Wallace Community College
+George C. Wallace State Community College Selma
 George Fox College
 George Fox University
 George Fox University In Newberg
@@ -3842,7 +3842,7 @@ George Mason University School Of Law
 George Mitchell Georgia State University
 George Peabody College
 George Peabody College Of Vanderbilt University
-George r. Smith College
+George R. Smith College
 George Washington Law School
 George Washington School
 George Washington University
@@ -4111,9 +4111,9 @@ Gwinnett Technical Community College
 Gwu
 Gwynedd Mercy College
 H Councill Trenholm State Technical College
-h. Lavity Stoutt Community College
-h. Sophie Newcomb Memorial College
-h. Wayne Huizenga School
+H. Lavity Stoutt Community College
+H. Sophie Newcomb Memorial College
+H. Wayne Huizenga School
 Haagse Hogeschool
 Haas School
 Haas School Of Business
@@ -4253,14 +4253,14 @@ Harvard University Graduate School
 Harvard University Graduate School Of Business Administration
 Harvard University Graduate School Of Design
 Harvard University Harvard University
-Harvard University John f. Kennedy School
+Harvard University John F. Kennedy School
 Harvard University Kennedy School Of Government
 Harvard University Law School
 Harvard University Medical School
 Harvard University Other Items
 Harvard University School
 Harvard University See
-Harvard University's John f. Kennedy School
+Harvard University's John F. Kennedy School
 Harvard University's Kennedy School
 Harvard's Kennedy School
 Harvarduniversity
@@ -4358,10 +4358,10 @@ Henley College
 Henley Management College
 Hennepin Community College
 Hennepin Technical College
-Henry b. Tippie College
+Henry B. Tippie College
 Henry Ford Community College
 Herald Ashland University
-Herbert h. Lehman College
+Herbert H. Lehman College
 Heriot Watt College
 Heriot Watt University
 Heritage Bible College
@@ -4522,7 +4522,7 @@ Huazhong Normal University
 Huazhong University
 Huazhong University Of Science
 Hubei College
-Hubert h. Humphrey Institute
+Hubert H. Humphrey Institute
 Hubert Oakland City University
 Huc Jir
 Huddersfield Technical College
@@ -4790,7 +4790,7 @@ International University College
 International University Illinois College
 International University Of Japan
 Interstate Business College
-Interstate Institute Of Technology st. Gallen
+Interstate Institute Of Technology St. Gallen
 Inti International University College
 Inver Hills Community College
 Inverness College
@@ -4919,17 +4919,17 @@ J L Kellogg Graduate School Of Management
 J L Kellogg School Of Management
 J Sargeant Reynolds Community College
 J Seargent Reynolds Community College
-j. f. Drake State Technical College
-j. Mack Robinson College
-j. Reuben Clark Law School
-j. Reuben Clark School
-j. Sargeant Reynolds Community College
-j.f. Drake State Tech College
-j.f. Drake State Technical College
-j.f. Drake State Technical College
-j.f. Ingram State Technical College
-j.f. Ingram State Technical College
-j.w. Goethe University
+J. F. Drake State Technical College
+J. Mack Robinson College
+J. Reuben Clark Law School
+J. Reuben Clark School
+J. Sargeant Reynolds Community College
+J.f. Drake State Tech College
+J.f. Drake State Technical College
+J.f. Drake State Technical College
+J.f. Ingram State Technical College
+J.f. Ingram State Technical College
+J.w. Goethe University
 Jack Blue River Community College
 "jack La Carl Albert State, Ruecollege"
 Jackson College
@@ -4942,7 +4942,7 @@ Jacksonville College
 Jacksonville Community College
 Jacksonville State
 Jacksonville University
-Jacob d. Fuchsberg Law Center
+Jacob D. Fuchsberg Law Center
 Jadavpur University
 Jagellonian University
 Jahangirnagar University
@@ -4950,17 +4950,17 @@ Jai Hind College
 Jaims
 Jamalbradley University
 James A Rhodes State College
-James a. Garfield Senior High School
-James a. Rhodes State College
+James A. Garfield Senior High School
+James A. Rhodes State College
 James Asbury Callis College
 James College Of Santa Fequinsigamond
 James Cook University
 James Cook University Of North Queensland
 James Cook University Singapore
 James Craig Florida State University
-James e. Rogers College
+James E. Rogers College
 James H Faulkner State Community College
-James h. Faulkner State Community College
+James H. Faulkner State Community College
 James Madison College
 James Madison College At Michigan State University
 James Madison University
@@ -5039,9 +5039,9 @@ Johannes Gutenberg University
 Johannes Kepler University Of Linz
 John A Gupton College
 John A Logan College
-John a. Gupton College
-John a. Logan College
-John a. Logan Community College
+John A. Gupton College
+John A. Logan College
+John A. Logan Community College
 John Abbott College
 John Brown University In Siloam Springs
 John C Smith University
@@ -5145,12 +5145,12 @@ Judson College In Elgin
 Judson University
 Juhasz Gyula Teachers College
 Juilliard School
-Julian r. Elmira College
+Julian R. Elmira College
 Julliard
 Julliard School
 Juniata College
 Junior College
-k. Manhattan Wheaton Christian College
+K. Manhattan Wheaton Christian College
 Kadir Has University
 Kagoshima Immaculate Heart University
 Kagoshima University
@@ -5247,7 +5247,7 @@ Keio University Of Science And Technology
 Keisen Jogaku En College
 Keiser Career College
 Keiser Career College Greenacres
-Keiser Career College st. Petersburg
+Keiser Career College St. Petersburg
 Keiser College
 Keiser University
 Keiser University Grad School
@@ -5460,8 +5460,8 @@ L E Fletcher Technical Community College
 L E Fletcher Technical Community College
 L I F E Bible College
 L I U
-l.a. City College
-l.a. Harbor College
+L.a. City College
+L.a. Harbor College
 La Cite Collegiale
 La College
 La College International
@@ -5672,7 +5672,7 @@ Leningrad State University
 Lenoir Community College
 Lenoir Rhyne College
 Lenoir Rhyne University
-Leonard n. Stern School
+Leonard N. Stern School
 Leshan Teachers College
 Lesley College
 Lesley University
@@ -5826,12 +5826,12 @@ Lonestar College
 Long Beach City College
 Long Beach State College
 Long Beach State University
-Long Island Univ c.w. Post College
+Long Island Univ C.w. Post College
 Long Island University
 Long Island University Brentwood
 Long Island University Brooklyn
 Long Island University Brooklyn Campus
-Long Island University c.w. Post Campus
+Long Island University C.w. Post Campus
 Long Island University Cw Post
 Long Island University Rockland Graduate Campus
 Long Island University Southampton
@@ -5992,7 +5992,7 @@ Lund Institute Of Technology
 Lund University
 Lund University Law School
 Lurleen B Wallace Community College
-Lurleen b. Wallace Community College
+Lurleen B. Wallace Community College
 Luther College
 Luther Rice Seminary
 Luther Rice University
@@ -6015,7 +6015,7 @@ Lyme Academy College Of Fine Arts
 Lyme Academy College Of Northwestern State University Of Louisiana Fine Arts
 Lynchburg College
 Lynchburg Matt Lucascollege
-Lyndon b. Johnson School
+Lyndon B. Johnson School
 Lyndon State College
 Lynn University
 Lynn University In Boca Raton
@@ -6133,7 +6133,7 @@ Mansfield College
 Mansfield State University
 Mansfield University
 Mansfield University Of Pennsylvania
-Manuel l. Quezon University
+Manuel L. Quezon University
 Manuel Quezon University
 Maple Springs Baptist Bible College And Seminary
 Maple Woods Community College
@@ -6233,7 +6233,7 @@ Marymount University In Arlington
 Maryville College
 Maryville College In Maryville
 Maryville University
-Maryville University Of st. Louis
+Maryville University Of St. Louis
 Marywood College
 Marywood University
 Masaryk University
@@ -6279,7 +6279,7 @@ Mauceri Campbellsville University
 Maui College
 Maui Community College
 Max Gillies Herkimer County Community College
-Max m. Fisher College
+Max M. Fisher College
 Max Planck Institute
 Max Simmons College
 Maxine Goodman Levin College Of Urban Affairs
@@ -6396,7 +6396,7 @@ Mercer University Atlanta
 Mercer University Law School
 Mercer University School
 Mercer University School Of Law
-Mercer University Walter f. George School
+Mercer University Walter F. George School
 Mercu Buana University
 Mercy College
 Mercy College Main Campus
@@ -6434,7 +6434,7 @@ Methodist College In Fayetteville
 Methodist Theological School In Ohio
 Methodist Theological School Of Ohio
 Methodist University
-methodist. F1 Htm A Br A Href College
+Methodist. F1 Htm A Br A Href College
 Metro Business College
 Metro State College Of Denver
 Metro Tech Vocational Technical Center
@@ -6514,7 +6514,7 @@ Mid Continent University
 Mid Kent College
 Mid Michigan Community College
 Mid Plains Community College
-Mid Plains tech. Community College
+Mid Plains Tech. Community College
 Mid Richard Attenborough Michigan Community College
 Mid South Christian College
 Mid South Community College
@@ -6842,14 +6842,14 @@ Mount San Jacinto Community College
 Mount Senario College
 Mount Sierra College
 Mount Sinai School Of Medicine
-Mount st. Joseph College
-Mount st. Mary College
-Mount st. Mary College
-Mount st. Marys College
-Mount st. Mary's College
-Mount st. Mary's College
-Mount st. Mary's College
-Mount st. Mary's University
+Mount St. Joseph College
+Mount St. Mary College
+Mount St. Mary College
+Mount St. Marys College
+Mount St. Mary's College
+Mount St. Mary's College
+Mount St. Mary's College
+Mount St. Mary's University
 Mount Union College
 Mount Vernon College
 Mount Vernon Nazarene College
@@ -6878,17 +6878,17 @@ Mt Saint Marys College
 Mt San Antonio College
 Mt San Jacinto College
 Mt Sierra College
-Mt st. Mary's College
-mt. Hood Community College
-mt. Saint Antonio College
-mt. San Antonio College
-mt. San Jacinto College
-mt. Sierra College
-mt. st. Claire College
-mt. st. Joseph College
-mt. st. Mary's College
-mt. Vernon Nazarene College
-mt. Wachusett Community College
+Mt St. Mary's College
+Mt. Hood Community College
+Mt. Saint Antonio College
+Mt. San Antonio College
+Mt. San Jacinto College
+Mt. Sierra College
+Mt. St. Claire College
+Mt. St. Joseph College
+Mt. St. Mary's College
+Mt. Vernon Nazarene College
+Mt. Wachusett Community College
 Mti College
 Mti College Of Business And Technology
 Mtsu
@@ -7261,7 +7261,7 @@ New York University College
 New York University Film School
 New York University Graduate School
 New York University Law School
-New York University Leonard n. Stern School
+New York University Leonard N. Stern School
 New York University Other Items
 New York University 's Gallatin School
 New York University 's Steinhardt School
@@ -7338,14 +7338,14 @@ Norco College
 Norfolk State University
 Norhan College
 Norm Olsen Silla University
-Norman a. Wiggins School
+Norman A. Wiggins School
 Norman Adrian Wiggins School Of Law
 Norman Paterson School Of International Affairs
 Norman Rossington Sierra College
 Normandale Community College
 Norquest College
 North Adams Elmira College
-North Adams st. College
+North Adams St. College
 North Adrians Beauty College
 North American Baptist College
 North American Baptist Seminary
@@ -7479,7 +7479,7 @@ Northeast Missouri State University
 Northeast Normal University
 Northeast State Comm College
 Northeast State Community College
-Northeast State tech. Community College
+Northeast State Tech. Community College
 Northeast State Technical Community College
 Northeast Technology Center Afton
 Northeast Technology Center Kansas
@@ -7491,7 +7491,7 @@ Northeast Wisconsin Technical College
 Northeastern Bible College
 Northeastern Hospital School Of Nursing
 Northeastern Illinois University
-Northeastern jr. College
+Northeastern Jr. College
 Northeastern Junior College
 Northeastern Louisiana University
 Northeastern Oklahoma A & M College
@@ -7642,7 +7642,7 @@ Northwestern University Kellogg School
 Northwestern University Kellogg School Of Management
 Northwestern University Law School
 Northwestern University Medill School Of Journalism
-Northwestern University 's j.l. Kellogg Graduate School
+Northwestern University 's J.l. Kellogg Graduate School
 Northwestern University 's Kellogg Graduate School
 Northwestern University 's Kellogg School
 Northwestern University 's Medill School
@@ -8006,7 +8006,7 @@ Ozark Technical Community College
 Ozarka College
 Ozarka Technical College
 Ozarks Technical Community College
-p. John a. Ream Logan College
+P. John A. Ream Logan College
 Pace College
 Pace Institute
 Pace Law School
@@ -8097,7 +8097,7 @@ Parkerwilliam Carey College
 Parkland College
 Parks College
 Parks College Of Saint Louis University
-Parks College Of st. Louis University
+Parks College Of St. Louis University
 Parle College
 Parsons College
 Parsons College In Fairfield
@@ -8120,11 +8120,11 @@ Patton Livingstone College
 Paul D Bloomsburg University
 Paul D Camp Comm College
 Paul D Camp Community College
-Paul d. Camp Comm College Hobbs Campus
-Paul d. Camp Community College
-Paul h. Nitze School
+Paul D. Camp Comm College Hobbs Campus
+Paul D. Camp Community College
+Paul H. Nitze School
 Paul Hoerbiger Southeastern Community College
-Paul m. Hebert Law Center
+Paul M. Hebert Law Center
 Paul Merage School Of Business
 Paul Of Business
 Paul Quinn College
@@ -8151,7 +8151,7 @@ Peirce College
 Peking University
 Peking University And Tsinghua University
 Peking University Law School
-Pellissippi st. Technical Community College
+Pellissippi St. Technical Community College
 Pellissippi State Community College
 Pellissippi State Technical Community College
 Pembroke College
@@ -8577,8 +8577,8 @@ Rasmussen College Bismarck
 Rasmussen College Brooklyn Park
 Rasmussen College Eagan
 Rasmussen College Fargo
-Rasmussen College st. Cloud
-"rasmussen College, st. Cloud"
+Rasmussen College St. Cloud
+"rasmussen College, St. Cloud"
 Ravensbourne College
 Ravensbourne College Of Design And Communication
 Ray Liottajunior College
@@ -8681,8 +8681,8 @@ Richard Daley College
 Richard Huish College
 Richard Ivey School Of Business
 Richard J Daley College
-Richard j. Daley College
-Richard j. Daley Community College
+Richard J. Daley College
+Richard J. Daley Community College
 Richard Language College
 Richard Stockton College
 Richard Stockton College Of New Jersey
@@ -8741,11 +8741,11 @@ Roanoke Chowan Community College
 Roanoke College
 Roanoke Collegecamp
 Robert College
-Robert d. Clark Honors College
-Robert e. Cook Honors College
-Robert f. Wagner Graduate School
+Robert D. Clark Honors College
+Robert E. Cook Honors College
+Robert F. Wagner Graduate School
 Robert Gordon University
-Robert j. Drake Steinmiller Jr University
+Robert J. Drake Steinmiller Jr University
 Robert Morris College
 Robert Morris College Orland Park
 Robert Morris University
@@ -8906,9 +8906,9 @@ Ryerson University
 Ryokan College
 Ryukoku University
 S Dert Rn University College
-S j. Quinney College Of Law
+S J. Quinney College Of Law
 S O Paulo State University
-S U n. Y Maritime College
+S U N. Y Maritime College
 Saarland University
 Sabanci University
 Sacramento City College
@@ -9071,7 +9071,7 @@ Salisbury University
 Salish Kootenai College
 Salish Kootenai Tribal College
 Salk Institute For Biological Studies
-Salmon p. Chase College
+Salmon P. Chase College
 Salmon Pink Bird Eating Johns Hopkins University
 Salon Success Academy
 Salt Lake Community College
@@ -9288,7 +9288,7 @@ Seminary
 Seminary College
 Seminary Of The Immaculate Conception
 Seminole Community College
-Seminole jr. College
+Seminole Jr. College
 Seminole Junior College
 Seminole State College
 Semnan University
@@ -9791,7 +9791,7 @@ Spartan College Of Aeronautics And Technology
 Spartan School Of Aeronautics
 Spartanburg Community College
 Spartanburg Methodist College
-Spartanburg tech. College
+Spartanburg Tech. College
 Spartanburg Technical College
 Spartanburg Technical Community College
 Spellman College
@@ -9848,7 +9848,7 @@ St Cross College
 St Edmund's College
 St Edwards University
 St Edward's University
-St Edwards University st. Elizabeth College
+St Edwards University St. Elizabeth College
 St Francis College
 St Francis Xavier University
 St Gregory's University
@@ -9897,7 +9897,7 @@ St Petersburg College
 St Petersburg Junior College
 St Philips College
 St Philip's College
-St Pius X Seminary st. Rose College
+St Pius X Seminary St. Rose College
 St Stephens College
 St Thomas Aquinas College
 St Thomas More College
@@ -9906,200 +9906,200 @@ St Vincent College
 St Vincent's College
 St Xavier University
 St Xavier's College
-st. Gerard High School
-st. Ambrose College
-st. Ambrose University
-st. Andrews College
-st. Andrews Presbyterian College
-st. Andrews Presbyterian College
-st. Andrew's Presbyterian College
-st. Andrews University
-st. Andrews University
-st. Anselm College
-st. Anselm College
-st. Anthony College
-st. Antony College
-st. Augustine College
-st. Augustine College
-st. Augustine Community College
-st. Augustine's College
-st. Basil College
-st. Benedict College
-st. Benedict's College
-st. Bernard College
-st. Bernard's College
-st. Bonaventure University
-st. Bonaventure University
-st. Catharine College
-st. Charles Borromeo Seminary
-st. Charles Community College
-st. Charles Community College
-st. Charles County Community College
-st. Clair College
-st. Clair County Community College
-st. Clair County Community College
-st. Cloud Community And Technical College
-st. Cloud State College
-st. Cloud State University
-st. Cloud Technical And Community College
-st. Cloud Technical College
-st. Cloud University
-st. Cloud University
-st. Cyril And Methodius University
-st. Edmund's College
-st. Eduard's University
-st. Edward University
-st. Edwards University
-st. Edwards University
-st. Edward's University
-st. Edward's University
-st. Elizabeth College Of Nursing
-st. Francis College
-st. Francis University
-st. Francis University
-st. Francis Xavier University
-st. Francis Xavier University
-st. Gallen University
-st. George's University
-st. George's University
-st. Gregory University
-st. Gregory's University
-st. Gregory's University
-st. Jerome's University
-st. John College
-st. John Fisher College
-st. John Fisher College
-st. John International University
-st. John 's College
-st. John University
-st. John University School
-st. John Vianney College Seminary
-st. Johns College
-st. John's College
-st. John's College
-st. Johns River Community College
-st. Johns River Community College
-st. John's River Community College
-st. Johns River State College
-st. Johns University
-st. Johns University
-st. John's University
-st. John's University
-st. John's University School
-st. John's University School Of Law
-st. Joseph College
-st. Joseph College
-st. Joseph Police Departmentcollege Of Morris
-st. Joseph University
-st. Josephs College
-st. Joseph's College
-st. Joseph's College
-st. Josephs University
-st. Josephs University
-st. Joseph's University
-st. Lawrence College
-st. Lawrence University
-st. Lawrence University
-st. Leo College
-st. Leo University
-st. Leo University
-st. Louis Christian College
-st. Louis Christian College
-st. Louis College
-st. Louis College Of Pharmacy
-st. Louis Community College
-st. Louis Medical College
-st. Louis University
-st. Louis University
-st. Louis University High School
-st. Louis University Law School
-st. Louis University School
-st. Luke's College
-st. Mark's College
-st. Martin College
-st. Martins College
-st. Martin's College
-st. Martin's College
-st. Martins University
-st. Mary College
-st. Mary College
-st. Mary Of The Woods College
-st. Mary University
-st. Mary University School
-st. Mary's Academy And College
-st. Mary's Canossian College
-st. Mary's College
-st. Mary's College
-st. Mary's College Of Ave Maria University
-st. Mary's College Of California
-st. Mary's College Of Maryland
-st. Mary's Seminary & University
-st. Mary's Seminary And University
-st. Marys University
-st. Mary's University
-st. Mary's University
-st. Mary's University School
-st. Mary's University School Of Law
-st. Meinrad College
-st. Michael College
-st. Michael 's College
-st. Michaels College
-st. Michael's College
-st. Michael's College
-st. Norbert College
-st. Norbert College
-st. Olaf College
-st. Olaf College
-st. Patrick's College
-st. Paul College
-st. Paul College
-st. Paul School
-st. Paul Technical College
-st. Paul University
-st. Paul's College
-st. Paul's United College
-st. Peter College
-st. Peters College
-st. Peter's College
-st. Peter's College
-st. Petersburg College
-st. Petersburg College
-st. Petersburg Junior College
-st. Petersburg Junior College
-st. Petersburg State University
-st. Petersburg State University
-st. Petersburg Theological Seminary
-st. Petersburg University
-st. Philips College
-st. Philip's College
-st. Scholastica
-st. Scholastica's College
-st. Scholastica's College
-st. Stephen College
-st. Stephens College
-st. Stephen's College
-st. Stephen's College
-st. Stephen's University
-st. Thomas Aquinas College
-st. Thomas Aquinas College
-st. Thomas Aquinas University
-st. Thomas College
-st. Thomas Moore College
-st. Thomas More College
-st. Thomas University
-st. Thomas University
-st. Thomas University Law School
-st. Thomas University School
-st. Thomas University School Of Law
-st. Viator College
-st. Vincent College
-st. Vincent College
-st. Vincent's College
-st. Xavier College
-st. Xavier University
-st. Xavier University
-st. Xavier's College
-st. Xavier's College
+St. Gerard High School
+St. Ambrose College
+St. Ambrose University
+St. Andrews College
+St. Andrews Presbyterian College
+St. Andrews Presbyterian College
+St. Andrew's Presbyterian College
+St. Andrews University
+St. Andrews University
+St. Anselm College
+St. Anselm College
+St. Anthony College
+St. Antony College
+St. Augustine College
+St. Augustine College
+St. Augustine Community College
+St. Augustine's College
+St. Basil College
+St. Benedict College
+St. Benedict's College
+St. Bernard College
+St. Bernard's College
+St. Bonaventure University
+St. Bonaventure University
+St. Catharine College
+St. Charles Borromeo Seminary
+St. Charles Community College
+St. Charles Community College
+St. Charles County Community College
+St. Clair College
+St. Clair County Community College
+St. Clair County Community College
+St. Cloud Community And Technical College
+St. Cloud State College
+St. Cloud State University
+St. Cloud Technical And Community College
+St. Cloud Technical College
+St. Cloud University
+St. Cloud University
+St. Cyril And Methodius University
+St. Edmund's College
+St. Eduard's University
+St. Edward University
+St. Edwards University
+St. Edwards University
+St. Edward's University
+St. Edward's University
+St. Elizabeth College Of Nursing
+St. Francis College
+St. Francis University
+St. Francis University
+St. Francis Xavier University
+St. Francis Xavier University
+St. Gallen University
+St. George's University
+St. George's University
+St. Gregory University
+St. Gregory's University
+St. Gregory's University
+St. Jerome's University
+St. John College
+St. John Fisher College
+St. John Fisher College
+St. John International University
+St. John 's College
+St. John University
+St. John University School
+St. John Vianney College Seminary
+St. Johns College
+St. John's College
+St. John's College
+St. Johns River Community College
+St. Johns River Community College
+St. John's River Community College
+St. Johns River State College
+St. Johns University
+St. Johns University
+St. John's University
+St. John's University
+St. John's University School
+St. John's University School Of Law
+St. Joseph College
+St. Joseph College
+St. Joseph Police Departmentcollege Of Morris
+St. Joseph University
+St. Josephs College
+St. Joseph's College
+St. Joseph's College
+St. Josephs University
+St. Josephs University
+St. Joseph's University
+St. Lawrence College
+St. Lawrence University
+St. Lawrence University
+St. Leo College
+St. Leo University
+St. Leo University
+St. Louis Christian College
+St. Louis Christian College
+St. Louis College
+St. Louis College Of Pharmacy
+St. Louis Community College
+St. Louis Medical College
+St. Louis University
+St. Louis University
+St. Louis University High School
+St. Louis University Law School
+St. Louis University School
+St. Luke's College
+St. Mark's College
+St. Martin College
+St. Martins College
+St. Martin's College
+St. Martin's College
+St. Martins University
+St. Mary College
+St. Mary College
+St. Mary Of The Woods College
+St. Mary University
+St. Mary University School
+St. Mary's Academy And College
+St. Mary's Canossian College
+St. Mary's College
+St. Mary's College
+St. Mary's College Of Ave Maria University
+St. Mary's College Of California
+St. Mary's College Of Maryland
+St. Mary's Seminary & University
+St. Mary's Seminary And University
+St. Marys University
+St. Mary's University
+St. Mary's University
+St. Mary's University School
+St. Mary's University School Of Law
+St. Meinrad College
+St. Michael College
+St. Michael 's College
+St. Michaels College
+St. Michael's College
+St. Michael's College
+St. Norbert College
+St. Norbert College
+St. Olaf College
+St. Olaf College
+St. Patrick's College
+St. Paul College
+St. Paul College
+St. Paul School
+St. Paul Technical College
+St. Paul University
+St. Paul's College
+St. Paul's United College
+St. Peter College
+St. Peters College
+St. Peter's College
+St. Peter's College
+St. Petersburg College
+St. Petersburg College
+St. Petersburg Junior College
+St. Petersburg Junior College
+St. Petersburg State University
+St. Petersburg State University
+St. Petersburg Theological Seminary
+St. Petersburg University
+St. Philips College
+St. Philip's College
+St. Scholastica
+St. Scholastica's College
+St. Scholastica's College
+St. Stephen College
+St. Stephens College
+St. Stephen's College
+St. Stephen's College
+St. Stephen's University
+St. Thomas Aquinas College
+St. Thomas Aquinas College
+St. Thomas Aquinas University
+St. Thomas College
+St. Thomas Moore College
+St. Thomas More College
+St. Thomas University
+St. Thomas University
+St. Thomas University Law School
+St. Thomas University School
+St. Thomas University School Of Law
+St. Viator College
+St. Vincent College
+St. Vincent College
+St. Vincent's College
+St. Xavier College
+St. Xavier University
+St. Xavier University
+St. Xavier's College
+St. Xavier's College
 Staffordshire University
 Stamford International College
 Stamford International University
@@ -10189,10 +10189,10 @@ Stautzenberger College
 Steinbach Bible College
 Steinhardt School
 Stella Maris College
-Stephen f. Austin State University
-Stephen f. Austin State University
-Stephen f. Austin University
-Stephen m. Ross School
+Stephen F. Austin State University
+Stephen F. Austin State University
+Stephen F. Austin University
+Stephen M. Ross School
 Stephens College
 Sterling College
 Stern College
@@ -10397,10 +10397,10 @@ Syracuse University 's Newhouse School
 Syracuse University School
 Syracuse University School Of Architecture
 Syracuse University's College
-Sz Chenyi Istv n. University
-t. c. Williams School
-t.a. Lawson State Community College
-t.c. Williams School Of Law
+Sz Chenyi Istv N. University
+T. C. Williams School
+T.a. Lawson State Community College
+T.c. Williams School Of Law
 Tabor College
 Tabor College In Hillsboro
 Tacoma Community College
@@ -10515,7 +10515,7 @@ Temple Law School
 Temple University
 Temple University Ambler Campus
 Temple University Beasley School Of Law
-Temple University James e. Beasley School
+Temple University James E. Beasley School
 Temple University Law School
 Temple University 's Beasley School
 Temple University 's Tyler School
@@ -10809,8 +10809,8 @@ Theuniversity
 Thiel College
 Thiel College In Greenville
 Thomas A Edison State College
-Thomas a. Edison College
-Thomas a. Edison State College
+Thomas A. Edison College
+Thomas A. Edison State College
 Thomas Acquinas College
 Thomas Aquinas College
 Thomas College
@@ -10820,8 +10820,8 @@ Thomas Goode Jones School Of Law
 Thomas Jefferson College
 Thomas Jefferson School Of Law
 Thomas Jefferson University
-Thomas m. Cooley Law School
-Thomas m. Cooley School
+Thomas M. Cooley Law School
+Thomas M. Cooley School
 Thomas Nelson Community College
 Thomas Riley High School
 Thomas Rotherham College
@@ -10890,7 +10890,7 @@ Toronto School Of Theology
 Torquay Community College
 Tougaloo College
 Touro College
-Touro College Jacob d. Fuchsberg Law Center
+Touro College Jacob D. Fuchsberg Law Center
 Touro College Los Angeles
 Touro College School
 Touro Law School
@@ -11039,14 +11039,14 @@ U 's Military Academy
 U T A Mesivta Of Kiryas Joel
 U T Dallas
 U W
-u. Mass
-u.c. Berkeley
-u.c. Berkeley School
-u.c. Berkley
-u.c. Hastings
-u.c. Hastings College
-u.c. Riverside
-u.c. San Diego
+U. Mass
+U.c. Berkeley
+U.c. Berkeley School
+U.c. Berkley
+U.c. Hastings
+U.c. Hastings College
+U.c. Riverside
+U.c. San Diego
 Ua College
 Ua Poulaguardia Community College
 Uaf
@@ -11092,7 +11092,7 @@ Uga Southern Polytechnic State University
 Uga School
 Uh Community College
 Ui College
-Ui Henry b. Tippie College
+Ui Henry B. Tippie College
 Ui School
 Uintah Basin Applied Technology College
 Uiuc
@@ -11190,7 +11190,7 @@ Univ
 Univ Of Maryland
 Univ Of Md Univ College
 Univ Of Puerto Rico Ponce University College
-univ. Of Maryland univ. College
+Univ. Of Maryland Univ. College
 Univer Sity
 Univerisity Of Jyv Skyl
 Univeristy Of Florida
@@ -11696,7 +11696,7 @@ University Of Edinburgh
 University Of Edinburgh Business School
 University Of El Paso
 University Of Electro Communications
-University Of Erlangen n. Rnberg
+University Of Erlangen N. Rnberg
 University Of Erlangen Nrnberg
 University Of Erlangen Nuernberg
 University Of Erlangen Nuremberg
@@ -12075,8 +12075,8 @@ University Of Missouri Rolla
 University Of Missouri Saint Louis
 University Of Missouri School Of Law
 "university Of Missouri School Of Law, Columbia"
-University Of Missouri st. Louis
-University Of Missouri st. Louis
+University Of Missouri St. Louis
+University Of Missouri St. Louis
 University Of Missouri System
 "university Of Missouri, Columbia"
 "university Of Missouri, Kansas City"
@@ -12105,8 +12105,8 @@ University Of Muenster
 University Of Mumbai
 University Of Munich
 University Of Mysore
-University Of n. British Columbia
-University Of n. C Wilmington
+University Of N. British Columbia
+University Of N. C Wilmington
 University Of Namibia
 University Of Natal
 "university Of Natal, Durban"
@@ -12247,8 +12247,8 @@ University Of Ottawa Cn
 University Of Ottawa Faculty Of Law
 University Of Oulu
 University Of Oxford
-University Of Oxford st. Edmund Hall
-University Of Oxford st. Peter's Col
+University Of Oxford St. Edmund Hall
+University Of Oxford St. Peter's Col
 University Of Pacific
 University Of Paderborn
 University Of Padova
@@ -12366,8 +12366,8 @@ University Of Phoenix Southern Colorado
 University Of Phoenix Southern Colorado Campus
 University Of Phoenix Spokane Campus
 University Of Phoenix Springfield Campus
-University Of Phoenix st. Louis
-University Of Phoenix st. Louis Campus
+University Of Phoenix St. Louis
+University Of Phoenix St. Louis Campus
 University Of Phoenix Tulsa Campus
 University Of Phoenix Utah Campus
 University Of Phoenix Vancover Campus
@@ -12398,13 +12398,13 @@ University Of Phoenix Wichita Campus
 "university Of Phoenix, Louisville"
 "university Of Phoenix, Madison"
 "university Of Phoenix, Monroeville"
-"university Of Phoenix, n., Virginia"
+"university Of Phoenix, N., Virginia"
 "university Of Phoenix, Nw Indiana"
 "university Of Phoenix, Ogden"
 "university Of Phoenix, San Antonio"
 "university Of Phoenix, Savannah"
 "university Of Phoenix, Springfield"
-"university Of Phoenix, st., Louis"
+"university Of Phoenix, St., Louis"
 "university Of Phoenix, Tigard Campus"
 "university Of Phoenix, Utah"
 University Of Picardie
@@ -12583,7 +12583,7 @@ University Of South Dakota
 University Of South Dakota School Of Law
 University Of South Dakota The
 University Of South Florida College Of Medicine
-University Of South Florida st. Petersburg
+University Of South Florida St. Petersburg
 University Of South Florida Tampa
 University Of South Pacific
 University Of Southampton
@@ -12603,19 +12603,19 @@ University Of Southhampton
 University Of Southwestern Louisana
 University Of Southwestern Louisiana
 University Of Split
-University Of st. Andrews
-University Of st. Francis
-University Of st. Francis
-University Of st. Gallen
-University Of st. Thomas
-University Of st. Thomas
-University Of st. Thomas Mn
-University Of st. Thomas Saint Paul
-University Of st. Thomas School Of Law
-University Of st. Thomas st. Paul
-University Of st. Thomas Tx
-"university Of st. Thomas, Mn"
-"university Of st. Thomas, Mn"
+University Of St. Andrews
+University Of St. Francis
+University Of St. Francis
+University Of St. Gallen
+University Of St. Thomas
+University Of St. Thomas
+University Of St. Thomas Mn
+University Of St. Thomas Saint Paul
+University Of St. Thomas School Of Law
+University Of St. Thomas St. Paul
+University Of St. Thomas Tx
+"university Of St. Thomas, Mn"
+"university Of St. Thomas, Mn"
 University Of Stellenbosch
 University Of Stirling
 University Of Stockholm
@@ -12679,7 +12679,7 @@ University Of Texas Dental School
 University Of Texas Health
 University Of Texas Health Center At Tyler
 University Of Texas Hsc At Houston
-University Of Texas m.d. Anderson Cancer Center
+University Of Texas M.d. Anderson Cancer Center
 University Of Texas Medical Branch
 University Of Texas Medical Branch At Galveston
 University Of Texas Pan American
@@ -12735,7 +12735,7 @@ University Of The South Sewanee
 University Of The Southwest
 University Of The Sunshine Coast
 University Of The Virgin Islands
-University Of The Virgin Islands st. Croix
+University Of The Virgin Islands St. Croix
 University Of The Visayas
 University Of The West
 "university Of The West Indies, Mona"
@@ -12799,7 +12799,7 @@ University Of Upsala
 University Of Utah College Of Law
 University Of Utah Credit Union
 "university Of Utah, Sj Quinney College Of Law"
-University Of Utah's j. Quinney College Of Law
+University Of Utah's J. Quinney College Of Law
 University Of Uyo
 University Of Vaasa
 University Of Venda
@@ -12822,7 +12822,7 @@ University Of Virginia Wise
 University Of Virginias College At Wise
 University Of Virginia's College At Wise
 University Of W Rzburg
-University Of w. Rzburg
+University Of W. Rzburg
 University Of Wageningen
 University Of Waikato
 University Of Waikato Law Page
@@ -12953,7 +12953,7 @@ University San Francisco
 University School
 University School Of Law
 University Science Malaysia
-University st. Gallen
+University St. Gallen
 University System Of Georgia
 University System Of Marylan
 University System Of Maryland
@@ -13239,7 +13239,7 @@ Vsu
 Vu University Amsterdam
 W L
 W L Bonner College
-w.p. Carey School Of Business
+W.p. Carey School Of Business
 Wabash College
 Wabash College In Crawfordsville
 Wabash Valley College
@@ -13275,8 +13275,8 @@ Wallace State Community College
 Walsall College
 Walsh College
 Walsh University
-Walter a. Haas School
-Walter f. George School
+Walter A. Haas School
+Walter F. George School
 Walter Jay Md Institute An Educational Center
 Walters State Community College
 Waltham Forest College
@@ -13336,7 +13336,7 @@ Washington Technical College
 Washington Theological Union
 Washington University
 Washington University In Saint Louis
-Washington University In st. Louis
+Washington University In St. Louis
 Washington University Law School
 Washington University School Of Law
 Washtenaw Community College
@@ -13350,7 +13350,7 @@ Watkins College Of Art And Design
 Watterson College
 Waubonsee College
 Waubonsee Community College
-Waukesha co. Technical College
+Waukesha Co. Technical College
 Waukesha County Farida Jalal Technical College
 Waukesha County Tech College
 Waukesha County Technical College
@@ -13396,7 +13396,7 @@ Webster University Fort Leavenworth
 Webster University Fort Sam Houston
 Webster University Longwood
 Webster University Richard
-Webster University st. Louis
+Webster University St. Louis
 Weill Medical College Of Cornell University
 Wellesley College
 Wellesley Scott College
@@ -13702,13 +13702,13 @@ William Carey College
 William Carey College In Hattiesburg
 William Carey International University
 William Carey University
-William h. Bowen School
+William H. Bowen School
 William Howard Taft University
 William Jennings Bryan College
 William Jessup University
 William Jewell College
 William Jewelll College
-William m. Scholl College
+William M. Scholl College
 William Marsh Rice University
 William Mitchell College
 William Mitchell School

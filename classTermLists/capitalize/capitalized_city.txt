@@ -2516,7 +2516,7 @@ Kutztown
 Kuwait city
 Kwangju
 Kyoto
-L.A.
+L.a.
 La Baule
 La Canada Flintridge
 La Canada-Flintridge
@@ -3382,7 +3382,7 @@ Nurnberg
 Nuweiba
 Nyala
 Nyc
-NYC.
+Nyc.
 nYe
 Nyiregyhaza
 Nykoping
@@ -4407,7 +4407,7 @@ St Petersburg
 St Poelten
 St Vincent
 st. Louis
-ST. Petersburg
+St. Petersburg
 Stafford
 Stalingrad
 Stamford
@@ -4870,7 +4870,7 @@ Warrington
 Warrnambool
 Warsaw
 Warszawa
-Washington D.C.
+Washington D.c.
 Washington Dc
 Washington DC.
 Washington-DC
