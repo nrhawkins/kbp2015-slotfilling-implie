@@ -70,7 +70,7 @@ object TACDevelopmentRelationExtractorForScoring {
     println("Loading Extractor.")
     val relationExtractor =
 //      new ImplicitRelationExtractor(
-        new FormalConstrainedIE(
+        new FormalConstrainedImplIE(
 //        TaggerLoader.defaultTagger,
         TaggerLoader.correctedCapTagger,
 //      new FormalConstrainedImplIE(
