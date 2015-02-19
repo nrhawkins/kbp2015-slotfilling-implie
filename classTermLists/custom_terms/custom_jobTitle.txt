@@ -25,3 +25,18 @@ environment minister
 film critic
 astronaut
 deputy prosecutor
+market strategist
+securities analyst
+government affairs director
+military spokesman
+foreign policy advisor
+senior foreign policy advisor
+member of parliament
+senior commodities analyst
+commodities analyst
+industry analyst
+defense lawyer
+gloval energy analyst
+police spokesman
+macroeconomics analyst
+microeconomics analyst
