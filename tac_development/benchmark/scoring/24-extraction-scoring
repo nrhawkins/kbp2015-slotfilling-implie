@@ -1,3 +1,7 @@
+Untagged after correcting the capitalization of some of the school acronyms.
+Only one new, which is correct (didn't want to rerun it just for that).
+Removed 5 incorrect extractions for school.
+
 Input Files: 
    Extractions File: tac_development/benchmark/results/24-result-file
    Answer Key File: tac_development/benchmark/scoring/23-answer-key.txt
