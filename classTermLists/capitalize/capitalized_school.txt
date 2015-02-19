@@ -377,7 +377,7 @@ Antonelli College
 Antonelli College Jackson
 Antonelli Institute
 Antonio Allen County Mayans Community College
-Anu
+ANU
 Anza College
 Aomori Public College
 Aoyama College
@@ -1311,7 +1311,7 @@ Butler University
 Butte College
 Butte Community College
 Byam Simon Shaw Fraser University
-Byu
+BYU
 Byu Law School
 C E G E P De Baie Comeau
 C E G E P De Matane
@@ -2186,8 +2186,8 @@ Clovis Adult Education
 Clovis Cmty College
 Clovis Community College
 Clydebank College
-Cmu
-Cmu
+CMU
+CMU
 Cnam
 Coachella Valley Beauty College
 Coahoma Cmty College
@@ -3450,7 +3450,7 @@ Ewha Womans University In Seoul
 Ewha Women
 Ewha Women University
 Ewha Women's University
-Ewu
+EWU
 Excel College
 Excelsior College
 Exeter Academy
@@ -3548,7 +3548,7 @@ Fisher College
 Fisk University
 Fitchburg State College
 Fitzwilliam College
-Fiu
+FIU
 Five Towns College
 Flager College
 Flagler College
@@ -3945,7 +3945,7 @@ Gloucester County College
 Gloucestershire Neighbour College
 Gmi Engineering
 Gmi Engineering & Management Institute
-Gmu
+GMU
 Gnomon School Of Visual Effects
 Goa University
 Godalming College
@@ -4081,8 +4081,8 @@ Grinnell College In Grinnell
 Grossmont College
 Grossmont Community College
 Grove City College
-Gsd
-Gsu
+GSD
+GSU
 Guam Community College
 Guangdong Commercial College
 Guangdong University
@@ -4108,7 +4108,7 @@ Gustavus Adolphus College
 Gutenberg College
 Gwinnett College
 Gwinnett Technical Community College
-Gwu
+GWU
 Gwynedd Mercy College
 H Councill Trenholm State Technical College
 H. Lavity Stoutt Community College
@@ -4581,7 +4581,7 @@ Iglesias Lycoming College
 Igor Cecil Community College
 Ii T Chicago Kent College
 Iia College
-Iit
+IIT
 Iit Bombay
 Iit Chicago Kent College
 Iit Chicago Kent College Of Law
@@ -4603,7 +4603,7 @@ Illinois State University
 Illinois Valley Community College
 Illinois Wesleyan University
 Image School Of Cosmetology
-Imd
+IMD
 Immaculata College
 Immaculata University
 Immaculate Heart College
@@ -4981,8 +4981,8 @@ Jawaharlal Nehru Technological University
 Jawaharlal Nehru University
 Jawaharlal Nehru University In New Delhi
 Jay Thomas Montgomery Community College
-Jcu
-Jcu
+JCU
+JCU
 Jean De Brebeuf College
 Jean Pierre Cassel College
 Jeff Bridges Salem State College
@@ -5136,7 +5136,7 @@ Josh Tennessee Technological University
 Journal Sentinel Illinois Wesleyan University
 Jowell Montreat College
 Jr Williams College
-Jts
+JTS
 Juan College
 Jubail Industrial College
 Judd Hirschyoung University
@@ -5417,7 +5417,7 @@ Krannert School Of Management
 Krida Wacana Christian University
 Kristin Novaksarah Lawrence College
 Kristinastudies Klebe
-Ksg
+KSG
 Ktvq Wisconsin Lutheran College
 Kum Oh National University
 Kumamoto National College Of Technology
@@ -6672,7 +6672,7 @@ Missouri Western State College
 Missouri Western State University
 Missouri Western University
 Missouri's T
-Mit
+MIT
 Mit Media Laboratory
 Mit 's Sloan School
 Mit Sloan
@@ -7711,7 +7711,7 @@ Nunavut Arctic College
 Nunez Community College
 Ny Polytechnic University
 Nyack College
-Nyu
+NYU
 Nyu College
 Nyu Film School
 Nyu Law School
@@ -7757,7 +7757,7 @@ Ocu Law
 Odense University
 Odessa College
 Odessa State Politechnic University
-Odu
+ODU
 Of Fondminden Press Herald Du Lac
 Of Louisiana
 Of Bret Harrison Wisconsin Whitewater
@@ -7953,7 +7953,7 @@ Oslo Agricultural College
 Oslo University College
 Oslo University College School Of Business
 Osmania University
-Osu
+OSU
 Osu College
 Oswego Police Department State University
 Oswego State College
@@ -9477,7 +9477,7 @@ Slis
 Sloan School
 Sloan School Of Management
 Slow Burn Fulton Montgomery Community College
-Slu
+SLU
 Small Midwestern College
 Smeal College
 Smith Chapel Bible College
@@ -9824,7 +9824,7 @@ Sri Venkateswara University
 Sringfield College
 Sripatum University
 Srisophon College
-Ssu
+SSU
 St Aleksandr Josephs College
 St Ambrose University
 St Andrews Presbyterian College
@@ -10982,9 +10982,9 @@ Tsinghua
 Tsinghua University
 Tsinghua University And Beijing University
 Tsinghua University And Peking University
-Tsu
+TSU
 Tsuda College
-Ttu
+TTU
 Tu Darmstadt
 Tu Delft
 Tuck School
@@ -11049,10 +11049,10 @@ U.c. Riverside
 U.c. San Diego
 Ua College
 Ua Poulaguardia Community College
-Uaf
+UAF
 Uahuntsville
 Ualr
-Uas
+UAS
 Ua's College
 Ube College
 Uc Berkeley
@@ -11081,7 +11081,7 @@ Ucsd
 Ucsd Jacobs School Of Engineering
 Ueno Gakuen College
 Uf's College
-Uga
+UGA
 Uga Armstrong Atlantic State University
 "uga Clayton College, State University"
 Uga Fort Valley State University
@@ -11106,7 +11106,7 @@ Umass Boston
 Umass Dartmouth
 Umass Lowell
 Umcp
-Umd
+UMD
 Umd University College
 Umdnj New Jersey Medical School
 Umdnj School Of Health Related Professions
@@ -11118,7 +11118,7 @@ Umm Al Qura University
 Umpqua Community College
 Unax San Jose Ugalde City College
 Unb Saint John
-Unc
+UNC
 Unc Asheville
 Unc Ch
 Unc Chapel Hill
@@ -12978,9 +12978,9 @@ Univervsity
 Univesity
 "univesity Of Hawaii, Manoa"
 Univesity Of Maryland
-Unk
+UNK
 Unm School
-Unr
+UNR
 Unstate Medical University
 Up College
 Upper Iowa University
@@ -13035,7 +13035,7 @@ U's Naval Postgraduate School
 Us Naval War College
 U's School
 U's University
-Usc
+USC
 Usc College
 Usc Film School
 Usc Marshall School Of Business
@@ -13046,7 +13046,7 @@ Usd School
 Usf College
 Ushaw College
 Usinus College
-Usm
+USM
 Usm Libraries The University
 Ust Conservatory
 Ustinov College
@@ -13054,7 +13054,7 @@ Ut Chattanooga
 Ut College
 Ut Knoxville
 Ut School
-Uta
+UTA
 Utah Career College
 Utah College
 Utah State
@@ -13069,12 +13069,12 @@ Utica School Of Commerce
 Utrecht School
 Utrecht University
 Uvic
-Uvm
+UVM
 Uw College
 Uw Madison
 Uw River Falls
 "uwe Indiana, Universityboll Purdue University Fort Wayne"
-Uwo
+UWO
 Uwrf
 Uxbridge College
 Va Tech
@@ -13235,7 +13235,7 @@ Voorhees College
 Vrije Universiteit
 Vrije Universiteit Amsterdam
 Vrije Universiteit Brussel
-Vsu
+VSU
 Vu University Amsterdam
 W L
 W L Bonner College
@@ -13375,7 +13375,7 @@ Waynesburg University
 Wayo Women's University
 Wbud Amholy Cross College
 Wcbi Dakota Wesleyan University
-Wcl
+WCL
 Wcsu
 Wdad Am Saint Joseph's University
 Wearside College
@@ -13823,7 +13823,7 @@ Worsham College
 Worthing College
 Worthington Community College
 Wpc Warner Pacific College
-Wpi
+WPI
 Wptanorthern New Mexico College
 Wrangell Police Department Campus
 Wraz Northern Maine Community College
@@ -13842,9 +13842,9 @@ Wuhan Institute
 Wuhan University
 Wustl
 Wustl
-Wvu
+WVU
 Wvu Institute Of Technology
-Wwu
+WWU
 Wycliffe College
 Wyethville Community College
 Wyo Tech
@@ -13942,9 +13942,9 @@ Youngstown State University In Youngstown
 "youngstown State University, Metro College"
 Youngstown University
 Youville College
-Ysu
+YSU
 Yti Career Institute
-Yu
+YU
 Yuan Ze Institute Of Technology
 Yuba College
 Yuba Community College
