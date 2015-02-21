@@ -50,10 +50,10 @@ class ImplicitRelationExtractorNoLists(
   // -----------------------------------------------------------------------
   // Filter out implicitRelations which have a list in the entity 
   //
-  // Filter out relation if there is a sequence of: 
-  // 1) 2 or more conj_and's 
-  // or
-  // 2) 2 or more appos
+  // Filter out relation if any one of these is true: 
+  // 1) 1 or more conj_and's 
+  // 2) 2 or more appos's
+  // 3) 1 or more conj_and's and 1 or more appos's
   // -----------------------------------------------------------------------
   def filterNoLists(relations: List[ImplicitRelation]): List[ImplicitRelation] = {
 
@@ -67,7 +67,7 @@ class ImplicitRelationExtractorNoLists(
           if(t.toString.contains("conj_and")) countConjAnd += 1 
           if(t.toString.contains("appos")) countAppos += 1          
         })
-       if(countConjAnd >= 2 || countAppos >= 2){
+       if(countConjAnd >= 1 || countAppos >= 2 || countConjAnd + countAppos >=2 ){
          rel.relation = "dropThisRelation"
        }
          
@@ -80,7 +80,6 @@ class ImplicitRelationExtractorNoLists(
     relationsFiltered.filter(rel => rel.relation != "dropThisRelation")   
     
   }
-
- 
+  
   
 }
