@@ -1,0 +1,45 @@
+ImplIE design doc.
+  We're covering 6 relation classes: origin (ethnicgroup, country, and nationality merged), jobTitle, religion, city, province (and state), and school
+
+  - Tagger
+    There are two types of taggers that are currently used, KeywordTagger and CaseInsensitiveKeywordTagger.
+    The two tag exact matches from the list of terms given for the class, with corresponding case sensitivity.
+    -- Case Insensitive: jobTitle, religion
+    -- Case Sensitive: origin, city, province, school
+    
+    jobTitle and religion are case insensitive since the terms have little overlap with other domains.
+    This is preferable since it is flexible to case changes due to the grammar, such as at the beginning of a sentence.
+    
+    The others are selected to be case sensitive since many of the terms overlap with other domains.  For example,
+    "Mobile" is a city name, but also used as an adjective, such as "mobile phone", or another example "US" stands
+    for United States, but "us" means a group of people including the speaker.
+    
+    The terms were acquired through a combination of modified NELL relation class lists, custom hand curated terms,
+    and lists from wikipedia.
+    We seeked to tag origin, city, province, and school classes case sensitively, but many of the NELL class terms
+    were completely uppercase or completely lowercase despite being a word that should be capitalized (e.g. french).
+    To fix this we modified the list so that for any term that is completely lowercase or completely uppercase,
+    we changed the casing so that for each space-separated token within the term, the first character is uppercase,
+    and the remaining characters are lowercase.  We did not modify all of them since some terms already has proper
+    casing and it avoids the risk of miscapitalizing a term that has a more complicated capitalization structure.
+    We further changed the school list so that any term with 3 or fewer characters are completely capitalized since
+    many of the school terms are acronyms.
+    We found that the NELL origin lists was quite incomplete so we supp6orted it with a list of country names and their
+    adjectival and demonymic forms from wikipedia.
+      URL: http://en.wikipedia.org/wiki/List_of_adjectival_and_demonymic_forms_for_countries_and_nations.
+    Furthermore, during development in the benchmark set, we added missing terms (many of which were specific job titles),
+    and removed terms that were incorrectly in the NELL list.
+    
+  - Expansion Function
+    The expansion function follows the following set of rules.
+    The expansion starts at the tag and is carried out until the rules cannot be applied any further in any direction, 
+    then the words expanded to are added to a set.
+    We then calculate the entity by pulling out the smallest substring of the sentence that contains every word in the expansion set.
+    We make the assumption that expanding on these rules will result in a noun phrase. [We should show that this should always be the case
+    if the parse is correct].
+    
+  - Filters
+    - Head Word Filter
+      We do not allow extraction where the tag is also the head word.  This is because the tagged class term should be modifying the
+      head word.  Identity relations, though not always incorrect, are not interesting or useful.  
+      This is done using the Stanford SemanticHeadFinder. 
