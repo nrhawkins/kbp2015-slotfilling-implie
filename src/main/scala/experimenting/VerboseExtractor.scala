@@ -12,8 +12,8 @@ import scala.io.Source
  * Created by Gene on 12/24/2014.
  */
 object VerboseExtractor {
-  val sentenceFile = "tac_development/small-subset/evaluation/details/sentences.txt"
-  val outputFile = "tac_development/small-subset/evaluation/details/verbose-extractions2.txt"
+  val sentenceFile = "test_sentences.txt"
+  val outputFile = "test_verbose-extractions.txt"
 
   def main(args: Array[String]) {
     val tagger = TaggerLoader.defaultTagger
