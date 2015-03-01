@@ -30,7 +30,7 @@ class ImplicitRelationExtractorNoLists(
     tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized],
     serializedTokenCacheFile: String = null,
     serializedParseCacheFile: String = null) extends ImplicitRelationExtractor(
-    tagger, serializedTokenCacheFile=null, serializedParseCacheFile=null) {
+    tagger, serializedTokenCacheFile, serializedParseCacheFile) {
 
   /**
    * Extracts implicit relations from a string.
