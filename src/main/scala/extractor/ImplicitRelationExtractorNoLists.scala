@@ -12,6 +12,7 @@ import edu.knowitall.tool.typer.Type
 import edu.stanford.nlp.ling.{Sentence, _}
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser
 import edu.stanford.nlp.trees._
+import edu.stanford.nlp.ie.crf.CRFClassifier
 import utils.{ExtractionUtils, SerializationUtils}
 
 import scala.collection.JavaConversions._
@@ -29,8 +30,17 @@ import scala.collection.mutable
 class ImplicitRelationExtractorNoLists(
     tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized],
     serializedTokenCacheFile: String = null,
-    serializedParseCacheFile: String = null) extends ImplicitRelationExtractor(
-    tagger, serializedTokenCacheFile=null, serializedParseCacheFile=null) {
+    serializedParseCacheFile: String = null) 
+    extends ImplicitRelationExtractor(
+    tagger, serializedTokenCacheFile, serializedParseCacheFile) 
+    with NERFilterByTagNER {
+
+  val nerConfig = ConfigFactory.load("filter-by-tag-ner-types.conf")
+  protected val expectedEntities =
+    expectedTagEntities(nerConfig.getConfigList("not-expected-tag-types").toList)
+  protected val NER_MODEL = nerConfig.getString("ner-model-file")
+  protected val classifier: CRFClassifier[CoreLabel] = CRFClassifier.getClassifier(NER_MODEL)
+  protected val NER_TAGS_TO_IGNORE = nerConfig.getStringList("ner-tag-ignore").toList
 
   /**
    * Extracts implicit relations from a string.
@@ -40,10 +50,26 @@ class ImplicitRelationExtractorNoLists(
   override def extractRelations(line: String): List[ImplicitRelation] = {
     
     val implicitRelations = super.extractRelations(line)
+    val taggedNERs = tagNERs(implicitRelations, line)
+    
+    /*taggedNERs.foreach(extraction => {
+      val ners = extraction.getNERs
+      val tag = extraction.relation
+      println("irenl: ner.size " + ners.size)
+      ners.foreach(ner => println(ner.ner))
+      val nersRegion = ners.filter(ner => ner.beginIndex <= extraction.tag.index-1 && 
+          ner.endIndex >= extraction.tag.index-1)
+      println("irenl: nersRegion size " + nersRegion.size)
+    }) */
     
     //Filter the implicitRelations, exclude ones which have lists in the entity
 
-    filterNoLists(implicitRelations)
+    //filterNoLists(implicitRelations)
+    val relationsNoLists = filterNoLists(taggedNERs)
+    
+    //filterNERs(implicitRelations)
+    
+    filterNERs(line, relationsNoLists)
     
   }
 
@@ -80,6 +106,8 @@ class ImplicitRelationExtractorNoLists(
     relationsFiltered.filter(rel => rel.relation != "dropThisRelation")   
     
   }
-  
+    
   
 }
+
+

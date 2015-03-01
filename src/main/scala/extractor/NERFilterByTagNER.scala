@@ -1,0 +1,48 @@
+package extractor
+
+/**
+ * NERFilterByTagNER filters out extractions which have a tag NER of not the
+ * expected type.
+ *
+ * For example, if the tag for a 'city' relation has an NER type of PERSON,
+ * the extraction is filtered out. 
+ * 
+ * The expected NER types are specified in: filter-by-tag-ner-types.conf
+ * 
+ */
+trait NERFilterByTagNER extends NERFilterable {
+  
+  
+  def filterNERs(src: String, relations: List[ImplicitRelation]): List[ImplicitRelation] = {
+  
+    // Add NER tags for each extraction.
+    val taggedNERs = tagNERs(relations, src)
+
+    // Filter out NERs that don't match the keyword tag's expected entity type.
+    taggedNERs.foreach(extraction => {
+      val ners = extraction.ners
+      val relation = extraction.relation
+      val tagStartIndex = extraction.tag.intervalStart - 1
+      val tagEndIndex = extraction.tag.intervalEnd - 1
+      //check if tag start is within ner interval or if tag end is within ner interval
+      val nersForTag = ners.filter(ner => (ner.beginIndex <= tagStartIndex && tagStartIndex <= ner.endIndex) || 
+          (ner.beginIndex <= tagEndIndex && tagEndIndex <= ner.endIndex))
+      val unexpectedNERtags = expectedEntities.getOrElse(relation, Nil)            
+
+      //println("filterNERs: " + nersForTag.size)
+      //ners.foreach(ner => println("filterNERs: " + ner.ner))
+      //nersForTag.foreach(ner => println("filterNERs: nersForTag " + ner.ner))
+      //unexpectedNERtags.foreach(ner => println("filterNERs: unexpected " + ner))
+      
+      nersForTag.foreach(ner => if(unexpectedNERtags.contains(ner.ner)) extraction.relation="dropThisRelation")            
+
+    })
+
+    // Filter out extractions where an unexpected NER type was found for the tag
+    val relationsFiltered = taggedNERs.filter(rel => rel.relation != "dropThisRelation")   
+
+    relationsFiltered
+  }
+
+
+}

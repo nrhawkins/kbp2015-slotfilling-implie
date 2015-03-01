@@ -1,0 +1,21 @@
+Notes by Stephen on tagging of constrained-answer-key:
+
+Organizations are groups of people working together, and not buildings, facilities, or (sporting) events.  If there is a sense in which something can be an organization, consider it as such (e.g. a hospital is a building or an organization).
+
+organizations:
+  hospital, museum, stock exchange, bank, court, prison, church
+not organizations:
+  hotel, motel, airbase, office, district, airport, resort, marathon,
+  olympics, shopping mall, auditorium, program
+But proper names of airbases, police departments, etc. are organizations
+
+person includes groups of individual people: team, family, delegation, 
+  people, troops, (armed) forces, authorities, public, group, rebels,
+  insurgents, community
+but not population,refugee camp, delegation
+does not include organizations: court, government, army, insurgency,
+  police, navy
+
+School: can modify a division within the school
+  entity: Johns Hopkins School of Medicine    slotfill: Johns Hopkins
+
