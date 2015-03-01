@@ -4,7 +4,7 @@ import java.io.{FileWriter, BufferedWriter, PrintWriter}
 import java.nio.file.{Paths, Files}
 
 import com.typesafe.config.ConfigFactory
-import extractor.{FormalConstrainedImplIE, ImplicitRelationExtractor, NERFilteredIRE, TaggerLoader}
+import extractor.{FormalConstrainedImplIE, ImplicitRelationExtractor, NERFilteredIRE, TaggerLoader, ImplicitRelationExtractorNoLists}
 
 import scala.io.Source
 
@@ -69,7 +69,8 @@ object TACDevelopmentRelationExtractorForScoring {
     
     println("Loading Extractor.")
     val relationExtractor =
-      new ImplicitRelationExtractor(
+//      new ImplicitRelationExtractor(
+      new ImplicitRelationExtractorNoLists(
 //        new FormalConstrainedImplIE(
 //        TaggerLoader.defaultTagger,
         TaggerLoader.correctedCapTagger,
