@@ -72,8 +72,7 @@ object TACDevelopmentRelationExtractorForScoring {
 //      new ImplicitRelationExtractor(
       new ImplicitRelationExtractorNoLists(
 //        new FormalConstrainedImplIE(
-//        TaggerLoader.defaultTagger,
-        TaggerLoader.correctedCapTagger,
+        TaggerLoader.defaultTagger,
 //      new FormalConstrainedImplIE(
 //        TaggerLoader.noTagsIgnoredTagger,
         config.getString("tokenization-cache"),
