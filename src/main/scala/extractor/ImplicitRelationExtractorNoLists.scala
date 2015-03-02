@@ -50,7 +50,7 @@ class ImplicitRelationExtractorNoLists(
   override def extractRelations(line: String): List[ImplicitRelation] = {
     
     val implicitRelations = super.extractRelations(line)
-    val taggedNERs = tagNERs(implicitRelations, line)
+    //val taggedNERs = tagNERs(implicitRelations, line)
     
     /*taggedNERs.foreach(extraction => {
       val ners = extraction.getNERs
@@ -65,8 +65,8 @@ class ImplicitRelationExtractorNoLists(
     //Filter the implicitRelations, exclude ones which have lists in the entity
 
     //filterNoLists(implicitRelations)
-    val relationsNoLists = filterNoLists(taggedNERs)
-    
+    val relationsNoLists = filterNoLists(implicitRelations)
+
     //filterNERs(implicitRelations)
     
     filterNERs(line, relationsNoLists)
