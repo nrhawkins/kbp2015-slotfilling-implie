@@ -11,12 +11,23 @@ object ExtractorTagTester {
 
     val tagger = TaggerLoader.defaultTagger
     val extractor = new ImplicitRelationExtractor(tagger)
+/*
     val wordnetextractor = new WordNetFilteredIRE(tagger)
     val constrained = new FormalConstrainedImplIE(tagger)
+*/
 //    val sentence = "John Arterberry, executive deputy chief of the fraud section in the Justice Department, said federal prosecutors and the FBI had made progress on mortgage fraud."
 //    val sentence = "Staging a surprise detour from his trip to Sydney, Bush arrived at the Al-Asad air base in Anbar along with Secretary of State Condoleezza Rice and national security adviser Stephen Hadley."
 
-    val sentence = "AMSTERDAM, Netherlands 2008-01-26 21:41:45 UTC"
+//    val sentence = "AMSTERDAM, Netherlands 2008-01-26 21:41:45 UTC"
+//    val sentence = "In a recent speech to the Jewish Coalition, he went further, accusing the Democrats of putting too much stock in diplomacy."
+//    val sentence = "Taipei, Sept. 11 (CNA) 09/11/07 20:10:07 (By T.C. Jiang); SEOUL, South Korea 2007-02-16 03:13:47 UTC"
+    val sentence = "Kyrgyzstan vs. Jordan"
+    val tokens = extractor.getTokens(sentence)
+
+    println(tokens)
+    println(tokens(0).chunkSymbol.name)
+    println(tokens(0).postagSymbol.name)
+/*
     val constrainedresult = constrained.extractRelations(sentence)
     val wordnetresult = wordnetextractor.extractRelations(sentence)
     val result = extractor.extractRelations(sentence)
@@ -42,6 +53,7 @@ object ExtractorTagTester {
     println(constrainedresult3)
     println(wordnetresult3)
     println(result3)
+*/
     /*
         for (typ <- tags) {
           println(s"Tag: ${typ.name}\tText: ${typ.text}")
