@@ -1,3 +1,9 @@
+Run after adding simple filtering to ImplIE.
+	NN of ...
+	... vs. ...
+	days of week appended to front/back of entity
+	strange date formats (.. UTC/ ... (CNA) ...)
+
 Input Files: 
    Extractions File: tac_development/benchmark/results/28-result-file
    Answer Key File: tac_development/benchmark/scoring/27-answer-key.txt
