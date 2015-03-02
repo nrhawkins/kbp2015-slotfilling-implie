@@ -42,7 +42,7 @@ object TaggerLoader {
   def basicTestTagger = memoizedTagger("basic_test", basic_test_tagger_config)
   def noTagsIgnoredTagger = memoizedTagger("no_tags_ignored", no_tags_ignored_config)
   def correctedCapTagger = memoizedTagger("corrected_cap", corrected_cap_config)
-  def uncorrectedCapTagger = memoizedTagger("corrected_cap", uncorrected_cap_config)
+  def uncorrectedCapTagger = memoizedTagger("uncorrected_cap", uncorrected_cap_config)
 
   /**
    * Constructs a tagger from a tagger configuration.
