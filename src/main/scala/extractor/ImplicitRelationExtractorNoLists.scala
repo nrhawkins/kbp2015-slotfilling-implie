@@ -69,7 +69,7 @@ class ImplicitRelationExtractorNoLists(
 
     //filterNERs(implicitRelations)
     
-    filterNERs(line, relationsNoLists, NER_TAGS_TO_IGNORE, expectedEntities)
+    filterNERsByTag(line, relationsNoLists, NER_TAGS_TO_IGNORE, expectedEntities)
     
   }
 

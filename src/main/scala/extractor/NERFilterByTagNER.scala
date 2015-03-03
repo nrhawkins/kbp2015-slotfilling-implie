@@ -13,7 +13,7 @@ package extractor
 trait NERFilterByTagNER extends NERFilterable {
 
 
-  def filterNERs(src: String, relations: List[ImplicitRelation],
+  def filterNERsByTag(src: String, relations: List[ImplicitRelation],
                  nerTagsToIgnore: List[String],
                  expectedEntities: Map[String, List[String]]): List[ImplicitRelation] = {
 
