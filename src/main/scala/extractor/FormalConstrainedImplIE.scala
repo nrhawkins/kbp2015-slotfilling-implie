@@ -30,8 +30,8 @@ class FormalConstrainedImplIE
   (tagger: TaggerCollection[Sentence with Chunked with Lemmatized],
    serializedTokenCacheFile: String = null,
    serializedParseCacheFile: String = null)
-  extends ImplicitRelationExtractor(
-//  extends ImplIEWithBasicFilters(
+//  extends ImplicitRelationExtractor(
+  extends ImplIEWithBasicFilters(
     tagger, serializedTokenCacheFile, serializedParseCacheFile)
   // filterWordNet function.
   with WordNetHypernymFilter
@@ -46,18 +46,18 @@ class FormalConstrainedImplIE
   val stemmer = new WordnetStemmer(wordnetDictionary)
   val wordSenseLimit = wordnetConfig.getInt("word-sense-limit")
 
-  val nerConfig = ConfigFactory.load("ner-filtered-ire.conf")
-  protected val expectedEntities =
-    expectedTagEntities(nerConfig.getConfigList("tag-entities").toList)
-  protected val NER_MODEL = nerConfig.getString("ner-model-file")
-  protected val classifier: CRFClassifier[CoreLabel] = CRFClassifier.getClassifier(NER_MODEL)
-  protected val NER_TAGS_TO_IGNORE = nerConfig.getStringList("ner-tag-ignore").toList
+  val constrainedNerConfig = ConfigFactory.load("ner-filtered-ire.conf")
+  protected val constrainedExpectedEntities =
+    expectedTagEntities(constrainedNerConfig.getConfigList("tag-entities").toList)
+//  protected val NER_MODEL = nerConfig.getString("ner-model-file")
+//  protected val classifier: CRFClassifier[CoreLabel] = CRFClassifier.getClassifier(NER_MODEL)
+  protected val CONSTRAINED_NER_TAGS_TO_IGNORE = constrainedNerConfig.getStringList("ner-tag-ignore").toList
 
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val unfiltered = super.extractRelations(line)
     // Return everything that satisfies WordNet or NER.
     val wordnetFiltered = filterWordNet(line, unfiltered)
-    val nerFiltered = filterNERs(line, unfiltered, NER_TAGS_TO_IGNORE, expectedEntities)
+    val nerFiltered = filterNERsByHeadWord(line, unfiltered, CONSTRAINED_NER_TAGS_TO_IGNORE, constrainedExpectedEntities)
     (wordnetFiltered.toSet union nerFiltered.toSet).toList
   }
 }

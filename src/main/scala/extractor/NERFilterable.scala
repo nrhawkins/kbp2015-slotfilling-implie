@@ -22,9 +22,11 @@ trait NERFilterable {
 
   def getTokens(line: String): Seq[ChunkedToken]
 
+/*
   def filterNERs(src: String, relations: List[ImplicitRelation],
                  nerTagsToIgnore: List[String],
                  expectedEntities: Map[String, List[String]]): List[ImplicitRelation]
+*/
 
     def tagNERs(extractions: List[ImplicitRelation],
               line: String, nerTagsToIgnore: List[String]): List[ImplicitRelation] = {

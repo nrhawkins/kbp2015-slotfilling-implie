@@ -14,7 +14,7 @@ trait NERFilterByHeadWord extends NERFilterable {
   // TODO: ensure that the head word is in fact one being judged by the NER tagger
   // TODO: by using the index.  Index from the tree when finding it.
   // For now we're just checking that the word is in the ner-tag substring
-  def filterNERs(src: String, relations: List[ImplicitRelation],
+  def filterNERsByHeadWord(src: String, relations: List[ImplicitRelation],
                  nerTagsToIgnore: List[String],
                  expectedEntities: Map[String, List[String]]): List[ImplicitRelation] = {
     addHeadsToExtractions(relations)
