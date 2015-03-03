@@ -11,12 +11,14 @@ package extractor
  * 
  */
 trait NERFilterByTagNER extends NERFilterable {
-  
-  
-  def filterNERs(src: String, relations: List[ImplicitRelation]): List[ImplicitRelation] = {
-  
+
+
+  def filterNERs(src: String, relations: List[ImplicitRelation],
+                 nerTagsToIgnore: List[String],
+                 expectedEntities: Map[String, List[String]]): List[ImplicitRelation] = {
+
     // Add NER tags for each extraction.
-    val taggedNERs = tagNERs(relations, src)
+    val taggedNERs = tagNERs(relations, src, nerTagsToIgnore)
 
     // Filter out NERs that don't match the keyword tag's expected entity type.
     taggedNERs.foreach(extraction => {

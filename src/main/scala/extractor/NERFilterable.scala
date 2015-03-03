@@ -17,17 +17,17 @@ import scala.collection.mutable
 // TODO: Rename values to be more generally understandable since they need to be implemented by subclasses.
 // TODO: comment functions.
 trait NERFilterable {
-  protected val expectedEntities: Map[String, List[String]]
   protected val NER_MODEL: String
   protected val classifier: CRFClassifier[CoreLabel]
-  protected val NER_TAGS_TO_IGNORE: List[String]
 
   def getTokens(line: String): Seq[ChunkedToken]
 
-  def filterNERs(src: String, relations: List[ImplicitRelation]): List[ImplicitRelation]
+  def filterNERs(src: String, relations: List[ImplicitRelation],
+                 nerTagsToIgnore: List[String],
+                 expectedEntities: Map[String, List[String]]): List[ImplicitRelation]
 
-  def tagNERs(extractions: List[ImplicitRelation],
-              line: String): List[ImplicitRelation] = {
+    def tagNERs(extractions: List[ImplicitRelation],
+              line: String, nerTagsToIgnore: List[String]): List[ImplicitRelation] = {
     // Run NER tagger and pair in the entity portion (check the indicies).
     val wordTokens = getTokens(line).map(token => new Word(token.string))
     val rawNERTags = classifier.classifySentence(wordTokens)
@@ -38,7 +38,7 @@ trait NERFilterable {
       // Add token indicies to ner tags.
       .foldLeft(Nil: List[(CoreLabel, Int)], 0)((acc, cur) =>
         ((cur, acc._2)::acc._1, acc._2 + 1))._1.reverse
-      .filter(tag => !NER_TAGS_TO_IGNORE.contains(tag._1.get(classOf[CoreAnnotations.AnswerAnnotation])))
+      .filter(tag => !nerTagsToIgnore.contains(tag._1.get(classOf[CoreAnnotations.AnswerAnnotation])))
       .foldLeft(Nil: List[NERTag])((acc, cur) => {
         val curNER = cur._1.get(classOf[CoreAnnotations.AnswerAnnotation])
         val curIndex = cur._2

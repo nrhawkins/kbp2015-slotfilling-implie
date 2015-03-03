@@ -33,6 +33,6 @@ class NERFilteredIRE
 
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val unfiltered = super.extractRelations(line)
-    filterNERs(line, unfiltered)
+    filterNERs(line, unfiltered, NER_TAGS_TO_IGNORE, expectedEntities)
   }
 }
