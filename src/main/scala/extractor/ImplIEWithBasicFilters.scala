@@ -25,17 +25,11 @@ class ImplIEWithBasicFilters(
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val relations = super.extractRelations(line)
 
-//    println(s"Before filtering $relations")
-
     var filtered = relations
     filtered = filterNNOfEntities(line, filtered)
-//    println(s"After NN of filter $filtered")
     filtered = filterDaysOfWeek(line, filtered)
-//    println(s"After days of week filter $filtered")
     filtered = filterStrangeDateFormats(line, filtered)
-//    println(s"After strange date filter $filtered")
     filtered = filterVsEntities(line, filtered)
-//    println(s"After vs entity filter $filtered")
     filtered
   }
 

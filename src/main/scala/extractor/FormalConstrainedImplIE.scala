@@ -31,6 +31,7 @@ class FormalConstrainedImplIE
    serializedTokenCacheFile: String = null,
    serializedParseCacheFile: String = null)
   extends ImplicitRelationExtractor(
+//  extends ImplIEWithBasicFilters(
     tagger, serializedTokenCacheFile, serializedParseCacheFile)
   // filterWordNet function.
   with WordNetHypernymFilter
@@ -56,7 +57,7 @@ class FormalConstrainedImplIE
     val unfiltered = super.extractRelations(line)
     // Return everything that satisfies WordNet or NER.
     val wordnetFiltered = filterWordNet(line, unfiltered)
-    val nerFiltered = filterNERs(line, unfiltered)
+    val nerFiltered = filterNERs(line, unfiltered, NER_TAGS_TO_IGNORE, expectedEntities)
     (wordnetFiltered.toSet union nerFiltered.toSet).toList
   }
 }
