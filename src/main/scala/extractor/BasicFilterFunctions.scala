@@ -100,10 +100,8 @@ trait BasicFilterFunctions {
   }
 
   def filterTagIsEntity(src: String, relations: List[ImplicitRelation]) = {
-    relations.filter(r => {
-      println(s"np ${r.np.string}, tag ${r.tag.text}")
-      println(s"np ${r.np.string.replaceAll("[\\p{Punct}]", "").toLowerCase}, tag ${r.tag.text.toLowerCase}")
+    relations.filter(r =>
       !r.np.string.replaceAll("[\\p{Punct}]", "").toLowerCase.equals(r.tag.text.toLowerCase)
-    })
+    )
   }
 }
