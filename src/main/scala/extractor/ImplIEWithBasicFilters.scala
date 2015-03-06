@@ -30,6 +30,7 @@ class ImplIEWithBasicFilters(
     filtered = filterDaysOfWeek(line, filtered)
     filtered = filterStrangeDateFormats(line, filtered)
     filtered = filterVsEntities(line, filtered)
+    filtered = filterTagIsEntity(line, filtered)
     filtered
   }
 

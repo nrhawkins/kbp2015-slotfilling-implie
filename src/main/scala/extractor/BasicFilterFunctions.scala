@@ -86,7 +86,7 @@ trait BasicFilterFunctions {
   def filterVsEntities(src: String, relations: List[ImplicitRelation]) = {
     val tokens = getTokens(src)
 
-    val vs = List("vs", "vs.")
+    val vs = List("vs", "vs.", "v")
 
     relations.filter(r => {
       var containsVs = false
@@ -96,6 +96,14 @@ trait BasicFilterFunctions {
         }
       }
       !containsVs
+    })
+  }
+
+  def filterTagIsEntity(src: String, relations: List[ImplicitRelation]) = {
+    relations.filter(r => {
+      println(s"np ${r.np.string}, tag ${r.tag.text}")
+      println(s"np ${r.np.string.replaceAll("[\\p{Punct}]", "").toLowerCase}, tag ${r.tag.text.toLowerCase}")
+      !r.np.string.replaceAll("[\\p{Punct}]", "").toLowerCase.equals(r.tag.text.toLowerCase)
     })
   }
 }
