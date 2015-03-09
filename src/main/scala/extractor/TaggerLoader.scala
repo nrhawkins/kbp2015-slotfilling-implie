@@ -57,11 +57,11 @@ object TaggerLoader {
      */
     def createTaggerDefinition(classes: List[TagClass]): String = {
       def punctuationSeparated(term: String) = {
-        val punct = Set[String](".", ",", "'", "\"")
+        val punct = Set[(String, String)](("\\.", "."), (",", ","), ("'", "'"), ("\"", "\""))
         var modified = term
         for (p <- punct) {
-          val tokens = modified.split(p)
-          modified = tokens.mkString(s" $p")
+          val tokens = modified.split(p._1)
+          modified = tokens.mkString(s" ${p._2}")
         }
         modified
       }
