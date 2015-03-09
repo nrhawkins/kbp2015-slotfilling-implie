@@ -198,7 +198,7 @@ class ExpansionFunctions {
       Math.max(Math.min(td.gov.index, td.dep.index) - 1, 0))
     var foundComma = false
     for (i <- min to max) {
-      if (tokens(i).string.equalsIgnoreCase(",") || tokens(i).string.equalsIgnoreCase("and")) {
+      if (tokens(i).string.equalsIgnoreCase(",")) {
         foundComma = true
       }
     }
