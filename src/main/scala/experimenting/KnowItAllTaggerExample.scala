@@ -16,12 +16,36 @@ dog
 red dog
 I have a
 have a red dog
-cliff has a
+St\. Francis Xavier University
+St Francis Xavier University
+St . Francis Xavier University
+Xavior
+Francis Xavier
+Xavior University
+St
+St .
+St. Francis
+St Francis
+St\.
+St\. Francis
 cliff has a
 puppy
 Madame Violetta
 Scientology
 }
+
+SpaceForDot := KeywordTagger {
+St. Edward's University
+}
+
+SpaceBeforeApostrophie := KeywordTagger {
+St . Edward  's University
+}
+
+SpaceBeforeAndAfterApost := KeywordTagger {
+St . Edward ' s University
+}
+
 Color := KeywordTagger{
 blue
 red
@@ -45,6 +69,9 @@ Cliff has a yellow puppy.
 The yellow puppy ran.
 Madame Violetta, a classically singing teacher, instructs a student on how to sing "Be-Bop-a-Lula," which is ultimately delivered in comic clucks and barks interspersed with coloratura flashes.
 puppy dog cat kitten
+J. Brendan Murphy, a specialist on tectonic cycles at St. Francis Xavier University in Nova Scotia, echoed that view.
+J. Brendan Murphy, a specialist on tectonic cycles at St Francis Xavier University in Nova Scotia, echoed that view.
+J. Brendan Murphy, a specialist on tectonic cycles at St. Edward's University in Nova Scotia, echoed that view.
 """
   val chunker = new OpenNlpChunker()
   def process(text: String): Sentence with Chunked with Lemmatized = {
