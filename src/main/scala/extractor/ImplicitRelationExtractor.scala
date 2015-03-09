@@ -11,6 +11,7 @@ import edu.knowitall.tool.stem.MorphaStemmer
 import edu.knowitall.tool.typer.Type
 import edu.stanford.nlp.ling.{Sentence, _}
 import edu.stanford.nlp.parser.lexparser.LexicalizedParser
+import edu.stanford.nlp.trees
 import edu.stanford.nlp.trees._
 import utils.{ExtractionUtils, SerializationUtils}
 
@@ -78,11 +79,21 @@ class ImplicitRelationExtractor(
    * @return List[ImplicitRelation], list of relations extracted from the string.
    */
   def extractRelations(line: String): List[ImplicitRelation] = {
+/*
+    println()
+    println(line)
+
+
+*/
     // Process uses the same chunker.
     val tags = getTags(line)
     val tokens = getTokens(line)
     val (parse, tdl) = getParse(line)
 
+/*
+    println(s"tags $tags")
+
+*/
     // Add indices to the tree for the relation identifying phase.
     parse.indexLeaves()
 
@@ -97,12 +108,20 @@ class ImplicitRelationExtractor(
     val relations = implicitRelationsFromRawExtractions(
       parse, processedTdl, tokens, line, eeFn)
 
+/*
+    println(s"first relations $relations")
+
+*/
     // Add heads to extractions.
     addHeadsToExtractions(relations)
+
+//    println(s"heads ${relations.map(r => r.head)}")
 
     // Filter out extractions where the head word is the tag word.
     val headFiltered = removeSelfModifyingRelations(relations)
 
+//    println(s"head filtered $headFiltered")
+  
     // Add the full sentence to the results.
     headFiltered.foreach(nnr => nnr.sentence = line)
 
@@ -335,7 +354,9 @@ class ImplicitRelationExtractor(
   // TODO: Find the head during entity extraction so we have access to the parse tree and the proper index.
   def addHeadsToExtractions(extractions: List[ImplicitRelation]) {
     // Get heads of the extractions.
-    val headFinder = new SemanticHeadFinder()
+//    val headFinder = new SemanticHeadFinder()
+    val headFinder = new CollinsHeadFinder()
+//    val headFinder = new ModCollinsHeadFinder()
     extractions.foreach(rel => {
       val tree = getParse(rel.np.string)._1
       tree.indexLeaves()
