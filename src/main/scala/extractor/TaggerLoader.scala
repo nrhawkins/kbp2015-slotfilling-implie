@@ -56,9 +56,21 @@ object TaggerLoader {
      * @return String definitions of each class.
      */
     def createTaggerDefinition(classes: List[TagClass]): String = {
+      def punctuationSeparated(term: String) = {
+        val punct = Set[String](".", ",", "'", "\"")
+        var modified = term
+        for (p <- punct) {
+          val tokens = modified.split(p)
+          modified = tokens.mkString(s" $p")
+        }
+        modified
+      }
+
       def termsFromFile(file: String, caseInsensitive: Boolean): Set[String] = {
-        val result = Source.fromFile(file).getLines().map(term => term.trim)
+        // Trim and add versions with separated out apostrophies and periods.
+        val orig = Source.fromFile(file).getLines().map(term => term.trim)
           .filter(term => term != "").toSet
+        val result = orig ++ orig.map(term => punctuationSeparated(term))
         if (caseInsensitive) result.map(term => term.toLowerCase) else result
       }
 
