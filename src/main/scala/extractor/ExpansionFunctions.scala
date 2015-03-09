@@ -21,7 +21,8 @@ class ExpansionFunctions {
     "prep_of_no_dobj" ->  prepOfNoDobj, // not used.
     "conj_and_appos" -> conjAndAppos,
     "prep_of_no_punct" -> prepOfNoPunct,
-    "appos_no_and" -> apposNoAnd
+    "appos_no_and" -> apposNoAnd,
+    "nn_no_comma" -> nnNoComma
   )
 
   def prepareFunctions(id: String, idValue: IndexedString, rules: List[Rule],
@@ -181,4 +182,37 @@ class ExpansionFunctions {
     }
   }
 
+  private def nnNoComma(td: TypedDependency, rule: Rule): (TypedDependency, String, IndexedString) = {
+    val matchesRelation = td.reln().toString.equals("nn")
+    val matchesDep = rule.dep.equals(id) &&
+      tokens(idValue.index - 1).string.equals(td.dep.value()) &&
+      idValue.index == td.dep.index()
+    val matchesGov = rule.gov.equals(id) &&
+      tokens(idValue.index - 1).string.equals(td.gov.value()) &&
+      idValue.index == td.gov.index()
+    val result = matchesRelation && (matchesDep || matchesGov) && !(matchesDep && matchesGov)
+
+    // Find if there are any ands in between the two arguments.
+    val (max, min) = (
+      Math.max(td.gov.index, td.dep.index) - 1,
+      Math.max(Math.min(td.gov.index, td.dep.index) - 1, 0))
+    var foundComma = false
+    for (i <- min to max) {
+      if (tokens(i).string.equalsIgnoreCase(",") || tokens(i).string.equalsIgnoreCase("and")) {
+        foundComma = true
+      }
+    }
+
+    if (result && !foundComma) {
+      if (matchesDep) {
+        (td, rule.gov, new IndexedString(td.gov()))
+      } else if (matchesGov) {
+        (td, rule.dep, new IndexedString(td.dep()))
+      } else {
+        null
+      }
+    } else {
+      null
+    }
+  }
 }
