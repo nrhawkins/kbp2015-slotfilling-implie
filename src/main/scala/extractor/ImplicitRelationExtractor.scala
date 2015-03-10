@@ -362,8 +362,8 @@ class ImplicitRelationExtractor(
   def addHeadsToExtractions(extractions: List[ImplicitRelation]) {
     // Get heads of the extractions.
 //    val headFinder = new SemanticHeadFinder()
-    val headFinder = new CollinsHeadFinder()
-//    val headFinder = new ModCollinsHeadFinder()
+//    val headFinder = new CollinsHeadFinder()
+    val headFinder = new ModCollinsHeadFinder()
     extractions.foreach(rel => {
       val tree = getParse(rel.np.string)._1
       tree.indexLeaves()

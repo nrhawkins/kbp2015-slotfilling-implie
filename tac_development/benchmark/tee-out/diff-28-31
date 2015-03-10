@@ -1,0 +1,40 @@
+[0m[[33mwarn[0m] [0mThe global sbt directory is now versioned and is located at /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /homes/gws/genelkim/.sbt but not in /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
+[0m[[0minfo[0m] [0mLoading project definition from /projects/WebWare6/ImplIE/project[0m
+[0m[[33mwarn[0m] [0mThe global sbt directory is now versioned and is located at /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /homes/gws/genelkim/.sbt but not in /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
+[0m[[0minfo[0m] [0mSet current project to ImplIE (in build file:/projects/WebWare6/ImplIE/)[0m
+> runMain tac.TACDevelopmentRelationExtractorAndScoring[3G[Kvim src[3G[KrunMain tac.TACDevelopmentRelationExtractorAndScoring[3G[Kcompile[3G[KrunMain tac.TACDevelopmentRelationExtractorAndScoring[12G[Kesters.ExtractionScoringDiff 12 19[12G[Kac.TACDevelopmentRelationExtractorAndScoring[12G[Kesters.ExtractionScoringDiff 12 19[45G[K[44G[K[43G[K[42G[K[41G[K28-[43G[K 31
+[0m[[33mwarn[0m] [0mThe global sbt directory is now versioned and is located at /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /homes/gws/genelkim/.sbt but not in /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
+[0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
+[0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.10.2, 2.10.0, 2.10.1, 2.10.3) -> 2.10.4[0m
+[0m[[33mwarn[0m] [0mTo force scalaVersion, add the following:[0m
+[0m[[33mwarn[0m] [0m	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }[0m
+[0m[[33mwarn[0m] [0mRun 'evicted' to see detailed eviction warnings[0m
+[0m[[0minfo[0m] [0mRunning testers.ExtractionScoringDiff 28 31[0m
+es: Args length: 2
+es: Reading Scoring Report 1 and 2's Correct Extractions
+es: Scoring Report 1's Correct Extractions size: 4576
+es: Scoring Report 2's Correct Extractions size: 4648
+es: Scoring Report 1's Incorrect Extractions size: 649
+es: Scoring Report 2's Incorrect Extractions size: 667
+es: Reading Scoring Report 1 and 2's Summary Stat Tables
+Length Tokens:4
+Length Tokens:4
+es: Create MatchKey Sets to Find Diffs
+es: MK Correct SR1 size: 4576
+es: MK Correct SR2 size: 4648
+es: MK Incorrect SR1 size: 649
+es: MK Incorrect SR2 size: 667
+es: Opening files for diff scoring report
+Size of diffSR1 correct: 20
+Size of diffSR2 correct: 92
+Size of diffSR1 incorrect: 34
+Size of diffSR2 incorrect: 52
+es: Closing PrintWriters
+[0m[[32msuccess[0m] [0mTotal time: 1 s, completed Mar 9, 2015 1:37:59 AM[0m
+> 
