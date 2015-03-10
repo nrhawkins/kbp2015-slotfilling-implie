@@ -30,13 +30,14 @@ import scala.collection.mutable
 class ImplicitRelationExtractor(
     tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized],
     serializedTokenCacheFile: String = null,
-    serializedParseCacheFile: String = null) {
+    serializedParseCacheFile: String = null,
+    extractorConfig: String = "extractor.conf") {
 
   private case class ExpansionStep
     (step: TypedDependency, id: String,
      idValue: IndexedString, prev: TypedDependency)
 
-  val config = ConfigFactory.load("extractor.conf")
+  val config = ConfigFactory.load(extractorConfig)
 
   // Parser.
   private val PARSER_MODEL = config.getString("parser-model-file")
@@ -74,7 +75,7 @@ class ImplicitRelationExtractor(
   }
 
   /**
-   * Extracts implicit relations from a string.
+   * Extracts implicit relations from a string, and filters by the head noun.
    * @param line String, line of text to extract.
    * @return List[ImplicitRelation], list of relations extracted from the string.
    */
@@ -82,36 +83,10 @@ class ImplicitRelationExtractor(
 /*
     println()
     println(line)
-
-
 */
-    // Process uses the same chunker.
-    val tags = getTags(line)
-    val tokens = getTokens(line)
-    val (parse, tdl) = getParse(line)
 
-/*
-    println(s"tags $tags")
+    val relations = unfilteredExtractions(line)
 
-*/
-    // Add indices to the tree for the relation identifying phase.
-    parse.indexLeaves()
-
-    // Raw extractions in terms of typed dependency lists
-    val processedTdl = rawExtractionTDLs(tags, tdl, tokens)
-
-    // Look at EntityExtractionFunctions for alternate extraction methods.
-    val eeFn: EntityExtractionFunction =
-				EntityExtractionFunctions.smallestSubstring
-
-    // Refined results as noun to noun relations
-    val relations = implicitRelationsFromRawExtractions(
-      parse, processedTdl, tokens, line, eeFn)
-
-/*
-    println(s"first relations $relations")
-
-*/
     // Add heads to extractions.
     addHeadsToExtractions(relations)
 
@@ -121,12 +96,44 @@ class ImplicitRelationExtractor(
     val headFiltered = removeSelfModifyingRelations(relations)
 
 //    println(s"head filtered $headFiltered")
-  
+
     // Add the full sentence to the results.
     headFiltered.foreach(nnr => nnr.sentence = line)
 
     headFiltered
   }
+
+  /**
+   * Extracts implicit relations from a string.
+   * @param line String, line of text to extract.
+   * @return List[ImplicitRelation], list of relations extracted from the string.
+   */
+  def unfilteredExtractions(line: String): List[ImplicitRelation] = {
+    // Process uses the same chunker.
+    val tags = getTags(line)
+    val tokens = getTokens(line)
+    val (parse, tdl) = getParse(line)
+
+    // Add indices to the tree for the relation identifying phase.
+    parse.indexLeaves()
+
+    // Raw extractions in terms of typed dependency lists
+    val processedTdl = rawExtractionTDLs(tags, tdl, tokens)
+
+    // Look at EntityExtractionFunctions for alternate extraction methods.
+    val eeFn: EntityExtractionFunction =
+      EntityExtractionFunctions.smallestSubstring
+
+    // Refined results as noun to noun relations
+    val relations = implicitRelationsFromRawExtractions(
+      parse, processedTdl, tokens, line, eeFn)
+
+    // Add the full sentence to the results.
+    relations.foreach(nnr => nnr.sentence = line)
+
+    relations
+  }
+
 
   // Memoized tagger.
   def getTags(line: String): List[Type] = {
@@ -323,7 +330,7 @@ class ImplicitRelationExtractor(
   }
 
   // Constructs a mapping of relation patterns given the config object for those patterns.
-  private def constructRelationPatterns(relConfs: List[Config]): RelationPattern = {
+  protected def constructRelationPatterns(relConfs: List[Config]): RelationPattern = {
     def getRuleList(acc: List[Rule], rulesConf: List[Config]): List[Rule] = {
       rulesConf match {
         case Nil => acc
