@@ -23,6 +23,7 @@ object TaggerLoader {
   val no_tags_ignored_config = ConfigFactory.load("taggers/no-tags-ignored-tagger.conf")
   val corrected_cap_config = ConfigFactory.load("taggers/corrected-cap-tagger.conf")
   val uncorrected_cap_config = ConfigFactory.load("taggers/uncorrected-cap-tagger.conf")
+  val high_recall_config = ConfigFactory.load("taggers/high-recall-tagger.conf")
 
   val chunker = new OpenNlpChunker()
 
@@ -43,6 +44,7 @@ object TaggerLoader {
   def noTagsIgnoredTagger = memoizedTagger("no_tags_ignored", no_tags_ignored_config)
   def correctedCapTagger = memoizedTagger("corrected_cap", corrected_cap_config)
   def uncorrectedCapTagger = memoizedTagger("uncorrected_cap", uncorrected_cap_config)
+  def highRecallTagger = memoizedTagger("high_recall", high_recall_config)
 
   /**
    * Constructs a tagger from a tagger configuration.
