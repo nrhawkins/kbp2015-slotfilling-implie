@@ -1,6 +1,6 @@
-persian
-west Indian
-brazil
+Persian
+West Indian
+Brazil
 North America
 North American
 South America
@@ -11,3 +11,6 @@ Caribbean America
 Caribbean American
 Native American
 Cayman
+U.S.
+U.S.A
+EU
