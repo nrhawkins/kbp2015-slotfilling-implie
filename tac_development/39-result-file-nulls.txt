@@ -1,0 +1,51 @@
+Sentence Index	DocId	Sentence
+818	XIN_ENG_20080718.0237.LDC2009T13	Japan, Spain and Canada are also strong in the sport.
+1838	AFP_ENG_20070611.0604.LDC2009T13	It also has a credit card joint venture in Vietnam with the country's largest privately-owned commercial bank, Sacombank, as well as investments in Indonesia, the Philippines and Cambodia.
+2521	AFP_ENG_20070415.0098.LDC2009T13	After passing through strict security, visitors bowed four times -- at the feet, head and both sides of Kim's body -- as a revolutionary hymn played.
+2763	NYT_ENG_20080417.0200.LDC2009T13	Most want nothing to do with religious feuding and blame politicians for the ungodly messes going on in Iraq, Palestine, Afghanistan and elsewhere.
+2881	CNA_ENG_20070528.0041.LDC2009T13	Scores of new media artists from Taiwan, Australia and France are taking part in a series of activities in Taipei to exchange ideas in the area of new media arts.
+3291	AFP_ENG_20070224.0397.LDC2009T13	Bush is scheduled to travel to Brazil, Uruguay, Colombia, Guatemala and Mexico between March 8-14.
+3578	APW_ENG_20081031.1009.LDC2009T13	The rating puts Argentina on par with Bolivia, Paraguay and Ecuador in the region.
+3760	NYT_ENG_20080330.0100.LDC2009T13	We know what's on the line, all 20 guys are playing hard and that's the best thing it's done.
+4025	NYT_ENG_20081217.0168.LDC2009T13	Other topics discussed at the meeting in Chicago included Afghanistan, Pakistan, the Middle East, the detainees at Guantanamo Bay and how the national security policy-making process in the Obama administration would work.
+5039	APW_ENG_20070117.1688.LDC2009T13	The first attack killed the top U.N. envoy in Iraq, Sergio Vieira de Mello, and 21 others.
+5359	APW_ENG_20070630.0255.LDC2009T13	Protests also have been made by the European Union, Japan and India.
+6211	LTW_ENG_20080715.0045.LDC2009T13	--The Painter, the Cook and the Art of Cucina by Anna Del Conte.
+6446	XIN_ENG_20070917.0192.LDC2009T13	The PLO, Syria and Lebanon must be part of the conference, Khaled put it explicitly.
+7581	APW_ENG_20070224.0104.LDC2009T13	We have closed the valves on the storm and sewer drains and we are going to wait until the area stabilizes before going down there to evaluate, but in the meantime the mouth of the hole will certainly become larger, said Alvaro Rodas, the director of social development for Guatemala City.
+7861	CNA_ENG_20071204.0045.LDC2009T13	Besides working with the AvH, the NSC is also planning to approach academic institutes in Canada, the U.K. and Japan for possible future cooperation in a similar vein.
+8069	LTW_ENG_20080215.0053.LDC2009T13	In affluent Hong Kong, Guangzhou and Macau, they want their dead to live a good afterlife, sending lavish models of paper villas with manicured gardens, cutouts of security guards and full-size replicas of BMW motorcycles up in flames.
+8396	XIN_ENG_20080121.0327.LDC2009T13	Israel has been paired with Russia, Romania, and Australia in Group A, while Group B includes France, the Netherlands, Serbia and Greece.
+8825	AFP_ENG_20070916.0296.LDC2009T13	Other hospitals on the island said they were treating people from the Netherlands, Sweden and Thailand.
+9874	AFP_ENG_20081210.0089.LDC2009T13	Other first-round sites find the US, Canada, Italy and Venezuela at Toronto
+10675	XIN_ENG_20070704.0229.LDC2009T13	The visit, lasting from July 4 to 18, will take Madam Gu to Dominica, Grenada, Guyana and Argentina.
+10709	APW_ENG_20070906.0497.LDC2009T13	The trilateral dialogue between Australia, Japan and the U.S. is not directed at anyone, anymore than the strategic dialogue I have just announced between Australia and China is not directed at anyone, Howard said.
+10710	APW_ENG_20070906.0497.LDC2009T13	Officials have not elaborated on the particular security concerns Australia, Japan and the U.S. will address, beyond saying they were issues of common interest.
+11755	APW_ENG_20080910.1242.LDC2009T13	Armenia, Estonia, Spain and Bosnia-Herzegovina are also in group 5.
+12164	APW_ENG_20070530.1322.LDC2009T13	The quartet -- Russia, the United States, the UN and the European Union -- met Wednesday in Berlin and issued a statement urging all Palestinians to immediately renounce all acts of violence and respect the ceasefire.
+12190	XIN_ENG_20080502.0172.LDC2009T13	The international tournament would take place in different cities in Chile between November 19 and December 7 this year and will come together 16 countries like Germany, Brazil, China, France, England and Japan.
+12260	NYT_ENG_20080820.0167.LDC2009T13	Maine, Massachusetts, Michigan and New Hampshire are at the forefront of this trend, and Vermont is now making its move.
+13155	XIN_ENG_20081117.0095.LDC2009T13	About 30,000 properties across Brisbane, Redcliffe and the Gold Coast were without power on Monday afternoon after Sunday's storm brought hail and wind gusts of up to 130km/h, unroofed homes and toppled power lines and trees.
+13163	AFP_ENG_20070510.0580.LDC2009T13	Only Portugal, Lithuania and Latvia have worse records, according to a recent report.
+13478	APW_ENG_20080227.0701.LDC2009T13	Attacks on journalists in the Philippines are undermining press freedom and putting the country's democracy under siege, the country's Supreme Court chief justice warned Wednesday.
+13491	APW_ENG_20080227.0701.LDC2009T13	The chief justice said only one of 33 cases filed in connection with the killings of journalists has been resolved.
+14375	APW_ENG_20070808.1054.LDC2009T13	Police boosted security on trains in northeast France on Wednesday after receiving a tip about a suspected terrorist threat to the rail line between Basel, Switzerland and Luxembourg, police and prosecutors said.
+15334	APW_ENG_20081010.0035.LDC2009T13	Germany, Spain and others are concerned that a counter-narcotics campaign could spark a backlash against the 50,000 NATO troops even if, as NATO commanders insist, the campaign will not target poor farmers who depend on growing opium poppies for a living.
+15664	APW_ENG_20070623.0029.LDC2009T13	Saniora, backed by the anti-Syrian parliamentary majority, the United States and the West, has refused to step down.
+15760	LTW_ENG_20071015.0003.LDC2009T13	The concrete behemoth serves 129,000 vets from West Virginia, Maryland, Virginia and Pennsylvania.
+16767	XIN_ENG_20080331.0148.LDC2009T13	During the April 2-4 meeting, NATO members will consider whether to grant Croatia, Albania and Macedonia memberships.
+18276	APW_ENG_20070420.1288.LDC2009T13	Italy, Greece and Portugal are still running deficits above the 3 percent level set by rules designed to keep the shared currency stable.
+18322	APW_ENG_20070215.1376.LDC2009T13	They created new lives for themselves in Salt Lake City, relatives said.
+19565	XIN_ENG_20070206.0133.LDC2009T13	The province gained double-digit growth in its trade with the European Union(EU), the United States and Japan.
+19575	APW_ENG_20080107.1008.LDC2009T13	All, with the exception of Hairspray, were also contenders for best picture, along with American Gangster, The Diving Bell and the Butterfly, The Kite Runner and There Will Be Blood.
+19609	AFP_ENG_20081016.0698.LDC2009T13	The milk ingredients were sourced only from Australia, Holland and Canada, the company said in a statement.
+19715	APW_ENG_20071220.0775.LDC2009T13	All other ex-Yugoslav nations, as well as their Balkan neighbor Albania, have concluded pre-membership agreements with the EU.
+19720	APW_ENG_20071220.0775.LDC2009T13	The Yugoslav federation started falling apart in 1991, with wars in Slovenia, Croatia and Bosnia.
+20061	AFP_ENG_20071207.0057.LDC2009T13	Other outbreaks have been recorded in Ivory Coast, Gabon and Uganda.
+20200	NYT_ENG_20080508.0246.LDC2009T13	On Tuesday, the day the proposed salary increase became public, Cohen sat in his oak-paneled office and in an interview defended the high school, the override, and his reputation.
+21185	APW_ENG_20080828.0744.LDC2009T13	Cuba, Haiti and the Dominican Republic were still getting heavy rain Thursday, and rising waters damaged many homes.
+21304	XIN_ENG_20081118.0182.LDC2009T13	Mercosur was founded in 1991 by Brazil, Argentina, Uruguay and Paraguay.
+21306	XIN_ENG_20081118.0182.LDC2009T13	The bloc's associate members include Bolivia, Chile, Colombia, Peru and Ecuador.
+21701	APW_ENG_20070717.0848.LDC2009T13	The White House has used the reports as evidence that the country must continue to go after al-Qaida in Iraq, Afghanistan and elsewhere.
+21787	APW_ENG_20081017.0820.LDC2009T13	Australia, Singapore and South Korea also closed lower.
+21933	LTW_ENG_20080311.0119.LDC2009T13	The shuttle is carrying up part of a Japanese-made laboratory that will ultimately join labs produced by the United States, Russia and the European Space Agency that are already attached to the orbiting station.
