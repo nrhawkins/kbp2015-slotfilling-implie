@@ -3,7 +3,8 @@ package extractor
 import edu.knowitall.tool.chunk.ChunkedToken
 
 /**
- * Created by Gene on 3/1/2015.
+ * Simple relation filtering functions that don't depend on another system
+ * such as NER tagging or WordNet.
  */
 trait BasicFilterFunctions {
   def getTokens(line: String): Seq[ChunkedToken]
