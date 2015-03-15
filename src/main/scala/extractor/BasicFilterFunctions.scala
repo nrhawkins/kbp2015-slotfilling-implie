@@ -104,4 +104,11 @@ trait BasicFilterFunctions {
       !r.np.string.replaceAll("[\\p{Punct}]", "").toLowerCase.equals(r.tag.text.toLowerCase)
     )
   }
+
+  // NOTE: currently unused.
+  def filterTooManyCommas(src: String, relations: List[ImplicitRelation]) = {
+    relations.filter(r =>
+      r.np.string.count(char => char == ',') > 2
+    )
+  }
 }
