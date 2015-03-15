@@ -30,9 +30,10 @@ import scala.collection.mutable
 class ImplicitRelationExtractorNoLists(
     tagger: TaggerCollection[sentence.Sentence with Chunked with Lemmatized],
     serializedTokenCacheFile: String = null,
-    serializedParseCacheFile: String = null) 
+    serializedParseCacheFile: String = null,
+    extractorConfig: String = "extractor.conf")
     extends ImplicitRelationExtractor(
-    tagger, serializedTokenCacheFile, serializedParseCacheFile) 
+    tagger, serializedTokenCacheFile, serializedParseCacheFile, extractorConfig)
     with NERFilterByTagNER {
 
   val nerConfig = ConfigFactory.load("filter-by-tag-ner-types.conf")
@@ -48,7 +49,6 @@ class ImplicitRelationExtractorNoLists(
    * @return List[ImplicitRelation], list of relations extracted from the string.
    */
   override def extractRelations(line: String): List[ImplicitRelation] = {
-    
     val implicitRelations = super.extractRelations(line)
     //val taggedNERs = tagNERs(implicitRelations, line)
     
@@ -63,14 +63,28 @@ class ImplicitRelationExtractorNoLists(
     }) */
     
     //Filter the implicitRelations, exclude ones which have lists in the entity
+    println(s"initial extractions $implicitRelations")
 
     //filterNoLists(implicitRelations)
     val relationsNoLists = filterNoLists(implicitRelations)
+
+    println(s"after filtering out lists $relationsNoLists")
 
     //filterNERs(implicitRelations)
     
     filterNERsByTag(line, relationsNoLists, NER_TAGS_TO_IGNORE, expectedEntities)
     
+  }
+
+  /**
+   * Extracts implicit relations from a string without filtering by head.
+   * @param line String, line of text to extract.
+   * @return List[ImplicitRelation], list of relations extracted from the string.
+   */
+  def headUnfilteredExtractions(line: String): List[ImplicitRelation] = {
+    val relations = super.unfilteredExtractions(line)
+    val relationsNoLists = filterNoLists(relations)
+    filterNERsByTag(line, relationsNoLists, NER_TAGS_TO_IGNORE, expectedEntities)
   }
 
   // -----------------------------------------------------------------------
@@ -84,8 +98,8 @@ class ImplicitRelationExtractorNoLists(
   def filterNoLists(relations: List[ImplicitRelation]): List[ImplicitRelation] = {
 
     val relationsFiltered = for(rel <- relations) yield{      
-      
-      rel.explicitRelationTraces.foreach(ert => { 
+
+      rel.explicitRelationTraces.foreach(ert => {
         
          var countConjAnd = 0
          var countAppos = 0  
