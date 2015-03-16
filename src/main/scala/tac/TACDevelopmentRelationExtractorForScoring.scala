@@ -5,6 +5,7 @@ import java.nio.file.{Paths, Files}
 
 import com.typesafe.config.ConfigFactory
 import extractor.{FormalConstrainedImplIE, ImplicitRelationExtractor, NERFilteredIRE, TaggerLoader, ImplicitRelationExtractorNoLists}
+import evaluation.Extraction
 
 import scala.io.Source
 
@@ -14,13 +15,19 @@ import scala.io.Source
  *
  * Results are tab-delimited for easy processing and reading from a spreadsheet
  * program.
- * 
+ *
  * Gets sequence number from a file, and uses it in the name of the results file.
  * Increments that sequence number.
- * 
+ *
  */
 object TACDevelopmentRelationExtractorForScoring {
-  
+  def main(args: Array[String]) {
+    // Add config to arguments.
+    val config = "tac-extractor-for-scoring.conf"
+    val newargs = config +: args
+    Extraction.main(newargs)
+  }
+/*
   case class InputLine(index: Int, docid: String, sentence: String)
 
   val config = ConfigFactory.load("tac-extractor-for-scoring.conf")
@@ -33,9 +40,9 @@ object TACDevelopmentRelationExtractorForScoring {
   val nullFileSuffix = config.getString("null-result-file-suffix")
 
   // Use the fact that the current sequence number should be the one in the file
-  // Later in this file, when creating the output file, 
-  // increment the number in the seqFilename for the next run 
-  val seq = getSeqNum(seqFilename) 
+  // Later in this file, when creating the output file,
+  // increment the number in the seqFilename for the next run
+  val seq = getSeqNum(seqFilename)
 
   def main(args: Array[String]) {
     // NOTE: very hacky arguments.
@@ -66,7 +73,7 @@ object TACDevelopmentRelationExtractorForScoring {
                              ((acc, cur) => acc + s"\t$cur"))
         result
       }
-    
+
     println("Loading Extractor.")
     val relationExtractor =
 //      new ImplicitRelationExtractor(
@@ -106,7 +113,7 @@ object TACDevelopmentRelationExtractorForScoring {
 
 
   def input = {
-    
+
     // Always read from the 0-sentence-file
     val inputFilename = sentenceDir + sentenceFileSuffix
     //val inputFilename = sentenceDir + seq + sentenceFileSuffix
@@ -162,7 +169,7 @@ object TACDevelopmentRelationExtractorForScoring {
   }
 
   def subsetInput(min: Int, max: Int) = {
-    
+
     // Always read from the 0-sentence-file
     val inputFilename = sentenceDir + sentenceFileSuffix
     //val inputFilename = sentenceDir + seq + sentenceFileSuffix
@@ -190,12 +197,12 @@ object TACDevelopmentRelationExtractorForScoring {
       sys.exit(1)
     }
 
-    // If not, 
+    // If not,
     // increment number in sequence-file
     new PrintWriter(seqFilename).append(s"${seq + 1}").close()
-    // create new results file with the given sequence num.    
+    // create new results file with the given sequence num.
     (new PrintWriter(outFilename), new PrintWriter(nullOutFilename))
-    
+
   }
 
   def appendOutputs(sequenceNum: Int) = {
@@ -210,4 +217,5 @@ object TACDevelopmentRelationExtractorForScoring {
   // so we take one less than what is recorded there.
   def getSeqNum(sequenceFile: String) = Source.fromFile(sequenceFile)
     .getLines().next().trim.toInt
+*/
 }

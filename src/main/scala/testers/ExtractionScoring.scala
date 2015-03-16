@@ -10,6 +10,9 @@ import com.typesafe.config.ConfigFactory
 
 import extractor._
 
+import evaluation.Scoring
+
+
 /**
  * Main method takes: 
  * 1) an extractions file 
@@ -22,7 +25,12 @@ import extractor._
  */
 
 object ExtractionScoring {
-
+  def main(args: Array[String]) {
+    val config = "extraction-scoring.conf"
+    val newargs = config +: args
+    Scoring.main(newargs)
+  }
+/*
   // ------------------------------------------------------------------------
   // AnswerKeyItem fields:
   // 1)SentenceIndex 2)DocId 3)Entity(NP) 4)Relation 
@@ -517,4 +525,5 @@ object ExtractionScoring {
       }
     surroundingRemoved.replaceAll("\"\"", "\"")
   }
+*/
 }
