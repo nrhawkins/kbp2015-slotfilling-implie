@@ -63,12 +63,12 @@ class ImplicitRelationExtractorNoLists(
     }) */
     
     //Filter the implicitRelations, exclude ones which have lists in the entity
-    println(s"initial extractions $implicitRelations")
+    //println(s"initial extractions $implicitRelations")
 
     //filterNoLists(implicitRelations)
     val relationsNoLists = filterNoLists(implicitRelations)
 
-    println(s"after filtering out lists $relationsNoLists")
+    //println(s"after filtering out lists $relationsNoLists")
 
     //filterNERs(implicitRelations)
     
