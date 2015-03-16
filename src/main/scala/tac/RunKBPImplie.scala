@@ -109,11 +109,19 @@ object RunKBPImplie {
           println("Query: " + query.id)
 		  println("Size All Documents: " + relevantDocs.size)         
 	  
+		  var allRelevantCandidates: Seq[Candidate] = Nil
+  		      
+  		  val queryFullName = query.name
+  		  val queryLastName = queryFullName.split(" ").last
+  		      
+  		  println("QueryFullName: " + queryFullName)
+  		  println("QueryLastName: " + queryLastName)
+		  
+  		  val slots = query.slotsToFill 		      
+		  println("Slots: " + slots.size)
+  		  
 		  try{
-
-  		      val slots = query.slotsToFill 		      
-		      println("Slots: " + slots.size)
-
+		    
               // ---------------------------------------
   		      // Get the sentences for Implie
               // ---------------------------------------  		      
@@ -122,18 +130,7 @@ object RunKBPImplie {
   		          processDocuments(relevantDocs)  		        
 		      }  		      
   		      
-  		      //for(doc <- documents)
-  		      
-  		      println("Number of Annotated Documents: " + documents.size)
-  		      
-  		      var allRelevantCandidates: Seq[Candidate] = Nil
-  		      
-  		      val queryFullName = query.name
-  		      val queryLastName = queryFullName.split(" ").last
-  		      
-  		      println("QueryFullName: " + queryFullName)
-  		      println("QueryLastName: " + queryLastName)
-
+  		      println("Number of Annotated Documents: " + documents.size)  		        		      
   		      
   		      for(doc <- documents){  
   		        
@@ -154,20 +151,7 @@ object RunKBPImplie {
                   if(relevantCandidates.size > 0)
   		            allRelevantCandidates = allRelevantCandidates ++ relevantCandidates  
                   
-  		        }
-                                
-                //val relevantCandidates = FilterExtractionResults.filterResults(FilterExtractionResults.wrapWithCandidate(extractions), query, document)
-                
-	  	        println("SubstituteKBPRelations")    	
-		        val kbpAllRelevantCandidates = substituteKBPRelations(allRelevantCandidates, query)
-              
-		        println("Make Slot Map - Best Answers")		      
-		        val bestAnswers = slots map { slot => ( slot, SelectBestAnswers.reduceToMaxResults(slot, kbpAllRelevantCandidates.filter(_.extr.getRel() == slot.name)) ) } toMap
-
-		        println("bestAnswers size: " + bestAnswers.size)
-		        
-		        outFmt.printAnswers(bestAnswers, query)
-		      		        
+  		        }	        
   		      }
 		  }
 	      catch {case e: Exception => 
@@ -175,10 +159,31 @@ object RunKBPImplie {
 	         println("EXCEPTION: " + query.id + " " + query.name) 
 	         outFmt.printEmpty(query)
 	        }	  
-	      }		    		  
+	      }		
+	      
+	     //val relevantCandidates = FilterExtractionResults.filterResults(FilterExtractionResults.wrapWithCandidate(extractions), query, document)
+                
+	  	 println("SubstituteKBPRelations")    	
+		 val kbpAllRelevantCandidates = substituteKBPRelations(allRelevantCandidates, query)
+              
+	     println("Make Slot Map - Best Answers")		      
+		 val bestAnswers = slots map { slot => ( slot, SelectBestAnswers.reduceToMaxResults(slot, kbpAllRelevantCandidates.filter(_.extr.getRel() == slot.name)) ) } toMap
+
+		 println("bestAnswers size: " + bestAnswers.size)
+		        
+		 outFmt.printAnswers(bestAnswers, query) 
 		  
-	      println("Finished, going to next query")	    
+	     println("Finished, going to next query")	    
 	  }   	  
+    
+    
+    println("Finished with Queries")
+	  
+    outputStream.close()
+	  
+    println("Closed outputStreams")
+    
+    
   }
 
   def substituteKBPRelations(candidates: Seq[Candidate], query: KBPQuery): Seq[Candidate] = {
