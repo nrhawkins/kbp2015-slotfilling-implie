@@ -1,6 +1,6 @@
 package tac
 
-import testers.{ExtractionScoring}
+import testers.ExtractionScoring
 
 /**
  * Wrapper class to call: 
