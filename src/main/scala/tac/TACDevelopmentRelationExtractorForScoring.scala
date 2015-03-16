@@ -4,7 +4,7 @@ import java.io.{FileWriter, BufferedWriter, PrintWriter}
 import java.nio.file.{Paths, Files}
 
 import com.typesafe.config.ConfigFactory
-import extractor.{FormalConstrainedImplIE, ImplicitRelationExtractor, NERFilteredIRE, TaggerLoader, ImplicitRelationExtractorNoLists}
+import extractor._
 
 import scala.io.Source
 
@@ -70,11 +70,13 @@ object TACDevelopmentRelationExtractorForScoring {
     println("Loading Extractor.")
     val relationExtractor =
 //      new ImplicitRelationExtractor(
-      new ImplicitRelationExtractorNoLists(
-//        new FormalConstrainedImplIE(
-        TaggerLoader.defaultTagger,
+//      new ImplicitRelationExtractorNoLists(
+//      new ImplIEWithBasicFilters(
 //      new FormalConstrainedImplIE(
-//        TaggerLoader.noTagsIgnoredTagger,
+//					TaggerLoader.defaultTagger,
+//			new HighRecallImplIE(
+			new ModHighRecallImplIE(
+				TaggerLoader.highRecallTagger,
         config.getString("tokenization-cache"),
         config.getString("parse-cache"))
 
