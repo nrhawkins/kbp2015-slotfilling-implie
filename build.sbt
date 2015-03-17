@@ -13,6 +13,7 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.2.1",
   "edu.mit" % "jwi" % "2.2.3",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.5.0",
+  "edu.stanford.nlp" % "stanford-corenlp" % "3.5.0" classifier "models",
   "edu.stanford.nlp" % "stanford-parser" % "3.5.0",
   "edu.washington.cs.knowitall.nlptools" % "nlptools-wordnet-uw_2.10" % "2.4.5",
   "edu.washington.cs.knowitall.taggers" % "taggers-core_2.10" % "0.4",

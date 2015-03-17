@@ -418,7 +418,8 @@ object RunKBPImplie {
     try{
       val rawDoc = SolrHelper.getRawDoc(docName)
       val processedDoc = new Annotation(rawDoc)
-      annotatorHelper.getBasicPipeline().annotate(processedDoc)
+      //annotatorHelper.getBasicPipeline().annotate(processedDoc)
+      annotatorHelper.getCorefPipeline().annotate(processedDoc)
       println("Document was Stanford Annotated")
       Some(processedDoc)
     }

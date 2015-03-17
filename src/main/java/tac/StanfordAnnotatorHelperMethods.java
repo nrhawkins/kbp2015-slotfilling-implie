@@ -1,7 +1,7 @@
 package tac;
 
-import java.io.File;
-import java.io.FileInputStream;
+//import java.io.File;
+//import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
@@ -11,30 +11,30 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.regex.Pattern;
 
-import org.apache.commons.io.IOUtils;
+//import org.apache.commons.io.IOUtils;
 
 import edu.knowitall.collection.immutable.Interval;
 import edu.stanford.nlp.ling.CoreAnnotations.*;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import edu.stanford.nlp.time.TimeAnnotations.TimexAnnotation;
+//import edu.stanford.nlp.time.TimeAnnotations.TimexAnnotation;
 import edu.stanford.nlp.time.Timex;
 import edu.stanford.nlp.util.CoreMap;
-import edu.stanford.nlp.dcoref.CorefChain;
+//import edu.stanford.nlp.dcoref.CorefChain;
 import edu.stanford.nlp.dcoref.CorefChain.CorefMention;
 import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefChainAnnotation;
-import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefClusterIdAnnotation;
-import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefGraphAnnotation;
-import edu.stanford.nlp.ling.CoreAnnotations.*;
-import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import edu.stanford.nlp.time.TimeAnnotations.TimexAnnotation;
-import edu.stanford.nlp.time.Timex;
-import edu.stanford.nlp.util.CoreMap;
+//import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefClusterIdAnnotation;
+//import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefGraphAnnotation;
+//import edu.stanford.nlp.ling.CoreAnnotations.*;
+//import edu.stanford.nlp.ling.CoreLabel;
+//import edu.stanford.nlp.pipeline.Annotation;
+//import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+//import edu.stanford.nlp.time.TimeAnnotations.TimexAnnotation;
+//import edu.stanford.nlp.time.Timex;
+//import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.IntTuple;
-import edu.stanford.nlp.util.Pair;
+//import edu.stanford.nlp.util.Pair;
 //import edu.washington.cs.knowitall.kbp2014.multir.slotfiller.util.DocUtils;
 
 
@@ -43,9 +43,9 @@ public class StanfordAnnotatorHelperMethods {
 	
 	private final StanfordCoreNLP basicPipeline;
 	//private final  StanfordCoreNLP suTimePipeline;
-	//private final  StanfordCoreNLP corefPipeline;
+	private final  StanfordCoreNLP corefPipeline;
 	//private final StanfordCoreNLP chinesePipeline;
-	private String filePath = "/homes/gws/jgilme1/docs/";
+	//private String filePath = "/homes/gws/jgilme1/docs/";
 	private Map<String,Annotation> corefAnnotationMap;
 	private Map<String,Annotation> suTimeAnnotationMap;
 	
@@ -65,13 +65,13 @@ public class StanfordAnnotatorHelperMethods {
 		this.suTimePipeline = new StanfordCoreNLP(suTimeProps);
 		*/
 		
-		/*Properties corefProps = new Properties();
+		Properties corefProps = new Properties();
 	    corefProps.put("annotators", "tokenize, cleanxml, ssplit, pos, lemma, ner, parse, dcoref");
-	    corefProps.put("clean.allowflawedxml", "true");
-	    corefProps.put("ner.useSUTime", "false");
+	    //corefProps.put("clean.allowflawedxml", "true");
+	    //corefProps.put("ner.useSUTime", "false");
 	    //clean all xml tags
 		this.corefPipeline = new StanfordCoreNLP(corefProps);
-        */
+        
 		
 		/*Properties chineseProps = new Properties(); 	    
 	    chineseProps.put("annotators", "segment, ssplit, pos, ner");
@@ -108,7 +108,7 @@ public class StanfordAnnotatorHelperMethods {
 	
 	public StanfordCoreNLP getBasicPipeline(){return basicPipeline;}
 	//public StanfordCoreNLP getChinesePipeline(){return chinesePipeline;}
-	//public StanfordCoreNLP getCorefPipeline(){return corefPipeline;}
+	public StanfordCoreNLP getCorefPipeline(){return corefPipeline;}
 	
 	public static void main(String[] args) throws FileNotFoundException, IOException{
 		StanfordAnnotatorHelperMethods sh = new StanfordAnnotatorHelperMethods();
