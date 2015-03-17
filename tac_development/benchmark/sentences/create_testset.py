@@ -7,7 +7,7 @@ benchmark_sents = 'benchmark-subset-sentence-file'
 
 elsefile = 'non-benchmark-sentence-file'
 testfile = 'test-sentence-file'
-test_size = 2000
+test_size = 8000
 
 allsenfile = file(all_sents, 'r')
 bensenfile = file(benchmark_sents, 'r')
