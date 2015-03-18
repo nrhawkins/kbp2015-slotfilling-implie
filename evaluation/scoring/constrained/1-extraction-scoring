@@ -1,0 +1,27 @@
+Input Files: 
+   Extractions File: evaluation/results/constrained/1-result-file
+   Answer Key File: evaluation/scoring/constrained/0-answer-key.txt
+Output Files: 
+   Scoring Report: evaluation/scoring/constrained/1-extraction-scoring
+   New Answer Key: evaluation/scoring/constrained/1-answer-key-untagged.txt
+
+
+Correct Extractions ------------------------------------------------
+
+SentenceIndex	DocumentId	Entity	Relation	Slotfill(tag)	Correct	Incorrect	Sentence
+
+
+Incorrect Extractions ------------------------------------------------
+
+SentenceIndex	DocumentId	Entity	Relation	Slotfill(tag)	Correct	Incorrect	Sentence
+
+Number of Extractions: 1044
+Number of Tagged Extractions: 0
+Number of Untagged Extractions: 1044
+Number of AnswerKeyItems: 0
+Number of AnswerKeyItems Correct: 0
+Number of AnswerKeyItems Incorrect: 0
+
+   Correct		 Incorrect		 Precision		  Relation
+
+         0		         0		       NaN		total
