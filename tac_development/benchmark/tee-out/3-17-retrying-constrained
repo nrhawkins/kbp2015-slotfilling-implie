@@ -6,7 +6,7 @@
 [0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /homes/gws/genelkim/.sbt but not in /homes/gws/genelkim/.sbt/0.13.[0m
 [0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
 [0m[[0minfo[0m] [0mSet current project to ImplIE (in build file:/projects/WebWare6/ImplIE/)[0m
-> runMain evaluation.EvaluationExtractionAndScoring[3G[Kcompile[3G[KrunMain tac.TACDevelopmentRelationExtractorAndScoring
+> runMain evaluation.EvaluationExtractionAndScoring
 [0m[[33mwarn[0m] [0mThe global sbt directory is now versioned and is located at /homes/gws/genelkim/.sbt/0.13.[0m
 [0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /homes/gws/genelkim/.sbt but not in /homes/gws/genelkim/.sbt/0.13.[0m
 [0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
@@ -15,66 +15,111 @@
 [0m[[33mwarn[0m] [0mTo force scalaVersion, add the following:[0m
 [0m[[33mwarn[0m] [0m	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }[0m
 [0m[[33mwarn[0m] [0mRun 'evicted' to see detailed eviction warnings[0m
-[0m[[0minfo[0m] [0mRunning tac.TACDevelopmentRelationExtractorAndScoring [0m
+[0m[[0minfo[0m] [0mRunning evaluation.EvaluationExtractionAndScoring [0m
 wrapper: Extracting Results
 Loading Extractor.
-Loading serialized tokenized sentences...[2.377 sec]
-Loading serialized parses...[729.060 sec]
+Loading serialized tokenized sentences...[0.001 sec]
+Loading serialized parses...[0.002 sec]
 Extracting Sentences.
-5221 sentences to process.
-Sentence 200 processed.
-Sentence 500 processed.
-Sentence 1000 processed.
-Sentence 1300 processed.
-Sentence 1400 processed.
-Sentence 1500 processed.
-Sentence 1600 processed.
-Sentence 2300 processed.
-Sentence 2600 processed.
-Sentence 2800 processed.
-Sentence 3600 processed.
-Sentence 3700 processed.
-Sentence 3800 processed.
-Sentence 4200 processed.
-Sentence 4600 processed.
-Sentence 5200 processed.
-Sentence 7000 processed.
-Sentence 7700 processed.
-Sentence 8400 processed.
-Sentence 8500 processed.
-Sentence 9200 processed.
-Sentence 9900 processed.
-Sentence 10500 processed.
-Sentence 10600 processed.
-Sentence 10700 processed.
-Sentence 11300 processed.
-Sentence 11400 processed.
-Sentence 12100 processed.
-Sentence 12900 processed.
-Sentence 13400 processed.
-Sentence 13700 processed.
-Sentence 14700 processed.
-Sentence 15600 processed.
-Sentence 16500 processed.
-Sentence 16800 processed.
-Sentence 17800 processed.
-Sentence 18600 processed.
-Sentence 19600 processed.
-Sentence 20000 processed.
-Sentence 20200 processed.
-Sentence 20600 processed.
-Sentence 20900 processed.
-Sentence 21000 processed.
-Sentence 21300 processed.
-Sentence 21600 processed.
+8500 sentences to process.
+Sentence 0 processed.
+Sentence 100 processed.
+Sentence 300 processed.
+Sentence 400 processed.
+Sentence 600 processed.
+Sentence 700 processed.
+Sentence 800 processed.
+Sentence 900 processed.
+Sentence 1700 processed.
+Sentence 1800 processed.
+Sentence 1900 processed.
+Sentence 2400 processed.
+Sentence 2500 processed.
+Sentence 3100 processed.
+Sentence 3200 processed.
+Sentence 4000 processed.
+Sentence 4800 processed.
+Sentence 5000 processed.
+Sentence 5500 processed.
+Sentence 5800 processed.
+Sentence 6000 processed.
+Sentence 6100 processed.
+Sentence 6200 processed.
+Sentence 6400 processed.
+Sentence 6500 processed.
+Sentence 6600 processed.
+Sentence 6800 processed.
+Sentence 6900 processed.
+Sentence 7200 processed.
+Sentence 7800 processed.
+Sentence 8000 processed.
+Sentence 8100 processed.
+Sentence 8200 processed.
+Sentence 8700 processed.
+Sentence 8800 processed.
+Sentence 9100 processed.
+Sentence 9300 processed.
+Sentence 9600 processed.
+Sentence 9800 processed.
+Sentence 10100 processed.
+Sentence 10400 processed.
+Sentence 10800 processed.
+Sentence 11000 processed.
+Sentence 11200 processed.
+Sentence 11500 processed.
+Sentence 11900 processed.
+Sentence 12000 processed.
+Sentence 12300 processed.
+Sentence 12400 processed.
+Sentence 12800 processed.
+Sentence 13100 processed.
+Sentence 13500 processed.
+Sentence 13900 processed.
+Sentence 14200 processed.
+Sentence 14300 processed.
+Sentence 14400 processed.
+Sentence 14500 processed.
+Sentence 14600 processed.
+Sentence 14800 processed.
+Sentence 14900 processed.
+Sentence 15000 processed.
+Sentence 15300 processed.
+Sentence 15400 processed.
+Sentence 15500 processed.
+Sentence 15700 processed.
+Sentence 16700 processed.
+Sentence 16900 processed.
+Sentence 17200 processed.
+Sentence 18000 processed.
+Sentence 18200 processed.
+Sentence 18300 processed.
+Sentence 18400 processed.
+Sentence 18500 processed.
+Sentence 18700 processed.
+Sentence 18800 processed.
+Sentence 19100 processed.
+Sentence 19500 processed.
+Sentence 20100 processed.
+Sentence 20300 processed.
+Sentence 20700 processed.
+Sentence 20800 processed.
+Sentence 21100 processed.
+Sentence 21500 processed.
 wrapper: Scoring Extractions
 es: Args length: 1
 es: Reading Extractions
-es: Extractions size: 2397
+es: Extractions size: 1044
 es: Reading Answer Key
-Sentence file tac_development/benchmark/scoring/constrained/4-answer-key.txt doesn't exist!  Exiting...
-java.lang.RuntimeException: Nonzero exit code: 1
-	at scala.sys.package$.error(package.scala:27)
-[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:runMain[0m for the full output.[0m
-[0m[[31merror[0m] [0m(compile:[31mrunMain[0m) Nonzero exit code: 1[0m
-[0m[[31merror[0m] [0mTotal time: 903 s, completed Mar 17, 2015 12:47:15 PM[0m
+es: AKI size: 0
+es: Building Answer Key
+es: AK Correct size: 0
+es: AK Incorrect size: 0
+es: MK Correct size: 0
+es: MK Incorrect size: 0
+es: Opening files for scoring report and new extractions
+es: Scoring Extractions
+es: Writing Scoring Report
+es: Number of Correct Extractions: 0
+es: Number of Incorrect Extractions: 0
+es: Closing PrintWriters
+[0m[[32msuccess[0m] [0mTotal time: 3858 s, completed Mar 17, 2015 5:13:01 PM[0m
