@@ -2,7 +2,7 @@ package experimenting
 
 import java.io.PrintWriter
 
-import extractor.{ImplicitRelationExtractor, TaggerLoader, ImplicitRelationExtractorNoLists}
+import extractor._
 import utils.ExtractionFormatUtils
 
 import scala.collection.mutable
@@ -17,8 +17,12 @@ object VerboseExtractor {
 
   def main(args: Array[String]) {
     val tagger = TaggerLoader.defaultTagger
+    val recallTagger = TaggerLoader.highRecallTagger
 //    val extractor = new ImplicitRelationExtractor(tagger)
-    val extractor = new ImplicitRelationExtractorNoLists(tagger)
+//    val extractor = new ImplicitRelationExtractorNoLists(tagger)
+//    val extractor = new ImplIEWithBasicFilters(tagger)
+//    val extractor = new FormalConstrainedImplIE(tagger)
+    val extractor = new HighRecallImplIE(recallTagger)
     val out = new PrintWriter(outputFile)
 
     for (sentence <- Source.fromFile(sentenceFile).getLines()) {
@@ -30,6 +34,7 @@ object VerboseExtractor {
         out.println(s"\ttrace:${extraction.relationTrace}")
         out.println(extraction.ners)
         out.println(extraction.explicitRelationTraces)
+        out.println(extraction.head)
       }
 
       // tag hops
