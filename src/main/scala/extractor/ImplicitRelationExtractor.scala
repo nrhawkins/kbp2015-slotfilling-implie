@@ -215,6 +215,28 @@ class ImplicitRelationExtractor(
 
   def getEnclosingPunctuation = enclosingPunctuation
 
+  def clearTagCache() {
+    tagCache.clear 
+  }
+
+  /*
+   * NOTE: Do NOT use clearTokenCache, clearParseCache or clearAllCaches 
+   * if there are serialization files.  Using these with a serialization 
+   * file may lead to multiple entries in the file.
+   */
+  def clearTokenCache() {
+    tokenCache.clear
+  }
+
+  def clearParseCache() {
+    parseCache.clear
+  }
+
+  def clearAllCaches() {
+    clearTagCache()
+    clearTokenCache()
+    clearParseCache()
+  }
 
   /*
 
