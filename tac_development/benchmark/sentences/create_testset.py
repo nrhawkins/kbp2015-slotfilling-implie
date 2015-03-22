@@ -14,10 +14,10 @@ bensenfile = file(benchmark_sents, 'r')
 allsen = allsenfile.read().splitlines()
 bensen = bensenfile.read().splitlines()
 
-benset = set([line.split('\t')[0] for line in bensen])
+benset = set([line.split('\t')[2] for line in bensen])
 
 # Write to file with all sentences except benchmark sentences.
-elselst = [line for line in allsen if line.split('\t')[0] not in benset]
+elselst = [line for line in allsen if line.split('\t')[2] not in benset]
 elseout = file(elsefile, 'w')
 elseout.write('\n'.join(elselst))
 
