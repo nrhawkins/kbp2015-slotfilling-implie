@@ -1,0 +1,63 @@
+<DOC>
+<DOCID> APW_ENG_20070731.1207.LDC2009T13 </DOCID>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATETIME> 2007-07-31 </DATETIME>
+<BODY>
+<HEADLINE>
+Study finds Florida optical scan voting machines still flawed
+</HEADLINE>
+<TEXT>
+<P>
+TALLAHASSEE, Florida 2007-07-31 18:40:20 UTC
+</P>
+<P>
+Florida's optical scan voting machines are still flawed, despite
+efforts to fix them, and they could allow poll workers to tamper
+with the election results, according to a government-ordered
+study obtained Tuesday by The Associated Press.
+</P>
+<P>
+The state banned punch cards and replaced them with optical scan
+and touch-screen voting machines after its voting system drew
+national attention in 2000, when unclear ballots held up a final
+count in the presidential election. The state was eventually
+decided by 537 votes after the U.S. Supreme Court stepped in,
+handing the election to the Repubilcan candidate, George W. Bush.
+</P>
+<P>
+But, optical scan machines have proven to have problems. At the
+request of the secretary of state, Florida State University's
+information technology laboratory went over a list of previously
+discovered flaws on optical voting scan machines to see if they
+are still vulnerable to attack.
+</P>
+<P>
+"While the vendor has fixed many of these flaws, many important
+vulnerabilities remain unaddressed," the report said.
+</P>
+<P>
+The lab found, for example, that someone with only brief access
+to the machines could replace a memory card with one preprogramed
+to read one candidate's votes as counting for another,
+essentially switching the candidates and showing the loser
+winning.
+</P>
+<P>
+"The attack can be carried out with a reasonably low probability
+of detection assuming that audits with paper ballots are
+infrequent," the report said.
+</P>
+<P>
+Secretary of State Kurt Browning is asking Diebold Elections
+Systems to address the problems.
+</P>
+<P>
+Currently, 15 of Florida's 67 counties use paperless touch-screen
+voting machines. The remaining counties use optical scan machines
+where a voter marks a paper ballot with a pencil and it is
+electronically scanned. A newly signed state law requires a
+verifiable paper trail for all voting machines.
+</P>
+</TEXT>
+</BODY>
+</DOC>

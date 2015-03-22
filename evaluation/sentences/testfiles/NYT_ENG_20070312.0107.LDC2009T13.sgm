@@ -1,0 +1,346 @@
+<DOC>
+<DOCID> NYT_ENG_20070312.0107.LDC2009T13 </DOCID>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATETIME> 2007-03-12 </DATETIME>
+<BODY>
+<HEADLINE>
+SCIENTIST AT WORK: JOURNEYS TO THE DISTANT FIELDS OF PRIME
+</HEADLINE>
+<TEXT>
+<P>
+LOS ANGELES
+</P>
+<P>
+Four hundred people packed into an auditorium at UCLA in January
+to listen to a public lecture on prime numbers, one of the rare
+occasions that the topic has drawn a standing-room-only audience.
+</P>
+<P>
+Another 35 people watched on a video screen in a classroom next
+door. Eighty people were turned away.
+</P>
+<P>
+The speaker, Terence Tao, a professor of mathematics at the
+university, promised "a whirlwind tour, the equivalent to going
+through Paris and just seeing the Eiffel Tower and the Arc de
+Triomphe."
+</P>
+<P>
+His words were polite, unassuming and tinged with the accent of
+Australia, his homeland. Even though prime numbers have been
+studied for 2,000 years, "There's still a lot that needs to be
+done," Tao said. "And it's still a very exciting field."
+</P>
+<P>
+After Tao finished his one-hour talk, which was broadcast live on
+the Internet, several students came down to the front and asked
+for autographs.
+</P>
+<P>
+Tao has drawn attention and curiosity throughout his life for his
+prodigious abilities. By age 2, he had learned to read. At 9, he
+attended college math classes. At 20, he finished his Ph.D.
+</P>
+<P>
+Now 31, he has grown from prodigy to one of the world's top
+mathematicians, tackling an unusually broad range of problems,
+including ones involving prime numbers and the compression of
+images. Last summer, he won a Fields Medal, often considered the
+Nobel Prize of mathematics, and a MacArthur Fellowship, the
+"genius" award that comes with $500,000 and no strings.
+</P>
+<P>
+"He's wonderful," said Charles Fefferman of Princeton University,
+himself a former child prodigy and a Fields Medalist. "He's as
+good as they come. There are a few in a generation, and he's one
+of the few."
+</P>
+<P>
+Colleagues have teasingly called Tao a rock star and the Mozart
+of Math. Two museums in Australia have requested his photograph
+for their permanent exhibits. And he was a finalist for the 2007
+Australian of the Year award.
+</P>
+<P>
+"You start getting famous for being famous," Tao said. "The Paris
+Hilton effect."
+</P>
+<P>
+Not that any of that has noticeably affected him. His campus
+office is adorned with a poster of "Ranma 1/2," a Japanese comic
+book. As he walks the halls of the math building, he might be
+wearing an Adidas sweatshirt, blue jeans and scruffy sneakers,
+looking much like one of his graduate students. He said he did
+not know how he would spend the MacArthur money, though he
+mentioned the mortgage on the house that he and his wife, Laura,
+an engineer at the NASA Jet Propulsion Laboratory, bought last
+year.
+</P>
+<P>
+After a childhood in Adelaide, Australia, and graduate school at
+Princeton, Tao has settled into sunny Southern California.
+</P>
+<P>
+"I love it a lot," he said. But not necessarily for what the area
+offers.
+</P>
+<P>
+"It's sort of the absence of things I like," he said. No snow to
+shovel, for instance.
+</P>
+<P>
+A deluge of media attention following his Fields Medal last
+summer has slowed to a trickle, and Tao said he was happy that
+his fame might be fleeting so that he could again concentrate on
+math.
+</P>
+<P>
+One area of his research -- compressed sensing -- could have
+real-world use. Digital cameras use millions of sensors to record
+an image, and then a computer chip in the compresses the data.
+</P>
+<P>
+"Compressed sensing is a different strategy," Tao said. "You also
+compress the data, but you try to do it in a very dumb way, one
+that doesn't require much computer power at the sensor end."
+</P>
+<P>
+(BEGIN OPTIONAL TRIM.)
+</P>
+<P>
+With Emmanuel Candes, a professor of applied and computational
+mathematics at the California Institute of Technology, Tao showed
+that even if most of the information were immediately discarded,
+the use of powerful algorithms could still reconstruct the
+original image.
+</P>
+<P>
+By useful coincidence, Tao's son, William, and Candes' son
+attended the same preschool, so dropping off their children
+turned into useful work time.
+</P>
+<P>
+"We'd meet each other every morning at preschool," Tao said, "and
+we'd catch up on what we had done."
+</P>
+<P>
+The military is interested in using the work for reconnaissance:
+blanket a battlefield with simple, cheap cameras that might each
+record a single pixel of data. Each camera would transmit the
+data to a central computer that, using the mathematical technique
+developed by Tao and Candes, would construct a comprehensive
+view. Engineers at Rice University have made a prototype of just
+such a camera.
+</P>
+<P>
+(END OPTIONAL TRIM.)
+</P>
+<P>
+Tao's best known mathematical work involves prime numbers --
+positive whole numbers that can be divided evenly only by
+themselves and 1. The first few prime numbers are 2, 3, 5, 7, 11
+and 13 (1 is excluded).
+</P>
+<P>
+As numbers get larger, prime numbers become sparser, but the
+Greek mathematician Euclid proved sometime around 300 B.C. that
+there is nonetheless an infinite number of primes.
+</P>
+<P>
+Many questions about prime numbers continue to elude answers.
+Euclid also believed that there was an infinite number of "twin
+primes" -- pairs of prime numbers separated by 2, like 3 and 5 or
+11 and 13 -- but he was unable to prove his conjecture. Nor has
+anyone else in the succeeding 2,300 years.
+</P>
+<P>
+A larger unknown question is whether hidden patterns exist in the
+sequence of prime numbers or whether they appear randomly.
+</P>
+<P>
+In 2004, Tao, along with Ben Green, a mathematician now at the
+University of Cambridge in England, solved a problem related to
+the Twin Prime Conjecture by looking at prime number progressions
+-- series of numbers equally spaced. (For example, 3, 7 and 11
+constitute a progression of prime numbers with a spacing of 4;
+the next number in the sequence, 15, is not prime.) Tao and Green
+proved that it is always possible to find, somewhere in the
+infinity of integers, a progression of prime numbers of any
+spacing and any length.
+</P>
+<P>
+"Terry has a style that very few have," Fefferman said. "When he
+solves the problem, you think to yourself, 'This is so obvious
+and why didn't I see it? Why didn't the 100 distinguished people
+who thought about this before not think of it?"'
+</P>
+<P>
+Tao's proficiency with numbers appeared at a very young age. "I
+always liked numbers," he said.
+</P>
+<P>
+A 2-year-old Terry Tao used toy blocks to show older children how
+to count. He was quick with language and used the blocks to spell
+words like "dog" and "cat."
+</P>
+<P>
+"He probably was quietly learning these things from watching
+'Sesame Street,"' said his father, Billy Tao, a pediatrician who
+immigrated to Australia from Hong Kong in 1972. "We basically
+used 'Sesame Street' as a babysitter."
+</P>
+<P>
+The blocks had been bought as toys, not learning tools. "You
+expect them to throw them around," said Billy Tao.
+</P>
+<P>
+Terry's parents placed him in a private school when he was 3 1/2.
+They pulled him out six weeks later because he was not ready to
+spend that much time in a classroom, and the teacher was not
+ready to teach someone like him.
+</P>
+<P>
+At age 5, he was enrolled in a public school, and his parents,
+administrators and teachers set up an individualized program for
+him. He proceeded through each subject at his own pace, quickly
+accelerating through several grades in math and science while
+remaining closer to his age group in other subjects. In English
+classes, for instance, he became flustered when he had to write
+essays.
+</P>
+<P>
+"I never really got the hang of that," he said. "These very
+vague, undefined questions. I always liked situations where there
+were very clear rules of what to do."
+</P>
+<P>
+Assigned to write a story about what was going on at home, Terry
+went from room to room and made detailed lists of the contents.
+</P>
+<P>
+When he was 7 1/2, he began attending math classes at the local
+high school.
+</P>
+<P>
+(BEGIN OPTIONAL TRIM.)
+</P>
+<P>
+Billy Tao knew the trajectories of child prodigies like Jay Luo,
+who graduated with a mathematics degree from Boise State
+University in 1982 at the age of 12, but who has since vanished
+from the world of mathematics.
+</P>
+<P>
+"I initially thought Terry would be just like one of them, to
+graduate as early as possible," he said. But after talking to
+experts on education for gifted children, he changed his mind.
+</P>
+<P>
+"To get a degree at a young age, to be a record-breaker, means
+nothing," he said. "I had a pyramid model of knowledge, that is,
+a very broad base and then the pyramid can go higher. If you just
+very quickly move up like a column, then you're more likely to
+wobble at the top and then collapse."
+</P>
+<P>
+(END OPTIONAL TRIM.)
+</P>
+<P>
+Billy Tao also arranged for math professors to mentor Terry.
+</P>
+<P>
+A couple of years later, Terry was taking university-level math
+and physics classes. He excelled in international math
+competitions. His parents decided not to push him into college
+full time, so he split his time between high school and Flinders
+University, the local university in Adelaide. He finally enrolled
+as a full-time college student at Flinders when he was 14, two
+years after he would have graduated had his parents pushed him
+only according to his academic abilities.
+</P>
+<P>
+(BEGIN OPTIONAL TRIM.)
+</P>
+<P>
+The Taos had different challenges in raising their other two
+sons, although all three excelled in math. Trevor, two years
+younger than Terry, is autistic with top-level chess skills and
+the musical savant gift to play back on the piano a musical piece
+-- even one played by an entire orchestra -- after hearing it
+just once. He completed a Ph.D. in mathematics and now works for
+the Defense Science and Technology Organization in Australia.
+</P>
+<P>
+The youngest, Nigel, told his father that he was "not another
+Terry," and his parents let him learn at a less accelerated pace.
+Nigel, with degrees in economics, math and computer science, now
+works as a computer engineer for Google Australia.
+</P>
+<P>
+"All along, we tend to emphasize the joy of learning," Billy Tao
+said. "The fun is doing something, not winning something."
+</P>
+<P>
+(END OPTIONAL TRIM.)
+</P>
+<P>
+Terry completed his undergraduate degree in two years, earned a
+master's degree a year after that, then moved to Princeton for
+his doctoral studies. While he said he never felt out of place in
+a class of much older students, Princeton was where he finally
+felt he fit among a group of peers. He was still younger, but was
+not necessarily the brightest student all the time.
+</P>
+<P>
+His attitude toward math also matured. Until then, math had been
+competitions, problem sets, exams. "That's more like a sprint,"
+he said.
+</P>
+<P>
+Tao recalled that as a child, "I remember having this vague idea
+that what mathematicians did was that, some authority, someone
+gave them problems to solve and they just sort of solved them."
+</P>
+<P>
+In the real academic world, "Math research is more like a
+marathon," he said.
+</P>
+<P>
+As a parent and a professor, Tao now has to think about how to
+teach math in addition to learning it.
+</P>
+<P>
+An evening snack provided him an opportunity to question his son,
+who is 4. If there are 10 cookies, how many does each of the five
+people in the living room get?
+</P>
+<P>
+William asked his father to tell him. "I don't know how many,"
+Tao replied. "You tell me."
+</P>
+<P>
+With a little more prodding, William divided the cookies into
+five stacks of two each.
+</P>
+<P>
+(STORY CAN END HERE. OPTIONAL MATERIAL FOLLOWS.)
+</P>
+<P>
+Tao said a future project would be to try to teach more non-
+mathematicians how to think mathematically -- a skill that would
+be useful in everyday tasks like comparing mortgages.
+</P>
+<P>
+"I believe you can teach this to almost anybody," he said.
+</P>
+<P>
+But for now, his research is where his focus is.
+</P>
+<P>
+"In many ways, my work is my hobby," he said. "I always wanted to
+learn another language, but that's not going to happen for a
+while. Those things can wait."
+</P>
+</TEXT>
+</BODY>
+</DOC>
