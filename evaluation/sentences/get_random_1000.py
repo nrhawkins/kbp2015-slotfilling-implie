@@ -3,7 +3,7 @@
 import random
 
 allfs = file('non-benchmark-files.txt', 'r').read().splitlines()
-out = file('new-random-1000.txt', 'w')
+out = file('random-1000-testfiles.txt', 'w')
 
 num = 1000
 
