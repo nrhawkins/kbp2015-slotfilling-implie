@@ -21,7 +21,7 @@ object TACDevelopmentSentenceExtractor {
 
   def main(args: Array[String]) {
     val filestrs = inputs
-    val out = output
+    val out = new PrintWriter(sentences + "new-1000-file-sentences")
     val sentenceExtractor = new DocumentSentenceExtractor()
 
     var index = 0
