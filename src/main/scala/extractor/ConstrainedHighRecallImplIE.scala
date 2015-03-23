@@ -31,7 +31,7 @@ class ConstrainedHighRecallImplIE
   (tagger: TaggerCollection[Sentence with Chunked with Lemmatized],
    serializedTokenCacheFile: String = null,
    serializedParseCacheFile: String = null)
-  extends HighRecallImplIE(
+  extends ModHighRecallImplIE(
     tagger, serializedTokenCacheFile, serializedParseCacheFile)
   // filterWordNet function.
   with WordNetHypernymFilter
@@ -49,8 +49,8 @@ class ConstrainedHighRecallImplIE
   val constrainedNerConfig = ConfigFactory.load("ner-filtered-ire.conf")
   protected val constrainedExpectedEntities =
     expectedTagEntities(constrainedNerConfig.getConfigList("tag-entities").toList)
-  protected val NER_MODEL = constrainedNerConfig.getString("ner-model-file")
-  protected val classifier: CRFClassifier[CoreLabel] = CRFClassifier.getClassifier(NER_MODEL)
+  //protected val NER_MODEL = constrainedNerConfig.getString("ner-model-file")
+  //protected val classifier: CRFClassifier[CoreLabel] = CRFClassifier.getClassifier(NER_MODEL)
   protected val CONSTRAINED_NER_TAGS_TO_IGNORE = constrainedNerConfig.getStringList("ner-tag-ignore").toList
 
   override def extractRelations(line: String): List[ImplicitRelation] = {
