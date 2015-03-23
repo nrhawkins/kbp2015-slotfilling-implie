@@ -1,6 +1,6 @@
 package experimenting
 
-import extractor.{FormalConstrainedImplIE, WordNetFilteredIRE, ImplicitRelationExtractor, TaggerLoader}
+import extractor.{ConstrainedImplIE, WordNetFilteredIRE, ImplicitRelationExtractor, TaggerLoader}
 
 /**
  * Created by Gene on 2/12/2015.
