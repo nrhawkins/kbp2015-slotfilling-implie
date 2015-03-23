@@ -11,9 +11,7 @@ package extractor
 trait NERFilterByHeadWord extends NERFilterable {
   def addHeadsToExtractions(extractions: List[ImplicitRelation])
 
-  // TODO: ensure that the head word is in fact one being judged by the NER tagger
-  // TODO: by using the index.  Index from the tree when finding it.
-  // For now we're just checking that the word is in the ner-tag substring
+  // Checking that the head word has the expected NER tag.
   def filterNERsByHeadWord(src: String, relations: List[ImplicitRelation],
                  nerTagsToIgnore: List[String],
                  expectedEntities: Map[String, List[String]]): List[ImplicitRelation] = {

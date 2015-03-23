@@ -16,8 +16,8 @@ class HighRecallImplIE(
   extends ImplicitRelationExtractor(tagger, serializedTokenCacheFile,
     serializedParseCacheFile, "high-recall-extractor.conf") {
 
-  // Avoid the head filter.
   override def extractRelations(line: String): List[ImplicitRelation] = {
+    // Avoid the head filter.
     super.unfilteredExtractions(line)
   }
 }

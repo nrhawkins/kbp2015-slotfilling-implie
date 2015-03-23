@@ -15,6 +15,7 @@ import scala.collection.JavaConversions._
 /**
  * A version of ImplIE that we constrained for a hypothetical constrained usage.
  * The specifications of the constraints are under designDocs/ConstrainedImplIE.*.
+ * Built on top of high-recall ImplIE rather than high-precision ImplIE.
  *
  * Roughly the specifications say that the extracted entity may only be a
  * person or an organization, and for some tags only a person.
@@ -26,12 +27,11 @@ import scala.collection.JavaConversions._
  * The NER tags capture information about entites that are names, and thus
  * not included in the WordNet dictionary.
  */
-class FormalConstrainedImplIE
+class ConstrainedHighRecallImplIE
   (tagger: TaggerCollection[Sentence with Chunked with Lemmatized],
    serializedTokenCacheFile: String = null,
    serializedParseCacheFile: String = null)
-//  extends ImplicitRelationExtractor(
-  extends ImplIEWithBasicFilters(
+  extends HighRecallImplIE(
     tagger, serializedTokenCacheFile, serializedParseCacheFile)
   // filterWordNet function.
   with WordNetHypernymFilter
@@ -49,8 +49,8 @@ class FormalConstrainedImplIE
   val constrainedNerConfig = ConfigFactory.load("ner-filtered-ire.conf")
   protected val constrainedExpectedEntities =
     expectedTagEntities(constrainedNerConfig.getConfigList("tag-entities").toList)
-//  protected val NER_MODEL = nerConfig.getString("ner-model-file")
-//  protected val classifier: CRFClassifier[CoreLabel] = CRFClassifier.getClassifier(NER_MODEL)
+  protected val NER_MODEL = constrainedNerConfig.getString("ner-model-file")
+  protected val classifier: CRFClassifier[CoreLabel] = CRFClassifier.getClassifier(NER_MODEL)
   protected val CONSTRAINED_NER_TAGS_TO_IGNORE = constrainedNerConfig.getStringList("ner-tag-ignore").toList
 
   override def extractRelations(line: String): List[ImplicitRelation] = {
