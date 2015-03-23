@@ -1,6 +1,6 @@
 package experimenting
 
-import extractor.{FormalConstrainedImplIE, WordNetFilteredIRE, ImplicitRelationExtractor, TaggerLoader, ImplicitRelationExtractorNoLists}
+import extractor.{ConstrainedImplIE, WordNetFilteredIRE, ImplicitRelationExtractor, TaggerLoader, ImplicitRelationExtractorNoLists}
 import testers.TaggerTester
 
 /**
@@ -12,7 +12,7 @@ object ExtractorTagTester_NH {
     val tagger = TaggerLoader.defaultTagger
     val extractor = new ImplicitRelationExtractor(tagger)
     val wordnetextractor = new WordNetFilteredIRE(tagger)
-    val constrained = new FormalConstrainedImplIE(tagger)
+    val constrained = new ConstrainedImplIE(tagger)
     val extractorNoLists = new ImplicitRelationExtractorNoLists(tagger)
     
     //val sentence = "Last year, Gen. Nikolai Solovtsov, head of Russia's missile forces, warned that Moscow could target future bases in Poland and the Czech Republic with Russian missiles."
