@@ -19,7 +19,8 @@ object ExtractorTagTester_NH {
     //val sentence = "But the future may hold a different twist -- and has many locals fearful of Russian retaliation."
     //val sentence = "We often think of domestic workers as people travelling out of Indonesia to other countries, but there is a large population of Indonesian domestic workers in their own country, who are not recognised by law, Amnesty International Malaysia executive director Josef Roy Benedict told reporters in Kuala"
     //val sentence = "Two US soldiers killed in Iraq."
-    val sentence = "He was Esteban Neira, not Estaban Neiva."
+    val sentence = "Analyst and author Ahmed Rashid said Zardari had been caught off-guard by the opposition to the aid package under which Pakistan's government will receivemore than the one billion dollars that the military gets."
+    //val sentence = "He was Esteban Neira, not Estaban Neiva."
     //val sentence = "President Barack Obama, CEO of Microsoft Corporation, spoke about his wife Chicago native, Michelle Obama." 
     //val sentence = "Besides the advertising agency Campfire, whose founders produced 'The Blair Witch Project,' the Los Angeles agency ... And Company also worked on the campaign, particularly on the print advertising mentioned in the column."
     //val sentence = "The dramatic changes in the nation's economy have made all of us who are responsible for WNO's welfare reluctantly come to the difficult decision to postpone the Ring Cycle until the financial climate becomes more positive, general director Placido Domingo said."
@@ -42,8 +43,8 @@ object ExtractorTagTester_NH {
     //val sentence = "Chad claims rebel infiltration from Sudan."
     //val sentence = "The old signatories of the 1985 Schengen Agreement included Austria, Belgium, Denmark, Finland, France, Germany, Greece, Iceland, Italy, Luxembourg, the Netherlands, Norway, Portugal, Spain and Sweden."
 
-      //val result = extractor.extractRelations(sentence)    
-      val result = extractorNoLists.extractRelations(sentence)  
+      val result = extractor.extractRelations(sentence)    
+      //val result = extractorNoLists.extractRelations(sentence)  
 
     println("Result Size: " + result.size)
     result.foreach(r => {
