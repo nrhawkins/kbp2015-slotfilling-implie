@@ -80,22 +80,13 @@ class ImplicitRelationExtractor(
    * @return List[ImplicitRelation], list of relations extracted from the string.
    */
   def extractRelations(line: String): List[ImplicitRelation] = {
-/*
-    println()
-    println(line)
-*/
-
     val relations = unfilteredExtractions(line)
 
     // Add heads to extractions.
     addHeadsToExtractions(relations)
 
-//    println(s"heads ${relations.map(r => r.head)}")
-
     // Filter out extractions where the head word is the tag word.
     val headFiltered = removeSelfModifyingRelations(relations)
-
-//    println(s"head filtered $headFiltered")
 
     // Add the full sentence to the results.
     headFiltered.foreach(nnr => nnr.sentence = line)

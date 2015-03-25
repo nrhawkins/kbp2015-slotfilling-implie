@@ -31,6 +31,9 @@ object ExtractionScoring {
     Scoring.main(newargs)
   }
 /*
+  Moved to evaluation.Scoring
+
+ */
   // ------------------------------------------------------------------------
   // AnswerKeyItem fields:
   // 1)SentenceIndex 2)DocId 3)Entity(NP) 4)Relation 

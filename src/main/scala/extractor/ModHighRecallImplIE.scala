@@ -22,12 +22,7 @@ class ModHighRecallImplIE(
     filter(line, relations)
   }
 	
-	/*
-	override def extractRelations(line: String): List[ImplicitRelation] = {
-		headUnfilteredExtractions(line)
-	}
-	*/
-  // Avoid the head filter.
+	// Avoid the head filter.
   override def headUnfilteredExtractions(line: String): List[ImplicitRelation] = {
     val relations = super.unfilteredExtractions(line)
     filter(line, relations)

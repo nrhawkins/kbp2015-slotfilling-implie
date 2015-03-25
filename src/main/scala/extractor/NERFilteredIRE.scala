@@ -1,12 +1,10 @@
 package extractor
 
-import com.typesafe.config.{ConfigFactory, Config}
+import com.typesafe.config.ConfigFactory
 import edu.knowitall.repr.sentence.{Sentence, Chunked, Lemmatized}
 import edu.knowitall.taggers.TaggerCollection
 import edu.stanford.nlp.ie.crf.CRFClassifier
 import edu.stanford.nlp.ling.CoreLabel
-
-import scala.collection.mutable
 
 import scala.collection.JavaConversions._
 

@@ -1,22 +1,13 @@
 package extractor
 
-import java.util
-
-import com.typesafe.config.{Config, ConfigFactory}
+import com.typesafe.config.ConfigFactory
 import edu.knowitall.repr.sentence
 import edu.knowitall.repr.sentence._
 import edu.knowitall.taggers.TaggerCollection
-import edu.knowitall.tool.chunk.ChunkedToken
-import edu.knowitall.tool.stem.MorphaStemmer
-import edu.knowitall.tool.typer.Type
-import edu.stanford.nlp.ling.{Sentence, _}
-import edu.stanford.nlp.parser.lexparser.LexicalizedParser
-import edu.stanford.nlp.trees._
+import edu.stanford.nlp.ling._
 import edu.stanford.nlp.ie.crf.CRFClassifier
-import utils.{ExtractionUtils, SerializationUtils}
 
 import scala.collection.JavaConversions._
-import scala.collection.mutable
 
 /**
  * Basic implicit relation extractor.
@@ -50,30 +41,9 @@ class ImplicitRelationExtractorNoLists(
    */
   override def extractRelations(line: String): List[ImplicitRelation] = {
     val implicitRelations = super.extractRelations(line)
-    //val taggedNERs = tagNERs(implicitRelations, line)
-    
-    /*taggedNERs.foreach(extraction => {
-      val ners = extraction.getNERs
-      val tag = extraction.relation
-      println("irenl: ner.size " + ners.size)
-      ners.foreach(ner => println(ner.ner))
-      val nersRegion = ners.filter(ner => ner.beginIndex <= extraction.tag.index-1 && 
-          ner.endIndex >= extraction.tag.index-1)
-      println("irenl: nersRegion size " + nersRegion.size)
-    }) */
-    
-    //Filter the implicitRelations, exclude ones which have lists in the entity
-    //println(s"initial extractions $implicitRelations")
-
-    //filterNoLists(implicitRelations)
     val relationsNoLists = filterNoLists(implicitRelations)
 
-    //println(s"after filtering out lists $relationsNoLists")
-
-    //filterNERs(implicitRelations)
-    
     filterNERsByTag(line, relationsNoLists, NER_TAGS_TO_IGNORE, expectedEntities)
-    
   }
 
   /**

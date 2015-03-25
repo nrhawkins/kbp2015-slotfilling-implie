@@ -285,8 +285,6 @@ object EntityExtractionFunctions {
     )
   }
 
-  // TODO: add an entity extractor function that takes a large tree and prunes it.
-
   /*
 
   Helper methods
