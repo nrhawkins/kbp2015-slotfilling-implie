@@ -7,8 +7,6 @@ import edu.knowitall.repr.sentence.{Lemmatized, Chunked, Sentence}
 import edu.knowitall.taggers.TaggerCollection
 import edu.mit.jwi.Dictionary
 import edu.mit.jwi.morph.WordnetStemmer
-import edu.stanford.nlp.ie.crf.CRFClassifier
-import edu.stanford.nlp.ling.CoreLabel
 
 import scala.collection.JavaConversions._
 
@@ -49,8 +47,6 @@ class ConstrainedHighRecallImplIE
   val constrainedNerConfig = ConfigFactory.load("ner-filtered-ire.conf")
   protected val constrainedExpectedEntities =
     expectedTagEntities(constrainedNerConfig.getConfigList("tag-entities").toList)
-  //protected val NER_MODEL = constrainedNerConfig.getString("ner-model-file")
-  //protected val classifier: CRFClassifier[CoreLabel] = CRFClassifier.getClassifier(NER_MODEL)
   protected val CONSTRAINED_NER_TAGS_TO_IGNORE = constrainedNerConfig.getStringList("ner-tag-ignore").toList
 
   override def extractRelations(line: String): List[ImplicitRelation] = {

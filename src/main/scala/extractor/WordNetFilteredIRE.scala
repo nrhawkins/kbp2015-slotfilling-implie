@@ -2,7 +2,7 @@ package extractor
 
 import java.net.URL
 
-import com.typesafe.config.{Config, ConfigFactory}
+import com.typesafe.config.ConfigFactory
 import edu.knowitall.repr.sentence.{Lemmatized, Chunked, Sentence}
 import edu.knowitall.taggers.TaggerCollection
 import edu.mit.jwi.Dictionary

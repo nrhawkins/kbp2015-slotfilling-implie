@@ -21,13 +21,6 @@ trait NERFilterable {
   protected val classifier: CRFClassifier[CoreLabel]
 
   def getTokens(line: String): Seq[ChunkedToken]
-
-/*
-  def filterNERs(src: String, relations: List[ImplicitRelation],
-                 nerTagsToIgnore: List[String],
-                 expectedEntities: Map[String, List[String]]): List[ImplicitRelation]
-*/
-
     def tagNERs(extractions: List[ImplicitRelation],
               line: String, nerTagsToIgnore: List[String]): List[ImplicitRelation] = {
     // Run NER tagger and pair in the entity portion (check the indicies).

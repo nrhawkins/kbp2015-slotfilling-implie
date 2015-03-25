@@ -8,11 +8,8 @@ package extractor
  * the extraction is filtered out. 
  * 
  * The expected NER types are specified in: filter-by-tag-ner-types.conf
- * 
  */
 trait NERFilterByTagNER extends NERFilterable {
-
-
   def filterNERsByTag(src: String, relations: List[ImplicitRelation],
                  nerTagsToIgnore: List[String],
                  expectedEntities: Map[String, List[String]]): List[ImplicitRelation] = {
@@ -31,12 +28,7 @@ trait NERFilterByTagNER extends NERFilterable {
           (ner.beginIndex <= tagEndIndex && tagEndIndex <= ner.endIndex))
       val unexpectedNERtags = expectedEntities.getOrElse(relation, Nil)            
 
-      //println("filterNERs: " + nersForTag.size)
-      //ners.foreach(ner => println("filterNERs: " + ner.ner))
-      //nersForTag.foreach(ner => println("filterNERs: nersForTag " + ner.ner))
-      //unexpectedNERtags.foreach(ner => println("filterNERs: unexpected " + ner))
-      
-      nersForTag.foreach(ner => if(unexpectedNERtags.contains(ner.ner)) extraction.relation="dropThisRelation")            
+      nersForTag.foreach(ner => if(unexpectedNERtags.contains(ner.ner)) extraction.relation="dropThisRelation")
 
     })
 
@@ -45,6 +37,4 @@ trait NERFilterByTagNER extends NERFilterable {
 
     relationsFiltered
   }
-
-
 }
