@@ -15,68 +15,55 @@ import evaluation.Scoring
 
 /**
  * Main method takes: 
- * 1) an extractions file 
- * 2) an answer key file,
- * both specified in the configuration file, extraction-scoring.conf, 
+ * 1) a kpbimplie report file 
+ * 2) a kbp answer key file,
+ * both specified in the configuration file, kbp-extraction-scoring.conf, 
  * and outputs: 
  * 1) a score report file
- * 2) an answer key file with new extractions (to be scored) appended
  * 
  */
 
-object ExtractionScoring {
-  def main(args: Array[String]) {
-    val config = "extraction-scoring.conf"
-    val newargs = config +: args
-    Scoring.main(newargs)
-  }
-/*
-  Moved to evaluation.Scoring
-
- */
+object KBPExtractionScoring {
+  
   // ------------------------------------------------------------------------
   // AnswerKeyItem fields:
-  // 1)SentenceIndex 2)DocId 3)Entity(NP) 4)Relation 
-  // 5)Slotfill(tag) 6)Correct 7)Incorrect 8)Sentence
-  // *Keep all of the fields so can re-write file with new extractions
+  // 1)QueryId 2)QueryName 3)Relation 4)Slotfill 
+  // *Keep all of the fields
   // ------------------------------------------------------------------------
-  case class AnswerKeyItem(sentIndex: Int, docid: String, 
-      entity: String, relation: String, slotfill: String, correct: String, 
-      incorrect: String, sentence: String)
+  case class AnswerKeyItem(queryId: String, queryName: String, 
+      relation: String, slotfill: String)
   // ------------------------------------------------------------------------
-  // ExtractionInputLine fields:
-  // 1)SentenceIndex 2)DocId 3)Entity(NP) 4)Relation 
-  // 5)Slotfill(tag) 6)Sentence
-  // *Keep all of the fields so untagged extractions can be written to file    
+  // KBPReportInputLine fields:
+  // 1)QueryId 2)Relation 3)Slotfill
+  // *Keep subset of the fields
   // ------------------------------------------------------------------------
-  case class ExtractionInputLine(sentIndex: Int, docid: String, 
-      entity: String, relation: String, slotfill: String, sentence: String)
+  case class KBPReportInputLine(queryId: String, relation: String, slotfill: String)
   // ------------------------------------------------------------------------
   // MatchKey fields:
-  // 1)SentenceIndex 2)DocId 3)Relation 4)Slotfill(tag) 5)Entity
-  // example: Relation=jobtitle, Slotfill=coroner, Entity="coroner John Smith"
+  // 1)QueryId 2)Relation 3)Slotfill 
+  // example: Relation=jobtitle, Slotfill=coroner, QueryId="SF14_ENG_001"
   // ------------------------------------------------------------------------
-  case class MatchKey(sentIndex: Int, docid: String, relation: String, 
-      slotfill: String, entity: String)
+  case class MatchKey(queryId: String, relation: String, slotfill: String)
       
   // ----------------------------------------------------------
   // Configuration File - specifies input and output files
   // ----------------------------------------------------------  
-  val config = ConfigFactory.load("extraction-scoring.conf")  
-  val seqFilename = config.getString("sequence-file")
+  val config = ConfigFactory.load("kbp-extraction-scoring.conf")  
+  //val seqFilename = config.getString("sequence-file")
   // --------------------------------------------------------------
   // seq - append this number in front of the files being output
   //     - this number is one greater than the last one written
   // --------------------------------------------------------------
-  var seq = getSeqNum(seqFilename) - 1
-  var extractions_file = config.getString("input-dir-results") + 
-     seq + config.getString("extractions-file-tail")
-  var answerkey_file = config.getString("input-dir-answers") + 
-     (seq-1) + config.getString("answer-key-file-tail")
-  var scoringreport_file = config.getString("output-dir") + 
-     seq + config.getString("score-report-file-tail")
-  var newextractions_file = config.getString("output-dir") + 
-     seq + config.getString("new-extractions-file-tail")
+  //var seq = getSeqNum(seqFilename) - 1
+  var kbpreport_file = config.getString("kbp-report-file")
+  //  + seq + config.getString("extractions-file-tail")
+  var answerkey_file = config.getString("answer-key-file") 
+  //  + (seq-1) + config.getString("answer-key-file-tail")
+  var kbpscoring_file = config.getString("kbp-scoring-file")
+  //var scoringreport_file = config.getString("output-dir") + 
+  //   seq + config.getString("score-report-file-tail")
+  //var newextractions_file = config.getString("output-dir") + 
+  //   seq + config.getString("new-extractions-file-tail")
 
   // -----------------------------------------------------------------
   // -----------------------------------------------------------------
@@ -86,12 +73,13 @@ object ExtractionScoring {
   //        which has already be read-in and is a val of the object
   // -----------------------------------------------------------------      
   // -----------------------------------------------------------------
-/*  def main(args: Array[String]) {
+  def main(args: Array[String]) {
     
     println("es: Args length: " + args.length)
 
     if(args.length > 0){
-      try{
+      println("FYI: Ignoring args.")
+      /*try{
          val seqNum = args(0).toInt              
          seq = seqNum
          extractions_file = config.getString("input-dir-results") + 
@@ -105,50 +93,53 @@ object ExtractionScoring {
       } 
       catch{
         case e: Exception => println("es: Command line argument for sequence number is not an integer.")
-      }
+      }*/
     }
         
-    println("es: Reading Extractions")
+    println("Reading KBPReport")
     
-    // -------------------------------------------------------
-    // Extractions to Score -  
-    //   list of ExtractionInputLine's
+    // ------------------------------------------------------------------
+    // KBP Report to score -  
+    //   list of KBPReportInputLine's
     //
     // Note: 
-    // Any line not starting with an integer is ignored,
+    // Any line not starting with "SF1" is ignored
     // i.e. falls into the catch{}
-    // This allows #comment lines in the input file
-    // -------------------------------------------------------
-    val extractions = {
+    // This allows #comment lines  and extractions in the input file
+    // ------------------------------------------------------------------
+    val kbpReportLines = {
      
-      val inputFilename = extractions_file
+      val inputFilename = kbpreport_file
     
       // Does file exist?
       if (!Files.exists(Paths.get(inputFilename))) {
-        System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
+        System.out.println(s"KBPReport file $inputFilename doesn't exist!  " + s"Exiting...")
         sys.exit(1)
       }
 
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
         try{
-             ExtractionInputLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
-                tokens(5))
+             if(tokens(0).startsWith("SF1")){
+               if(tokens.length == 7){KBPReportInputLine(tokens(0), tokens(1), tokens(4))}           
+               else{KBPReportInputLine("tokens(0)", "tokens(1)", "tokens(2)")}
+             }
+             else{KBPReportInputLine("tokens(0)", "tokens(1)", "tokens(2)")}
+             
         }catch{ 
            // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
            // and filtering it out before returning the list
            // Eg. a header line will not start with an integer
-           case e: Exception => ExtractionInputLine(-1, "tokens(1)", "tokens(2)", "tokens(3)",
-                "tokens(4)", "tokens(5)")
+           case e: Exception => KBPReportInputLine("tokens(0)", "tokens(1)", "tokens(2)")
         }
         
-      }).toList.filter(l => l.sentIndex >= 0)
+      }).toList.filter(l => l.queryId != "tokens(0)")
            
     } 
        
-    println("es: Extractions size: " + extractions.size)
+    println("KBPReport size: " + kbpReportLines.size)
     
-    println("es: Reading Answer Key")
+    println("Reading Answer Key")
 
     // -------------------------------------------------------
     // Answer Key -  
@@ -158,13 +149,13 @@ object ExtractionScoring {
     // i.e. falls into the catch{}
     // This allows #comment lines in the input file
     // -------------------------------------------------------
-    val answerkeyItems = {
+    /*val answerkeyItems = {
      
       val inputFilename = answerkey_file
     
       // Does file exist?
       if (!Files.exists(Paths.get(inputFilename))) {
-        System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
+        System.out.println(s"AnswerKey file $inputFilename doesn't exist!  " + s"Exiting...")
         sys.exit(1)
       }
 
@@ -504,10 +495,11 @@ object ExtractionScoring {
     println("es: Closing PrintWriters")    
                 
     newextractions.close()    
-    scoringreport.close()     
+    scoringreport.close()     */
         
   }
-*/
+
+  /*
   // This method is a bit of a hack.
   // We know that the sentence num is incremented after the sentence extractor,
   // so we take one less than what is recorded there.
@@ -528,5 +520,5 @@ object ExtractionScoring {
       }
     surroundingRemoved.replaceAll("\"\"", "\"")
   }
-
+*/
 }

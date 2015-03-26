@@ -40,11 +40,33 @@ object RunKBPImplie {
     val runID = "UWashington3"
     val detailed = false 
     
+    println("total memory: " + Runtime.getRuntime().totalMemory())
+    //the Xmx value
+    println("max memory: " + Runtime.getRuntime().maxMemory())
+    println("free memory: " + Runtime.getRuntime().freeMemory())  		        
+    println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+    println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
+    
     println("Loading Tagger.")
     val tagger = TaggerLoader.defaultTagger
+
+    println("total memory: " + Runtime.getRuntime().totalMemory())
+    //the Xmx value
+    println("max memory: " + Runtime.getRuntime().maxMemory())
+    println("free memory: " + Runtime.getRuntime().freeMemory())  		        
+    println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+    println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
+        
     println("Loading Extractor.")
     val relationExtractor = new ImplicitRelationExtractor(tagger)
     println("Done Loading Extractor.")
+    
+    println("total memory: " + Runtime.getRuntime().totalMemory())
+    //the Xmx value
+  	println("max memory: " + Runtime.getRuntime().maxMemory())
+  	println("free memory: " + Runtime.getRuntime().freeMemory())  		        
+  	println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+    println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
     
     //System.exit(0)
     
@@ -97,15 +119,17 @@ object RunKBPImplie {
       //System.exit(0) 
       
       //test 1 query
-      val testQueries = queries.dropRight(99)
-
+      //val testQueries = queries.dropRight(99)
+      //val testQueries = List(queries(67))
+      val testQueries = List(queries(11))
+    
       //select 5 random queries
       //import scala.util.Random
       //Seq.fill(n)(Random.nextInt)
       // 2014 PER: Seq.fill(5)(Random.nextInt(50))
       //res7: Seq[Int] = List(38, 45, 11, 0, 37)
       // 2014 ORG: val y = for( r <- Seq.fill(5)(Random.nextInt(50)) ) yield { r + 50}
-      // y: Seq[Int] = List(87, 68, 91, 78, 81)
+      // y: Seq[Int] = List(87, 67, 91, 78, 81)
       // 2013 PER: res12: Seq[Int] = List(33, 26, 49, 10, 3)
       // 2013 ORG: y: Seq[Int] = List(82, 86, 90, 79, 94)
 
@@ -126,7 +150,9 @@ object RunKBPImplie {
           println("Size nw Documents: " + nwDocuments.size)  
 		  
 		  var allRelevantCandidates: Seq[Candidate] = Nil
-  		      
+          var allExtractions: Seq[KBPExtraction] = Nil
+          var totalSentences = 0
+          
   		  val queryFullName = query.name
   		  val queryLastName = queryFullName.split(" ").last
   		      
@@ -150,6 +176,13 @@ object RunKBPImplie {
   		      println("Number of Annotated Documents: " + documents.size)  		        		      
   		      
   		      for(doc <- documents){  
+
+  		        println("total memory: " + Runtime.getRuntime().totalMemory())
+  		        //the Xmx value
+  		        println("max memory: " + Runtime.getRuntime().maxMemory())
+  		        println("free memory: " + Runtime.getRuntime().freeMemory())  		
+  		        println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+                println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
   		        
   		        //lookAtCoref(doc)
   		        //System.exit(0) 
@@ -162,7 +195,8 @@ object RunKBPImplie {
   		        //val relevantSentences = getRelevantSentences(doc, queryLastName)                
 
   		        val relevantSentences = getRelevantSentencesIncludingCoref(doc, queryLastName, matchingCorefMentions)    
-
+                totalSentences += relevantSentences.size
+  		        
   		        //println("sentences size: " + sentences.size)
   		       	//println("matchingCorefMentions size: " + matchingCorefMentions.size)
   		        println("relevantSentences size: " + relevantSentences.size)
@@ -176,11 +210,16 @@ object RunKBPImplie {
                   val extractions = getExtractions(relationExtractor, relevantSentences)
 
                   println("extractions size: " + extractions.size)
+
+                  if(extractions.size > 0)
+                    allExtractions = allExtractions ++ extractions.toSeq
+                                    
+                  //val filteredExtractions = filterExtractions(extractions, queryFullName)
+
+                  println("Filtering Extractions")  
+                    
+                  val filteredExtractions = filterExtractionsIncludingCoref(extractions, matchingCorefMentions, queryFullName)
                   
-                  val filteredExtractions = filterExtractions(extractions, queryFullName)
-                  
-                  //val filteredExtractions = filterExtractionsIncludingCoref(extractions, matchingCorefMentions, queryFullName)
-                 
                   println("filteredExtractions size: " + filteredExtractions.size)
                   
                   val relevantCandidates = wrapWithCandidate(filteredExtractions.toSeq)
@@ -207,9 +246,27 @@ object RunKBPImplie {
 		 val bestAnswers = slots map { slot => ( slot, SelectBestAnswers.reduceToMaxResults(slot, kbpAllRelevantCandidates.filter(_.extr.getRel() == slot.name)) ) } toMap
 
 		 println("bestAnswers size: " + bestAnswers.size)
-		        
+
+		 //print all extractions
+		 outputStream.println
+		 outputStream.println("All Extractions ----------------------------------------------------------")
+         outputStream.println
+		 allExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
+		 outputStream.println
+		 //print filtered extractions
+		 outputStream.println("Filtered Extractions ----------------------------------------------------------")
+         outputStream.println
+		 allRelevantCandidates.foreach(c => outputStream.println(c.extr.getArg1().argName + "\t" + c.extr.getArg2().argName + "\t" + c.extr.getRel()))
+		 outputStream.println
+		 outputStream.println
+		 
+		 //print KBP report
+		 outputStream.println("KBP Report ----------------------------------------------------------")
+         outputStream.println
 		 outFmt.printAnswers(bestAnswers, query) 
 		  
+		 println("Total Sentences: " + totalSentences)
+		 
 	     println("Finished, going to next query")	    
 	  }   	  
     
@@ -340,7 +397,7 @@ object RunKBPImplie {
   
   def filterExtractionsIncludingCoref(extractions: List[KBPExtraction], matchingCorefMentions: List[CorefMention], queryName: String): List[KBPExtraction] = {
   
-    val filteredExtractions = extractions.filter(e => e.getArg1().argName == queryName || checkForCorefMatch(e, matchingCorefMentions))
+    val filteredExtractions = extractions.filter(e => e.getArg1().argName.contains(queryName) || checkForCorefMatch(e, matchingCorefMentions))
     
     filteredExtractions    
   }
@@ -348,12 +405,12 @@ object RunKBPImplie {
   def checkForCorefMatch(extraction: KBPExtraction, matchingCorefMentions: List[CorefMention]): Boolean = {
     
     var corefMatch = false
-    val i = 0
+    var i = 0
     
     while(!corefMatch && i < matchingCorefMentions.size){
-      if(extraction.getArg1().argName.contains(matchingCorefMentions(i).mentionSpan)) corefMatch = true         
-    }       
-    
+      if(extraction.getArg1().argName.contains(matchingCorefMentions(i).mentionSpan)) corefMatch = true 
+      i += 1
+    }           
     corefMatch
   }
   
@@ -363,25 +420,30 @@ object RunKBPImplie {
     
     for(sentence <- sentences){
          
-      val sentenceText = sentence.get(classOf[TextAnnotation])
+      //val sentenceText = sentence.get(classOf[TextAnnotation])
+      val sentenceText = sentence.get(classOf[TextAnnotation]).replace("\n", " ").replace("\r", " ")
       //val sentenceOffset = sentence.get(classOf[SentStartOffset])
       //val sentenceOffset = sentence.get(classOf[SentencePositionAnnotation])
       
       println("sentenceText: " + sentenceText)
-    
+      //outputStream.println
+      //outputStream.println(sentenceText)
+      //outputStream.println
+      
       //println("getting tokens")
       val tokens = sentence.get(classOf[TokensAnnotation])        
-      //println("tokens size: " + tokens.size())  
+      println("sentenceText: " + sentenceText)
+      println("tokens size: " + tokens.size())  
 
       val sentenceOffset = tokens.get(0).beginPosition()
         
       //println("sentenceOffset: " + sentenceOffset)      
 
-      //relationExtractor.clearAllCaches()
+      relationExtractor.clearAllCaches()
       val implicitRelations = relationExtractor.extractRelations(sentenceText)      
       println("implicitRelations size: " + implicitRelations.size)
       
-      if(implicitRelations.size > 0){      
+      /*if(implicitRelations.size > 0){      
         val ir = implicitRelations(0)
       
         println("ir np: " + ir.np.string)
@@ -393,7 +455,7 @@ object RunKBPImplie {
         println("ir tag end: " + ir.tag.intervalEnd)
 
         println("ir rel: " + ir.relation)
-      } 
+      } */
         
       val sentenceExtractions: List[KBPExtraction] = for(ir <- implicitRelations) yield {
       
@@ -412,22 +474,30 @@ object RunKBPImplie {
         //println("arg1EndOffset: " + arg1EndOffset)
         
         //try{
-          val arg2StartToken = tokens.get(ir.tag.intervalStart)
-          val arg2EndToken = tokens.get(ir.tag.intervalEnd)
+
+          tokens.asScala.toList.foreach(t => println(t.toString()))
+        
+          println("arg2: " + ir.tag.text)
+          println("arg2 start: " + ir.tag.intervalStart)
+          println("arg2 end: " + ir.tag.intervalEnd)
+          
+          //val arg2StartToken = tokens.get(ir.tag.intervalStart)
+          //val arg2EndToken = tokens.get(ir.tag.intervalEnd)
          
           //println("arg2StartToken: " + arg2StartToken.word())
           //println("arg2EndToken: " + arg2EndToken.word())
           
-          val arg2StartOffset = arg2StartToken.beginPosition()
-          val arg2EndOffset = arg2EndToken.endPosition()
+          //val arg2StartOffset = arg2StartToken.beginPosition()
+          //val arg2EndOffset = arg2EndToken.endPosition()
           
           //println("arg2StartOffset: " + arg2StartOffset)
           //println("arg2EndOffset: " + arg2EndOffset)
           
           val arg2Name = ir.tag.text
         
-          val arg2 = new Argument(arg2Name, arg2StartOffset, arg2EndOffset)
-        
+          //val arg2 = new Argument(arg2Name, arg2StartOffset, arg2EndOffset)
+          val arg2 = new Argument(arg2Name, ir.tag.intervalStart, ir.tag.intervalEnd)
+          
           val rel = ir.relation
           val score = .8
           val arg1Link = "";
@@ -584,7 +654,7 @@ object RunKBPImplie {
     var docs = documents.toList
     // ---------------------------------------------------------------------
     // Temporary: setting max number of documents to 100
-    val maxSize = 2
+    val maxSize = 100
     if(documents.size > maxSize){docs = docs.dropRight(docs.size-maxSize)}
     var docCount = 0
     for(doc <- docs) yield{

@@ -22,6 +22,8 @@ object SelectBestAnswers {
   
   def reduceToMaxResults(slot :Slot, candidates :Seq[Candidate]):Seq[Candidate] = {
     
+    //println("candidates size: " + candidates.size)
+    
     if(candidates.size > 1) {
 
      //---------------------------
@@ -34,12 +36,16 @@ object SelectBestAnswers {
        //update does not require an "if contains"
        slotfillFreq.update(arg2, slotfillFreq(arg2) + 1)          
      }
-     
-     //val maxFrequency = slotfillFreq.valuesIterator.max
+
+     //println("candidate map size: " + slotfillFreq.size)
 
      candidates.foreach(c => c.extr.setScore(slotfillFreq(c.extr.getArg2().argName)))
 
+     //println("sorting candidates")
+     
      val sortedCandidates = candidates.sortBy(candidate => candidate.extr.getScore()).reverse      
+
+     //println("slot max results: " + slot.maxResults)
      
      slot.maxResults match {
        
@@ -50,17 +56,19 @@ object SelectBestAnswers {
          
          //Seq(candidates.head)
 
+         //put first candidate in these
          var candidateSeq = Seq(sortedCandidates.head)
          var slotfillSet = Set(sortedCandidates.head.extr.getArg2().argName)
-         val i = 1
+         //add the rest of the candidates
+         var i = 1
          while(i < sortedCandidates.size){
 
            val arg2 = sortedCandidates(i).extr.getArg2().argName
            if(!slotfillSet.contains(arg2)){
              slotfillSet = slotfillSet ++ Set(arg2)
              candidateSeq = candidateSeq ++ Seq(sortedCandidates(i))
-           }             
-           
+           }                     
+           i += 1
          } 
          candidateSeq
          //Seq(sortedCandidates.head) 
@@ -86,8 +94,8 @@ object SelectBestAnswers {
        }
        
        // Could be a case = 0?
-       //case _ => Seq(sortedCandidates.head) 
-       case _ => Seq(candidates.head) 
+       case _ => Seq(sortedCandidates.head) 
+       //case _ => Seq(candidates.head) 
        
      }
        

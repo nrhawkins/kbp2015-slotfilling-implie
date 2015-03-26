@@ -1,0 +1,158 @@
+All Extractions ----------------------------------------------------------
+
+Ahmed Rashid, a Pakistani expert	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Pakistan's government	Pakistan	nationality
+Pakistani army	Pakistani	nationality
+Ahmed Rashid, a Pakistani political analyst	political analyst	per:title
+Ahmed Rashid, a Pakistani political analyst	Pakistani	per:origin
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	per:title
+Washington Post WASHINGTON POST-BLOOMBERG--09-09-10 1714ET </DATELINE> <TEXT> <P>	Washington	province
+Pakistani government money	Pakistani	nationality
+_ Rashid, a Pakistani journalist	Pakistani	per:origin
+strategist Donna Brazile	strategist	jobTitle
+Pakistani journalist	Pakistani	nationality
+Ahmed Rashid, a Pakistani author	author	per:title
+Ahmed Rashid, a Pakistani author	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Pakistan's military shelters	Pakistan	nationality
+Ahmed Rashid, the Pakistani author of "Descent	Pakistani	per:origin
+Ahmed Rashid, the Pakistani author of "Descent	author	per:title
+Rashid, the Pakistani author	Pakistani	per:origin
+Rashid, the Pakistani author	author	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, the Pakistani journalist and author of "Descent	Pakistani	per:origin
+Washington Post	Washington	province
+Pakistani government	Pakistani	nationality
+Rashid, a Pakistani journalist	Pakistani	per:origin
+history of Pakistan and Afghanistan	Pakistan	nationality
+history of Pakistan and Afghanistan	Afghanistan	nationality
+Pakistani and other types of groups	Pakistani	nationality
+Ahmed Rashid, a leading Pakistani expert	Pakistani	per:origin
+Afghanistan Decision Time </HEADLINE> <DATELINE>	Afghanistan	nationality
+President Obama	president	jobTitle
+Washington Post WASHINGTON POST-BLOOMBERG--04-27-10	Washington	province
+President Hamid Karzai	president	jobTitle
+Ahmed Rashid, a Pakistani expert	Pakistani	per:origin
+Pakistan's spy agency, Inter-Services Intelligence	Pakistan	nationality
+Afghan Taliban	Afghan	nationality
+Pakistani Taliban	Pakistani	nationality
+Afghan militants	Afghan	nationality
+Pakistani agency's efforts	Pakistani	nationality
+Pakistan's spy agency, Inter-Services Intelligence	Pakistan	nationality
+Afghan Taliban	Afghan	nationality
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Pakistani defense officials	Pakistani	nationality
+Pakistani journalist	Pakistani	nationality
+New York Review of Books	New York	province
+Pakistan's attempts	Pakistan	nationality
+Pakistan's attempts	Pakistan	nationality
+London's Evening Standard newspaper	London	city
+Pakistani journalist	Pakistani	nationality
+author Ahmed Rashid	author	per:title
+US pressure	US	nationality
+Pakistani author Ahmed Rashid	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+American press	American	nationality
+American pressure	American	nationality
+Afghan Taliban	Afghan	nationality
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+U.S. invasion	U.S.	nationality
+Afghan city of Khost and Miran Shah	Afghan	nationality
+Pakistani author Ahmed Rashid	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Afghan side	Afghan	nationality
+Pakistani arrests of Taliban leaders	Pakistani	nationality
+Ahmed Rashid, a Pakistani expert	Pakistani	per:origin
+Madrid)	Madrid	city
+American economy	American	nationality
+American foreign policy	American	nationality
+Ahmed Rashid, a leading Pakistani expert	Pakistani	per:origin
+Italian Antonio Giustozzi	Italian	nationality
+Pakistani journalist Ahmed Rashid	Pakistani	per:origin
+Pakistani author Ahmed Rashid	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Renowned author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Pakistan </HEADLINE> <DATELINE> LAHORE	Pakistan	nationality
+Washington Post WASHINGTON POST-BLOOMBERG--05-05-10 1142ET </DATELINE> <TEXT> <P> Information	Washington	province
+Times Square bomber Faisal Shahzad, a Pakistani-born U.S. citizen	U.S.	nationality
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, author of "Descent Into Chaos	author	per:title
+Pakistan's trust of the U.S.	Pakistan	nationality
+trust of the U.S.	U.S.	nationality
+Pakistani journalist	Pakistani	nationality
+Uzbekistan)	Uzbekistan	nationality
+Frustrated U.S. Special Ops Forces	U.S.	nationality
+
+Filtered Extractions ----------------------------------------------------------
+
+Ahmed Rashid, a Pakistani expert	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Pakistani political analyst	political analyst	per:title
+Ahmed Rashid, a Pakistani political analyst	Pakistani	per:origin
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	per:title
+_ Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, a Pakistani author	author	per:title
+Ahmed Rashid, a Pakistani author	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, the Pakistani author of "Descent	Pakistani	per:origin
+Ahmed Rashid, the Pakistani author of "Descent	author	per:title
+Rashid, the Pakistani author	Pakistani	per:origin
+Rashid, the Pakistani author	author	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, the Pakistani journalist and author of "Descent	Pakistani	per:origin
+Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, a leading Pakistani expert	Pakistani	per:origin
+Ahmed Rashid, a Pakistani expert	Pakistani	per:origin
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Pakistani author Ahmed Rashid	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Pakistani author Ahmed Rashid	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, a Pakistani expert	Pakistani	per:origin
+Ahmed Rashid, a leading Pakistani expert	Pakistani	per:origin
+Pakistani journalist Ahmed Rashid	Pakistani	per:origin
+Pakistani author Ahmed Rashid	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Renowned author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, author of "Descent Into Chaos	author	per:title
+
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_001	per:spouse	UWashington3	NIL
+SF14_ENG_001	per:religion	UWashington3	NIL
+SF14_ENG_001	per:city_of_death	UWashington3	NIL
+SF14_ENG_001	per:other_family	UWashington3	NIL
+SF14_ENG_001	per:countries_of_residence	UWashington3	NIL
+SF14_ENG_001	per:country_of_death	UWashington3	NIL
+SF14_ENG_001	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_001	per:title	UWashington3	NYT_ENG_20091202.0160:3335-3378	author	NYT_ENG_20091202.0160:3349-3358	11.0
+SF14_ENG_001	per:title	UWashington3	APW_ENG_20090607.0548:3015-3072	analyst	APW_ENG_20090607.0548:3044-3055	2.0
+SF14_ENG_001	per:title	UWashington3	WPB_ENG_20100510.0074:937-984	political analyst	WPB_ENG_20100510.0074:963-984	1.0
+SF14_ENG_001	per:children	UWashington3	NIL
+SF14_ENG_001	per:origin	UWashington3	WPB_ENG_20100505.0039:4862-4898	Pakistani	WPB_ENG_20100505.0039:4878-4898	22.0
+SF14_ENG_001	per:city_of_birth	UWashington3	NIL
+SF14_ENG_001	per:date_of_death	UWashington3	NIL
+SF14_ENG_001	per:age	UWashington3	NIL
+SF14_ENG_001	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_001	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_001	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_001	per:cause_of_death	UWashington3	NIL
+SF14_ENG_001	per:alternate_names	UWashington3	NIL
+SF14_ENG_001	per:charges	UWashington3	NIL
+SF14_ENG_001	per:country_of_birth	UWashington3	NIL
+SF14_ENG_001	per:schools_attended	UWashington3	NIL
+SF14_ENG_001	per:parents	UWashington3	NIL
+SF14_ENG_001	per:date_of_birth	UWashington3	NIL
+SF14_ENG_001	per:statesorprovinces_of_residence	UWashington3	NIL
+SF14_ENG_001	per:siblings	UWashington3	NIL

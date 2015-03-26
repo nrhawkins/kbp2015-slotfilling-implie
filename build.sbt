@@ -4,10 +4,6 @@ version := "1.0"
 
 scalaVersion := "2.10.2"
 
-javaOptions in run += "-Xmx16G"
-
-//javaOptions in run += "-XX:-UseConcMarkSweepGC"
-
 libraryDependencies ++= Seq(
   "com.github.nscala-time" %% "nscala-time" % "1.4.0",
   "com.typesafe" % "config" % "1.2.1",
