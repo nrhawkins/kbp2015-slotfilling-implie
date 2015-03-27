@@ -1,0 +1,82 @@
+
+All Extractions ----------------------------------------------------------
+
+
+docName: WPB_ENG_20100826.0077
+
+
+sentenceOffset/Text 4128: Cephalon lost 2 percent to $56.63 after it announced Frank Baldino Jr., the company's founder and chief executive officer, will take an immediate leave of absence for medical reasons.
+
+Frank Baldino Jr., the company's founder	founder	jobTitle
+
+docName: WPB_ENG_20100506.0070
+
+
+sentenceOffset/Text 2114: The CEO who would receive the most if shareholder return ruled in board rooms: Ford's Alan Mulally, 64, who would move up to $19.6 million from $17.9 million.
+
+
+sentenceOffset/Text 2398: The CEO whose actual pay was most out of line in the Crystal model was Cephalon Inc. founder Frank Baldino Jr., 56.
+
+Cephalon Inc. founder Frank Baldino Jr.	founder	jobTitle
+
+sentenceOffset/Text 2620: Tying Baldino's compensation to stock price wouldn't reflect his value to the biotechnology firm, said Sheryl Williams, a spokeswoman for Frazer, Pa.-based Cephalon.
+
+Sheryl Williams, a spokeswoman	spokeswoman	jobTitle
+
+sentenceOffset/Text 3380: Warren Buffett, CEO of Berkshire Hathaway Inc., said in his recent shareholder letter that he wants to see "meaningful sticks" tied to the "oversized financial carrots" that are part of CEO and director pay packages.
+
+Warren Buffett, CEO of Berkshire Hathaway Inc.	ceo	jobTitle
+
+sentenceOffset/Text 4401: "On the down side, it's never the CEO's fault," he said.
+
+CEO's fault	ceo	jobTitle
+
+sentenceOffset/Text 4458: "Yet if the company has a good year, guys gather around him like he's Julius Caesar."
+
+
+sentenceOffset/Text 5793: The sacrifice didn't extend to the rest of Perez's package -- where directors changed terms in ways that benefited the CEO.
+
+
+docName: NYT_ENG_20101222.0015
+
+
+sentenceOffset/Text 58: FRANK BALDINO JR., FOUNDER OF PHARMACEUTICAL COMPANY, DIES </HEADLINE> <TEXT> <P> Dr. Frank Baldino Jr. who founded the pharmaceutical company Cephalon, best known for the drug Provigil, which is used to increase alertness, died Thursday in Philadelphia.
+
+FRANK BALDINO JR., FOUNDER OF PHARMACEUTICAL COMPANY, DIES </HEADLINE> <TEXT> <P> Dr. Frank Baldino Jr.	founder	jobTitle
+
+Filtered Extractions ----------------------------------------------------------
+
+Frank Baldino Jr., the company's founder	founder	per:title
+Cephalon Inc. founder Frank Baldino Jr.	founder	per:title
+Warren Buffett, CEO of Berkshire Hathaway Inc.	ceo	per:title
+FRANK BALDINO JR., FOUNDER OF PHARMACEUTICAL COMPANY, DIES </HEADLINE> <TEXT> <P> Dr. Frank Baldino Jr.	founder	per:title
+
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_039	per:spouse	UWashington3	NIL
+SF14_ENG_039	per:religion	UWashington3	NIL
+SF14_ENG_039	per:city_of_death	UWashington3	NIL
+SF14_ENG_039	per:other_family	UWashington3	NIL
+SF14_ENG_039	per:countries_of_residence	UWashington3	NIL
+SF14_ENG_039	per:country_of_death	UWashington3	NIL
+SF14_ENG_039	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_039	per:title	UWashington3	NYT_ENG_20101222.0015:58-161	founder	NYT_ENG_20101222.0015:77-85	3.0
+SF14_ENG_039	per:title	UWashington3	WPB_ENG_20100506.0070:3380-3426	ceo	WPB_ENG_20100506.0070:3396-3400	1.0
+SF14_ENG_039	per:children	UWashington3	NIL
+SF14_ENG_039	per:origin	UWashington3	NIL
+SF14_ENG_039	per:city_of_birth	UWashington3	NIL
+SF14_ENG_039	per:date_of_death	UWashington3	NIL
+SF14_ENG_039	per:age	UWashington3	NIL
+SF14_ENG_039	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_039	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_039	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_039	per:cause_of_death	UWashington3	NIL
+SF14_ENG_039	per:alternate_names	UWashington3	NIL
+SF14_ENG_039	per:charges	UWashington3	NIL
+SF14_ENG_039	per:country_of_birth	UWashington3	NIL
+SF14_ENG_039	per:schools_attended	UWashington3	NIL
+SF14_ENG_039	per:parents	UWashington3	NIL
+SF14_ENG_039	per:date_of_birth	UWashington3	NIL
+SF14_ENG_039	per:statesorprovinces_of_residence	UWashington3	NIL
+SF14_ENG_039	per:siblings	UWashington3	NIL

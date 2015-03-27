@@ -1,0 +1,1450 @@
+
+All Extractions ----------------------------------------------------------
+
+
+docName: AFP_ENG_20100617.0031
+
+
+sentenceOffset/Text 390: Clinton said US officials will deliver the message on behalf of Alan Gross, 60, when they meet with their Cuban counterparts on Friday for the third round of immigration talks since President Barack Obama took office.
+
+US officials	US	nationality
+Cuban counterparts	Cuban	nationality
+President Barack Obama	president	jobTitle
+
+sentenceOffset/Text 617: "We will underscore that the continued detention of Alan Gross is harming US- Cuba relations," the chief US diplomat said in a statement issued after she met with Gross's family.
+
+US- Cuba relations	Cuba	nationality
+US diplomat	US	nationality
+
+sentenceOffset/Text 805: "The United States would view favorably the release of Alan Gross so that he can return to his family," she added.
+
+
+sentenceOffset/Text 929: US officials say that Gross worked for a non-government organization contracted by the State Department to supply computer and communications material to civil society groups on the island.
+
+US officials	US	nationality
+
+sentenceOffset/Text 1128: Cuba believes Gross, who has been detained for six months, is a spy.
+
+
+sentenceOffset/Text 1206: Cuban Foreign Minister Bruno Rodriguez said Wednesday that Gross "is being held for violating Cuban laws and committing grave offenses in our country at the service of the subversive policy of the government of the United States against Cuba."
+
+Cuban Foreign Minister Bruno Rodriguez	Cuban	nationality
+Cuban Foreign Minister Bruno Rodriguez	foreign minister	jobTitle
+Cuban laws	Cuban	nationality
+government of the United States	United States	nationality
+
+sentenceOffset/Text 1459: Gross "is currently under investigation, he has a guaranteed defense, has received permanent consular assistance and has had communication with his relatives," Rodriguez said.
+
+
+sentenceOffset/Text 1644: Cuba however has not said if it has pressed formal charges against Gross.
+
+
+sentenceOffset/Text 1727: US State Department spokesman Philip Crowley said that as of June 2 US officials have been granted access to Gross five times.
+
+US State Department spokesman Philip Crowley	US	nationality
+US State Department spokesman Philip Crowley	spokesman	jobTitle
+US officials	US	nationality
+
+docName: APW_ENG_20101201.0997
+
+
+sentenceOffset/Text 399: Cuban authorities have accused Alan Gross of espionage, though they have not pressed charges despite keeping him in custody since he was detained last Dec. 3.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 567: Adela Dworin, president of Havana's Temple Beth Shalom and Cuba's largest Jewish organization, the Jewish Community House, told The Associated Press on Wednesday it's possible Gross came to the center as one of "hundreds" of foreign visitors it receives each year.
+
+Havana's Temple Beth Shalom	Havana	city
+Cuba's largest Jewish organization, the Jewish Community House	Cuba	nationality
+Adela Dworin, president of Havana's Temple Beth Shalom	president	jobTitle
+organization, the Jewish Community House	jewish	religion
+Jewish organization, the Jewish Community House	jewish	religion
+
+sentenceOffset/Text 1224: While it is possible Gross was working with one of the other Jewish groups scattered across the island, the other organizations represent very small numbers of people.
+
+Jewish groups	jewish	religion
+
+sentenceOffset/Text 1514: Gross' wife, Judy, has denied that her husband was a spy and says he is a veteran development worker who was helping members of Cuba's Jewish community use the Internet to stay in contact with each other and with similar groups abroad.
+
+Cuba's Jewish community	Cuba	nationality
+Jewish community	jewish	religion
+
+docName: APW_ENG_20101026.0650
+
+
+sentenceOffset/Text 456: Judy Gross wrote to Castro seeking the release of her husband Alan Gross, who was arrested at the Havana airport in December 2009.
+
+Havana airport	Havana	city
+
+sentenceOffset/Text 587: At the time, Alan Gross was working as a contractor for the U.S. Agency for International Development.
+
+U.S. Agency	U.S.	nationality
+
+sentenceOffset/Text 699: In her letter to Castro, which was first reported over the weekend, Judy Gross said her husband never meant the Cuban government any harm.
+
+Cuban government	Cuban	nationality
+
+sentenceOffset/Text 1216: Gross said the Cuban Interests Section in Washington, which represents the Cuban government, confirmed that Castro had read the letter.
+
+Cuban Interests Section	Cuban	nationality
+Cuban government	Cuban	nationality
+
+sentenceOffset/Text 1450: Gross also said her husband has now lost nearly 90 pounds (41 kilograms) since his arrest.
+
+
+sentenceOffset/Text 1813: Judy Gross said the U.S. State Department has been "very responsive" but that she has not heard from the White House and has "no idea what, if anything, they are doing to get Alan home."
+
+U.S. State Department	U.S.	nationality
+
+sentenceOffset/Text 2009: U.S. diplomats have insisted Gross was doing nothing wrong.
+
+U.S. diplomats	U.S.	nationality
+
+sentenceOffset/Text 2069: Secretary of State Hillary Rodham Clinton called for Gross' release in June, saying that his continued detention was harming U.S.-Cuba relations.
+
+Secretary of State Hillary	secretary of state	jobTitle
+
+docName: AFP_ENG_20100220.0470
+
+
+sentenceOffset/Text 3168: The US government has identified the prisoner as Alan Gross, a 60-year-old government contractor with Development Alternatives Inc who was seeking to help Jewish groups communicate with people outside the country by distributing mobile phones and computers.
+
+Alan Gross, a 60-year-old government contractor	contractor	jobTitle
+Jewish groups	jewish	religion
+
+docName: AFP_ENG_20101018.0063
+
+
+sentenceOffset/Text 390: Arturo Valenzuela, the US assistant secretary of state for Western hemisphere affairs, appealed for the release of Alan Gross when he talked with Rodriguez on the sidelines of the UN General Assembly, State Department spokesman Philip Crowley said.
+
+Arturo Valenzuela, the US assistant secretary of state	the US	nationality
+Arturo Valenzuela, the US assistant secretary of state	assistant secretary of state	jobTitle
+State Department spokesman Philip Crowley	spokesman	jobTitle
+
+sentenceOffset/Text 648: "The meeting was to encourage the release of Alan Gross.
+
+
+sentenceOffset/Text 780: Gross was detained on the communist-run island reportedly while distributing cell phones, laptops and other communications equipment in Cuba.
+
+
+sentenceOffset/Text 931: Cuba believes Gross is a spy.
+
+
+sentenceOffset/Text 1151: US officials say Gross worked for a non-government organization contracted by the State Department to supply computer and communications material to civil society groups in Cuba.
+
+US officials	US	nationality
+
+sentenceOffset/Text 1339: Crowley did not answer directly when asked whether the US government had any more reason to hope that Gross would be released soon.
+
+the US government	the US	nationality
+
+docName: APW_ENG_20101206.0100
+
+
+sentenceOffset/Text 399: Neither Castro nor those assembled at Havana's Shalom synagogue mentioned the name Alan Gross during the gathering, which was broadcast on the state-television newscast Sunday evening.
+
+Havana's Shalom synagogue	Havana	city
+
+sentenceOffset/Text 584: But Gross's one-year detention without charge was the elephant in the room.
+
+
+sentenceOffset/Text 669: The U.S. government says Gross was in Cuba as part of a USAID program to distribute communications equipment to the island's 1,500-strong Jewish community, and both the State Department and Gross's wife, Judy, made fresh appeals this week for his release.
+
+Jewish community	jewish	religion
+
+sentenceOffset/Text 2571: Gross, a native of Potomac, Maryland, was arrested Dec. 3, 2009.
+
+Gross, a native of Potomac, Maryland	Maryland	province
+
+docName: APW_ENG_20101102.0758
+
+
+sentenceOffset/Text 5403: Cuba continues to hold an American subcontractor, Alan Gross, on suspicion of spying.
+
+American subcontractor, Alan Gross	American	nationality
+
+docName: AFP_ENG_20100602.0045
+
+
+sentenceOffset/Text 394: "We have been granted access to Alan Gross in Cuba five times, the most recent consular access being on May 25th," spokesman Philip Crowley told reporters.
+
+
+sentenceOffset/Text 559: "And we continue to ask that Mr Gross be released immediately, on humanitarian grounds, and be allowed to return to his family," the US spokesman said.
+
+the US spokesman	the US	nationality
+
+sentenceOffset/Text 720: Gross worked for an NGO contracted by the State Department to supply computer and communications material to civil society groups on the island, according to the United States.
+
+
+sentenceOffset/Text 1186: Gross was arrested December 5, reportedly while distributing cell phones, laptops and other communications equipment.
+
+
+docName: AFP_ENG_20100326.0031
+
+
+sentenceOffset/Text 1174: A State Department contractor, Alan Gross, 60, was arrested in December in Havana and accused of being an intelligence agent after seeking to help Jewish groups communicate with people outside the country by distributing mobile phones and computers.
+
+Jewish groups	jewish	religion
+
+docName: AFP_ENG_20100617.0018
+
+
+sentenceOffset/Text 380: Clinton said US officials will deliver the message on behalf of Alan Gross, 60, when they meet with their Cuban counterparts on Friday for the third round of immigration talks since President Barack Obama took office.
+
+US officials	US	nationality
+Cuban counterparts	Cuban	nationality
+President Barack Obama	president	jobTitle
+
+sentenceOffset/Text 848: During the US-Cuban meeting on migration issues on Friday, "we will underscore that the continued detention of Alan Gross is harming US-Cuba relations," the chief US diplomat said.
+
+US diplomat	US	nationality
+
+sentenceOffset/Text 1038: "The United States would view favorably the release of Alan Gross so that he can return to his family," she added.
+
+
+sentenceOffset/Text 1162: US officials say that Gross worked for a non-government organization contracted by the State Department to supply computer and communications material to civil society groups on the island.
+
+US officials	US	nationality
+
+sentenceOffset/Text 1361: Cuba believes Gross, who has been detained for six months, is a spy.
+
+
+sentenceOffset/Text 1439: Cuban Foreign Minister Bruno Rodriguez said Wednesday that Gross "is being held for violating Cuban laws and committing grave offenses in our country at the service of the subversive policy of the government of the United States against Cuba."
+
+Cuban Foreign Minister Bruno Rodriguez	Cuban	nationality
+Cuban Foreign Minister Bruno Rodriguez	foreign minister	jobTitle
+Cuban laws	Cuban	nationality
+government of the United States	United States	nationality
+
+sentenceOffset/Text 1692: Gross "is currently under investigation, he has a guaranteed defense, has received permanent consular assistance and has had communication with his relatives," Rodriguez said.
+
+
+sentenceOffset/Text 1877: Cuba however has not said if it has pressed formal charges against Gross.
+
+
+sentenceOffset/Text 1960: US State Department spokesman Philip Crowley said that as of June 2 US officials have been granted access to Gross five times.
+
+US State Department spokesman Philip Crowley	US	nationality
+US State Department spokesman Philip Crowley	spokesman	jobTitle
+US officials	US	nationality
+
+docName: APW_ENG_20101203.0757
+
+
+sentenceOffset/Text 481: The statement from department spokesman P.J. Crowley comes on the one-year anniversary of the arrest of Alan Gross, whom Cuban President Raul Castro has accused of spying.
+
+Cuban President Raul Castro	Cuban	nationality
+Cuban President Raul Castro	president	jobTitle
+
+sentenceOffset/Text 653: Gross has not been charged with any crime, however.
+
+
+sentenceOffset/Text 714: "It is long overdue for Cuban authorities to release Mr. Gross," the statement read.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 1068: "We have made it very clear to the Cuban Government that the continued detention of Alan Gross is a major impediment to advancing the dialogue between our two countries," the State Deparmtent said.
+
+Cuban Government	Cuban	nationality
+
+sentenceOffset/Text 1275: It vowed to use "every available channel to urge the Cuban Government to put an end to Mr. Gross' long and unjustifiable ordeal."
+
+Cuban Government	Cuban	nationality
+
+sentenceOffset/Text 1581: Gross, a native of Potomac, Maryland, was working for a firm contracted by USAID when he was arrested Dec. 3, 2009.
+
+Gross, a native of Potomac, Maryland	Maryland	province
+
+sentenceOffset/Text 1837: "Mr. Gross is an international development worker who traveled to Cuba to help connect members of the Jewish community in Havana with other Jewish communities throughout the world," Crowley said.
+
+Jewish communities	jewish	religion
+Jewish community	jewish	religion
+
+sentenceOffset/Text 2042: The leaders of the two largest groups for Cuba's 1,500-strong Jewish community said in Havana this week that they never met Gross and were not working with him.
+
+Cuba's 1,500-strong Jewish community	Cuba	nationality
+Jewish community	jewish	religion
+
+sentenceOffset/Text 2541: The Gross case has complicated hopes for a thaw that rose after the election of President Barack Obama, whose administration says it has worked to relieve tensions in a number of ways, including easing limits on Cuban-Americans who want to travel or send money to the island that were imposed by George W. Bush.
+
+President Barack Obama	president	jobTitle
+
+docName: NYT_ENG_20101024.0161
+
+
+sentenceOffset/Text 359: "To the extent his work may have offended you or your government," Judy Gross wrote, referring to her husband, Alan P. Gross, "he and I are genuinely remorseful."
+
+
+sentenceOffset/Text 621: A lawyer who represents Gross said she wanted news of the letter to coincide with debates about Cuba -- Latin America's last Communist outpost -- that are scheduled to begin Monday at the United Nations and in the European Union.
+
+Latin America's last Communist outpost	Latin America	nationality
+
+sentenceOffset/Text 1301: Alan Gross' detention is expected to loom large over both debates.
+
+
+sentenceOffset/Text 1653: American officials have acknowledged that Gross entered Cuba without the proper visa, and have said he was distributing satellite telephones to religious dissidents.
+
+American officials	American	nationality
+
+sentenceOffset/Text 1828: The Cuban authorities have said Gross' activities amounted to espionage, though they have yet to file formal charges against him, raising questions about their motives for detaining him.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 2024: In an effort to win Gross' release, administration officials and congressional aides said USAID had quietly changed the way it administers its programs in Cuba, shifting the focus from those intent on "regime change" to those that support educational exchanges and the growth of small businesses.
+
+
+sentenceOffset/Text 2330: The officials said the United States had enlisted many Latin American heads of state to advocate on behalf of Gross.
+
+
+sentenceOffset/Text 2447: Washington's top envoy to Latin America, Arturo Valenzuela, discussed Gross' detention with Cuba's foreign minister, Bruno Rodriguez, at a meeting in September.
+
+Washington's top envoy	Washington	province
+Cuba's foreign minister, Bruno Rodriguez	Cuba	nationality
+
+sentenceOffset/Text 2809: In recent months, Cuba allowed Judy Gross and one of her daughters to visit Gross in the Havana military medical facility where he is held because of serious health problems.
+
+
+sentenceOffset/Text 3240: "I see Alan Gross as one episode," Bolanos said.
+
+
+sentenceOffset/Text 3400: In her plea to Castro, according to the Reuters report, Gross said that Cuba and the United States were using her husband as a "pawn."
+
+
+docName: APW_ENG_20101203.0708
+
+
+sentenceOffset/Text 481: The statement from department spokesman P.J. Crowley comes on the one-year anniversary of the arrest of Alan Gross, whom Cuban President Raul Castro has accused of spying.
+
+Cuban President Raul Castro	Cuban	nationality
+Cuban President Raul Castro	president	jobTitle
+
+sentenceOffset/Text 653: Gross has not been charged with any crime, however.
+
+
+sentenceOffset/Text 714: "It is long overdue for Cuban authorities to release Mr. Gross," the statement read.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 1235: Gross, a native of Potomac, Maryland, was working for a firm contracted by USAID when he was arrested Dec. 3, 2009.
+
+Gross, a native of Potomac, Maryland	Maryland	province
+
+sentenceOffset/Text 1491: "Mr. Gross is an international development worker who traveled to Cuba to help connect members of the Jewish community in Havana with other Jewish communities throughout the world," Crowley said.
+
+Jewish communities	jewish	religion
+Jewish community	jewish	religion
+
+sentenceOffset/Text 1696: The leaders of the two largest groups for Cuba's 1,500-strong Jewish community said in Havana this week that they never met Gross and were not working with him.
+
+Cuba's 1,500-strong Jewish community	Cuba	nationality
+Jewish community	jewish	religion
+
+sentenceOffset/Text 2666: The Gross case has complicated such efforts.
+
+
+sentenceOffset/Text 2720: "We will continue to use every available channel to urge the Cuban Government to put an end to Mr. Gross' long and unjustifiable ordeal," the State Department said Friday.
+
+Cuban Government	Cuban	nationality
+
+sentenceOffset/Text 2892: "We have made it very clear to the Cuban Government that the continued detention of Alan Gross is a major impediment to advancing the dialogue between our two countries."
+
+Cuban Government	Cuban	nationality
+
+docName: APW_ENG_20101206.0108
+
+
+sentenceOffset/Text 399: Neither Castro nor those assembled at Havana's Shalom synagogue mentioned the name Alan Gross during the gathering, which was broadcast on the state-television newscast Sunday evening.
+
+Havana's Shalom synagogue	Havana	city
+
+sentenceOffset/Text 584: But Gross's one-year detention without charge was the elephant in the room.
+
+
+sentenceOffset/Text 669: The U.S. government says Gross was in Cuba as part of a USAID program to distribute communications equipment to the island's 1,500-strong Jewish community, and both the State Department and Gross's wife, Judy, made fresh appeals this week for his release.
+
+Jewish community	jewish	religion
+
+sentenceOffset/Text 2583: Gross, a native of Potomac, Maryland, was arrested Dec. 3, 2009.
+
+Gross, a native of Potomac, Maryland	Maryland	province
+
+docName: APW_ENG_20101025.0703
+
+
+sentenceOffset/Text 339: Judy Gross' husband Alan Gross was arrested at the Havana airport in December 2009.
+
+Havana airport	Havana	city
+
+sentenceOffset/Text 810: He never intended them, or your government, any harm," Judy Gross wrote in a letter dated Aug. 4 and first reported Sunday by Reuters.
+
+
+sentenceOffset/Text 1056: Gross, who was able to visit her husband for the first time this summer, wrote that when she returned home she learned that the couple's 26-year-old daughter has been diagnosed with breast cancer.
+
+
+sentenceOffset/Text 1262: "We need him, and I need him, more now than ever before," she wrote, adding that Gross' release would be viewed "as a wonderful humanitarian gesture on the part of the Cuban people."
+
+Cuban people	Cuban	nationality
+
+sentenceOffset/Text 1691: Judy Gross has denied that her husband was a spy.
+
+
+sentenceOffset/Text 2085: Gross has not been charged, but senior Cuban leaders have accused him of spying.
+
+Cuban leaders	Cuban	nationality
+
+sentenceOffset/Text 2166: U.S. diplomats, meanwhile, have insisted Gross was doing nothing wrong.
+
+U.S. diplomats	U.S.	nationality
+
+sentenceOffset/Text 2238: Secretary of State Hillary Rodham Clinton called for Gross' release in June, saying that his continued detention was harming U.S.-Cuba relations.
+
+Secretary of State Hillary	secretary of state	jobTitle
+
+docName: NYT_ENG_20101025.0001
+
+
+sentenceOffset/Text 359: "To the extent his work may have offended you or your government," Judy Gross wrote, referring to her husband, Alan P. Gross, "he and I are genuinely remorseful."
+
+
+sentenceOffset/Text 621: A lawyer who represents Gross said she wanted news of the letter to coincide with debates about Cuba -- Latin America's last Communist outpost -- that are scheduled to begin Monday at the United Nations and in the European Union.
+
+Latin America's last Communist outpost	Latin America	nationality
+
+sentenceOffset/Text 1301: Alan Gross' detention is expected to loom large over both debates.
+
+
+sentenceOffset/Text 1653: American officials have acknowledged that Gross entered Cuba without the proper visa, and have said he was distributing satellite telephones to religious dissidents.
+
+American officials	American	nationality
+
+sentenceOffset/Text 1828: The Cuban authorities have said Gross' activities amounted to espionage, though they have yet to file formal charges against him, raising questions about their motives for detaining him.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 2024: In an effort to win Gross' release, administration officials and congressional aides said USAID had quietly changed the way it administers its programs in Cuba, shifting the focus from those intent on "regime change" to those that support educational exchanges and the growth of small businesses.
+
+
+sentenceOffset/Text 2577: In her plea to Castro, according to the Reuters report, Gross said that Cuba and the United States were using her husband as a "pawn."
+
+
+docName: APW_ENG_20101018.0616
+
+
+sentenceOffset/Text 739: "The meeting was to encourage the release of Alan Gross," State Department spokesman P.J. Crowley said.
+
+State Department spokesman P.J. Crowley	spokesman	jobTitle
+
+sentenceOffset/Text 1113: Gross, a 60-year-old native of Potomac, Maryland, was working for a firm contracted by USAID when he was arrested Dec. 3, 2009, and sent to Cuba's high-security Villa Marista prison.
+
+Gross, a 60-year-old native of Potomac, Maryland	Maryland	province
+Cuba's high-security Villa Marista prison	Cuba	nationality
+high-security Villa Marista prison	Villa	city
+
+sentenceOffset/Text 1415: In a potential sign of progress, Cuba allowed Gross's wife, Judy, to visit him for the first time in August.
+
+
+sentenceOffset/Text 1524: U.S. diplomats insist Gross was not doing anything wrong, and have said his continued detention makes it difficult to improve relations.
+
+U.S. diplomats	U.S.	nationality
+
+sentenceOffset/Text 1670: Crowley said Washington continues to work toward Gross's release.
+
+
+sentenceOffset/Text 2526: Cheryl Mills, chief of staff to Secretary of State Hillary Rodham Clinton, met with Rodriguez in March on the sidelines of a U.N. conference on Haiti to discuss the Gross case.
+
+Cheryl Mills, chief of staff	chief of staff	jobTitle
+Secretary of State Hillary Rodham Clinton	secretary of state	jobTitle
+
+sentenceOffset/Text 3034: Craig Kelly, a former deputy assistant secretary of state, came to Cuba in February for immigration talks -- and also raised the Gross case.
+
+Craig Kelly, a former deputy assistant secretary of state	deputy assistant secretary	jobTitle
+Craig Kelly, a former deputy assistant secretary of state	assistant secretary of state	jobTitle
+
+docName: APW_ENG_20101026.0640
+
+
+sentenceOffset/Text 397: Judy Gross wrote to Castro seeking the release of her husband Alan Gross, who was arrested at the Havana airport in December 2009.
+
+Havana airport	Havana	city
+
+sentenceOffset/Text 537: In her letter, Gross said her husband never meant the Cuban government any harm.
+
+Cuban government	Cuban	nationality
+
+sentenceOffset/Text 903: Secretary of State Hillary Rodham Clinton called for Gross' release in June.
+
+Secretary of State Hillary	secretary of state	jobTitle
+
+docName: NYT_ENG_20101025.0018
+
+
+sentenceOffset/Text 1354: A lawyer who represents Gross said she wanted news of the letter to coincide with debates about Cuba that are scheduled to begin Monday at the United Nations and in the European Union.
+
+
+sentenceOffset/Text 1539: Alan Gross, 61, was detained in December while traveling in Cuba as part of a semi-covert program of the U.S. Agency for International Development, the foreign assistance arm of the State Department.
+
+U.S. Agency	U.S.	nationality
+
+docName: AFP_ENG_20101203.0236
+
+
+sentenceOffset/Text 344: Alan Gross was detained December 3, 2009 on the communist-run island reportedly while distributing cell phones, laptops and other communications equipment in Cuba.
+
+
+sentenceOffset/Text 517: "It is long overdue for Cuban authorities to release Mr Gross," State Department spokesman Philip Crowley said in a statement.
+
+Cuban authorities	Cuban	nationality
+State Department spokesman Philip Crowley	spokesman	jobTitle
+
+sentenceOffset/Text 942: "Mr Gross is a husband, a father, and a dedicated professional with a long history of development assistance and support to communities in more than 50 countries.
+
+
+sentenceOffset/Text 1321: US officials say Gross worked for a non-government organization contracted by the State Department to supply computer and communications material to civil society groups in Cuba.
+
+US officials	US	nationality
+
+sentenceOffset/Text 1509: They said that Gross, an international development worker, visited Cuba to help members of the Jewish community in Havana link up with other Jewish communities throughout the world.
+
+Jewish community	jewish	religion
+Jewish communities	jewish	religion
+
+sentenceOffset/Text 1855: Crowley added: "We have made it very clear to the Cuban government that the continued detention of Alan Gross is a major impediment to advancing the dialogue between our two countries."
+
+Cuban government	Cuban	nationality
+
+docName: AFP_ENG_20100325.0029
+
+
+sentenceOffset/Text 1854: Alan Gross, 60, was working in Cuba for a development contractor when he was arrested in December.
+
+
+docName: AFP_ENG_20101007.0442
+
+
+sentenceOffset/Text 804: In December, Cuba detained a US government contractor, Alan Gross, whom Havana accused of distributing communications materials to civil groups.
+
+US government contractor, Alan Gross	US	nationality
+
+sentenceOffset/Text 1181: And he stressed that in his view, Gross' case was very different from that of the Cubans, who were spying on US military installations.
+
+that of the Cubans	Cubans	nationality
+
+sentenceOffset/Text 1317: He also said that he was not able to meet with Gross during the visit.
+
+
+docName: AFP_ENG_20100618.0014
+
+
+sentenceOffset/Text 1275: During the latest round of meetings, the Obama administration raised the case of Alan Gross, a US citizen held in Cuba since December 2009, and "called for his immediate release," Crowley said.
+
+US citizen	US	nationality
+
+sentenceOffset/Text 1478: US Secretary of State Hillary Clinton said US officials would tell their Cuban counterparts that Cuba's detention of Gross was "harming" ties between the two countries.
+
+Cuba's detention of Gross	Cuba	nationality
+Cuban counterparts	Cuban	nationality
+US officials	US	nationality
+Secretary of State Hillary Clinton	secretary of state	jobTitle
+US Secretary of State Hillary Clinton	US	nationality
+
+sentenceOffset/Text 1656: US officials say that Gross worked for a non-government organization contracted by the State Department to supply computer and communications equipment to opposition groups on the island.
+
+US officials	US	nationality
+
+sentenceOffset/Text 1853: Cuba suspects Gross is a spy.
+
+
+docName: APW_ENG_20101025.0702
+
+
+sentenceOffset/Text 338: Judy Gross' husband Alan Gross was arrested at the Havana airport in December 2009.
+
+Havana airport	Havana	city
+
+sentenceOffset/Text 597: Judy Gross wrote in a letter dated Aug. 4 and first reported Sunday by Reuters that her husband never intended to harm the government or the people of Cuba.
+
+people of Cuba	Cuba	nationality
+
+sentenceOffset/Text 754: She also wrote that the couple's 26-year-old daughter has breast cancer and that the family needs Alan Gross at home.
+
+
+docName: AFP_ENG_20100616.0133
+
+
+sentenceOffset/Text 378: Alan Gross, 60, "is being held for violating Cuban laws and committing grave offenses in our country at the service of the subversive policy of the government of the United States against Cuba," said Foreign Minister Bruno Rodriguez.
+
+Cuban laws	Cuban	nationality
+government of the United States	United States	nationality
+Foreign Minister Bruno Rodriguez	foreign minister	jobTitle
+
+sentenceOffset/Text 621: US officials say that Gross worked for a non-government organization contracted by the State Department to supply computer and communications material to civil society groups on the island.
+
+US officials	US	nationality
+
+sentenceOffset/Text 856: Gross "is currently under investigation, he has a guaranteed defense, has received permanent consular assistance and has had communication with his relatives," Rodriguez said.
+
+
+sentenceOffset/Text 1041: Cuba however has not said if it has pressed formal charges against Gross.
+
+
+sentenceOffset/Text 1124: US State Department spokesman Philip Crowley said that as of June 2 US officials have been granted access to Gross five times.
+
+US State Department spokesman Philip Crowley	US	nationality
+US State Department spokesman Philip Crowley	spokesman	jobTitle
+US officials	US	nationality
+
+sentenceOffset/Text 1260: Gross's case is being handled "in strict accordance with the Cuban penal code," Rodriguez said.
+
+Cuban penal code	Cuban	nationality
+
+sentenceOffset/Text 1487: Cuba insists that Gross is a spy who had sophisticated communications equipment for dissidents in the Americas' only one-party Communist regime.
+
+
+sentenceOffset/Text 1766: Gross was arrested December 5, reportedly while distributing cell phones, laptops and other communications equipment.
+
+
+sentenceOffset/Text 1893: Washington has called for Gross' immediate and unconditional release.
+
+
+docName: XIN_ENG_20101124.0253
+
+
+sentenceOffset/Text 58: Cuba continues investigation on jailed U.S. contractor </HEADLINE> <DATELINE> HAVANA, Nov. 24 (Xinhua) </DATELINE> <TEXT> <P> Cuban authorities have continued to investigate U.S. contractor Alan Gross, arrested a year ago on espionage charges, Attorney General Dario Delgado said here on Wednesday.
+
+U.S. contractor </HEADLINE> <DATELINE> HAVANA, Nov.	contractor	jobTitle
+U.S. contractor Alan Gross	U.S.	nationality
+U.S. contractor </HEADLINE> <DATELINE> HAVANA, Nov.	U.S.	nationality
+Cuban authorities	Cuban	nationality
+U.S. contractor Alan Gross	contractor	jobTitle
+
+sentenceOffset/Text 778: Gross was arrested on Dec. 3, 2009 at the Havana Airport, and was accused of providing internet satellite communication equipment to the anti-Castro groups based on the island.
+
+Havana Airport	Havana	city
+
+sentenceOffset/Text 964: The U.S. has called for his release on humanitarian grounds, saying that Gross was only providing an internet connection to the Cuban Jewish population.
+
+Cuban Jewish population	Cuban	nationality
+Jewish population	jewish	religion
+
+sentenceOffset/Text 1126: The detainee's wife, Judy Gross, wrote to Cuban leader Raul Castro in August to express regret for her husband's work in Cuba.
+
+Cuban leader Raul Castro	Cuban	nationality
+
+sentenceOffset/Text 1253: The Cuban authorities have allowed Gross' wife to visit him at least once at a military hospital in Havana where he was detained.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 1392: Mrs. Gross has criticized the White House for not doing enough and described her husband as "a victim caught in the crossfire between the two foes of the old Cold War."
+
+
+sentenceOffset/Text 1570: The U.S. State Department recently dismissed an alleged plan to exchange Gross for one of the five Cubans imprisoned since 1998 in the United States under espionage charges.
+
+U.S. State Department	U.S.	nationality
+Gross for one of the five Cubans	Cubans	nationality
+
+docName: WPB_ENG_20100709.0003
+
+
+sentenceOffset/Text 3189: Among prisoners notably not mentioned for release on Wednesday was Alan Gross of Potomac, Md., an Agency for International Development contractor imprisoned in Cuba since December for the crime of distributing cellphones and laptops in Cuba's tiny Jewish community.
+
+Cuba's tiny Jewish community	Cuba	nationality
+Jewish community	jewish	religion
+
+docName: AFP_ENG_20100826.0001
+
+
+sentenceOffset/Text 598: Richardson was on a trade mission to Cuba when he brought up the detention of Alan Gross, 61, who was arrested on December 5 reportedly while distributing cell phones, laptops and other communications equipment in Cuba.
+
+
+sentenceOffset/Text 827: "The Obama administration asked me to take up the Alan Gross case at the highest level" in Cuba, Richardson said in Spanish.
+
+
+sentenceOffset/Text 1022: US officials say that Gross worked for a non-government organization contracted by the State Department to supply computer and communications material to civil society groups in Cuba.
+
+US officials	US	nationality
+
+sentenceOffset/Text 1215: Cuba believes Gross is a spy.
+
+
+sentenceOffset/Text 1245: Rodriguez in June said Gross was being held for "committing grave offenses in our country at the service of the subversive policy of the government of the United States against Cuba."
+
+government of the United States	United States	nationality
+
+sentenceOffset/Text 1438: Richardson said Rodriguez described Gross as being "in a very delicate situation, from a legal and an investigative standpoint."
+
+
+sentenceOffset/Text 1576: In a separate interview with CNN, Richardson said he believed Gross was "an innocent person who was here on a mission and my objective is to try to get him out."
+
+
+sentenceOffset/Text 1747: He said he would meet again later with Cuban officials on the Gross case.
+
+Cuban officials	Cuban	nationality
+
+docName: AFP_ENG_20101202.0093
+
+
+sentenceOffset/Text 385: Alan Gross was detained on the communist-run island reportedly while distributing cell phones, laptops and other communications equipment in Cuba.
+
+
+sentenceOffset/Text 776: He described Gross as a "committed international development worker who was arrested by Cuban authorities for his activities dedicated to helping the Jewish community in Havana connect with other Jewish communities throughout the world."
+
+Cuban authorities	Cuban	nationality
+Jewish community	jewish	religion
+Jewish communities	jewish	religion
+
+sentenceOffset/Text 1023: Crowley added that State Department officials would discuss Gross's case when they meet with members of his family later Thursday.
+
+
+sentenceOffset/Text 1163: "We have repeatedly called on the government of Cuba to immediately and unconditionally release Mr Gross, who has been held all this time without charge," Crowley said.
+
+government of Cuba	Cuba	nationality
+
+sentenceOffset/Text 1341: "We will continue to use all available channels to urge the Cuban government to show humanitarian compassion and put an end to Mr Gross' long and unjustifiable ordeal," he added.
+
+Cuban government	Cuban	nationality
+
+sentenceOffset/Text 1529: US officials say Gross worked for a non-government organization contracted by the State Department to supply computer and communications material to civil society groups in Cuba.
+
+US officials	US	nationality
+
+docName: APW_ENG_20101202.0735
+
+
+sentenceOffset/Text 58: Tough year for wife of man detained as spy in Cuba </HEADLINE> <DATELINE> WASHINGTON 2010-12-02 19:46:00 UTC </DATELINE> <TEXT> <P> In the year her American husband has been detained in Cuba, accused of spying for the U.S., Judy Gross has been forced to sell the family home and move into a small apartment in Washington.
+
+Cuba </HEADLINE> <DATELINE> WASHINGTON	Cuba	nationality
+American husband	American	nationality
+
+sentenceOffset/Text 557: More than 1,100 miles (1,770 kilometers) away, Alan Gross passes his days in a Cuban military hospital, watching baseball on a small television or jamming with his jailers on a stringed instrument they gave him.
+
+Cuban military hospital	Cuban	nationality
+
+sentenceOffset/Text 778: When Alan Gross left for Cuba last December, his wife says he planned to spend just 10 days there helping to set up Internet access for members of the country's small Jewish population, believed to number about 1,500.
+
+Jewish population	jewish	religion
+
+sentenceOffset/Text 1137: "Every morning I wake up and for a few seconds it's like a normal morning, and then I remember ... he's gone," his wife, Judy Gross, told The Associated Press in an interview.
+
+
+sentenceOffset/Text 1454: U.S. officials have denied claims he is a spy and said no progress on the relationship between the countries can be made until Gross is released.
+
+U.S. officials	U.S.	nationality
+
+sentenceOffset/Text 2088: Judy Gross is adamant that her husband is not a spy.
+
+
+sentenceOffset/Text 2419: The Cuban government did not respond to requests for comment, but officials have said previously that Gross' case is pending, and that there is nothing unusual about the long period he has spent in jail without being charged.
+
+Cuban government	Cuban	nationality
+
+sentenceOffset/Text 2942: Judy Gross says he was working at a Jewish community center in Havana, helping Jewish groups on the island communicate with one another and get access to the Internet so they could look at Wikipedia and online prayer books.
+
+Jewish community center	jewish	religion
+Jewish groups	jewish	religion
+
+sentenceOffset/Text 3166: The visit was his fifth to help the same group, Judy Gross said.
+
+
+sentenceOffset/Text 3240: The leaders of Cuba's two main Jewish groups say they have not worked with Alan Gross, who is Jewish.
+
+Cuba's two main Jewish groups	Cuba	nationality
+Jewish groups	jewish	religion
+Alan Gross, who is Jewish	jewish	religion
+
+sentenceOffset/Text 3342: While it is possible Gross was working with one of the other Jewish groups scattered across the island, they represent very small numbers of people.
+
+Jewish groups	jewish	religion
+
+sentenceOffset/Text 3500: Adela Dworin, president of Havana's Temple Beth Shalom and Cuba's largest Jewish organization, the Jewish Community House, told The Associated Press it's possible Gross came to the center as one of hundreds of foreign visitors it receives each year.
+
+Havana's Temple Beth Shalom	Havana	city
+Cuba's largest Jewish organization, the Jewish Community House	Cuba	nationality
+Adela Dworin, president of Havana's Temple Beth Shalom	president	jobTitle
+organization, the Jewish Community House	jewish	religion
+Jewish organization, the Jewish Community House	jewish	religion
+
+sentenceOffset/Text 4251: For now, Gross is being held at the Cuban military hospital, where he shares a three-person room.
+
+Cuban military hospital	Cuban	nationality
+
+sentenceOffset/Text 4421: Judy Gross, a psychotherapist, says in some letters he sounds depressed or angry, in others cheerful.
+
+
+sentenceOffset/Text 4731: Gross passes time by reading books and magazines his wife sends.
+
+
+sentenceOffset/Text 4805: He is not allowed to go outside very often, but he exercises, mostly push-ups and sit-ups, Judy Gross thinks, since his hips have been bothering him.
+
+
+sentenceOffset/Text 5361: This summer he was finally allowed a small air conditioner and television, on  "He was really grateful for that," Judy Gross said.
+
+
+sentenceOffset/Text 5501: Gloria Berbena, a spokeswoman for the U.S. Interests Section in Havana, which Washington maintains instead of an embassy, said that she knew of no new developments in the case, though officials continue to press the Cuban government to release Gross.
+
+Cuban government	Cuban	nationality
+Gloria Berbena, a spokeswoman	spokeswoman	jobTitle
+U.S. Interests Section	U.S.	nationality
+
+docName: APW_ENG_20101203.0959
+
+
+sentenceOffset/Text 481: The statement from department spokesman P.J. Crowley comes on the one-year anniversary of the arrest of Alan Gross, whom Cuban President Raul Castro has accused of spying.
+
+Cuban President Raul Castro	Cuban	nationality
+Cuban President Raul Castro	president	jobTitle
+
+sentenceOffset/Text 653: Gross has not been charged with any crime, however.
+
+
+sentenceOffset/Text 714: "It is long overdue for Cuban authorities to release Mr. Gross," the statement read.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 1068: "We have made it very clear to the Cuban Government that the continued detention of Alan Gross is a major impediment to advancing the dialogue between our two countries," the State Department said.
+
+Cuban Government	Cuban	nationality
+
+sentenceOffset/Text 1275: It vowed to use "every available channel to urge the Cuban Government to put an end to Mr. Gross' long and unjustifiable ordeal."
+
+Cuban Government	Cuban	nationality
+
+sentenceOffset/Text 1581: Gross, a native of Potomac, Maryland, was working for a firm contracted by the U.S. Agency for International Development when he was arrested Dec. 3, 2009.
+
+Gross, a native of Potomac, Maryland	Maryland	province
+U.S. Agency	U.S.	nationality
+
+sentenceOffset/Text 1877: "Mr. Gross is an international development worker who traveled to Cuba to help connect members of the Jewish community in Havana with other Jewish communities throughout the world," Crowley said.
+
+Jewish communities	jewish	religion
+Jewish community	jewish	religion
+
+sentenceOffset/Text 2082: The leaders of the two largest groups for Cuba's 1,500-strong Jewish community said in Havana this week that they never met Gross and were not working with him.
+
+Cuba's 1,500-strong Jewish community	Cuba	nationality
+Jewish community	jewish	religion
+
+sentenceOffset/Text 2581: The Gross case has complicated hopes for a thaw that rose after the election of President Barack Obama, whose administration says it has worked to relieve tensions in a number of ways, including easing limits on Cuban-Americans who want to travel or send money to the island that were imposed by former President George W. Bush.
+
+President Barack Obama	president	jobTitle
+President George W. Bush	president	jobTitle
+
+sentenceOffset/Text 3105: On the eve of the anniversary of Gross' detention, Democratic New York Congressman Eliot Engel spoke on the House floor urging Cuba to release him.
+
+New York Congressman Eliot Engel	New York	province
+
+sentenceOffset/Text 3253: He noted that Gross reportedly has lost weight during confinement, suffers from severe hip pain and has developed disc problems that caused partial paralysis in his leg and require surgery.
+
+
+docName: APW_ENG_20100714.0107
+
+
+sentenceOffset/Text 416: Clinton told representatives of the American Jewish community that they should add their voices to calls for Cuba to release Alan P. Gross, a U.S. Agency for International Development contractor who was helping members of Cuba's small Jewish community use the Internet to stay in contact with each other and with similar groups abroad.
+
+Jewish community	jewish	religion
+American Jewish community	American	nationality
+Alan P. Gross, a U.S. Agency	U.S.	nationality
+Cuba's small Jewish community	Cuba	nationality
+Jewish community	jewish	religion
+
+sentenceOffset/Text 1019: Gross' wife, Judy, attended the event.
+
+
+sentenceOffset/Text 1181: "But I am really making an appeal to the active Jewish community here in our country to join this cause ... because this family deserves to be reunited and each and every one of us should do everything we can to make it clear to the Cuban government that Alan Gross needs to come home."
+
+Jewish community	jewish	religion
+Cuban government	Cuban	nationality
+
+sentenceOffset/Text 1477: Gross, a 60-year-old native of Potomac, Maryland, was working in Cuba for a firm contracted by USAID when he was arrested as a suspected spy in Havana on Dec. 3.
+
+Gross, a 60-year-old native of Potomac, Maryland	Maryland	province
+
+sentenceOffset/Text 1739: The U.S. says Gross committed no crime and has repeatedly appealed for his release on humanitarian grounds.
+
+
+sentenceOffset/Text 1944: Formal charges can't be filed in Cuba without a judicial accusation and the opening of a case, so it appears unlikely charges against Gross are imminent.
+
+
+sentenceOffset/Text 2107: Judy Gross has said her husband had brought communications equipment intended only for humanitarian purposes and not for political use by Cuba's small dissident community.
+
+Cuba's small dissident community	Cuba	nationality
+
+docName: AFP_ENG_20100219.0014
+
+
+sentenceOffset/Text 646: The US government has identified the man, 60-year-old Alan Gross, as a government contractor with Development Alternatives Inc (DAI) of Bethesda, Maryland, just outside Washington, who was seeking to help Jewish groups communicate with people outside the country by distributing mobile phones and computers.
+
+Maryland, just outside Washington	Washington	province
+Jewish groups	jewish	religion
+Maryland, just outside Washington	Maryland	province
+
+sentenceOffset/Text 963: Havana has slammed him as a US spy seeking to harm the communist regime, with President Raul Castro saying Gross used "sophisticated" communications equipment to help opposition groups in their role as "mercenaries" for the United States.
+
+US spy	US	nationality
+President Raul Castro	president	jobTitle
+
+docName: WPB_ENG_20101207.0007
+
+
+sentenceOffset/Text 603: There was just one problem: No mention was made of Alan P. Gross, an American from Potomac, Md., who passed the holiday in a Cuban military facility, where he has been imprisoned for a year without trial because he tried to help Cuba's Jews.
+
+Alan P. Gross, an American	American	nationality
+Cuban military facility	Cuban	nationality
+Cuba's Jews	Cuba	nationality
+
+sentenceOffset/Text 854: Mr. Gross, a 61-year-old specialist in international development, traveled to Cuba under a contract from the State Department's Agency for International Development.
+
+
+sentenceOffset/Text 1242: Though that is normal activity in most of the world - and Mr. Gross declared his garden-variety equipment to Cuban customs - he was arrested on Dec. 3, 2009.
+
+Cuban customs	Cuban	nationality
+
+sentenceOffset/Text 1409: Senior Cuban officials claimed that Mr. Gross, who is himself Jewish but speaks little Spanish, was sent to Cuba as a spy.
+
+Cuban officials	Cuban	nationality
+Mr. Gross, who is himself Jewish	jewish	religion
+
+sentenceOffset/Text 2054: Appeals by the State Department and congressional leaders for Mr. Gross' release on humanitarian grounds - or at least the detailing of charges against him - have fallen on deaf ears in Havana.
+
+
+sentenceOffset/Text 2248: Instead the regime appears to be intent on forcing an exchange of Mr. Gross for one or more of five Cuban intelligence agents who are serving federal prison terms after being tried and convicted on espionage charges.
+
+Cuban intelligence agents	Cuban	nationality
+
+sentenceOffset/Text 2465: This makes Mr. Gross not a prisoner but a hostage - one whose continued detention is a flagrant violation of international law and human decency.
+
+
+sentenceOffset/Text 2620: To its credit, the Obama administration has put further improvement of relations with Cuba on hold while pressing for Mr. Gross' release.
+
+
+sentenceOffset/Text 2758: A statement released Friday said the State Department had "made it very clear to the Cuban government that the continued detention of Alan Gross is a major impediment to advancing the dialogue between our two countries."
+
+Cuban government	Cuban	nationality
+
+docName: AFP_ENG_20100823.0024
+
+
+sentenceOffset/Text 1677: "We did have a conversation with him (Richardson) last week, brought him up to date on the status of the case of Alan Gross and asked if he would raise it during his discussions with Cuban officials this week," Crowley said.
+
+Cuban officials	Cuban	nationality
+
+sentenceOffset/Text 1911: Gross was arrested December 5, reportedly while distributing cell phones, laptops and other communications equipment.
+
+
+sentenceOffset/Text 2038: Gross worked for an NGO contracted by the State Department to supply computer and communications material to civil society groups on the island, according to the United States which seeks his release.
+
+
+docName: APW_ENG_20101202.0773
+
+
+sentenceOffset/Text 58: Tough year for wife of man detained as spy in Cuba </HEADLINE> <DATELINE> WASHINGTON 2010-12-02 20:17:07 UTC </DATELINE> <TEXT> <P> In the year her American husband has been detained in Cuba, accused of spying for the U.S., Judy Gross has been forced to sell the family home and move into a small apartment in Washington.
+
+Cuba </HEADLINE> <DATELINE> WASHINGTON	Cuba	nationality
+American husband	American	nationality
+
+sentenceOffset/Text 557: More than 1,100 miles (1,770 kilometers) away, Alan Gross passes his days in a Cuban military hospital, watching baseball on a small television or jamming with his jailers on a stringed instrument they gave him.
+
+Cuban military hospital	Cuban	nationality
+
+sentenceOffset/Text 778: When Alan Gross left for Cuba last December, his wife says he planned to spend just 10 days there helping to set up Internet access for members of the country's small Jewish population, believed to number about 1,500.
+
+Jewish population	jewish	religion
+
+sentenceOffset/Text 1137: "Every morning I wake up and for a few seconds it's like a normal morning, and then I remember ... he's gone," his wife, Judy Gross, told The Associated Press in an interview.
+
+
+sentenceOffset/Text 1454: U.S. officials have denied claims he is a spy and said no progress on the relationship between the countries can be made until Gross is released.
+
+U.S. officials	U.S.	nationality
+
+sentenceOffset/Text 2088: Judy Gross is adamant that her husband is not a spy.
+
+
+sentenceOffset/Text 2419: The Cuban government did not respond to requests for comment, but officials have said previously that Gross' case is pending, and that there is nothing unusual about the long period he has spent in jail without being charged.
+
+Cuban government	Cuban	nationality
+
+sentenceOffset/Text 2942: Judy Gross says he was working at a Jewish community center in Havana, helping Jewish groups on the island communicate with one another and get access to the Internet so they could look at Wikipedia and online prayer books.
+
+Jewish community center	jewish	religion
+Jewish groups	jewish	religion
+
+sentenceOffset/Text 3166: The visit was his fifth to help the same group, Judy Gross said.
+
+
+sentenceOffset/Text 3240: The leaders of Cuba's two main Jewish groups say they have not worked with Alan Gross, who is Jewish.
+
+Cuba's two main Jewish groups	Cuba	nationality
+Jewish groups	jewish	religion
+Alan Gross, who is Jewish	jewish	religion
+
+sentenceOffset/Text 3342: While it is possible Gross was working with one of the other Jewish groups scattered across the island, they represent very small numbers of people.
+
+Jewish groups	jewish	religion
+
+sentenceOffset/Text 3500: Adela Dworin, president of Havana's Temple Beth Shalom and Cuba's largest Jewish organization, the Jewish Community House, told The Associated Press it's possible Gross came to the center as one of hundreds of foreign visitors it receives each year.
+
+Havana's Temple Beth Shalom	Havana	city
+Cuba's largest Jewish organization, the Jewish Community House	Cuba	nationality
+Adela Dworin, president of Havana's Temple Beth Shalom	president	jobTitle
+organization, the Jewish Community House	jewish	religion
+Jewish organization, the Jewish Community House	jewish	religion
+
+sentenceOffset/Text 4251: In a statement earlier this year, his company said Gross was working with a peaceful non-dissident civic group it did not identify to improve its communication capabilities.
+
+
+sentenceOffset/Text 4560: For now, Gross is being held at the Cuban military hospital, where he shares a three-person room.
+
+Cuban military hospital	Cuban	nationality
+
+sentenceOffset/Text 4730: Judy Gross, a psychotherapist, says in some letters he sounds depressed or angry, in others cheerful.
+
+
+sentenceOffset/Text 5040: Gross passes time by reading books and magazines his wife sends.
+
+
+sentenceOffset/Text 5114: He is not allowed to go outside very often, but he exercises, mostly push-ups and sit-ups, Judy Gross thinks, since his hips have been bothering him.
+
+
+sentenceOffset/Text 5670: This summer he was finally allowed a small air conditioner and television, on  "He was really grateful for that," Judy Gross said.
+
+
+sentenceOffset/Text 5810: Gloria Berbena, a spokeswoman for the U.S. Interests Section in Havana, which Washington maintains instead of an embassy, said that she knew of no new developments in the case, though officials continue to press the Cuban government to release Gross.
+
+Cuban government	Cuban	nationality
+Gloria Berbena, a spokeswoman	spokeswoman	jobTitle
+U.S. Interests Section	U.S.	nationality
+
+docName: WPB_ENG_20100317.0011
+
+
+sentenceOffset/Text 1049: They cited the case of Agency for International Development subcontractor Alan Gross, who was working in Cuba on a tourist visa and possessed satellite communications equipment, who has been held in a maximum security prison since his arrest Dec. 3.
+
+International Development subcontractor Alan Gross	subcontractor	jobTitle
+
+docName: APW_ENG_20101203.0650
+
+
+sentenceOffset/Text 473: The statement by State Department spokesman P.J. Crowley comes on the one-year anniversary of the arrest of Alan Gross, who Cuban officials have accused of spying.
+
+State Department spokesman P.J. Crowley	spokesman	jobTitle
+Cuban officials	Cuban	nationality
+
+docName: APW_ENG_20100915.0747
+
+
+sentenceOffset/Text 3416: Asked if Cuba's continued detention of American contractor Alan Gross was a stumbling block in ending the embargo, Rodriguez said only that Washington never had a problem finding excuses when it sought to justify its policies.
+
+Cuba's continued detention of American contractor Alan Gross	Cuba	nationality
+American contractor Alan Gross	American	nationality
+contractor Alan Gross	contractor	jobTitle
+
+sentenceOffset/Text 3643: Gross has been in jailed without charge since December.
+
+
+docName: APW_ENG_20101211.0018
+
+
+sentenceOffset/Text 3211: Asked whether Cuba would consider a prisoner swap of the five agents for U.S. subcontractor Alan Gross, who has been in jail in Cuba for more than a year without charges, Alarcon said the two cases are separate and he expects charges against Gross to be filed.
+
+U.S. subcontractor Alan Gross	U.S.	nationality
+U.S. subcontractor Alan Gross	subcontractor	jobTitle
+
+sentenceOffset/Text 3688: Cuba accuses Gross of spying, while his family and the U.S. government say he was in Cuba as part of a USAID program to distribute communications equipment to the island's 1,500-strong Jewish community.
+
+Jewish community	jewish	religion
+
+docName: APW_ENG_20100612.0902
+
+
+sentenceOffset/Text 626: In the last round of talks, U.S. diplomats pressed Cuba to release Alan Gross, a jailed American contractor that Cuba has accused of spying.
+
+Alan Gross, a jailed American contractor	contractor	jobTitle
+Alan Gross, a jailed American contractor	American	nationality
+U.S. diplomats	U.S.	nationality
+
+sentenceOffset/Text 767: Gross has been jailed for more than 6 months without charge.
+
+
+sentenceOffset/Text 1862: For its part, U.S. officials have made clear that there is little hope for improved relations while Cuba holds Gross.
+
+U.S. officials	U.S.	nationality
+
+docName: APW_ENG_20101018.0738
+
+
+sentenceOffset/Text 739: "The meeting was to encourage the release of Alan Gross," State Department spokesman P.J. Crowley said.
+
+State Department spokesman P.J. Crowley	spokesman	jobTitle
+
+sentenceOffset/Text 1113: Gross, a 60-year-old native of Potomac, Maryland, was working for a firm contracted by USAID when he was arrested Dec. 3, 2009, and sent to Cuba's high-security Villa Marista prison.
+
+Gross, a 60-year-old native of Potomac, Maryland	Maryland	province
+Cuba's high-security Villa Marista prison	Cuba	nationality
+high-security Villa Marista prison	Villa	city
+
+sentenceOffset/Text 1415: In a potential sign of progress, Cuba allowed Gross's wife, Judy, to visit him for the first time in August.
+
+
+sentenceOffset/Text 1524: U.S. diplomats insist Gross was not doing anything wrong, and have said his continued detention makes it difficult to improve relations.
+
+U.S. diplomats	U.S.	nationality
+
+sentenceOffset/Text 1670: Crowley said Washington continues to work toward Gross's release.
+
+
+sentenceOffset/Text 2868: Gross' case also came up at Mills' meeting, which took place on the sidelines of a U.N. conference on Haiti.
+
+
+sentenceOffset/Text 2986: Craig Kelly, a former deputy assistant secretary of state, came to Cuba in February for immigration talks -- and also raised the Gross case.
+
+Craig Kelly, a former deputy assistant secretary of state	deputy assistant secretary	jobTitle
+Craig Kelly, a former deputy assistant secretary of state	assistant secretary of state	jobTitle
+
+docName: LTW_ENG_20091022.0126
+
+
+docName: APW_ENG_20101206.0091
+
+
+sentenceOffset/Text 411: Neither Castro nor those assembled at Havana's Shalom synagogue mentioned the name Alan Gross during the gathering, which was broadcast on the state-television newscast Sunday evening.
+
+Havana's Shalom synagogue	Havana	city
+
+sentenceOffset/Text 596: But Gross's one-year detention without charge was the elephant in the room.
+
+
+sentenceOffset/Text 681: The U.S. government says Gross was in Cuba as part of a USAID program to distribute communications equipment to the island's 1,500-strong Jewish community, and both the State Department and Gross's wife, Judy, made fresh appeals this week for his release.
+
+Jewish community	jewish	religion
+
+sentenceOffset/Text 1919: Gross, a native of Potomac, Maryland, was arrested Dec. 3, 2009.
+
+Gross, a native of Potomac, Maryland	Maryland	province
+
+docName: NYT_ENG_20090828.0173
+
+
+docName: APW_ENG_20101004.0975
+
+
+sentenceOffset/Text 4022: The senior State Department official also commented on the detention of Alan Gross, an American subcontractor jailed in Havana without charge since December and accused of spying.
+
+Alan Gross, an American subcontractor	subcontractor	jobTitle
+Alan Gross, an American subcontractor	American	nationality
+
+docName: APW_ENG_20101201.1032
+
+
+sentenceOffset/Text 399: Cuban authorities have accused Alan Gross of espionage, though they have not pressed charges despite keeping him in custody since he was detained last Dec. 3.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 567: Adela Dworin, president of Havana's Temple Beth Shalom and Cuba's largest Jewish organization, the Jewish Community House, told The Associated Press on Wednesday it's possible Gross came to the center as one of "hundreds" of foreign visitors it receives each year.
+
+Havana's Temple Beth Shalom	Havana	city
+Cuba's largest Jewish organization, the Jewish Community House	Cuba	nationality
+Adela Dworin, president of Havana's Temple Beth Shalom	president	jobTitle
+organization, the Jewish Community House	jewish	religion
+Jewish organization, the Jewish Community House	jewish	religion
+
+sentenceOffset/Text 1224: While it is possible Gross was working with one of the other Jewish groups scattered across the island, the other organizations represent very small numbers of people.
+
+Jewish groups	jewish	religion
+
+sentenceOffset/Text 1514: Gross' wife, Judy, has denied that her husband was a spy and says he is a veteran development worker who was helping members of Cuba's Jewish community use the Internet to stay in contact with each other and with similar groups abroad.
+
+Cuba's Jewish community	Cuba	nationality
+Jewish community	jewish	religion
+
+sentenceOffset/Text 2474: Senior Cuban leaders including President Raul Castro have accused Gross of spying.
+
+Cuban leaders	Cuban	nationality
+President Raul Castro	president	jobTitle
+
+sentenceOffset/Text 2890: In August, Cuba allowed Judy Gross to visit her husband for the first time since his arrest.
+
+
+sentenceOffset/Text 2992: U.S. diplomats insist Gross was not doing anything wrong and have said his continued detention makes it difficult to improve relations.
+
+U.S. diplomats	U.S.	nationality
+
+sentenceOffset/Text 3137: Gloria Berbena, a spokeswoman for the U.S. Interests Section in Havana, which Washington maintains instead of an embassy, said consular officials last visited Gross in jail Nov. 16.
+
+Gloria Berbena, a spokeswoman	spokeswoman	jobTitle
+U.S. Interests Section	U.S.	nationality
+
+sentenceOffset/Text 3478: Officials have said previously the case is working its way through the legal system and there is nothing unusual about the long period Gross has spent in jail without charge.
+
+
+sentenceOffset/Text 3662: Also Wednesday, a group of Cuban religious leaders who traveled to the United States last week for a religious conference said Washington officials asked them for help in Gross' case.
+
+Cuban religious leaders	Cuban	nationality
+Washington officials	Washington	province
+
+docName: XIN_ENG_20101201.0249
+
+
+sentenceOffset/Text 58: Cuban Jewish community denies links with jailed U.S. contractor </HEADLINE> <DATELINE> HAVANA, Dec. 1 (Xinhua) </DATELINE> <TEXT> <P> Leaders of Jewish groups in Cuba denied on Wednesday they have any contact with jailed U.S. contractor Alan Gross, who was arrested a year ago over charges of spying.
+
+Cuban Jewish community	Cuban	nationality
+Jewish groups	jewish	religion
+U.S. contractor Alan Gross	contractor	jobTitle
+Jewish community	jewish	religion
+U.S. contractor </HEADLINE> <DATELINE> HAVANA, Dec.	contractor	jobTitle
+U.S. contractor Alan Gross	U.S.	nationality
+U.S. contractor </HEADLINE> <DATELINE> HAVANA, Dec.	U.S.	nationality
+
+sentenceOffset/Text 368: Adela Dworin, vice president of the "Jewish Patronage," said, "I am very sorry for what happened to Gross," adding that "the saddest thing is that he wanted to engage the Jewish community, which is totally strange to his activities."
+
+Adela Dworin, vice president of the "Jewish Patronage	vice president	jobTitle
+Jewish Patronage	jewish	religion
+Jewish community	jewish	religion
+
+sentenceOffset/Text 611: Mayra Levy, official from the Havana Sephardic Hebrew Center, said she had never met Gross and he never visited the institution.
+
+Havana Sephardic Hebrew Center	Havana	city
+
+sentenceOffset/Text 837: Gross was arrested on Dec. 3, 2009, at the Havana airport for allegations of providing Internet satellite communication equipment to the anti-Castro groups based on the island.
+
+Havana airport	Havana	city
+
+sentenceOffset/Text 1114: U.S. calls for his release on humanitarian grounds and ensured that Gross was only providing Internet connection to the Cuban Jewish population.
+
+Cuban Jewish population	Cuban	nationality
+Jewish population	jewish	religion
+
+sentenceOffset/Text 1268: The detainee's wife, Judy Gross, wrote in August to Cuban President Raul Castro to express regrets for her husband's work in Cuba.
+
+Cuban President Raul Castro	Cuban	nationality
+Cuban President Raul Castro	president	jobTitle
+
+sentenceOffset/Text 1399: Cuban authorities have allowed Gross's wife to visit him at least once at a military hospital in Havana where he was detained.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 1535: Mrs. Gross has criticized the White House for not doing enough and described her husband as "a victim caught in the crossfire between the two foes of the old Cold War."
+
+
+sentenceOffset/Text 1713: The U.S. State Department dismissed recently an alleged plan to exchange Gross with one of the five Cubans imprisoned since 1998 in the United States under espionage charges.
+
+U.S. State Department	U.S.	nationality
+Gross with one of the five Cubans	Cubans	nationality
+
+docName: XIN_ENG_20100616.0284
+
+
+sentenceOffset/Text 58: U.S. citizen under investigation in Cuba for spying </HEADLINE> <DATELINE> HAVANA, June 16 (Xinhua) </DATELINE> <TEXT> <P> U.S. contractor Alan Gross, who was arrested for alleged espionage activities in December, remains under investigation, said Cuban Foreign Minister Bruno Rodriguez Wednesday.
+
+(Xinhua) </DATELINE> <TEXT> <P> U.S. contractor Alan Gross	U.S.	nationality
+Cuban Foreign Minister Bruno Rodriguez Wednesday	Cuban	nationality
+(Xinhua) </DATELINE> <TEXT> <P> U.S. contractor Alan Gross	contractor	jobTitle
+U.S. citizen	U.S.	nationality
+Foreign Minister Bruno Rodriguez Wednesday	foreign minister	jobTitle
+
+sentenceOffset/Text 365: "Mr. Alan Gross is in custody for violating Cuban laws and committing serious crimes in our country by serving the subversive policy of the United States against Cuba," said Bruno Rodriguez during a press conference in Havana.
+
+Cuban laws	Cuban	nationality
+policy of the United States	United States	nationality
+
+sentenceOffset/Text 601: Gross was arrested in Havana on December 5 last year for distributing laptops, satellite phones and other technological equipment among groups opposing to leader Raul Castro, the Cuban authorities said.
+
+Cuban authorities	Cuban	nationality
+
+sentenceOffset/Text 985: Washington has denied that Gross was linked with its intelligence agencies and added that he was dedicated to connect Cuban citizens to Internet as an employee of the Development Alternatives Inc.
+
+Cuban citizens	Cuban	nationality
+
+sentenceOffset/Text 1284: In the previous negotiation in Havana on February,the U.S. delegation has demanded an immediate release of Gross.
+
+
+docName: APW_ENG_20101202.0845
+
+
+sentenceOffset/Text 58: Tough year for wife of man detained as spy in Cuba </HEADLINE> <DATELINE> WASHINGTON 2010-12-02 21:48:08 UTC </DATELINE> <TEXT> <P> In the year her American husband has been detained in Cuba, accused of spying for the U.S., Judy Gross has been forced to sell the family home and move into a small apartment in Washington.
+
+Cuba </HEADLINE> <DATELINE> WASHINGTON	Cuba	nationality
+American husband	American	nationality
+
+sentenceOffset/Text 557: More than 1,100 miles (1,770 kilometers) away, Alan Gross passes his days in a Cuban military hospital, watching baseball on a small television or jamming with his jailers on a stringed instrument they gave him.
+
+Cuban military hospital	Cuban	nationality
+
+sentenceOffset/Text 778: When Alan Gross left for Cuba last December, his wife says he planned to spend just 10 days there helping to set up Internet access for members of the country's small Jewish population, believed to number about 1,500.
+
+Jewish population	jewish	religion
+
+sentenceOffset/Text 1137: "Every morning I wake up and for a few seconds it's like a normal morning, and then I remember ... he's gone," his wife, Judy Gross, told The Associated Press in an interview.
+
+
+sentenceOffset/Text 1454: U.S. officials have denied claims he is a spy and said no progress on the relationship between the countries can be made until Gross is released.
+
+U.S. officials	U.S.	nationality
+
+sentenceOffset/Text 2088: Judy Gross is adamant that her husband is not a spy.
+
+
+sentenceOffset/Text 2419: The Cuban government did not respond to requests for comment, but officials have said previously that Gross' case is pending, and that there is nothing unusual about the long period he has spent in jail without being charged.
+
+Cuban government	Cuban	nationality
+
+sentenceOffset/Text 2654: State Department spokesman P.J. Crowley said Judy Gross was meeting with department officials Thursday to discuss the case.
+
+State Department spokesman P.J. Crowley	spokesman	jobTitle
+
+sentenceOffset/Text 2787: "We will continue to use all available channels to urge the Cuban government to show humanitarian compassion and put an end to Mr. Gross' long and unjustifiable ordeal," Crowley said.
+
+Cuban government	Cuban	nationality
+
+sentenceOffset/Text 3268: Judy Gross says he was working at a Jewish community center in Havana, helping Jewish groups on the island communicate with one another and get access to the Internet so they could look at Wikipedia and online prayer books.
+
+Jewish community center	jewish	religion
+Jewish groups	jewish	religion
+
+sentenceOffset/Text 3492: The visit was his fifth to help the same group, Judy Gross said.
+
+
+sentenceOffset/Text 3566: The leaders of Cuba's two main Jewish groups say they have not worked with Alan Gross, who is Jewish.
+
+Cuba's two main Jewish groups	Cuba	nationality
+Jewish groups	jewish	religion
+Alan Gross, who is Jewish	jewish	religion
+
+sentenceOffset/Text 3668: While it is possible Gross was working with one of the other Jewish groups scattered across the island, they represent very small numbers of people.
+
+Jewish groups	jewish	religion
+
+sentenceOffset/Text 3826: Adela Dworin, president of Havana's Temple Beth Shalom and Cuba's largest Jewish organization, the Jewish Community House, told The Associated Press it's possible Gross came to the center as one of hundreds of foreign visitors it receives each year.
+
+Havana's Temple Beth Shalom	Havana	city
+Cuba's largest Jewish organization, the Jewish Community House	Cuba	nationality
+Adela Dworin, president of Havana's Temple Beth Shalom	president	jobTitle
+organization, the Jewish Community House	jewish	religion
+Jewish organization, the Jewish Community House	jewish	religion
+
+sentenceOffset/Text 4577: In a statement earlier this year, his company said Gross was working with a peaceful non-dissident civic group it did not identify to improve its communication capabilities.
+
+
+sentenceOffset/Text 4886: For now, Gross is being held at the Cuban military hospital, where he shares a three-person room.
+
+Cuban military hospital	Cuban	nationality
+
+sentenceOffset/Text 5056: Judy Gross, a psychotherapist, says in some letters he sounds depressed or angry, in others cheerful.
+
+
+sentenceOffset/Text 5366: Gross passes time by reading books and magazines his wife sends.
+
+
+sentenceOffset/Text 5440: He is not allowed to go outside very often, but he exercises, mostly push-ups and sit-ups, Judy Gross thinks, since his hips have been bothering him.
+
+
+sentenceOffset/Text 5803: Gloria Berbena, a spokeswoman for the U.S. Interests Section in Havana, which Washington maintains instead of an embassy, said that she knew of no new developments in the case, though officials continue to press the Cuban government to release Gross.
+
+Cuban government	Cuban	nationality
+Gloria Berbena, a spokeswoman	spokeswoman	jobTitle
+U.S. Interests Section	U.S.	nationality
+
+docName: APW_ENG_20101004.0930
+
+
+sentenceOffset/Text 4022: The senior State Department official also commented on the detention of Alan Gross, an American subcontractor jailed in Havana without charge since December and accused of spying.
+
+Alan Gross, an American subcontractor	subcontractor	jobTitle
+Alan Gross, an American subcontractor	American	nationality
+
+docName: AFP_ENG_20100616.0142
+
+
+sentenceOffset/Text 378: Alan Gross, 60, "is being held for violating Cuban laws and committing grave offenses in our country at the service of the subversive policy of the government of the United States against Cuba," said Foreign Minister Bruno Rodriguez.
+
+Cuban laws	Cuban	nationality
+government of the United States	United States	nationality
+Foreign Minister Bruno Rodriguez	foreign minister	jobTitle
+
+sentenceOffset/Text 621: US officials say that Gross worked for a non-government organization contracted by the State Department to supply computer and communications material to civil society groups on the island.
+
+US officials	US	nationality
+
+sentenceOffset/Text 856: Gross "is currently under investigation, he has a guaranteed defense, has received permanent consular assistance and has had communication with his relatives," Rodriguez said.
+
+
+sentenceOffset/Text 1041: Cuba however has not said if it has pressed formal charges against Gross.
+
+
+sentenceOffset/Text 1124: US State Department spokesman Philip Crowley said that as of June 2 US officials have been granted access to Gross five times.
+
+US State Department spokesman Philip Crowley	US	nationality
+US State Department spokesman Philip Crowley	spokesman	jobTitle
+US officials	US	nationality
+
+sentenceOffset/Text 1260: Gross's case is being handled "in strict accordance with the Cuban penal code," Rodriguez said.
+
+Cuban penal code	Cuban	nationality
+
+sentenceOffset/Text 1487: Cuba insists that Gross is a spy who had sophisticated communications equipment for dissidents in the Americas' only one-party Communist regime.
+
+
+sentenceOffset/Text 1766: Gross was arrested December 5, reportedly while distributing cell phones, laptops and other communications equipment.
+
+
+sentenceOffset/Text 1893: Washington has called for Gross' immediate and unconditional release.
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Alan Gross, a 60-year-old government contractor	contractor	per:title
+American subcontractor, Alan Gross	American	per:origin
+Gross, a native of Potomac, Maryland	Maryland	per:statesorprovinces_of_residence
+Gross, a native of Potomac, Maryland	Maryland	per:statesorprovinces_of_residence
+US government contractor, Alan Gross	US	per:origin
+U.S. contractor Alan Gross	U.S.	per:origin
+U.S. contractor Alan Gross	contractor	per:title
+Alan Gross, who is Jewish	jewish	per:religion
+Gross, a native of Potomac, Maryland	Maryland	per:statesorprovinces_of_residence
+Alan Gross, who is Jewish	jewish	per:religion
+International Development subcontractor Alan Gross	subcontractor	per:title
+Cuba's continued detention of American contractor Alan Gross	Cuba	per:origin
+American contractor Alan Gross	American	per:origin
+contractor Alan Gross	contractor	per:title
+U.S. subcontractor Alan Gross	U.S.	per:origin
+U.S. subcontractor Alan Gross	subcontractor	per:title
+Alan Gross, a jailed American contractor	contractor	per:title
+Alan Gross, a jailed American contractor	American	per:origin
+Alan Gross, an American subcontractor	subcontractor	per:title
+Alan Gross, an American subcontractor	American	per:origin
+U.S. contractor Alan Gross	contractor	per:title
+U.S. contractor Alan Gross	U.S.	per:origin
+(Xinhua) </DATELINE> <TEXT> <P> U.S. contractor Alan Gross	U.S.	per:origin
+(Xinhua) </DATELINE> <TEXT> <P> U.S. contractor Alan Gross	contractor	per:title
+Alan Gross, who is Jewish	jewish	per:religion
+Alan Gross, an American subcontractor	subcontractor	per:title
+Alan Gross, an American subcontractor	American	per:origin
+
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_012	per:spouse	UWashington3	NIL
+SF14_ENG_012	per:religion	UWashington3	APW_ENG_20101202.0845:3641-3666	jewish	APW_ENG_20101202.0845:3660-3666	3.0
+SF14_ENG_012	per:city_of_death	UWashington3	NIL
+SF14_ENG_012	per:other_family	UWashington3	NIL
+SF14_ENG_012	per:countries_of_residence	UWashington3	NIL
+SF14_ENG_012	per:country_of_death	UWashington3	NIL
+SF14_ENG_012	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_012	per:title	UWashington3	XIN_ENG_20100616.0284:149-217	contractor	XIN_ENG_20100616.0284:213-217	6.0
+SF14_ENG_012	per:title	UWashington3	APW_ENG_20101004.0930:4094-4132	subcontractor	APW_ENG_20101004.0930:4118-4132	4.0
+SF14_ENG_012	per:children	UWashington3	NIL
+SF14_ENG_012	per:origin	UWashington3	APW_ENG_20101004.0930:4094-4131	American	APW_ENG_20101004.0930:4109-4118	5.0
+SF14_ENG_012	per:city_of_birth	UWashington3	NIL
+SF14_ENG_012	per:date_of_death	UWashington3	NIL
+SF14_ENG_012	per:age	UWashington3	NIL
+SF14_ENG_012	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_012	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_012	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_012	per:cause_of_death	UWashington3	NIL
+SF14_ENG_012	per:alternate_names	UWashington3	NIL
+SF14_ENG_012	per:charges	UWashington3	NIL
+SF14_ENG_012	per:country_of_birth	UWashington3	NIL
+SF14_ENG_012	per:schools_attended	UWashington3	NIL
+SF14_ENG_012	per:parents	UWashington3	NIL
+SF14_ENG_012	per:date_of_birth	UWashington3	NIL
+SF14_ENG_012	per:statesorprovinces_of_residence	UWashington3	APW_ENG_20101203.0959:1581-1617	Maryland	APW_ENG_20101203.0959:1609-1617	3.0
+SF14_ENG_012	per:siblings	UWashington3	NIL

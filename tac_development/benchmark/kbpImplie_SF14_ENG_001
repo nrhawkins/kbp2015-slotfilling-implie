@@ -1,0 +1,546 @@
+
+All Extractions ----------------------------------------------------------
+
+
+docName: APW_ENG_20100312.0070
+
+
+sentenceOffset/Text 2399: "The Afghans see this as an undermining of their (peace) initiative," said Ahmed Rashid, a Pakistani expert on the Taliban.
+
+Ahmed Rashid, a Pakistani expert	Pakistani	nationality
+
+sentenceOffset/Text 2918: "The Afghans are not in a position to take on Pakistan," said Rashid.
+
+
+docName: AFP_ENG_20091019.0558
+
+
+sentenceOffset/Text 3554: Analyst and author Ahmed Rashid said Zardari had been caught off-guard by the opposition to the aid package under which Pakistan's government will receive more than the one billion dollars that the military gets.
+
+author Ahmed Rashid	author	jobTitle
+Pakistan's government	Pakistan	nationality
+
+docName: WPB_ENG_20100510.0074
+
+
+sentenceOffset/Text 868: "The Pakistani army now will have to go into North Waziristan," said Ahmed Rashid, a Pakistani political analyst and author of three books on the wars in the region.
+
+Pakistani army	Pakistani	nationality
+Ahmed Rashid, a Pakistani political analyst	political analyst	jobTitle
+Ahmed Rashid, a Pakistani political analyst	Pakistani	nationality
+
+sentenceOffset/Text 2775: "The Taliban are again making themselves visible, carrying arms and creating a climate of fear," Rashid said from Lahore.
+
+
+docName: APW_ENG_20090607.0708
+
+
+sentenceOffset/Text 2937: That too may have resonated with militants in that region, said Ahmed Rashid, a Lahore-based analyst and author of a book on the Taliban.
+
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	jobTitle
+
+docName: WPB_ENG_20100909.0075
+
+
+sentenceOffset/Text 57: In Pakistan, a Flood of Aid _ And Mistrust </HEADLINE> <DATELINE> By Ahmed Rashid Special to The Washington Post WASHINGTON POST-BLOOMBERG--09-09-10 1714ET </DATELINE> <TEXT> <P> At every turn, countries, charitable foundations, wealthy individuals and even schoolchildren are refusing to give the Pakistani government money to deal with the floods that have ruined as many as 20 million lives.
+
+Washington Post WASHINGTON POST-BLOOMBERG--09-09-10 1714ET </DATELINE> <TEXT> <P>	Washington	province
+Pakistani government money	Pakistani	nationality
+
+sentenceOffset/Text 5907: _ Rashid, a Pakistani journalist, is most recently the author of "Descent Into Chaos: The U.S. and the Disaster in Pakistan, Afghanistan and Central Asia."
+
+_ Rashid, a Pakistani journalist	Pakistani	nationality
+
+docName: APW_ENG_20100801.0265
+
+
+sentenceOffset/Text 935: The second half consisted of the traditional round-table analysis by a trio of familiar faces: journalist George Will, political strategist Donna Brazile and economist Paul Krugman, along with Pakistani journalist and Taliban expert Ahmed Rashid, from Madrid.
+
+strategist Donna Brazile	strategist	jobTitle
+Pakistani journalist	Pakistani	nationality
+
+docName: NYT_ENG_20101005.0128
+
+
+sentenceOffset/Text 4151: "Family politics is part of the culture of this part of the world," said Ahmed Rashid, a Pakistani author who has written extensively about Afghanistan.
+
+Ahmed Rashid, a Pakistani author	author	jobTitle
+Ahmed Rashid, a Pakistani author	Pakistani	nationality
+
+sentenceOffset/Text 10466: Two other cousins, Rateb Popal and his brother Rashid Popal, own a security company that has contracts with the U.S. military.
+
+
+docName: NYT_ENG_20090814.0088
+
+
+sentenceOffset/Text 4045: Ahmed Rashid, a journalist based in Lahore and the best-selling author of the book "Taliban," said he felt that the changes were introduced now under pressure by the United States and Britain.
+
+
+sentenceOffset/Text 4247: "It is a good move but I wish it had been done a year ago," Rashid said.
+
+
+docName: AFP_ENG_20090802.0409
+
+
+sentenceOffset/Text 4528: And respected author Ahmed Rashid said in a recent BBC article that a rift is growing between Washington and Islamabad over fighting the Taliban, including over claims that Pakistan's military shelters Taliban leaders.
+
+author Ahmed Rashid	author	jobTitle
+Pakistan's military shelters	Pakistan	nationality
+
+docName: LTW_ENG_20091012.0003
+
+
+sentenceOffset/Text 1323: "This is where the real proxy war between the two countries is being fought," said Ahmed Rashid, the Pakistani author of "Descent Into Chaos: The United States and the Failure of Nation Building in Pakistan, Afghanistan, and Central Asia."
+
+Ahmed Rashid, the Pakistani author of "Descent	Pakistani	nationality
+Ahmed Rashid, the Pakistani author of "Descent	author	jobTitle
+
+sentenceOffset/Text 5159: "I always say that Kabul is the new Kashmir," said Rashid, the Pakistani author, referring to the disputed Himalayan region that is claimed by both India and Pakistan.
+
+Rashid, the Pakistani author	Pakistani	nationality
+Rashid, the Pakistani author	author	jobTitle
+
+docName: WPB_ENG_20100216.0084
+
+
+sentenceOffset/Text 889: "His whereabouts, I think, were extremely well-known to the Pakistanis for a long time," said Ahmed Rashid, a Pakistani journalist and Taliban expert.
+
+Ahmed Rashid, a Pakistani journalist	Pakistani	nationality
+
+docName: LTW_ENG_20091203.0044
+
+
+sentenceOffset/Text 3507: It's now going to be much more difficult for those in Pakistan who have been in a state of denial about it," analyst Ahmed Rashid told Dawn Television here.
+
+
+docName: AFP_ENG_20100506.0821
+
+
+sentenceOffset/Text 3004: "North Waziristan is the hub of so many terrorist groups and so much terrorist plotting and planning that neither the CIA nor the ISI seems to have much clue about what is going on there," wrote Ahmed Rashid, the Pakistani journalist and author of "Descent into Chaos."
+
+Ahmed Rashid, the Pakistani journalist and author of "Descent	Pakistani	nationality
+
+sentenceOffset/Text 3283: In a commentary in Wednesday's Washington Post, Rashid warned the Pakistani government had to take action in a "region that has become an even greater terrorist hub than Afghanistan was before 2001."
+
+Washington Post	Washington	province
+Pakistani government	Pakistani	nationality
+
+docName: WPB_ENG_20100910.0044
+
+
+sentenceOffset/Text 8494: 930 words, by Ahmed Rashid (Post special).
+
+
+sentenceOffset/Text 8699: 930 words, by Bill McKibben (Post special).
+
+
+sentenceOffset/Text 8932: 930 words, by Jack Goldsmith (Post special).
+
+
+docName: NYT_ENG_20090607.0013
+
+
+sentenceOffset/Text 3207: DESCENT INTO CHAOS: The U.S. and the Disaster in Pakistan, Afghanistan, and Central Asia, by Ahmed Rashid.
+
+
+sentenceOffset/Text 3330: TALIBAN (2000), an earlier book by Rashid, a Pakistani journalist, introduced Americans to a group few had heard of before 9/11.
+
+Rashid, a Pakistani journalist	Pakistani	nationality
+
+sentenceOffset/Text 3459: Rashid has written an encyclopedic history of Pakistan and Afghanistan.
+
+history of Pakistan and Afghanistan	Pakistan	nationality
+history of Pakistan and Afghanistan	Afghanistan	nationality
+
+sentenceOffset/Text 3531: Bitterly critical of the Bush administration, and especially of Donald Rumsfeld, Rashid favors greater U.S. military commitment and more money for development; he also argues that the United States should consider negotiating with moderates among the Taliban.
+
+
+docName: WPB_ENG_20100509.0023
+
+
+sentenceOffset/Text 5165: "Al-Qaida is now operating through a variety of Pakistani and other types of groups," said Ahmed Rashid, a leading Pakistani expert on the Taliban and Islamist extremists.
+
+Pakistani and other types of groups	Pakistani	nationality
+Ahmed Rashid, a leading Pakistani expert	Pakistani	nationality
+
+docName: WPB_ENG_20100427.0017
+
+
+sentenceOffset/Text 57: Afghanistan Decision Time </HEADLINE> <DATELINE> By Ahmed Rashid Special to The Washington Post WASHINGTON POST-BLOOMBERG--04-27-10 1035ET </DATELINE> <TEXT> <P> Before President Hamid Karzai arrives in Washington next month, President Obama has to make clear key decisions on the course of war and peacemaking in Afghanistan.
+
+Afghanistan Decision Time </HEADLINE> <DATELINE>	Afghanistan	nationality
+President Obama	president	jobTitle
+Washington Post WASHINGTON POST-BLOOMBERG--04-27-10	Washington	province
+President Hamid Karzai	president	jobTitle
+
+docName: APW_ENG_20100311.1008
+
+
+sentenceOffset/Text 2412: "The Afghans see this as an undermining of their (peace) initiative," said Ahmed Rashid, a Pakistani expert on the Taliban.
+
+Ahmed Rashid, a Pakistani expert	Pakistani	nationality
+
+sentenceOffset/Text 2931: "The Afghans are not in a position to take on Pakistan," said Rashid.
+
+
+docName: NYT_ENG_20091214.0126
+
+
+sentenceOffset/Text 5849: In the 1980s, Jalaluddin Haqqani received money and arms from the CIA routed through Pakistan's spy agency, Inter-Services Intelligence, to fight the Soviets, according to Ahmed Rashid, an expert on the Afghan Taliban and the author of "Descent Into Chaos."
+
+Pakistan's spy agency, Inter-Services Intelligence	Pakistan	nationality
+Afghan Taliban	Afghan	nationality
+
+docName: WPB_ENG_20100505.0064
+
+
+sentenceOffset/Text 11200: 700 words, by Ahmed Rashid (Post special).
+
+
+docName: WPB_ENG_20100127.0085
+
+
+sentenceOffset/Text 1905: The country is suffering enormously from the Pakistani Taliban, and this may be a way to get off the hook," said Ahmed Rashid, a Lahore-based expert on the Taliban and on Afghanistan-Pakistan relations.
+
+Pakistani Taliban	Pakistani	nationality
+
+sentenceOffset/Text 3283: Rashid said the Afghan militants have been chafing under the Pakistani agency's efforts to control them.
+
+Afghan militants	Afghan	nationality
+Pakistani agency's efforts	Pakistani	nationality
+
+docName: WPB_ENG_20100506.0092
+
+
+sentenceOffset/Text 1769: That's not just Lashkar, it's everyone," said Ahmed Rashid, who has written extensively on militants in Pakistan and Afghanistan.
+
+
+docName: NYT_ENG_20091214.0199
+
+
+sentenceOffset/Text 5885: In the 1980s, Jalaluddin Haqqani received money and arms from the CIA routed through Pakistan's spy agency, Inter-Services Intelligence, to fight the Soviets, according to Ahmed Rashid, an expert on the Afghan Taliban and the author of "Descent Into Chaos."
+
+Pakistan's spy agency, Inter-Services Intelligence	Pakistan	nationality
+Afghan Taliban	Afghan	nationality
+
+docName: LTW_ENG_20090804.0034
+
+
+sentenceOffset/Text 6287: Ahmed Rashid, a Pakistani journalist with whom Mullen consults regularly, says that until Mullen became Joint Chiefs chairman, the U.S. military was reluctant to confront Pakistani defense officials about their country's role in Afghanistan or to press them for more aggressive action against the Taliban </P> <P> "He is not a guy who brushes things under the carpet," Rashid said.
+
+Ahmed Rashid, a Pakistani journalist	Pakistani	nationality
+Pakistani defense officials	Pakistani	nationality
+
+docName: NYT_ENG_20101111.0024
+
+
+sentenceOffset/Text 4178: "Coming at a time of widespread unrest, growing Taliban extremism, and increasingly shaky civilian government, the floods could lead to the gravest security crisis the country -- and the region -- has faced," wrote the prominent Pakistani journalist Ahmed Rashid in a blog post on the website of The New York Review of Books.
+
+Pakistani journalist	Pakistani	nationality
+New York Review of Books	New York	province
+
+docName: NYT_ENG_20091230.0088
+
+
+sentenceOffset/Text 2484: Though other histories, including "In the Graveyard of Empires" by Seth G. Jones and "Descent Into Chaos" by Ahmed Rashid, cover similar territory, the manuscript of "A Different Kind of War" offers new details and is notable for carrying the imprimatur of the Army itself, which will use the history to train a new generation of officers.
+
+
+docName: APW_ENG_20100203.0380
+
+
+sentenceOffset/Text 3106: "Certainly Pakistan has enormous leverage because many of these Taliban commanders, leaders and even fighters have their families here," said Ahmed Rashid, an expert on the Taliban.
+
+
+sentenceOffset/Text 3297: But Rashid and others point out that Afghanistan remains wary of Pakistan's attempts to use its relationship with the Taliban to retain influence inside the country, and also that the militants have often resisted Pakistan's attempts at control.
+
+Pakistan's attempts	Pakistan	nationality
+Pakistan's attempts	Pakistan	nationality
+
+sentenceOffset/Text 4689: "The alternative to capture and kill is dialogue and Pakistan can facilitate that, but it probably has certain preconditions that it would like others to meet before it does," said Rashid.
+
+
+sentenceOffset/Text 5194: said Rashid.
+
+
+docName: WPB_ENG_20100427.0036
+
+
+sentenceOffset/Text 9198: 875 words, by Ahmed Rashid (Post special).
+
+
+docName: WPB_ENG_20100427.0061
+
+
+sentenceOffset/Text 11116: 875 words, by Ahmed Rashid (Post special).
+
+
+docName: AFP_ENG_20090825.0575
+
+
+sentenceOffset/Text 3985: Writing in London's Evening Standard newspaper, veteran Pakistani journalist and author Ahmed Rashid said that the government now had an "unprecedented opportunity to turn the tide against the Taliban and Al-Qaeda."
+
+London's Evening Standard newspaper	London	city
+Pakistani journalist	Pakistani	nationality
+author Ahmed Rashid	author	jobTitle
+
+sentenceOffset/Text 4210: Rashid advocated a similar assault in the tribal belt to the one in Swat earlier this year, and said there was strong US pressure for such action.
+
+US pressure	US	nationality
+
+docName: AFP_ENG_20100226.0824
+
+
+sentenceOffset/Text 2037: Pakistani author Ahmed Rashid, considered an authority on the Taliban, suspected Baradar's arrest was an accident.
+
+Pakistani author Ahmed Rashid	Pakistani	nationality
+author Ahmed Rashid	author	jobTitle
+
+sentenceOffset/Text 2274: "Much of the American press has been hyping that this reflects a huge change in strategic policy for Pakistan," Rashid said.
+
+American press	American	nationality
+
+docName: APW_ENG_20091119.1073
+
+
+sentenceOffset/Text 1744: "I think it is very dangerous to start talking about exit strategies at this particular point in time when the West is seen to be losing and the perception is the Taliban is winning," said Ahmed Rashid, an expert on the Taliban who has advised Obama on Afghanistan and Pakistan.
+
+
+docName: APW_ENG_20100602.0231
+
+
+sentenceOffset/Text 4633: "Right now is crunch time for Afghanistan and the Afghan Taliban, and this is a card Pakistan has held for nine years and is not about to throw away because of increased American pressure," said Ahmed Rashid, a Pakistani journalist who has written extensively on the region.
+
+American pressure	American	nationality
+Afghan Taliban	Afghan	nationality
+Ahmed Rashid, a Pakistani journalist	Pakistani	nationality
+
+docName: LTW_ENG_20091111.0100
+
+
+sentenceOffset/Text 5717: When bin Laden fled the U.S. invasion in 2001, he took refuge with Haqqani in a safe house between the Afghan city of Khost and Miran Shah, according to Pakistani author Ahmed Rashid.
+
+U.S. invasion	U.S.	nationality
+Afghan city of Khost and Miran Shah	Afghan	nationality
+Pakistani author Ahmed Rashid	Pakistani	nationality
+author Ahmed Rashid	author	jobTitle
+
+docName: WPB_ENG_20100505.0052
+
+
+sentenceOffset/Text 5230: 700 words, by Perry Bacon Jr. (Post).
+
+
+sentenceOffset/Text 11925: 700 words, by Ahmed Rashid (Post special).
+
+
+docName: NYT_ENG_20100311.0190
+
+
+sentenceOffset/Text 1940: Ahmed Rashid, a Pakistani journalist and expert on the Taliban who met with Karzai on Thursday morning, said the arrests of Taliban leaders in Pakistan were a source of "a very serious underlying tension" between the countries.
+
+Ahmed Rashid, a Pakistani journalist	Pakistani	nationality
+
+sentenceOffset/Text 2177: Rashid told Dawn News, a private television news channel, "Karzai has asked for the extradition of Mullah Baradar and these Taliban who have been caught by the ISI in recent weeks."
+
+
+sentenceOffset/Text 2459: Rashid said there was a suggestion from the Afghan side that the Pakistani arrests of Taliban leaders were not helping Kabul.
+
+Afghan side	Afghan	nationality
+Pakistani arrests of Taliban leaders	Pakistani	nationality
+
+sentenceOffset/Text 2817: "Some of the more pragmatic Taliban have been arrested by the ISI," Rashid said, "and this has caused consternation in Kabul because these were the same people who were holding secret talks with the Kabul administration, and the other suggestion is that a number of hard-liners will replace Mullah Baradar and those arrested."
+
+
+sentenceOffset/Text 3153: Rashid said that Afghans were eager for reconciliation with the Taliban.
+
+
+docName: LTW_ENG_20090930.0014
+
+
+sentenceOffset/Text 2968: "Quetta is absolutely crucial to the Taliban today," said Ahmed Rashid, a Pakistani expert on the Taliban, in a telephone interview.
+
+Ahmed Rashid, a Pakistani expert	Pakistani	nationality
+
+docName: WPB_ENG_20100801.0021
+
+
+sentenceOffset/Text 1274: Exhibit A: During the roundtable portion of the show _ from the beginning, "This Week's" centerpiece and best feature _ Amanpour didn't stick to discussing news of the week with the show's estimable, exceptional panelists _ among them George F. Will and Donna Brazile _ but instead brought in a foreign journalist seen earlier in the program, Ahmed Rashid (momentarily stationed in Madrid) for his views via satellite.
+
+Madrid)	Madrid	city
+
+sentenceOffset/Text 1759: In fact, it became ludicrous when, near the end of the segment, the U.S. economy was discussed and Amanpour called upon Rashid, the Taliban expert, again even though he seemed of dubious relevance and authority to the topic at hand.
+
+
+sentenceOffset/Text 1992: Amanpour's implied rationale for summoning Rashid once more was that the American economy affects American foreign policy.
+
+American economy	American	nationality
+American foreign policy	American	nationality
+
+docName: WPB_ENG_20100910.0025
+
+
+sentenceOffset/Text 6194: 930 words, by Ahmed Rashid (Post special).
+
+
+sentenceOffset/Text 7274: 930 words, by Bill McKibben (Post special).
+
+
+sentenceOffset/Text 7517: 930 words, by Jack Goldsmith (Post special).
+
+
+docName: WPB_ENG_20100509.0021
+
+
+sentenceOffset/Text 4718: "These groups have not been touched," said Ahmed Rashid, a leading Pakistani expert on the Taliban and Islamist extremism.
+
+Ahmed Rashid, a leading Pakistani expert	Pakistani	nationality
+
+docName: AFP_ENG_20101211.0204
+
+
+sentenceOffset/Text 684: Researchers Gilles Dorronsoro from France and Italian Antonio Giustozzi, as well as Pakistani journalist Ahmed Rashid, were among those who said the current strategy was failing as the Taliban, ousted from government by a US-led invasion in 2001, grew in strength.
+
+Italian Antonio Giustozzi	Italian	nationality
+Pakistani journalist Ahmed Rashid	Pakistani	nationality
+
+docName: NYT_ENG_20100319.0167
+
+
+sentenceOffset/Text 844: But some analysts, including prominent Pakistani author Ahmed Rashid, have speculated that Pakistan only arrested the Taliban officials who were open to peace talks with Afghanistan.
+
+Pakistani author Ahmed Rashid	Pakistani	nationality
+author Ahmed Rashid	author	jobTitle
+
+docName: AFP_ENG_20091125.0570
+
+
+sentenceOffset/Text 1701: Renowned author Ahmed Rashid accuses talk show hosts of "demonising the elected government, trying to convince viewers of global conspiracies against Pakistan led by India and the United States or insisting that the recent campaign of suicide bomb blasts... is being orchestrated by foreigners.
+
+Renowned author Ahmed Rashid	author	jobTitle
+
+docName: APW_ENG_20090607.0548
+
+
+sentenceOffset/Text 2951: That too may have resonated with militants in that region, said Ahmed Rashid, a Lahore-based analyst and author of a book on the Taliban.
+
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	jobTitle
+
+docName: LTW_ENG_20090613.0011
+
+
+sentenceOffset/Text 4561: Ahmed Rashid, a Pakistani journalist and a fellow at the Pacific Council on International Policy, is most recently the author of "Descent Into Chaos: The United States and the Failure of Nation Building in Pakistan, Afghanistan, and Central Asia."
+
+Ahmed Rashid, a Pakistani journalist	Pakistani	nationality
+
+docName: WPB_ENG_20100505.0039
+
+
+sentenceOffset/Text 57: Terrorism's New Hub in Pakistan </HEADLINE> <DATELINE> LAHORE, Pakistan By Ahmed Rashid Special to The Washington Post WASHINGTON POST-BLOOMBERG--05-05-10 1142ET </DATELINE> <TEXT> <P> Information is still emerging about suspected Times Square bomber Faisal Shahzad, a Pakistani-born U.S. citizen who apparently spent time here from July until February.
+
+Pakistan </HEADLINE> <DATELINE> LAHORE	Pakistan	nationality
+Washington Post WASHINGTON POST-BLOOMBERG--05-05-10 1142ET </DATELINE> <TEXT> <P> Information	Washington	province
+Times Square bomber Faisal Shahzad, a Pakistani-born U.S. citizen	U.S.	nationality
+
+sentenceOffset/Text 4862: Ahmed Rashid, a Pakistani journalist and a fellow at the Pacific Council on International Policy, is most recently the author of "Descent Into Chaos: The U.S. and the Disaster in Pakistan, Afghanistan and Central Asia."
+
+Ahmed Rashid, a Pakistani journalist	Pakistani	nationality
+
+docName: NYT_ENG_20091202.0160
+
+
+sentenceOffset/Text 3330: said Ahmed Rashid, author of "Descent Into Chaos," explaining the thinking in Pakistani political and military circles.
+
+Ahmed Rashid, author of "Descent Into Chaos	author	jobTitle
+
+sentenceOffset/Text 6900: "This is where Pakistan's trust of the U.S. could very dramatically increase," Rashid said, "if it became know the Americans were trying to get the Indians to become more flexible."
+
+Pakistan's trust of the U.S.	Pakistan	nationality
+trust of the U.S.	U.S.	nationality
+
+docName: XIN_ENG_20091123.0066
+
+
+sentenceOffset/Text 2931: It added that in his book, Descent into Chaos, Pakistani journalist, Ahmed Rashid says hundreds, perhaps as many as 1,000 ISI officers, Taliban commanders, and foot soldiers belonging to the IMU (Islamic Movement of Uzbekistan) and al- Qaida personnel boarded the planes.
+
+Pakistani journalist	Pakistani	nationality
+Uzbekistan)	Uzbekistan	nationality
+
+sentenceOffset/Text 3212: Frustrated U.S. Special Ops Forces who watched it from the surrounding high ground dubbed it "Operation Evil Airlift," the website quoted Ahmad Rashid as saying.
+
+Frustrated U.S. Special Ops Forces	U.S.	nationality
+
+docName: NYT_ENG_20090814.0121
+
+
+sentenceOffset/Text 2385: Ahmed Rashid, a journalist based in Lahore and the best-selling author of the book "Taliban," said he felt that the changes were introduced now under pressure by the United States and Britain.
+
+
+sentenceOffset/Text 2587: "It is a good move but I wish it had been done a year ago," Rashid said.
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Ahmed Rashid, a Pakistani expert	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Pakistani political analyst	political analyst	per:title
+Ahmed Rashid, a Pakistani political analyst	Pakistani	per:origin
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	per:title
+_ Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, a Pakistani author	author	per:title
+Ahmed Rashid, a Pakistani author	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, the Pakistani author of "Descent	Pakistani	per:origin
+Ahmed Rashid, the Pakistani author of "Descent	author	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, the Pakistani journalist and author of "Descent	Pakistani	per:origin
+Ahmed Rashid, a leading Pakistani expert	Pakistani	per:origin
+Ahmed Rashid, a Pakistani expert	Pakistani	per:origin
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Pakistani author Ahmed Rashid	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Pakistani author Ahmed Rashid	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, a Pakistani expert	Pakistani	per:origin
+Ahmed Rashid, a leading Pakistani expert	Pakistani	per:origin
+Pakistani journalist Ahmed Rashid	Pakistani	per:origin
+Pakistani author Ahmed Rashid	Pakistani	per:origin
+author Ahmed Rashid	author	per:title
+Renowned author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	per:title
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, a Pakistani journalist	Pakistani	per:origin
+Ahmed Rashid, author of "Descent Into Chaos	author	per:title
+
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_001	per:spouse	UWashington3	NIL
+SF14_ENG_001	per:religion	UWashington3	NIL
+SF14_ENG_001	per:city_of_death	UWashington3	NIL
+SF14_ENG_001	per:other_family	UWashington3	NIL
+SF14_ENG_001	per:countries_of_residence	UWashington3	NIL
+SF14_ENG_001	per:country_of_death	UWashington3	NIL
+SF14_ENG_001	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_001	per:title	UWashington3	NYT_ENG_20091202.0160:3335-3378	author	NYT_ENG_20091202.0160:3349-3356	10.0
+SF14_ENG_001	per:title	UWashington3	APW_ENG_20090607.0548:3015-3072	analyst	APW_ENG_20090607.0548:3044-3052	2.0
+SF14_ENG_001	per:title	UWashington3	WPB_ENG_20100510.0074:937-981	political analyst	WPB_ENG_20100510.0074:963-981	1.0
+SF14_ENG_001	per:children	UWashington3	NIL
+SF14_ENG_001	per:origin	UWashington3	WPB_ENG_20100505.0039:4862-4898	Pakistani	WPB_ENG_20100505.0039:4878-4888	20.0
+SF14_ENG_001	per:city_of_birth	UWashington3	NIL
+SF14_ENG_001	per:date_of_death	UWashington3	NIL
+SF14_ENG_001	per:age	UWashington3	NIL
+SF14_ENG_001	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_001	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_001	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_001	per:cause_of_death	UWashington3	NIL
+SF14_ENG_001	per:alternate_names	UWashington3	NIL
+SF14_ENG_001	per:charges	UWashington3	NIL
+SF14_ENG_001	per:country_of_birth	UWashington3	NIL
+SF14_ENG_001	per:schools_attended	UWashington3	NIL
+SF14_ENG_001	per:parents	UWashington3	NIL
+SF14_ENG_001	per:date_of_birth	UWashington3	NIL
+SF14_ENG_001	per:statesorprovinces_of_residence	UWashington3	NIL
+SF14_ENG_001	per:siblings	UWashington3	NIL

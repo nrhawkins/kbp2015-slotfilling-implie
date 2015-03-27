@@ -1,0 +1,121 @@
+
+All Extractions ----------------------------------------------------------
+
+
+docName: XIN_ENG_20100914.0402
+
+
+sentenceOffset/Text 58: PATA Travel Mart 2010 to be unveiled in Macao </HEADLINE> <DATELINE> MACAO, Sept. 14 (Xinhua) </DATELINE> <TEXT> <P> The PATA (Pacific Asia Travel Association) Travel Mart 2010 will unveil its curtain here Wednesday, which is expected to attract 1,000 delegates and guests.
+
+
+sentenceOffset/Text 780: Every year, PATA Travel Mart gathers tourism stakeholders from around the world, who utilize this professional platform to network and seek business opportunities.
+
+
+sentenceOffset/Text 953: By bringing together influential travel trade players from around the world, PATA Travel Mart also presents Macao an opportunity to showcase its ability and strengths as a host city for major international conventions and exhibitions, the Tourist Office of Macao Special Administrative Region (SAR) said.
+
+
+docName: AFP_ENG_20090607.0485
+
+
+sentenceOffset/Text 2424: John Koldowski, director of the strategic intelligence centre at the Pacific Asia Travel Association (PATA), said tourist arrivals in Pakistan climbed steadily in the decade and a half leading up to 2006.
+
+
+docName: CNA_ENG_20100930.0052
+
+
+sentenceOffset/Text 468: The Taiwanese delicacies were presented at a booth set up by Taiwan's Tourism Bureau at the fair, dubbed "A Taste of Pacific Asia Travel Association" which took place at Jubilee Market in downtown London.
+
+Taiwanese delicacies	Taiwanese	nationality
+Taiwan's Tourism Bureau	Taiwan	nationality
+
+sentenceOffset/Text 1171: The fair was organized by the Pacific Asia Travel Association, of which Taiwan is a senior member.
+
+
+docName: AFP_ENG_20100822.0161
+
+
+sentenceOffset/Text 2145: Greg Duffell, chief executive of the Bangkok-based Pacific Asia Travel Association (PATA), said China's sizeable Muslim population is another potential source of outbound travel.
+
+Greg Duffell, chief executive of the Bangkok-based Pacific Asia Travel Association (PATA)	chief executive	jobTitle
+
+docName: WPB_ENG_20101118.0056
+
+
+sentenceOffset/Text 1872: A total of 5.56 million tourists visited Tibet in 2009, up 147 percent from a year earlier, according to the Pacific Asia Travel Association.
+
+
+docName: XIN_ENG_20100321.0245
+
+
+sentenceOffset/Text 3149: Gregory Duffell, CEO of the Pacific Asia Travel Association (PATA) , believed Chinese consumers are one of the most active consuming groups in the world and Chinese outbound tourists are important not only to the Asian-Pacific areas, but also to the world.
+
+Gregory Duffell, CEO of the Pacific Asia Travel Association (PATA)	ceo	jobTitle
+Chinese consumers	Chinese	nationality
+Chinese outbound tourists	Chinese	nationality
+
+docName: XIN_ENG_20100321.0267
+
+
+sentenceOffset/Text 1305: The forum attracted about 2,000 participants from more than 50 countries and regions, including leaders from the United Nations World Tourism Organization (UNWTO), the World Travel and Tourism Council (WTTC) and the Pacific Asia Travel Association (PATA).
+
+
+docName: AFP_ENG_20100713.0579
+
+
+sentenceOffset/Text 681: The Pacific Asia Travel Association (PATA) poll of 1,571 mainland Chinese came ahead of the launch of a new Australian tourism campaign in the country next month.
+
+Pacific Asia Travel Association (PATA) poll of 1,571 mainland Chinese	Chinese	nationality
+Australian tourism campaign	Australian	nationality
+
+docName: XIN_ENG_20100203.0139
+
+
+sentenceOffset/Text 58: PATA conference concludes in Nepal </HEADLINE> <DATELINE> KATHMANDU, Feb. 3 (Xinhua) </DATELINE> <TEXT> <P> The Adventure Travel and Responsible Tourism Conference and Mart 2010 conference sponsored by Pacific Asia Travel Association (PATA) concluded on Wednesday.
+
+Nepal </HEADLINE> <DATELINE> KATHMANDU,	Nepal	nationality
+
+docName: XIN_ENG_20090623.0423
+
+
+sentenceOffset/Text 1381: According to the World Tourism Organization (UNWTO), international tourist arrivals declined at a rate of eight percent between January and February this year, and the Pacific Asia Travel Association (PATA) reported a decrease of seven percent in international visitor arrivals to Northeast Asia for the first quarter.
+
+
+docName: APW_ENG_20091103.0290
+
+
+sentenceOffset/Text 402: The region's performance has been mixed this year with countries such as China and South Korea showing resilience but others like Thailand and Vietnam still in the doldrums, said Greg Duffell, president of the Bangkok-based Pacific Asia Travel Association.
+
+Greg Duffell, president of the Bangkok-based Pacific Asia Travel Association	president	jobTitle
+
+docName: XIN_ENG_20100321.0268
+
+
+sentenceOffset/Text 731: Hainan would continue to run the Boao International Tourism Forum in a long term with the help of the United Nations World Tourism Organization (UNWTO), the World Travel and Tourism Council (WTTC), the Pacific Asia Travel Association (PATA) and the China National Tourism Administration (CNTA), according to the Declaration.
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Greg Duffell, chief executive of the Bangkok-based Pacific Asia Travel Association (PATA)	chief executive	jobTitle
+Gregory Duffell, CEO of the Pacific Asia Travel Association (PATA)	ceo	jobTitle
+Pacific Asia Travel Association (PATA) poll of 1,571 mainland Chinese	Chinese	nationality
+Greg Duffell, president of the Bangkok-based Pacific Asia Travel Association	president	jobTitle
+
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_092	org:subsidiaries	UWashington3	NIL
+SF14_ENG_092	org:alternate_names	UWashington3	NIL
+SF14_ENG_092	org:date_founded	UWashington3	NIL
+SF14_ENG_092	org:website	UWashington3	NIL
+SF14_ENG_092	org:country_of_headquarters	UWashington3	NIL
+SF14_ENG_092	org:number_of_employees_members	UWashington3	NIL
+SF14_ENG_092	org:date_dissolved	UWashington3	NIL
+SF14_ENG_092	org:founded_by	UWashington3	NIL
+SF14_ENG_092	org:political_religious_affiliation	UWashington3	NIL
+SF14_ENG_092	org:shareholders	UWashington3	NIL
+SF14_ENG_092	org:city_of_headquarters	UWashington3	NIL
+SF14_ENG_092	org:member_of	UWashington3	NIL
+SF14_ENG_092	org:top_members_employees	UWashington3	NIL
+SF14_ENG_092	org:parents	UWashington3	NIL
+SF14_ENG_092	org:members	UWashington3	NIL
+SF14_ENG_092	org:stateorprovince_of_headquarters	UWashington3	NIL

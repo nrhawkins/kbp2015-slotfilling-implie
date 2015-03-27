@@ -54,3 +54,6 @@ psychologist
 behavior analyst
 climate chief
 CIA inspector
+contractor
+subcontractor
+founder
