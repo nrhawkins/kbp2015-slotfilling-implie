@@ -1,0 +1,279 @@
+
+All Extractions ----------------------------------------------------------
+
+
+docName: AFP_ENG_20090713.0170
+
+
+sentenceOffset/Text 925: The small east-central town on Monday beefed up emergency services, bringing in extra firefighters to the local emergency centre, after the workers at the New Fabris plant set a July 31 deadline for their demands to be met.
+
+
+sentenceOffset/Text 1844: The New Fabris workers, whose employer was declared bankrupt on June 16, claim that Renault and Peugeot paid around 30,000 euros each to 200 workers laid off from another supplier, the aluminium specialist Rencast.
+
+
+sentenceOffset/Text 2068: But both Renault and Peugeot said Monday it was not their responsibility to pay out compensation to the New Fabris workers.
+
+
+sentenceOffset/Text 2317: A Renault spokesman also said that the carmaker, like Peugeot, had already helped Fabris financially but should not be expected to pay compensation to the firms' workers.
+
+
+sentenceOffset/Text 2861: New Fabris company director Pierre Reau said that currently the firm would only able to pay between 10,000 and 15,000 euros in redundancy to workers with 20 or more years experience, and some junior workes would get just 3,000 euros.
+
+New Fabris company director Pierre Reau	company director	jobTitle
+
+sentenceOffset/Text 3237: Founded in 1947 by two brothers, Eugene and Quentin Fabris, New Fabris started out making sewing machine parts, before branching out into the auto sector, employing up to 800 workers in the 1990s.
+
+
+docName: APW_ENG_20090713.0630
+
+
+sentenceOffset/Text 388: Anne Frackowiak, top aide to the local governor in Chatellerault, 305 kilometers (190 miles) southwest of Paris, said Monday the former New Fabris factory workers will be meeting with France's industry minister to discuss their demand for euro 30,000 ($41,000) compensation each by the end of the month.
+
+Chatellerault, 305 kilometers (190 miles) southwest of Paris	Paris	city
+France's industry minister	France	nationality
+
+docName: APW_ENG_20090715.0940
+
+
+sentenceOffset/Text 592: Some 200 workers at the New Fabris factory outside the southwest city of Chatellerault, are each demanding euro30,000 ($42,267) from Renault and PSA Peugeot-Citroen, accusing the carmakers of killing their livelihoods.
+
+city of Chatellerault	Chatellerault	city
+
+sentenceOffset/Text 1483: New Fabris closed down June 16 and all its 366 workers are being gradually laid off.
+
+
+sentenceOffset/Text 2728: Salmon said PSA had offered to buy New Fabris' remaining inventory for euro1.2 million, even though PSA had no need for the spare parts.
+
+
+docName: AFP_ENG_20090809.0334
+
+
+sentenceOffset/Text 1793: Even more dramatic was the threat by workers at New Fabris, a bankrupt French car parts factory in central-eastern Chatellerault.
+
+Fabris, a bankrupt French car parts factory	French	nationality
+
+sentenceOffset/Text 2340: Two other French factories briefly followed suit, but in the end, on July 20, the New Fabris workers backed off from their threat once it became clear that Renault and PSA-Peugeot were not ready to pay up.
+
+French factories	French	nationality
+
+docName: APW_ENG_20090716.0672
+
+
+sentenceOffset/Text 427: The protest by workers at parts supplier New Fabris in central France is the latest example of violent measures French workers are resorting to in resisting job cuts and cost cuts amid the country's worst recession in decades.
+
+French workers	French	nationality
+
+sentenceOffset/Text 1305: PSA Peugeot-Citroen took the same position when workers at New Fabris made the same demand last week.
+
+
+sentenceOffset/Text 1677: We are maintaining our threat to blow up" the New Fabris factory, said Guy Eyermann of the CGT union.
+
+
+sentenceOffset/Text 1962: About 30 workers stayed behind in the city of Chatellerault to guard 20 gas canisters linked by an electric cable on both sides of the New Fabris factory.
+
+city of Chatellerault	Chatellerault	city
+
+sentenceOffset/Text 2172: New Fabris closed down June 16.
+
+
+docName: AFP_ENG_20090713.0360
+
+
+sentenceOffset/Text 400: The workers at New Fabris in the east-central town of Chatellerault set a July 31 deadline but extra fireman were already being brought in to the local emergency centre, officials said.
+
+town of Chatellerault	Chatellerault	city
+
+sentenceOffset/Text 1774: The New Fabris workers, whose employer was declared bankrupt on June 16, claim that Renault and Peugeot paid around 30,000 euros each to 200 workers laid off from another supplier, the aluminium specialist Rencast.
+
+
+sentenceOffset/Text 1998: But both Renault and Peugeot said Monday it was not their responsibility to pay out compensation to the New Fabris workers.
+
+
+sentenceOffset/Text 2247: A Renault spokesman also said that the carmaker, like Peugeot, had already helped Fabris financially but should not be expected to pay compensation to the firms' workers.
+
+
+sentenceOffset/Text 2804: New Fabris company director Pierre Reau said that currently the firm would only able to pay between 10,000 and 15,000 euros in redundancy to workers with 20 or more years experience, and some junior workes would get just 3,000 euros.
+
+New Fabris company director Pierre Reau	company director	jobTitle
+
+sentenceOffset/Text 3180: Founded in 1947 by two brothers, Eugene and Quentin Fabris, New Fabris started out making sewing machine parts, before branching out into the auto sector, employing up to 800 workers in the 1990s.
+
+
+docName: AFP_ENG_20090716.0302
+
+
+sentenceOffset/Text 379: Dozens of workers have been occupying the plant in western Chatellerault since their employer New Fabris was declared bankrupt on June 16.
+
+
+sentenceOffset/Text 1029: Renault said it offered to buy up the stock of parts that were intended for it, and for the proceeds to be paid to New Fabris workers, but unions rejected the offer, which they estimated at 3,000 euros per head.
+
+
+sentenceOffset/Text 1391: Both Renault and Peugeot have said it is not their responsibility to pay out compensation to the New Fabris workers.
+
+
+sentenceOffset/Text 1677: The New Fabris threat comes in the wake of a string of "bossnappings" across France earlier this year in which managers were held hostage by workers over factory closures.
+
+
+docName: NYT_ENG_20090715.0183
+
+
+sentenceOffset/Text 920: The Nortel workers took their cue from a situation that began Sunday at a factory owned by New Fabris, a failed auto parts maker in Chatellerault, about 165 miles southwest of Paris.
+
+southwest of Paris	Paris	city
+
+sentenceOffset/Text 1368: The automakers argue that they have no legal obligation to New Fabris because they were clients, not owners.
+
+
+docName: NYT_ENG_20090715.0053
+
+
+sentenceOffset/Text 922: The Nortel workers took their cue from an incident that began Sunday at a factory owned by New Fabris, a failed auto parts maker in Chatellerault, about 165 miles southwest of Paris.
+
+southwest of Paris	Paris	city
+
+sentenceOffset/Text 1360: The automakers argue that they have no legal obligation to New Fabris because they were clients, not owners.
+
+
+sentenceOffset/Text 1478: "There is a real threat," Anne Frackowiak, a spokeswoman for the local governor of the Vienne region, where New Fabris is based.
+
+threat," Anne Frackowiak, a spokeswoman	spokeswoman	jobTitle
+
+docName: AFP_ENG_20090712.0173
+
+
+sentenceOffset/Text 392: The 366 employees of New Fabris in central-eastern Chatellerault, are occupying the plant to demand that the auto giants -- who accounted for 90 percent of their business -- pay 30,000 euros (42,000 dollars) to each worker.
+
+
+sentenceOffset/Text 1619: The New Fabris workers, whose employer was declared bankrupt on June 16, claim that Renault and PSA paid some 30,000 euros to 200 workers laid off from another supplier, the aluminium specialist Rencast.
+
+
+sentenceOffset/Text 1832: Founded in 1947 by two brothers, Eugene and Quentin Fabris, New Fabris started out making sewing machine parts, before branching out into the auto sector, employing up to 800 workers in the 1990s.
+
+
+docName: AFP_ENG_20090717.0476
+
+
+sentenceOffset/Text 2069: Carmaker Renault refused Thursday to meet the demands of workers at a bankrupt car parts supplier, New Fabris, who threatened at the weekend to blow up gas canisters inside their factory in western Chatellerault.
+
+
+sentenceOffset/Text 2291: Workers at New Fabris want Renault and PSA-Peugeot -- who accounted for 90 percent of their business -- to pay 30,000 euros to each of the 366 laid-off employees.
+
+
+sentenceOffset/Text 2569: Renault offered Thursday to buy up the stock of parts that were intended for it, and for the proceeds to be paid to New Fabris workers, but unions rejected the offer, which they estimated at 3,000 euros per head.
+
+
+docName: AFP_ENG_20090818.0555
+
+
+sentenceOffset/Text 1093: The card linked the threat to a bitter industrial dispute at the car parts manufacturer New Fabris in northern France, which is facing closure with the loss of 366 jobs.
+
+
+docName: APW_ENG_20090716.0869
+
+
+sentenceOffset/Text 427: The protest by workers at parts supplier New Fabris in central France is the latest example of violent measures French workers are resorting to in resisting job cuts and cost cuts amid the country's worst recession in decades.
+
+French workers	French	nationality
+
+sentenceOffset/Text 1305: PSA Peugeot-Citroen took the same position when workers at New Fabris made the same demand last week.
+
+
+sentenceOffset/Text 1677: We are maintaining our threat to blow up" the New Fabris factory, said Guy Eyermann of the CGT union.
+
+
+sentenceOffset/Text 1962: About 30 workers stayed behind in the city of Chatellerault to guard 20 gas canisters linked by an electric cable on both sides of the New Fabris factory.
+
+city of Chatellerault	Chatellerault	city
+
+sentenceOffset/Text 2172: New Fabris closed down June 16.
+
+
+docName: AFP_ENG_20090716.0304
+
+
+sentenceOffset/Text 379: Dozens of workers have been occupying the plant in western Chatellerault since their employer New Fabris was declared bankrupt on June 16.
+
+
+sentenceOffset/Text 1029: Renault said it offered to buy up the stock of parts that were intended for it, and for the proceeds to be paid to New Fabris workers, but unions rejected the offer, which they estimated at 3,000 euros per head.
+
+
+sentenceOffset/Text 1391: Both Renault and Peugeot have said it is not their responsibility to pay out compensation to the New Fabris workers.
+
+
+sentenceOffset/Text 1677: The New Fabris threat comes in the wake of a string of "bossnappings" across France earlier this year in which managers were held hostage by workers over factory closures.
+
+
+docName: NYT_ENG_20090715.0182
+
+
+sentenceOffset/Text 920: The Nortel workers took their cue from a situation that began Sunday at a factory owned by New Fabris, a failed auto parts maker in Chatellerault, about 165 miles southwest of Paris.
+
+southwest of Paris	Paris	city
+
+sentenceOffset/Text 1368: The automakers argue that they have no legal obligation to New Fabris because they were clients, not owners.
+
+
+docName: AFP_ENG_20090809.0332
+
+
+sentenceOffset/Text 1793: Even more dramatic was the threat by workers at New Fabris, a bankrupt French car parts factory in central-eastern Chatellerault.
+
+Fabris, a bankrupt French car parts factory	French	nationality
+
+sentenceOffset/Text 2340: Two other French factories briefly followed suit, but in the end, on July 20, the New Fabris workers backed off from their threat once it became clear that Renault and PSA-Peugeot were not ready to pay up.
+
+French factories	French	nationality
+
+docName: AFP_ENG_20090720.0298
+
+
+sentenceOffset/Text 370: Around 100 workers voted to remove a ring of gas canisters from the plant in central-eastern Chatellerault, which they have occupied since their employer New Fabris was declared bankrupt on June 16.
+
+
+sentenceOffset/Text 1079: The New Fabris threats sparked two copycat incidents last week, as laid-off workers at other firms sought to grab the media spotlight.
+
+
+docName: APW_ENG_20090716.0470
+
+
+sentenceOffset/Text 427: The protest by workers at parts supplier New Fabris in central France is the latest example of violent measures French workers are resorting to in resisting job cuts and cost cuts amid the country's worst recession in decades.
+
+French workers	French	nationality
+
+sentenceOffset/Text 1305: PSA Peugeot-Citroen took the same position when workers at New Fabris made the same demand last week.
+
+
+sentenceOffset/Text 1677: We are maintaining our threat to blow up" the New Fabris factory, said Guy Eyermann of the CGT union.
+
+
+sentenceOffset/Text 1962: About 30 workers stayed behind in the city of Chatellerault to guard 20 gas canisters linked by an electric cable on both sides of the New Fabris factory.
+
+city of Chatellerault	Chatellerault	city
+
+sentenceOffset/Text 2196: New Fabris closed down June 16.
+
+
+Filtered Extractions ----------------------------------------------------------
+
+New Fabris company director Pierre Reau	company director	jobTitle
+New Fabris company director Pierre Reau	company director	jobTitle
+
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_088	org:subsidiaries	UWashington3	NIL
+SF14_ENG_088	org:alternate_names	UWashington3	NIL
+SF14_ENG_088	org:date_founded	UWashington3	NIL
+SF14_ENG_088	org:website	UWashington3	NIL
+SF14_ENG_088	org:country_of_headquarters	UWashington3	NIL
+SF14_ENG_088	org:number_of_employees_members	UWashington3	NIL
+SF14_ENG_088	org:date_dissolved	UWashington3	NIL
+SF14_ENG_088	org:founded_by	UWashington3	NIL
+SF14_ENG_088	org:political_religious_affiliation	UWashington3	NIL
+SF14_ENG_088	org:shareholders	UWashington3	NIL
+SF14_ENG_088	org:city_of_headquarters	UWashington3	NIL
+SF14_ENG_088	org:member_of	UWashington3	NIL
+SF14_ENG_088	org:top_members_employees	UWashington3	NIL
+SF14_ENG_088	org:parents	UWashington3	NIL
+SF14_ENG_088	org:members	UWashington3	NIL
+SF14_ENG_088	org:stateorprovince_of_headquarters	UWashington3	NIL

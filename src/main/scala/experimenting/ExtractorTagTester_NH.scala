@@ -20,7 +20,8 @@ object ExtractorTagTester_NH {
     //val sentence = "We often think of domestic workers as people travelling out of Indonesia to other countries, but there is a large population of Indonesian domestic workers in their own country, who are not recognised by law, Amnesty International Malaysia executive director Josef Roy Benedict told reporters in Kuala"
     //val sentence = "Two US soldiers killed in Iraq."
     //val sentence = "New York-based Zirh was founded in 1995 and makes products using natural oils and extracts."
-    val sentence = "U.S. citizen under investigation in Cuba for spying </HEADLINE> <DATELINE> HAVANA, June 16 (Xinhua) </DATELINE> <TEXT> <P> U.S. contractor Alan Gross, who was arrested for alleged espionage activities in December, remains under investigation, said Cuban Foreign Minister Bruno Rodriguez Wednesday."  
+    //val sentence = "U.S. citizen under investigation in Cuba for spying </HEADLINE> <DATELINE> HAVANA, June 16 (Xinhua) </DATELINE> <TEXT> <P> U.S. contractor Alan Gross, who was arrested for alleged espionage activities in December, remains under investigation, said Cuban Foreign Minister Bruno Rodriguez Wednesday."  
+    val sentence = "The leaders of Cuba's two main Jewish groups say they have not worked with Alan Gross, who is Jewish."
     //val sentence = "Analyst and author Ahmed Rashid said Zardari had been caught off-guard by the opposition to the aid package under which Pakistan's government will receivemore than the one billion dollars that the military gets."
     //val sentence = "He was Esteban Neira, not Estaban Neiva."
     //val sentence = "President Barack Obama, CEO of Microsoft Corporation, spoke about his wife Chicago native, Michelle Obama." 
@@ -51,9 +52,15 @@ object ExtractorTagTester_NH {
     println("Result Size: " + result.size)
     result.foreach(r => {
       println(r.np)
+      println("np bo: " + r.np.beginOffset)
+      println("np eo: " + r.np.endOffset)
+      println("np bwi: " + r.np.beginWordIndex)
+      println("np ewi: " + r.np.endWordIndex)      
       println(r.relation)
       println("tag: " + r.tag)
       println("tag index: " + r.tag.index)
+      println("tag is: " + r.tag.intervalStart)
+      println("tag ie: " + r.tag.intervalEnd)
       println("head: " + r.head)
       println("head index: " + r.head.index)      
       println("ner size: " + r.ners.size)

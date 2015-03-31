@@ -1,0 +1,587 @@
+
+All Extractions ----------------------------------------------------------
+
+
+docName: XIN_ENG_20100707.0347
+
+
+sentenceOffset/Text 341: He is accused of ordering the kidnapping of 25-year-old Eliza Samudio, his former mistress and mother of his alleged child.
+
+
+sentenceOffset/Text 465: Samudio, who is missing since early June, is believed to having been killed, but the extent of Bruno's participation in the murder has yet to be determined.
+
+
+sentenceOffset/Text 631: The court issued a prison warrant for Bruno on late Tuesday, after a witness told the police that Samudio had indeed been killed.
+
+
+sentenceOffset/Text 859: According to the teenager, Samudio was kidnapped in Rio in early June and killed some days later, in neighboring Minas Gerais state.
+
+
+sentenceOffset/Text 992: The boy admitted to injuring Samudio but not to killing her.
+
+
+sentenceOffset/Text 1366: Samudio and her four-month-old baby went missing in early June.
+
+
+sentenceOffset/Text 1682: Both Bruno and his wife claim they do not know what happened to Samudio.
+
+
+sentenceOffset/Text 1824: However, investigations point to murder - blood was found in the goalkeeper's car, and analysis showed it is Samudio's.
+
+goalkeeper's car	goalkeeper	jobTitle
+
+sentenceOffset/Text 1944: Additionally, a witness claims that Samudio has been to Bruno's Minas Gerais house in early June, which he denies.
+
+
+docName: APW_ENG_20100709.0876
+
+
+sentenceOffset/Text 576: He and two other suspects in the disappearance and possible murder of 25-year-old Eliza Samudio refused to cooperate.
+
+
+sentenceOffset/Text 867: The other two suspects are Luiz Henrique Romao, a friend of Souza, and Luiz Aparecido Santos, a former police detective who, according to Moreira, strangled Samudio to death last month.
+
+Luiz Aparecido Santos, a former police detective	detective	jobTitle
+
+sentenceOffset/Text 1062: Samudio has been missing since early June.
+
+
+sentenceOffset/Text 1253: Moreira said Souza was at the house when Samudio was allegedly killed.
+
+
+sentenceOffset/Text 1333: Samudio had been trying to legally prove that Souza was the father of her 4-month-old son.
+
+
+sentenceOffset/Text 1433: Souza and Romao were flown late Thursday from Rio de Janeiro to Belo Horizonte, where the investigation is now centered and where authorities on Friday resumed the search for Samudio's body at a house owned by Souza and another one rented by her alleged killer.
+
+Rio de Janeiro	Rio	city
+
+docName: APW_ENG_20101207.0819
+
+
+sentenceOffset/Text 682: The conviction involves Eliza Samudio's 2009 allegation that Bruno and others kidnapped her and tried to force her to take medication to abort the unborn child she had with the goalkeeper.
+
+
+docName: AFP_ENG_20100629.0122
+
+
+sentenceOffset/Text 623: The 25-year-old captain of Flamengo, one of Brazil's most popular teams, is suspected of being involved in the disappearance three weeks ago and possible death of Eliza Samudio.
+
+Brazil's most popular teams	Brazil	nationality
+
+sentenceOffset/Text 810: Samudio, 25, had been demanding a DNA test to prove that the married footballer was the father of her four-month-old child.
+
+
+sentenceOffset/Text 1311: Samudio's lawyer Anne Faraco claimed that Bruno had offered her client a monthly allowance of 3,500 reais (1,900 dollars), but she had been demanding more - angering the footballer.
+
+lawyer Anne Faraco	lawyer	jobTitle
+
+sentenceOffset/Text 1502: According to Faraco and a friend of Samudio the footballer had threatened her during her pregnancy and demanded that she have an abortion.
+
+
+sentenceOffset/Text 1650: Samudio had filed a complaint with police last October when she was five months pregnant.
+
+
+docName: XIN_ENG_20100707.0344
+
+
+sentenceOffset/Text 345: He is accused of ordering the kidnapping of 25-year-old Eliza Samudio, his former mistress and mother of his alleged child.
+
+
+sentenceOffset/Text 469: Samudio, who is missing since early June, is believed to having been killed, but the extent of Bruno's participation in the murder has yet to be determined.
+
+
+sentenceOffset/Text 635: The court issued a prison warrant for Bruno on late Tuesday, after a witness told the police that Samudio had indeed been killed.
+
+
+sentenceOffset/Text 863: According to the teenager, Samudio was kidnapped in Rio in early June and killed some days later, in neighboring Minas Gerais state.
+
+
+sentenceOffset/Text 996: The boy admitted to injuring Samudio but not to killing her.
+
+
+sentenceOffset/Text 1370: Samudio and her four-month-old baby went missing in early June.
+
+
+sentenceOffset/Text 1687: Both Bruno and his wife claim they do not know what happened to Samudio.
+
+
+sentenceOffset/Text 1829: However, investigations point to murder - blood was found in the goalkeeper's car, and analysis showed it is Samudio's.
+
+goalkeeper's car	goalkeeper	jobTitle
+
+sentenceOffset/Text 1949: Additionally, a witness claims that Samudio has been to Bruno' s Minas Gerais house in early June, which he denies.
+
+
+docName: NYT_ENG_20100730.0180
+
+
+sentenceOffset/Text 1720: In a case that has dominated headlines and television news coverage for weeks in this soccer-obsessed nation, the police said they had concluded their investigation and were charging the goalie, Bruno Fernandes das Dores de Souza, 25, and eight friends and family members in the slaying of Eliza Samudio, 25, who disappeared in early June.
+
+
+docName: APW_ENG_20100709.0850
+
+
+sentenceOffset/Text 682: Police accuse Souza of ordering the kidnapping and murder of 25-year-old Eliza Samudio.
+
+
+docName: APW_ENG_20100717.0482
+
+
+sentenceOffset/Text 638: Authorities have said they consider Souza the main suspect in ordering the kidnapping and possible murder of his former girlfriend, 25-year-old Eliza Samudio.
+
+
+sentenceOffset/Text 806: Police say Samudio was kidnapped early June in Rio de Janeiro, driven to Belo Horizonte and killed at a suburban house.
+
+Rio de Janeiro	Rio	city
+
+docName: XIN_ENG_20100717.0133
+
+
+sentenceOffset/Text 326: The player is the prime suspect in the kidnapping and murdering of his ex- girlfriend and mother of his 5-month-old baby, Eliza Samudio.
+
+
+sentenceOffset/Text 841: He and six others are preventatively being held for questioning in the gruesome homicide of Samudio.
+
+
+docName: AFP_ENG_20100709.0300
+
+
+sentenceOffset/Text 406: At the center of the dark drama is Bruno Souza, a star goalkeeper and captain of defending club champion Flamengo, who surrendered to police Wednesday to face questioning in connection with the disappearance and suspected death of Eliza Samudio.
+
+
+sentenceOffset/Text 1184: Among the macabre details divulged by police: they believe Bruno was in a home near Belo Horizonte home with Samudio last month at the time of her murder, and that her body was later cut into pieces, some of which were fed to dogs in a bid to cover the murder.
+
+
+sentenceOffset/Text 1672: Samudio was described by the newspaper as "a student, model and pornographic film actress."
+
+
+sentenceOffset/Text 1905: Samudio's body has not been found, but Bruno's 17-year-old cousin, who acknowledged helping in her abduction, claimed in a lengthy deposition to police that the woman was strangled, officials said.
+
+
+sentenceOffset/Text 2112: The cousin also claimed to have heard Bruno tell associates to "solve the problem" with Samudio.
+
+
+sentenceOffset/Text 2330: Another one of Bruno's cousins said in his deposition that Santos committed "barbaric tortures" against Samudio, and that music was blared from her locked room so that neighbors could not hear her screams, according to the Estado de Sao Paulo newspaper.
+
+
+sentenceOffset/Text 2931: Samudio met Bruno in 2009 at the home of a Flamengo teammate, according to Istoe magazine.
+
+
+sentenceOffset/Text 3223: In June, Samudio met Bruno near Belo Horizonte, apparently thinking the two were going to reach an agreement for care of the baby.
+
+
+sentenceOffset/Text 3416: Moreira said Thursday that police determined from the evidence that Bruno remained with Samudio until her death.
+
+
+sentenceOffset/Text 3610: Authorities said they ordered the detention of Bruno's wife, Dayana Rodrigues, who was found with Samudio's baby.
+
+
+sentenceOffset/Text 3733: For his part, Bruno recently told radio Globo that he had a "clear conscience" about Samudio's disappearance.
+
+
+docName: XIN_ENG_20100629.0353
+
+
+sentenceOffset/Text 613: The 25-year-old captain of Flamengo, one of Brazil's most popular teams, is suspected of being involved in the disappearance three weeks ago and possible death of Eliza Samudio.
+
+Brazil's most popular teams	Brazil	nationality
+
+sentenceOffset/Text 800: Samudio, 25, had been demanding a DNA test to prove that the married footballer was the father of her four-month-old child.
+
+
+sentenceOffset/Text 1301: Samudio's lawyer Anne Faraco claimed that Bruno had offered her client a monthly allowance of 3,500 reais (1,900 dollars), but she had been demanding more - angering the footballer.
+
+lawyer Anne Faraco	lawyer	jobTitle
+
+sentenceOffset/Text 1492: According to Faraco and a friend of Samudio the footballer had threatened her during her pregnancy and demanded that she have an abortion.
+
+
+sentenceOffset/Text 1640: Samudio had filed a complaint with police last October when she was five months pregnant.
+
+
+docName: XIN_ENG_20100707.0375
+
+
+sentenceOffset/Text 639: Both will be held in order to find thorough evidences and to hear fully testimonies on the disappearance of Bruno's ex-girlfriend Eliza Samudio who has been missing since June 4.
+
+
+sentenceOffset/Text 939: He and Macarrao are considered the prime suspects in the accused kidnapping of Samudio.
+
+
+sentenceOffset/Text 1413: The warrant and eventual arrest comes one day after Bruno's 17 -year-old cousin told police that he participated in the kidnapping of Samudio and claimed that she is dead.
+
+
+sentenceOffset/Text 1960: If found guilty of participating in the alleged kidnapping and homicide of Samudio, Bruno's professional career will come to a screeching halt.
+
+
+docName: APW_ENG_20100804.0872
+
+
+sentenceOffset/Text 897: Bruno allegedly ordered the kidnapping and killing of 25-year-old Eliza Samudio.
+
+
+sentenceOffset/Text 1053: Police say the player arranged for Samudio to be kidnapped in June in Rio de Janeiro and driven 280 miles (450 kilometers) north to a rural property he owns in Minas Gerais state, where police say the woman was imprisoned, beaten and finally strangled to death by a former policeman and friend of Bruno's, Marcos Aparecido dos Santos.
+
+Rio de Janeiro	Rio	city
+
+sentenceOffset/Text 1497: Police have said that when Samudio was pregnant last year, she alleged that Bruno and others had kidnapped her and tried to force her to take medication that would abort her unborn child.
+
+
+sentenceOffset/Text 1685: Police in Rio de Janeiro affirmed that Samudio lodged a criminal complaint against Bruno last October in connection with the alleged incident, but that no charges were brought.
+
+Rio de Janeiro	Rio	city
+
+docName: APW_ENG_20100627.0619
+
+
+sentenceOffset/Text 420: She told TV Globo that the Flamengo club's Bruno is suspected along with two friends of having beaten Eliza Samudio, who has been missing for three weeks.
+
+
+sentenceOffset/Text 584: Wilke said Sunday that Samudio "probably died and they hid the body."
+
+
+sentenceOffset/Text 663: She also said that police believe Samudio to be the mother of a child from a relationship with the 25-year-old Bruno, whose full name is Bruno Fernandes de Sousa.
+
+
+docName: APW_ENG_20100730.0418
+
+
+sentenceOffset/Text 498: Police say he ordered the kidnapping and killing of 25-year-old Eliza Samudio, who was fighting in court to have the player recognized as the father of her young son.
+
+
+docName: AFP_ENG_20100707.0029
+
+
+sentenceOffset/Text 393: Justice officials had earlier ordered the footballer, known by the name Bruno, to be jailed for five days during the investigation into the disappearance and possible death of Eliza Samudio, 25.
+
+
+sentenceOffset/Text 775: Samudio's body has not been found, but her 17-year-old cousin who acknowledged helping in her abduction, claimed the woman was strangled, and was assisting police in looking her her body, officials said.
+
+
+sentenceOffset/Text 1346: Authorities also ordered detention for six other people, including Bruno's wife, Dayana Rodrigues, who was found with Samudio's baby.
+
+
+docName: XIN_ENG_20100710.0136
+
+
+sentenceOffset/Text 337: With the absence of goalkeeper and team captain Bruno due to his involvement in the kidnapping and murder of his ex-girlfriend Eliza Samudio, the team is left without its leader.
+
+absence of goalkeeper and team	goalkeeper	jobTitle
+
+docName: AFP_ENG_20101001.0097
+
+
+sentenceOffset/Text 1411: The club have also made headlines for the wrong reasons with goalkeeper Bruno suspected of involvement in the disappearance and assumed murder of his former partner Eliza Samudio.
+
+
+docName: APW_ENG_20100804.0856
+
+
+sentenceOffset/Text 602: Prosecutors say Bruno ordered the kidnapping and killing of 25-year-old Eliza Samudio.
+
+
+docName: AFP_ENG_20100720.0176
+
+
+sentenceOffset/Text 736: The 25-year-old is suspected of involvement in the disappearance in early June of Eliza Samudio, who is feared dead.
+
+
+sentenceOffset/Text 862: Samudio, 25, had been demanding a DNA test to prove that the married Bruno was the father of her four-month-old child.
+
+
+sentenceOffset/Text 1360: Samudio's lawyer Anne Faraco has claimed that Bruno had offered her client a monthly allowance of 3,500 reais (1,900 dollars), but she had been demanding more -- angering the footballer.
+
+lawyer Anne Faraco	lawyer	jobTitle
+
+sentenceOffset/Text 1556: According to Faraco and a friend of Samudio, Bruno had threatened her during her pregnancy and demanded that she have an abortion.
+
+
+sentenceOffset/Text 1696: Samudio had filed a complaint with police last October when she was five months pregnant.
+
+
+sentenceOffset/Text 2105: Bruno can reportedly be heard on the tape admitting he had a relationship with Samudio but denying any role in her disappearance.
+
+
+docName: AFP_ENG_20101207.0393
+
+
+sentenceOffset/Text 418: A Rio court found him guilty of abducting the woman, Eliza Samudio, in October 2009, physically assaulting her and forcing her take abortion-inducing drugs before releasing her.
+
+Rio court	Rio	city
+
+sentenceOffset/Text 682: De Souza was undergoing a separate trial in the city of Belo Horizonte for the murder of 25-year-old Samudio, who disappeared in June this year after she was taken to the goalkeeper's home after giving birth.
+
+goalkeeper's home	goalkeeper	jobTitle
+
+sentenceOffset/Text 900: Prosecutors suspect the footballer had Samudio killed and disposed of the body.
+
+
+sentenceOffset/Text 980: They say Samudio had been pressuring De Souza for a DNA paternity test.
+
+
+sentenceOffset/Text 1061: Eight other suspects -- among them De Souza's wife, who was found taking care of Samudio's baby -- are accused of helping De Souza carry out the alleged crime.
+
+
+docName: XIN_ENG_20100628.0368
+
+
+sentenceOffset/Text 58: Bruno relieved of duty as Flamengo's goalie for legal problem </HEADLINE> <DATELINE> RIO DE JANEIRO, June 28 (Xinhua) </DATELINE> <TEXT> <P> Flamengo's star goalkeeper Bruno was dismissed from the team Monday after he was labeled as a person of interest in the recent disappearance of his former girlfriend and mother of his 4-month-old son, Eliza Samudio.
+
+
+sentenceOffset/Text 477: The agent picked up the case on June 23 when Samudio was last seen.
+
+
+sentenceOffset/Text 545: According to Wilke, Samudio was beaten in a property owned by Bruno in the interior of Minas Gerais.
+
+
+sentenceOffset/Text 646: Since last Wednesday, no one has heard from Samudio, leading police to believe that a homicide has taken place.
+
+
+sentenceOffset/Text 917: However, after receiving information from the police in Rio de Janeiro, Samudio has been missing since June 4.
+
+Rio de Janeiro	Rio	city
+
+sentenceOffset/Text 1316: The local police of Belo Horizonte began their search for the body of Samudio on the property of Bruno.
+
+
+sentenceOffset/Text 1420: The player allegedly invited Samudio to his home in the interior of Minas Gerais.
+
+
+docName: XIN_ENG_20100626.0239
+
+
+sentenceOffset/Text 306: Eliza Samudio, Bruno's ex-girlfriend and his 4-month-old baby boy's mother, disappeared from her hometown of Belo Horizonte, Minas Gerais.
+
+
+sentenceOffset/Text 454: According to special agent Alessandra Wilke who is handling the case, Samudio was beaten in a property owned by Bruno in the interior of Minas Gerais.
+
+
+sentenceOffset/Text 605: Since last Wednesday, no one has heard from Samudio, leading police to believe that a homicide has taken place.
+
+
+docName: APW_ENG_20100630.1041
+
+
+sentenceOffset/Text 362: A spokesman for the Minas Gerais state police department says laboratory tests will determine if the blood belongs to Eliza Samudio, who has been missing for nearly a month.
+
+
+sentenceOffset/Text 620: He said that Flamengo goalkeeper Bruno Fernandes de Sousa is suspected, along with two friends, of having beaten Samudio to death and hidden her body.
+
+Flamengo goalkeeper Bruno Fernandes de Sousa	goalkeeper	jobTitle
+
+sentenceOffset/Text 780: The spokesman said Wednesday that Samudio is the mother of a four-month-old boy from a relationship with the 25-year-old Sousa.
+
+
+sentenceOffset/Text 908: The boy is being cared for by Samudio's parents.
+
+
+docName: XIN_ENG_20100711.0209
+
+
+sentenceOffset/Text 347: The striker commented on Bruno's alleged involvement in the kidnapping and murder of his ex-girlfriend Eliza Samudio.
+
+
+docName: APW_ENG_20101207.0843
+
+
+sentenceOffset/Text 418: Bruno Fernandes -- known in the football world just as Bruno -- still faces separate charges of killing the woman, Eliza Samudio.
+
+
+sentenceOffset/Text 754: The conviction involves Samudio's 2009 allegation that Bruno and others kidnapped her and tried to force her to take medication to abort the unborn child she had with the goalkeeper.
+
+
+sentenceOffset/Text 946: The child was born and also named Bruno, with custody being awarded to Samudio's mother after a court dispute.
+
+
+docName: NYT_ENG_20100730.0113
+
+
+sentenceOffset/Text 368: In a case that has dominated headlines and television news coverage for weeks in this soccer-obsessed nation, the police said they had concluded their investigation and were charging the goalie, Bruno Fernandes das Dores de Souza, 25, and eight friends and family members in the slaying of Eliza Samudio, 25, who disappeared in early June.
+
+
+sentenceOffset/Text 717: Since the police first said they had discovered the blood of Samudio in Souza's car in early June, Brazilians have been exposed to a barrage of soap opera-like revelations and gruesome details.
+
+
+sentenceOffset/Text 1063: The relationship began last year when the soccer player, who was not on the Brazilian World Cup team, and Samudio met at a party in Rio de Janeiro.
+
+Brazilian World Cup team	Brazilian	nationality
+Rio de Janeiro	Rio	city
+
+sentenceOffset/Text 1580: Then in May, Samudio went back to Rio to find Souza, presumably, the police said, to prove to him the baby was his.
+
+
+sentenceOffset/Text 1705: The police said Friday that Souza later organized a group of his friends and family members to take Samudio and her baby to his home in the state of Minas Gerais, where they said she was held hostage and ultimately strangled.
+
+
+sentenceOffset/Text 1940: Samudio's 4-month-old son was later found alive in the house of strangers in a nearby town.
+
+
+sentenceOffset/Text 2417: Franco, whose team is representing six of the nine people charged Friday, said that his clients did not deny that Samudio was at Souza's house in Minas Gerais, but that they denied she had been kidnapped and killed.
+
+
+sentenceOffset/Text 2633: Samudio's body has not been found.
+
+
+sentenceOffset/Text 2677: Moreira, the investigator, said Souza was in the house when an acquaintance, a former police officer, strangled Samudio.
+
+acquaintance, a former police officer	police officer	jobTitle
+
+docName: AFP_ENG_20100730.0021
+
+
+sentenceOffset/Text 586: Even though the body of the alleged victim, 25-year-old Eliza Samudio, has not been found, police wrapping up an initial phase of their probe on Thursday determined that Souza masterminded her death.
+
+
+sentenceOffset/Text 1185: Samudio disappeared last month after being taken to Souza's second residence near the southern city of Belo Horizonte.
+
+
+docName: AFP_ENG_20100730.0093
+
+
+sentenceOffset/Text 593: Even though the body of the alleged victim, 25-year-old Eliza Samudio, has not been found, police wrapping up their probe on Thursday determined that Souza masterminded her death.
+
+
+sentenceOffset/Text 959: Samudio disappeared last month after being taken to Souza's second residence near the southern city of Belo Horizonte.
+
+
+docName: XIN_ENG_20100709.0251
+
+
+sentenceOffset/Text 656: On the other hand, the team's starting goalkeeper Bruno was recently waved due to his arrest in regard to kidnap and murder of his ex-girlfriend Eliza Samudio.
+
+
+docName: AFP_ENG_20101207.0430
+
+
+sentenceOffset/Text 387: Judge Marco Couto pronounced the sentence against the soccer star, who in  July was formally charged with the kidnap and murder of 25-year-old Eliza Samudio.
+
+
+sentenceOffset/Text 583: Samudio, who at the time of her disappearance had a four-month-old baby she claimed was fathered by Souza, was believed to have been demanding child support.
+
+
+docName: XIN_ENG_20100708.0313
+
+
+sentenceOffset/Text 58: Roundup: Police sure Flamengo goalie having watched mistress' murder </HEADLINE> <DATELINE> RIO DE JANEIRO, July 8 (Xinhua) </DATELINE> <TEXT> <P> Brazilian police are convinced that Bruno Fernandes, goalkeeper of world- renowned soccer team Flamengo, was present when his former mistress, Eliza Samudio, was killed.
+
+Brazilian police	Brazilian	nationality
+Bruno Fernandes, goalkeeper of world	goalkeeper	jobTitle
+
+sentenceOffset/Text 384: Police Chief Edson Moreira, who is investigating the case, said on Thursday that Samudio's murder was planned.
+
+
+sentenceOffset/Text 495: According to him, a witness testified that Bruno was one of the men who beat Samudio and was present when she was strangled to death.
+
+
+sentenceOffset/Text 638: According to the witness, who is Bruno's 17-year-old cousin, Samudio was kidnapped in Rio and taken to Bruno's cottage in the town of Esmeralda in neighboring Minas Gerais state.
+
+
+sentenceOffset/Text 1016: According to the teenager, he, Bruno and his ground guard Luiz Henrique Romao all watched while Samudio was killed.
+
+
+sentenceOffset/Text 1141: After the murder, Santos reportedly mutilated Samudio's body and threw the remains to the dogs he kept in the property.
+
+
+sentenceOffset/Text 1261: The others returned to Bruno's cottage, where the player burned Samudio's belongings and drank beer by the pool.
+
+
+sentenceOffset/Text 2019: Samudio and her four-month-old baby, whom she claimed to be Bruno's son, disappeared early last month in Rio.
+
+
+sentenceOffset/Text 2389: Samudio's son was found unharmed on June 24 in a house in Minas Gerais state.
+
+
+docName: XIN_ENG_20100917.0282
+
+
+sentenceOffset/Text 377: Bruno and his childhood friend Luiz Henrique Ferreria Romao, or Macarroa, are currently being held on charges of kidnapping and murder of the player's ex- girlfriend, Eliza Samudio.
+
+
+sentenceOffset/Text 1537: Paulo Victor declared that he used to take part in the frequent parties thrown by Bruno and that he always saw Samudio there as the keeper's lover.
+
+
+docName: XIN_ENG_20101207.0194
+
+
+sentenceOffset/Text 343: Bruno was charged for the kidnapping and corporal damage to Eliza Samudio, the lover and mother of Bruno's infant child.
+
+
+sentenceOffset/Text 572: Macarrao is Bruno's best friend and is considered to be the one responsible for carrying out the wishes of Bruno to make Samudio disappear.
+
+
+sentenceOffset/Text 809: However, the body of Samudio was never found.
+
+
+sentenceOffset/Text 1003: A court in the state of Minas Gerais is expected to make another decision regarding the innocence of Bruno's driver Flavio Caetano de Araujo, the former girlfriend of Bruno, Dayanne Souza, the athlete's cousin Sergio Rosa Sales, the grounds keeper of Bruno's estate in Minas Gerais Elenilson Vitor da Souza, a former lover of Bruno Fernanda Gomes de Castro, friend Wemerson Marques and the alleged author of the brutal murder of Samudio, Marcos Aparecido dos Santos, also known as Bola.
+
+Flavio Caetano de Araujo, the former girlfriend of Bruno, Dayanne Souza, the athlete's cousin Sergio Rosa Sales, the grounds keeper of Bruno's estate in Minas Gerais Elenilson Vitor da Souza, a former lover of Bruno Fernanda Gomes de Castro, friend Wemerson Marques and the alleged author of the brutal murder	author	jobTitle
+
+docName: XIN_ENG_20100709.0157
+
+
+sentenceOffset/Text 805: The victim, Eliza Samudio, was reportedly chopped into pieces and fed to rottweilers.
+
+
+docName: XIN_ENG_20100629.0358
+
+
+sentenceOffset/Text 835: Bruno is the main suspect of the disappearance of 25-year-old Eliza Samudio, with whom he allegedly has a four-month-old son - the paternity of the child has yet to be confirmed, as the goalkeeper did not agree to a DNA test.
+
+
+sentenceOffset/Text 1070: On Thursday, the police received an anonymous tip that Samudio had been beaten to death by Bruno and two friends of his.
+
+
+sentenceOffset/Text 1191: Officers are currently carrying on searches in the goalkeeper's ranch, in the town of Esmeralda, Minas Gerais state, after a tip that Samudio's body was hidden in a water-tank at the property.
+
+goalkeeper's ranch	goalkeeper	jobTitle
+
+sentenceOffset/Text 1451: Samudio's friends and family have not heard of her since June 5.
+
+
+sentenceOffset/Text 1525: Samudio's son, who went missing with his mother, was found on Saturday with Bruno's wife, Dayane Fernandes.
+
+
+sentenceOffset/Text 1781: Dayane told the police that Samudio had abandoned the baby, but that version has been repeatedly refuted by the young woman's friends and family.
+
+
+sentenceOffset/Text 1927: According to them, Samudio was extremely dedicated to her child and would not abandon him because she had been abandoned by her own mother as a child.
+
+
+sentenceOffset/Text 2087: Last year, Samudio accused Bruno of assault and threat, and said he tried to force her to make an abortion.
+
+
+sentenceOffset/Text 2195: After the baby was born, Samudio went to the court to prove paternity, but Bruno refused to make a DNA test.
+
+
+Filtered Extractions ----------------------------------------------------------
+
+
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_046	per:spouse	UWashington3	NIL
+SF14_ENG_046	per:religion	UWashington3	NIL
+SF14_ENG_046	per:city_of_death	UWashington3	NIL
+SF14_ENG_046	per:other_family	UWashington3	NIL
+SF14_ENG_046	per:countries_of_residence	UWashington3	NIL
+SF14_ENG_046	per:country_of_death	UWashington3	NIL
+SF14_ENG_046	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_046	per:title	UWashington3	NIL
+SF14_ENG_046	per:children	UWashington3	NIL
+SF14_ENG_046	per:origin	UWashington3	NIL
+SF14_ENG_046	per:city_of_birth	UWashington3	NIL
+SF14_ENG_046	per:date_of_death	UWashington3	NIL
+SF14_ENG_046	per:age	UWashington3	NIL
+SF14_ENG_046	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_046	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_046	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_046	per:cause_of_death	UWashington3	NIL
+SF14_ENG_046	per:alternate_names	UWashington3	NIL
+SF14_ENG_046	per:charges	UWashington3	NIL
+SF14_ENG_046	per:country_of_birth	UWashington3	NIL
+SF14_ENG_046	per:schools_attended	UWashington3	NIL
+SF14_ENG_046	per:parents	UWashington3	NIL
+SF14_ENG_046	per:date_of_birth	UWashington3	NIL
+SF14_ENG_046	per:statesorprovinces_of_residence	UWashington3	NIL
+SF14_ENG_046	per:siblings	UWashington3	NIL

@@ -73,7 +73,7 @@ object RunKBPImplie {
     val queries = KBPQuery.parseKBPQueries(queriesFileName)	  
 
     println("Number of Queries: " + queries.size)
-    println("Query 1: " + queries(0).name)
+    //println("Query 1: " + queries(0).name)
     
     val corpusOldNew = corpusName
     val relevantDocsFileName = relDocsFileName
@@ -119,9 +119,27 @@ object RunKBPImplie {
       //System.exit(0) 
       
       //test 1 query
+      //2014: PER: Ahmed Rashid
       //val testQueries = queries.dropRight(99)
+      //2014: PER: Alan Gross
+      //val testQueries = List(queries(11))
+      //val testQueries = List(queries(3))
+      //2014: PER: Andrew Lange
+      //val testQueries = List(queries(37))
+      //2014: PER: Frank Baldino Jr
+      //val testQueries = List(queries(38))
+      //2014: PER: Eliza Samudio
+      //val testQueries = List(queries(45))
+      //2014: ORG: China Charity Federation 
       //val testQueries = List(queries(67))
-      val testQueries = List(queries(11))
+      //2014: ORG: Alessi
+      //val testQueries = List(queries(78))
+      //2014: ORG: Pluribus Capital Mgmt
+      //val testQueries = List(queries(81))
+      //2014: ORG: New Fabris
+      //val testQueries = List(queries(87))
+      //2014: ORG: Pacific Asia Travel Association
+      val testQueries = List(queries(91))
     
       //select 5 random queries
       //import scala.util.Random
@@ -133,6 +151,11 @@ object RunKBPImplie {
       // 2013 PER: res12: Seq[Int] = List(33, 26, 49, 10, 3)
       // 2013 ORG: y: Seq[Int] = List(82, 86, 90, 79, 94)
 
+      //val sampleDocName = "APW_ENG_20101202.0845"
+      //outputStream.println("Document: " + sampleDocName)
+      //val rawDoc = SolrHelper.getRawDoc(sampleDocName)      
+      //outputStream.println(rawDoc)
+      
       println("Running " + testQueries.size + " queries.")
       
       for(query <- testQueries){
@@ -172,11 +195,27 @@ object RunKBPImplie {
   		          //processDocuments(relevantDocs)  		  
   		          processDocuments(nwDocuments) 
 		      }  		      
+
+  		      val docNames = nwDocuments.toList
+              var docCount = -1
   		      
   		      println("Number of Annotated Documents: " + documents.size)  		        		      
   		      
+  		      //print all extractions
+		      outputStream.println
+		      outputStream.println("All Extractions ----------------------------------------------------------")
+              outputStream.println
+		      //allExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
+  		      
   		      for(doc <- documents){  
 
+  		        docCount += 1
+                println("docName: " + docNames(docCount))
+  		        outputStream.println
+  		        outputStream.println("docName: " + docNames(docCount))
+                outputStream.println  		        
+  		        //println("doc ID: " + doc.get(classOf[DocIDAnnotation]))
+  		        
   		        println("total memory: " + Runtime.getRuntime().totalMemory())
   		        //the Xmx value
   		        println("max memory: " + Runtime.getRuntime().maxMemory())
@@ -203,12 +242,17 @@ object RunKBPImplie {
   		        
   		        if(relevantSentences.size > 0){
 
-  		          relevantSentences.foreach(s => println("rel sentence: " + s.get(classOf[TextAnnotation])))
+  		          //printing null
+                  //println("sentences docid: " + sentences(0).get(classOf[DocIDAnnotation]))
+  		          //println("docid: " + relevantSentences(0).get(classOf[DocIDAnnotation]))
+  		          
+  		          //relevantSentences.foreach(s => println("rel sentence: " + s.get(classOf[TextAnnotation])))
   		          
   		          println("Getting Extractions")
   		          
-                  val extractions = getExtractions(relationExtractor, relevantSentences)
-
+                  //val extractions = getExtractions(relationExtractor, relevantSentences, docNames(docCount), outputStream)
+  		          val extractions = getExtractions(relationExtractor, relevantSentences, outputStream)
+                  
                   println("extractions size: " + extractions.size)
 
                   if(extractions.size > 0)
@@ -248,10 +292,10 @@ object RunKBPImplie {
 		 println("bestAnswers size: " + bestAnswers.size)
 
 		 //print all extractions
-		 outputStream.println
-		 outputStream.println("All Extractions ----------------------------------------------------------")
-         outputStream.println
-		 allExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
+		 //outputStream.println
+		 //outputStream.println("All Extractions ----------------------------------------------------------")
+         //outputStream.println
+		 //allExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
 		 outputStream.println
 		 //print filtered extractions
 		 outputStream.println("Filtered Extractions ----------------------------------------------------------")
@@ -291,7 +335,7 @@ object RunKBPImplie {
               //relations to substitute
               case s if (s.contains("nationality")) => c.extr.setRel("per:origin")
               case s if (s.contains("city")) => c.extr.setRel("per:cities_of_residence") 
-              case s if (s.contains("province")) => c.extr.setRel("per:stateorprovinces_of_residence")
+              case s if (s.contains("province")) => c.extr.setRel("per:statesorprovinces_of_residence")
               case s if (s.contains("jobTitle")) => c.extr.setRel("per:title")
               case s if (s.contains("religion")) => c.extr.setRel("per:religion")
               case s if (s.contains("school")) => c.extr.setRel("per:schools_attended")
@@ -344,6 +388,7 @@ object RunKBPImplie {
      
      //println("corefMap size: " + corefMap.size)
      println("queryFullName: " + queryFullName)
+     val pattern = s"$queryFullName\\W".r
      
      for(k <- corefMap.keySet){
 
@@ -351,7 +396,8 @@ object RunKBPImplie {
        //{ println("key: " + k)
        //  println("mentions: " + corefMap(k).toString())}
 
-       val x = corefMap(k).getMentionsInTextualOrder().asScala.toList.filter(m => m.mentionType.name() == "PROPER")
+       // get the coref mentions of type PROPER noun 
+       val corefMentions = corefMap(k).getMentionsInTextualOrder().asScala.toList.filter(m => m.mentionType.name() == "PROPER")
        
        //println("size PROPER: " + x.size)
        //x.foreach(m => println(m.mentionSpan + " " + m.mentionType))
@@ -359,7 +405,16 @@ object RunKBPImplie {
        //val y = x.filter(m => m.mentionSpan.contains(queryFullName))
        //println("size query full name: " + y.size)
        
-       if(x.filter(m => m.mentionSpan.contains(queryFullName)).size > 0) {matchingCorefMentions = matchingCorefMentions ::: x}
+       for (m <- corefMentions){
+         
+         pattern.findFirstIn(m.mentionSpan) match {
+            case Some(x) => matchingCorefMentions = matchingCorefMentions ::: corefMentions
+            case None =>             
+         }
+         
+       }
+       
+       //if(corefMentions.filter(m => m.mentionSpan.contains(queryFullName)).size > 0) {matchingCorefMentions = matchingCorefMentions ::: corefMentions}
                   
      }  
      
@@ -414,7 +469,8 @@ object RunKBPImplie {
     corefMatch
   }
   
-  def getExtractions(relationExtractor: ImplicitRelationExtractor, sentences: List[CoreMap]): List[KBPExtraction] = {
+  def getExtractions(relationExtractor: ImplicitRelationExtractor, sentences: List[CoreMap], outputStream: PrintStream): List[KBPExtraction] = {
+  //def getExtractions(relationExtractor: ImplicitRelationExtractor, sentences: List[CoreMap], docName: String, outputStream: PrintStream): List[KBPExtraction] = {
     
     var extractions: List[KBPExtraction] = List()
     
@@ -425,18 +481,20 @@ object RunKBPImplie {
       //val sentenceOffset = sentence.get(classOf[SentStartOffset])
       //val sentenceOffset = sentence.get(classOf[SentencePositionAnnotation])
       
-      println("sentenceText: " + sentenceText)
       //outputStream.println
       //outputStream.println(sentenceText)
       //outputStream.println
       
       //println("getting tokens")
       val tokens = sentence.get(classOf[TokensAnnotation])        
-      println("sentenceText: " + sentenceText)
-      println("tokens size: " + tokens.size())  
+      //println("sentenceText: " + sentenceText)
+      //println("tokens size: " + tokens.size())  
 
       val sentenceOffset = tokens.get(0).beginPosition()
-        
+      outputStream.println
+      outputStream.println("sentenceOffset/Text " + sentenceOffset + ": " + sentenceText)
+      outputStream.println
+      
       //println("sentenceOffset: " + sentenceOffset)      
 
       relationExtractor.clearAllCaches()
@@ -466,6 +524,8 @@ object RunKBPImplie {
 
         val arg1Name = ir.np.string
         //val arg1Name = ir.np.string.split("-").dropRight(1).toString
+        //val arg1StartOffset = ir.np.beginOffset
+        //val arg1EndOffset = ir.np.endOffset       
         val arg1StartOffset = ir.np.beginOffset + sentenceOffset
         val arg1EndOffset = ir.np.endOffset + sentenceOffset        
         val arg1 = new Argument(arg1Name, arg1StartOffset, arg1EndOffset)
@@ -475,15 +535,26 @@ object RunKBPImplie {
         
         //try{
 
-          tokens.asScala.toList.foreach(t => println(t.toString()))
-        
-          println("arg2: " + ir.tag.text)
-          println("arg2 start: " + ir.tag.intervalStart)
-          println("arg2 end: " + ir.tag.intervalEnd)
+          //includes token-id
+          //tokens.asScala.toList.foreach(t => println(t.toString()))
+          //no token id
+          //tokens.asScala.toList.foreach(t => println("token: " + t.get(classOf[TextAnnotation])))
+          //val tokenText = token.get(classOf[TextAnnotation])        
           
-          //val arg2StartToken = tokens.get(ir.tag.intervalStart)
-          //val arg2EndToken = tokens.get(ir.tag.intervalEnd)
-         
+          //println("arg2: " + ir.tag.text)
+          //println("arg2 start: " + ir.tag.intervalStart)
+          //println("arg2 end: " + ir.tag.intervalEnd)
+          
+          var arg2StartOffset = arg1StartOffset 
+          var arg2EndOffset = arg1EndOffset
+          //println("docname: " + docName)
+          if(ir.tag.intervalStart < tokens.size & ir.tag.intervalEnd < tokens.size){ 
+            arg2StartOffset = tokens.get(ir.tag.intervalStart).beginPosition()
+            arg2EndOffset = tokens.get(ir.tag.intervalEnd).beginPosition()
+            //println("tokens start begpos: " + arg2StartOffset)
+            //println("tokens end begpos: " + arg2EndOffset)
+          }
+          
           //println("arg2StartToken: " + arg2StartToken.word())
           //println("arg2EndToken: " + arg2EndToken.word())
           
@@ -495,8 +566,8 @@ object RunKBPImplie {
           
           val arg2Name = ir.tag.text
         
-          //val arg2 = new Argument(arg2Name, arg2StartOffset, arg2EndOffset)
-          val arg2 = new Argument(arg2Name, ir.tag.intervalStart, ir.tag.intervalEnd)
+          val arg2 = new Argument(arg2Name, arg2StartOffset, arg2EndOffset)
+          //val arg2 = new Argument(arg2Name, ir.tag.intervalStart, ir.tag.intervalEnd)
           
           val rel = ir.relation
           val score = .8
@@ -527,7 +598,11 @@ object RunKBPImplie {
         //catch{case e: Exception => {      
         //}}
         }        
-        if(sentenceExtractions.size > 0) extractions = extractions ::: sentenceExtractions      
+        if(sentenceExtractions.size > 0) {
+          extractions = extractions ::: sentenceExtractions
+          sentenceExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
+        }      
+          
     }             
     extractions
   }
@@ -587,19 +662,46 @@ object RunKBPImplie {
    
   
   def getRelevantSentencesIncludingCoref(document: Option[Annotation], nameFilter: String, matchingCorefMentions: List[CorefMention]): List[CoreMap] = {
+
+    /*scala> var pattern = "Alan Gross\\W".r
+      pattern: scala.util.matching.Regex = Alan Gross\W
+
+      scala> val y = "The American Alan Gross wrote the article."
+      y: String = The American Alan Gross wrote the article.
+
+      scala> pattern.findFirstIn(x)
+      res8: Option[String] = None
+
+      scala> pattern.findFirstIn(y)
+      res9: Option[String] = Some(Alan Gross )
+
+      scala> x
+      res10: String = Alan Grossberg is president of Vista.
+    */
+    
     
     val relevantSentences = document match {
 
     case Some(x) =>{
+        //docid null
+        //println("docid: " + x.get(classOf[DocIDAnnotation]))
         val sentencesAll = x.get(classOf[SentencesAnnotation]).asScala.toList
         // Index is 0 and 1 for this group
         //println("sentence0 All: " + sentencesAll(0).get(classOf[SentenceIndexAnnotation]))
         //println("sentence1 All: " + sentencesAll(1).get(classOf[SentenceIndexAnnotation]))        
         //val sentences = x.get(classOf[SentencesAnnotation]).asScala.toList.filter(s => s.get(classOf[TextAnnotation]).contains(nameFilter))
-        
+    
         var sentenceNums = scala.collection.mutable.Set[Int]()
+ 
+        val pattern = s"$nameFilter\\W".r
         for (s <- sentencesAll) {          
-          if(s.get(classOf[TextAnnotation]).contains(nameFilter)) sentenceNums += s.get(classOf[SentenceIndexAnnotation])
+ 
+          pattern.findFirstIn(s.get(classOf[TextAnnotation])) match {
+            case Some(x) => sentenceNums += s.get(classOf[SentenceIndexAnnotation])
+            case None =>             
+          }
+          //if(s.get(classOf[TextAnnotation]).contains(nameFilter)) sentenceNums += s.get(classOf[SentenceIndexAnnotation])
+          
         }
         
         val sentenceNumsCoref = getSentenceNumbersMatchingCoref(matchingCorefMentions)       
@@ -615,6 +717,9 @@ object RunKBPImplie {
       }                   
       case None => List()
     }        
+
+    //docid null
+    //if(relevantSentences.size > 0 )println("relsent docid: " + relevantSentences(0).get(classOf[DocIDAnnotation]))
     
     relevantSentences
   }
@@ -692,15 +797,17 @@ object RunKBPImplie {
       a
     }
   } */
-  
- 
+   
   def stanfordProcessDocument(docName: String) : Option[Annotation] = {
     try{
       val rawDoc = SolrHelper.getRawDoc(docName)
       val processedDoc = new Annotation(rawDoc)
       //annotatorHelper.getBasicPipeline().annotate(processedDoc)
       annotatorHelper.getCorefPipeline().annotate(processedDoc)
-      println("Document was Stanford Annotated")
+      //docid null, null pointer exception
+      val docID = processedDoc.get(classOf[DocIDAnnotation])
+      println("Document was Stanford Annotated: " + docID)
+      println("Document was Stanford Annotated: " + docName)
       Some(processedDoc)
     }
     catch{
