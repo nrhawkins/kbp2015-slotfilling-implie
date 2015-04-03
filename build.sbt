@@ -4,6 +4,10 @@ version := "1.0"
 
 scalaVersion := "2.10.2"
 
+resolvers += "amateras-repo" at "http://amateras.sourceforge.jp/mvn/"
+
+javacOptions ++= Seq("-encoding", "UTF-8")
+
 libraryDependencies ++= Seq(
   "com.github.nscala-time" %% "nscala-time" % "1.4.0",
   "com.typesafe" % "config" % "1.2.1",
