@@ -1,0 +1,44 @@
+% High Level Description
+
+\ref{fig:architecture} illustrates \iie's architecture for extracting
+the relation tuples.  First, it tags terms from the target classes 
+with user provided taggers.  Second, it expands from the tagged terms 
+on specific dependency parse rules to find nouns modified by the tagged 
+terms. Finally, it extracts well-formed noun phrases headed by the 
+modified nouns.  This section describes these three steps in detail.
+
+% Tagging
+
+The user provides a tagger that recognizes terms from a set of target
+classes.  The default tagger in \iie is the \emph{KnowItAll} 
+KeywordTagger [add citation].  It is an exact-match keyword tagger 
+that takes a file of keywords as input.  
+We used a file of 65,565 jobTitle and 6,605 
+adjectival, demonymic, and normal forms of country names for nationality.
+
+% Parsing & Expansion
+
+\iie parses the sentence using the Stanford Parser [add citation].
+Then starting with term $t$ of class $c$, \iie follows a set of expansion
+rules to find a noun $n$ that is modified by $t$.  The expansion rules
+were hand-coded through a combination of linguistic meaning of the
+parse dependencies, and from results on a development set of sentences.
+The exact expansion rules are listed in \ref{fig:expansionrules}.
+[Relate the rules to the representation in the figure (this includes
+describing the modified expansion rules as well)].  Expansion 
+continues until all possible expansions steps are exhausted.  The
+entire parse paths are stored for the extraction step.
+
+% Extraction
+
+
+
+% High-Precision and High-Recall Versions
+
+% Future Enhancements
+
+This version always expands on the rules until exhaustion and retains
+all of the expansion steps during the noun phrase extraction phase.
+Using a measure of noun phrase quality to prune
+the noun phrases may be able to result higher quality noun phrase 
+boundaries.
