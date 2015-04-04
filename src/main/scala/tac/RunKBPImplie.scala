@@ -122,10 +122,9 @@ object RunKBPImplie {
       //2014: PER: Ahmed Rashid
       //val testQueries = queries.dropRight(99)
       //2014: PER: Alan Gross
-      //val testQueries = List(queries(11))
-      //val testQueries = List(queries(3))
+      //val testQueries = List(queries(11))      
       //2014: PER: Andrew Lange
-      //val testQueries = List(queries(37))
+      val testQueries = List(queries(37))
       //2014: PER: Frank Baldino Jr
       //val testQueries = List(queries(38))
       //2014: PER: Eliza Samudio
@@ -139,7 +138,9 @@ object RunKBPImplie {
       //2014: ORG: New Fabris
       //val testQueries = List(queries(87))
       //2014: ORG: Pacific Asia Travel Association
-      val testQueries = List(queries(91))
+      //val testQueries = List(queries(91))
+      //2013: PER
+      //val testQueries = List(queries(3))
     
       //select 5 random queries
       //import scala.util.Random
@@ -166,7 +167,9 @@ object RunKBPImplie {
 		  val relevantDocs = entityRelevantDocSerialization(query.id).toSet		       
           val nwngDocuments = relevantDocs.filter(doc => !doc.startsWith("bolt") ) 
           val nwDocuments = nwngDocuments.filter(doc => !doc.startsWith("eng-"))		    
-		  
+		  //val nwDocuments = Set("APW_ENG_20101202.0845")
+		  //val nwDocuments = Set("WPB_ENG_20100506.0070")
+          
           println("Query: " + query.id)
 		  println("Size All Documents: " + relevantDocs.size)         
 		  println("Size no forum Documents: " + nwngDocuments.size)  
@@ -302,6 +305,11 @@ object RunKBPImplie {
          outputStream.println
 		 allRelevantCandidates.foreach(c => outputStream.println(c.extr.getArg1().argName + "\t" + c.extr.getArg2().argName + "\t" + c.extr.getRel()))
 		 outputStream.println
+		 outputStream.println
+		 
+		 //print Query Name
+		 outputStream.println
+		 outputStream.println("Query Name: " + query.name )
 		 outputStream.println
 		 
 		 //print KBP report
@@ -630,21 +638,25 @@ object RunKBPImplie {
         println("sent0 sentnum ID string: " + sent0.get(classOf[SentenceIDAnnotation]))
         println("sent0 sentnum position string: " + sent0.get(classOf[SentencePositionAnnotation]))
 
-        
-        for(k <- corefMap.keySet){
+        // -------------------------------------
+        // Document Level -- Coref Cluster IDs
+        // -------------------------------------
+        for(k <- corefMap.keySet.toList.sorted){
 
+          println("-------------------------")
           println("coref key: " + k)
+          println("-------------------------")
           val corefMentions = corefMap(k).getMentionsInTextualOrder().asScala
 
           for(m <- corefMentions){            
             //println(m.toString())
             println("mention id: " + m.mentionID)
-            println("mention span: " + m.mentionSpan)
-            println("mention span length: " + m.mentionSpan.length())
-            println("mention type: " + m.mentionType)
-            println("mention type name(): " + m.mentionType.name())
-            println("mention sentnum: " + m.sentNum)
-            println("mention start index: " + m.startIndex)            
+            println(">mention span: " + m.mentionSpan)
+            println(">mention span length: " + m.mentionSpan.length())
+            println(">mention type: " + m.mentionType)
+            println(">mention type name(): " + m.mentionType.name())
+            println(">mention sentnum: " + m.sentNum)
+            println(">mention start index: " + m.startIndex)            
           }
           
         }         
