@@ -1,0 +1,4492 @@
+City	Country or Area
+6th of October City	Egypt
+A Coruña	Spain
+Aachen	Germany
+Aba	Nigeria
+Abadan	Iran (Islamic Republic of)
+Abaeteluba	Brazil
+Abakan	Russian Federation
+Abbotabad	Pakistan
+Abbotsford-Mission	Canada
+Abeokuta	Nigeria
+Aberdeen	United Kingdom of Great Britain and Northern Ireland
+Aberdeenshire	United Kingdom of Great Britain and Northern Ireland
+Abha	Saudi Arabia
+Abidjan	Côte d'Ivoire
+Abiko	Japan
+Abilene (TX)	United States of America
+Abo Keber	Egypt
+Abohar	India
+ABUJA	Nigeria
+Açailândia	Brazil
+Acapulco (de Juárez)	Mexico
+Acarigua-Araure	Venezuela (Bolivarian Republic of)
+Acayucan	Mexico
+ACCRA	Ghana
+Achalpur	India
+Acheng	China
+Achinsk	Russian Federation
+ADAMSTOWN	Pitcairn
+Adan	Yemen
+Adana	Turkey
+Ad-Dammam	Saudi Arabia
+Adelaide	Australia
+Adhamiyah	Iraq
+Adilabad	India
+Adityapur	India
+Adiyaman	Turkey
+Ado-Ekiti	Nigeria
+Adoni	India
+Afyonkarahisar	Turkey
+AGANA	Guam
+Agartala	India
+Ageo	Japan
+Agra	India
+Agri	Turkey
+Aguas Lindas de Goiás	Brazil
+Aguascalientes	Mexico
+Ahmedabad	India
+Ahmednagar	India
+Ahuachapan	El Salvador
+Ahwaz	Iran (Islamic Republic of)
+Air Itam	Malaysia
+Aix-en-Provence	France
+Aizawl	India
+Aizuwakamatsu	Japan
+Ajmer	India
+Akashi	Japan
+Akeshu	China
+Akhisar	Turkey
+Akhmim	Egypt
+Akishima	Japan
+Akita	Japan
+Akola	India
+Akron (OH)	United States of America
+Aksaray	Turkey
+Aktau	Kazakhstan
+Aktobe	Kazakhstan
+Akure	Nigeria
+Al Orizah	Egypt
+Alagoinhas	Brazil
+Alajuela	Costa Rica
+Alajuelita	Costa Rica
+Alandur	India
+Alanya (Antalya)	Turkey
+Alappuzha	India
+Albacete	Spain
+Ålborg	Denmark
+Albuquerque (NM)	United States of America
+Albury-Wodonga	Australia
+Alcalá de Henares	Spain
+Alchevsk	Ukraine
+Alcobendas	Spain
+Alcorcón	Spain
+Aldershot	United Kingdom of Great Britain and Northern Ireland
+Aletai	China
+Alexandra	South Africa
+Alexandria	Egypt
+Alexandria (VA)	United States of America
+Algeciras	Spain
+ALGIERS (EL DJAZAIR)	Algeria
+Al-Hawiyah	Saudi Arabia
+Al-Hudaydah (Hodeidah)	Yemen
+Al-Hufuf	Saudi Arabia
+Alicante	Spain
+Aligarh	India
+Alipurduar	India
+Al-Jubayl	Saudi Arabia
+Al-Kharj	Saudi Arabia
+Al-Khoor	Qatar
+Al-Khubar	Saudi Arabia
+Allahabad	India
+Allentown (PA)	United States of America
+Almada	Portugal
+Al-Madinah	Saudi Arabia
+Almalyk	Uzbekistan
+Almaty	Kazakhstan
+Almere	Netherlands
+Almería	Spain
+Almetievsk	Russian Federation
+Almirante Tamandaré	Brazil
+Al-Mubarraz	Saudi Arabia
+Al-Mukalla	Yemen
+ALOFI	Niue
+Alor Setar	Malaysia
+Al-Qurrayyat	Saudi Arabia
+Al-Rayyan	Qatar
+Alto Hospicio	Chile
+Alvorada	Brazil
+Al-Wakrah	Qatar
+Alwar	India
+Amadora	Portugal
+Amagasaki	Japan
+Amara	Iraq
+Amarillo (TX)	United States of America
+Ambala	India
+Ambala Sadar	India
+Ambarnath	India
+Ambato	Ecuador
+Ambattur	India
+Ambon	Indonesia
+Americana	Brazil
+Amersfoort	Netherlands
+Amiens	France
+AMMAN	Jordan
+Amnat Charoen	Thailand
+Amol	Iran (Islamic Republic of)
+Ampang	Malaysia
+Ampang/Ulu Kelang	Malaysia
+Amravati	India
+Amritsar	India
+Amroha	India
+AMSTERDAM	Netherlands
+Anaco(F) (Capital)	Venezuela (Bolivarian Republic of)
+Anaheim (CA)	United States of America
+Anand	India
+Ananindeua	Brazil
+Anantapur	India
+Anapa	Russian Federation
+Anápolis	Brazil
+Anchorage (AK)	United States of America
+Ancona	Italy
+Anda	China
+Anderlecht	Belgium
+Andimeshk	Iran (Islamic Republic of)
+Andizhan	Uzbekistan
+Andong	Republic of Korea
+ANDORRA LA VELLA	Andorra
+Ang Thong	Thailand
+Angarsk	Russian Federation
+Angeles	Philippines
+Angers	France
+Angono	Philippines
+Angra dos Reis	Brazil
+Angren	Uzbekistan
+Anguo	China
+Angus	United Kingdom of Great Britain and Northern Ireland
+Anjo	Japan
+Anju	Democratic People's Republic of Korea
+Ankang	China
+ANKARA	Turkey
+Anklesvar	India
+Anlu	China
+Ann Arbor (MI)	United States of America
+Annaba	Algeria
+Anning	China
+Anqing	China
+Anqiu	China
+Anshan	China
+Anshun	China
+Antalya	Turkey
+ANTANANARIVO	Madagascar
+Antioch (CA)	United States of America
+Antipolo	Philippines
+Antofagasta	Chile
+Antsirabe	Madagascar
+Antwerpen (Anvers)	Belgium
+Anyang	China
+Aomori	Japan
+Apalit	Philippines
+Aparecida de Goiania	Brazil
+Apartadó	Colombia
+Apeldoorn	Netherlands
+APIA	Samoa
+Apizaco	Mexico
+Apopa	El Salvador
+Apucarana	Brazil
+Aracaju	Brazil
+Araçatuba	Brazil
+Arad	Romania
+Araguaina	Brazil
+Araguario	Brazil
+Arak	Iran (Islamic Republic of)
+Arapiraca	Brazil
+Arapongas	Brazil
+Ar'ar	Saudi Arabia
+Araraquara	Brazil
+Araras	Brazil
+Araruama	Brazil
+Araucária	Brazil
+Arayat	Philippines
+Arcot	India
+Ardabil	Iran (Islamic Republic of)
+Arecibo	Puerto Rico
+Arequipa	Peru
+Argenteuil	France
+Århus	Denmark
+Arica	Chile
+Arkhangelsk	Russian Federation
+Arlington (TX)	United States of America
+Arlington (VA)	United States of America
+Armavir	Russian Federation
+Armenia	Colombia
+Arnhem	Netherlands
+Arrah	India
+Artem (Primorskiy Krai)	Russian Federation
+Arusha	United Republic of Tanzania
+Arvada (CO)	United States of America
+Arzamas	Russian Federation
+As Seeb	Oman
+As Suwayq	Oman
+Asahikawa	Japan
+Asaka	Japan
+Asan	Republic of Korea
+Asansol	India
+Asbest	Russian Federation
+Ashdod	Israel
+Ashikaga	Japan
+ASHKHABAD	Turkmenistan
+Ashoknagar Kalyangarh	India
+Ashqelon	Israel
+ASMARA	Eritrea
+Assyût	Egypt
+ASTANA	Kazakhstan
+Astrakhan	Russian Federation
+ASUNCION	Paraguay
+Aswan	Egypt
+Athens (GA)	United States of America
+ATHINAI	Greece
+Ath-Thuqbah	Saudi Arabia
+Atibaia	Brazil
+Atirau	Kazakhstan
+Atlanta (GA)	United States of America
+Atsugi	Japan
+At-Ta'if	Saudi Arabia
+Atushi	China
+Auckland	New Zealand
+Augsburg	Germany
+Augusta (GA)	United States of America
+Aurangabad	India
+Aurora (CO)	United States of America
+Aurora (IL)	United States of America
+Austin (TX)	United States of America
+Avadi	India
+Avellaneda	Argentina
+Awka	Nigeria
+Ayacucho	Peru
+Aydin	Turkey
+Azua	Dominican Republic
+Babahoyo	Ecuador
+Babol	Iran (Islamic Republic of)
+Bacabal	Brazil
+Bacau	Romania
+Bacolod	Philippines
+Bacoor City	Philippines
+Badajoz	Spain
+Badalona	Spain
+Baden-Brugg	Switzerland
+Bafoussam	Cameroon
+Bagé	Brazil
+BAGHDAD	Iraq
+Bago	Myanmar
+Baguio	Philippines
+Bahadurgarh	India
+Baharampur	India
+Bahawalnagar	Pakistan
+Bahawalpur	Pakistan
+Bahía Blanca-Cerri	Argentina
+Bahraich	India
+Baia Mare	Romania
+Baicheng	China
+Baidyabati	India
+Baise	China
+Baishan	China
+Baiyin	China
+Bajos de Haina	Dominican Republic
+Bakersfield (CA)	United States of America
+BAKU	Azerbaijan
+Balakong	Malaysia
+Balakovo	Russian Federation
+Balashikha	Russian Federation
+Bâle	Switzerland
+Baleshwar	India
+Balikesir	Turkey
+Balikpapan	Indonesia
+Baliuag	Philippines
+Ballia	India
+Bally	India
+Balneário Camboriú	Brazil
+Balti (Beltsy)	Republic of Moldova
+Baltimore (MD)	United States of America
+Balurghat	India
+Bam	Iran (Islamic Republic of)
+Bamenda	Cameroon
+Banda	India
+Banda Aceh	Indonesia
+Bandar Lampung	Indonesia
+Bandar Maharani	Malaysia
+Bandar Penggaram	Malaysia
+BANDAR SERI BEGAWAN	Brunei Darussalam
+Bandar-e-Abbas	Iran (Islamic Republic of)
+Bandar-e-Anzali	Iran (Islamic Republic of)
+Bandar-e-Mahshahr	Iran (Islamic Republic of)
+Bandirma	Turkey
+Bandjarmasin	Indonesia
+Bandung	Indonesia
+Banfora	Burkina Faso
+Bangalore	India
+Bangaon	India
+BANGKOK	Thailand
+BANGUI	Central African Republic
+Banha	Egypt
+Baní	Dominican Republic
+Banja Luka	Bosnia and Herzegovina
+BANJU	Gambia
+Banjzak	Uzbekistan
+Bankura	India
+Bansberia	India
+Baoding	China
+Baoji	China
+Baoshan	China
+Baotou	China
+Baracaldo	Spain
+Baranagar	India
+Baranovichi	Belarus
+Barasat	India
+Barbacena	Brazil
+Barcelona	Spain
+Barcelona-Puerto La Cruz	Venezuela (Bolivarian Republic of)
+Barddhaman	India
+Bareilly	India
+Bari	Italy
+Barinas	Venezuela (Bolivarian Republic of)
+Baripada	India
+Barisal	Bangladesh
+Barnaul	Russian Federation
+Barquisimeto	Venezuela (Bolivarian Republic of)
+Barra Mansa	Brazil
+Barrackpur	India
+Barrancabermeja	Colombia
+Barranquilla	Colombia
+Barreiras	Brazil
+Barretos	Brazil
+Barrie	Canada
+Barshi	India
+Barueri	Brazil
+Baruta	Venezuela (Bolivarian Republic of)
+Basilan	Philippines
+Basildon/North Benfleet	United Kingdom of Great Britain and Northern Ireland
+Basirhat	India
+Basra	Iraq
+BASSETERRE	Saint Kitts and Nevis
+BASSE-TERRE	Guadeloupe
+Basti	India
+Bat Yam	Israel
+Bataisk	Russian Federation
+Batala	India
+Batam	Indonesia
+Batangas	Philippines
+Bathinda	India
+Batman	Turkey
+Batna	Algeria
+Baton Rouge (LA)	United States of America
+Batumi	Georgia
+Bauchi	Nigeria
+Bauru	Brazil
+Bawshar	Oman
+Bayambang	Philippines
+Bayamo	Cuba
+Bayamón	Puerto Rico
+Bayawan (Tulong)	Philippines
+Baybay	Philippines
+Bazhong	China
+Bazhou	China
+Beau Bassin - Rose Hill	Mauritius
+Beaumont (TX)	United States of America
+Beawar	India
+Béchar	Algeria
+Bedford/Kempston	United Kingdom of Great Britain and Northern Ireland
+Be'er Sheva	Israel
+Begusarai	India
+Behbahan	Iran (Islamic Republic of)
+Bei'an	China
+Beihai	China
+BEIJING (PEKING)	China
+Beiliu	China
+Beining	China
+Beipiao	China
+Beira	Mozambique
+BEIRUT	Lebanon
+Bejaïa	Algeria
+Belaya Tserkov (Bila Crkva)	Ukraine
+Belém	Brazil
+Belfast	United Kingdom of Great Britain and Northern Ireland
+Belford Roxo	Brazil
+Belgaum	India
+Belgorod	Russian Federation
+Bellary	India
+Bellevue (WA)	United States of America
+Bello	Colombia
+Belo Horizonte	Brazil
+Belovo	Russian Federation
+Bene Beraq	Israel
+Bengbu	China
+Bengkulu	Indonesia
+Benin City	Nigeria
+Beni-Suef	Egypt
+Benoni	South Africa
+Bento Gonçalves	Brazil
+Benxi	China
+BEOGRAD (BELGRADE)	Serbia
+Beppu	Japan
+Berdyansk	Ukraine
+Berezniki	Russian Federation
+Bergamo	Italy
+Bergen	Norway
+Bergisch Gladbach	Germany
+Berkeley (CA)	United States of America
+BERLIN	Germany
+BERNE	Switzerland
+Bertoua	Cameroon
+Besançon	France
+Beskra	Algeria
+Betim	Brazil
+Bettiah	India
+Bhadravati	India
+Bhadreswar	India
+Bhagalpur	India
+Bhalswa Jahangir Pur	India
+Bharatpur	India
+Bharuch	India
+Bhatpara	India
+Bhavani	India
+Bhavnagar	India
+Bheemavaram	India
+Bhilai Nagar	India
+Bhilwara	India
+Bhimdutta	Nepal
+Bhind	India
+Bhiwandi	India
+Bhiwani	India
+Bhopal	India
+Bhubaneswar	India
+Bhuj	India
+Bhusawal	India
+Bialystok	Poland
+Bid	India
+Bida	Nigeria
+Bidar	India
+Bidhan Nagar	India
+Bielefeld	Germany
+Bielsko-Biala	Poland
+Bihar	India
+Biisk	Russian Federation
+Bijapur	India
+Bijie	China
+Bikaner	India
+Bilaspur	India
+Bilbao	Spain
+Bilbes	Egypt
+Billings (MT)	United States of America
+Biñan	Philippines
+Binangonan	Philippines
+Binjai	Indonesia
+Bintulu	Malaysia
+Binzhou	China
+Biratnagar	Nepal
+Birgunj	Nepal
+Birigui	Brazil
+Birjand	Iran (Islamic Republic of)
+Birkenhead	United Kingdom of Great Britain and Northern Ireland
+Birmingham (AL)	United States of America
+Birnagar	India
+BISHKEK	Kyrgyzstan
+BISSAU	Guinea-Bissau
+Bitung	Indonesia
+Blackburn/Darwen	United Kingdom of Great Britain and Northern Ireland
+Blackpool	United Kingdom of Great Britain and Northern Ireland
+Blagoveshchensk (Amurskaya oblast)	Russian Federation
+Blantyre City	Malawi
+Blitar	Indonesia
+BLOEMFONTEIN	South Africa
+Blumenou	Brazil
+Boa Vista	Brazil
+Bobo Dioulasso	Burkina Faso
+Bobruisk	Belarus
+Boca Chica	Dominican Republic
+Bocaue	Philippines
+Bochum	Germany
+Bogor	Indonesia
+"BOGOTA, D.C."	Colombia
+Bogra	Bangladesh
+Boise City (ID)	United States of America
+Bojnurd	Iran (Islamic Republic of)
+Bokaro Steel City	India
+Boksburg	South Africa
+Bole	China
+Bologna	Italy
+Bolu	Turkey
+Bolzano	Italy
+Bommanahalli	India
+Bonao	Dominican Republic
+Bonn	Germany
+Bor	Russian Federation
+Bordeaux	France
+Bordj Bou Arreridj	Algeria
+Bordj el Kiffan	Algeria
+Borisov	Belarus
+Borujerd	Iran (Islamic Republic of)
+Boryeong	Republic of Korea
+Boston (MA)	United States of America
+Botad	India
+Botosani	Romania
+Botou	China
+Botshabelo	South Africa
+Bottrop	Germany
+Botucatu	Brazil
+Bouake	Côte d'Ivoire
+Boulder (CO)	United States of America
+Boulogne-Billancourt	France
+Bournemouth	United Kingdom of Great Britain and Northern Ireland
+Bozhou	China
+Braga	Portugal
+Bragança	Brazil
+Bragança Paulista	Brazil
+Brahmanbaria	Bangladesh
+Brahmapur	India
+Braila	Romania
+Brampton	Canada
+Brandon (FL)	United States of America
+Brantford	Canada
+BRASILIA	Brazil
+Brasov	Romania
+BRATISLAVA	Slovakia
+Bratsk	Russian Federation
+Braunschweig	Germany
+BRAZZAVILLE	Congo
+Breda	Netherlands
+Bregenz	Austria
+Bremen	Germany
+Bremerhaven	Germany
+Brescia	Italy
+Brest	Belarus
+Bridgeport (CT)	United States of America
+BRIDGETOWN	Barbados
+Brighton/Worthing/Littlehampton	United Kingdom of Great Britain and Northern Ireland
+Brisbane	Australia
+Bristol	United Kingdom of Great Britain and Northern Ireland
+Brno	Czech Republic
+Brownsville (TX)	United States of America
+Brugge	Belgium
+Brusque	Brazil
+BRUXELLES (BRUSSEL)	Belgium
+Bryansk	Russian Federation
+Bt9 Cheras/Sg Raya/Tmn Suntex	Malaysia
+Bucaramanga	Colombia
+Bucheon (Puchon)	Republic of Korea
+BUCURESTI	Romania
+BUDAPEST	Hungary
+Budaun	India
+Buenaventura	Colombia
+BUENOS AIRES	Argentina
+Buffalo (NY)	United States of America
+BUJUMBURA	Burundi
+Bukand	Iran (Islamic Republic of)
+Bukhara	Uzbekistan
+Bukit Mertajam	Malaysia
+Bulandshahr	India
+Bulawayo	Zimbabwe
+Buraydah	Saudi Arabia
+Burbank (CA)	United States of America
+Burewala	Pakistan
+Burgas	Bulgaria
+Burgos	Spain
+Burhanpur	India
+Buri Ram	Thailand
+Burlington	Canada
+Burnaby	Canada
+Burnley/Nelson	United Kingdom of Great Britain and Northern Ireland
+Bursa	Turkey
+Busan (Pusan)	Republic of Korea
+Bushehr	Iran (Islamic Republic of)
+Butare	Rwanda
+Butterworth	Malaysia
+Butuan	Philippines
+Butwal	Nepal
+Buzau	Romania
+Byatarayanapura	India
+Bydgoszcz	Poland
+Bytom	Poland
+Cabanatuan	Philippines
+Cabimas	Venezuela (Bolivarian Republic of)
+Cabo de Santo Agostinho	Brazil
+Cabo Frio	Brazil
+Cabuyao	Philippines
+Cacak	Serbia
+Cachoeirinha	Brazil
+Cachoeiro de Itapemirim	Brazil
+Cadiz	Philippines
+Cádiz	Spain
+Caen	France
+Cagayan de Oro	Philippines
+Cagliari	Italy
+Cagua	Venezuela (Bolivarian Republic of)
+Caguas	Puerto Rico
+Cainta	Philippines
+Cairns	Australia
+CAIRO	Egypt
+Cajamarca	Peru
+Calabar	Nigeria
+Calama	Chile
+Calamba	Philippines
+Calapan	Philippines
+Calbayog	Philippines
+Calderon (Carapungo)	Ecuador
+Calgary	Canada
+Cali	Colombia
+Calithèa	Greece
+Callao	Peru
+Calumpit	Philippines
+Camacari	Brazil
+Camagüey	Cuba
+Camaragibe	Brazil
+Cambridge	Canada
+Cambridge (MA)	United States of America
+Cametá	Brazil
+Campeche	Mexico
+Campina Grande	Brazil
+Campinas	Brazil
+Campo Grande	Brazil
+Campo Largo	Brazil
+Campos dos Goytacazes	Brazil
+Çanakkale	Turkey
+CANBERRA	Australia
+Canberra-Queanbeyan	Australia
+Cancun	Mexico
+Candaba	Philippines
+Candelaria	Philippines
+Cangzhou	China
+Canoas	Brazil
+Capas	Philippines
+Cape Breton	Canada
+Cape Coral (FL)	United States of America
+CAPE TOWN	South Africa
+Capiatá	Paraguay
+CARACAS	Venezuela (Bolivarian Republic of)
+Caraguatatuba	Brazil
+Carapicuíba	Brazil
+Carcar	Philippines
+Cardiff	United Kingdom of Great Britain and Northern Ireland
+Cariacica	Brazil
+Carlsbad (CA)	United States of America
+Carolina	Puerto Rico
+Carora	Venezuela (Bolivarian Republic of)
+Carrollton (TX)	United States of America
+Cartagena	Colombia
+Cartago	Colombia
+Caruaru	Brazil
+Carúpano	Venezuela (Bolivarian Republic of)
+Cary (NC)	United States of America
+Cascavel	Brazil
+Castanhal	Brazil
+Castellón de la Plana	Spain
+CASTRIES	Saint Lucia
+Catamarca	Argentina
+Catanduva	Brazil
+Catania	Italy
+Catia la Mar	Venezuela (Bolivarian Republic of)
+Cauayan	Philippines
+Caucaia	Brazil
+Cavite City	Philippines
+Caxias	Brazil
+Caxias do Sul	Brazil
+CAYENNE	French Guiana
+Cebu	Philippines
+Cedar Rapids (IA)	United States of America
+Celaya	Mexico
+Centennial (CO)	United States of America
+Central Coast	Australia
+Cenxi	China
+Ceyhan	Turkey
+Chachoengsao	Thailand
+Chai Nat	Thailand
+Chaiyaphum	Thailand
+Chakdaha	India
+Chalco de Diaz Covarrubias	Mexico
+Champdani	India
+Chandan Nagar	India
+Chandausi	India
+Chandigarh	India
+Chandler (AZ)	United States of America
+Chandrapur	India
+Changchun	China
+Changde	China
+Changge	China
+Changji	China
+Changle	China
+Changning	China
+Changsha	China
+Changshu	China
+Changwon	Republic of Korea
+Changyi	China
+Changzhi	China
+Changzhou	China
+Chanthaburi	Thailand
+Chaohu	China
+Chaoyang (Guangdong)	China
+Chaoyang (Liaoning)	China
+Chaozhou	China
+Chapecó	Brazil
+Chapra	India
+Charleroi	Belgium
+Charleston (SC)	United States of America
+Charlotte (NC)	United States of America
+CHARLOTTE AMALIE	United States Virgin Islands
+Chatham-Kent	Canada
+Chattanooga (TN)	United States of America
+Chaykovsky	Russian Federation
+Cheboksary	Russian Federation
+Cheltenham/Charlton Kings	United Kingdom of Great Britain and Northern Ireland
+Chelyabinsk	Russian Federation
+Chemnitz	Germany
+Chengde	China
+Chengdu	China
+Chenghai	China
+Chennai (Madras)	India
+Chenzhou	China
+Cheonan	Republic of Korea
+Cheongju	Republic of Korea
+Cherepovets	Russian Federation
+Cherkassy	Ukraine
+Cherkessk	Russian Federation
+Chernigov	Ukraine
+Chernovtsy	Ukraine
+Cherthala	India
+Chesapeake (VA)	United States of America
+Chesterfield/Staveley	United Kingdom of Great Britain and Northern Ireland
+Chetumal	Mexico
+Chhatarpur	India
+Chhindwara	India
+Chiang Mai	Thailand
+Chiang Rai	Thailand
+Chiba	Japan
+Chibi	China
+Chicago (IL)	United States of America
+Chiclayo	Peru
+Chicoloapán de Juárez	Mexico
+Chifeng	China
+Chigasaki	Japan
+Chiguallante	Chile
+Chihuahua	Mexico
+Chikmagalur	India
+Chikusei	Japan
+Chikushino	Japan
+Chillán	Chile
+Chilpacingo (de los Bravo)	Mexico
+Chimalhuacan	Mexico
+Chimbote	Peru
+Chimoio	Mozambique
+Chincha Alta	Peru
+Chingola	Zambia
+Chiniot	Pakistan
+Chipata	Zambia
+Chirala	India
+Chirchik	Uzbekistan
+Chirkunda	India
+Chishtian	Pakistan
+Chishui	China
+CHISINAU (KISHINEV)	Republic of Moldova
+Chita	Russian Federation
+Chitradurga	India
+Chittagong	Bangladesh
+Chittoor	India
+Chitungwiza	Zimbabwe
+Chizhou	China
+Chofu	Japan
+Choloma	Honduras
+Chon Buri	Thailand
+Chongjin	Democratic People's Republic of Korea
+Chongqing	China
+Chongzhou	China
+Chorzów	Poland
+Christchurch	New Zealand
+Chula Vista (CA)	United States of America
+Chumphon	Thailand
+Chuncheon	Republic of Korea
+Chungju	Republic of Korea
+Churu	India
+Chuxiong	China
+Chuzhou	China
+Ciego de Avila	Cuba
+Ciénaga	Colombia
+Cienfuegos	Cuba
+Cincinnati (OH)	United States of America
+Cirebon (Tjirebon)	Indonesia
+Ciudad Acuña	Mexico
+Ciudad Apodaca	Mexico
+Ciudad Bolívar	Venezuela (Bolivarian Republic of)
+Ciudad de Villa de Alvárez	Mexico
+Ciudad Del Carmen	Mexico
+Ciudad del Este	Paraguay
+Ciudad Delgado	El Salvador
+Ciudad General Escobedo	Mexico
+Ciudad Guayana	Venezuela (Bolivarian Republic of)
+Ciudad Juárez	Mexico
+Ciudad López Mateos	Mexico
+Ciudad Madero	Mexico
+Ciudad Obregón	Mexico
+Ciudad Ojeda	Venezuela (Bolivarian Republic of)
+Ciudad Santa Catarina	Mexico
+Ciudad Valles	Mexico
+Ciudad Victoria	Mexico
+Cixi	China
+Cizre	Turkey
+Clarksville (TN)	United States of America
+Clearwater (FL)	United States of America
+Clermont-Ferrand	France
+Cleveland (OH)	United States of America
+Cluj-Napoca	Romania
+Coatzacoalcos	Mexico
+Cochabamba	Bolivia (Plurinational State of)
+Codo	Brazil
+Coimbatore	India
+Coimbra	Portugal
+Colatina	Brazil
+Colchester	United Kingdom of Great Britain and Northern Ireland
+Colimas	Mexico
+Colombo	Brazil
+Colorado Springs (CO)	United States of America
+Columbia (MO)	United States of America
+Columbia (SC)	United States of America
+Columbus (GA)	United States of America
+Columbus (OH)	United States of America
+Comilla	Bangladesh
+Comodoro Rivadavia-Rada Tilly	Argentina
+CONAKRY	Guinea
+Concepcion	Philippines
+Concepción	Chile
+Concord (CA)	United States of America
+Concordia	Argentina
+Conghua	China
+Conselheiro Lafaiete	Brazil
+Consolacion	Philippines
+Constanta	Romania
+Contagem	Brazil
+Coonoor	India
+Copiapó	Chile
+Coquimbo	Chile
+Coquitlam	Canada
+Coral Springs (FL)	United States of America
+Córdoba	Argentina
+Cork	Ireland
+Çorlu	Turkey
+Coro	Venezuela (Bolivarian Republic of)
+Corona (CA)	United States of America
+Coronel	Chile
+Coronel Fabriciano	Brazil
+Corpus Christi (TX)	United States of America
+Corrientes	Argentina
+Çorum	Turkey
+Corumbá	Brazil
+Costa Mesa (CA)	United States of America
+Cotabato	Philippines
+Cotia	Brazil
+Cottbus	Germany
+Coventry/Bedworth	United Kingdom of Great Britain and Northern Ireland
+Craiova	Romania
+Crato	Brazil
+Crawley	United Kingdom of Great Britain and Northern Ireland
+Criciúma	Brazil
+Cua	Venezuela (Bolivarian Republic of)
+Cuauhtemoc	Mexico
+Cuautitlan Izcalli	Mexico
+Cuautla	Mexico
+Cubatao	Brazil
+Cúcuta	Colombia
+Cuddalore	India
+Cuddapah	India
+Cuenca	Ecuador
+Cuernavaca	Mexico
+Cuiabá	Brazil
+CUIDAD DE GUATEMALA	Guatemala
+Culiacán Rosales	Mexico
+Cumaná	Venezuela (Bolivarian Republic of)
+Curicó	Chile
+Curitiba	Brazil
+Cuscatancingo	El Salvador
+Cuttack	India
+Cuzco	Peru
+Czestochowa	Poland
+Da'an	China
+Dabrowa Górnicza	Poland
+Dadu	Pakistan
+Daegu (Taegu)	Republic of Korea
+Daejeon (Taejon)	Republic of Korea
+Dafeng	China
+Dagupan	Philippines
+Daito	Japan
+DAKAR	Senegal
+Dali	China
+Dalian	China
+Dallas (TX)	United States of America
+Dallo Pura	India
+Daloa	Côte d'Ivoire
+Daly City (CA)	United States of America
+Damanhûr	Egypt
+Damaturu	Nigeria
+Damietta	Egypt
+Damoh	India
+Danao City	Philippines
+Dandong	China
+Dangyang	China
+Danjiangkou	China
+Danyang	China
+Danzhou	China
+Daqing	China
+Dar es Salaam	United Republic of Tanzania
+Daraga (Locsin)	Philippines
+Darbhanga	India
+Darjiling	India
+Darmstadt	Germany
+Darwin	Australia
+Dasarahalli	India
+Dashiqiao	China
+Daska	Pakistan
+Dasmariñas	Philippines
+Datong	China
+Daugavpils	Latvia
+Davangere	India
+Davao	Philippines
+Davenport (IA)	United States of America
+Dawei	Myanmar
+Daye	China
+Dayton (OH)	United States of America
+Dazhou	China
+Dearne Valley	United Kingdom of Great Britain and Northern Ireland
+Debrecen	Hungary
+Dédougou	Burkina Faso
+Dehiwala-Mount Lavinia	Sri Lanka
+Dehradun	India
+Dehri	India
+Dehui	China
+Delhi	India
+Delhi Cantonment	India
+Delicias	Mexico
+Dengfeng	China
+Dengta	China
+Dengzhou	China
+Denizli	Turkey
+Denpasar	Indonesia
+Denton (TX)	United States of America
+Denver (CO)	United States of America
+Deoghar	India
+Deoli	India
+Deoria	India
+Dera Ghazi Khan	Pakistan
+Derbent	Russian Federation
+Derby	United Kingdom of Great Britain and Northern Ireland
+Des Moines (IA)	United States of America
+Desamparados	Costa Rica
+Desok	Egypt
+Detroit (MI)	United States of America
+Dewas	India
+Dexing	China
+Deyang	China
+Dezful	Iran (Islamic Republic of)
+Dezhou	China
+DHAKA	Bangladesh
+Dhanbad	India
+Dhangadhi	Nepal
+Dharan	Nepal
+Dharmavaram	India
+Dhule	India
+Diadema	Brazil
+Dibrugarh	India
+Digos	Philippines
+Dijon	France
+DILI	Timor-Leste
+Dimitrovgrad	Russian Federation
+Dinajpur	Bangladesh
+Dinapur Nizamat	India
+Dindigul	India
+Dingzhou	China
+Diourbel	Senegal
+Dipolog	Philippines
+Divinópolis	Brazil
+Diwaniya	Iraq
+Diyarbakir	Turkey
+Dneprodzerzhinsk	Ukraine
+Dnepropetrovsk	Ukraine
+Doboj	Bosnia and Herzegovina
+DODOMA	United Republic of Tanzania
+DOHA	Qatar
+Dohad	India
+Domodedovo	Russian Federation
+Doncaster	United Kingdom of Great Britain and Northern Ireland
+Donetsk (Donestskaya oblast)	Ukraine
+Dongfang	China
+Donggang	China
+Dongguan	China
+Dongsheng	China
+Dongtai	China
+Dongxing	China
+Dongyang	China
+Dongying	China
+Donostia - San Sebastián	Spain
+Dordrecht	Netherlands
+Dori	Burkina Faso
+Dortmund	Germany
+Dorud	Iran (Islamic Republic of)
+Dos Hermanas	Spain
+Dosquebradas	Colombia
+Douala	Cameroon
+DOUGLAS	Isle of Man
+Dourados	Brazil
+Downey (CA)	United States of America
+Dresden	Germany
+Drobeta Turnu-Severin	Romania
+DUBLIN	Ireland
+Duisburg	Germany
+Duitama	Colombia
+Dujiangyan	China
+Dumaguete	Philippines
+Dumdum	India
+Dumfries & Galloway	United Kingdom of Great Britain and Northern Ireland
+Dundee	United Kingdom of Great Britain and Northern Ireland
+Dunedin	New Zealand
+Dunhua	China
+Dunhuang	China
+Duque de Caxias	Brazil
+Durán	Ecuador
+Durango (Victoria de Durango)	Mexico
+Durban	South Africa
+Durg	India
+Durgapur	India
+Durg-Bhilai Nagar	India
+Durham (NC)	United States of America
+Durrës	Albania
+DUSHANBE	Tajikistan
+Düsseldorf	Germany
+Duyun	China
+Düzce	Turkey
+Dzerzhinsk (Nizhegorodskaya oblast)	Russian Federation
+East Ayrshire	United Kingdom of Great Britain and Northern Ireland
+East Dunbartonshire	United Kingdom of Great Britain and Northern Ireland
+East Los Angeles (CA)	United States of America
+Eastbourne	United Kingdom of Great Britain and Northern Ireland
+Ebetsu	Japan
+Ebina	Japan
+Ecatepec (de Morelos)	Mexico
+Ech Cheliff (El Asnam)	Algeria
+Ede	Netherlands
+Edéa	Cameroon
+Edinburgh	United Kingdom of Great Britain and Northern Ireland
+Edirne	Turkey
+Edmonton	Canada
+Effon-Alaiye	Nigeria
+Eindhoven	Netherlands
+Eisenstadt	Austria
+Ekaterinburg	Russian Federation
+Ekibastuz	Kazakhstan
+El Alto	Bolivia (Plurinational State of)
+El Boulaïda (Blida)	Algeria
+El Djelfa	Algeria
+El Eulma	Algeria
+El Monte (CA)	United States of America
+El Paso (TX)	United States of America
+El Silencio	Venezuela (Bolivarian Republic of)
+El Tigre	Venezuela (Bolivarian Republic of)
+El Wad	Algeria
+El-Aresh	Egypt
+Elazig	Turkey
+Elblag	Poland
+Elche	Spain
+Eldoret	Kenya
+Elektrostal	Russian Federation
+Elets	Russian Federation
+Elgin (IL)	United States of America
+El-Hwamdia	Egypt
+Elista	Russian Federation
+Elizabeth (NJ)	United States of America
+Elk Grove (CA)	United States of America
+El-Khosos	Egypt
+El-Mahalla El-Kubra	Egypt
+El-Mataria	Egypt
+Eluru	India
+Embu	Brazil
+Emeishan	China
+Emmen	Netherlands
+Enakievo (Yenakievo)	Ukraine
+Engels	Russian Federation
+English Bazar	India
+Enping	China
+Enschede	Netherlands
+Ensenada	Mexico
+Enshi	China
+Enterprise (NV)	United States of America
+Enugu	Nigeria
+Envigado	Colombia
+Erbil	Iraq
+Eregli	Turkey
+Erfurt	Germany
+Erie (PA)	United States of America
+Erlangen	Germany
+Erode	India
+Erzurum	Turkey
+Esbjerg	Denmark
+Escondido (CA)	United States of America
+Escuintla	Guatemala
+Esentuky	Russian Federation
+Esfahan	Iran (Islamic Republic of)
+Eskisehir	Turkey
+Esmeraldas	Ecuador
+Espoo	Finland
+Essen	Germany
+Etah	India
+Etawah	India
+Eugene (OR)	United States of America
+Eunápolis	Brazil
+Evansville (IN)	United States of America
+Everett (WA)	United States of America
+Evpatoriya (Yevpatoriya)	Ukraine
+Exeter	United Kingdom of Great Britain and Northern Ireland
+Ezhou	China
+Facatativá	Colombia
+Fada N'gourma	Burkina Faso
+Fairfield (CA)	United States of America
+Faisalabad (Lyallpur)	Pakistan
+Faiyûm	Egypt
+Faizabad	India
+Falkirk	United Kingdom of Great Britain and Northern Ireland
+Fangchenggang	China
+Fargo (ND)	United States of America
+Faridabad	India
+Farrukhabad-cum-Fategarh	India
+Fasa	Iran (Islamic Republic of)
+Fatehpur	India
+Fayetteville (NC)	United States of America
+Feicheng	China
+Feira de Santana	Brazil
+Fengcheng (Jiangxi)	China
+Fengcheng (Liaoning)	China
+Fenghua	China
+Fengnan	China
+Fengzhen	China
+Fenyang	China
+Fergana	Uzbekistan
+Fernando de la Mora	Paraguay
+Ferrara	Italy
+Ferraz de Vasconcelos	Brazil
+Fianarantsoa	Madagascar
+Fife	United Kingdom of Great Britain and Northern Ireland
+Firenze	Italy
+Firozabad	India
+Flint (MI)	United States of America
+Florencia	Colombia
+Florianópolis	Brazil
+Floridablanca	Colombia
+Focsani	Romania
+Foggia	Italy
+Fontana (CA)	United States of America
+Forli	Italy
+Formosa	Argentina
+Fort Collins (CO)	United States of America
+Fort Lauderdale (FL)	United States of America
+Fort Wayne (IN)	United States of America
+Fort Worth (TX)	United States of America
+Fortaleza	Brazil
+FORT-DE-FRANCE	Martinique
+Foshan	China
+Foz do Iguaçu	Brazil
+Franca	Brazil
+Francisco Morato	Brazil
+Francistown	Botswana
+Franco da Rocha	Brazil
+Frankfurt am Main	Germany
+Frederiksberg	Denmark
+FREETOWN	Sierra Leone
+Freiburg im Breisgau	Germany
+Fremont (CA)	United States of America
+Fresnillo	Mexico
+Fresno (CA)	United States of America
+Fribourg	Switzerland
+Frisco (TX)	United States of America
+Fu'an	China
+Fuchu	Japan
+Fuding	China
+Fuenlabrada	Spain
+Fuji	Japan
+Fujieda	Japan
+Fujimi	Japan
+Fujimino	Japan
+Fujin	China
+Fujinomiya	Japan
+Fujisawa	Japan
+Fukang	China
+Fukaya	Japan
+Fukui	Japan
+Fukuoka	Japan
+Fukushima	Japan
+Fukuyama	Japan
+Fullerton (CA)	United States of America
+Funabashi	Japan
+FUNAFUTI	Tuvalu
+Funchal	Portugal
+Fuqing	China
+Fuquan	China
+Fürth	Germany
+Fusagasugá	Colombia
+Fushun	China
+Fuxin	China
+Fuyang (Anhui)	China
+Fuyang (Zhejiang)	China
+Fuzhou (Fujian)	China
+Fuzhou (Jiangxi)	China
+GABORONE	Botswana
+Gadag-Betgeri	India
+Gainesville (FL)	United States of America
+Gaizhou	China
+Gajuwaka	India
+Galati	Romania
+Gandhidham	India
+Gandhinagar	India
+Ganganagar	India
+Gangapur City	India
+Gangawati	India
+Gangneung (Kangnung)	Republic of Korea
+Ganja	Azerbaijan
+Ganzhou	China
+Gaoan	China
+Gaobeidian	China
+Gaocheng	China
+Gaomi	China
+Gaoming	China
+Gaoping	China
+Gaoyao	China
+Gaoyou	China
+Gaozhou	China
+Gapan	Philippines
+Garanhuns	Brazil
+GARAPAN	Northern Mariana Islands
+Garden Grove (CA)	United States of America
+Garissa	Kenya
+Garland (TX)	United States of America
+Garoua	Cameroon
+Gary (IN)	United States of America
+Gatineau	Canada
+Gaya	India
+Gaza	State of Palestine
+Gaziantep	Turkey
+Gazipur	Bangladesh
+Gboko	Nigeria
+Gdansk	Poland
+Gdynia	Poland
+Geelong	Australia
+Geermu	China
+Gejiu	China
+Geleen-Sittard	Netherlands
+Gelsenkirchen	Germany
+Gelugor	Malaysia
+Gen. Mariano Alvarez	Philippines
+General San Martín	Argentina
+General Santos	Philippines
+General Trias	Philippines
+Genève	Switzerland
+Genhe	China
+Genova	Italy
+Gent (Gand)	Belgium
+Geoje	Republic of Korea
+GEORGE TOWN	Cayman Islands
+GEORGETOWN	Guyana
+Gera	Germany
+Gerga	Egypt
+Germiston	South Africa
+Getafe	Spain
+Ghardaïa	Algeria
+Ghatlodiya	India
+Ghaziabad	India
+Ghazipur	India
+Ghilizane	Algeria
+GIBRALTAR	Gibraltar
+Gifu	Japan
+Gijón	Spain
+Gilbert (AZ)	United States of America
+Gimcheon	Republic of Korea
+Gimhae (Kimhae)	Republic of Korea
+Gimje	Republic of Korea
+Gingoog	Philippines
+Giresun	Turkey
+Giridih	India
+Girón	Colombia
+Gitarama	Rwanda
+Giugliano in Campania	Italy
+Giza	Egypt
+Glan	Philippines
+Glasgow	United Kingdom of Great Britain and Northern Ireland
+Glazov	Russian Federation
+Glendale (AZ)	United States of America
+Glendale (CA)	United States of America
+Gliwice	Poland
+Gloucester	United Kingdom of Great Britain and Northern Ireland
+Godhra	India
+Goiânia	Brazil
+Goicoechea	Costa Rica
+Gojra	Pakistan
+Gold Coast	Australia
+Gold Coast-Tweed Heads	Australia
+Golestan (Soltanabad)	Iran (Islamic Republic of)
+Gombe	Nigeria
+Gomel	Belarus
+Gómez Palacio	Mexico
+Gonbad-e-Kavus	Iran (Islamic Republic of)
+Gonda	India
+Gondiya	India
+Gongju	Republic of Korea
+Gongyi	China
+Gongzhuling	China
+Gorakhpur	India
+Gorgan	Iran (Islamic Republic of)
+Gorlovka	Ukraine
+Gorom-Gorom	Burkina Faso
+Gorontalo	Indonesia
+Gorzów Wielkopolski	Poland
+Göteborg	Sweden
+Göttingen	Germany
+Governador Valadares	Brazil
+Goyang	Republic of Korea
+Granada	Spain
+Grand Prairie (TX)	United States of America
+Grand Rapids (MI)	United States of America
+GRAND TURK	Turks and Caicos Islands
+Gravatai	Brazil
+Graz	Austria
+Greater Adelaide	Australia
+Greater Brisbane	Australia
+Greater Darwin	Australia
+Greater Hobart	Australia
+Greater Melbourne	Australia
+Greater Perth	Australia
+Greater Sudbury / Grand Sudbury	Canada
+Greater Sydney	Australia
+Greater Wollongong	Australia
+Green Bay (WI)	United States of America
+Greensboro (NC)	United States of America
+Grenoble	France
+Gresham (OR)	United States of America
+Grimsby/Cleethorpes	United Kingdom of Great Britain and Northern Ireland
+Grodno	Belarus
+Groningen	Netherlands
+Groznyi	Russian Federation
+Grudziadz	Poland
+Guacara	Venezuela (Bolivarian Republic of)
+Guadalajara	Mexico
+"Guadalupe, Nuevo León"	Mexico
+"Guadalupe, Zacatecas"	Mexico
+Guagua	Philippines
+Guanajuato	Mexico
+Guanare	Venezuela (Bolivarian Republic of)
+Guangan	China
+Guanghan	China
+Guangshui	China
+Guangyuan	China
+Guangzhou	China
+Guantánamo	Cuba
+Guarapari	Brazil
+Guarapuava	Brazil
+Guaratinguetá	Brazil
+Guarenas	Venezuela (Bolivarian Republic of)
+Guarujá	Brazil
+Guarulhos	Brazil
+Guatire	Venezuela (Bolivarian Republic of)
+Guayaquil	Ecuador
+Guaynabo	Puerto Rico
+Gubkin	Russian Federation
+Gudalajara de Buga	Colombia
+Gudivada	India
+Gudiyatham	India
+Guediawaye	Senegal
+Guelma	Algeria
+Guelph	Canada
+Guigang	China
+Guilin	China
+Guimba	Philippines
+Guiping	China
+Guixi	China
+Guiyang	China
+Gujiao	China
+Gujranwala	Pakistan
+Gujrat	Pakistan
+Gulbarga	India
+Gulu	Uganda
+Gumi (Kumi)	Republic of Korea
+Guna	India
+Gunpo (Kunpo)	Republic of Korea
+Gunsan (Kunsan)	Republic of Korea
+Guntakul	India
+Guntur	India
+Gurgaon	India
+Guruvayur	India
+Gusau	Nigeria
+Guwahati	India
+Gwalior	India
+Gwangju (Kwangchu)	Republic of Korea
+Gwangmyeong (Kwangmyong)	Republic of Korea
+Gwangyang	Republic of Korea
+Gweru	Zimbabwe
+Gyeongju (Kyongju)	Republic of Korea
+Gyeongsan	Republic of Korea
+Györ	Hungary
+Gyumri (Leninakan)	Armenia
+Ha Ka	Myanmar
+Haarlem	Netherlands
+Haarlemmermeer	Netherlands
+Habikino	Japan
+Habra	India
+Hachinohe	Japan
+Hachioji	Japan
+Hadano	Japan
+Haeju	Democratic People's Republic of Korea
+Haerbin	China
+Hafar al-Batin	Saudi Arabia
+Hafizabad	Pakistan
+Hagen	Germany
+Hagonoy	Philippines
+Haicheng	China
+Haifa	Israel
+Haikou	China
+Ha'il	Saudi Arabia
+Hailaer	China
+Hailin	China
+Hailun	China
+Haimen	China
+Haining	China
+Haiyang	China
+Hajipur	India
+Hakodate	Japan
+Hakusan	Japan
+Haldia	India
+Haldwani-cum-Kathgodam	India
+Halifax	Canada
+Halisahar	India
+Halle	Germany
+Hamadan	Iran (Islamic Republic of)
+Hamamatsu	Japan
+Hamburg	Germany
+Hamhung	Democratic People's Republic of Korea
+Hami	China
+HAMILTON	Bermuda
+Hamm	Germany
+Hampton (VA)	United States of America
+Hanamaki	Japan
+Hancheng	China
+Hanchuan	China
+Handa	Japan
+Handan	China
+Hangzhou	China
+Hannover	Germany
+Hanumangarh	India
+Hanzhong	China
+Haora (Howrah)	India
+Hapur	India
+HARARE	Zimbabwe
+Hardoi	India
+Hardwar	India
+Hartford (CT)	United States of America
+Hasaviurt	Russian Federation
+Hassan	India
+Hastings/Bexhill	United Kingdom of Great Britain and Northern Ireland
+Hatay	Turkey
+Hathras	India
+Hatsukaichi	Japan
+Hayward (CA)	United States of America
+Hazaribag	India
+Hebi	China
+Hebron	State of Palestine
+Hechi	China
+Hechuan	China
+Heerlen-Kerkrade	Netherlands
+Hefei	China
+Hegang	China
+Heidelberg	Germany
+Heihe	China
+Heilbronn	Germany
+Hejian	China
+Hejin	China
+Helong	China
+Helsingborg	Sweden
+HELSINKI	Finland
+Henderson (NV)	United States of America
+Hengshui	China
+Hengyang	China
+Heredia	Costa Rica
+Hermosillo	Mexico
+Herne	Germany
+Heroica Guaymas	Mexico
+Heroica Nogales	Mexico
+Heshan (Guangdong)	China
+Heshan (Guangxi)	China
+Hetian	China
+Heyuan	China
+Heze	China
+Hezhou	China
+Hialeah (FL)	United States of America
+Hidalgo del Parral	Mexico
+Higashihiroshima	Japan
+Higashikurume	Japan
+Higashimurayama	Japan
+Higashiomi	Japan
+Higashiosaka	Japan
+High Point City (NC)	United States of America
+High Wycombe	United Kingdom of Great Britain and Northern Ireland
+Highland	United Kingdom of Great Britain and Northern Ireland
+Higüey	Dominican Republic
+Hikone	Japan
+Hildesheim	Germany
+Hilla	Iraq
+Himamaylan	Philippines
+Himeji	Japan
+Hindupur	India
+Hino	Japan
+Hirakata	Japan
+Hiratsuka	Japan
+Hirosaki	Japan
+Hiroshima	Japan
+Hisar	India
+Hitachi	Japan
+Hitachinaka	Japan
+Hobart	Australia
+Hofu	Japan
+Holguín	Cuba
+Hollywood (FL)	United States of America
+Holon	Israel
+HONG KONG SAR	"China, Hong Kong SAR"
+Honghu	China
+Hongjiang	China
+HONIARA	Solomon Islands
+Hortolandia	Brazil
+Hoshiarpur	India
+Hospet	India
+Hospitalet de Llobregat	Spain
+Houma	China
+Houston (TX)	United States of America
+Hovsgol	Mongolia
+Hoya	Japan
+Hpa-an	Myanmar
+Hradec Králové	Czech Republic
+Huadian	China
+Huaian	China
+Huaibei	China
+Huaihua	China
+Huainan	China
+Huaiyin	China
+Huancayo	Peru
+Huanggang	China
+Huanghua	China
+Huangshan	China
+Huangshi (Hubei)	China
+Huánuco	Peru
+Huaraz	Peru
+Huayin	China
+Huaying	China
+Huazhou	China
+Hubli-Dharwad	India
+Huelva	Spain
+Hugli-Chinsurah	India
+Huhehaote	China
+Huichon	Democratic People's Republic of Korea
+Huixian	China
+Huiyang	China
+Huizhou	China
+Hulin	China
+Huludao	China
+Hunchun	China
+Huntington Beach (CA)	United States of America
+Huntsville (AL)	United States of America
+Huozhou	China
+Huzhou	China
+Hyderabad	India
+Hyesan	Democratic People's Republic of Korea
+Iasi	Romania
+Ibadan	Nigeria
+Ibagué	Colombia
+Ibaraki	Japan
+Ibarra	Ecuador
+Ibb	Yemen
+Ibirité	Brazil
+Ica	Peru
+Ichalakaranji	India
+Icheon	Republic of Korea
+Ichihara	Japan
+Ichikawa	Japan
+Ichinomiya	Japan
+Ichinoseki	Japan
+Ife	Nigeria
+Iga	Japan
+Igarassu	Brazil
+Iguala (de la Independencia)	Mexico
+Iida	Japan
+Iizuka	Japan
+Ijebu-Ode	Nigeria
+Ikare	Nigeria
+Ikeda	Japan
+Ikire	Nigeria
+Ikoma	Japan
+Ikorodu	Nigeria
+Ikot Ekpene	Nigeria
+Iksan (Iri)	Republic of Korea
+Ilagan	Philippines
+Ilam	Iran (Islamic Republic of)
+Ilawe-Ekiti	Nigeria
+Ilesha	Nigeria
+Ilhéus	Brazil
+Iligan	Philippines
+Iloilo	Philippines
+Ilopango	El Salvador
+Ilorin	Nigeria
+Imabari	Japan
+Imbaba	Egypt
+Imperatriz	Brazil
+Imphal	India
+Imus City	Philippines
+Inazawa	Japan
+Incheon	Republic of Korea
+Indaiatuba	Brazil
+Independence (MO)	United States of America
+Indianapolis (IN)	United States of America
+Indore	India
+Inegöl	Turkey
+Inglewood (CA)	United States of America
+Ingolstadt	Germany
+Innsbruck	Austria
+Ipatinga	Brazil
+Ipiales	Colombia
+Ipswich	United Kingdom of Great Britain and Northern Ireland
+Iquique	Chile
+Iquitos	Peru
+Iraclion	Greece
+Iranshahr	Iran (Islamic Republic of)
+Irapuato	Mexico
+Irbid	Jordan
+Iriga	Philippines
+Irkutsk	Russian Federation
+Iruma	Japan
+Irvine (CA)	United States of America
+Irving (TX)	United States of America
+Isahaya	Japan
+Ise	Japan
+Isehara	Japan
+Isesaki	Japan
+Iseyin	Nigeria
+Ishinomaki	Japan
+Iskenderun	Turkey
+Islam Shahr (Qasemabad)	Iran (Islamic Republic of)
+ISLAMABAD	Pakistan
+Ismailia	Egypt
+Isparta	Turkey
+Istanbul	Turkey
+Itabiraí	Brazil
+Itaboraí	Brazil
+Itabuna	Brazil
+Itaguaí	Brazil
+Itagüi	Colombia
+Itajaí	Brazil
+Itami	Japan
+Itapecerica da Serra	Brazil
+Itapetininga	Brazil
+Itapevi	Brazil
+Itapipoca	Brazil
+Itaquaquecetuba	Brazil
+Itarsi	India
+Itatiba	Brazil
+Itu	Brazil
+Ivano-Frankovsk	Ukraine
+Ivanovo	Russian Federation
+Iwaki	Japan
+Iwakuni	Japan
+Iwata	Japan
+Iwatsuki	Japan
+Iwo	Nigeria
+Ixtapaluca	Mexico
+Izeh	Iran (Islamic Republic of)
+Izhevsk	Russian Federation
+Izmir	Turkey
+Izumi (Osaka)	Japan
+Izumisano	Japan
+Izumo	Japan
+Jabalpur	India
+Jabalya	State of Palestine
+Jaboatao dos Guarapes	Brazil
+Jacareí	Brazil
+Jackson (MS)	United States of America
+Jacksonville (FL)	United States of America
+Jacobabad	Pakistan
+Jaén	Spain
+Jagadhri	India
+Jagdalpur	India
+Jahrom	Iran (Islamic Republic of)
+Jaipur	India
+JAKARTA	Indonesia
+Jalandhar	India
+Jaleeb Al-Shuykh	Kuwait
+Jalgaon	India
+Jalna	India
+Jalpaiguri	India
+Jamalpur	Bangladesh
+Jambi	Indonesia
+JAMESTOWN	Saint Helena ex. dep.
+Jammu	India
+Jamnagar	India
+Jamshedpur	India
+Jamuria	India
+Jandira	Brazil
+Jaraguá do Sul	Brazil
+Jaranwala	Pakistan
+Jastrzebie-Zdrój	Poland
+Jaú	Brazil
+Jaunpur	India
+Jayapura	Indonesia
+Jecheon (Chechon)	Republic of Korea
+Jeju (Cheju)	Republic of Korea
+Jena	Germany
+Jeongeup	Republic of Korea
+Jeonju (Chonchu)	Republic of Korea
+Jequié	Brazil
+Jérez de la Frontera	Spain
+Jersey City (NJ)	United States of America
+JERUSALEM	Israel
+Jessore	Bangladesh
+Jetpur Navagadh	India
+Jhang	Pakistan
+Jhansi	India
+Jhelum	Pakistan
+Jhunjhunun	India
+Jiamusi	China
+Ji'an (Jiangxi)	China
+Jian (Jilin)	China
+Jiande	China
+Jiangdu	China
+Jiangjin	China
+Jiangmen	China
+Jiangshan	China
+Jiangyan	China
+Jiangyin	China
+Jiangyou	China
+Jianou	China
+Jianyang (Fujian)	China
+Jianyang (Sichuan)	China
+Jiaohe	China
+Jiaonan	China
+Jiaozhou	China
+Jiaozuo	China
+Jiaxing	China
+Jiayuguan	China
+Jiddah	Saudi Arabia
+Jieshou	China
+Jiexiu	China
+Jieyang	China
+Jijel	Algeria
+Jilin	China
+Jimeta	Nigeria
+Jimo	China
+Jinan	China
+Jinchang	China
+Jincheng	China
+Jind	India
+Jingdezhen	China
+Jinggangshan	China
+Jinghong	China
+Jingjiang	China
+Jingmen	China
+Jingzhou	China
+Jinhae (Chinhae)	Republic of Korea
+Jinhua	China
+Jining (Inner Mongolia)	China
+Jining (Shandong)	China
+Jinjiang	China
+Jinju (Chinju)	Republic of Korea
+Jinshi	China
+Jintan	China
+Jinzhong	China
+Jinzhou (Hebei)	China
+Jinzhou (Liaoning)	China
+Ji-Paraná	Brazil
+Jiroft	Iran (Islamic Republic of)
+Jishou	China
+Jiujiang	China
+Jiuquan	China
+Jiutai	China
+Jiutepec	Mexico
+Jixi	China
+Jiyuan	China
+Jizan	Saudi Arabia
+Jizhou	China
+Joao Pessoa	Brazil
+Jodhpur	India
+Joetsu	Japan
+Johannesburg	South Africa
+Joinville	Brazil
+Joliet (IL)	United States of America
+Jolo	Philippines
+Jongju	Democratic People's Republic of Korea
+Jönköping	Sweden
+Jorhat	India
+Jos	Nigeria
+Juárez	Mexico
+Juazeiro	Brazil
+Juàzeiro do Norte	Brazil
+Juba	Republic of South Sudan
+Juiz de Fora	Brazil
+Juliaca	Peru
+Junagadh	India
+Jundiaí	Brazil
+Jurong	China
+Jyvaskyla	Finland
+Kabankalan	Philippines
+Kabwe	Zambia
+Kadamrasul	Bangladesh
+Kadhimain	Iraq
+Kadoma	Japan
+Kaduna	Nigeria
+Kaechon	Democratic People's Republic of Korea
+Kaesong	Democratic People's Republic of Korea
+Kafr-El-Dwar	Egypt
+Kagoshima	Japan
+Kahramanmaras	Turkey
+Kaifeng	China
+Kaili	China
+Kaiping	China
+Kaiserslautern	Germany
+Kaithal	India
+Kaiyuan (Liaoning)	China
+Kaiyuan (Yunnan)	China
+Kajang dan Sungai Chua	Malaysia
+Kakamigahara	Japan
+Kakegawa	Japan
+Kakinada	India
+Kakogawa	Japan
+Kalasin	Thailand
+Kaliningrad (Kaliningradskaya oblast)	Russian Federation
+Kalisz	Poland
+Kalol	India
+Kalookan (Caloocan)	Philippines
+Kaluga	Russian Federation
+Kaluop	Egypt
+Kalyan	India
+Kamagaya	Japan
+Kamakura	Japan
+Kamal Shahr	Iran (Islamic Republic of)
+Kamarhati	India
+Kamensk-Uralsky	Russian Federation
+Kamoke	Pakistan
+KAMPALA	Uganda
+Kamphaeng Phet	Thailand
+Kamptee	India
+Kamyanetsk Podilsky	Ukraine
+Kamyshin	Russian Federation
+Kanazawa	Japan
+Kanchanaburi	Thailand
+Kancheepuram	India
+Kanchrapara	India
+Kandy	Sri Lanka
+Kanggye	Democratic People's Republic of Korea
+Kanhangad	India
+Kankan	Guinea
+Kannur	India
+Kano	Nigeria
+Kanoya	Japan
+Kanpur	India
+Kansas City (KS)	United States of America
+Kansas City (MO)	United States of America
+Kansk	Russian Federation
+Kanuma	Japan
+Kaolack	Senegal
+Kapra	India
+Karabük	Turkey
+Karachi	Pakistan
+Karaganda	Kazakhstan
+Karaikkudi	India
+Karaj	Iran (Islamic Republic of)
+Karaman	Turkey
+Karatsu	Japan
+Karawal Nagar	India
+Karimnagar	India
+Kariya	Japan
+Karlsruhe	Germany
+Karnal	India
+Karradah Sharqiyah	Iraq
+Karshi	Uzbekistan
+Karur	India
+Kasama	Zambia
+Kashan	Iran (Islamic Republic of)
+Kashi (Xinjiang)	China
+Kashihara	Japan
+Kashiwa	Japan
+Kaspiysk	Russian Federation
+Kassel	Germany
+Kasuga	Japan
+Kasugai	Japan
+Kasukabe	Japan
+Kasur	Pakistan
+Kathlehong	South Africa
+KATHMANDU	Nepal
+Katihar	India
+Katowice	Poland
+Katsina	Nigeria
+Kaunas	Lithuania
+Kawachinagano	Japan
+Kawagoe	Japan
+Kawaguchi	Japan
+Kawanishi	Japan
+Kawasaki	Japan
+Kaya	Burkina Faso
+Kayseri	Turkey
+Kazan	Russian Federation
+Kazo	Japan
+Kecskemét	Hungary
+Kediri	Indonesia
+Kelamayi	China
+Kelowna	Canada
+Kemerovo	Russian Federation
+Kempton Park	South Africa
+Kena	Egypt
+Kerbala	Iraq
+Kerman	Iran (Islamic Republic of)
+Kermanshah	Iran (Islamic Republic of)
+Kertch	Ukraine
+Khabarovsk	Russian Federation
+Khairpur	Pakistan
+Khamis Mushayt	Saudi Arabia
+Khammam	India
+Khan Yunis	State of Palestine
+Khandwa	India
+Khanewal	Pakistan
+Khanna	India
+Khanpur	Pakistan
+Kharagpur	India
+Khardaha	India
+Khargone	India
+Kharkov	Ukraine
+Khayelitsa	South Africa
+Kherson	Ukraine
+Khimki	Russian Federation
+Khmelnitsky (Hmilnyk)	Ukraine
+Khomeini shahr	Iran (Islamic Republic of)
+Khon Kaen	Thailand
+Khoramabad	Iran (Islamic Republic of)
+Khoramshahr	Iran (Islamic Republic of)
+Khoy	Iran (Islamic Republic of)
+Khujand	Tajikistan
+Khulna	Bangladesh
+Kidapawan	Philippines
+Kiel	Germany
+Kielce	Poland
+KIEV	Ukraine
+KIGALI	Rwanda
+Kikuyu	Kenya
+Killeen (TX)	United States of America
+Kim Chaek	Democratic People's Republic of Korea
+Kimberley	South Africa
+Kindia	Guinea
+Kingston	Canada
+Kingston-upon-Hull	United Kingdom of Great Britain and Northern Ireland
+KINGSTOWN	Saint Vincent and the Grenadines
+Kirari Suleman Nagar	India
+Kirikkale	Turkey
+Kirishima	Japan
+Kirkuk	Iraq
+Kirov	Russian Federation
+Kirovograd	Ukraine
+Kirsehir	Turkey
+Kiryu	Japan
+Kisarazu	Japan
+Kiselevsk	Russian Federation
+Kishangarh	India
+Kishiwada	Japan
+Kislovodsk	Russian Federation
+Kisumu	Kenya
+Kitakyushu	Japan
+Kitami	Japan
+Kitchener-Cambridge-Waterloo	Canada
+Kitwe	Zambia
+Kiziltepe	Turkey
+Klagenfurt	Austria
+Klaipeda	Lithuania
+Klang	Malaysia
+Kluang	Malaysia
+Knoxville (TN)	United States of America
+Kobe	Japan
+KOBENHAVN	Denmark
+Koblenz	Germany
+Kocaeli	Turkey
+Koch Bihar	India
+Kochi	India
+Kodaira	Japan
+Kofu	Japan
+Koga	Japan
+Koganei	Japan
+Kohat	Pakistan
+Kokand	Uzbekistan
+Koktshetau	Kazakhstan
+Kokubunji	Japan
+Kolar	India
+Kolhapur	India
+Kolkata (Calcutta)	India
+Kollam	India
+Köln	Germany
+Kolomna	Russian Federation
+Komaki	Japan
+Komatsu	Japan
+Komsomolsk-na-Amure	Russian Federation
+Konosu	Japan
+Konya	Turkey
+Kopeysk	Russian Federation
+Korba	India
+Korhogo	Côte d'Ivoire
+Koriyama	Japan
+Korolev (Moskovskaya oblast)	Russian Federation
+Koronadal	Philippines
+KOROR	Palau
+Koshigaya	Japan
+Kosice	Slovakia
+Kostroma	Russian Federation
+Koszalin	Poland
+Kota	India
+Kota Kinabalu	Malaysia
+Kothagudem	India
+Kottayam	India
+Koudougou	Burkina Faso
+Kousséri	Cameroon
+Kovrov	Russian Federation
+Kozhikode	India
+Krabi	Thailand
+Kragujevac	Serbia
+Kraków	Poland
+Kraljevo	Serbia
+Kramatorsk	Ukraine
+Krasnodar	Russian Federation
+Krasnogorsk	Russian Federation
+Krasnoyarsk	Russian Federation
+Krasny Lutch	Ukraine
+Krefeld	Germany
+Krementchug	Ukraine
+Krishnanagar	India
+Krishnarajapura	India
+Kruševac	Serbia
+Kryvy Rig	Ukraine
+KUALA LUMPUR	Malaysia
+Kuala Terengganu	Malaysia
+Kuantan	Malaysia
+Kuching	Malaysia
+Kuerle	China
+Kuitun	China
+Kukatpalle	India
+Kuki	Japan
+Kulai	Malaysia
+Kulim	Malaysia
+Kulti	India
+Kumagaya	Japan
+Kumamoto	Japan
+Kumanovo	TFYR of Macedonia
+Kumasi	Ghana
+Kumba	Cameroon
+Kumbakonam	India
+Kunming	China
+Kunshan	China
+Kuopio	Finland
+Kurashiki	Japan
+Kure	Japan
+Kurgan	Russian Federation
+Kurnool	India
+Kursk	Russian Federation
+Kurume	Japan
+Kusatsu	Japan
+Kushiro	Japan
+Kusong	Democratic People's Republic of Korea
+Kustanai	Kazakhstan
+Kut	Iraq
+Kütahya	Turkey
+Kutaisi	Georgia
+KUWAIT CITY	Kuwait
+Kuwana	Japan
+Kyoto	Japan
+Kyzyl	Russian Federation
+Kyzylorda	Kazakhstan
+La Ceiba	Honduras
+La Coruña	Spain
+LA HABANA	Cuba
+La Matanza	Argentina
+LA PAZ	Bolivia (Plurinational State of)
+"La Paz, Baja California Sur"	Mexico
+"La Paz, Distrito Federal"	Mexico
+La Piedad	Mexico
+La Plata	Argentina
+La Rioja	Argentina
+La Romana	Dominican Republic
+La Serena	Chile
+La Trinidad	Philippines
+La Unión	Costa Rica
+La Vega	Dominican Republic
+Labé	Guinea
+Lafayette (LA)	United States of America
+Lages	Brazil
+Lagos	Nigeria
+Lahad Datu	Malaysia
+Lahore	Pakistan
+Lahti	Finland
+Laiwu	China
+Laixi	China
+Laiyang	China
+Laizhou	China
+Lakewood (CO)	United States of America
+Lakhimpur	India
+Lal Bahadur Nagar	India
+Lalitpur	India
+Lambaré	Paraguay
+Lampang	Thailand
+Lamphun	Thailand
+Lancaster (CA)	United States of America
+Langfang	China
+Langzhong	China
+Lansing (MI)	United States of America
+Lanus	Argentina
+Lanxi	China
+Lanzhou	China
+Laoag	Philippines
+Laohekou	China
+Lapu-Lapu	Philippines
+Laredo (TX)	United States of America
+Larissa	Greece
+Larkana	Pakistan
+Las Palmas de Gran Canaria	Spain
+Las Piñas	Philippines
+Las Tunas	Cuba
+Las Vegas (NV)	United States of America
+Lasa	China
+Latina	Italy
+Latur	India
+Launceston	Australia
+Lauro de Freitas	Brazil
+Lausanne	Switzerland
+Laval	Canada
+Lázaro Cárdenas	Mexico
+Le Havre	France
+Le Mans	France
+Lechang	China
+Leganés	Spain
+Legazpi	Philippines
+Legnica	Poland
+Leicester	United Kingdom of Great Britain and Northern Ireland
+Leiden	Netherlands
+Leipzig	Germany
+Leiyang	China
+Leizhou	China
+Leling	China
+Lemdiyya (Medea)	Algeria
+Lengshuijiang	China
+Leninsk-Kuznetsky	Russian Federation
+León	Nicaragua
+León (de los Aldama)	Mexico
+Leping	China
+Leqing	China
+Leshan	China
+Leskovac	Serbia
+Leverkusen	Germany
+Lévis V	Canada
+Lewisville (TX)	United States of America
+Lexington-Fayette (KY)	United States of America
+Lianjiang	China
+Lianyuan	China
+Lianyungang	China
+Lianzhou	China
+Liaocheng	China
+Liaoyang	China
+Liaoyuan	China
+Liberec	Czech Republic
+Libmanan	Philippines
+LIBREVILLE	Gabon
+Lichuan	China
+Lida	Belarus
+Liège (Luik)	Belgium
+Liling	China
+Lille	France
+Liloan	Philippines
+LILONGWE	Malawi
+LIMA	Peru
+Limeira	Brazil
+Limoges	France
+Limón	Costa Rica
+Linan	China
+Lincoln	United Kingdom of Great Britain and Northern Ireland
+Lincoln (NE)	United States of America
+Linfen	China
+Lingbao	China
+Linghai	China
+Lingwu	China
+Lingyuan	China
+Linhai	China
+Linhares	Brazil
+Linhe	China
+Linjiang	China
+Linköping	Sweden
+Linqing	China
+Linxia	China
+Linxiang	China
+Linyi	China
+Linz	Austria
+Linzhou	China
+Lipa	Philippines
+Lipetsk	Russian Federation
+LISBOA	Portugal
+Lishi	China
+Lishui	China
+Little Rock (AR)	United States of America
+Liupanshui	China
+Liuyang	China
+Liuzhou	China
+Liverpool	United Kingdom of Great Britain and Northern Ireland
+Livingstone	Zambia
+Livonia (MI)	United States of America
+Livorno	Italy
+Liyang	China
+LJUBLJANA	Slovenia
+Lleida	Spain
+Lódz	Poland
+Loei	Thailand
+Logroño	Spain
+Loikaw	Myanmar
+Loja	Ecuador
+Lomas de Zamora	Argentina
+London	Canada
+Londrina	Brazil
+Long Beach (CA)	United States of America
+Longhai	China
+Longjing	China
+Longkou	China
+Longquan	China
+Longueuil	Canada
+Longyan	China
+Loni	India
+Lop Buri	Thailand
+Lorica	Colombia
+Los Alcarrizos	Dominican Republic
+Los Angeles	Chile
+Los Angeles (CA)	United States of America
+Los Baños	Philippines
+Los Guayos	Venezuela (Bolivarian Republic of)
+Los Mochis	Mexico
+Los Teques	Venezuela (Bolivarian Republic of)
+Loudi	China
+Louisville (KY)	United States of America
+Lowell (MA)	United States of America
+Lower Hutt	New Zealand
+Lu'an	China
+Luanshya	Zambia
+Lubao	Philippines
+Lubbock (TX)	United States of America
+Lübeck	Germany
+Lublin	Poland
+Lucena City	Philippines
+Lucheng	China
+Lucknow	India
+Ludhiana	India
+Ludwigshafen am Rhein	Germany
+Lufeng	China
+Lugano	Switzerland
+Lugansk	Ukraine
+Lüleburgaz	Turkey
+Luoding	China
+Luohe	China
+Luoyang	China
+Luquan	China
+Luque	Paraguay
+LUSAKA	Zambia
+Luton/Dunstable	United Kingdom of Great Britain and Northern Ireland
+Lutsk	Ukraine
+LUXEMBOURG-VILLE	Luxembourg
+Luxer	Egypt
+Luxi (Yunnan)	China
+Luzern	Switzerland
+Luzhou	China
+Luziânia	Brazil
+Lvov	Ukraine
+Lyon	France
+Lysychansk	Ukraine
+Lyubertsy	Russian Federation
+Ma'anshan	China
+Maastricht	Netherlands
+Mabalacat	Philippines
+Macae	Brazil
+MACAO	"China, Macao SAR"
+Macapá	Brazil
+Maceió	Brazil
+Machala	Ecuador
+Macheng	China
+Machida	Japan
+Machilipatnam	India
+Madanapalle	India
+Madhyamgram	India
+Madison (WI)	United States of America
+Madiun	Indonesia
+MADRID	Spain
+Madurai	India
+Mae Hong Son	Thailand
+Maebashi	Japan
+Magadan	Russian Federation
+Magalang	Philippines
+Magangué	Colombia
+Magdeburg	Germany
+Magé	Brazil
+Magelang	Indonesia
+Magnitogorsk	Russian Federation
+Magway	Myanmar
+Maha Sarakham	Thailand
+Mahabad	Iran (Islamic Republic of)
+Mahadevapura	India
+Mahajanga	Madagascar
+Mahbubnagar	India
+Mahesana	India
+Maheshtala	India
+Maicao	Colombia
+Maiduguri	Nigeria
+Maikop	Russian Federation
+Mainpuri	India
+Mainz	Germany
+Majnoon	Iraq
+MAJURO	Marshall Islands
+Makasar (Ujung Pandang)	Indonesia
+Makati	Philippines
+Makeyevka	Ukraine
+Makhachkala	Russian Federation
+Makkah	Saudi Arabia
+Makurdi	Nigeria
+Malabalay	Philippines
+MALABO	Equatorial Guinea
+Malabon	Philippines
+Málaga	Spain
+Malakal	Republic of South Sudan
+Malang	Indonesia
+Malappuram	India
+Malard	Iran (Islamic Republic of)
+Malasiqui	Philippines
+Malatya	Turkey
+Malawe	Egypt
+Malayer	Iran (Islamic Republic of)
+MALÉ	Maldives
+Malegaon	India
+Malerkotla	India
+Malita	Philippines
+Malkajgiri	India
+Malmö	Sweden
+Malolos	Philippines
+Manado	Indonesia
+MANAGUA	Nicaragua
+MANAMA	Bahrain
+Manaus	Brazil
+Mancherial	India
+Manchester	United Kingdom of Great Britain and Northern Ireland
+Manchester (NH)	United States of America
+Mandalay	Myanmar
+Mandaluyong	Philippines
+Mandaue	Philippines
+Mandsaur	India
+Mandya	India
+Mangalore	India
+Mangaung	South Africa
+Mango	India
+Mangora	Pakistan
+MANILA	Philippines
+Manisa	Turkey
+Manizales	Colombia
+Mannheim	Germany
+Mansfield	United Kingdom of Great Britain and Northern Ireland
+Mansûra	Egypt
+Manta	Ecuador
+Manukau	New Zealand
+Manzanillo	Mexico
+Manzhouli	China
+Maoming	China
+MAPUTO	Mozambique
+Mar del Plata-Batán	Argentina
+Maraba	Brazil
+Maracaibo	Venezuela (Bolivarian Republic of)
+Maracanau	Brazil
+Maracay	Venezuela (Bolivarian Republic of)
+Maradi	Niger
+Marand	Iran (Islamic Republic of)
+Maranguape	Brazil
+Maraqeh	Iran (Islamic Republic of)
+Marawi	Philippines
+Marbella	Spain
+Mardan	Pakistan
+Margilan	Uzbekistan
+Maribor	Slovenia
+Maricá	Brazil
+MARIEHAMN	Åland Islands
+Marikina	Philippines
+Marilao	Philippines
+Marília	Brazil
+Maringá	Brazil
+Marituba	Brazil
+Mariupol	Ukraine
+Marivan	Iran (Islamic Republic of)
+Mariveles	Philippines
+Markham	Canada
+Maroua	Cameroon
+Marseille	France
+Marugame	Japan
+Marvadsht	Iran (Islamic Republic of)
+Masan	Republic of Korea
+MASERU	Lesotho
+Mashhad	Iran (Islamic Republic of)
+Masjed Soleyman	Iran (Islamic Republic of)
+Matamoros	Mexico
+Matanzas	Cuba
+Mataram	Indonesia
+Mataró	Spain
+Mathura	India
+Mati	Philippines
+Matola	Mozambique
+Matrouh	Egypt
+Matsubara	Japan
+Matsudo	Japan
+Matsue	Japan
+Matsumoto	Japan
+Matsusaka	Japan
+Matsuyama	Japan
+Maturín	Venezuela (Bolivarian Republic of)
+Mauá	Brazil
+Maunath Bhanjan	India
+Mavoko/AthiRiver	Kenya
+Mawlamyine	Myanmar
+Mazatlán	Mexico
+MB Ipoh	Malaysia
+MB Johor Bahru	Malaysia
+MBABANE	Swaziland
+Mbeya	United Republic of Tanzania
+Mbour	Senegal
+McAllen (TX)	United States of America
+McKinney City (TX)	United States of America
+Medan	Indonesia
+Medellín	Colombia
+Medinipur	India
+Meerut	India
+Meihekou	China
+Meishan	China
+Meizhou	China
+Mejicanos	El Salvador
+Melaka	Malaysia
+Melbourne	Australia
+Melitopol	Ukraine
+Memphis (TN)	United States of America
+Mendoza	Argentina
+Menia	Egypt
+Mérida	Mexico
+Mersin	Turkey
+Mesa (AZ)	United States of America
+Mesquita	Brazil
+Mesquite (TX)	United States of America
+Messina	Italy
+Mestghanem (Mostaganem)	Algeria
+Met Ghamr	Egypt
+Metairie (LA)	United States of America
+META-UTU	Wallis and Futuna Islands
+Metz	France
+Mexicali	Mexico
+Mexico	Philippines
+"MEXICO, CIUDAD DE"	Mexico
+Meycauayan	Philippines
+Mezhdurechensk	Russian Federation
+Miami (FL)	United States of America
+Miami Gardens (FL)	United States of America
+Miandoab	Iran (Islamic Republic of)
+Mianyang	China
+Mianzhu	China
+Miass	Russian Federation
+Midland City (TX)	United States of America
+Midsayap	Philippines
+Mihara	Japan
+Milagro	Ecuador
+Milano	Italy
+Milton Keynes	United Kingdom of Great Britain and Northern Ireland
+Miluo	China
+Milwaukee (WI)	United States of America
+Minatitlán	Mexico
+Mingguang	China
+Minglanilla	Philippines
+Minna	Nigeria
+Minneapolis (MN)	United States of America
+Minoh	Japan
+MINSK	Belarus
+Miquan	China
+Mira-Bhayandar	India
+Miramar (FL)	United States of America
+Miri	Malaysia
+Mirpur Khas	Pakistan
+Miryang	Republic of Korea
+Mirzapur-cum-Vindhyachal	India
+Misato	Japan
+Mishan	China
+Mishima	Japan
+Miskolc	Hungary
+Mississauga	Canada
+Mitaka	Japan
+Mito	Japan
+Mixco	Guatemala
+Miyakonojo	Japan
+Miyazaki	Japan
+Mobile (AL)	United States of America
+Moca	Dominican Republic
+Mocuba	Mozambique
+Modena	Italy
+Modesto (CA)	United States of America
+Modinagar	India
+Moers	Germany
+Moga	India
+Mogilev	Belarus
+Mohammad Shahr	Iran (Islamic Republic of)
+Moji das Cruzes	Brazil
+Moji-Guaçu	Brazil
+Mojokerto	Indonesia
+Mokpo	Republic of Korea
+Mombasa	Kenya
+MONACO	Monaco
+Mönchengladbach	Germany
+Monclova	Mexico
+Moncton	Canada
+MONROVIA	Liberia
+Montego Bay	Jamaica
+Montería	Colombia
+Monterrey	Mexico
+Montes Claros	Brazil
+MONTEVIDEO	Uruguay
+Montgomery (AL)	United States of America
+Montpellier	France
+Montréal	Canada
+Montreuil	France
+Monywa	Myanmar
+Monza	Italy
+Moradabad	India
+Moratuwa	Sri Lanka
+Morelia	Mexico
+Morena	India
+Moreno Valley (CA)	United States of America
+Moriguchi	Japan
+Morioka	Japan
+Mormugoa	India
+Morogoro	United Republic of Tanzania
+Moroleón - Uriangato	Mexico
+Morón	Argentina
+MORONI	Comoros
+Morvi	India
+MOSKVA	Russian Federation
+Mossoró	Brazil
+Mostar	Bosnia and Herzegovina
+Móstoles	Spain
+Mosul	Iraq
+Motihari	India
+Mozir	Belarus
+MP Kota Bharu	Malaysia
+M'Sila	Algeria
+Mubi	Nigeria
+Mudanjiang	China
+Mufulira	Zambia
+Mughalsarai	India
+Mukdahan	Thailand
+Mülheim an der Ruhr	Germany
+Mulhouse	France
+Muling	China
+Multan	Pakistan
+Mumbai (Bombay)	India
+München	Germany
+Munger	India
+Münster (Westf.)	Germany
+Muntinlupa	Philippines
+Murcia	Spain
+Murfreesboro (TN)	United States of America
+Muriaé	Brazil
+Muridke	Pakistan
+Murmansk	Russian Federation
+Murom	Russian Federation
+Muroran	Japan
+Murrieta (CA)	United States of America
+Murwara (Katni)	India
+Musashino	Japan
+MUSCAT	Oman
+Mutare	Zimbabwe
+Mutrah	Oman
+Muzaffargharh	Pakistan
+Muzaffarnagar	India
+Muzaffarpur	India
+Mwanza	United Republic of Tanzania
+Myitkyina	Myanmar
+Mykolaiv (Nikolaevskaya oblast)	Ukraine
+Mymensingh	Bangladesh
+Mysore	India
+Mytishchi	Russian Federation
+Nabadwip	India
+Naberezhnye Tchelny	Russian Federation
+Nablus	State of Palestine
+Nacala	Mozambique
+Nadiad	India
+Naga (Camarines Sur)	Philippines
+Naga (Cebu)	Philippines
+Nagahama	Japan
+Nagano	Japan
+Nagaoka	Japan
+Nagaon	India
+Nagareyama	Japan
+Nagasaki	Japan
+Nagercoil	India
+Nagoya	Japan
+Nagpur	India
+Naguanagua	Venezuela (Bolivarian Republic of)
+Naha	Japan
+Naihati	India
+NAIROBI	Kenya
+Najaf	Iraq
+Najafabad	Iran (Islamic Republic of)
+Najran (Aba as-Suud)	Saudi Arabia
+Nakhodka	Russian Federation
+Nakhon Nayok	Thailand
+Nakhon Pathom	Thailand
+Nakhon Phanom	Thailand
+Nakhon Ratchasima	Thailand
+Nakhon Sawan	Thailand
+Nakhon Si Thammarat	Thailand
+Nakuru	Kenya
+Nala Sopara	India
+Nalgonda	India
+Naltchik	Russian Federation
+Namangan	Uzbekistan
+Nampho	Democratic People's Republic of Korea
+Nampula	Mozambique
+Namur	Belgium
+Nan	Thailand
+Nanan	China
+Nanchang	China
+Nanchong	China
+Nanchuan	China
+Nancy	France
+Nanded	India
+Nandyal	India
+Nangloi Jat	India
+Nangong	China
+Nanhai	China
+Nanjing	China
+Nankang	China
+Nanning	China
+Nanping	China
+Nantes	France
+Nantong	China
+Nanxiong	China
+Nanyang	China
+Naogaon	Bangladesh
+Naperville (IL)	United States of America
+Napier-Hastings	New Zealand
+Napoli	Italy
+Nara	Japan
+Narashino	Japan
+Narathiwat	Thailand
+Narayanganj	Bangladesh
+Narita	Japan
+Narsingdi	Bangladesh
+Nasariya	Iraq
+Nashik	India
+Nashville-Davidson (TN)	United States of America
+Nasim Shahr	Iran (Islamic Republic of)
+NASSAU	Bahamas
+Nasugbu	Philippines
+Nasushiobara	Japan
+Natal	Brazil
+Naucalpan de Juárez	Mexico
+Navghar-Manikpur	India
+Navi Mumbai (New Bombay)	India
+Navoi	Uzbekistan
+Navojoa	Mexico
+Navotas	Philippines
+Navsari	India
+Nawabganj	Bangladesh
+Nawabshah	Pakistan
+NAY PYI TAW	Myanmar
+Nazar Abad	Iran (Islamic Republic of)
+Nazilli	Turkey
+Nazran	Russian Federation
+N'DJAMENA	Chad
+Ndola	Zambia
+Neemuch	India
+Neftekamsk	Russian Federation
+Nefteyugansk	Russian Federation
+Negombo	Sri Lanka
+Nehe	China
+Neijiang	China
+Neiva	Colombia
+Nellore	India
+Netanya	Israel
+Netzahualcóyotl	Mexico
+Neuquén-Plottier	Argentina
+Neuss	Germany
+Nevinnomyssk	Russian Federation
+NEW DELHI	India
+New Haven (CT)	United States of America
+New Orleans (LA)	United States of America
+New York (NY)	United States of America
+Newark (NJ)	United States of America
+Newcastle	Australia
+Newcastle-Maitland	Australia
+Newport	United Kingdom of Great Britain and Northern Ireland
+Newport News (VA)	United States of America
+Neyagawa	Japan
+Neyshabur	Iran (Islamic Republic of)
+Neyveli	India
+Ngaoundéré	Cameroon
+Ngong	Kenya
+NIAMEY	Niger
+Nice	France
+Nigde	Turkey
+Niigata	Japan
+Niihama	Japan
+Niiza	Japan
+Nijmegen	Netherlands
+Nikopol	Ukraine
+Nilópolis	Brazil
+Nîmes	France
+Ningan	China
+Ningbo	China
+Ningde	China
+Ningguo	China
+Niš	Serbia
+Nishinomiya	Japan
+Nishio	Japan
+Nishitokyo	Japan
+Niterói	Brazil
+Nizamabad	India
+Nizhnekamsk	Russian Federation
+Nizhnevartovsk	Russian Federation
+Nizhny Novgorod	Russian Federation
+Nizhny Tagil	Russian Federation
+Nkongsamba	Cameroon
+Nnewi	Nigeria
+Nobeoka	Japan
+Noda	Japan
+Noginsk	Russian Federation
+Noida	India
+Nong Bua Lam Phu	Thailand
+Nong Khai	Thailand
+Nonsan	Republic of Korea
+Nonthaburi	Thailand
+Norfolk (VA)	United States of America
+Norilsk	Russian Federation
+Norman (OK)	United States of America
+Norrköping	Sweden
+North Ayrshire	United Kingdom of Great Britain and Northern Ireland
+North Barrackpur	India
+North Charleston (SC)	United States of America
+North Dumdum	India
+North Lanarkshire	United Kingdom of Great Britain and Northern Ireland
+North Las Vegas (NV)	United States of America
+North Shore	New Zealand
+Northampton	United Kingdom of Great Britain and Northern Ireland
+Norwalk (CA)	United States of America
+Norwich	United Kingdom of Great Britain and Northern Ireland
+Norzagaray	Philippines
+Nossa Senhora do Socorro	Brazil
+Nottingham	United Kingdom of Great Britain and Northern Ireland
+NOUAKCHOTT	Mauritania
+NOUMEA	New Caledonia
+Nova Friburgo	Brazil
+Nova Iguaçu	Brazil
+Novara	Italy
+Novi Sad	Serbia
+Nôvo Hamburgo	Brazil
+Novocheboksarsk	Russian Federation
+Novocherkassk	Russian Federation
+Novokuybishevsk	Russian Federation
+Novokuznetsk	Russian Federation
+Novomoskovsk (Tulskaya oblast)	Russian Federation
+Novopolotsk	Belarus
+Novorossiysk	Russian Federation
+Novoshakhtinsk	Russian Federation
+Novosibirsk	Russian Federation
+Novotroitsk	Russian Federation
+Novy Urengoy	Russian Federation
+Noyabrsk	Russian Federation
+Nuevo Laredo	Mexico
+NUKU'ALOFA	Tonga
+Nukus	Uzbekistan
+Numazu	Japan
+Nuneaton	United Kingdom of Great Britain and Northern Ireland
+Nürnberg	Germany
+NUUK (GODTHAB)	Greenland
+Nyiregyhaza	Hungary
+Nzérékoré	Guinea
+Oakland (CA)	United States of America
+Oakville	Canada
+Oaxaca de Juárez	Mexico
+Oberhausen	Germany
+Obihiro	Japan
+Obninsk	Russian Federation
+Oceanside (CA)	United States of America
+Ocotlán	Mexico
+Ocumare Del Tuy	Venezuela (Bolivarian Republic of)
+Odawara	Japan
+Odense	Denmark
+Odessa	Ukraine
+Odessa (TX)	United States of America
+Odintsovo	Russian Federation
+Offenbach am Main	Germany
+Ogaki	Japan
+Ogbomosho	Nigeria
+Oita	Japan
+Okara	Pakistan
+Okayama	Japan
+Okazaki	Japan
+Okene	Nigeria
+Okinawa	Japan
+Oklahoma City (OK)	United States of America
+Okpogho	Nigeria
+Oktyabrsky	Russian Federation
+Olathe (KS)	United States of America
+Oldenburg	Germany
+Olinda	Brazil
+Olomouc	Czech Republic
+Olongapo	Philippines
+Olsztyn	Poland
+Olten-Zofingen	Switzerland
+Omaha (NE)	United States of America
+Ome	Japan
+Omiya	Japan
+Omsk	Russian Federation
+Omuta	Japan
+Ondo	Nigeria
+Ongole	India
+Onitsha	Nigeria
+Onomichi	Japan
+Ontario (CA)	United States of America
+Opole	Poland
+Oradea	Romania
+Orai	India
+Orange (CA)	United States of America
+ORANJESTAD	Aruba
+Ordu	Turkey
+Orebro	Sweden
+Orekhovo-Zuevo	Russian Federation
+Orel	Russian Federation
+Orenburg	Russian Federation
+Orizaba	Mexico
+Orlando (FL)	United States of America
+Orléans	France
+Ormoc	Philippines
+Orsha	Belarus
+Orsk	Russian Federation
+Orumiyeh	Iran (Islamic Republic of)
+Oruro	Bolivia (Plurinational State of)
+Osaka	Japan
+Osaki	Japan
+Osasco	Brazil
+Osh	Kyrgyzstan
+Oshawa	Canada
+Oshogbo	Nigeria
+Oshu	Japan
+Osijek	Croatia
+OSLO	Norway
+Osmaniye	Turkey
+Osnabrück	Germany
+Osorno	Chile
+Ostrava	Czech Republic
+Ota	Japan
+Otaru	Japan
+Otsu	Japan
+OTTAWA	Canada
+Ottawa - Gatineau	Canada
+OUAGADOUGOU	Burkina Faso
+Ouahigouya	Burkina Faso
+Oulu	Finland
+Ourense	Spain
+Ourinhos	Brazil
+Overland Park (KS)	United States of America
+Oviedo	Spain
+Ovorhangay	Mongolia
+Owerri	Nigeria
+Owo	Nigeria
+Oxford	United Kingdom of Great Britain and Northern Ireland
+Oxnard (CA)	United States of America
+Oyama	Japan
+Oyo	Nigeria
+Ozamis	Philippines
+Ozhukarai	India
+Pabna	Bangladesh
+Pachuca (de Soto)	Mexico
+Paço do Lumiar	Brazil
+Padang	Indonesia
+Paderborn	Germany
+Padova	Italy
+Pagadian	Philippines
+PAGO PAGO	American Samoa
+Pakalongan	Indonesia
+Pakanbaru	Indonesia
+Pakdasht	Iran (Islamic Republic of)
+Pakpattan	Pakistan
+Palakkad	India
+Palangkaraya	Indonesia
+Palanpur	India
+Palembang	Indonesia
+Palermo	Italy
+Palhoça	Brazil
+Pali	India
+PALIKIR	Micronesia (Federated States of)
+Pallavaram	India
+Palm Bay City (FL)	United States of America
+Palma	Spain
+Palma de Mallorca	Spain
+Palmas	Brazil
+Palmas de Gran Canaria	Spain
+Palmdale (CA)	United States of America
+Palmira	Colombia
+Palwal	India
+Pamplona	Spain
+Panabo	Philippines
+Pancevo	Serbia
+Panchkula Urban Estate	India
+Panevezhis	Lithuania
+Pangkal Pinang	Indonesia
+Panihati	India
+Panipat	India
+Panjin	China
+Panshi	China
+Panvel	India
+Panzhihua	China
+PAPEETE	French Polynesia
+Paradise (NV)	United States of America
+PARAMARIBO	Suriname
+Paraná	Argentina
+Paranaguá	Brazil
+Paranaque	Philippines
+Parauapebas	Brazil
+Parbhani	India
+Pare Pare	Indonesia
+Parintins	Brazil
+PARIS	France
+Parla	Spain
+Parma	Italy
+Parnaíba	Brazil
+Parnamirim	Brazil
+Pasadena (CA)	United States of America
+Pasadena (TX)	United States of America
+Pasay	Philippines
+Pasig	Philippines
+Pasir Gudang	Malaysia
+Passo Fundo	Brazil
+Passos	Brazil
+Pasto	Colombia
+Pasuruan	Indonesia
+Patan	India
+Paterson (NJ)	United States of America
+Pathankot	India
+Pathein	Myanmar
+Pathum Thani	Thailand
+Patiala	India
+Patna	India
+Patos	Brazil
+Patos de Minas	Brazil
+Patrai	Greece
+Pattani	Thailand
+Paulista	Brazil
+Paulo Afonso	Brazil
+Pavas	Costa Rica
+Pavlodar	Kazakhstan
+Pavlograd	Ukraine
+Pécs	Hungary
+Pelotas	Brazil
+Pematang Siantar	Indonesia
+Pembroke Pines (FL)	United States of America
+Penglai	China
+Pengzhou	China
+Penza	Russian Federation
+Peoria (AZ)	United States of America
+Peoria (IL)	United States of America
+Pereira	Colombia
+Perez Zeledon	Costa Rica
+Perm	Russian Federation
+Perpignan	France
+Perth	Australia
+Perth & Kinross	United Kingdom of Great Britain and Northern Ireland
+Perugia	Italy
+Pervouralsk	Russian Federation
+Pescara	Italy
+Peshawar	Pakistan
+Pésterion	Greece
+Petah Tiqwa	Israel
+Petaling Jaya	Malaysia
+Petare	Venezuela (Bolivarian Republic of)
+Peterborough	Canada
+Petrolina	Brazil
+Petropavlovsk (Severo- Kazakhstanskaya oblast)	Kazakhstan
+Petropavlovsk-Kamchatsky	Russian Federation
+Petrópolis	Brazil
+Petrozavodsk	Russian Federation
+Pforzheim	Germany
+Phagwara	India
+Phangnga	Thailand
+Phatthalung	Thailand
+Phayao	Thailand
+Phetchabun	Thailand
+Phetchaburi	Thailand
+Phichit	Thailand
+Philadelphia (PA)	United States of America
+Philippines: Ligao	Philippines
+Phitsanulok	Thailand
+Phoenix (AZ)	United States of America
+Phra Nakhon Si Ayutthaya	Thailand
+Phrae	Thailand
+Phuket	Thailand
+Phusro	India
+Phyongsong	Democratic People's Republic of Korea
+Piacenza	Italy
+Piatra Neamt	Romania
+Piedecuesta	Colombia
+Piedras Negras	Mexico
+Pietermaritzburg	South Africa
+Pikine	Senegal
+Pikit	Philippines
+Pilibhit	India
+Pimpri Chinchwad	India
+Pinar del Río	Cuba
+Pindamonhangaba	Brazil
+Pingdingshan	China
+Pingdu	China
+Pinghu	China
+Pingliang	China
+Pingxiang (Guangxi)	China
+Pingxiang (Jiangxi)	China
+Pinhais	Brazil
+Pinsk	Belarus
+Piracicaba	Brazil
+Pireas	Greece
+Pisco	Peru
+Pitalito	Colombia
+Pitesti	Romania
+Pittsburgh (PA)	United States of America
+Piura	Peru
+Pizhou	China
+Plano (TX)	United States of America
+Plaridel	Philippines
+Playa del Carmen	Mexico
+Pleven	Bulgaria
+Plock	Poland
+Ploiesti	Romania
+Plovdiv	Bulgaria
+PLYMOUTH	Montserrat
+Plzen	Czech Republic
+Poà	Brazil
+Pococi	Costa Rica
+Poços de Caldas	Brazil
+PODGORICA	Montenegro
+Podolsk	Russian Federation
+Pohang	Republic of Korea
+Pointe-à-Pitre	Guadeloupe
+Pointe-Noire	Congo
+Pokhara	Nepal
+Polatli	Turkey
+Pollachi	India
+Polomolok	Philippines
+Poltava	Ukraine
+Pomona (CA)	United States of America
+Pompano Beach (FL)	United States of America
+Ponce	Puerto Rico
+Pondicherry	India
+Ponta Grossa	Brazil
+Pontianak	Indonesia
+Popayán	Colombia
+Porac	Philippines
+Porbandar	India
+Port Elizabeth	South Africa
+Port Harcourt	Nigeria
+PORT LOUIS	Mauritius
+PORT MORESBY	Papua New Guinea
+Port Said	Egypt
+Port St. Lucie (FL)	United States of America
+PORT VILA	Vanuatu
+Portland (OR)	United States of America
+Portmore	Jamaica
+Porto	Portugal
+Porto Alegre	Brazil
+Porto Seguro	Brazil
+Porto Velho	Brazil
+PORT-OF-SPAIN	Trinidad and Tobago
+Portoviejo	Ecuador
+Portsmouth	United Kingdom of Great Britain and Northern Ireland
+Portsmouth (VA)	United States of America
+Posadas	Argentina
+Potosí	Bolivia (Plurinational State of)
+Potsdam	Germany
+Pouso Alegre	Brazil
+Pouytenga	Burkina Faso
+Poza Rica de Hidalgo	Mexico
+Poznan	Poland
+Pozuelos (F) (Capital)	Venezuela (Bolivarian Republic of)
+Prachin Buri	Thailand
+Prachuap Khiri Khan	Thailand
+PRAHA	Czech Republic
+PRAIA	Cabo Verde
+Praia Grande	Brazil
+Prato	Italy
+Presidente Prudente	Brazil
+Preston	United Kingdom of Great Britain and Northern Ireland
+PRETORIA	South Africa
+Prijedor	Bosnia and Herzegovina
+Probolinggo	Indonesia
+Proddatur	India
+Prokopyevsk	Russian Federation
+Providence (RI)	United States of America
+Provo (UT)	United States of America
+Pskov	Russian Federation
+Pucallpa	Peru
+Pudukkottai	India
+Puebla de Zaragoza	Mexico
+Pueblo (CO)	United States of America
+Puente Alto	Chile
+Puerto Cabello	Venezuela (Bolivarian Republic of)
+Puerto La Cruz	Venezuela (Bolivarian Republic of)
+Puerto Montt	Chile
+Puerto Plata	Dominican Republic
+Puerto Princesa	Philippines
+Puerto Vallarta	Mexico
+Pulandian	China
+Pune	India
+Puning	China
+Puno	Peru
+Punta Arenas	Chile
+Puntarenas	Costa Rica
+Punto Fijo	Venezuela (Bolivarian Republic of)
+Puri	India
+Purnia	India
+Puruliya	India
+Pushkino	Russian Federation
+Putian	China
+Puyang	China
+Pyatigorsk	Russian Federation
+PYONGYANG	Democratic People's Republic of Korea
+Qacentina (Constantine)	Algeria
+Qaem shahr	Iran (Islamic Republic of)
+Qarchak	Iran (Islamic Republic of)
+Qazvin	Iran (Islamic Republic of)
+Qianan	China
+Qianjiang	China
+Qidong	China
+Qingdao	China
+Qingtongxia	China
+Qingyuan	China
+Qingzhen	China
+Qingzhou	China
+Qinhuangdao	China
+Qinyang	China
+Qinzhou	China
+Qionghai	China
+Qionglai	China
+Qiongshan	China
+Qiqihaer	China
+Qitaihe	China
+Qixia	China
+Qods	Iran (Islamic Republic of)
+Qom	Iran (Islamic Republic of)
+Quanzhou	China
+Quchan	Iran (Islamic Republic of)
+Québec	Canada
+Queimados	Brazil
+Quelimane	Mozambique
+Querétaro	Mexico
+Quetta	Pakistan
+Quetzaltenango	Guatemala
+Quevedo	Ecuador
+Quezon City	Philippines
+Qufu	China
+Quibdo	Colombia
+Quilmes	Argentina
+Quilpué	Chile
+QUITO	Ecuador
+Qujing	China
+Quthbullapur	India
+Quzhou	China
+Radom	Poland
+Rae Bareli	India
+Rafah	State of Palestine
+Rafsanjan	Iran (Islamic Republic of)
+Rahimyar Khan	Pakistan
+Raichur	India
+Raiganj	India
+Raigarh	India
+Raipur	India
+Rajahmundry	India
+Rajapalayam	India
+Rajarhat Gopalpur	India
+Rajendranagar	India
+Rajkot	India
+Rajnandgaon	India
+Rajpur Sonarpur	India
+Rajshahi	Bangladesh
+Raleigh (NC)	United States of America
+Ramadan	Egypt
+Ramadi	Iraq
+Ramagundam	India
+Ramat Gan	Israel
+Ramgarh	India
+Rampur	India
+Ranaghat	India
+Rancagua	Chile
+Ranchi	India
+Rancho Cucamonga (CA)	United States of America
+Rangpur	Bangladesh
+Raniganj	India
+Ranong	Thailand
+RAROTONGA	Cook Islands
+Rasht	Iran (Islamic Republic of)
+Rason	Democratic People's Republic of Korea
+Ratchaburi	Thailand
+Ratlam	India
+Raurkela	India
+Raurkela Industrialship	India
+Ravenna	Italy
+Rawalpindi	Pakistan
+Rawson-Trelew-Playa Unión	Argentina
+Rayong	Thailand
+Reading/Wokingham	United Kingdom of Great Britain and Northern Ireland
+Recife	Brazil
+Recklinghausen	Germany
+Regensburg	Germany
+Reggio di Calabria	Italy
+Reggio nell'Emilia	Italy
+Regina	Canada
+Rehovot	Israel
+Reims	France
+Remscheid	Germany
+Renfrewshire	United Kingdom of Great Britain and Northern Ireland
+Renhuai	China
+Rennes	France
+Reno (NV)	United States of America
+Renqiu	China
+Resende	Brazil
+Resistencia	Argentina
+Reus	Spain
+Reutlingen	Germany
+Rewa	India
+Rewari	India
+REYKJAVIK	Iceland
+Reynosa	Mexico
+Rialto (CA)	United States of America
+Ribeirao das Neves	Brazil
+Ribeirao Pires	Brazil
+Ribeirao Prêto	Brazil
+Richardson (TX)	United States of America
+Richmond	Canada
+Richmond (CA)	United States of America
+Richmond (VA)	United States of America
+Richmond Hill	Canada
+RIGA	Latvia
+Rijeka	Croatia
+Rimini	Italy
+Rimnicu Vilcea	Romania
+Rio Branco	Brazil
+Rio Claro	Brazil
+Río Cuarto	Argentina
+Rio das Ostras	Brazil
+Rio de Janeiro	Brazil
+Rio Grande	Brazil
+Rio Verde	Brazil
+Riobamba	Ecuador
+Riohacha	Colombia
+Rionegro	Colombia
+Rioverde - Ciudad Fernández	Mexico
+Rishon Leziyyon	Israel
+Rishra	India
+Riverside (CA)	United States of America
+Rivne	Ukraine
+RIYADH	Saudi Arabia
+Rize	Turkey
+Rizhao	China
+ROAD TOWN	British Virgin Islands
+Robertson Pet	India
+Rochester (MN)	United States of America
+Rochester (NY)	United States of America
+Rockford (IL)	United States of America
+Rodriguez (Montalban)	Philippines
+Rohtak	India
+Roi Et	Thailand
+ROMA	Italy
+Rondonópolis	Brazil
+Rongcheng	China
+Roodepoort	South Africa
+Roorkee	India
+Rosario	Argentina
+ROSEAU	Dominica
+Roseville (CA)	United States of America
+Rostock	Germany
+Rostov-na-Donu	Russian Federation
+Rotterdam	Netherlands
+Rouen	France
+Round Rock (TX)	United States of America
+Roxas	Philippines
+Rubtsovsk	Russian Federation
+Ruda Slaska	Poland
+Rudni	Kazakhstan
+Rufisque	Senegal
+Rugao	China
+Ruian	China
+Ruichang	China
+Ruijin	China
+Ruili	China
+Ruiru	Kenya
+Ruse	Bulgaria
+Rushan	China
+Russiefa	Jordan
+Rustavi	Georgia
+Ruzhou	China
+Ryazan	Russian Federation
+Rybinsk	Russian Federation
+Rybnik	Poland
+Rzeszów	Poland
+S.A.S. Nagar (Mohali)	India
+Sa Kaeo	Thailand
+Saanich	Canada
+Saarbrücken	Germany
+Šabac	Serbia
+Sabadell	Spain
+Sabára	Brazil
+Sabzewar	Iran (Islamic Republic of)
+Sacheon	Republic of Korea
+Sacramento (CA)	United States of America
+Sadiqabad	Pakistan
+Saga	Japan
+Sagamihara	Japan
+Sagamu	Nigeria
+Sagar	India
+Sagay City	Philippines
+Saguenay	Canada
+Saharanpur	India
+Saharasa	India
+Sahiwal	Pakistan
+Saïda	Algeria
+Saidpur	Bangladesh
+Saijo	Japan
+Saint John	Canada
+Saint Louis	Senegal
+Saint-Denis	France
+Saint-Denis (La Réunion)	France
+Saint-Étienne	France
+Saint-Paul	Réunion
+Saint-Paul (La Réunion)	France
+SAINT-PIERRE	Saint Pierre and Miquelon
+Saitama	Japan
+Sakado	Japan
+Sakai	Japan
+Sakarya	Turkey
+Sakata	Japan
+Sakon Nakhon	Thailand
+Sakon Sakhon	Thailand
+Saku	Japan
+Sakura	Japan
+Salalah	Oman
+Salamanca	Mexico
+Salatiga	Indonesia
+Salavat	Russian Federation
+Salem	India
+Salem (OR)	United States of America
+Salerno	Italy
+Salinas (CA)	United States of America
+Salmiya	Kuwait
+Salt Lake City (UT)	United States of America
+Salta	Argentina
+Saltillo	Mexico
+Salto	Brazil
+Salvador	Brazil
+Salzburg	Austria
+Salzgitter	Germany
+Samara (Samarskaya oblast)	Russian Federation
+Samarinda	Indonesia
+Samarkand	Uzbekistan
+Sambalpur	India
+Sambhal	India
+Samsun	Turkey
+Samut Prakan	Thailand
+Samut Sakhon	Thailand
+Samut Songkhram	Thailand
+San Andres de Tumaco	Colombia
+San Antonio (TX)	United States of America
+San Bernardino (CA)	United States of America
+San Bernardo	Chile
+San Buenaventura (CA)	United States of America
+San Carlos	Costa Rica
+San Carlos (Negros Occidental)	Philippines
+San Carlos (Pangasinan)	Philippines
+San Cristóbal	Dominican Republic
+San Cristóbal de La Laguna	Spain
+San Cristobal de las Casas	Mexico
+San Diego (CA)	United States of America
+San Fernando	Argentina
+San Fernando (La Union)	Philippines
+San Fernando (Pampanga)	Philippines
+San Fernando de Apure	Venezuela (Bolivarian Republic of)
+San Francisco	Venezuela (Bolivarian Republic of)
+San Francisco (CA)	United States of America
+San Francisco Coacalco	Mexico
+San Francisco de Macoris	Dominican Republic
+San Francisco del Rincón	Mexico
+San Isidro	Argentina
+SAN JOSE	Costa Rica
+San Jose (CA)	United States of America
+San Jose (Occidental Mindoro)	Philippines
+San Jose City (Nueva Ecija)	Philippines
+San Jose Del Monte	Philippines
+San Juan	Argentina
+San Juan Bautista Tuxtepec	Mexico
+San Juan de la Maguana	Dominican Republic
+San Juan del Río	Mexico
+San Lorenzo	Paraguay
+San Luis - El Chorrillo	Argentina
+San Luis Potosí	Mexico
+San Luis Rio Colorado	Mexico
+SAN MARINO	San Marino
+San Martin	El Salvador
+San Martín Texmelucan	Mexico
+San Mateo	Philippines
+San Miguel	El Salvador
+San Miguel de Tucumán	Argentina
+San Nicolas de los Garza	Mexico
+San Nicolás-Villa Constitución	Argentina
+San Pablo	Philippines
+San Pedro	Philippines
+San Pedro de la Paz	Chile
+San Pedro de Macoris	Dominican Republic
+San Pedro Garza Garcia	Mexico
+San Pedro Sula	Honduras
+SAN SALVADOR	El Salvador
+San Salvador de Jujuy-Palpalá	Argentina
+SANA'A	Yemen
+Sanandaj	Iran (Islamic Republic of)
+Sancti Spíritus	Cuba
+Sanda	Japan
+Sandakan	Malaysia
+Sangju	Republic of Korea
+Sangli-Miraj-Kupwad	India
+Sango Otta	Nigeria
+Sanhe	China
+Sanjo	Japan
+Sankt Pölten	Austria
+Sanliurfa	Turkey
+Sanmenxia	China
+Sanming	China
+Sano	Japan
+Sanshui	China
+Santa Ana	El Salvador
+Santa Ana (CA)	United States of America
+Santa Bárbara D'Oeste	Brazil
+Santa Clara	Cuba
+Santa Clara (CA)	United States of America
+Santa Clarita (CA)	United States of America
+Santa Coloma de Gramanet	Spain
+Santa Cruz	Bolivia (Plurinational State of)
+Santa Cruz de Tenerife	Spain
+Santa Cruz do Sul	Brazil
+Santa Elena	Ecuador
+Santa Fé	Argentina
+Santa Lucia	Venezuela (Bolivarian Republic of)
+Santa Luzia (Minas Gerais)	Brazil
+Santa Maria	Brazil
+Santa Maria (CA)	United States of America
+Santa Marta	Colombia
+Santa Rita	Brazil
+Santa Rosa	Philippines
+Santa Rosa (CA)	United States of America
+Santa Rosa-Toay	Argentina
+Santa Tecla	El Salvador
+Santana	Brazil
+Santana de Parnaíba	Brazil
+Santander	Spain
+Santarém	Brazil
+SANTIAGO	Chile
+Santiago de Cuba	Cuba
+Santiago de los Caballeros	Dominican Republic
+Santiago del Estero-La Banda	Argentina
+Santipur	India
+Santo André	Brazil
+SANTO DOMINGO	Dominican Republic
+Santo Domingo de los Colorados	Ecuador
+Santo Domingo East	Dominican Republic
+Santo Domingo North	Dominican Republic
+Santo Domingo West	Dominican Republic
+Santo Tomas ( Davao Del Norte)	Philippines
+Santo Tomas (Batangas)	Philippines
+Santos	Brazil
+Sanya	China
+Sao Bernardo do Campo	Brazil
+Sao Caetano do Sul	Brazil
+Sao Carlo	Brazil
+Sao Gonçalo	Brazil
+Sao Joao de Meriti	Brazil
+Sao José	Brazil
+Sao José de Ribamar	Brazil
+Sao José do Rio Prêto	Brazil
+Sao José dos Campos	Brazil
+Sao José dos Pinhais	Brazil
+Sao Leopoldo	Brazil
+São Lourenço da Mata	Brazil
+Sao Luís	Brazil
+São Mateus	Brazil
+Sao Paulo	Brazil
+SAO TOME	Sao Tome and Principe
+Sao Vicente	Brazil
+Sapele	Nigeria
+Sapporo	Japan
+Sapucaia do Sul	Brazil
+Saqez	Iran (Islamic Republic of)
+Saraburi	Thailand
+SARAJEVO	Bosnia and Herzegovina
+Saransk	Russian Federation
+Sarapyul	Russian Federation
+Saratov	Russian Federation
+Sargodha	Pakistan
+Sari	Iran (Islamic Republic of)
+Sariaya	Philippines
+Sariwon	Democratic People's Republic of Korea
+Sasaram	India
+Sasebo	Japan
+Saskatoon	Canada
+Sassari	Italy
+Satara	India
+Satna	India
+Satsumasendai	Japan
+Satu-Mare	Romania
+Satun	Thailand
+Savannah (GA)	United States of America
+Saveh	Iran (Islamic Republic of)
+Sawai Madhopur	India
+Sayama	Japan
+Schaerbeek	Belgium
+Schwerin	Germany
+Scottish Borders	United Kingdom of Great Britain and Northern Ireland
+Scottsdale (AZ)	United States of America
+Seattle (WA)	United States of America
+Secunderabad	India
+Sekaka	Saudi Arabia
+Sekondi	Ghana
+Sekudai	Malaysia
+Seleyang Baru	Malaysia
+Semarang	Indonesia
+Semipalatinsk	Kazakhstan
+Semnan	Iran (Islamic Republic of)
+Sendai	Japan
+Seongnam	Republic of Korea
+Seosan	Republic of Korea
+SEOUL	Republic of Korea
+Serampore	India
+Seremban	Malaysia
+Sergiev Posad	Russian Federation
+Serilingampalle	India
+Serov	Russian Federation
+Serpukhov	Russian Federation
+Serra	Brazil
+Sertaozinho	Brazil
+Sete Lagoas	Brazil
+Seto	Japan
+Setubal	Portugal
+Sevastopol	Ukraine
+Severodonetsk	Ukraine
+Severodvinsk	Russian Federation
+Seversk	Russian Federation
+Sevilla	Spain
+s-Gravenhage	Netherlands
+Shah Alam	Malaysia
+Shahe	China
+Shahinshahr	Iran (Islamic Republic of)
+Shahjahanpur	India
+Shahr-e-Kord	Iran (Islamic Republic of)
+Shahreza	Iran (Islamic Republic of)
+Shahriar	Iran (Islamic Republic of)
+Shahrud	Iran (Islamic Republic of)
+Shakhty	Russian Federation
+Shakkarpur	Pakistan
+Shanghai	China
+Shangqiu	China
+Shangrao	China
+Shangyu	China
+Shangzhi	China
+Shangzhou	China
+Shantou	China
+Shanwei	China
+Shaoguan	China
+Shaowu	China
+Shaoxing	China
+Shaoyang	China
+Shauliai	Lithuania
+Shchelkovo	Russian Federation
+Shebin-El-Kom	Egypt
+Sheffield	United Kingdom of Great Britain and Northern Ireland
+Sheikhu Pura	Pakistan
+Shengzhou	China
+Shenyang	China
+Shenzhen	China
+Shenzhou	China
+Sherbrooke	Canada
+s-Hertogenbosch	Netherlands
+Shibata	Japan
+Shifang	China
+Shihezi	China
+Shijiazhuang	China
+Shillong	India
+Shimada	Japan
+Shimizu	Japan
+Shimkent	Kazakhstan
+Shimla	India
+Shimoga	India
+Shimonoseki	Japan
+Shinyanga	United Republic of Tanzania
+Shiraz	Iran (Islamic Republic of)
+Shishi	China
+Shishou	China
+Shivapuri	India
+Shiyan	China
+Shizuishan	China
+Shizuoka	Japan
+Shoosh	Iran (Islamic Republic of)
+Shouguang	China
+Shreveport (LA)	United States of America
+Shuangcheng	China
+Shuangliao	China
+Shuangyashan	China
+Shubra-El-Khema	Egypt
+Shulan	China
+Shunan	Japan
+Shunde	China
+Shuozhou	China
+Si Sa Ket	Thailand
+Sialkote	Pakistan
+Sibiu	Romania
+Sibu	Malaysia
+Sidi-bel-Abbès	Algeria
+Siegen	Germany
+Sihui	China
+Siirt	Turkey
+Sikar	India
+Silang	Philippines
+Silay	Philippines
+Silchar	India
+Siliguri	India
+Simao	China
+Simferopol	Ukraine
+Simi Valley (CA)	United States of America
+Simoes Filho	Brazil
+Sincelejo	Colombia
+Sing Buri	Thailand
+SINGAPORE	Singapore
+Singrauli	India
+Sinop	Brazil
+Sinpho	Democratic People's Republic of Korea
+Sinuiju	Democratic People's Republic of Korea
+Sioux Falls (SD)	United States of America
+Siping	China
+Siracusa	Italy
+Sirajganj	Bangladesh
+Sirjan	Iran (Islamic Republic of)
+Sirsa	India
+Sitapur	India
+Sittway	Myanmar
+Sivakasi	India
+Sivas	Turkey
+Siverek	Turkey
+Siwan	India
+Skikda	Algeria
+SKOPJE	TFYR of Macedonia
+Slavyansk	Ukraine
+Slough	United Kingdom of Great Britain and Northern Ireland
+Slupsk	Poland
+Smederevo	Serbia
+Smolensk	Russian Federation
+Soacha	Colombia
+Sobral	Brazil
+Sochi	Russian Federation
+SOFIA	Bulgaria
+Sogamoso	Colombia
+Sohag	Egypt
+Sohar	Oman
+Soka	Japan
+Sokoto	Nigeria
+Solapur	India
+Soledad	Colombia
+Soledad de Graciano Sanchez	Mexico
+Solenzo	Burkina Faso
+Soligorsk	Belarus
+Solikamsk	Russian Federation
+Solingen	Germany
+Songkhla	Thailand
+Songyuan	China
+Songzi	China
+Sonipat	India
+Sonsonate	El Salvador
+Sorocaba	Brazil
+Sorsogon	Philippines
+Sosnowiec	Poland
+Souq Ahras	Algeria
+South Ayrshire	United Kingdom of Great Britain and Northern Ireland
+South Bend (IN)	United States of America
+South Dum Dum	India
+South Lanarkshire	United Kingdom of Great Britain and Northern Ireland
+Southampton	United Kingdom of Great Britain and Northern Ireland
+Southend	United Kingdom of Great Britain and Northern Ireland
+Southport/Formby	United Kingdom of Great Britain and Northern Ireland
+Soweto	South Africa
+Soyapango	El Salvador
+Spanish Town	Jamaica
+Split	Croatia
+Spokane (WA)	United States of America
+Spring Valley (NV)	United States of America
+Springfield (IL)	United States of America
+Springfield (MA)	United States of America
+Springfield (MO)	United States of America
+Springs	South Africa
+Sri Jayawardanapura Kotte	Sri Lanka
+Srikakulam	India
+Srinagar	India
+St Catharines-Niagara	Canada
+St. Albans/Hatfield	United Kingdom of Great Britain and Northern Ireland
+St. Gallen	Switzerland
+ST. GEORGE'S	Grenada
+ST. HELIER	Jersey
+ST. JOHN	Antigua and Barbuda
+St. John's	Canada
+St. Louis (MO)	United States of America
+St. Paul (MN)	United States of America
+ST. PETER PORT	Guernsey
+St. Petersburg	Russian Federation
+St. Petersburg (FL)	United States of America
+Stakhanov	Ukraine
+Stamford (CT)	United States of America
+STANLEY	Falkland Islands (Malvinas)
+Stara Zagora	Bulgaria
+Stary Oskol	Russian Federation
+Stavanger	Norway
+Stavropol	Russian Federation
+Sterling Heights (MI)	United States of America
+Sterlitamak	Russian Federation
+Stif (Sétif)	Algeria
+STOCKHOLM	Sweden
+Stockton (CA)	United States of America
+Strasbourg	France
+Stuttgart	Germany
+Subang Jaya	Malaysia
+Subotica	Serbia
+Suceava	Romania
+SUCRE	Bolivia (Plurinational State of)
+Suez	Egypt
+Suihua	China
+Suining	China
+Suita	Japan
+Suizhou	China
+Sukabumi	Indonesia
+Sukhothai	Thailand
+Sukkur	Pakistan
+Sulamaniya	Iraq
+Suleja	Nigeria
+Sullana	Peru
+Sultan Pur Majra	India
+Sultanpur	India
+Sumaré	Brazil
+Sumgayit	Azerbaijan
+Sumy	Ukraine
+Suncheon	Republic of Korea
+Sunchon	Democratic People's Republic of Korea
+Sunderland	United Kingdom of Great Britain and Northern Ireland
+Sungai Ara	Malaysia
+Sungai Petani	Malaysia
+Sunnyvale (CA)	United States of America
+Sunrise Manor (NV)	United States of America
+Sunshine Coast	Australia
+Suphan Buri	Thailand
+Suqian	China
+Surabaya	Indonesia
+Surakarta	Indonesia
+Surat	India
+Surat Thani	Thailand
+Surendranagar Dudhrej	India
+Surgut	Russian Federation
+Surigao	Philippines
+Surin	Thailand
+Surprise (AZ)	United States of America
+Surrey	Canada
+Susano	Brazil
+SUVA	Fiji
+Suwon (Puwan)	Republic of Korea
+Suzhou (Anhui)	China
+Suzhou (Jiangsu)	China
+Suzuka	Japan
+Swansea	United Kingdom of Great Britain and Northern Ireland
+Swindon	United Kingdom of Great Britain and Northern Ireland
+Sydney	Australia
+Syktivkar	Russian Federation
+Syracuse (NY)	United States of America
+Syzran	Russian Federation
+Szczecin	Poland
+Szeged	Hungary
+Székesfehérvar	Hungary
+Tabaco	Philippines
+Taboao da Serra	Brazil
+Tabriz	Iran (Islamic Republic of)
+Tabuk	Philippines
+Tacheng	China
+Tachikawa	Japan
+Tacloban	Philippines
+Tacna	Peru
+Tacoma (WA)	United States of America
+Tadepalligudem	India
+Taganrog	Russian Federation
+Taguig	Philippines
+Tagum	Philippines
+Tai'an	China
+Taicang	China
+Taiping	Malaysia
+Taishan	China
+Taixing	China
+Taiyuan	China
+Taizhou (Jiangsu)	China
+Taizhou (Zhejiang)	China
+Ta'izz	Yemen
+Tajimi	Japan
+Tak	Thailand
+Takamatsu	Japan
+Takaoka	Japan
+Takarazuka	Japan
+Takasaki	Japan
+Takatsuki	Japan
+Takoradi	Ghana
+Talavera	Philippines
+Talca	Chile
+Talcahuano	Chile
+Taldykorgan	Kazakhstan
+Talisay	Philippines
+Tallahassee (FL)	United States of America
+TALLINN	Estonia
+Tama	Japan
+Tamale	Ghana
+Tambaram	India
+Tambov	Russian Federation
+Tampa (FL)	United States of America
+Tampere	Finland
+Tampico	Mexico
+Tanauan	Philippines
+Tanchon	Democratic People's Republic of Korea
+Tandoadam	Pakistan
+Tanga	United Republic of Tanzania
+Tangail	Bangladesh
+Tangerang	Indonesia
+Tangshan	China
+Tanjung Balai	Indonesia
+Tanta	Egypt
+Tanza	Philippines
+Taonan	China
+Tapachula (de Cordova y Ordoñez)	Mexico
+Taranto	Italy
+Tarapoto	Peru
+TARAWA	Kiribati
+Taraz	Kazakhstan
+Táriba	Venezuela (Bolivarian Republic of)
+Tarija	Bolivia (Plurinational State of)
+Tarlac	Philippines
+Tarnów	Poland
+Tarragona	Spain
+Tarsus	Turkey
+Tartu	Estonia
+Tashauz	Turkmenistan
+TASHKENT	Uzbekistan
+Tatuí	Brazil
+Taubaté	Brazil
+Taunggyi	Myanmar
+Tauranga	New Zealand
+Tawau	Malaysia
+Taytay	Philippines
+Tbessa	Algeria
+TBILISI	Georgia
+Tebing Tinggi	Indonesia
+Tecomán	Mexico
+Teesside	United Kingdom of Great Britain and Northern Ireland
+Tegal	Indonesia
+TEGUCIGALPA	Honduras
+TEHRAN	Iran (Islamic Republic of)
+Tehuacán	Mexico
+Teixeira de Freitas	Brazil
+Tekirdag	Turkey
+Tel Aviv-Yafo	Israel
+Telde	Spain
+Telford	United Kingdom of Great Britain and Northern Ireland
+Tema	Ghana
+Tembisa	South Africa
+Temecula (CA)	United States of America
+Temirtau	Kazakhstan
+Tempe (AZ)	United States of America
+Temuco	Chile
+Tenali	India
+Tengzhou	China
+Tenkodogo	Burkina Faso
+Teófilo Otoni	Brazil
+Tepic	Mexico
+Teresina	Brazil
+Teresópolis	Brazil
+Termez	Uzbekistan
+Terni	Italy
+Ternopol	Ukraine
+Terrassa	Spain
+Tete	Mozambique
+Tezpur	India
+Thane	India
+Thanesar	India
+Thanet	United Kingdom of Great Britain and Northern Ireland
+Thanjavur	India
+The Hague	Netherlands
+The Medway Towns	United Kingdom of Great Britain and Northern Ireland
+The Potteries	United Kingdom of Great Britain and Northern Ireland
+THE VALLEY	Anguilla
+Thessaloniki	Greece
+Thiès	Senegal
+Thika	Kenya
+THIMPHU	Bhutan
+Thiruvananthapuram	India
+Thoothukkudi (Tuticorin)	India
+Thornton (CO)	United States of America
+THORSHAVN	Faeroe Islands
+Thousand Oaks (CA)	United States of America
+Thrissur	India
+Thunder Bay	Canada
+Tianchang	China
+Tianjin	China
+Tianmen	China
+Tianshui	China
+Tiefa	China
+Tieli	China
+Tieling	China
+Tihert	Algeria
+Tijuana	Mexico
+Tilburg	Netherlands
+Tilimsen (Tlemcen)	Algeria
+Timisoara	Romania
+Timon	Brazil
+Tinsukia	India
+TIRANA	Albania
+Tirgu-Mures	Romania
+Tiruchchirappalli	India
+Tirunelveli	India
+Tirupati	India
+Tiruppur	India
+Tiruvannamalai	India
+Tiruvottiyur	India
+Titagarh	India
+Tlalnepantla	Mexico
+Tlaquepaque	Mexico
+Tlaxcala	Mexico
+Toamasina	Madagascar
+Tobolsk	Russian Federation
+Tochigi	Japan
+Tocuyito	Venezuela (Bolivarian Republic of)
+Toda	Japan
+Tokai	Japan
+Tokat	Turkey
+Tokchon	Democratic People's Republic of Korea
+Tokorozawa	Japan
+Tokushima	Japan
+Tokuyama	Japan
+TOKYO	Japan
+Toledo	Brazil
+Toledo (OH)	United States of America
+Toluca (de Lerdo)	Mexico
+Tolyatti	Russian Federation
+Tomakomai	Japan
+Tomsk	Russian Federation
+Tonala	Mexico
+Tondabayashi	Japan
+Tongcheng	China
+Tongchuan	China
+Tonghua	China
+Tongi	Bangladesh
+Tongjiang	China
+Tongliao	China
+Tongling	China
+Tongren	China
+Tongshi	China
+Tongxiang	China
+Tongyeong	Republic of Korea
+Tongzhou	China
+Tonk	India
+Toowoomba	Australia
+Topeka (KS)	United States of America
+Torbat-e-heydariyeh	Iran (Islamic Republic of)
+Torbay	United Kingdom of Great Britain and Northern Ireland
+Toride	Japan
+Torino	Italy
+Toronto	Canada
+Torrance (CA)	United States of America
+Torrejón de Ardoz	Spain
+Torreón	Mexico
+Torrevieja	Spain
+Torun	Poland
+Tottori	Japan
+Touggourt	Algeria
+Toulon	France
+Toulouse	France
+Tours	France
+Town of St. George	Bermuda
+Townsville	Australia
+Toyama	Japan
+Toyohashi	Japan
+Toyokawa	Japan
+Toyonaka	Japan
+Toyota	Japan
+Trabzon	Turkey
+Trang	Thailand
+Trat	Thailand
+Trece Martires	Philippines
+Trento	Italy
+Três Lagoas	Brazil
+Trier	Germany
+Trieste	Italy
+Trindade	Brazil
+Tripoli	Lebanon
+Trois-Rivières	Canada
+Trondheim	Norway
+Trujillo	Peru
+Tsu	Japan
+Tsuchiura	Japan
+Tsukuba	Japan
+Tsuruoka	Japan
+Tsuyama	Japan
+Tucson (AZ)	United States of America
+Tucumán-Tafí Viejo	Argentina
+Tuguegarao	Philippines
+Tula	Russian Federation
+"Tula, Tula de Allende"	Mexico
+"Tulancingo, Tulancingo de Bravo"	Mexico
+Tulsa (OK)	United States of America
+Tuluá	Colombia
+Tulufan	China
+Tumen	China
+Tumkur	India
+Tunja	Colombia
+Turbo	Colombia
+Turgutlu ( Manisa)	Turkey
+Türkmenabat (Chardzhou)	Turkmenistan
+Turku	Finland
+Turmero	Venezuela (Bolivarian Republic of)
+Tuxpan	Mexico
+Tuxtla Gutiérrez	Mexico
+Tuzla	Bosnia and Herzegovina
+Tver	Russian Federation
+Tychy	Poland
+Tyneside	United Kingdom of Great Britain and Northern Ireland
+Tyumen	Russian Federation
+Ubá	Brazil
+Ube	Japan
+Uberaba	Brazil
+Uberlândia	Brazil
+Ubon Ratchathani	Thailand
+Udaipur	India
+Udon Thani	Thailand
+Udupi	India
+Ueda	Japan
+Ufa	Russian Federation
+Ugep	Nigeria
+Uhta	Russian Federation
+Uijeongbu (Eujeongbu)	Republic of Korea
+Uji	Japan
+Ujjain	India
+ULAANBAATAR	Mongolia
+Ulan-Ude	Russian Federation
+Ulhasnagar	India
+Ulm	Germany
+Ulsan	Republic of Korea
+Uluberia	India
+Ulyanovsk	Russian Federation
+Umeå	Sweden
+Umlazi	South Africa
+Umuahia	Nigeria
+Umuarama	Brazil
+Unayzah	Saudi Arabia
+Unnao	India
+Uppal Kalan	India
+Uppsala	Sweden
+Uralsk	Kazakhstan
+Urasoe	Japan
+Urawa	Japan
+Urayasu	Japan
+Urban Honolulu (HI)	United States of America
+Urdaneta	Philippines
+Urgentch	Uzbekistan
+Uribia	Colombia
+Uruapan	Mexico
+Uruguaiana	Brazil
+Uruma	Japan
+Urumqi	China
+Usak	Turkey
+Ushuaia-Río Grande	Argentina
+Ussuriisk	Russian Federation
+Ústí nad Labem	Czech Republic
+Ust-Kamenogorsk	Kazakhstan
+Ust-Ulimsk	Russian Federation
+Uthai Thani	Thailand
+Utrecht	Netherlands
+Utsunomiya	Japan
+Uttaradit	Thailand
+Uttarpara Kotrung	India
+Uzhgorod	Ukraine
+Vacoas - Phoenix	Mauritius
+Vadakara	India
+Vadodara	India
+VADUZ	Liechtenstein
+Valdivia	Chile
+Valencia	Philippines
+Valenzuela	Philippines
+Valera	Venezuela (Bolivarian Republic of)
+Valinhos	Brazil
+Valladolid	Spain
+Valledupar	Colombia
+Vallejo (CA)	United States of America
+VALLETTA	Malta
+Valparaíso	Chile
+Valparaíso de Goiás	Brazil
+Valsad	India
+Van	Turkey
+Vanadzoz (Kirovakan)	Armenia
+Vancouver	Canada
+Vancouver (WA)	United States of America
+Vaniyambadi	India
+Vantaa	Finland
+Varamin	Iran (Islamic Republic of)
+Varanasi	India
+Varginha	Brazil
+Varna	Bulgaria
+Varzea Grande	Brazil
+Varzea Paulista	Brazil
+Vasai	India
+Västerås	Sweden
+VATICAN CITY	Holy See
+Vaughan	Canada
+Vejalpur	India
+Vejle	Denmark
+Velikie Luky	Russian Federation
+Velikiy Novgorod	Russian Federation
+Vellore	India
+Venezia	Italy
+Veracruz	Mexico
+Veraval	India
+Vereeniging	South Africa
+Verona	Italy
+Vespasiano	Brazil
+Viamao	Brazil
+Vicente López	Argentina
+Vicenza	Italy
+Victoria	Canada
+Victorville City (CA)	United States of America
+Vidisha	India
+VIENTIANE	Lao People's Democratic Republic
+Vigo	Spain
+Vijayawada	India
+Vila Nova de Gaia	Portugal
+Vila Velha	Brazil
+Villa Alemana	Chile
+Villa Nicolas Romero	Mexico
+Villa Nueva	Guatemala
+Villahermosa	Mexico
+Villavicencio	Colombia
+Villeurbanne	France
+VILNIUS	Lithuania
+Viña del Mar	Chile
+Vinnutsya	Ukraine
+Virar	India
+Virginia Beach (VA)	United States of America
+Visakhapatnam	India
+Visalia (CA)	United States of America
+Vitebsk	Belarus
+Vitória	Brazil
+Vitória da Conquista	Brazil
+Vitória de Santo Antao	Brazil
+Vitoria-Gasteiz	Spain
+Vizianagarm	India
+Vladikavkaz (Osetinskaya ASSR)	Russian Federation
+Vladimir	Russian Federation
+Vladivostok	Russian Federation
+Volgodonsk	Russian Federation
+Volgograd	Russian Federation
+Vologda	Russian Federation
+Volta Redonda	Brazil
+Volzhsky	Russian Federation
+Vorkuta	Russian Federation
+Voronezh	Russian Federation
+Votorantim	Brazil
+Waco (TX)	United States of America
+Wadhwan	India
+Wafangdian	China
+Wah Cantonment	Pakistan
+Wahran (Oran)	Algeria
+Waitakere	New Zealand
+Wakayama	Japan
+Walbrzych	Poland
+Wanning	China
+Wanyuan	China
+Warangal	India
+Wardha	India
+Wargla	Algeria
+Warren (MI)	United States of America
+Warri	Nigeria
+Warrington	United Kingdom of Great Britain and Northern Ireland
+WARSZAWA	Poland
+WASHINGTON (DC)	United States of America
+Waterbury (CT)	United States of America
+Wau	Republic of South Sudan
+Weifang	China
+Weihai	China
+Weihui	China
+Weinan	China
+WELLINGTON	New Zealand
+Wenchang	China
+Wendeng	China
+Wenling	China
+Wenzhou	China
+West Covina (CA)	United States of America
+West Jordan (UT)	United States of America
+West Lothian	United Kingdom of Great Britain and Northern Ireland
+West Midlands	United Kingdom of Great Britain and Northern Ireland
+West Palm Beach (FL)	United States of America
+West Valley City (UT)	United States of America
+West Yorkshire	United Kingdom of Great Britain and Northern Ireland
+Westminster (CO)	United States of America
+Whitby	Canada
+Wichita (KS)	United States of America
+Wichita Falls (TX)	United States of America
+WIEN	Austria
+Wiesbaden	Germany
+Wigan	United Kingdom of Great Britain and Northern Ireland
+Wilmington (NC)	United States of America
+WINDHOEK	Namibia
+Windsor	Canada
+Winnipeg	Canada
+Winston-Salem (NC)	United States of America
+Winterthur	Switzerland
+Witten	Germany
+Wloclawek	Poland
+Wolfsburg	Germany
+Wollongong	Australia
+Wonju	Republic of Korea
+Wonsan	Democratic People's Republic of Korea
+Worcester (MA)	United States of America
+Wroclaw	Poland
+Wuan	China
+Wuchang	China
+Wuchuan	China
+Wudalianchi	China
+Wugang (Henan)	China
+Wugang (Hunan)	China
+Wuhai	China
+Wuhan	China
+Wuhu	China
+Wujiang	China
+Wujin	China
+Wulanhaote	China
+Wuppertal	Germany
+Würzburg	Germany
+Wusu	China
+Wuwei	China
+Wuxi	China
+Wuxian	China
+Wuxue	China
+Wuyishan	China
+Wuzhong	China
+Wuzhou	China
+Xalapa-Enriquez	Mexico
+Xiamen	China
+Xi'an	China
+Xiangcheng	China
+Xiangfan	China
+Xiangtan	China
+Xiangxiang	China
+Xianning	China
+Xiantao	China
+Xianyang	China
+Xiaogan	China
+Xiaoshan	China
+Xiaoyi	China
+Xichang	China
+Xico	Mexico
+Xifeng	China
+Xilinhaote	China
+Xingcheng	China
+Xinghua	China
+Xingning	China
+Xingping	China
+Xingtai	China
+Xingyang	China
+Xingyi	China
+Xinhui	China
+Xining	China
+Xinji	China
+Xinle	China
+Xinmi	China
+Xinmin	China
+Xintai	China
+Xinxiang	China
+Xinyang	China
+Xinyi (Guangdong)	China
+Xinyi (Jiangsu)	China
+Xinyu	China
+Xinzheng	China
+Xinzhou	China
+Xishan	China
+Xuancheng	China
+Xuanwei	China
+Xuchang	China
+Xuzhou	China
+Ya'an	China
+Yachiyo	Japan
+Yaizu	Japan
+Yakeshi	China
+Yakutsk	Russian Federation
+Yala	Thailand
+Yalova	Turkey
+Yamagata	Japan
+Yamaguchi	Japan
+Yamato	Japan
+YAMOUSSOUKRO	Côte d'Ivoire
+Yamunanagar	India
+Yan'an	China
+Yanbu al-Bahr	Saudi Arabia
+Yancheng	China
+Yangchun	China
+Yangjiang	China
+Yangon	Myanmar
+Yangquan	China
+Yangsan	Republic of Korea
+Yangzhong	China
+Yangzhou	China
+Yanji	China
+Yanshi	China
+Yantai	China
+Yanzhou	China
+Yao	Japan
+YAOUNDE	Cameroon
+YAREN	Nauru
+Yaroslavl	Russian Federation
+Yasooj	Iran (Islamic Republic of)
+Yasothon	Thailand
+Yatsushiro	Japan
+Yavatmal	India
+Yazd	Iran (Islamic Republic of)
+Yeongcheon	Republic of Korea
+Yeongju	Republic of Korea
+Yeosu	Republic of Korea
+YEREVAN	Armenia
+Yevpatoriya	Ukraine
+Yibin	China
+Yichang	China
+Yicheng	China
+Yichun (Heilongjiang)	China
+Yichun (Jiangxi)	China
+Yidu	China
+Yima	China
+Yinchuan	China
+Yingcheng	China
+Yingde	China
+Yingko	China
+Yingtan	China
+Yining	China
+Yiwu	China
+Yixing	China
+Yiyang	China
+Yizheng	China
+Yizhou	China
+Yogyakarta	Indonesia
+Yokkaichi	Japan
+Yokohama	Japan
+Yokosuka	Japan
+Yokote	Japan
+Yonago	Japan
+Yongan	China
+Yongcheng	China
+Yongchuan	China
+Yongji	China
+Yongkang	China
+Yongzhou	China
+Yonkers (NY)	United States of America
+Yopal	Colombia
+York	United Kingdom of Great Britain and Northern Ireland
+Yoshkar-Ola	Russian Federation
+Yuanjiang	China
+Yuanping	China
+Yucheng	China
+Yueyang	China
+Yuhang	China
+Yulin (Guangxi)	China
+Yulin (Shaanxi)	China
+Yumen	China
+Yuncheng	China
+Yunfu	China
+Yushu	China
+Yuxi	China
+Yuyao	China
+Yuzhno-Sakhalinsk	Russian Federation
+Yuzhou	China
+Zaanstad	Netherlands
+Zabol	Iran (Islamic Republic of)
+Zabrze	Poland
+Zacatecas	Mexico
+Zagazig	Egypt
+ZAGREB	Croatia
+Zahedan	Iran (Islamic Republic of)
+Zama	Japan
+Zamboanga	Philippines
+Zamora de Hidalgo	Mexico
+Zanjan	Iran (Islamic Republic of)
+Zanzibar	United Republic of Tanzania
+Zaoyang	China
+Zaozhuang	China
+Zapopan	Mexico
+Zaporozhye	Ukraine
+Zaragoza	Spain
+Zaria	Nigeria
+Zarqa	Jordan
+Zelenodolsk	Russian Federation
+Zengcheng	China
+Zenica	Bosnia and Herzegovina
+Zhalantun	China
+Zhangjiagang	China
+Zhangjiajie	China
+Zhangjiakou	China
+Zhangping	China
+Zhangqiu	China
+Zhangshu	China
+Zhangye	China
+Zhangzhou	China
+Zhanjiang	China
+Zhaodong	China
+Zhaoqing	China
+Zhaotong	China
+Zhaoyuan	China
+Zheleznodorozhny	Russian Federation
+Zheleznogorsk	Russian Federation
+Zhengzhou	China
+Zhenjiang	China
+Zhijiang	China
+Zhitomir	Ukraine
+Zhongshan	China
+Zhongxiang	China
+Zhoukou	China
+Zhoushan	China
+Zhuanghe	China
+Zhucheng	China
+Zhuhai	China
+Zhuji	China
+Zhukovsky	Russian Federation
+Zhumadian	China
+Zhuozhou	China
+Zhuzhou	China
+Zibo	China
+Zielona Góra	Poland
+Zigong	China
+Ziguinchor	Senegal
+Zinder	Niger
+Zipaquirá	Colombia
+Zixing	China
+Ziyang	China
+Zlatoust	Russian Federation
+Zoetermeer	Netherlands
+Zonguldak	Turkey
+Zoucheng	China
+Zrenjanin	Serbia
+Zug	Switzerland
+Zunhua	China
+Zunyi	China
+Zürich	Switzerland
+Zwickau	Germany
+Zwolle	Netherlands
