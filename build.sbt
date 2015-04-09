@@ -4,7 +4,10 @@ version := "1.0"
 
 scalaVersion := "2.10.2"
 
-resolvers += "amateras-repo" at "http://amateras.sourceforge.jp/mvn/"
+resolvers ++= Seq(
+  "amateras-repo" at "http://amateras.sourceforge.jp/mvn/",
+  "Roeim.net repository" at "http://roeim.net/maven"
+)
 
 javacOptions ++= Seq("-encoding", "UTF-8")
 
@@ -22,5 +25,6 @@ libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-library" % "2.10.2",
   "jp.sf.amateras.solr.scala" %% "solr-scala-client" % "0.0.7",
   "org.apache.commons" % "commons-io" % "1.3.2",
-  "commons-lang" % "commons-lang" % "2.6"
+  "commons-lang" % "commons-lang" % "2.6",
+  "net.roeim.minihttpserver" %% "minihttpserver" % "1.0"
 )
