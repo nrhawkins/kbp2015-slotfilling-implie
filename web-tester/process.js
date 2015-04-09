@@ -6,7 +6,7 @@ window.onload = function() {
   ); 
 };
 
-var url = "http://127.0.0.1:8080/";
+var url = "http://128.208.6.92:8080/";
 
 function submit() {
   console.log("In form submit");
