@@ -6,7 +6,9 @@ window.onload = function() {
   ); 
 };
 
-var url = "http://128.208.6.92:8080/";
+//var url = "http://128.208.6.92:8080/";
+//var url = "tricycle.cs.washington.edu:8080/";
+var url = "http://localhost:8080/";
 
 function submit() {
   console.log("In form submit");
@@ -15,7 +17,6 @@ function submit() {
   var params = "sentence=" + encodeURIComponent(sentence);
   writeResults(params);
   var response = httpGet(url + "?" + params);
-  alert(response);
   writeResults(response);
 }
 
