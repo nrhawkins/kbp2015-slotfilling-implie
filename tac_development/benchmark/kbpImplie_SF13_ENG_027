@@ -1,0 +1,76 @@
+
+Query Name: Abdul Aziz Al-Hakim
+
+
+Number of Documents: 4
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: LTW_ENG_20070115.0027.LDC2009T13
+
+
+sentenceOffset/Text 1694: Despite U.S. opposition, the Iraqi government in December decided to release two Iranian officials who had been arrested by U.S. troops at the compound of a powerful Shiite leader, Abdul Aziz Al-Hakim.
+
+U.S. opposition	U.S.	nationality
+Iraqi government	Iraqi	nationality
+Iranian officials	Iranian	nationality
+U.S. troops	U.S.	nationality
+
+docName: NYT_ENG_20071230.0042.LDC2009T13
+
+
+sentenceOffset/Text 6233: Given Al-Sadr's strident anti-Americanism, the United States is supporting a rival Shiite cleric, Abdul Aziz Al-Hakim, even though he is equally fundamentalist and has close ties to Iran.
+
+
+docName: juancole.com_juancole_20050308063000_ENG_20050308_063000.LDC2006E32
+
+
+sentenceOffset/Text 71: LDC2006E32 </DOCID> <DOCTYPE SOURCE="weblog"> WEB TEXT </DOCTYPE> <DATETIME> 2005-03-08T06:30:00 </DATETIME> <BODY>  <HEADLINE>Al-Hakim: "US Troops Out!"
+
+US Troops Out	US	nationality
+
+sentenceOffset/Text 503: The question seems so incongruous to His Most Austere "Eminence Abdul Aziz Al-Hakim," (as the leader of the Shiite party which won the January 30 elections identifies himself on his visiting card) that he almost bursts out laughing.
+
+
+docName: eng-NG-31-102460-11836720
+
+
+sentenceOffset/Text 3582: Abdul Aziz Al-Hakim was not only a founding member of SIIC in 1982 but also headed its military wing, the notorious Badr Organization.
+
+
+Filtered Extractions ----------------------------------------------------------
+
+
+
+
+Query Name: Abdul Aziz Al-Hakim
+
+KBP Report ----------------------------------------------------------
+
+SF13_ENG_027	per:spouse	UWashington3	NIL
+SF13_ENG_027	per:religion	UWashington3	NIL
+SF13_ENG_027	per:city_of_death	UWashington3	NIL
+SF13_ENG_027	per:other_family	UWashington3	NIL
+SF13_ENG_027	per:countries_of_residence	UWashington3	NIL
+SF13_ENG_027	per:country_of_death	UWashington3	NIL
+SF13_ENG_027	per:stateorprovince_of_birth	UWashington3	NIL
+SF13_ENG_027	per:title	UWashington3	NIL
+SF13_ENG_027	per:children	UWashington3	NIL
+SF13_ENG_027	per:origin	UWashington3	NIL
+SF13_ENG_027	per:city_of_birth	UWashington3	NIL
+SF13_ENG_027	per:date_of_death	UWashington3	NIL
+SF13_ENG_027	per:age	UWashington3	NIL
+SF13_ENG_027	per:cities_of_residence	UWashington3	NIL
+SF13_ENG_027	per:employee_or_member_of	UWashington3	NIL
+SF13_ENG_027	per:stateorprovince_of_death	UWashington3	NIL
+SF13_ENG_027	per:cause_of_death	UWashington3	NIL
+SF13_ENG_027	per:alternate_names	UWashington3	NIL
+SF13_ENG_027	per:charges	UWashington3	NIL
+SF13_ENG_027	per:country_of_birth	UWashington3	NIL
+SF13_ENG_027	per:schools_attended	UWashington3	NIL
+SF13_ENG_027	per:parents	UWashington3	NIL
+SF13_ENG_027	per:date_of_birth	UWashington3	NIL
+SF13_ENG_027	per:statesorprovinces_of_residence	UWashington3	NIL
+SF13_ENG_027	per:siblings	UWashington3	NIL

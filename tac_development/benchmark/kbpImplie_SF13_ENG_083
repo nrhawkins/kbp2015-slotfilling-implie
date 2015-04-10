@@ -1,0 +1,124 @@
+
+Query Name: Joint Council on International Children's Services
+
+
+Number of Documents: 10
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: NYT_ENG_20071108.0209.LDC2009T13
+
+
+sentenceOffset/Text 5363: The prospect of tightened restrictions on adoptions concerns many U.S. child welfare organizations such as the Joint Council on International Children's Services, who fear that as many as 5,000 abandoned children a year will be condemned to a life of poverty.
+
+
+docName: APW_ENG_20081117.1243.LDC2009T13
+
+
+sentenceOffset/Text 3368: Thomas DiFilipo, president of the Joint Council on International Children's Services, predicted overall numbers would drop even more sharply for 2009, to as low as 10,000 to 12,000 foreign adoptions, as China continues its cutback and adoptions from Guatemala and Vietnam diminish.
+
+Thomas DiFilipo, president of the Joint Council	president	jobTitle
+Guatemala and Vietnam diminish	Vietnam	nationality
+
+docName: NYT_ENG_20070604.0005.LDC2009T13
+
+
+sentenceOffset/Text 419: Ethiopia was not on Mark and Vera Westrum-Ostrom's list when they first visited Children's Home Society &amp;amp; Family Services here to explore an international adoption.
+
+
+sentenceOffset/Text 3407: That case prompted inquiries by the State Department and the nonprofit Joint Council on International Children's Services in Virginia, a child welfare and advocacy organization, and the adoption agency itself, said Thomas DiFilipo, president of the joint council.
+
+Thomas DiFilipo, president of the joint council	president	jobTitle
+
+sentenceOffset/Text 4125: Children's Home Society &amp;amp; Family Services, founded in 1889, began working in Ethiopia in 2004.
+
+
+docName: APW_ENG_20071130.1352.LDC2009T13
+
+
+sentenceOffset/Text 2351: Tom DeFilipo, president of the Joint Council on International Children's Services, said adoptions from Guatemala could decline over the coming year as its government -- under intense international pressure -- tries to impose tough new regulations on an adoption industry that was widely viewed as susceptible to fraud and extortion.
+
+Tom DeFilipo, president of the Joint Council	president	jobTitle
+
+docName: NYT_ENG_20070411.0236.LDC2009T13
+
+
+sentenceOffset/Text 2024: Tom DiFilipo, president of the Joint Council on International Children's Services, a membership organization for international adoption agencies, said people hoping to adopt from Russia should not be alarmed.
+
+Tom DiFilipo, president of the Joint Council	president	jobTitle
+
+docName: APW_ENG_20070106.0648.LDC2009T13
+
+
+sentenceOffset/Text 1301: "The huge growth rates you saw in the '90s -- I think that's over," said Thomas DiFilipo, president of the Joint Council on International Children's Services.
+
+Thomas DiFilipo, president of the Joint Council	president	jobTitle
+
+docName: NYT_ENG_20070603.0165.LDC2009T13
+
+
+sentenceOffset/Text 315: Ethiopia was not on Mark and Vera Westrum-Ostrom's list when they first visited Children's Home Society &amp;amp; Family Services here to explore an international adoption.
+
+
+sentenceOffset/Text 3199: That case prompted inquiries by the State Department and the nonprofit Joint Council on International Children's Services in Virginia, a child welfare and advocacy organization, and the adoption agency itself, Thomas DiFilipo, president of the joint council, said.
+
+Thomas DiFilipo, president of the joint council	president	jobTitle
+
+sentenceOffset/Text 3918: Children's Home Society &amp;amp; Family Services, founded in 1889, began working in Ethiopia in 2004.
+
+
+docName: APW_ENG_20070107.0077.LDC2009T13
+
+
+sentenceOffset/Text 1300: "The huge growth rates you saw in the '90s -- I think that's over," said Thomas DiFilipo, president of the Joint Council on International Children's Services.
+
+Thomas DiFilipo, president of the Joint Council	president	jobTitle
+
+docName: APW_ENG_20081118.0001.LDC2009T13
+
+
+sentenceOffset/Text 3368: Thomas DiFilipo, president of the Joint Council on International Children's Services, predicted overall numbers would drop even more sharply for 2009, to as low as 10,000 to 12,000 foreign adoptions, as China continues its cutback and adoptions from Guatemala and Vietnam diminish.
+
+Thomas DiFilipo, president of the Joint Council	president	jobTitle
+Guatemala and Vietnam diminish	Vietnam	nationality
+
+docName: NYT_ENG_20070112.0230.LDC2009T13
+
+
+sentenceOffset/Text 5049: Both The Cradle and Maine Adoption Placement Services, an agency that suspended its Russian hosting program in 2004, are known for their excellent connections in former Soviet bloc nations and are sometimes hired as "fixers" by families who went through other agencies, when they found they could not adopt the visiting children.
+
+Maine Adoption Placement Services	Maine	province
+Russian hosting program	Russian	nationality
+Soviet bloc nations	Soviet	nationality
+
+sentenceOffset/Text 5729: The volatility in these countries, and especially the suspension of several hosting programs from Ukraine and Russia, has contributed to a dip in overall international adoptions by Americans, according to Thomas DiFilipo, the president of the Joint Council on International Children's Services.
+
+Thomas DiFilipo, the president of the Joint Council	president	jobTitle
+
+Filtered Extractions ----------------------------------------------------------
+
+
+
+
+Query Name: Joint Council on International Children's Services
+
+KBP Report ----------------------------------------------------------
+
+SF13_ENG_083	org:subsidiaries	UWashington3	NIL
+SF13_ENG_083	org:alternate_names	UWashington3	NIL
+SF13_ENG_083	org:date_founded	UWashington3	NIL
+SF13_ENG_083	org:website	UWashington3	NIL
+SF13_ENG_083	org:country_of_headquarters	UWashington3	NIL
+SF13_ENG_083	org:number_of_employees_members	UWashington3	NIL
+SF13_ENG_083	org:date_dissolved	UWashington3	NIL
+SF13_ENG_083	org:founded_by	UWashington3	NIL
+SF13_ENG_083	org:political_religious_affiliation	UWashington3	NIL
+SF13_ENG_083	org:shareholders	UWashington3	NIL
+SF13_ENG_083	org:city_of_headquarters	UWashington3	NIL
+SF13_ENG_083	org:member_of	UWashington3	NIL
+SF13_ENG_083	org:top_members_employees	UWashington3	NIL
+SF13_ENG_083	org:parents	UWashington3	NIL
+SF13_ENG_083	org:members	UWashington3	NIL
+SF13_ENG_083	org:stateorprovince_of_headquarters	UWashington3	NIL
