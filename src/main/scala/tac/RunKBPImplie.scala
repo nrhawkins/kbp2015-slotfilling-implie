@@ -6,6 +6,8 @@ import com.typesafe.config.ConfigFactory
 import java.io._
 import java.util.Properties
 import collection.JavaConverters._
+import java.nio.file.{Paths, Files}
+import scala.io.Source
 
 import edu.stanford.nlp.ling.CoreAnnotations._
 import edu.stanford.nlp.ling.CoreLabel
@@ -14,7 +16,7 @@ import edu.stanford.nlp.util.CoreMap
 import edu.stanford.nlp.dcoref.CorefChain.CorefMention;
 import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefChainAnnotation;
 
-import extractor.{ImplicitRelationExtractor, TaggerLoader}
+import extractor.{ImplicitRelationExtractor,ImplicitRelationExtractorNoLists,TaggerLoader}
 //import extractor.{ImplicitRelationExtractorNoLists, TaggerLoader}
 //import tac.KBPExtraction
 
@@ -25,9 +27,10 @@ import extractor.{ImplicitRelationExtractor, TaggerLoader}
 object RunKBPImplie {
   
   val config = ConfigFactory.load("tac-runkbp-implie.conf")
-  val resultDir = config.getString("result-dir")
+  val reportDir = config.getString("report-dir")
   val relDocsFileName = config.getString("reldocs-file")
   val queriesFileName = config.getString("queries-file")
+  val topJobTitlesFileName = config.getString("top-job-titles-file")
   val corpusName = config.getString("corpus")
   val slotfillFileName = config.getString("slotfill-file")
   
@@ -37,9 +40,40 @@ object RunKBPImplie {
   
   def main(args: Array[String]) {
   
-    val runID = "UWashington3"
+    val runID = "UWashington3"  
     val detailed = false 
+
+    /*
+    val fmls = "([A-Za-z.-]+) ([A-Za-z.-]+) ([A-Za-z-]+) ([jJSs][Rr].{0,1})".r
+    val fml = "([A-Za-z.-]+) ([A-Za-z.-]+) ([A-Za-z-]+)".r
+    val fls = "([A-Za-z.-]+) ([A-Za-z-]+) ([jJSs][Rr].{0,1})".r
+    val fl = "([A-Za-z.-]+) ([A-Za-z-]+)".r
     
+    val name1 = "Andrew E. Lange"
+    val name2 = "Frank Baldino Jr."
+    val name3 = "Frank P. Howard-Smith JR"  
+    val name4 = "Sir Mick Jagger"
+    val name5 = "keith l richards sr"
+    val name6 = "Jimi Hendrix"
+    val name7 = "Abdul Aziz Al-Hakim"
+    val name8 = "J. Edgar Hoover"
+    val names = List(name1, name2, name3, name4, name5, name6, name7, name8)
+    
+    println
+    
+    names.foreach(name =>
+      name match {
+        case fmls(f,m,l,s) => println(name + "\t" + "(f,m,l,s)")
+        case fml(f,m,l) => println(name + "\t" + "(f,m,l)")          
+        case fls(f,l,s) => println(name + "\t" + "(f,l,s)")
+        case fl(f,l) => println(name + "\t" + "(f,l)")  
+        case _ => println(name + "\t" + "(no match)")  
+      } 
+   )  
+    
+   System.exit(0)
+   */
+     
     println("total memory: " + Runtime.getRuntime().totalMemory())
     //the Xmx value
     println("max memory: " + Runtime.getRuntime().maxMemory())
@@ -59,6 +93,7 @@ object RunKBPImplie {
         
     println("Loading Extractor.")
     val relationExtractor = new ImplicitRelationExtractor(tagger)
+    //val relationExtractor = new ImplicitRelationExtractorNoLists(tagger)
     println("Done Loading Extractor.")
     
     println("total memory: " + Runtime.getRuntime().totalMemory())
@@ -70,8 +105,21 @@ object RunKBPImplie {
     
     //System.exit(0)
     
-    val queries = KBPQuery.parseKBPQueries(queriesFileName)	  
+    val queriesNoAliases = KBPQuery.parseKBPQueries(queriesFileName)	  
+    val queries = KBPQuery.getAliases(queriesNoAliases)
 
+    //val testQueries = List(queries(0),queries(11),queries(37),queries(38),queries(45))
+
+    //testQueryAliases.foreach(q => {
+    //  q.aliases.foreach(a => println(a))  
+    //})
+    
+    //queries.foreach(q => {
+    //  q.aliases.foreach(a => println(a))  
+    //})
+    
+    //System.exit(0)
+    
     println("Number of Queries: " + queries.size)
     //println("Query 1: " + queries(0).name)
     
@@ -92,7 +140,10 @@ object RunKBPImplie {
     SolrHelper.setConfigurations(corpusOldNew, false)
     
     //System.exit(0)
-      
+    //val testQueries = List(queries(37))
+    
+    //val entityRelevantDocSerialization :Map[String, List[String]] = Map()
+    
     val entityRelevantDocSerialization = {
 		    
 	        if(relevantDocsFile.exists()){
@@ -103,13 +154,35 @@ object RunKBPImplie {
 	        else{
 		      // make this map and write it out
 		      val qm = SolrHelper.getRelevantDocuments(queries)
-		      val qidMap = qm.toList.map(f => (f._1.id,f._2)).toMap
+              //val qm = SolrHelper.getRelevantDocuments(testQueries)
+	          val qidMap = qm.toList.map(f => (f._1.id,f._2)).toMap
 		      QuerySetSerialization.writeRelevantDocIdMap(qidMap, relevantDocsFileName)
 		      qidMap
 		    }
-      }
+      } 
 
     println("relDocs size: " + entityRelevantDocSerialization.size)
+    
+    
+    // Read-in topJobs file
+    val topJobs = {
+     
+      val inputFilename = topJobTitlesFileName
+    
+      // Does file exist?
+      if (!Files.exists(Paths.get(inputFilename))) {
+        System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
+        sys.exit(1)
+      }
+
+      val lines = Source.fromFile(inputFilename).getLines().toSet
+      val topJobs = for(l <- lines) yield { l.toLowerCase }      
+      topJobs.filter(j => j.size > 0)      
+    }       
+
+    //println(topJobs.size)
+    //topJobs.foreach(j => println(j))    
+    //System.exit(0)
     
     
       // ----------- Process Queries --------------- //
@@ -123,7 +196,7 @@ object RunKBPImplie {
       //val testQueries = queries.dropRight(99)
       //2014: PER: Alan Gross
       //val testQueries = List(queries(11))      
-      //2014: PER: Andrew Lange
+      //2014: PER: Andrew E. Lange
       val testQueries = List(queries(37))
       //2014: PER: Frank Baldino Jr
       //val testQueries = List(queries(38))
@@ -139,9 +212,28 @@ object RunKBPImplie {
       //val testQueries = List(queries(87))
       //2014: ORG: Pacific Asia Travel Association
       //val testQueries = List(queries(91))
-      //2013: PER
-      //val testQueries = List(queries(3))
     
+      //2013: PER: Douglas Flint
+      //val testQueries = List(queries(3))
+      //2013: PER: Anthony Marshall
+      //val testQueries = List(queries(10))
+      //2013: PER: Abdul Aziz Al-Hakim
+      //val testQueries = List(queries(26))
+      //2013: PER: Bobby Frankel
+      //val testQueries = List(queries(33))
+      //2013: PER: Ko Yong-Hi
+      //val testQueries = List(queries(49))
+      //2013: ORG: International Water Management Institute
+      //val testQueries = List(queries(79))
+      //2013: ORG: Joint Council on International Children's Services
+      //val testQueries = List(queries(82))
+      //2013: ORG: Bolivarian Alternative for the Americas
+      //val testQueries = List(queries(86))
+      //2013: ORG: Arcandor
+      //val testQueries = List(queries(90))      
+      //2013: ORG: Attenti Holdings
+      //val testQueries = List(queries(94))
+      
       //select 5 random queries
       //import scala.util.Random
       //Seq.fill(n)(Random.nextInt)
@@ -159,16 +251,40 @@ object RunKBPImplie {
       
       println("Running " + testQueries.size + " queries.")
       
+      testQueries.foreach(q => {
+        q.aliases.foreach(a => println(a))  
+      })
+      
       for(query <- testQueries){
       //for(query <- queries){
-	    
+                     
 	      var allRelevantExtractions: Seq[KBPExtraction] = Nil		
-	      //var allRelevantCandidates: Seq[Candidate] = Nil		          	      
-		  val relevantDocs = entityRelevantDocSerialization(query.id).toSet		       
-          val nwngDocuments = relevantDocs.filter(doc => !doc.startsWith("bolt") ) 
-          val nwDocuments = nwngDocuments.filter(doc => !doc.startsWith("eng-"))		    
+	      //var allRelevantCandidates: Seq[Candidate] = Nil		 
+	      var relevantDocs: Set[String] = Nil.toSet 
+	      var nwngDocuments: Set[String] = Nil.toSet
+	      var nwDocuments: Set[String] = Nil.toSet
+	        
+	      if(entityRelevantDocSerialization.contains(query.id)){
+		    relevantDocs = entityRelevantDocSerialization(query.id).toSet		       
+            nwngDocuments = relevantDocs.filter(doc => !doc.startsWith("bolt") ) 
+            nwDocuments = nwngDocuments.filter(doc => !doc.startsWith("eng-"))		  
+	      }  
 		  //val nwDocuments = Set("APW_ENG_20101202.0845")
 		  //val nwDocuments = Set("WPB_ENG_20100506.0070")
+          
+          
+         outputStream.println 
+         outputStream.println("Query Name: " + query.name)
+         outputStream.println
+         outputStream.println 
+         outputStream.println("Number of Documents: " + relevantDocs.size)
+         outputStream.println
+         //relevantDocs.foreach(d => {
+         //  outputStream.println("Document: " + d)
+         //  val rawDoc = SolrHelper.getRawDoc(d)      
+         //  outputStream.println(rawDoc)              
+         //  outputStream.println
+         //})      
           
           println("Query: " + query.id)
 		  println("Size All Documents: " + relevantDocs.size)         
@@ -195,12 +311,12 @@ object RunKBPImplie {
               // ---------------------------------------  		      
 
   		      val documents :List[Option[Annotation]] = { 
-  		          //processDocuments(relevantDocs)  		  
-  		          processDocuments(nwDocuments) 
+  		          processDocuments(relevantDocs)  		  
+  		          //processDocuments(nwDocuments) 
 		      }  		      
 
-  		      val docNames = nwDocuments.toList
-              var docCount = -1
+  		      //val docNames = nwDocuments.toList
+              //var docCount = -1
   		      
   		      println("Number of Annotated Documents: " + documents.size)  		        		      
   		      
@@ -212,12 +328,21 @@ object RunKBPImplie {
   		      
   		      for(doc <- documents){  
 
-  		        docCount += 1
-                println("docName: " + docNames(docCount))
-  		        outputStream.println
-  		        outputStream.println("docName: " + docNames(docCount))
-                outputStream.println  		        
+  		        //docCount += 1
+                //println("docName: " + docNames(docCount))
+  		        //outputStream.println
+  		        //outputStream.println("docName: " + docNames(docCount))
+                //outputStream.println  		        
   		        //println("doc ID: " + doc.get(classOf[DocIDAnnotation]))
+
+  		        doc match {
+  		          case Some(x) => {
+  		            outputStream.println
+  		            outputStream.println("docName: " + x.get(classOf[DocIDAnnotation]) )
+                    outputStream.println
+                  } 
+  		          case _ => 
+  		        }
   		        
   		        println("total memory: " + Runtime.getRuntime().totalMemory())
   		        //the Xmx value
@@ -355,10 +480,12 @@ object RunKBPImplie {
          
          c.extr.getRel() match {
               //relations to substitute
-              case s if (s.contains("nationality")) => 
+              case s if (s.contains("nationality")) => c.extr.setRel("org:country_of_headquarters") 
               case s if (s.contains("city")) => c.extr.setRel("org:city_of_headquarters") 
               case s if (s.contains("province")) => c.extr.setRel("org:stateorprovince_of_headquarters")
-              case s if (s.contains("jobTitle")) => 
+              case s if (s.contains("jobTitle")) => {
+                //if(topJobTitles.contains(c.extr.getArg2()) c.extr.setRel("org:top_members_employees")  
+              }
               case s if (s.contains("religion")) => c.extr.setRel("org:political_religious_affiliation")
               case s if (s.contains("school")) => 
               //The above list should cover all relations identified by Implie
@@ -657,6 +784,8 @@ object RunKBPImplie {
             println(">mention type name(): " + m.mentionType.name())
             println(">mention sentnum: " + m.sentNum)
             println(">mention start index: " + m.startIndex)            
+            println(">mention animacy: " + m.animacy)
+            println(">mention gender: " + m.gender)
           }
           
         }         

@@ -6,8 +6,10 @@ import KBPQueryEntityType._
 case class KBPQuery (val id: String, val name: String, val doc: String,
     val begOffset: Int, val endOffset: Int, val entityType: KBPQueryEntityType,
     val slotsToFill: Set[Slot] ){
-  
-  def aliases():List[String] = name :: List[String]()
+
+  var aliases = List(name) 
+  //def aliases():List[String] = name :: List[String]()
+  //def aliases():List[String] = { aliases } 
   
   override def toString():String = id + "\t" + name
   
@@ -78,8 +80,7 @@ object KBPQuery {
         
       }
     }      
-  }
-  
+  }  
 
   def parseKBPQueries(pathToFile: String): List[KBPQuery] = {
     
@@ -89,6 +90,63 @@ object KBPQuery {
      val kbpQueryList = for( qXML <- queryXMLSeq) yield parseSingleKBPQueryFromXML(qXML)
      
      kbpQueryList.toList.flatten
+  }
+  
+  def getAliases(queries: List[KBPQuery]): List[KBPQuery] = {
+    
+    val fmls = "([A-Za-z.-]+) ([A-Za-z.-]+) ([A-Za-z-]+) ([jJSs][Rr].{0,1})".r
+    val fml = "([A-Za-z.-]+) ([A-Za-z.-]+) ([A-Za-z-]+)".r
+    val fls = "([A-Za-z.-]+) ([A-Za-z-]+) ([jJSs][Rr].{0,1})".r
+    val fl = "([A-Za-z.-]+) ([A-Za-z-]+)".r
+    
+    println("Getting Aliases: " + queries.size)
+    
+    queries.foreach(q =>
+      
+      q.entityType match {
+        
+        // assign aliases for PER
+        case PER => { 
+          
+          //println("Found PER")
+          
+          q.name match {
+            // want to add: fml, fl to alias list, query name (fmls) is already there
+            case fmls(f,m,l,s) => {
+              val fml = f + " " + m + " " + l  
+              val fl = f + " " + l 
+              q.aliases = q.aliases ::: List(fml, fl)
+            }
+            // want to add: fl to alias list, query name (fml) is already there
+            case fml(f,m,l) => {
+              //println("Found fml")
+              val fl = f + " " + l 
+              q.aliases = q.aliases ::: List(fl) 
+            }
+            // want to add: fl to alias list, query name (fls) is already there
+            case fls(f,l,s) => {
+              //println("Found fls")
+              val fl = f + " " + l               
+              q.aliases = q.aliases ::: List(fl) 
+            }
+            // no additions need to be made, query name (fl) is already there
+            case fl(f,l) => 
+              //println("Found fl")
+            // no additions need to be made, just go with query name  
+            case _ => 
+          } 
+        }    
+        // no aliases defined for ORG
+        case ORG => {
+          
+          //println("Found ORG")
+          
+        }     
+        
+      }
+    )
+
+    queries    
   }
   
 }
