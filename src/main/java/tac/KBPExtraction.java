@@ -1,6 +1,9 @@
 package tac;
 
 //import edu.washington.multirframework.data.Argument;
+import extractor.NERTag;
+import java.util.List;
+
 
 public class KBPExtraction {
 
@@ -16,7 +19,7 @@ public class KBPExtraction {
 	private Integer sentNum;
 	private Integer arg1BestMentionSentNum;
 	private Integer arg2BestMentionSentNum;
-
+	private List<NERTag> ners;
 	
 	@Override
 	public String toString() {
@@ -26,15 +29,16 @@ public class KBPExtraction {
 				+ ", arg2BestMention=" + arg2BestMention + ", docName="
 				+ docName + ", sentNum=" + sentNum
 				+ ", arg1BestMentionSentNum=" + arg1BestMentionSentNum
-				+ ", arg2BestMentionSentNum=" + arg2BestMentionSentNum + "]";
+				+ ", arg2BestMentionSentNum=" + arg2BestMentionSentNum 
+				+ ", ners=" + ners + "]";
 	}
-
 
 
 	public KBPExtraction(Argument arg1, Argument arg2, String rel, double score,
 			String arg1Link, String arg2Link, String arg1BestMention,
 			String arg2BestMention, String docName, Integer sentNum,
-			Integer arg1BestMentionSentNum, Integer arg2BestMentionSentNum) {
+			Integer arg1BestMentionSentNum, Integer arg2BestMentionSentNum,
+			List<NERTag> ners) {
 		super();
 		this.arg1 = arg1;
 		this.arg2 = arg2;
@@ -48,6 +52,7 @@ public class KBPExtraction {
 		this.sentNum = sentNum;
 		this.arg1BestMentionSentNum = arg1BestMentionSentNum;
 		this.arg2BestMentionSentNum = arg2BestMentionSentNum;
+		this.ners = ners;
 	}
 	
 	
@@ -124,9 +129,12 @@ public class KBPExtraction {
 	public void setArg2BestMentionSentNum(Integer arg2BestMentionSentNum) {
 		this.arg2BestMentionSentNum = arg2BestMentionSentNum;
 	}
-	
-	
-	
+	public List<NERTag> getNers() {
+		return ners;
+	}
+	public void setNers(List<NERTag> ners) {
+		this.ners = ners;
+	}
 	
 }
 
