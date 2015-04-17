@@ -136,7 +136,8 @@ object Scoring {
       Source.fromFile(inputFilename).getLines().map(line => {
         val tokens = line.trim.split("\t")
         try{
-          ExtractionInputLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
+          //ExtractionInputLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4),
+          ExtractionInputLine(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)), tokens(3), tokens(4).toLowerCase(),
             tokens(5))
         }catch{
           // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
@@ -179,11 +180,13 @@ object Scoring {
             //sentIndex: Int, docid: String, entity: String, relation: String,
             //slotfill: String, correct: String, incorrect: String, sentence: String)
             AnswerKeyItem(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)),
-              tokens(3), tokens(4), tokens(5), tokens(6), tokens(7))
+              //tokens(3), tokens(4), tokens(5), tokens(6), tokens(7))
+              tokens(3), tokens(4).toLowerCase(), tokens(5), tokens(6), tokens(7))
           }
           else{//tokens.length == 6
             AnswerKeyItem(tokens(0).toInt, tokens(1), fixEntityParens(tokens(2)),
-              tokens(3), tokens(4), "","", tokens(5))
+              //tokens(3), tokens(4), "","", tokens(5))
+              tokens(3), tokens(4).toLowerCase(), "","", tokens(5))
           }
         }catch{
           // if first field is not an integer, ignore it, by creating an ExtractionInputLine here
