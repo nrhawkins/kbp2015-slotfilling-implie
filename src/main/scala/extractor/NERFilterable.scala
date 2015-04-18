@@ -21,7 +21,7 @@ trait NERFilterable {
   protected val classifier: CRFClassifier[CoreLabel]
 
   def getTokens(line: String): Seq[ChunkedToken]
-    def tagNERs(extractions: List[ImplicitRelation],
+  def tagNERs(extractions: List[ImplicitRelation],
               line: String, nerTagsToIgnore: List[String]): List[ImplicitRelation] = {
     // Run NER tagger and pair in the entity portion (check the indicies).
     val wordTokens = getTokens(line).map(token => new Word(token.string))
