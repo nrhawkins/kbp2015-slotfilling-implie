@@ -1,0 +1,821 @@
+
+Query Name: Bolivarian Alternative for the Americas
+
+
+Number of Documents: 115
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: APW_ENG_20080126.0126.LDC2009T13
+
+
+sentenceOffset/Text 501: The bank is to be launched Saturday as Chavez hosts a summit with leaders from Nicaragua, Bolivia and Cuba -- members of the Bolivarian Alternative for the Americas, or ALBA.
+
+
+sentenceOffset/Text 3018: Bolivian President Evo Morales said Friday in Argentina that the ALBA -- which means "dawn" in Spanish -- is "an excellent proposal for political and economic integration" and much preferable to the U.S.-proposed Free Trade Area of the Americas, which he called the "Free Colonization Area of the Americas."
+
+Bolivian President Evo Morales	Bolivian	nationality
+Bolivian President Evo Morales	president	jobTitle
+
+docName: XIN_ENG_20070429.0200.LDC2009T13
+
+
+sentenceOffset/Text 669: ALBA stands for the Bolivarian Alternative for the Americas, a regional economic integration body aiming to provide an alternative to a U.S.-backed trade model for Latin America.
+
+
+docName: APW_ENG_20080427.0098.LDC2009T13
+
+
+sentenceOffset/Text 1109: Also attending were members of the Venezuelan-inspired Bolivarian Alternative for the Americas, a trade and aid bloc known as ALBA.
+
+
+docName: AFP_ENG_20070329.0273.LDC2009T13
+
+
+sentenceOffset/Text 4115: Bolivian President Evo Morales, a close Cuban ally, said this month Castro would make his first public appearance since last year on April 28, at a meeting in Havana of leaders from the alternative development group Bolivarian Alternative for the Americas (ALBA), backed by Cuba.
+
+Bolivian President Evo Morales, a close Cuban ally	president	jobTitle
+Bolivian President Evo Morales, a close Cuban ally	Cuban	nationality
+Bolivian President Evo Morales, a close Cuban ally	Bolivian	nationality
+
+docName: AFP_ENG_20070429.0379.LDC2009T13
+
+
+sentenceOffset/Text 2240: The governments of Cuba, Ecuador, Uruguay and Caribbean nations were represented at Chavez's beckoning to discuss his home-grown, Latin American alternative to US-backed free-trade pacts: the Bolivarian Alternative for the Americas (ALBA), which is named for Simon Bolivar, historically the liberator of northern South America from Spain.
+
+Simon Bolivar, historically the liberator of northern South America	South America	nationality
+Latin American alternative	Latin American	nationality
+Uruguay and Caribbean nations	Caribbean	nationality
+
+docName: APW_ENG_20070429.0074.LDC2009T13
+
+
+sentenceOffset/Text 529: Chavez said Saturday he hoped to sign a deal with the four countries, his main leftist allies in the region, during the summit of The Bolivarian Alternative for the Americas he is hosting this weekend in Caracas.
+
+
+docName: AFP_ENG_20081123.0130.LDC2009T13
+
+
+sentenceOffset/Text 2019: Caracas will shortly host a summit of the Bolivarian Alternative for the Americas, or ALBA, trade body -- set up by Venezuela and Cuba in 2004 -- to discuss the crisis, he added.
+
+
+docName: APW_ENG_20070423.1340.LDC2009T13
+
+
+sentenceOffset/Text 4393: Havana -- Summit celebrating ALBA, the Bolivarian Alternative for the Americas trade and cooperation grouping joining left leaning countries in the region.
+
+
+docName: APW_ENG_20070430.0089.LDC2009T13
+
+
+sentenceOffset/Text 551: Chavez also raised the idea of issuing a regional bond to raise funds for social spending as he hosted a summit of the Bolivarian Alternative for the Americas, or ALBA a leftist bloc and trade group that includes Venezuela, Cuba, Bolivia and Nicaragua.
+
+
+docName: AFP_ENG_20070119.0447.LDC2009T13
+
+
+sentenceOffset/Text 3239: He supports the Bolivarian Alternative for the Americas, a regional group with Cuba and Bolivia, intended as a counterweight to the planned Free Trade Area of the Americas backed by the United States.
+
+
+docName: APW_ENG_20070429.0084.LDC2009T13
+
+
+sentenceOffset/Text 529: Chavez said Saturday he hoped to sign a deal with the four countries, his main leftist allies in the region, during the summit of The Bolivarian Alternative for the Americas he is hosting this weekend in Caracas.
+
+
+docName: XIN_ENG_20080125.0351.LDC2009T13
+
+
+sentenceOffset/Text 36: LDC2009T13 </DOCID> <DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2008-01-25 </DATETIME> <BODY> <HEADLINE> Nicaragua proposes Latin American food enterprise </HEADLINE> <TEXT> <P> CARACAS, Jan. 25 (Xinhua) </P> <P> Nicaraguan President Daniel Ortega proposed here Friday the establishment of a large Latin American food enterprise to ensure the supply of basic products to member states of the Bolivarian Alternative for the Americas (ALBA).
+
+Latin American food enterprise	Latin American	nationality
+Xinhua) </P> <P> Nicaraguan President Daniel Ortega	Nicaraguan	nationality
+Xinhua) </P> <P> Nicaraguan President Daniel Ortega	president	jobTitle
+
+docName: AFP_ENG_20070321.0538.LDC2009T13
+
+
+sentenceOffset/Text 2348: Bolivian President Evo Morales, a close Castro ally, said Monday that Fidel Castro would make his first public appearance since last year on April 28, at a meeting in Havana of leaders from the alternative development group Bolivarian Alternative for the Americas (ALBA), backed by Cuba.
+
+Bolivian President Evo Morales, a close Castro ally	Bolivian	nationality
+Bolivian President Evo Morales, a close Castro ally	president	jobTitle
+
+docName: XIN_ENG_20080510.0123.LDC2009T13
+
+
+sentenceOffset/Text 943: Alberto Guevara, minister of Treasury and Public Credit, said President Daniel Ortega, who ratified the accord, has decided to solve the crisis by using funds destined for the Bolivarian Alternative for the Americas (ALBA).
+
+President Daniel Ortega	president	jobTitle
+
+docName: APW_ENG_20070420.0330.LDC2009T13
+
+
+sentenceOffset/Text 5521: Havana -- Summit celebrating ALBA, the Bolivarian Alternative for the Americas trade and cooperation grouping joining left leaning countries in the region.
+
+
+docName: APW_ENG_20080409.1640.LDC2009T13
+
+
+sentenceOffset/Text 490: The bank is the main financial arm of the Bolivarian Alternative for the Americas, or ALBA, a trade alliance funded by Venezuelan President Hugo Chavez and his country's oil profits whose members also include Cuba, Nicaragua and Bolivia.
+
+President Hugo Chavez	president	jobTitle
+Venezuelan President Hugo Chavez	Venezuelan	nationality
+
+docName: XIN_ENG_20070102.0242.LDC2009T13
+
+
+sentenceOffset/Text 36: LDC2009T13 </DOCID> <DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2007-01-02 </DATETIME> <BODY> <HEADLINE> Venezuela prepares for ALBA games </HEADLINE> <TEXT> <P> CARACAS, Jan. 2 (Xinhua) </P> <P> Venezuela has begun preparing for the April 27 to May 12 Bolivarian Alternative for the Americas (ALBA) games, a spokesperson from state agency the National Sports Institute said on Tuesday.
+
+
+docName: AFP_ENG_20070413.0546.LDC2009T13
+
+
+sentenceOffset/Text 2028: But Morales's prediction was thrown into doubt Friday as Venezuelan ambassador to Cuba, Ali Rodriguez, said the meeting of the Bolivarian Alternative for the Americas, or ALBA, would take place in Caracas instead on April 27-28.
+
+Venezuelan ambassador to Cuba, Ali Rodriguez	Venezuelan	nationality
+
+docName: AFP_ENG_20070320.0609.LDC2009T13
+
+
+sentenceOffset/Text 1823: Bolivian President Evo Morales, a close Castro ally, said Monday that Fidel Castro would make his first public appearance since last year on April 28, at a meeting in Havana of leaders from the alternative development group Bolivarian Alternative for the Americas (ALBA), backed by Cuba.
+
+Bolivian President Evo Morales, a close Castro ally	Bolivian	nationality
+Bolivian President Evo Morales, a close Castro ally	president	jobTitle
+
+docName: APW_ENG_20081125.0297.LDC2009T13
+
+
+sentenceOffset/Text 1527: Chavez also said presidents from Bolivia, Dominica, Honduras and Nicaragua have confirmed their attendance at a summit of his Bolivarian Alternative for the Americas trade pact this week.
+
+
+docName: APW_ENG_20070329.0474.LDC2009T13
+
+
+sentenceOffset/Text 2544: Morales recently said from Bolivia that he expects to see Castro in public on April 28 during a meeting in Havana with regional presidents celebrating a regional trade and cooperation pact called the Bolivarian Alternative for the Americas.
+
+
+docName: AFP_ENG_20070428.0189.LDC2009T13
+
+
+sentenceOffset/Text 1398: In March, he had said Castro would attend this month in Havana the third anniversary of the Bolivarian Alternative for the Americas, a political and trade cooperation agreement launched by Castro and his closest ally, Venezuelan President Hugo Chavez.
+
+ally, Venezuelan President Hugo Chavez	Venezuelan	nationality
+ally, Venezuelan President Hugo Chavez	president	jobTitle
+
+docName: XIN_ENG_20081210.0168.LDC2009T13
+
+
+sentenceOffset/Text 36: LDC2009T13 </DOCID> <DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2008-12-10 </DATETIME> <BODY> <HEADLINE> ALBA ministerial meeting begins in Caracas on regional monetary zone </HEADLINE> <TEXT> <P> CARACAS, Dec. 9 (Xinhua) </P> <P> A ministerial meeting of the Bolivarian Alternative for the Americas (ALBA) started here Tuesday to agree on the creation of a regional monetary zone.
+
+
+docName: AFP_ENG_20081126.0215.LDC2009T13
+
+
+sentenceOffset/Text 1027: ALBA -- the Bolivarian Alternative for the Americas and an acronym which means "dawn" in Spanish -- is made possible thanks to Venezuela's oil wealth.
+
+Venezuela's oil wealth	Venezuela	nationality
+
+docName: XIN_ENG_20080127.0205.LDC2009T13
+
+
+sentenceOffset/Text 1514: (AU- Ministerial meeting) </P> <P> CARACAS -- Venezuela's President Hugo Chavez suggested creating a joint military force for the Bolivarian Alternative for the Americas (ALBA) member nations to see off any possible United States military aggression.
+
+Venezuela's President Hugo Chavez	Venezuela	nationality
+President Hugo Chavez	president	jobTitle
+
+docName: XIN_ENG_20070116.0451.LDC2009T13
+
+
+sentenceOffset/Text 598: The agreements form part of the Bolivarian Alternative for the Americas (ALBA), which is aimed at acting as a counterweight to the U.S. proposed hemisphere-wide trade deal, according to Ortega.
+
+U.S. proposed hemisphere-wide trade deal	U.S.	nationality
+
+docName: XIN_ENG_20070124.0380.LDC2009T13
+
+
+sentenceOffset/Text 452: The agreements will be signed within the framework of the Bolivarian Alternative for the Americas (ALBA) and cover rice production, telecommunications, efforts to improve the railway network in Cuba, said Venezuelan Basic Industries Minister Jose Khan.
+
+Venezuelan Basic Industries Minister Jose Khan	Venezuelan	nationality
+
+sentenceOffset/Text 1044: ALBA, which groups together Venezuela, Cuba, Bolivia and Nicaragua, is a political, social and economic cooperation alliance proposed by Chavez as an alternative to the U.S.-backed Free Trade Agreements for the Americas.
+
+ALBA, which groups together Venezuela, Cuba, Bolivia	Venezuela	nationality
+Venezuela, Cuba, Bolivia	Cuba	nationality
+Venezuela, Cuba, Bolivia	Bolivia	nationality
+
+docName: APW_ENG_20080903.1255.LDC2009T13
+
+
+sentenceOffset/Text 454: Prime Minister Roosevelt Skerrit says the aid from Caracas and the Bolivarian Alternative for the Americas will be earmarked for various development projects, without providing specifics.
+
+Prime Minister Roosevelt Skerrit	prime minister	jobTitle
+
+docName: AFP_ENG_20081009.0026.LDC2009T13
+
+
+sentenceOffset/Text 915: ALBA -- the Bolivarian Alternative for the Americas -- was founded by Venezuelan President Hugo Chavez and Cuban leader Fidel Castro in 2004 and is made possible thanks to Venezuela's oil money.
+
+Venezuelan President Hugo Chavez	Venezuelan	nationality
+President Hugo Chavez	president	jobTitle
+Cuban leader Fidel Castro	Cuban	nationality
+Venezuela's oil money	Venezuela	nationality
+
+docName: XIN_ENG_20080423.0161.LDC2009T13
+
+
+sentenceOffset/Text 695: Chavez said the accord aims to increase the production of cereal crops, meat and milk in the Bolivarian Alternative for the Americas (ALBA) countries.
+
+
+sentenceOffset/Text 1030: The accord was part of an extraordinary summit of the ALBA, an initiative put forth against the U.S.-backed Free Trade Area of the Americas.
+
+
+docName: AFP_ENG_20081123.0205.LDC2009T13
+
+
+sentenceOffset/Text 4415: And he promotes his own trade alternative, the Bolivarian Alternative for the Americas, or ALBA, set up with Cuba in 2004.
+
+
+docName: NYT_ENG_20080529.0069.LDC2009T13
+
+
+sentenceOffset/Text 431: Venezuela's bombastic president has praised his "Bolivarian Alternative for the Americas" as a powerful counter- weight to U.S. dominance in Latin America.
+
+Venezuela's bombastic president	Venezuela	nationality
+U.S. dominance	U.S.	nationality
+
+sentenceOffset/Text 2541: With roots in an agreement signed by Cuba and Venezuela in 2004, ALBA was originally proposed as an alternative to the Free Trade Agreement of the Americas, an American-backed plan that has been stymied by rising opposition in the U.S. and parts of Latin America.
+
+parts of Latin America	Latin America	nationality
+
+docName: APW_ENG_20080125.1405.LDC2009T13
+
+
+sentenceOffset/Text 566: CARACAS, Venezuela -- Leaders of Bolivia, Nicaragua and Cuba attend a summit of the Bolivarian Alternative for the Americas (ALBA).
+
+Leaders of Bolivia, Nicaragua and Cuba	Bolivia	nationality
+Leaders of Bolivia, Nicaragua and Cuba	Nicaragua	nationality
+Leaders of Bolivia, Nicaragua and Cuba	Cuba	nationality
+
+docName: LTW_ENG_20071005.0051.LDC2009T13
+
+
+sentenceOffset/Text 4771: The Venezuelan leader recently gave Iran observer status in his leftist trade-pact group known as the Bolivarian Alternative for the Americas.
+
+Venezuelan leader	Venezuelan	nationality
+
+docName: AFP_ENG_20080422.0024.LDC2009T13
+
+
+sentenceOffset/Text 36: LDC2009T13 </DOCID> <DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2008-04-22 </DATETIME> <BODY> <HEADLINE> Members of Lat Am trade group hold suprise meeting in Caracas </HEADLINE> <TEXT> <P> Leaders of Bolivia and Nicaragua, along with the vice president of Cuba, were to meet in Caracas with Venezuelan President Hugo Chavez for an unscheduled gathering Wednesday of their ALBA regional trade group.The members of the Bolivarian Alternative for the Americas economic bloc, which goes by the Spanish acronym ALBA, have said a main goal of the group is to counter the "dictatorship of global capitalism."
+
+vice president of Cuba	Cuba	nationality
+Venezuelan President Hugo Chavez	Venezuelan	nationality
+President Hugo Chavez	president	jobTitle
+Caracas </HEADLINE> <TEXT> <P> Leaders of Bolivia and Nicaragua	Bolivia	nationality
+Caracas </HEADLINE> <TEXT> <P> Leaders of Bolivia and Nicaragua	Caracas	city
+Caracas </HEADLINE> <TEXT> <P> Leaders of Bolivia and Nicaragua	Nicaragua	nationality
+Spanish acronym ALBA	Spanish	nationality
+
+docName: XIN_ENG_20070409.0274.LDC2009T13
+
+
+sentenceOffset/Text 685: Echezarreta said that both will also compete in the April 27 to May 27 Bolivarian Alternative for the Americas Games in Venezuela.
+
+
+docName: XIN_ENG_20070612.0420.LDC2009T13
+
+
+sentenceOffset/Text 715: Cuban state television also described the visit as "emotional" and said the two countries would discuss efforts to improve energy programs and the Bolivarian Alternative for the Americas, known as ALBA.
+
+Cuban state television	Cuban	nationality
+
+docName: AFP_ENG_20080126.0034.LDC2009T13
+
+
+sentenceOffset/Text 385: "I alert the world of the following," said Chavez, speaking at the Bolivarian Alternative for the Americas (ALBA) summit.
+
+
+docName: APW_ENG_20070111.1819.LDC2009T13
+
+
+sentenceOffset/Text 722: But none of those promises have been evident his first day in office, in which he agreed to join Venezuelan President Hugo Chavez's Bolivarian Alternative for the Americas, or ALBA, designed to serve as a counterweight to a U.S. proposed, hemisphere-wide trade deal.
+
+Venezuelan President Hugo Chavez's Bolivarian Alternative	Venezuelan	nationality
+President Hugo Chavez's Bolivarian Alternative	president	jobTitle
+
+docName: AFP_ENG_20070427.0551.LDC2009T13
+
+
+sentenceOffset/Text 2346: This weekend, Fidel Castro will miss a summit in Venezuela of his closest allies and partners in the Bolivarian Alternative for the Americas (ALBA), a socialist effort to rival US-led plans for free trade in the Americas.
+
+
+docName: XIN_ENG_20070429.0007.LDC2009T13
+
+
+sentenceOffset/Text 451: The summit, dubbed as the Bolivarian Alternative for the Americas (ALBA), drew together Venezuelan President Hugo Chavez, Bolivian President Evo Morales, Nicaragua's President Daniel Ortega and Cuba's Vice President of Council of Ministers Carlos Lage.
+
+Venezuelan President Hugo Chavez	Venezuelan	nationality
+President Hugo Chavez	president	jobTitle
+President Daniel Ortega	president	jobTitle
+Cuba's Vice President of Council	Cuba	nationality
+Bolivian President Evo Morales	Bolivian	nationality
+Nicaragua's President Daniel Ortega	Nicaragua	nationality
+Bolivian President Evo Morales	president	jobTitle
+
+docName: APW_ENG_20070728.0684.LDC2009T13
+
+
+sentenceOffset/Text 1150: The tractors were made in Venezuela by a company 51 percent owned by Iranian investors and were delivered to Nicaragua under Venezuelan President Hugo Chavez's Bolivarian Alternative for the Americas, which provides energy and aid on favorable terms mainly to leftist governments.
+
+Venezuelan President Hugo Chavez's Bolivarian Alternative	Venezuelan	nationality
+Iranian investors	Iranian	nationality
+President Hugo Chavez's Bolivarian Alternative	president	jobTitle
+
+docName: APW_ENG_20070430.0160.LDC2009T13
+
+
+sentenceOffset/Text 531: Chavez also raised the idea of issuing a regional bond to raise funds for social spending as he hosted a summit of the Bolivarian Alternative for the Americas, or ALBA, a leftist bloc and trade group that includes Venezuela, Cuba, Bolivia and Nicaragua.
+
+
+docName: APW_ENG_20070430.0732.LDC2009T13
+
+
+sentenceOffset/Text 2278: Chavez offered a contribution of US$250 million (euro183 million) to a new regional cooperation fund as he hosted the two-day summit of the Bolivarian Alternative for the Americas, a leftist bloc and trade group that includes Venezuela, Cuba, Bolivia and Nicaragua.
+
+
+docName: XIN_ENG_20080506.0196.LDC2009T13
+
+
+sentenceOffset/Text 493: The proposal, put together by the countries and the Central American Integration System (SICA) and the Bolivarian Alternative for the Americas (ALBA) in April in Nicaragua's capital Managua, will be presented to a Wednesday emergency meeting amid skyrocketing food prices across the world, said Ariel Bucardo.
+
+Central American Integration System (SICA)	American	nationality
+Nicaragua's capital Managua	Nicaragua	nationality
+
+docName: APW_ENG_20070607.0275.LDC2009T13
+
+
+sentenceOffset/Text 518: Chavez said Wednesday that the four-nation Bolivarian Alternative for the Americas, or ALBA, which began as a socialist-leaning trade group, should cooperate militarily to become more independent of U.S. influence.
+
+U.S. influence	U.S.	nationality
+
+docName: XIN_ENG_20070208.0436.LDC2009T13
+
+
+sentenceOffset/Text 989: Other speakers, including Chandra Muzaffar, head of the International Movement for a Just World, Ali Rodriguez, Venezuela's ambassador to Cuba, and a former secretary general of the Organization of Petroleum Exporting Countries, talked about energy integration within the framework of the Bolivarian Alternative for the Americas (ALBA).
+
+Venezuela's ambassador	Venezuela	nationality
+
+docName: APW_ENG_20081127.1108.LDC2009T13
+
+
+sentenceOffset/Text 3185: Chavez launched the Bolivarian Alternative for the Americas, named after South American independence hero Simon Bolivar, as an alternative to U.S.-backed free-trade pacts.
+
+
+docName: APW_ENG_20070420.1325.LDC2009T13
+
+
+sentenceOffset/Text 7802: Havana -- Summit celebrating ALBA, the Bolivarian Alternative for the Americas trade and cooperation grouping joining left leaning countries in the region.
+
+
+docName: APW_ENG_20080110.1355.LDC2009T13
+
+
+sentenceOffset/Text 509: Chavez also announced that Dominica would join the Bolivarian Alternative for the Americas, or ALBA -- a regional trade group that also includes Cuba, Iran, Bolivia and Nicaragua.
+
+
+docName: AFP_ENG_20080914.0340.LDC2009T13
+
+
+sentenceOffset/Text 648: But their roots lay in a longstanding resentment of US actions from when the region was used as a Cold War chessboard, the steady march of leftwing ideology across that part of the Americas, and aspirations to affluence and modernity.
+
+US actions	US	nationality
+
+sentenceOffset/Text 2872: The decision by Honduran President Manuel Zelaya to not accept the new US ambassador to his country could be explained by the alliance he is forging with Chavez in a new Latin American organization opposed to economic liberalism called ALBA (the Bolivarian Alternative for the Americas).
+
+Honduran President Manuel Zelaya	Honduran	nationality
+President Manuel Zelaya	president	jobTitle
+US ambassador	US	nationality
+Latin American organization	Latin American	nationality
+
+sentenceOffset/Text 3169: ALBA also includes Nicaragua and Cuba, and is presented as an alternative to the free-trade zone the United States is looking to extend past Mexico.
+
+
+sentenceOffset/Text 3318: Bolivia is opposed the Free Trade Area for the Americas, as it is called, but is not an ALBA member.
+
+
+docName: APW_ENG_20070901.0934.LDC2009T13
+
+
+sentenceOffset/Text 649: The new name means "dawn" in Spanish and is also the acronym of Chavez's Bolivarian Alternative for the Americas trade initiative, which he started to counter U.S.-backed free trade deals.
+
+
+docName: APW_ENG_20080125.0182.LDC2009T13
+
+
+sentenceOffset/Text 566: CARACAS, Venezuela -- Leaders of Bolivia, Nicaragua and Cuba attend a summit of the Bolivarian Alternative for the Americas (ALBA).
+
+Leaders of Bolivia, Nicaragua and Cuba	Bolivia	nationality
+Leaders of Bolivia, Nicaragua and Cuba	Nicaragua	nationality
+Leaders of Bolivia, Nicaragua and Cuba	Cuba	nationality
+
+docName: XIN_ENG_20070429.0199.LDC2009T13
+
+
+sentenceOffset/Text 36: LDC2009T13 </DOCID> <DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2007-04-29 </DATETIME> <BODY> <HEADLINE> Castro great helmsman of ALBA: Chavez </HEADLINE> <TEXT> <P> CARACAS, April 29 (Xinhua) </P> <P> Venezuelan President Hugo Chavez on Sunday said that the Cuban leader Fidel Castro is the great helmsman of the regional economic integration body, the Bolivarian Alternative for the Americas (ALBA).
+
+Xinhua) </P> <P> Venezuelan President Hugo Chavez	Venezuelan	nationality
+Xinhua) </P> <P> Venezuelan President Hugo Chavez	president	jobTitle
+Cuban leader Fidel Castro	Cuban	nationality
+
+sentenceOffset/Text 464: Chavez made the remarks at a press conference after the end of a summit of the ALBA nations -- Bolivia, Venezuela, Cuba and Nicaragua, which was held in Barquisimeto, a city some 350 km west of Caracas.
+
+Barquisimeto, a city some 350 km west of Caracas	Caracas	city
+
+docName: APW_ENG_20070430.0100.LDC2009T13
+
+
+sentenceOffset/Text 1992: Chavez was speaking during a summit of the Bolivarian Alternative for the Americas, or ALBA, a bloc that involves left-leaning allies Cuba, Venezuela, Nicaragua and Bolivia, and promotes socialist trade initiatives and cooperation to counter U.S.-backed free trade plans.
+
+
+docName: AFP_ENG_20070429.0130.LDC2009T13
+
+
+sentenceOffset/Text 3903: But this weekend Castro was missing a summit in Venezuela of his closest allies and partners in the Bolivarian Alternative for the Americas (ALBA), a socialist effort to rival US-led plans for free trade in the Americas.
+
+
+docName: APW_ENG_20080411.0170.LDC2009T13
+
+
+sentenceOffset/Text 2064: The bank is the main financial arm of the Bolivarian Alternative for the Americas, or ALBA, a trade alliance funded by Venezuelan President Hugo Chavez and his country's oil profits whose members also include Cuba, Nicaragua and Bolivia.
+
+President Hugo Chavez	president	jobTitle
+Venezuelan President Hugo Chavez	Venezuelan	nationality
+
+docName: APW_ENG_20081209.1211.LDC2009T13
+
+
+sentenceOffset/Text 392: Venezuelan Information Minister Jesse Chacon says Castro will be in Venezuela's capital on Dec. 14 for a meeting of the regional trade bloc known as the Bolivarian Alternative for the Americas, or ALBA.
+
+Venezuelan Information Minister Jesse Chacon	Venezuelan	nationality
+Venezuela's capital	Venezuela	nationality
+
+docName: APW_ENG_20080125.1297.LDC2009T13
+
+
+sentenceOffset/Text 511: The bank is to be launched Saturday as Chavez hosts a summit with leaders from Nicaragua, Bolivia and Cuba -- members of the Bolivarian Alternative for the Americas, or ALBA.
+
+
+sentenceOffset/Text 2561: Bolivian President Evo Morales said Friday in Argentina that the ALBA -- which means "dawn" in Spanish -- is "an excellent proposal for political and economic integration" and much preferable to the U.S.-proposed Free Trade Area of the Americas, which he called the "Free Colonization Area of the Americas."
+
+Bolivian President Evo Morales	Bolivian	nationality
+Bolivian President Evo Morales	president	jobTitle
+
+docName: AFP_ENG_20070428.0385.LDC2009T13
+
+
+sentenceOffset/Text 3309: But this weekend Castro was missing a summit in Venezuela of his closest allies and partners in the Bolivarian Alternative for the Americas (ALBA), a socialist effort to rival US-led plans for free trade in the Americas.
+
+
+docName: AFP_ENG_20081211.0779.LDC2009T13
+
+
+sentenceOffset/Text 1044: Venezuelan Information Minister Jesse Chacon told reporters on Tuesday that Raul Castro is to attend a December 14 summit in Caracas of the Bolivarian Alternative for the Americas, a Latin American trade bloc.
+
+Venezuelan Information Minister Jesse Chacon	Venezuelan	nationality
+Americas, a Latin American trade bloc	Latin American	nationality
+
+docName: XIN_ENG_20080423.0171.LDC2009T13
+
+
+sentenceOffset/Text 36: LDC2009T13 </DOCID> <DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2008-04-23 </DATETIME> <BODY> <HEADLINE> ALBA nations express support for Bolivian gov't </HEADLINE> <TEXT> <P> CARACAS, April 23 (Xinhua) </P> <P> Countries of the Bolivarian Alternative for the Americas (ALBA) expressed their support for Bolivia, which is facing a political and social crisis, at a special summit in the Venezuelan capital Wednesday.
+
+Bolivian gov't </HEADLINE> <TEXT> <P> CARACAS	Bolivian	nationality
+Venezuelan capital	Venezuelan	nationality
+
+docName: APW_ENG_20080125.1131.LDC2009T13
+
+
+sentenceOffset/Text 468: The bank will be a central theme as Chavez hosts a summit Saturday with leaders from Nicaragua, Bolivia and Cuba -- members of the Bolivarian Alternative for the Americas, or ALBA.
+
+
+sentenceOffset/Text 2621: Bolivian President Evo Morales said Friday in Argentina that the ALBA -- which means "dawn" in Spanish -- is "an excellent proposal for political and economic integration" and much preferable to the U.S.-proposed Free Trade Area of the Americas, which he called the "Free Colonization Area of the Americas."
+
+Bolivian President Evo Morales	Bolivian	nationality
+Bolivian President Evo Morales	president	jobTitle
+
+docName: APW_ENG_20080126.0600.LDC2009T13
+
+
+sentenceOffset/Text 2550: The ALBA group, first described as the Bolivarian Alternative for the Americas, has since altered its name, whose acronym means "dawn" in Spanish.
+
+
+docName: APW_ENG_20071012.1508.LDC2009T13
+
+
+sentenceOffset/Text 709: Chavez said he planned to discuss efforts to advance a regional integration initiative known as the Bolivarian Alternative for the Americas, and would meet with Castro's brother Raul "and the entire high government of Cuba."
+
+government of Cuba	Cuba	nationality
+
+docName: AFP_ENG_20070124.0675.LDC2009T13
+
+
+sentenceOffset/Text 2584: The duo signed 15 agreements for closer cooperation within the framework of the Bolivarian Alternative for the Americas, notably in areas of tourism and telecommunications, the Venezuelan president's office said.
+
+president's office	president	jobTitle
+Venezuelan president's office	Venezuelan	nationality
+
+sentenceOffset/Text 2965: Chavez proposed the Bolivarian Alternative for the Americas (ALBA), a political, social and economic cooperation, in 2005 as an alternative to the US-proposed Free Trade Area of the Americas aimed at eliminating or reducing trade barriers among all nations in the region.
+
+
+docName: XIN_ENG_20070128.0118.LDC2009T13
+
+
+sentenceOffset/Text 923: As well as the Brazilian competition, Cuba's volleyball team has other important commitments ahead: the first-ever World Under-21 Championships, the second edition of the Bolivarian Alternative for the Americas (ALBA) games in Venezuela, and the North and Central American and the Caribbean Circuit competition.
+
+Brazilian competition	Brazilian	nationality
+Caribbean Circuit competition	Caribbean	nationality
+Cuba's volleyball team	Cuba	nationality
+
+docName: APW_ENG_20070329.0461.LDC2009T13
+
+
+sentenceOffset/Text 2544: Morales recently said from Bolivia that he expects to see Castro in public on April 28 during a meeting in Havana with regional presidents celebrating a regional trade and cooperation pact called the Bolivarian Alternative for the Americas.
+
+
+docName: APW_ENG_20070925.0360.LDC2009T13
+
+
+sentenceOffset/Text 3879: The top U.S. diplomat for the Americas, Thomas Shannon, has even voiced support for political reform in Ecuador, saying the country "spoke with a firm voice" in the April vote.
+
+
+sentenceOffset/Text 5194: He said he is somewhat mystified by the Bolivarian Alternative for the Americas, or ALBA, a pact Chavez has championed as an alternative to free trade.
+
+
+docName: XIN_ENG_20080128.0385.LDC2009T13
+
+
+sentenceOffset/Text 453: Edwin Castro, leader of the ruling Sandinista party in the nation's legislature, said that Nicaragua's media were deliberately misreporting Ortega's public support of Venezuelan President Hugo Chavez's idea of creating joint armed forces for the Bolivarian Alternative for the Americas (ALBA).
+
+Nicaragua's media	Nicaragua	nationality
+Venezuelan President Hugo Chavez's idea	Venezuelan	nationality
+President Hugo Chavez's idea	president	jobTitle
+
+docName: AFP_ENG_20070118.0549.LDC2009T13
+
+
+sentenceOffset/Text 1544: He supports the Bolivarian Alternative for the Americas, a regional group with Cuba and Bolivia, intended as a counterweight to the planned Free Trade Area of the Americas, backed by the United States.
+
+
+docName: AFP_ENG_20070413.0564.LDC2009T13
+
+
+sentenceOffset/Text 2049: But Morales's prediction was thrown into doubt Friday as the Venezuelan ambassador to Cuba, Ali Rodriguez, said the meeting of the Bolivarian Alternative for the Americas (ALBA) would take place in Caracas instead on April 27-29.
+
+Venezuelan ambassador to Cuba, Ali Rodriguez	Venezuelan	nationality
+
+sentenceOffset/Text 2575: ALBA is a Cuban-Venezuelan initiative including Bolivia and Nicaragua that was launched last year as an alternative to the US-backed Free Trade Area of the Americas.
+
+
+docName: APW_ENG_20080124.1484.LDC2009T13
+
+
+sentenceOffset/Text 572: Presidents Hugo Chavez of Venezuela and Daniel Ortega of Nicaragua suggested last week that the members of the Bolivarian Alternative for the Americas, or ALBA, a left-leaning regional trade group, form their own international baseball league.
+
+Venezuela and Daniel Ortega of Nicaragua	Venezuela	nationality
+Venezuela and Daniel Ortega of Nicaragua	Nicaragua	nationality
+
+docName: XIN_ENG_20081117.0161.LDC2009T13
+
+
+sentenceOffset/Text 36: LDC2009T13 </DOCID> <DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2008-11-17 </DATETIME> <BODY> <HEADLINE> ALBA rejects U.S. intervention in Nicaraguan elections </HEADLINE> <TEXT> <P> CARACAS, Nov. 16 (Xinhua) &#8211;- Countries of the Bolivarian Alternative for the Americas (Alba) rejected U.S. intervention in the Nicaraguan elections, according to a communique published Sunday in Venezuela.
+
+U.S. intervention	U.S.	nationality
+U.S. intervention	U.S.	nationality
+Nicaraguan elections	Nicaraguan	nationality
+Nicaraguan elections </HEADLINE> <TEXT> <P> CARACAS, Nov. 16 (Xinhua) &#8211;	Nicaraguan	nationality
+
+docName: AFP_ENG_20070329.0590.LDC2009T13
+
+
+sentenceOffset/Text 3852: Although no comeback date has been announced, Bolivian President Evo Morales said that Castro would appear on April 28 at a Havana meeting of the Bolivarian Alternative for the Americas (ALBA), a group supported by Cuba.
+
+Bolivian President Evo Morales	Bolivian	nationality
+Bolivian President Evo Morales	president	jobTitle
+
+docName: AFP_ENG_20070429.0049.LDC2009T13
+
+
+sentenceOffset/Text 3736: But this weekend Castro was missing a summit in Venezuela of his closest allies and partners in the Bolivarian Alternative for the Americas (ALBA), a socialist effort to rival US-led plans for free trade in the Americas.
+
+
+docName: APW_ENG_20070429.0795.LDC2009T13
+
+
+sentenceOffset/Text 1992: Chavez was speaking during a summit of the Bolivarian Alternative for the Americas, or ALBA, a bloc that involves left-leaning allies Cuba, Venezuela, Nicaragua and Bolivia, and promotes socialist trade initiatives and cooperation to counter U.S.-backed free trade plans.
+
+
+docName: APW_ENG_20081115.0150.LDC2009T13
+
+
+sentenceOffset/Text 472: Chavez says he'll invite the Bolivarian Alternative for the Americas trade bloc, known as ALBA, and members of the Petrocaribe oil initiative to discuss the world financial crisis.
+
+
+docName: XIN_ENG_20070410.0381.LDC2009T13
+
+
+sentenceOffset/Text 36: LDC2009T13 </DOCID> <DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2007-04-10 </DATETIME> <BODY> <HEADLINE> Cuba chooses beach volleyball team for Alba Games </HEADLINE> <TEXT> <P> HAVANA, April 10 (Xinhua) </P> <P> Cuba's Volleyball Federation on Tuesday said it would send two pairs of beach volleyball teams to the second Bolivarian Alternative for the Americas (Alba) Games due in Venezuela from April 27 to May 12.
+
+Cuba's Volleyball Federation	Cuba	nationality
+
+docName: APW_ENG_20071023.0118.LDC2009T13
+
+
+sentenceOffset/Text 1098: Chavez, a fierce critic of American economic policies in Latin America, has championed his "Bolivarian Alternative for the Americas," which counts Cuba, Bolivia and Nicaragua as signatories, as an alternative to U.S. free trade pacts.
+
+Chavez, a fierce critic of American economic policies	critic	jobTitle
+
+sentenceOffset/Text 2193: Burns made the comments to reporters after giving a talk in New York hosted by the Council of the Americas, a U.S. business organization that supports free trade.
+
+New York hosted	New York	province
+Americas, a U.S. business organization	U.S.	nationality
+
+docName: XIN_ENG_20071206.0383.LDC2009T13
+
+
+sentenceOffset/Text 670: Hernandez also won the gold medals in Brazil's Rio de Janeiro-2007 Pan American Games amd in the Bolivarian Alternative for the Americas ALBA-II games in Venezuela.
+
+Brazil's Rio de Janeiro-2007 Pan American Games amd	Brazil	nationality
+Rio de Janeiro-2007 Pan American Games amd	Rio	city
+Rio de Janeiro-2007 Pan American Games amd	Pan American	nationality
+
+docName: AFP_ENG_20070329.0089.LDC2009T13
+
+
+sentenceOffset/Text 1982: Bolivian President Evo Morales, a close Cuban ally, said this month Castro would make his first public appearance since last year on April 28, at a meeting in Havana of leaders from the alternative development group Bolivarian Alternative for the Americas (ALBA), backed by Cuba.
+
+Bolivian President Evo Morales, a close Cuban ally	president	jobTitle
+Bolivian President Evo Morales, a close Cuban ally	Cuban	nationality
+Bolivian President Evo Morales, a close Cuban ally	Bolivian	nationality
+
+docName: APW_ENG_20070429.0656.LDC2009T13
+
+
+sentenceOffset/Text 534: Chavez is seeking deals with the four countries, his main leftist allies in the region, during the summit of The Bolivarian Alternative for the Americas he hosted over the weekend in the northwestern city of Barquisimeto.
+
+northwestern city of Barquisimeto	Barquisimeto	city
+
+docName: XIN_ENG_20071015.0350.LDC2009T13
+
+
+sentenceOffset/Text 1302: The new agreements are an extension to the Bolivarian Alternative for the Americas (Alba) plan founded by the two nations in 2004 as an alternative to the U.S.-dominated free trade initiatives.
+
+
+docName: APW_ENG_20070430.0130.LDC2009T13
+
+
+sentenceOffset/Text 538: Chavez also raised the idea of issuing a regional bond to raise funds for social spending as he hosted a summit of the Bolivarian Alternative for the Americas, or ALBA, a leftist bloc and trade group that includes Venezuela, Cuba, Bolivia and Nicaragua.
+
+
+docName: AFP_ENG_20070413.0607.LDC2009T13
+
+
+sentenceOffset/Text 2323: But Morales's prediction was thrown into doubt Friday as the Venezuelan ambassador to Cuba, Ali Rodriguez, said the meeting of the Bolivarian Alternative for the Americas (ALBA) would take place in Caracas instead on April 27-29.
+
+Venezuelan ambassador to Cuba, Ali Rodriguez	Venezuelan	nationality
+
+sentenceOffset/Text 2849: ALBA is a Cuban-Venezuelan initiative including Bolivia and Nicaragua that was launched last year as an alternative to the US-backed Free Trade Area of the Americas.
+
+
+docName: eng-WL-11-174596-12952260
+
+
+sentenceOffset/Text 1236: He does not fight openly, preferring to intervene covertly -- either directly or through his regional "anti-imperialist" alliance, the Bolivarian Alternative for the Americas (ALBA), a collection of the highest-decibel, lowest performing leaders in the region, from countries including Cuba, Bolivia, Nicaragua, Ecuador, and, until June, Honduras.
+
+Bolivia, Nicaragua, Ecuador	Ecuador	nationality
+Bolivia, Nicaragua, Ecuador	Nicaragua	nationality
+
+docName: AFP_ENG_20081127.0844.LDC2009T13
+
+
+sentenceOffset/Text 1829: ALBA -- the Bolivarian Alternative for the Americas -- is made possible thanks to Venezuela's oil wealth.
+
+Venezuela's oil wealth	Venezuela	nationality
+
+docName: XIN_ENG_20071221.0184.LDC2009T13
+
+
+sentenceOffset/Text 1285: The summit will see an opening ceremony for the Cienfuegos refinery, the largest cooperative project between Venezuela and Cuba under the Bolivarian Alternative for the Americas.
+
+
+docName: XIN_ENG_20070418.0386.LDC2009T13
+
+
+sentenceOffset/Text 36: LDC2009T13 </DOCID> <DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2007-04-18 </DATETIME> <BODY> <HEADLINE> Four S. American Presidents attend ALBA Games opening </HEADLINE> <TEXT> <P> CARACAS, April 18 (Xinhua) </P> <P> At least four South American Presidents will attend the opening ceremony for the second Bolivarian Alternative for the Americas (ALBA) Games next Saturday, Venezuela's National Sports Agency said in a Wednesday statement.
+
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE> <DATETIME> 2007-04-18 </DATETIME> <BODY> <HEADLINE> Four S. American Presidents attend ALBA Games	American	nationality
+South American Presidents	South American	nationality
+Venezuela's National Sports Agency	Venezuela	nationality
+
+docName: AFP_ENG_20070318.0385.LDC2009T13
+
+
+sentenceOffset/Text 438: According to Morales, Castro, 80, will resume official functions on the occasion of the third anniversary of the Bolivarian Alternative for the Americas, or ALBA, a regional cooperation mechanism joining Venezuela, Cuba and Bolivia.
+
+
+docName: AFP_ENG_20070428.0360.LDC2009T13
+
+
+sentenceOffset/Text 2315: But this weekend Castro was missing a summi in Venezuela of his closest allies and partners in the Bolivarian Alternative for the Americas (ALBA), a socialist effort to rival US-led plans for free trade in the Americas.
+
+
+docName: APW_ENG_20081127.1017.LDC2009T13
+
+
+sentenceOffset/Text 2266: Chavez launched the Bolivarian Alternative for the Americas, named after South American independence hero Simon Bolivar, as an alternative to U.S.-backed free-trade pacts.
+
+
+docName: APW_ENG_20080915.1319.LDC2009T13
+
+
+sentenceOffset/Text 967: Zelaya said the Bolivarian Alternative for the Americas, a trade bloc advertised as a socialist alternative to U.S.-backed pacts, will mark Honduras' "true independence."
+
+Honduras' "true independence	Honduras	nationality
+
+docName: XIN_ENG_20081127.0237.LDC2009T13
+
+
+sentenceOffset/Text 451: During the one-day meeting of the Bolivarian Alternative for the Americas (ALBA), the presidents of Venezuela, Nicaragua, Bolivia, Honduras and Ecuador discussed possible solutions to the current financial crisis.
+
+presidents of Venezuela, Nicaragua, Bolivia, Honduras and Ecuador	Bolivia	nationality
+presidents of Venezuela, Nicaragua, Bolivia, Honduras and Ecuador	Honduras	nationality
+presidents of Venezuela, Nicaragua, Bolivia, Honduras and Ecuador	Ecuador	nationality
+presidents of Venezuela, Nicaragua, Bolivia, Honduras and Ecuador	Venezuela	nationality
+presidents of Venezuela, Nicaragua, Bolivia, Honduras and Ecuador	Nicaragua	nationality
+
+docName: AFP_ENG_20081210.0097.LDC2009T13
+
+
+sentenceOffset/Text 425: Raul Castro is scheduled to attend a December 14 summit in Caracas by the Bolivarian Alternative for the Americas, a Latin American trade bloc, Chacon told a media conference on Tuesday.
+
+Americas, a Latin American trade bloc	Latin American	nationality
+
+docName: AFP_ENG_20070329.0132.LDC2009T13
+
+
+sentenceOffset/Text 3477: Bolivian President Evo Morales, a close Cuban ally, said this month Castro would make his first public appearance since last year on April 28, at a meeting in Havana of leaders from the alternative development group Bolivarian Alternative for the Americas (ALBA), backed by Cuba.
+
+Bolivian President Evo Morales, a close Cuban ally	president	jobTitle
+Bolivian President Evo Morales, a close Cuban ally	Cuban	nationality
+Bolivian President Evo Morales, a close Cuban ally	Bolivian	nationality
+
+docName: APW_ENG_20070613.0114.LDC2009T13
+
+
+sentenceOffset/Text 808: A television announcer described the visit as "emotional" said the pair discussed efforts to improve their countries' energy programs, and talked about the socialist-leaning regional pact they created, the Bolivarian Alternative for the Americas, known as ALBA.
+
+
+docName: APW_ENG_20070720.1466.LDC2009T13
+
+
+sentenceOffset/Text 1778: He also has vowed to become the sole energy supplier to Nicaragua, Cuba, Bolivia, and Haiti in an attempt to strengthen his bloc, known as The Bolivarian Alternative for the Americas.
+
+
+docName: APW_ENG_20070925.0592.LDC2009T13
+
+
+sentenceOffset/Text 3887: The top U.S. diplomat for the Americas, Thomas Shannon, has even voiced support for political reform in Ecuador, saying the country "spoke with a firm voice" in the April vote.
+
+
+sentenceOffset/Text 5202: He said he is somewhat mystified by the Bolivarian Alternative for the Americas, or ALBA, a pact Chavez has championed as an alternative to free trade.
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Xinhua) </P> <P> Venezuelan President Hugo Chavez	Venezuelan	nationality
+Xinhua) </P> <P> Venezuelan President Hugo Chavez	president	jobTitle
+Cuban leader Fidel Castro	Cuban	nationality
+
+
+
+Query Name: Bolivarian Alternative for the Americas
+
+KBP Report ----------------------------------------------------------
+
+SF13_ENG_087	org:subsidiaries	UWashington3	NIL
+SF13_ENG_087	org:alternate_names	UWashington3	NIL
+SF13_ENG_087	org:date_founded	UWashington3	NIL
+SF13_ENG_087	org:website	UWashington3	NIL
+SF13_ENG_087	org:country_of_headquarters	UWashington3	NIL
+SF13_ENG_087	org:number_of_employees_members	UWashington3	NIL
+SF13_ENG_087	org:date_dissolved	UWashington3	NIL
+SF13_ENG_087	org:founded_by	UWashington3	NIL
+SF13_ENG_087	org:political_religious_affiliation	UWashington3	NIL
+SF13_ENG_087	org:shareholders	UWashington3	NIL
+SF13_ENG_087	org:city_of_headquarters	UWashington3	NIL
+SF13_ENG_087	org:member_of	UWashington3	NIL
+SF13_ENG_087	org:top_members_employees	UWashington3	NIL
+SF13_ENG_087	org:parents	UWashington3	NIL
+SF13_ENG_087	org:members	UWashington3	NIL
+SF13_ENG_087	org:stateorprovince_of_headquarters	UWashington3	NIL

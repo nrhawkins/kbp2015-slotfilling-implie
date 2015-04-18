@@ -6,6 +6,8 @@ import com.typesafe.config.ConfigFactory
 import java.io._
 import java.util.Properties
 import collection.JavaConverters._
+import java.nio.file.{Paths, Files}
+import scala.io.Source
 
 import edu.stanford.nlp.ling.CoreAnnotations._
 import edu.stanford.nlp.ling.CoreLabel
@@ -14,7 +16,7 @@ import edu.stanford.nlp.util.CoreMap
 import edu.stanford.nlp.dcoref.CorefChain.CorefMention;
 import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefChainAnnotation;
 
-import extractor.{ImplicitRelationExtractor, TaggerLoader}
+import extractor.{ImplicitRelationExtractor,ImplicitRelationExtractorNoLists,TaggerLoader}
 //import extractor.{ImplicitRelationExtractorNoLists, TaggerLoader}
 //import tac.KBPExtraction
 
@@ -25,9 +27,10 @@ import extractor.{ImplicitRelationExtractor, TaggerLoader}
 object RunKBPImplie {
   
   val config = ConfigFactory.load("tac-runkbp-implie.conf")
-  val resultDir = config.getString("result-dir")
+  val reportDir = config.getString("report-dir")
   val relDocsFileName = config.getString("reldocs-file")
   val queriesFileName = config.getString("queries-file")
+  val topJobTitlesFileName = config.getString("top-job-titles-file")
   val corpusName = config.getString("corpus")
   val slotfillFileName = config.getString("slotfill-file")
   
@@ -37,9 +40,40 @@ object RunKBPImplie {
   
   def main(args: Array[String]) {
   
-    val runID = "UWashington3"
+    val runID = "UWashington3"  
     val detailed = false 
+
+    /*
+    val fmls = "([A-Za-z.-]+) ([A-Za-z.-]+) ([A-Za-z-]+) ([jJSs][Rr].{0,1})".r
+    val fml = "([A-Za-z.-]+) ([A-Za-z.-]+) ([A-Za-z-]+)".r
+    val fls = "([A-Za-z.-]+) ([A-Za-z-]+) ([jJSs][Rr].{0,1})".r
+    val fl = "([A-Za-z.-]+) ([A-Za-z-]+)".r
     
+    val name1 = "Andrew E. Lange"
+    val name2 = "Frank Baldino Jr."
+    val name3 = "Frank P. Howard-Smith JR"  
+    val name4 = "Sir Mick Jagger"
+    val name5 = "keith l richards sr"
+    val name6 = "Jimi Hendrix"
+    val name7 = "Abdul Aziz Al-Hakim"
+    val name8 = "J. Edgar Hoover"
+    val names = List(name1, name2, name3, name4, name5, name6, name7, name8)
+    
+    println
+    
+    names.foreach(name =>
+      name match {
+        case fmls(f,m,l,s) => println(name + "\t" + "(f,m,l,s)")
+        case fml(f,m,l) => println(name + "\t" + "(f,m,l)")          
+        case fls(f,l,s) => println(name + "\t" + "(f,l,s)")
+        case fl(f,l) => println(name + "\t" + "(f,l)")  
+        case _ => println(name + "\t" + "(no match)")  
+      } 
+   )  
+    
+   System.exit(0)
+   */
+     
     println("total memory: " + Runtime.getRuntime().totalMemory())
     //the Xmx value
     println("max memory: " + Runtime.getRuntime().maxMemory())
@@ -59,6 +93,7 @@ object RunKBPImplie {
         
     println("Loading Extractor.")
     val relationExtractor = new ImplicitRelationExtractor(tagger)
+    //val relationExtractor = new ImplicitRelationExtractorNoLists(tagger)
     println("Done Loading Extractor.")
     
     println("total memory: " + Runtime.getRuntime().totalMemory())
@@ -70,8 +105,21 @@ object RunKBPImplie {
     
     //System.exit(0)
     
-    val queries = KBPQuery.parseKBPQueries(queriesFileName)	  
+    val queriesNoAliases = KBPQuery.parseKBPQueries(queriesFileName)	  
+    val queries = KBPQuery.getAliases(queriesNoAliases)
 
+    //val testQueries = List(queries(0),queries(11),queries(37),queries(38),queries(45))
+
+    //testQueryAliases.foreach(q => {
+    //  q.aliases.foreach(a => println(a))  
+    //})
+    
+    //queries.foreach(q => {
+    //  q.aliases.foreach(a => println(a))  
+    //})
+    
+    //System.exit(0)
+    
     println("Number of Queries: " + queries.size)
     //println("Query 1: " + queries(0).name)
     
@@ -92,7 +140,10 @@ object RunKBPImplie {
     SolrHelper.setConfigurations(corpusOldNew, false)
     
     //System.exit(0)
-      
+    //val testQueries = List(queries(37))
+    
+    //val entityRelevantDocSerialization :Map[String, List[String]] = Map()
+    
     val entityRelevantDocSerialization = {
 		    
 	        if(relevantDocsFile.exists()){
@@ -103,13 +154,35 @@ object RunKBPImplie {
 	        else{
 		      // make this map and write it out
 		      val qm = SolrHelper.getRelevantDocuments(queries)
-		      val qidMap = qm.toList.map(f => (f._1.id,f._2)).toMap
+              //val qm = SolrHelper.getRelevantDocuments(testQueries)
+	          val qidMap = qm.toList.map(f => (f._1.id,f._2)).toMap
 		      QuerySetSerialization.writeRelevantDocIdMap(qidMap, relevantDocsFileName)
 		      qidMap
 		    }
-      }
+      } 
 
     println("relDocs size: " + entityRelevantDocSerialization.size)
+    
+    
+    // Read-in topJobs file
+    val topJobs = {
+     
+      val inputFilename = topJobTitlesFileName
+    
+      // Does file exist?
+      if (!Files.exists(Paths.get(inputFilename))) {
+        System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
+        sys.exit(1)
+      }
+
+      val lines = Source.fromFile(inputFilename).getLines().toSet
+      val topJobs = for(l <- lines) yield { l.toLowerCase }      
+      topJobs.filter(j => j.size > 0)      
+    }       
+
+    //println(topJobs.size)
+    //topJobs.foreach(j => println(j))    
+    //System.exit(0)
     
     
       // ----------- Process Queries --------------- //
@@ -123,14 +196,14 @@ object RunKBPImplie {
       //val testQueries = queries.dropRight(99)
       //2014: PER: Alan Gross
       //val testQueries = List(queries(11))      
-      //2014: PER: Andrew Lange
-      val testQueries = List(queries(37))
+      //2014: PER: Andrew E. Lange
+      //val testQueries = List(queries(37))
       //2014: PER: Frank Baldino Jr
       //val testQueries = List(queries(38))
       //2014: PER: Eliza Samudio
       //val testQueries = List(queries(45))
       //2014: ORG: China Charity Federation 
-      //val testQueries = List(queries(67))
+      val testQueries = List(queries(67))
       //2014: ORG: Alessi
       //val testQueries = List(queries(78))
       //2014: ORG: Pluribus Capital Mgmt
@@ -139,9 +212,28 @@ object RunKBPImplie {
       //val testQueries = List(queries(87))
       //2014: ORG: Pacific Asia Travel Association
       //val testQueries = List(queries(91))
-      //2013: PER
-      //val testQueries = List(queries(3))
     
+      //2013: PER: Douglas Flint
+      //val testQueries = List(queries(3))
+      //2013: PER: Anthony Marshall
+      //val testQueries = List(queries(10))
+      //2013: PER: Abdul Aziz Al-Hakim
+      //val testQueries = List(queries(26))
+      //2013: PER: Bobby Frankel
+      //val testQueries = List(queries(33))
+      //2013: PER: Ko Yong-Hi
+      //val testQueries = List(queries(49))
+      //2013: ORG: International Water Management Institute
+      //val testQueries = List(queries(79))
+      //2013: ORG: Joint Council on International Children's Services
+      //val testQueries = List(queries(82))
+      //2013: ORG: Bolivarian Alternative for the Americas
+      //val testQueries = List(queries(86))
+      //2013: ORG: Arcandor
+      //val testQueries = List(queries(90))      
+      //2013: ORG: Attenti Holdings
+      //val testQueries = List(queries(94))
+      
       //select 5 random queries
       //import scala.util.Random
       //Seq.fill(n)(Random.nextInt)
@@ -159,16 +251,40 @@ object RunKBPImplie {
       
       println("Running " + testQueries.size + " queries.")
       
+      testQueries.foreach(q => {
+        q.aliases.foreach(a => println(a))  
+      })
+      
       for(query <- testQueries){
       //for(query <- queries){
-	    
+                     
 	      var allRelevantExtractions: Seq[KBPExtraction] = Nil		
-	      //var allRelevantCandidates: Seq[Candidate] = Nil		          	      
-		  val relevantDocs = entityRelevantDocSerialization(query.id).toSet		       
-          val nwngDocuments = relevantDocs.filter(doc => !doc.startsWith("bolt") ) 
-          val nwDocuments = nwngDocuments.filter(doc => !doc.startsWith("eng-"))		    
+	      //var allRelevantCandidates: Seq[Candidate] = Nil		 
+	      var relevantDocs: Set[String] = Nil.toSet 
+	      var nwngDocuments: Set[String] = Nil.toSet
+	      var nwDocuments: Set[String] = Nil.toSet
+	        
+	      if(entityRelevantDocSerialization.contains(query.id)){
+		    relevantDocs = entityRelevantDocSerialization(query.id).toSet		       
+            nwngDocuments = relevantDocs.filter(doc => !doc.startsWith("bolt") ) 
+            nwDocuments = nwngDocuments.filter(doc => !doc.startsWith("eng-"))		  
+	      }  
 		  //val nwDocuments = Set("APW_ENG_20101202.0845")
 		  //val nwDocuments = Set("WPB_ENG_20100506.0070")
+          
+          
+         outputStream.println 
+         outputStream.println("Query Name: " + query.name)
+         outputStream.println
+         outputStream.println 
+         outputStream.println("Number of Documents: " + relevantDocs.size)
+         outputStream.println
+         //relevantDocs.foreach(d => {
+         //  outputStream.println("Document: " + d)
+         //  val rawDoc = SolrHelper.getRawDoc(d)      
+         //  outputStream.println(rawDoc)              
+         //  outputStream.println
+         //})      
           
           println("Query: " + query.id)
 		  println("Size All Documents: " + relevantDocs.size)         
@@ -195,12 +311,12 @@ object RunKBPImplie {
               // ---------------------------------------  		      
 
   		      val documents :List[Option[Annotation]] = { 
-  		          //processDocuments(relevantDocs)  		  
-  		          processDocuments(nwDocuments) 
+  		          processDocuments(relevantDocs)  		  
+  		          //processDocuments(nwDocuments) 
 		      }  		      
 
-  		      val docNames = nwDocuments.toList
-              var docCount = -1
+  		      //val docNames = nwDocuments.toList
+              //var docCount = -1
   		      
   		      println("Number of Annotated Documents: " + documents.size)  		        		      
   		      
@@ -212,12 +328,21 @@ object RunKBPImplie {
   		      
   		      for(doc <- documents){  
 
-  		        docCount += 1
-                println("docName: " + docNames(docCount))
-  		        outputStream.println
-  		        outputStream.println("docName: " + docNames(docCount))
-                outputStream.println  		        
+  		        //docCount += 1
+                //println("docName: " + docNames(docCount))
+  		        //outputStream.println
+  		        //outputStream.println("docName: " + docNames(docCount))
+                //outputStream.println  		        
   		        //println("doc ID: " + doc.get(classOf[DocIDAnnotation]))
+
+  		        doc match {
+  		          case Some(x) => {
+  		            outputStream.println
+  		            outputStream.println("docName: " + x.get(classOf[DocIDAnnotation]) )
+                    outputStream.println
+                  } 
+  		          case _ => 
+  		        }
   		        
   		        println("total memory: " + Runtime.getRuntime().totalMemory())
   		        //the Xmx value
@@ -232,11 +357,13 @@ object RunKBPImplie {
                 //val sentences = doc.get(classOf[SentencesAnnotation]).asScala.toList
   		        
   		        val (sentences, corefMap) = getSentencesAndCorefMap(doc)  		        
-  		        val matchingCorefMentions = getMatchingCorefMentions(corefMap, queryFullName)  		        
+  		        val matchingCorefMentions = getMatchingCorefMentions(corefMap, query)  	
+  		        //val matchingCorefMentions = getMatchingCorefMentions(corefMap, queryFullName)  		        
   		       	//val relevantSentences = getSentencesMatchingCoref(sentences, matchingCorefMentions)          		        
   		        //val relevantSentences = getRelevantSentences(doc, queryLastName)                
 
-  		        val relevantSentences = getRelevantSentencesIncludingCoref(doc, queryLastName, matchingCorefMentions)    
+  		        val relevantSentences = getRelevantSentencesIncludingCoref(doc, query, matchingCorefMentions)    
+  		        //val relevantSentences = getRelevantSentencesIncludingCoref(doc, queryLastName, matchingCorefMentions)    
                 totalSentences += relevantSentences.size
   		        
   		        //println("sentences size: " + sentences.size)
@@ -265,8 +392,8 @@ object RunKBPImplie {
 
                   println("Filtering Extractions")  
                     
-                  val filteredExtractions = filterExtractionsIncludingCoref(extractions, matchingCorefMentions, queryFullName)
-                  
+                  val filteredExtractions = filterExtractionsIncludingCoref(extractions, matchingCorefMentions, query)
+                  //val filteredExtractions = filterExtractionsIncludingCoref(extractions, matchingCorefMentions, queryFullName)
                   println("filteredExtractions size: " + filteredExtractions.size)
                   
                   val relevantCandidates = wrapWithCandidate(filteredExtractions.toSeq)
@@ -287,7 +414,7 @@ object RunKBPImplie {
 	     //val relevantCandidates = FilterExtractionResults.filterResults(FilterExtractionResults.wrapWithCandidate(extractions), query, document)
                 
 	  	 println("SubstituteKBPRelations")    	
-		 val kbpAllRelevantCandidates = substituteKBPRelations(allRelevantCandidates, query)
+		 val kbpAllRelevantCandidates = substituteKBPRelations(allRelevantCandidates, query, topJobs)
               
 	     println("Make Slot Map - Best Answers")		      
 		 val bestAnswers = slots map { slot => ( slot, SelectBestAnswers.reduceToMaxResults(slot, kbpAllRelevantCandidates.filter(_.extr.getRel() == slot.name)) ) } toMap
@@ -332,7 +459,7 @@ object RunKBPImplie {
     
   }
 
-  def substituteKBPRelations(candidates: Seq[Candidate], query: KBPQuery): Seq[Candidate] = {
+  def substituteKBPRelations(candidates: Seq[Candidate], query: KBPQuery, topJobs: Set[String]): Seq[Candidate] = {
 
     val queryEntityType = query.entityType.toString
     
@@ -355,10 +482,16 @@ object RunKBPImplie {
          
          c.extr.getRel() match {
               //relations to substitute
-              case s if (s.contains("nationality")) => 
+              case s if (s.contains("nationality")) => c.extr.setRel("org:country_of_headquarters") 
               case s if (s.contains("city")) => c.extr.setRel("org:city_of_headquarters") 
               case s if (s.contains("province")) => c.extr.setRel("org:stateorprovince_of_headquarters")
-              case s if (s.contains("jobTitle")) => 
+              case s if (s.contains("jobTitle")) => {
+                //if(topJobTitles.contains(c.extr.getArg2()) c.extr.setRel("org:top_members_employees")  
+                if(c.extr.getArg1().argName.contains(query.name) && topJobs.contains(c.extr.getArg2().argName) && c.extr.getNers().contains("PERSON")) {                 
+                  c.extr.setArg2(extractPerson(c))
+                  c.extr.setRel("org:top_members_employees")                  
+                }                
+              }
               case s if (s.contains("religion")) => c.extr.setRel("org:political_religious_affiliation")
               case s if (s.contains("school")) => 
               //The above list should cover all relations identified by Implie
@@ -369,6 +502,13 @@ object RunKBPImplie {
     
     candidates
     
+  }
+
+  def extractPerson(c: Candidate): Argument = {
+
+    val firstPerson = c.extr.getNers().asScala.filter(n => n.ner == "PERSON")(0)
+    val arg2 = new Argument(firstPerson.entityString,firstPerson.beginIndex,firstPerson.endIndex)
+    arg2
   }
   
   def getSentenceNumbersMatchingCoref(matchingCorefMentions: List[CorefMention]): scala.collection.mutable.Set[Int] = {
@@ -390,13 +530,16 @@ object RunKBPImplie {
   }
 
   def getMatchingCorefMentions(corefMap: scala.collection.mutable.Map[Integer, edu.stanford.nlp.dcoref.CorefChain], 
-      queryFullName: String): List[CorefMention] = {
+      query: KBPQuery): List[CorefMention] = {
+  //def getMatchingCorefMentions(corefMap: scala.collection.mutable.Map[Integer, edu.stanford.nlp.dcoref.CorefChain], 
+  //    queryFullName: String): List[CorefMention] = {
     
      var matchingCorefMentions: List[edu.stanford.nlp.dcoref.CorefChain.CorefMention] = Nil
      
      //println("corefMap size: " + corefMap.size)
-     println("queryFullName: " + queryFullName)
-     val pattern = s"$queryFullName\\W".r
+     //println("queryFullName: " + queryFullName)
+     println("queryFullName: " + query.name)
+     //val pattern = s"$queryFullName\\W".r
      
      for(k <- corefMap.keySet){
 
@@ -415,17 +558,30 @@ object RunKBPImplie {
        
        for (m <- corefMentions){
          
-         pattern.findFirstIn(m.mentionSpan) match {
-            case Some(x) => matchingCorefMentions = matchingCorefMentions ::: corefMentions
-            case None =>             
-         }
+         val numAliases = query.aliases.size
+         var aliasCount = 0
+         var aliasMatch = false
+         var queryName = query.aliases(aliasCount)
+         var pattern = s"$queryName\\W".r
          
-       }
-       
-       //if(corefMentions.filter(m => m.mentionSpan.contains(queryFullName)).size > 0) {matchingCorefMentions = matchingCorefMentions ::: corefMentions}
-                  
-     }  
-     
+         while(!aliasMatch && aliasCount < numAliases){
+         
+           queryName = query.aliases(aliasCount)
+           pattern = s"$queryName\\W".r
+           
+           pattern.findFirstIn(m.mentionSpan) match {
+             case Some(x) => { matchingCorefMentions = matchingCorefMentions ::: corefMentions 
+                               aliasMatch = true
+                             }
+             case None =>             
+           }
+           
+           aliasCount += 1
+           
+         }
+       }       
+       //if(corefMentions.filter(m => m.mentionSpan.contains(queryFullName)).size > 0) {matchingCorefMentions = matchingCorefMentions ::: corefMentions}         
+     }     
      matchingCorefMentions
   }
   
@@ -458,12 +614,61 @@ object RunKBPImplie {
     filteredExtractions    
   }
   
-  def filterExtractionsIncludingCoref(extractions: List[KBPExtraction], matchingCorefMentions: List[CorefMention], queryName: String): List[KBPExtraction] = {
+  def filterExtractionsIncludingCoref(extractions: List[KBPExtraction], matchingCorefMentions: List[CorefMention], query: KBPQuery): List[KBPExtraction] = {
+  //def filterExtractionsIncludingCoref(extractions: List[KBPExtraction], matchingCorefMentions: List[CorefMention], queryName: String): List[KBPExtraction] = {
   
-    val filteredExtractions = extractions.filter(e => e.getArg1().argName.contains(queryName) || checkForCorefMatch(e, matchingCorefMentions))
+    //val filteredExtractions = extractions.filter(e => e.getArg1().argName.contains(queryName) || checkForCorefMatch(e, matchingCorefMentions))
+    
+     val filteredExtractions = extractions.filter(e => containsQueryAlias(e.getArg1().argName, query) |
+      (checkForCorefMatch(e, matchingCorefMentions) && checkForOverlapWithQueryName(e.getArg1().argName, query.name)) )    
     
     filteredExtractions    
   }
+
+   def checkForOverlapWithQueryName(arg1Name: String, queryName: String): Boolean = {
+
+    var overlap = false
+    val queryNameTokens = queryName.split(" ")
+    var tokenCount = 0
+    val numTokens = queryNameTokens.size
+    
+    while(!overlap && tokenCount < numTokens){
+      if(arg1Name.contains(queryNameTokens(tokenCount))) overlap = true                   
+      tokenCount += 1
+    }
+    overlap
+  }
+  
+  def containsQueryAlias(arg1: String, query: KBPQuery): Boolean = {
+      
+    var aliasMatch = false
+    var aliasCount = 0
+    val aliasSize = query.aliases.size  
+    var queryName = query.aliases(aliasCount)
+    var pattern = s"$queryName\\W".r
+    //println("Alias Size: " + aliasSize)
+    //println("Query Name: " + queryName)
+    //println("Arg1: " + arg1)
+    
+    while(!aliasMatch && aliasCount < aliasSize){
+
+      queryName = query.aliases(aliasCount)
+      //println("Query Name: " + queryName)
+      //println("Arg1: " + arg1)
+      //pattern = s"$queryName\\W".r
+      //pattern = s"$queryName\\z".r
+      
+      if(arg1.contains(queryName)){aliasMatch = true}
+      //pattern.findFirstIn(arg1) match {
+      //  case Some(x) => {aliasMatch = true}
+      //  case None =>             
+      //}       
+      aliasCount += 1
+    }
+    //println("Alias Match: " + aliasMatch)
+    aliasMatch
+  }
+  
   
   def checkForCorefMatch(extraction: KBPExtraction, matchingCorefMentions: List[CorefMention]): Boolean = {
     
@@ -508,6 +713,8 @@ object RunKBPImplie {
       relationExtractor.clearAllCaches()
       val implicitRelations = relationExtractor.extractRelations(sentenceText)      
       println("implicitRelations size: " + implicitRelations.size)
+      //val tagsToIgnore = Nil
+      //val taggedImplicitRelations = tagNERs(implicitRelations, sentence, tagsToIgnore)
       
       /*if(implicitRelations.size > 0){      
         val ir = implicitRelations(0)
@@ -600,7 +807,7 @@ object RunKBPImplie {
           val e = new KBPExtraction(arg1, arg2, rel, score,
 			arg1Link, arg2Link, arg1BestMention,
 			arg2BestMention, docName, sentNum,
-			arg1BestMentionSentNum, arg2BestMentionSentNum)
+			arg1BestMentionSentNum, arg2BestMentionSentNum, ir.getNERs.asJava)
           e
         //}
         //catch{case e: Exception => {      
@@ -657,6 +864,8 @@ object RunKBPImplie {
             println(">mention type name(): " + m.mentionType.name())
             println(">mention sentnum: " + m.sentNum)
             println(">mention start index: " + m.startIndex)            
+            println(">mention animacy: " + m.animacy)
+            println(">mention gender: " + m.gender)
           }
           
         }         
@@ -672,26 +881,9 @@ object RunKBPImplie {
     }      
   }
    
-  
-  def getRelevantSentencesIncludingCoref(document: Option[Annotation], nameFilter: String, matchingCorefMentions: List[CorefMention]): List[CoreMap] = {
-
-    /*scala> var pattern = "Alan Gross\\W".r
-      pattern: scala.util.matching.Regex = Alan Gross\W
-
-      scala> val y = "The American Alan Gross wrote the article."
-      y: String = The American Alan Gross wrote the article.
-
-      scala> pattern.findFirstIn(x)
-      res8: Option[String] = None
-
-      scala> pattern.findFirstIn(y)
-      res9: Option[String] = Some(Alan Gross )
-
-      scala> x
-      res10: String = Alan Grossberg is president of Vista.
-    */
-    
-    
+  def getRelevantSentencesIncludingCoref(document: Option[Annotation], query: KBPQuery, matchingCorefMentions: List[CorefMention]): List[CoreMap] = {
+  //def getRelevantSentencesIncludingCoref(document: Option[Annotation], nameFilter: String, matchingCorefMentions: List[CorefMention]): List[CoreMap] = {
+        
     val relevantSentences = document match {
 
     case Some(x) =>{
@@ -705,15 +897,31 @@ object RunKBPImplie {
     
         var sentenceNums = scala.collection.mutable.Set[Int]()
  
-        val pattern = s"$nameFilter\\W".r
+        //val pattern = s"$nameFilter\\W".r
         for (s <- sentencesAll) {          
- 
-          pattern.findFirstIn(s.get(classOf[TextAnnotation])) match {
-            case Some(x) => sentenceNums += s.get(classOf[SentenceIndexAnnotation])
-            case None =>             
-          }
-          //if(s.get(classOf[TextAnnotation]).contains(nameFilter)) sentenceNums += s.get(classOf[SentenceIndexAnnotation])
           
+          var sentenceMatch = false
+          val numAliases = query.aliases.size
+          var aliasCount = 0
+          var aliasName = query.aliases(aliasCount)
+          var pattern = s"$aliasName\\W".r
+
+          while(!sentenceMatch && aliasCount < numAliases){
+
+            aliasName = query.aliases(aliasCount)
+            pattern = s"$aliasName\\W".r
+            
+            pattern.findFirstIn(s.get(classOf[TextAnnotation])) match {
+              case Some(x) => { sentenceNums += s.get(classOf[SentenceIndexAnnotation])
+                                sentenceMatch = true
+                              }
+              case None =>             
+            }
+            //if(s.get(classOf[TextAnnotation]).contains(nameFilter)) sentenceNums += s.get(classOf[SentenceIndexAnnotation])
+          
+            aliasCount += 1
+            
+          }
         }
         
         val sentenceNumsCoref = getSentenceNumbersMatchingCoref(matchingCorefMentions)       
@@ -771,8 +979,10 @@ object RunKBPImplie {
     var docs = documents.toList
     // ---------------------------------------------------------------------
     // Temporary: setting max number of documents to 100
-    val maxSize = 100
-    if(documents.size > maxSize){docs = docs.dropRight(docs.size-maxSize)}
+   // val maxSize = 100
+    //if(documents.size > maxSize){docs = docs.dropRight(docs.size-maxSize)}
+    var startTime :Long = 0
+	var endTime: Long = 0 
     var docCount = 0
     for(doc <- docs) yield{
     // ---------------------------------------------------------------------  
@@ -780,12 +990,21 @@ object RunKBPImplie {
       docCount = docCount + 1
       println("Processing Doc # :" + docCount)
         var a :Option[Annotation] = None
-        a = stanfordProcessDocument(doc)
-        a       
-    }  
+        val t = new Thread {
+          override def run() {    
+            startTime = System.currentTimeMillis()
+            a = stanfordProcessDocument(doc)
+            endTime = System.currentTimeMillis()
+            println("Thread: Document took " + (endTime-startTime) + " milliseconds")     
+          }         
+        }  
+        t.start()
+        t.join(180000)     
+        a
+    }
   }
   
-  /*def processDocuments(documents: Set[String]): List[Option[Annotation]] = {
+  /*def processDocuments2(documents: Set[String]): List[Option[Annotation]] = {
     println("Number of docs = " + documents.size)
     var startTime :Long = 0
 	var endTime: Long = 0    	 

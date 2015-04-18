@@ -1,0 +1,20 @@
+ceo
+chief executive officer
+chief executive
+coo
+chief operating officer
+cfo
+chief financial officer
+cto
+chief technology officer
+founder
+company founder
+executive director
+company director
+secretary general
+secretary-general
+president
+vice president
+vice-president
+vp
+
