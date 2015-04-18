@@ -27,7 +27,7 @@ class WebTesterServer extends MiniHttpServer {
   def brfy(s: String) = {
     val br = "<br>"
     val sp = s.replaceAll("\n", "<br>").replaceAll("\t", "    ")
-    s"$br$sp$br$br"
+    s"<pre>$sp$br$br</pre>"
   }
 
   get("/") { exchange =>
