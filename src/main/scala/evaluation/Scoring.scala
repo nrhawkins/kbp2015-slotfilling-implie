@@ -522,8 +522,9 @@ object Scoring {
    */
   def checkAnswerKeyFile(seqNum: Int, configFile: String) {
     config = ConfigFactory.load(configFile)
-    
+
     if (seqNum < 0) {
+      seqFilename = config.getString("sequence-file")
       seq = getSeqNum(seqFilename) - 1
       answerkey_file = config.getString("input-dir-answers") +
         (seq - 1) + config.getString("answer-key-file-tail")
