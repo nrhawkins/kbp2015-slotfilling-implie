@@ -525,7 +525,7 @@ object Scoring {
 
     if (seqNum < 0) {
       seqFilename = config.getString("sequence-file")
-      seq = getSeqNum(seqFilename) - 1
+      seq = getSeqNum(seqFilename)
       answerkey_file = config.getString("input-dir-answers") +
         (seq - 1) + config.getString("answer-key-file-tail")
     } else {
