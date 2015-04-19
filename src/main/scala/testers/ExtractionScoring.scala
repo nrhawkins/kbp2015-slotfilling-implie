@@ -25,10 +25,10 @@ import evaluation.Scoring
  */
 
 object ExtractionScoring {
-  val config = "extraction-scoring.conf"
-  
+  val configName = "extraction-scoring.conf"
+
   def main(args: Array[String]) {
-    val newargs = config +: args
+    val newargs = configName +: args
     Scoring.main(newargs)
   }
 /*
@@ -511,7 +511,7 @@ object ExtractionScoring {
 */
 
   def checkAnswerKeyFile(seqNum: Int) {
-    Scoring.checkAnswerKeyFile(seqNum, config)
+    Scoring.checkAnswerKeyFile(seqNum, configName)
   }
 
   // This method is a bit of a hack.
