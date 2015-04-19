@@ -520,7 +520,9 @@ object Scoring {
    * doesn't exist.
    * @param seqNum
    */
-  def checkAnswerKeyFile(seqNum: Int) {
+  def checkAnswerKeyFile(seqNum: Int, configFile: String) {
+    config = ConfigFactory.load(configFile)
+    
     if (seqNum < 0) {
       answerkey_file = config.getString("input-dir-answers") +
         (seq - 1) + config.getString("answer-key-file-tail")

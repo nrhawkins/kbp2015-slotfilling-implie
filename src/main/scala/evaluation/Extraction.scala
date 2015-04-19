@@ -87,12 +87,13 @@ object Extraction {
 
     println("Loading Extractor.")
     val relationExtractor =
-//      new ImplIEWithBasicFilters(
+      new ImplIEWithBasicFilters(
 //      new ConstrainedImplIE(
 //				TaggerLoader.defaultTagger,
-			new ModHighRecallImplIE(
+        TaggerLoader.unExperimentalTagger,
+//			new ModHighRecallImplIE(
 //			new ConstrainedHighRecallImplIE(
-				TaggerLoader.highRecallTagger,
+//				TaggerLoader.highRecallTagger,
         config.getString("tokenization-cache"),
         config.getString("parse-cache"))
 
