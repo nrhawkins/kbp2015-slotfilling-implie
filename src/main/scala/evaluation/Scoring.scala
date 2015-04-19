@@ -524,6 +524,7 @@ object Scoring {
     config = ConfigFactory.load(configFile)
     
     if (seqNum < 0) {
+      seq = getSeqNum(seqFilename) - 1
       answerkey_file = config.getString("input-dir-answers") +
         (seq - 1) + config.getString("answer-key-file-tail")
     } else {
