@@ -19,7 +19,11 @@ object TACDevelopmentRelationExtractorAndScoring {
   def main(args: Array[String]) {
    
     val x = Array[String]()
-    
+
+    // Check that the necessary answerkey file exists.
+    // -1 uses the most recent sequence number.
+    ExtractionScoring.checkAnswerKeyFile(-1)
+
     println("wrapper: Extracting Results")
     TACDevelopmentRelationExtractorForScoring.main(x)
 

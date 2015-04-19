@@ -512,6 +512,35 @@ object Scoring {
 
   }
 
+  /**
+   * Throws exception and exits if the answer key for the sequence number
+   * doesn't exist.
+   * @param seqNum
+   */
+  def checkAnswerKeyFile(seqNum: Int) {
+    if (seqNum < 0) {
+      answerkey_file = config.getString("input-dir-answers") +
+        (seq - 1) + config.getString("answer-key-file-tail")
+    } else {
+      try{
+        seq = seqNum
+        answerkey_file = config.getString("input-dir-answers") +
+          (seq-1) + config.getString("answer-key-file-tail")
+      }
+      catch{
+        case e: Exception => println("es: Command line argument for sequence number is not an integer.")
+      }
+    }
+
+    val inputFilename = answerkey_file
+
+    // Does file exist?
+    if (!Files.exists(Paths.get(inputFilename))) {
+      System.out.println(s"Sentence file $inputFilename doesn't exist!  " + s"Exiting...")
+      sys.exit(1)
+    }
+  }
+
   // This method is a bit of a hack.
   // We know that the sentence num is incremented after the sentence extractor,
   // so we take one less than what is recorded there.

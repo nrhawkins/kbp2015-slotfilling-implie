@@ -508,6 +508,11 @@ object ExtractionScoring {
         
   }
 */
+
+  def checkAnswerKeyFile(seqNum: Int) {
+    Scoring.checkAnswerKeyFile(seqNum)
+  }
+
   // This method is a bit of a hack.
   // We know that the sentence num is incremented after the sentence extractor,
   // so we take one less than what is recorded there.
