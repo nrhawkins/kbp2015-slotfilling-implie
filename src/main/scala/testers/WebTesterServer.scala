@@ -13,14 +13,22 @@ import utils.ExtractionFormatUtils
  */
 object WebTesterServer {
   def main(args: Array[String]) {
+    val socketAddress = "127.0.0.1"
+    val port = 9876
+    val backlog = 0
+
     println("Setting up server...")
-    val server = new WebTesterServer
+    val server = new WebTesterServer(socketAddress, port, backlog)
     server.start()
     println("Server running...")
   }
 }
 
-class WebTesterServer extends MiniHttpServer {
+class WebTesterServer
+    (override val socketAddress: String = "127.0.0.1",
+     override val port: Int = 8080,
+     override val backlog: Int = 0)
+    extends SimpleConfigServer(socketAddress, port, backlog) {
   val tagger = TaggerLoader.defaultTagger
   val extractor = new ImplicitRelationExtractor(tagger)
 
