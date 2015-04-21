@@ -43,9 +43,8 @@ class WebTesterServer
     exchange.getResponseHeaders.add("Access-Control-Allow-Origin", "*")
     println("/ entered")
     val params = queryToMap(exchange.getRequestURI.getQuery)
-    params.get("sentence") match {
-      case None => "No sentence provided."
-      case Some(sentence) =>
+    params.getOrElse("sentence", None) match {
+      case sentence: String =>
         val extractions = extractor.extractRelations(sentence)
         println("extracted")
         val tags = extractor.getTags(sentence)
@@ -68,6 +67,7 @@ class WebTesterServer
         builder.append(s"Unfiltered:$brunfiltered")
         builder.append(s"Final:$brfinal")
         builder.mkString
+      case _ => "No sentence provided."
     }
   }
 
