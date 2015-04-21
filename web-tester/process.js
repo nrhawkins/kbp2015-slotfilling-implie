@@ -8,7 +8,7 @@ window.onload = function() {
 
 //var url = "http://128.208.6.92:8080/";
 //var url = "tricycle.cs.washington.edu:8080/";
-var url = "http://localhost:8080/";
+var url = "http://reliable.cs.washington.edu/implie";
 
 function submit() {
   console.log("In form submit");
