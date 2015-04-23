@@ -2,9 +2,11 @@ package utils
 
 import java.io._
 
+import edu.knowitall.repr.sentence.{Sentence, Chunked, Lemmatized}
+import edu.knowitall.taggers.{TaggerCollection, TaggerRule}
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.stanford.nlp.trees.{Tree, TypedDependency}
-import extractor.ParseEntry
+import extractor.{TaggerRulesEntry, ParseEntry}
 
 import scala.collection.JavaConversions._
 import scala.io.Source
@@ -79,6 +81,42 @@ object SerializationUtils {
     } else {
       Nil
     }
+  }
+
+  /*
+   * Serializes the tagger rules given and stores it in the given file.
+   * ImplIE doesn't use constraints on the tags so they are ignored.
+   * Upon loading, constraints should be initialized to and empty Sequence.
+   */
+  def addSerializedTaggerRules(
+    file: String, rules: Seq[TaggerRule[Sentence with Chunked with Lemmatized]]) {
+
+    val out = outputStream(file)
+    val ruleStrings = rules.map(rule => new TaggerRulesEntry(rule.name, rule.taggerIdentifier, rule.arguments.toList))
+    out.writeObject(new java.util.ArrayList(ruleStrings.toList))
+    out.close()
+  }
+
+  def loadSerializedTaggerCollection(file: String):
+      TaggerCollection[Sentence with Chunked with Lemmatized] = {
+    print("Loading serialized tagger collection...")
+    val start = System.nanoTime()
+    val result = getSerializedObjects[java.util.ArrayList[TaggerRulesEntry]](file)
+
+    val tagger = result match {
+      case Nil =>
+        print(s"NO TAGGER COLLECTION IN FILE $file...")
+        null
+      case x::xs =>
+        // Just take the first one.
+        val reconstructedRules = x.map(r =>
+          TaggerRule[Sentence with Chunked with Lemmatized](r.name, r.taggerIdentifier, Seq(), r.arguments))
+        reconstructedRules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
+    }
+    val end = System.nanoTime()
+    val diff = (end - start).toDouble / 1000000000
+    println(f"[$diff%.3f sec]")
+    tagger
   }
 
   def loadSerializedTokenizedSentences(file: String): Map[String, Seq[ChunkedToken]] = {

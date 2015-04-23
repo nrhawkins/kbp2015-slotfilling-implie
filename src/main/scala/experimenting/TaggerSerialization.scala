@@ -8,6 +8,7 @@ import edu.knowitall.taggers._
 import edu.knowitall.tool.chunk.OpenNlpChunker
 import edu.knowitall.tool.stem.MorphaStemmer
 import extractor.TaggerLoader
+import utils.SerializationUtils
 
 import scala.io.Source
 
@@ -71,14 +72,21 @@ object TaggerSerialization {
 //    rulecpy.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
   }
 
+  def storeTagger(conf: Config) {
+    val rules = TaggerLoader.taggerRuleMemo.getOrElse(conf.hashCode(), List())
+    val taggerRules = rules.map(_.asInstanceOf[TaggerRule[Sentence with Chunked with Lemmatized]])
+    SerializationUtils.addSerializedTaggerRules("cache/taggers/experimental.ser", taggerRules)
+  }
+
   def main(args: Array[String]) {
     val tagger = TaggerLoader.basicTestTagger
     val conf = TaggerLoader.basic_test_tagger_config
 
-    print("Copying tagger...")
+    print("Loading tagger...")
     val start = System.nanoTime()
+    val copy = SerializationUtils.loadSerializedTaggerCollection("cache/taggers/experimental.ser")
 //    val copy = createTaggerFromConfig(conf)
-    val copy = createTaggerFromRuleCopy(conf)
+//    val copy = createTaggerFromRuleCopy(conf)
     val end = System.nanoTime()
     val diff = (end - start).toDouble / 1000000000
     println(f"[$diff%.3f sec]")
@@ -98,6 +106,9 @@ object TaggerSerialization {
         println(typ1.tokenInterval.equals(typ2.tokenInterval))
       }
     }
+    // Save tagger.
+//    storeTagger(conf)
+    print("Done.")
   }
 
   def tagging(t: TaggerCollection[Sentence with Chunked with Lemmatized], line: String) = {
