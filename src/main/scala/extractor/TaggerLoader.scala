@@ -2,7 +2,7 @@ package extractor
 
 import com.typesafe.config.{ConfigFactory, Config}
 import edu.knowitall.repr.sentence._
-import edu.knowitall.taggers.{ParseRule, TaggerCollection}
+import edu.knowitall.taggers.{TaggerRule, ParseRule, TaggerCollection}
 import edu.knowitall.tool.chunk.OpenNlpChunker
 import edu.knowitall.tool.stem.MorphaStemmer
 import edu.knowitall.tool.typer.Type
@@ -34,6 +34,8 @@ object TaggerLoader {
 
   val taggerMemo = scala.collection.mutable.Map
     [String, TaggerCollection[Sentence with Chunked with Lemmatized]]()
+  val taggerRuleMemo = scala.collection.mutable.Map
+    [Int, Seq[edu.knowitall.taggers.Rule[Sentence with Chunked with Lemmatized]]]()
   def memoizedTagger(key: String, tagger_config: Config)() = {
     taggerMemo.get(key) match {
       case None =>
@@ -62,7 +64,6 @@ object TaggerLoader {
    * @return TaggerCollection (tagger).
    */
   def buildTagger(config: Config): TaggerCollection[Sentence with Chunked with Lemmatized] = {
-    println("Building tagger...")
     /**
      * Builds string with the definitions of class term relation for tagger.
      * @param classes List of class to term list mappings.
@@ -116,14 +117,14 @@ object TaggerLoader {
     val start = System.nanoTime()
     val taggerPattern = createTaggerDefinition(getClasses)
 
-    println("Created tagger pattern.")
     // Setup structures for representing data.
     val rules = new ParseRule[Sentence with Chunked with Lemmatized].parse(taggerPattern).get
-    println("Created tag rules.")
+    taggerRuleMemo.put(config.hashCode(), rules)
+
     val ret = rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
     val end = System.nanoTime()
     val diff = (end - start).toDouble / 1000000000
-    println(f"Tagger building complete. [$diff%.3 sec]")
+    println(f"Tagger building complete. [$diff%.3f sec]")
     ret
   }
 
