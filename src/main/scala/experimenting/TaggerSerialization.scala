@@ -75,7 +75,7 @@ object TaggerSerialization {
   def storeTagger(conf: Config) {
     val rules = TaggerLoader.taggerRuleMemo.getOrElse(conf.hashCode(), List())
     val taggerRules = rules.map(_.asInstanceOf[TaggerRule[Sentence with Chunked with Lemmatized]])
-    SerializationUtils.addSerializedTaggerRules("cache/taggers/experimental.ser", taggerRules)
+    SerializationUtils.saveSerializedTaggerRules("cache/taggers/experimental.ser", taggerRules)
   }
 
   def main(args: Array[String]) {

@@ -108,7 +108,7 @@ object Extraction {
           case None => println("No rule memo for given config.")
           case Some(ruleset) =>
             val taggerRules = ruleset.map(_.asInstanceOf[TaggerRule[Sentence with Chunked with Lemmatized]])
-            SerializationUtils.addSerializedTaggerRules(taggerFile, taggerRules)
+            SerializationUtils.saveSerializedTaggerRules(taggerFile, taggerRules, overwrite = false)
         }
       }
       tagger

@@ -88,10 +88,12 @@ object SerializationUtils {
    * ImplIE doesn't use constraints on the tags so they are ignored.
    * Upon loading, constraints should be initialized to and empty Sequence.
    */
-  def addSerializedTaggerRules(
-    file: String, rules: Seq[TaggerRule[Sentence with Chunked with Lemmatized]]) {
+  def saveSerializedTaggerRules(
+    file: String,
+    rules: Seq[TaggerRule[Sentence with Chunked with Lemmatized]],
+    overwrite: Boolean = false) {
 
-    val out = outputStream(file)
+    val out = outputStream(file, appending = false, overwrite = overwrite)
     val ruleStrings = rules.map(rule => new TaggerRulesEntry(rule.name, rule.taggerIdentifier, rule.arguments.toList))
     out.writeObject(new java.util.ArrayList(ruleStrings.toList))
     out.close()
@@ -139,14 +141,22 @@ object SerializationUtils {
     result
   }
 
-  def outputStream(file: String): ObjectOutputStream = {
-    if (new java.io.File(file).exists) {
+  /*
+   * Creates an output stream with given flags.  Returns null if overwrite and
+   * appending are set to false and the file already exists.
+   */
+  def outputStream(file: String, appending: Boolean = true, overwrite: Boolean = false): ObjectOutputStream = {
+    val exists = new java.io.File(file).exists
+    if (appending && exists) {
       new AppendingObjectOutputStream(new FileOutputStream(file, true))
-    } else {
+    } else if (overwrite || !exists) {
       // Create file first.
       val writer = new PrintWriter(file)
       writer.close()
       new ObjectOutputStream(new FileOutputStream(file))
+    } else {
+      println("Could not create output stream, file exists and flag set to not overwrite")
+      null
     }
   }
 }
