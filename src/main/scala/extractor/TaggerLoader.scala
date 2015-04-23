@@ -28,6 +28,7 @@ object TaggerLoader {
   // Experimental taggers.
   val un_city_extension = ConfigFactory.load("taggers/experimental/UN-extension.conf")
   val un_city_high_recall = ConfigFactory.load("taggers/experimental/UN-high-recall.conf")
+  val freebase_extension = ConfigFactory.load("taggers/experimental/freebase-extension.conf")
 
   val chunker = new OpenNlpChunker()
 
@@ -53,7 +54,7 @@ object TaggerLoader {
   // Experimental... 
   def unExperimentalTagger = memoizedTagger("un_experimental", un_city_extension)
   def unExperimentalHighRecallTagger = memoizedTagger("un_experimental_high_recall", un_city_high_recall)
-
+  def freebaseExperimentalTagger = memoizedTagger("freebase_experimental", freebase_extension)
 
   /**
    * Constructs a tagger from a tagger configuration.
@@ -61,6 +62,7 @@ object TaggerLoader {
    * @return TaggerCollection (tagger).
    */
   def buildTagger(config: Config): TaggerCollection[Sentence with Chunked with Lemmatized] = {
+    println("Building tagger...")
     /**
      * Builds string with the definitions of class term relation for tagger.
      * @param classes List of class to term list mappings.
@@ -112,9 +114,13 @@ object TaggerLoader {
 
     val taggerPattern = createTaggerDefinition(getClasses)
 
+    println("Created tagger pattern.")
     // Setup structures for representing data.
     val rules = new ParseRule[Sentence with Chunked with Lemmatized].parse(taggerPattern).get
-    rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
+    println("Created tag rules.")
+    val end = rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
+    println("Tagger building complete.")
+    end
   }
 
   private def taggerFunction
