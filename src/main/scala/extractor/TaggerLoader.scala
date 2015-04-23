@@ -112,15 +112,19 @@ object TaggerLoader {
           }))
     }
 
+    println("Loading tagger...")
+    val start = System.nanoTime()
     val taggerPattern = createTaggerDefinition(getClasses)
 
     println("Created tagger pattern.")
     // Setup structures for representing data.
     val rules = new ParseRule[Sentence with Chunked with Lemmatized].parse(taggerPattern).get
     println("Created tag rules.")
-    val end = rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
-    println("Tagger building complete.")
-    end
+    val ret = rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
+    val end = System.nanoTime()
+    val diff = (end - start).toDouble / 1000000000
+    println(f"Tagger building complete. [$diff%.3 sec]")
+    ret
   }
 
   private def taggerFunction
