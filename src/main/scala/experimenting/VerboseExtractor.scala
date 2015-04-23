@@ -18,11 +18,11 @@ object VerboseExtractor {
   def main(args: Array[String]) {
     val tagger = TaggerLoader.defaultTagger
     val recallTagger = TaggerLoader.highRecallTagger
-//    val extractor = new ImplicitRelationExtractor(tagger)
+    val extractor = new ImplicitRelationExtractor(tagger)
 //    val extractor = new ImplicitRelationExtractorNoLists(tagger)
 //    val extractor = new ImplIEWithBasicFilters(tagger)
 //    val extractor = new FormalConstrainedImplIE(tagger)
-    val extractor = new HighRecallImplIE(recallTagger)
+//    val extractor = new HighRecallImplIE(recallTagger)
     val out = new PrintWriter(outputFile)
 
     for (sentence <- Source.fromFile(sentenceFile).getLines()) {

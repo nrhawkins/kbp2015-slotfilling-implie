@@ -4,7 +4,10 @@ import java.io.{FileWriter, BufferedWriter, PrintWriter}
 import java.nio.file.{Paths, Files}
 
 import com.typesafe.config.{Config, ConfigFactory}
+import edu.knowitall.repr.sentence.{Lemmatized, Chunked, Sentence}
+import edu.knowitall.taggers.TaggerRule
 import extractor._
+import utils.SerializationUtils
 
 import scala.io.Source
 
@@ -33,6 +36,10 @@ object Extraction {
   var resultFileSuffix: String = null
   var nullFileSuffix: String = null
 
+  var taggerFile: String = null
+  var loadTagger: Boolean = false
+  var saveTagger: Boolean = false
+
   // Use the fact that the current sequence number should be the one in the file
   // Later in this file, when creating the output file,
   // increment the number in the seqFilename for the next run
@@ -53,6 +60,10 @@ object Extraction {
     sentenceFileSuffix = config.getString("sentence-file-suffix")
     resultFileSuffix = config.getString("result-file-suffix")
     nullFileSuffix = config.getString("null-result-file-suffix")
+
+    taggerFile = config.getString("tagger-file")
+    loadTagger = config.getBoolean("load-tagger")
+    saveTagger = config.getBoolean("save-tagger")
 
     seq = getSeqNum(seqFilename)
 
@@ -85,15 +96,31 @@ object Extraction {
         result
       }
 
+    val tagger = if (loadTagger) {
+      SerializationUtils.loadSerializedTaggerCollection(taggerFile)
+    } else {
+      val (tagger, config) =
+      //  (TaggerLoader.defaultTagger, TaggerLoader.corrected_cap_config)
+        (TaggerLoader.unExperimentalTagger, TaggerLoader.un_city_extension)
+      //				TaggerLoader.highRecallTagger
+      if (saveTagger) {
+        TaggerLoader.taggerRuleMemo.get(config.hashCode()) match {
+          case None => println("No rule memo for given config.")
+          case Some(ruleset) =>
+            val taggerRules = ruleset.map(_.asInstanceOf[TaggerRule[Sentence with Chunked with Lemmatized]])
+            SerializationUtils.saveSerializedTaggerRules(taggerFile, taggerRules, overwrite = false)
+        }
+      }
+      tagger
+    }
+
     println("Loading Extractor.")
     val relationExtractor =
       new ImplIEWithBasicFilters(
 //      new ConstrainedImplIE(
-//				TaggerLoader.defaultTagger,
-        TaggerLoader.unExperimentalTagger,
 //			new ModHighRecallImplIE(
 //			new ConstrainedHighRecallImplIE(
-//				TaggerLoader.highRecallTagger,
+        tagger,
         config.getString("tokenization-cache"),
         config.getString("parse-cache"))
 

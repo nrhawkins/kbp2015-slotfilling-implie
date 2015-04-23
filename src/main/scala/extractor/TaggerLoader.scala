@@ -2,7 +2,7 @@ package extractor
 
 import com.typesafe.config.{ConfigFactory, Config}
 import edu.knowitall.repr.sentence._
-import edu.knowitall.taggers.{ParseRule, TaggerCollection}
+import edu.knowitall.taggers.{TaggerRule, ParseRule, TaggerCollection}
 import edu.knowitall.tool.chunk.OpenNlpChunker
 import edu.knowitall.tool.stem.MorphaStemmer
 import edu.knowitall.tool.typer.Type
@@ -28,11 +28,14 @@ object TaggerLoader {
   // Experimental taggers.
   val un_city_extension = ConfigFactory.load("taggers/experimental/UN-extension.conf")
   val un_city_high_recall = ConfigFactory.load("taggers/experimental/UN-high-recall.conf")
+  val freebase_extension = ConfigFactory.load("taggers/experimental/freebase-extension.conf")
 
   val chunker = new OpenNlpChunker()
 
   val taggerMemo = scala.collection.mutable.Map
     [String, TaggerCollection[Sentence with Chunked with Lemmatized]]()
+  val taggerRuleMemo = scala.collection.mutable.Map
+    [Int, Seq[edu.knowitall.taggers.Rule[Sentence with Chunked with Lemmatized]]]()
   def memoizedTagger(key: String, tagger_config: Config)() = {
     taggerMemo.get(key) match {
       case None =>
@@ -53,7 +56,7 @@ object TaggerLoader {
   // Experimental... 
   def unExperimentalTagger = memoizedTagger("un_experimental", un_city_extension)
   def unExperimentalHighRecallTagger = memoizedTagger("un_experimental_high_recall", un_city_high_recall)
-
+  def freebaseExperimentalTagger = memoizedTagger("freebase_experimental", freebase_extension)
 
   /**
    * Constructs a tagger from a tagger configuration.
@@ -110,11 +113,19 @@ object TaggerLoader {
           }))
     }
 
+    println("Loading tagger...")
+    val start = System.nanoTime()
     val taggerPattern = createTaggerDefinition(getClasses)
 
     // Setup structures for representing data.
     val rules = new ParseRule[Sentence with Chunked with Lemmatized].parse(taggerPattern).get
-    rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
+    taggerRuleMemo.put(config.hashCode(), rules)
+
+    val ret = rules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
+    val end = System.nanoTime()
+    val diff = (end - start).toDouble / 1000000000
+    println(f"Tagger building complete. [$diff%.3f sec]")
+    ret
   }
 
   private def taggerFunction

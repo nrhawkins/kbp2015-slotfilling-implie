@@ -2,9 +2,11 @@ package utils
 
 import java.io._
 
+import edu.knowitall.repr.sentence.{Sentence, Chunked, Lemmatized}
+import edu.knowitall.taggers.{TaggerCollection, TaggerRule}
 import edu.knowitall.tool.chunk.ChunkedToken
 import edu.stanford.nlp.trees.{Tree, TypedDependency}
-import extractor.ParseEntry
+import extractor.{TaggerRulesEntry, ParseEntry}
 
 import scala.collection.JavaConversions._
 import scala.io.Source
@@ -81,6 +83,44 @@ object SerializationUtils {
     }
   }
 
+  /*
+   * Serializes the tagger rules given and stores it in the given file.
+   * ImplIE doesn't use constraints on the tags so they are ignored.
+   * Upon loading, constraints should be initialized to and empty Sequence.
+   */
+  def saveSerializedTaggerRules(
+    file: String,
+    rules: Seq[TaggerRule[Sentence with Chunked with Lemmatized]],
+    overwrite: Boolean = false) {
+
+    val out = outputStream(file, appending = false, overwrite = overwrite)
+    val ruleStrings = rules.map(rule => new TaggerRulesEntry(rule.name, rule.taggerIdentifier, rule.arguments.toList))
+    out.writeObject(new java.util.ArrayList(ruleStrings.toList))
+    out.close()
+  }
+
+  def loadSerializedTaggerCollection(file: String):
+      TaggerCollection[Sentence with Chunked with Lemmatized] = {
+    print("Loading serialized tagger collection...")
+    val start = System.nanoTime()
+    val result = getSerializedObjects[java.util.ArrayList[TaggerRulesEntry]](file)
+
+    val tagger = result match {
+      case Nil =>
+        print(s"NO TAGGER COLLECTION IN FILE $file...")
+        null
+      case x::xs =>
+        // Just take the first one.
+        val reconstructedRules = x.map(r =>
+          TaggerRule[Sentence with Chunked with Lemmatized](r.name, r.taggerIdentifier, Seq(), r.arguments))
+        reconstructedRules.foldLeft(new TaggerCollection[Sentence with Chunked with Lemmatized]()){ case (ctc, rule) => ctc + rule }
+    }
+    val end = System.nanoTime()
+    val diff = (end - start).toDouble / 1000000000
+    println(f"[$diff%.3f sec]")
+    tagger
+  }
+
   def loadSerializedTokenizedSentences(file: String): Map[String, Seq[ChunkedToken]] = {
     print("Loading serialized tokenized sentences...")
     val start = System.nanoTime()
@@ -101,14 +141,22 @@ object SerializationUtils {
     result
   }
 
-  def outputStream(file: String): ObjectOutputStream = {
-    if (new java.io.File(file).exists) {
+  /*
+   * Creates an output stream with given flags.  Returns null if overwrite and
+   * appending are set to false and the file already exists.
+   */
+  def outputStream(file: String, appending: Boolean = true, overwrite: Boolean = false): ObjectOutputStream = {
+    val exists = new java.io.File(file).exists
+    if (appending && exists) {
       new AppendingObjectOutputStream(new FileOutputStream(file, true))
-    } else {
+    } else if (overwrite || !exists) {
       // Create file first.
       val writer = new PrintWriter(file)
       writer.close()
       new ObjectOutputStream(new FileOutputStream(file))
+    } else {
+      println("Could not create output stream, file exists and flag set to not overwrite")
+      null
     }
   }
 }
