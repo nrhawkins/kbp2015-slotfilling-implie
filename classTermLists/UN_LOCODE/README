@@ -1,0 +1,4 @@
+This is country subdivision (i.e. states and provinces) data from the United Nations Economic Commission for Europe.
+The country subdivision data is under ISO 3166-2.  The data can be accessed at: http://www.unece.org/cefact/codesfortrade/codes_index.html
+
+Some of the names use country specific variants of utf encoding, so the simple transliteration used to convert to ascii fails in these instances.
