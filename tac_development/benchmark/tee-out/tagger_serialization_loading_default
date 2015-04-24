@@ -1,0 +1,3 @@
+[0m[[33mwarn[0m] [0mThe global sbt directory is now versioned and is located at /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /homes/gws/genelkim/.sbt but not in /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
