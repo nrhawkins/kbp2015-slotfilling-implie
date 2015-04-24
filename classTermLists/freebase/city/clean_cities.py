@@ -87,13 +87,13 @@ cityset = [city for city in cityset if not isdirty(city.lower())]
 
 print 'after dirty {}'.format(len(cityset))
 
-# Remove entries that are first or last names in US census data.
+# remove entries that are first or last names in us census data.
 firstnames = set(file('first_names.txt', 'r').read().splitlines())
 lastnames = set(file('last_names.txt', 'r').read().splitlines())
 
 cityset = [city for city in cityset if (city.lower() not in firstnames and city.lower() not in lastnames)]
 
-# Remove entries that are normal english words.
+# remove entries that are normal english words.
 words = set(file('enable1.txt', 'r').read().splitlines())
 cityset = [city for city in cityset if city.lower() not in words]
 

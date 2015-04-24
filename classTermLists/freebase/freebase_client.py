@@ -24,9 +24,14 @@ service_url = 'https://www.googleapis.com/freebase/v1/mqlread'
 #  '/common/topic/alias': [{'value': None, 'lang': '/lang/en', 'optional': True}]}]
 
 # Countries.
-query = [{'id': None, 'name': None, 'type': '/location/country', \
-  '/location/location/adjectival_form': [{'value': None, 'lang': '/lang/en', 'optional': True}],\
+#query = [{'id': None, 'name': None, 'type': '/location/country', \
+#  '/location/location/adjectival_form': [{'value': None, 'lang': '/lang/en', 'optional': True}],\
+#  '/common/topic/alias': [{'value': None, 'lang': '/lang/en', 'optional': True}]}]
+
+# Universities.
+query = [{'id': None, 'name': None, 'type': '/education/university', \
   '/common/topic/alias': [{'value': None, 'lang': '/lang/en', 'optional': True}]}]
+
 
 params = {
 #  'query': json.dumps(query)
@@ -47,7 +52,7 @@ for i in range(0, 50000):
 
   # City/Country query.
   #lst.extend([adj['value'] for item in response['result'] for adj in item['/location/location/adjectival_form'] if adj['value'] is not None])
-  #lst.extend([alias['value'] for item in response['result'] for alias in item['/common/topic/alias'] if alias['value'] is not None])
+  lst.extend([alias['value'] for item in response['result'] for alias in item['/common/topic/alias'] if alias['value'] is not None])
 
   # Religion
   #lst.extend([profession['collective_term_for_adherents'] for profession in response['result'] if profession['collective_term_for_adherents'] is not None])
