@@ -1,5 +1,5 @@
 
-lines = file("freebase_universities", "r").read().splitlines()
+lines = file("freebase_schools", "r").read().splitlines()
 
 lines = [line.split(",")[0] for line in lines if line != ""]
 
@@ -21,6 +21,6 @@ lines = [line for line in lines if len(line) > 2]
 
 lines = list(set(lines)) # uniquify.
 
-out = file("cleaned_universities", "w")
+out = file("cleaned_schools", "w")
 out.write("\n".join(lines))
 out.close()
