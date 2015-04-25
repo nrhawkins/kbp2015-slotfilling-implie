@@ -12,8 +12,8 @@ modified nouns.  This section describes these three steps in detail.
 The user provides a tagger that recognizes terms from a set of target
 classes.  The default tagger in \iie is the \emph{KnowItAll} 
 KeywordTagger [add citation].  It is an exact-match keyword tagger 
-that takes a file of keywords as input.  
-We used a file of 65,565 jobTitle and 6,605 
+that takes a file of keywords as input and a sentence.  
+We used a list of 65,565 jobTitle and 6,605 
 adjectival, demonymic, and normal forms of country names for nationality.
 
 % Parsing & Expansion
