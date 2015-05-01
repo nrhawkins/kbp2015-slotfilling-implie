@@ -5,6 +5,7 @@ Sentence Index	DocId	Sentence
 40	NYT_ENG_20080722.0242.LDC2009T13	NEW YORK TIMES CORRECTIONS FOR WEDNESDAY, JULY 23, 2008
 55	NYT_ENG_20080722.0242.LDC2009T13	Besides the advertising agency Campfire, whose founders produced "The Blair Witch Project," the Los Angeles agency ... And Company also worked on the campaign, particularly on the print advertising mentioned in the column.
 58	NYT_ENG_20080722.0242.LDC2009T13	He was Esteban Neira, not Estaban Neiva.
+75	AFP_ENG_20070214.0139.LDC2009T13	"By contrast, the plight of Indonesian domestic workers in other parts of Southeast Asia and the Middle East often makes headlines in Indonesia," it said.
 105	APW_ENG_20071221.0554.LDC2009T13	FRANKFURT, Germany 2007-12-21 11:30:29 UTC
 111	APW_ENG_20071221.0554.LDC2009T13	Dominique Strauss-Kahn, head of the International Monetary Fund, said in an interview with RTL radio on Friday that global growth will be hit by the subprime crisis.
 133	AFP_ENG_20080923.0500.LDC2009T13	African National Congress deputy chief Kgalema Motlanthe was named as the party's candidate to take over as head of state.
@@ -270,9 +271,11 @@ Sentence Index	DocId	Sentence
 4685	APW_ENG_20080430.0993.LDC2009T13	Waldinger added that authorities want to unpack and catalog the art, but need to coordinate that effort with archaeologists and Latin American officials -- a process that could take up to a month.
 4703	APW_ENG_20070511.1007.LDC2009T13	SEOUL, South Korea 2007-05-11 15:16:03 UTC
 4744	AFP_ENG_20070209.0210.LDC2009T13	Non-proliferation analyst Mark Fitzpatrick, of the London think tank the International Institute for Strategic Studies, said: "Iran will be looking for a way to escape further sanctions" but he said that what Larijani "has to offer will likely fall short of the Security Council's resolution for a verified suspension."
+4749	AFP_ENG_20070825.0331.LDC2009T13	The 28-year-old Kim is 6-6 with a 5.23 ERA in 19 games - 16 starts - with the Colorado Rockies, Marlins and Arizona Diamondbacks this season.
 4753	APW_ENG_20071206.0470.LDC2009T13	JAKARTA, Indonesia 2007-12-06 09:30:08 UTC
 4767	NYT_ENG_20070824.0204.LDC2009T13	Wintour, the editor of Vogue, was even closer Thursday night.
 4814	APW_ENG_20070525.1055.LDC2009T13	"Teachers, students, union members, scholars and journalists exercising their right to freely express their opinion are facing constant intimidation, and stricter dress codes for men and women are being imposed by force," it added.
+4835	LTW_ENG_20070321.0111.LDC2009T13	Clinton and Obama (as well as Republicans John McCain of Arizona and Sam Brownback of Kansas) must pay at least some attention to their positions in the Senate, but Edwards is unencumbered by a day job and is still riding his popularity as the vice presidential nominee in 2004.
 4840	LTW_ENG_20070321.0111.LDC2009T13	Alan Solomont, chairman of Obama's fundraising effort in New England, described the campaign's fundraising venture as a ``start-up'' that has required building from the ground up in a short time.
 4844	LTW_ENG_20070321.0111.LDC2009T13	``I had thought, `Boy, this is going to be quite an effort,' not knowing how to raise money or who to even turn to, and within a couple weeks' time we had more than quadrupled my expectations in terms of what we would raise,'' said Dan Nova, 45, a first-time presidential fundraiser who held the breakfast event at his house.
 4855	LTW_ENG_20070321.0111.LDC2009T13	``Just as she is exceeding expectations everywhere she is going politically, we'd all like to exceed expectations when it comes to fundraising,'' said Steve Grossman, a major Clinton fundraiser in Boston.
@@ -1155,6 +1158,7 @@ Sentence Index	DocId	Sentence
 21130	APW_ENG_20070316.0001.LDC2009T13	CAMP PENDLETON, California 2007-03-16 00:00:07 UTC
 21158	APW_ENG_20080828.0744.LDC2009T13	KINGSTON, Jamaica 2008-08-28 15:17:53 UTC
 21175	APW_ENG_20080828.0744.LDC2009T13	Gustav's projected track pointed directly at the Cayman Islands, an offshore banking center where residents boarded up homes and stocked up on emergency supplies.
+21185	APW_ENG_20080828.0744.LDC2009T13	Cuba, Haiti and the Dominican Republic were still getting heavy rain Thursday, and rising waters damaged many homes.
 21186	APW_ENG_20080828.0744.LDC2009T13	In the low-lying Cayman Islands, where Gustav is expected to hit Friday, tourists flocked to the airport to get out before the storm.
 21197	CNA_ENG_20071009.0032.LDC2009T13	Taipei, Oct. 9 (CNA) 10/09/07 20:16:39 (By Ruth Wang)
 21198	CNA_ENG_20071009.0032.LDC2009T13	Ruling Democratic Progressive Party (DPP) presidential candidate Frank Hsieh, who has been out of public view for several days, will resume his election campaign schedule as soon as the DPP chairmanship is settled, Hsieh's campaign office spokesman Chao Tien-lin said Tuesday.
@@ -1200,6 +1204,7 @@ Sentence Index	DocId	Sentence
 22150	LTW_ENG_20070816.0142.LDC2009T13	Senate Foreign Relations Committee Chairman Joe Biden, D-Del., told the White House that Bush's presentation plan was unacceptable.
 22155	LTW_ENG_20070816.0142.LDC2009T13	``That's all the more reason why they would need to testify,'' a senior Foreign Relations Committee aide said of Petraeus and Crocker.
 22168	LTW_ENG_20070816.0142.LDC2009T13	``If anything, we just don't know the dates/times/or the committees that the assessment will be presented to,'' a senior military official in Baghdad said in an e-mail Wednesday.
+22179	AFP_ENG_20080828.0610.LDC2009T13	Southeast Asian nations have concluded talks with Australia and New Zealand on a comprehensive free trade deal, they said in a statement Thursday.mba-it/skj
 22206	XIN_ENG_20081016.0157.LDC2009T13	WASHINGTON, Oct. 16 (Xinhua)
 22237	APW_ENG_20080515.0849.LDC2009T13	MADRID, Spain 2008-05-15 15:12:18 UTC
 22270	XIN_ENG_20070215.0309.LDC2009T13	Petrova will face another Russian, seventh-seeded Anna Chakvetadze, in Friday's quarterfinals.

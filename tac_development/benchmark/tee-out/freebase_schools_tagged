@@ -18,10 +18,10 @@
 [0m[[0minfo[0m] [0mRunning tac.TACDevelopmentRelationExtractorAndScoring [0m
 wrapper: Extracting Results
 Loading tagger...
-Tagger building complete. [33.844 sec]
+Tagger building complete. [34.616 sec]
 Loading Extractor.
-Loading serialized tokenized sentences...[2.313 sec]
-Loading serialized parses...[732.356 sec]
+Loading serialized tokenized sentences...[2.294 sec]
+Loading serialized parses...[730.415 sec]
 Extracting Sentences.
 5221 sentences to process.
 Sentence 200 processed.
@@ -72,7 +72,7 @@ Sentence 21600 processed.
 wrapper: Scoring Extractions
 es: Args length: 1
 es: Reading Extractions
-es: Extractions size: 5580
+es: Extractions size: 5560
 es: Reading Answer Key
 es: AKI size: 12088
 es: Building Answer Key
@@ -83,7 +83,7 @@ es: MK Incorrect size: 3503
 es: Opening files for scoring report and new extractions
 es: Scoring Extractions
 es: Writing Scoring Report
-es: Number of Correct Extractions: 4809
-es: Number of Incorrect Extractions: 666
+es: Number of Correct Extractions: 4826
+es: Number of Incorrect Extractions: 669
 es: Closing PrintWriters
-[0m[[32msuccess[0m] [0mTotal time: 915 s, completed May 1, 2015 8:37:07 AM[0m
+[0m[[32msuccess[0m] [0mTotal time: 905 s, completed May 1, 2015 8:59:42 AM[0m
