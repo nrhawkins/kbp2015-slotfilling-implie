@@ -24,7 +24,9 @@ object TaggerLoader {
   val corrected_cap_config = ConfigFactory.load("taggers/corrected-cap-tagger.conf")
   val uncorrected_cap_config = ConfigFactory.load("taggers/uncorrected-cap-tagger.conf")
   val high_recall_config = ConfigFactory.load("taggers/high-recall-tagger.conf")
-  
+  val extended_keyword_config = ConfigFactory.load("taggers/extended-keyword-tagger.conf")
+  val extended_keyword_high_recall_config = ConfigFactory.load("taggers/extended-keyword-high-recall-tagger.conf")
+
   // Experimental taggers.
   val un_city_extension = ConfigFactory.load("taggers/experimental/UN-extension.conf")
   val un_city_high_recall = ConfigFactory.load("taggers/experimental/UN-high-recall.conf")
@@ -52,6 +54,8 @@ object TaggerLoader {
   def correctedCapTagger = memoizedTagger("corrected_cap", corrected_cap_config)
   def uncorrectedCapTagger = memoizedTagger("uncorrected_cap", uncorrected_cap_config)
   def highRecallTagger = memoizedTagger("high_recall", high_recall_config)
+  def extendedKeywordTagger = memoizedTagger("extended_keyword", extended_keyword_config)
+  def extendedKeyworkHighRecallTagger = memoizedTagger("extended_keyword_high_recall", extended_keyword_high_recall_config)
 
   // Experimental... 
   def unExperimentalTagger = memoizedTagger("un_experimental", un_city_extension)
