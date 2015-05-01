@@ -101,8 +101,9 @@ object Extraction {
     } else {
       val (tagger, config) =
       //  (TaggerLoader.defaultTagger, TaggerLoader.corrected_cap_config)
-        (TaggerLoader.unExperimentalTagger, TaggerLoader.un_city_extension)
+      //  (TaggerLoader.unExperimentalTagger, TaggerLoader.un_city_extension)
       //				TaggerLoader.highRecallTagger
+        (TaggerLoader.freebaseExperimentalTagger, TaggerLoader.freebase_extension)
       if (saveTagger) {
         TaggerLoader.taggerRuleMemo.get(config.hashCode()) match {
           case None => println("No rule memo for given config.")
