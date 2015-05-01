@@ -52,7 +52,7 @@ Dem. Republic of the Congo
 Republic of the Congo
 Cook Islands
 Costa Rica
-CA'te d'Ivoire
+Côte d'Ivoire
 Croatia
 Cuba
 Cyprus
@@ -177,7 +177,7 @@ Portugal
 Puerto Rico
 Qatar
 Republic of Ireland
-RA(c)union
+Réunion
 Romania
 Russia
 Rwanda
@@ -188,7 +188,7 @@ Saint-Pierre and Miquelon
 St. Vincent and the Grenadines
 Samoa
 San Marino
-SAPSo TomA(c) and PrAncipe
+São Tomé and Príncipe
 Saudi Arabia
 Scotland
 Senegal
