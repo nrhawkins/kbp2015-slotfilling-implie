@@ -41,7 +41,7 @@ Cayman Islands	Caymanian,Caymanians
 Central African Republic	Central African,Central Africans
 Chad	Chadian,Chadians
 Chile	Chilean,Chileans
-People's Republic of China	Chinese,Chinese
+China	People's Republic of China,Chinese,Chinese
 Republic of China
 Christmas Island	Christmas Island,Christmas Islanders
 Cocos	Keeling,Islands,Cocos Island,Cocos Islanders
@@ -75,7 +75,7 @@ Fiji	Fijian,Fijians
 Finland	Finnish,Finns
 France	French,French,Frenchman,Frenchwoman
 French Guiana	French Guianese,French Guianese
-French Polynesia	French Polynesian,French Polynesians,Tahitians
+French Polynesia	Tahiti,French Polynesian,French Polynesians,Tahitians
 Gabon	Gabonese,Gabonese
 Gambia	Gambian,Gambians
 Georgia	Georgian,Georgians
@@ -111,8 +111,7 @@ Jordan	Jordanian,Jordanians
 Kazakhstan	Kazakh,Kazakhstani,Kazakhstanis,Kazakhs
 Kenya	Kenyan,Kenyans
 Kiribati	I-Kiribati,I-Kiribati
-North Korea	North Korean,Koreans
-South Korea	South Korean
+Korea	South Korea,North Korea,South Korean,North Korean,Korean,Koreans
 Kosovo	Kosovar,Kosovan,Kosovars
 Kuwait	Kuwaiti,Kuwaitis
 Kyrgyzstan	Kyrgyzstani,Kyrgyz,Kirgiz,Kirghiz,Kyrgyzstanis,Kyrgyz,Kirgiz,Kirghiz
@@ -158,7 +157,7 @@ Niue	Niuean,Niueans
 Niger	Nigerien,Nigeriens
 Nigeria	Nigerian,Nigerians
 Norway	Norwegian,Norwegians
-Northern Ireland	Northern Irish,British,Irish,Northern Irish,British,Irish
+Northern Ireland	Northern Irish,Irish,Northern Irish,Irish
 Northern Marianas	Northern Marianan,Northern Marianans
 Oman	Omani,Omanis
 Pakistan	Pakistani,Pakistanis
@@ -197,7 +196,7 @@ Singapore	Singaporean,Singaporeans
 Slovakia	Slovak,Slovaks
 Slovenia	Slovenian,Slovene,Slovenians,Slovenes
 Solomon Islands	Solomon Island,Solomon Islanders
-Somalia	Somali; Somalian,Somalis; Somalians
+Somalia	Somali Somalian,Somalis,Somalians
 South Africa	South African,South Africans
 South Ossetia	South Ossetian,South Ossetians
 South Sudan	South Sudanese,South Sudanese
