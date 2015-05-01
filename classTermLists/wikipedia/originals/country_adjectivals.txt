@@ -42,8 +42,8 @@ Brazilian
 British Virgin Island
 Bruneian
 Bulgarian
-BurkinabA"
-BurkinabA(c)
+Burkinabè
+Burkinabé
 Burmese
 Burundian
 Cambodian
@@ -171,7 +171,7 @@ Mahoran
 Mexican
 Micronesian
 Moldovan
-MonA(c)gasque
+Monégasque
 Monacan
 Mongolian
 Montenegrin
@@ -214,8 +214,8 @@ Puerto Rican
 Qatari
 Irish
 Southern Irish
-RA(c)unionese
-RA(c)unionnais
+Réunionese
+Réunionnais
 Romanian
 Russian
 Rwandan
@@ -229,7 +229,7 @@ St. Vincentian
 Vincentian
 Samoan
 Sammarinese
-SAPSo TomA(c)an
+São Toméan
 Saudi
 Saudi Arabian
 Scots

@@ -1,0 +1,7 @@
+The original subdirectory contains the original lists.  They are encoded in ISO-8859-1.
+The corresponding documents in this directory are transliterated to ascii using the script
+in the parent directory.
+
+The singular_country_mapping file contains a mapping from the original country name to 
+a list of alternative (adjectival and demonymic) terms for it.  The first term is
+separated from the list with a tab and the items of the list are separated with commas.

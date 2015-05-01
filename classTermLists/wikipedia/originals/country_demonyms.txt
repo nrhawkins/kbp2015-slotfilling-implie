@@ -41,8 +41,8 @@ Brazilians
 British Virgin Islanders
 Bruneians
 Bulgarians
-BurkinabA"
-BurkinabA(c)
+Burkinabè
+Burkinabé
 Bamar
 Burmese
 Burundians
@@ -178,7 +178,7 @@ Mahorais
 Mexicans
 Micronesians
 Moldovans
-MonA(c)gasques
+Monégasques
 Monacans
 Mongolians
 Mongols
@@ -225,8 +225,8 @@ Boricuas
 Qataris
 Irish
 Southern Irish
-RA(c)unionese
-RA(c)unionnais
+Réunionese
+Réunionnais
 Romanians
 Russians
 Rwandans
@@ -241,7 +241,7 @@ St. Vincentians
 Vincentians
 Samoans
 Sammarinese
-SAPSo TomA(c)ans
+São Toméans
 Saudis
 Saudi Arabians
 Scots
