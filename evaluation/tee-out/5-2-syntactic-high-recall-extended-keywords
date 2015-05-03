@@ -1,0 +1,134 @@
+[0m[[33mwarn[0m] [0mThe global sbt directory is now versioned and is located at /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /homes/gws/genelkim/.sbt but not in /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
+[0m[[0minfo[0m] [0mLoading project definition from /projects/WebWare6/ImplIE/project[0m
+[0m[[33mwarn[0m] [0mThe global sbt directory is now versioned and is located at /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /homes/gws/genelkim/.sbt but not in /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
+[0m[[0minfo[0m] [0mSet current project to ImplIE (in build file:/projects/WebWare6/ImplIE/)[0m
+> runMain evaluation.EvaluationExtractionAndScoring
+[0m[[33mwarn[0m] [0mThe global sbt directory is now versioned and is located at /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  You are seeing this warning because there is global configuration in /homes/gws/genelkim/.sbt but not in /homes/gws/genelkim/.sbt/0.13.[0m
+[0m[[33mwarn[0m] [0m  The global sbt directory may be changed via the sbt.global.base system property.[0m
+[0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
+[0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.10.2, 2.10.0, 2.10.1, 2.10.3) -> 2.10.4[0m
+[0m[[33mwarn[0m] [0mTo force scalaVersion, add the following:[0m
+[0m[[33mwarn[0m] [0m	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }[0m
+[0m[[33mwarn[0m] [0mRun 'evicted' to see detailed eviction warnings[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /projects/WebWare6/ImplIE/target/scala-2.10/classes...[0m
+[0m[[0minfo[0m] [0mRunning evaluation.EvaluationExtractionAndScoring [0m
+wrapper: Extracting Results
+Loading serialized tagger collection...[0.759 sec]
+Loading Extractor.
+Loading serialized tokenized sentences...[5.093 sec]
+Loading serialized parses...[653.824 sec]
+Extracting Sentences.
+9000 sentences to process.
+Sentence 100 processed.
+Sentence 300 processed.
+Sentence 400 processed.
+Sentence 800 processed.
+Sentence 900 processed.
+Sentence 1100 processed.
+Sentence 1700 processed.
+Sentence 2100 processed.
+Sentence 2600 processed.
+Sentence 2900 processed.
+Sentence 3000 processed.
+Sentence 3100 processed.
+Sentence 3300 processed.
+Sentence 3800 processed.
+Sentence 4000 processed.
+Sentence 4300 processed.
+Sentence 4500 processed.
+Sentence 4800 processed.
+Sentence 4900 processed.
+Sentence 5100 processed.
+Sentence 5500 processed.
+Sentence 5600 processed.
+Sentence 5700 processed.
+Sentence 5900 processed.
+Sentence 6300 processed.
+Sentence 6400 processed.
+Sentence 6500 processed.
+Sentence 6800 processed.
+Sentence 7000 processed.
+Sentence 7100 processed.
+Sentence 7200 processed.
+Sentence 7400 processed.
+Sentence 7600 processed.
+Sentence 7700 processed.
+Sentence 7800 processed.
+Sentence 8100 processed.
+Sentence 8300 processed.
+Sentence 8500 processed.
+Sentence 8900 processed.
+Sentence 9200 processed.
+Sentence 9500 processed.
+Sentence 9800 processed.
+Sentence 10400 processed.
+Sentence 10800 processed.
+Sentence 11300 processed.
+Sentence 11600 processed.
+Sentence 11800 processed.
+Sentence 12000 processed.
+Sentence 12100 processed.
+Sentence 12400 processed.
+Sentence 12500 processed.
+Sentence 12900 processed.
+Sentence 13000 processed.
+Sentence 13100 processed.
+Sentence 13200 processed.
+Sentence 13300 processed.
+Sentence 13400 processed.
+Sentence 13500 processed.
+Sentence 13600 processed.
+Sentence 13800 processed.
+Sentence 14400 processed.
+Sentence 14900 processed.
+Sentence 15000 processed.
+Sentence 15400 processed.
+Sentence 15600 processed.
+Sentence 15800 processed.
+Sentence 15900 processed.
+Sentence 16100 processed.
+Sentence 16900 processed.
+Sentence 17000 processed.
+Sentence 17200 processed.
+Sentence 17400 processed.
+Sentence 18400 processed.
+Sentence 18500 processed.
+Sentence 18600 processed.
+Sentence 19000 processed.
+Sentence 19200 processed.
+Sentence 19400 processed.
+Sentence 19700 processed.
+Sentence 19900 processed.
+Sentence 20300 processed.
+Sentence 20500 processed.
+Sentence 20600 processed.
+Sentence 20700 processed.
+Sentence 21100 processed.
+Sentence 21400 processed.
+Sentence 21600 processed.
+Sentence 21700 processed.
+Sentence 21900 processed.
+Sentence 22200 processed.
+wrapper: Scoring Extractions
+es: Args length: 1
+es: Reading Extractions
+es: Extractions size: 3223
+es: Reading Answer Key
+es: AKI size: 1199
+es: Building Answer Key
+es: AK Correct size: 1118
+es: AK Incorrect size: 81
+es: MK Correct size: 1118
+es: MK Incorrect size: 81
+es: Opening files for scoring report and new extractions
+es: Scoring Extractions
+es: Writing Scoring Report
+es: Number of Correct Extractions: 1102
+es: Number of Incorrect Extractions: 76
+es: Closing PrintWriters
+[0m[[32msuccess[0m] [0mTotal time: 936 s, completed May 2, 2015 7:19:22 PM[0m
