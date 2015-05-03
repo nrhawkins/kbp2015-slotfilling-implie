@@ -103,8 +103,11 @@ object Extraction {
       //  (TaggerLoader.defaultTagger, TaggerLoader.corrected_cap_config)
       //  (TaggerLoader.unExperimentalTagger, TaggerLoader.un_city_extension)
       //				TaggerLoader.highRecallTagger
-        (TaggerLoader.freebaseExperimentalTagger, TaggerLoader.freebase_extension)
+      //  (TaggerLoader.extendedKeywordTagger, TaggerLoader.extended_keyword_config)
+        (TaggerLoader.extendedKeywordHighRecallTagger, TaggerLoader.extended_keyword_high_recall_config)
+      
       if (saveTagger) {
+      // Create a serialized tagger file.
         TaggerLoader.taggerRuleMemo.get(config.hashCode()) match {
           case None => println("No rule memo for given config.")
           case Some(ruleset) =>
@@ -117,10 +120,10 @@ object Extraction {
 
     println("Loading Extractor.")
     val relationExtractor =
-      new ImplIEWithBasicFilters(
+//      new ImplIEWithBasicFilters(
 //      new ConstrainedImplIE(
 //			new ModHighRecallImplIE(
-//			new ConstrainedHighRecallImplIE(
+			new ConstrainedHighRecallImplIE(
         tagger,
         config.getString("tokenization-cache"),
         config.getString("parse-cache"))
