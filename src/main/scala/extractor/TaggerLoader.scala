@@ -55,7 +55,7 @@ object TaggerLoader {
   def uncorrectedCapTagger = memoizedTagger("uncorrected_cap", uncorrected_cap_config)
   def highRecallTagger = memoizedTagger("high_recall", high_recall_config)
   def extendedKeywordTagger = memoizedTagger("extended_keyword", extended_keyword_config)
-  def extendedKeyworkHighRecallTagger = memoizedTagger("extended_keyword_high_recall", extended_keyword_high_recall_config)
+  def extendedKeywordHighRecallTagger = memoizedTagger("extended_keyword_high_recall", extended_keyword_high_recall_config)
 
   // Experimental... 
   def unExperimentalTagger = memoizedTagger("un_experimental", un_city_extension)
