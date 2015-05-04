@@ -1,5 +1,5 @@
 import sys
-import collections.namedtuple
+from collections import namedtuple
 
 """
 Lists only the extractions that did not already exist in the old extractions 
@@ -11,11 +11,11 @@ All files are tab delimited files.
 
 Extraction = namedtuple('extraction', ['sentence_index', 'doc_id', 'entity', \
     'relation', 'slotfill', 'correct', 'incorrect', 'sentence'])
-ComparisonExtraction = namedtuple('comparison extraction', ['sentence_index', \
+ComparisonExtraction = namedtuple('comparison_extraction', ['sentence_index', \
     'doc_id', 'entity', 'relation', 'slotfill', 'sentence'])
 
-if len(sys.argv) < 4:
-  sys.exit("Usage: python only_new_extractions.py [old extractions file] [new extractions file] [output file]")
+if len(sys.argv) < 5:
+  sys.exit("Usage: python only_new_extractions.py [old extractions file] [new extractions file] [only new output file] [only old output file]")
 
 def string_is_int(string):
   try:
@@ -32,13 +32,24 @@ def is_extraction(line):
   tokens = line.split('\t')
   return len(tokens) == 8 and string_is_int(tokens[0])
 
-def construct_oldset(lines):
+def construct_extrset(lines):
   extrlines = [line for line in lines if is_extraction(line)]
   complist = []
   for line in extrlines:
-    ts = lines.split('\t')
+    ts = line.split('\t')
+    sentence = ts[7]
+    # Remove quotes from sentence if it's on both sides.
+    #if sentence[0] == "\"" and sentence[len(sentence) - 1] == "\"":
+    #  sentence = str(sentence[1:len(sentence) - 1])
+    sentence = sentence.replace("\"", "")
+    if sentence[len(sentence) - 1] == ".":
+      sentence = str(sentence[:len(sentence) - 1])
+
+
+    slotfill = ts[4].lower() # The new ones are all lowercase, so make them match.
+
     # Skip correct and incorrect.
-    complist.append(ComparisonExtraction(ts[0], ts[1], ts[2], ts[3], ts[4], ts[7]))
+    complist.append(ComparisonExtraction(ts[0], ts[1], ts[2], ts[3], slotfill, sentence))
   return frozenset(complist)
 
 def construct_newlist_newmap(lines):
@@ -47,8 +58,9 @@ def construct_newlist_newmap(lines):
   newmap = {}
   newlist = []
   for line in extrlines:
-    extraction = Extraction(ts[0], ts[1], ts[2], ts[3], ts[4], ts[5], ts[6], ts[7]))
-    comparison_extraction = ComparisonExtraction(ts[0], ts[1], ts[2], ts[3], ts[4], ts[7]))
+    ts = line.split('\t')
+    extraction = Extraction(ts[0], ts[1], ts[2], ts[3], ts[4], ts[5], ts[6], ts[7])
+    comparison_extraction = ComparisonExtraction(ts[0], ts[1], ts[2], ts[3], ts[4], ts[7])
 
     newmap[comparison_extraction] = extraction
     newlist.append(comparison_extraction)
@@ -61,9 +73,11 @@ print 'output file {}'.format(sys.argv[3])
 old = file(sys.argv[1], 'r').read().splitlines()
 new = file(sys.argv[2], 'r').read().splitlines()
 
-oldset = construct_oldset(old)
+oldset = construct_extrset(old)
+newset = construct_extrset(new)
 newlist, newmap = construct_newlist_newmap(new)
 
+"""
 onlynew = []
 for newextraction in newlist:
   if newextraction not in oldset:
@@ -71,11 +85,21 @@ for newextraction in newlist:
 
 headers = ["SentenceIndex", "DocumentId", "Entity", "Relation",\
     "Slotfill(tag)", "Correct", "Incorrect", "Sentence"]
+"""
+
+inter = oldset & newset
+onlynew = sorted(list(newset - inter))
+onlyold = sorted(list(oldset - inter))
 
 delim = "\t"
 out = file(sys.argv[3], 'w')
-out.write(delim.join(headers) + "\n")
+#out.write(delim.join(headers) + "\n")
 newlines = [delim.join(list(extraction)) for extraction in onlynew]
 out.write("\n".join(newlines))
 out.close()
+
+outold = file(sys.argv[4], 'w')
+oldlines = [delim.join(list(extraction)) for extraction in onlyold]
+outold.write("\n".join(oldlines))
+outold.close()
 
