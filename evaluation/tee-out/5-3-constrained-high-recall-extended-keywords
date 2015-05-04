@@ -15,13 +15,14 @@
 [0m[[33mwarn[0m] [0mTo force scalaVersion, add the following:[0m
 [0m[[33mwarn[0m] [0m	ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) }[0m
 [0m[[33mwarn[0m] [0mRun 'evicted' to see detailed eviction warnings[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /projects/WebWare6/ImplIE/target/scala-2.10/classes...[0m
 [0m[[0minfo[0m] [0mRunning evaluation.EvaluationExtractionAndScoring [0m
 wrapper: Extracting Results
 Loading tagger...
-Tagger building complete. [150.909 sec]
+Tagger building complete. [150.501 sec]
 Loading Extractor.
-Loading serialized tokenized sentences...[2.465 sec]
-Loading serialized parses...[624.089 sec]
+Loading serialized tokenized sentences...[2.618 sec]
+Loading serialized parses...[629.251 sec]
 Extracting Sentences.
 9000 sentences to process.
 Sentence 100 processed.
@@ -117,7 +118,7 @@ Sentence 22200 processed.
 wrapper: Scoring Extractions
 es: Args length: 1
 es: Reading Extractions
-es: Extractions size: 1558
+es: Extractions size: 1533
 es: Reading Answer Key
 es: AKI size: 1199
 es: Building Answer Key
@@ -128,7 +129,7 @@ es: MK Incorrect size: 81
 es: Opening files for scoring report and new extractions
 es: Scoring Extractions
 es: Writing Scoring Report
-es: Number of Correct Extractions: 1100
+es: Number of Correct Extractions: 1099
 es: Number of Incorrect Extractions: 76
 es: Closing PrintWriters
-[0m[[32msuccess[0m] [0mTotal time: 1093 s, completed May 4, 2015 12:08:37 PM[0m
+[0m[[32msuccess[0m] [0mTotal time: 1100 s, completed May 4, 2015 1:27:27 PM[0m
