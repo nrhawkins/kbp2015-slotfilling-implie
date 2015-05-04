@@ -1,3 +1,5 @@
 This folder is for the evalution of ImplIE.
 
-The test sentences were gathered from 'tac_development/benchmark/sentences/'.  Using the create_testset.py script, a random 2000 sentences were selected from all sentences not in the benchmark set.  All sentences originated from a random 1000 documents from the UW server directory '/projects/WebWare6/DEFT_corpora/TAC_2010/TAC_2010_KBP_Source_Data/data/2009/nw'.
+Out of Date!:  The test sentences were gathered from 'tac_development/benchmark/sentences/'.  Using the create_testset.py script, a random 2000 sentences were selected from all sentences not in the benchmark set.  All sentences originated from a random 1000 documents from the UW server directory '/projects/WebWare6/DEFT_corpora/TAC_2010/TAC_2010_KBP_Source_Data/data/2009/nw'.
+
+Test sentences actually selected from completely new files from the 2009 newswire documents.  There 9000 sentences that do not overlap with the benchmark sentences.
