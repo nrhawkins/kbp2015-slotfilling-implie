@@ -18,10 +18,10 @@
 [0m[[0minfo[0m] [0mRunning evaluation.EvaluationExtractionAndScoring [0m
 wrapper: Extracting Results
 Loading tagger...
-Tagger building complete. [150.528 sec]
+Tagger building complete. [153.102 sec]
 Loading Extractor.
-Loading serialized tokenized sentences...[2.344 sec]
-Loading serialized parses...[614.804 sec]
+Loading serialized tokenized sentences...[2.396 sec]
+Loading serialized parses...[633.222 sec]
 Extracting Sentences.
 9000 sentences to process.
 Sentence 100 processed.
@@ -117,7 +117,7 @@ Sentence 22200 processed.
 wrapper: Scoring Extractions
 es: Args length: 1
 es: Reading Extractions
-es: Extractions size: 3717
+es: Extractions size: 3620
 es: Reading Answer Key
 es: AKI size: 1199
 es: Building Answer Key
@@ -128,7 +128,7 @@ es: MK Incorrect size: 81
 es: Opening files for scoring report and new extractions
 es: Scoring Extractions
 es: Writing Scoring Report
-es: Number of Correct Extractions: 1100
+es: Number of Correct Extractions: 1099
 es: Number of Incorrect Extractions: 76
 es: Closing PrintWriters
-[0m[[32msuccess[0m] [0mTotal time: 1056 s, completed May 4, 2015 1:04:54 AM[0m
+[0m[[32msuccess[0m] [0mTotal time: 1065 s, completed May 4, 2015 1:02:56 PM[0m
