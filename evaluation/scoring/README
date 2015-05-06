@@ -1,4 +1,9 @@
 syntactic:
 1-2 are unextended scoring
+3,4 are badly extended scoring
+5,6 are correctly extended scoring
+
 constrained:
 1-5 are unextended scoring
+6,7 are badly extended scoring
+8,9 are correctly extended scoring
