@@ -1,0 +1,302 @@
+
+Query Name: China Charity Federation
+
+
+Number of Documents: 25
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: XIN_ENG_20100727.0394
+
+
+sentenceOffset/Text 58: China Charity Federation donates 2.3 bln yuan to Qinghai quake zones </HEADLINE> <DATELINE> BEIJING, July 27 (Xinhua) </DATELINE> <TEXT> <P> The China Charity Federation on Tuesday donated 2.3 billion yuan (about 340 million U.S. dollars) to the quake zones in China's far northwestern Qinghai Province to help reconstruction.
+
+China Charity Federation	china	nationality
+China's far northwestern	china	nationality
+China Charity Federation	china	nationality
+U.S. dollars	u.s.	nationality
+
+sentenceOffset/Text 394: According to a memorandum signed between the China Charity Federation and the provincial government of Qinghai, 800 million yuan of the donations would be used to build schools and other education facilities, while another 800 million yuan would be spent on housing.
+
+China Charity Federation	china	nationality
+
+sentenceOffset/Text 899: Fan Baojun, President of the China Charity Federation, pledged that the donations would be used in accordance with the donors' requests, and would be subject to supervision.
+
+China Charity Federation	china	nationality
+Fan Baojun, President of the China Charity Federation	president	jobTitle
+
+docName: XIN_ENG_20100119.0421
+
+
+sentenceOffset/Text 58: China Charity Federation raises 4.6 bln yuan in 2009 </HEADLINE> <DATELINE> BEIJING, Jan. 19 (Xinhua) </DATELINE> <TEXT> <P> China Charity Federation, a leading charity organization in the country, raised about 4.64 billion yuan (about 679.4 million U.S. dollars) worth of donations in goods and money last year.
+
+U.S. dollars) worth of donations	u.s.	nationality
+Xinhua) </DATELINE> <TEXT> <P> China Charity Federation, a leading charity organization	china	nationality
+</HEADLINE> <DATELINE> BEIJING, Jan. 19 (Xinhua)	beijing	city
+China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100422.0468
+
+
+sentenceOffset/Text 1427: Concerning quake donations, Pang said they would be channeled to the quake zone by the Ministry of Civil Affairs and 15 other foundations, such as Red Cross Society of China, China Charity Federation, organized by the ministry according to the reconstruction plan.
+
+China, China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100620.0324
+
+
+sentenceOffset/Text 690: The conference was organized by the China Association of Enterprises with Foreign Investment (CAEFI), the China Charity Federation (CCF), the Chinese Private Economy Research Association (CPERA), and the China Enterprise News.
+
+China Enterprise News	china	nationality
+Chinese Private Economy Research Association (CPERA)	chinese	nationality
+China Charity Federation (CCF)	china	nationality
+China Association of Enterprises	china	nationality
+
+docName: XIN_ENG_20100907.0512
+
+
+sentenceOffset/Text 975: A deep-rooted concept among wealthy individuals in China is to leave their entire fortunes to their descendants, which might be a major obstacle preventing donations to charity, according to Zhang Yinjun, spokesperson with one of China's largest charity organization, the China Charity Federation.
+
+charity organization, the China Charity Federation	china	nationality
+China's largest charity organization, the China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100215.0290
+
+
+sentenceOffset/Text 2771: In 2006, she was awarded the title of China Charity Ambassador by the China Charity Federation.
+
+China Charity Federation	china	nationality
+China Charity Ambassador	china	nationality
+
+docName: XIN_ENG_20100414.0411
+
+
+sentenceOffset/Text 4234: The China Charity Federation also urged the public to donate and to help the victims in earthquake.
+
+China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100809.0406
+
+
+sentenceOffset/Text 1278: The Dalian Wanda Group Co. Ltd. based in northeast China's Liaoning Province donated 10 million yuan to Zhouqu Monday through the China Charity Federation.
+
+China Charity Federation	china	nationality
+China's Liaoning Province	china	nationality
+Dalian Wanda Group Co. Ltd.	dalian	city
+
+docName: XIN_ENG_20100424.0220
+
+
+sentenceOffset/Text 2724: * Quake Relief in Action: China Charity Federation receives 566 mln yuan in quake donation </P> <P> BEIJING, April 24 (Xinhua) -- The China Charity Federation said Saturday it had received 566 million yuan (about 83 million U.S. dollars) in donation via banks as of 3 p.m. Friday to the quake- hit northwest China's Qinghai Province.
+
+U.S. dollars	u.s.	nationality
+China Charity Federation	china	nationality
+China Charity Federation	china	nationality
+China's Qinghai Province	china	nationality
+
+docName: XIN_ENG_20101224.0241
+
+
+sentenceOffset/Text 916: The center monitored the donations received by the government's civil affairs departments, the country's two major charity groups, the Red Cross Society of China and China Charity Federation, and about 1,850 charity foundations.
+
+China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100120.0348
+
+
+sentenceOffset/Text 874: The China Charity Federation on Monday released on its website channels for public donations, including banks, post offices or face-to-face transfers.
+
+China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100415.0460
+
+
+sentenceOffset/Text 2072: The China Charity Federation called on the public to donate and to help the victims in earthquake.
+
+China Charity Federation	china	nationality
+
+docName: XIN_ENG_20090712.0199
+
+
+sentenceOffset/Text 58: Xinjiang people donate money, blood for riot victims </HEADLINE> <DATELINE> URUMQI, July 11 (Xinhua) </DATELINE> <TEXT> <P> The Xinjiang branch of China Charity Federation said Saturday it had received 2.03 million yuan (297,218 U.S. dollars) in donation from all walks of life for victims in the Urumqi riot.
+
+Urumqi riot	urumqi	city
+U.S. dollars	u.s.	nationality
+China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100628.0427
+
+
+sentenceOffset/Text 441: The ministry said in a statement that it received 2.407 billion yuan while the Qinghai provincial government of the quake zone received nearly 2 billion yuan in donations, with the Red Cross Society of China and the China Charity Federation each raising about 2 billion yuan.
+
+China Charity Federation	china	nationality
+Red Cross Society of China	china	nationality
+
+docName: XIN_ENG_20090720.0329
+
+
+sentenceOffset/Text 771: The Xinjiang branch of China Charity Federation said it has received 43.57 million yuan.
+
+China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100914.0441
+
+
+sentenceOffset/Text 2045: A deep-rooted concept among wealthy individuals in China is to leave their entire fortunes to their descendants, which might be a major obstacle to charities attracting donations, according to Zhang Yinjun, spokesperson with one of China's largest charity organization, the China Charity Federation.
+
+charity organization, the China Charity Federation	china	nationality
+China's largest charity organization, the China Charity Federation	china	nationality
+
+docName: XIN_ENG_20091208.0428
+
+
+sentenceOffset/Text 5753: A break-down showed that 58.1 percent of the money raised had gone to government departments, 36 percent to the officially- designated Red Cross Society of China and China Charity Federation, leaving a mere 5.9 percent for public foundations.
+
+China Charity Federation	china	nationality
+Red Cross Society of China and China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100705.0318
+
+
+sentenceOffset/Text 463: In a statement, the ministry said it had received 2.417 billion yuan and the Qinghai provincial government received over 2 billion yuan in donations, while the Red Cross Society of China and the China Charity Federation had each raised about 2 billion yuan.
+
+China Charity Federation	china	nationality
+Red Cross Society of China and the China Charity Federation	china	nationality
+
+docName: XIN_ENG_20091028.0428
+
+
+sentenceOffset/Text 576: It was the first charity forum hosted by the China Charity Federation after the 8.0-magnitude quake struck Sichuan on May 12 last year, which left about 87,000 people dead or missing.
+
+China Charity Federation	china	nationality
+
+sentenceOffset/Text 769: "I believe the forum can help improve the social support for charity cause," said Liu Guolin, secretary-general of the China Charity Federation.
+
+China Charity Federation	china	nationality
+Liu Guolin, secretary-general of the China Charity Federation	secretary-general	jobTitle
+
+docName: XIN_ENG_20100414.0416
+
+
+sentenceOffset/Text 4961: The China Charity Federation also urged the public to donate and to help the victims in earthquake.
+
+China Charity Federation	china	nationality
+
+docName: XIN_ENG_20100118.0411
+
+
+sentenceOffset/Text 295: The China Charity Federation Monday released on its website channels for public donations, including banks, post offices or face-to-face transfers.
+
+
+sentenceOffset/Text 558: The RCS' branches in Sichuan, a province hit in 2008 by a 8.0-magnitude earthquake, had received a donation of nearly 12,000 yuan (1,760 U.S. dollars) from three schools in Mianyang, a city among the worst-hit in the earthquake, said a statement on the RCS China website Monday.
+
+RCS China website	china	nationality
+U.S. dollars)	u.s.	nationality
+
+docName: XIN_ENG_20100424.0249
+
+
+sentenceOffset/Text 2402: * Quake Relief in Action: China Charity Federation receives 566 mln yuan in quake donation </P> <P> BEIJING, April 24 (Xinhua) -- The China Charity Federation said Saturday it had received 566 million yuan (about 83 million U.S. dollars) in donation via banks as of 3 p.m. Friday to the quake- hit northwest China's Qinghai Province.
+
+U.S. dollars	u.s.	nationality
+China Charity Federation	china	nationality
+China Charity Federation	china	nationality
+China's Qinghai Province	china	nationality
+
+docName: XIN_ENG_20100422.0486
+
+
+sentenceOffset/Text 1359: Concerning quake donations, Pang said they would be channeled to the quake zone by the Ministry of Civil Affairs and 15 other foundations, such as Red Cross Society of China, China Charity Federation, organized by the ministry according to the reconstruction plan.
+
+China, China Charity Federation	china	nationality
+
+sentenceOffset/Text 2380: According to the spokesman, the Civil Affairs Ministry will finish a disaster evaluation on the Yushu earthquake based on data collected by China's remote sensing satellites by the end of April.
+
+China's remote sensing satellites	china	nationality
+Yushu earthquake	yushu	city
+
+docName: XIN_ENG_20100423.0363
+
+
+sentenceOffset/Text 58: Quake Relief in Action: China Charity Federation receives 566 mln yuan in quake donation </HEADLINE> <DATELINE> BEIJING, April 24 (Xinhua) </DATELINE> <TEXT> <P> The China Charity Federation said on Saturday it had received 566 million yuan (about 83 million U.S. dollars) in donation via banks as of 3 p.m. Friday to the quake-hit northwest China's Qinghai Province.
+
+China Charity Federation	china	nationality
+U.S. dollars	u.s.	nationality
+China Charity Federation	china	nationality
+China's Qinghai Province	china	nationality
+
+docName: XIN_ENG_20100914.0419
+
+
+sentenceOffset/Text 2040: A deep-rooted concept among wealthy individuals in China is to leave their entire fortunes to their descendants, which might be a major obstacle to charities attracting donations, according to Zhang Yinjun, spokesperson with one of China's largest charity organization, the China Charity Federation.
+
+charity organization, the China Charity Federation	china	nationality
+China's largest charity organization, the China Charity Federation	china	nationality
+
+Filtered Extractions ----------------------------------------------------------
+
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+Fan Baojun, President of the China Charity Federation	Baojun	org:top_members_employees
+Xinhua) </DATELINE> <TEXT> <P> China Charity Federation, a leading charity organization	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China, China Charity Federation	china	org:country_of_headquarters
+China Charity Federation (CCF)	china	org:country_of_headquarters
+charity organization, the China Charity Federation	china	org:country_of_headquarters
+China's largest charity organization, the China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+charity organization, the China Charity Federation	china	org:country_of_headquarters
+China's largest charity organization, the China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+Red Cross Society of China and China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+Red Cross Society of China and the China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+Liu Guolin, secretary-general of the China Charity Federation	Liu Guolin	org:top_members_employees
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China, China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+charity organization, the China Charity Federation	china	org:country_of_headquarters
+China's largest charity organization, the China Charity Federation	china	org:country_of_headquarters
+
+
+
+Query Name: China Charity Federation
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_068	org:subsidiaries	UWashington3	NIL
+SF14_ENG_068	org:alternate_names	UWashington3	NIL
+SF14_ENG_068	org:date_founded	UWashington3	NIL
+SF14_ENG_068	org:website	UWashington3	NIL
+SF14_ENG_068	org:country_of_headquarters	UWashington3	XIN_ENG_20100914.0419:2272-2338	china	XIN_ENG_20100914.0419:2272-2277	37.0
+SF14_ENG_068	org:number_of_employees_members	UWashington3	NIL
+SF14_ENG_068	org:date_dissolved	UWashington3	NIL
+SF14_ENG_068	org:founded_by	UWashington3	NIL
+SF14_ENG_068	org:political_religious_affiliation	UWashington3	NIL
+SF14_ENG_068	org:shareholders	UWashington3	NIL
+SF14_ENG_068	org:city_of_headquarters	UWashington3	NIL
+SF14_ENG_068	org:member_of	UWashington3	NIL
+SF14_ENG_068	org:top_members_employees	UWashington3	XIN_ENG_20091028.0428:17-912	Liu Guolin	XIN_ENG_20091028.0428:17-18	1.0
+SF14_ENG_068	org:top_members_employees	UWashington3	XIN_ENG_20100727.0394:1-952	Baojun	XIN_ENG_20100727.0394:1-1	1.0
+SF14_ENG_068	org:parents	UWashington3	NIL
+SF14_ENG_068	org:members	UWashington3	NIL
+SF14_ENG_068	org:stateorprovince_of_headquarters	UWashington3	NIL
