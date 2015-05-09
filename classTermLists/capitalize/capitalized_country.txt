@@ -1,0 +1,241 @@
+Afghanistan
+ALbania
+Algeria
+America
+ANdorra
+Angola
+Antigua And Barbuda
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia
+Bosnia And Herzegovina
+Bosnia Herzegovina
+Bosnia-Herzegovina
+Botswana
+Brasil
+Britain
+British Virgin Islands
+Brunei
+Brunei darussalam
+Bucharest
+Bulgaria
+Burkina Faso
+Burkina-Faso
+Burma
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Caribbean
+Cayman Islands
+Chile
+Colombia
+Comoros
+Croatia
+CUba
+Czech Republic
+Czechoslovakia
+Denmark
+Djibouti
+Dominican Republic
+Dprk
+East Germany
+east Timor
+East-Germany
+East-Timor
+Ecuador
+Egypt
+England
+equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Federal Republic
+Finland
+Former Soviet Union
+Former Ussr
+Former Yugoslavia
+former-Yugoslavia
+Fyr Macedonia
+Gabon
+Gambia
+ghanA
+Great Britain
+Great-Britain
+Greece
+Guatemala
+Guatemala City
+Guinea
+Guinea Bissau
+Guinea-bissau
+Guyana
+Haiti
+HOlland
+Honduras
+HOng kong
+Hong Kong China
+Hong Kong/China
+Hong Kong-China
+Hong-Kong
+Hungary
+Iceland
+India
+Indonesia
+irAn
+iRAQ
+Ireland
+Israel
+Ivory Coast
+Japan
+Jordan
+Kazakhstan
+Kenya
+Korea
+KUwait
+Kyrgyzstan
+Laos
+Latvia
+LeBaNon
+Lesotho
+Libya
+Lithuania
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+mAlI
+Mauritania
+Moldova
+MONaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar
+Myanmar/burma
+Namibia
+Nepal
+Netherlands
+New Zealand
+New-zealand
+Nicaragua
+Nigeria
+Niue
+North africa
+North-Africa
+Norway
+Oman
+Pakistan
+Palestine
+Panama
+Panama City
+Papua New Guinea
+Papua-New Guinea
+PAraguay
+Persia
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Republic of Korea
+Romania
+Russia
+Rwanda
+S Korea
+Saudi
+Saudi Arabia
+Saudi-arabia
+Scandinavian Countries
+Senegal
+Serbia
+Seychelles
+Sicily
+Sierra leone
+Sierra-Leone
+Signapore
+Singapore
+Skorea
+Slovakia
+Slovenia
+Solomon Islands
+Somali Republic
+Somalia
+South Korea
+South VIETNAM
+South Vietnamese
+southern Vietnam
+South-korea
+Soviet union
+Spain
+Sri Lanka
+Sri-lanka
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Syrian Arab Republic
+Tadjikistan
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+The Netherlands
+the US
+Tibet
+Timor Leste
+Timor-leste
+Togo
+Tokelau
+Trinidad And Tobago
+Tunisia
+Turkey
+Turkmenistan
+U s
+U.s
+U.s.
+U.s.a
+U.s.a.
+Uae
+Uganda
+Uk
+Uk.
+Ukraine
+United Arab Emirates
+United Kingdom
+United state
+United STates
+United-kingdom
+United-states
+Uruguay
+U-s
+UsA
+Ussr
+Uzbekistan
+Vanuatu
+Venezuela
+Viet Nam
+Vietnam
+Viet-nam
+Yemen
+Yugoslav federation
+Yugoslavia
+Zaire
+Zambia
+Zimbabwe

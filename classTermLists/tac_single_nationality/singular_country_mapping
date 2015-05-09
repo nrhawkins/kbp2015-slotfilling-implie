@@ -57,7 +57,7 @@ Cyprus	Cypriot,Cypriots
 Czech Republic	Czech,Czechs
 Denmark	Danish,Danes
 Djibouti	Djiboutian,Djiboutians
-Dominica	Dominican,Dominicans
+Dominica  
 Dominican Republic	Dominican,Dominicans,Quisqueyanos
 East Timor	Timorese,Timorese,Maubere
 Ecuador	Ecuadorian,Ecuadorians
@@ -123,7 +123,7 @@ Libya	Libyan,Libyans
 Liechtenstein	Liechtenstein,Liechtensteiners
 Lithuania	Lithuanian,Lithuanians
 Luxembourg	Luxembourg,Luxembourgish,Luxembourgers
-Macau	Macanese,Chinese,Macanese,Chinese
+Macau	Macanese,Macanese
 Republic of Macedonia	Macedonian,Macedonians
 Madagascar	Malagasy,Malagasy
 Malawi	Malawian,Malawians
@@ -221,9 +221,9 @@ Turks and Caicos Islands	none,Turks and Caicos Islanders
 Tuvalu	Tuvaluan,Tuvaluans
 Uganda	Ugandan,Ugandans
 Ukraine	Ukrainian,Ukrainians
-United Arab Emirates	Emirati,Emirian,Emiri,Emiratis,Emirians,Emiri
+United Arab Emirates	Emirati,Emirian,Emiri,Emiratis,Emirians,Emiri,UAE
 United Kingdom	British,UK,Britons
-United States	American,US,Americans,Yanks,Yankees
+United States	American,US,Americans,Yanks,Yankees,U.S.,U.S.A.,the US
 Uruguay	Uruguayan,Uruguayans
 Uzbekistan	Uzbekistani,Uzbek,Uzbekistanis,Uzbeks
 Vanuatu	Ni-Vanuatu,Vanuatuan,Ni-Vanuatu
