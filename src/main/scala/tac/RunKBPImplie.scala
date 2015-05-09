@@ -16,7 +16,7 @@ import edu.stanford.nlp.util.CoreMap
 import edu.stanford.nlp.dcoref.CorefChain.CorefMention;
 import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefChainAnnotation;
 
-import extractor.{ImplicitRelationExtractor,ImplicitRelationExtractorNoLists,TaggerLoader}
+import extractor.{ImplicitRelationExtractor,ImplicitRelationExtractorNoLists,ModHighRecallImplIE,TaggerLoader}
 //import extractor.{ImplicitRelationExtractorNoLists, TaggerLoader}
 //import tac.KBPExtraction
 
@@ -74,34 +74,36 @@ object RunKBPImplie {
    System.exit(0)
    */
      
-    println("total memory: " + Runtime.getRuntime().totalMemory())
+    //println("total memory: " + Runtime.getRuntime().totalMemory())
     //the Xmx value
-    println("max memory: " + Runtime.getRuntime().maxMemory())
-    println("free memory: " + Runtime.getRuntime().freeMemory())  		        
-    println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
-    println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
+    //println("max memory: " + Runtime.getRuntime().maxMemory())
+    //println("free memory: " + Runtime.getRuntime().freeMemory())  		        
+    //println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+    //println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
     
     println("Loading Tagger.")
-    val tagger = TaggerLoader.defaultTagger
-
-    println("total memory: " + Runtime.getRuntime().totalMemory())
+    //val tagger = TaggerLoader.defaultTagger
+    val tagger = TaggerLoader.extendedKeywordHighRecallTagger
+    
+    //println("total memory: " + Runtime.getRuntime().totalMemory())
     //the Xmx value
-    println("max memory: " + Runtime.getRuntime().maxMemory())
-    println("free memory: " + Runtime.getRuntime().freeMemory())  		        
-    println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
-    println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
+    //println("max memory: " + Runtime.getRuntime().maxMemory())
+    //println("free memory: " + Runtime.getRuntime().freeMemory())  		        
+    //println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+    //println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
         
     println("Loading Extractor.")
-    val relationExtractor = new ImplicitRelationExtractor(tagger)
+    //val relationExtractor = new ImplicitRelationExtractor(tagger)
     //val relationExtractor = new ImplicitRelationExtractorNoLists(tagger)
+    val relationExtractor = new ModHighRecallImplIE(tagger)
     println("Done Loading Extractor.")
     
-    println("total memory: " + Runtime.getRuntime().totalMemory())
+    //println("total memory: " + Runtime.getRuntime().totalMemory())
     //the Xmx value
-  	println("max memory: " + Runtime.getRuntime().maxMemory())
-  	println("free memory: " + Runtime.getRuntime().freeMemory())  		        
-  	println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
-    println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
+  	//println("max memory: " + Runtime.getRuntime().maxMemory())
+  	//println("free memory: " + Runtime.getRuntime().freeMemory())  		        
+  	//println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+    //println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
     
     //System.exit(0)
     
@@ -251,9 +253,9 @@ object RunKBPImplie {
       
       println("Running " + testQueries.size + " queries.")
       
-      testQueries.foreach(q => {
-        q.aliases.foreach(a => println(a))  
-      })
+      //testQueries.foreach(q => {
+      //  q.aliases.foreach(a => println(a))  
+      //})
       
       for(query <- testQueries){
       //for(query <- queries){
@@ -344,12 +346,12 @@ object RunKBPImplie {
   		          case _ => 
   		        }
   		        
-  		        println("total memory: " + Runtime.getRuntime().totalMemory())
+  		        //println("total memory: " + Runtime.getRuntime().totalMemory())
   		        //the Xmx value
-  		        println("max memory: " + Runtime.getRuntime().maxMemory())
-  		        println("free memory: " + Runtime.getRuntime().freeMemory())  		
-  		        println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
-                println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
+  		        //println("max memory: " + Runtime.getRuntime().maxMemory())
+  		        //println("free memory: " + Runtime.getRuntime().freeMemory())  		
+  		        //println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+                //println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
   		        
   		        //lookAtCoref(doc)
   		        //System.exit(0) 
@@ -468,12 +470,14 @@ object RunKBPImplie {
        if(queryEntityType == "PER"){
          c.extr.getRel() match {
               //relations to substitute
-              case s if (s.contains("nationality")) => c.extr.setRel("per:origin")
+              case s if (s.contains("nationality")) => { c.extr.setRel("per:origin")
+                                                         c.extr.setRel("per:countries_of_residence")
+                                                       }
               case s if (s.contains("city")) => c.extr.setRel("per:cities_of_residence") 
               case s if (s.contains("province")) => c.extr.setRel("per:statesorprovinces_of_residence")
               case s if (s.contains("jobTitle")) => c.extr.setRel("per:title")
               case s if (s.contains("religion")) => c.extr.setRel("per:religion")
-              case s if (s.contains("school")) => c.extr.setRel("per:schools_attended")
+              case s if (s.contains("school")) => //c.extr.setRel("per:schools_attended")
               //The above list should cover all relations identified by Implie
               case _ => 
          }
@@ -486,8 +490,8 @@ object RunKBPImplie {
               case s if (s.contains("city")) => c.extr.setRel("org:city_of_headquarters") 
               case s if (s.contains("province")) => c.extr.setRel("org:stateorprovince_of_headquarters")
               case s if (s.contains("jobTitle")) => {
-                //if(topJobTitles.contains(c.extr.getArg2()) c.extr.setRel("org:top_members_employees")  
-                if(c.extr.getArg1().argName.contains(query.name) && topJobs.contains(c.extr.getArg2().argName) && c.extr.getNers().contains("PERSON")) {                 
+                val persons = c.extr.getNers().asScala.toList.filter(n => n.ner == "PERSON")
+                if(c.extr.getArg1().argName.contains(query.name) && topJobs.contains(c.extr.getArg2().argName.toLowerCase()) && persons.size > 0 ) {                 
                   c.extr.setArg2(extractPerson(c))
                   c.extr.setRel("org:top_members_employees")                  
                 }                
@@ -801,6 +805,8 @@ object RunKBPImplie {
    
           //System.exit(0)
                     
+          println("getNERs size: " + ir.getNERs.size)
+          
           val arg1BestMentionSentNum = 0
           val arg2BestMentionSentNum = 0
         

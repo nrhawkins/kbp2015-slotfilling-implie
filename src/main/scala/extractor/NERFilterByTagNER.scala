@@ -37,4 +37,13 @@ trait NERFilterByTagNER extends NERFilterable {
 
     relationsFiltered
   }
+  
+  def noFilterTagNERs(src: String, relations: List[ImplicitRelation],
+                 nerTagsToIgnore: List[String]):List[ImplicitRelation] = {
+    
+    // Add NER tags for each extraction.
+    val taggedNERs = tagNERs(relations, src, nerTagsToIgnore)
+    taggedNERs
+  }
+  
 }

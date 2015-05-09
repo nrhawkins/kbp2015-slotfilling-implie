@@ -43,7 +43,8 @@ class ImplicitRelationExtractorNoLists(
     val implicitRelations = super.extractRelations(line)
     val relationsNoLists = filterNoLists(implicitRelations)
 
-    filterNERsByTag(line, relationsNoLists, NER_TAGS_TO_IGNORE, expectedEntities)
+    noFilterTagNERs(line, relationsNoLists, NER_TAGS_TO_IGNORE)
+    
   }
 
   /**
