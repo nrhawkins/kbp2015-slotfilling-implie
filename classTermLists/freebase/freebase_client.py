@@ -24,13 +24,13 @@ service_url = 'https://www.googleapis.com/freebase/v1/mqlread'
 #  '/common/topic/alias': [{'value': None, 'lang': '/lang/en', 'optional': True}]}]
 
 # Countries.
-#query = [{'id': None, 'name': None, 'type': '/location/country', \
-#  '/location/location/adjectival_form': [{'value': None, 'lang': '/lang/en', 'optional': True}],\
-#  '/common/topic/alias': [{'value': None, 'lang': '/lang/en', 'optional': True}]}]
+query = [{'id': None, 'name': None, 'type': '/location/country', \
+  '/location/location/adjectival_form': [{'value': None, 'lang': '/lang/en', 'optional': True}],\
+  '/common/topic/alias': [{'value': None, 'lang': '/lang/en', 'optional': True}]}]
 
 # Universities.
-query = [{'id': None, 'name': None, 'type': '/education/university', \
-  '/common/topic/alias': [{'value': None, 'lang': '/lang/en', 'optional': True}]}]
+#query = [{'id': None, 'name': None, 'type': '/education/university', \
+#  '/common/topic/alias': [{'value': None, 'lang': '/lang/en', 'optional': True}]}]
 
 
 params = {
@@ -46,16 +46,33 @@ for i in range(0, 50000):
   url = service_url + '?' + urllib.urlencode(params) + "&cursor" + cursor
   response = json.loads(urllib.urlopen(url).read())
 
+  # Country mapping file query.
+  for item in response['result']:
+    if item['name'] is None:
+      continue
+    name = unidecode(unicode(item['name']))
+    aliases = []
+    for adj in item['/location/location/adjectival_form']:
+      if adj['value'] is not None:
+        aliases.append(unidecode(unicode(adj['value'])))
+    for ali in item['/common/topic/alias']:
+      if adj['value'] is not None:
+        aliases.append(unidecode(unicode(ali['value'])))
+    lst.append((name, aliases))
+
+
+  """
+  # Normal queries
   # All queries.
   lst.extend([item['name'] for item in response['result'] if item['name'] is not None])
 
-
   # City/Country query.
-  #lst.extend([adj['value'] for item in response['result'] for adj in item['/location/location/adjectival_form'] if adj['value'] is not None])
+  lst.extend([adj['value'] for item in response['result'] for adj in item['/location/location/adjectival_form'] if adj['value'] is not None])
   lst.extend([alias['value'] for item in response['result'] for alias in item['/common/topic/alias'] if alias['value'] is not None])
 
   # Religion
   #lst.extend([profession['collective_term_for_adherents'] for profession in response['result'] if profession['collective_term_for_adherents'] is not None])
+  """
 
   cursor = response['cursor']
   if cursor is False:
@@ -63,7 +80,12 @@ for i in range(0, 50000):
   cursor = "=" + response['cursor']
 
 out = file(outfile_name, 'w')
-out.write(unidecode('\n'.join(frozenset(lst))))
+
+# Country Mapping query
+out.write("\n".join([name + "\t" + ",".join(aliases) for name, aliases in lst]))
+
+# Normal queries
+#out.write(unidecode('\n'.join(frozenset(lst))))
 
 print len(lst)
 
