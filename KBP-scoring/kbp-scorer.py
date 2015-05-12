@@ -78,12 +78,6 @@ def load_answer_keys(year):
   correct_template = "correct_KBP{}.txt"
   inexact_template = "inexact_KBP{}.txt"
   """
-  """
-  Testing with merged
-  answerkey_dir = "../KBP-answerKeys/from_complete_answerkey"
-  correct_template = "merged_answerKey.txt"
-  inexact_template = "inexact_KBP{}.txt"
-  """
   #imple_eval_formatted
   answerkey_dir = "../KBP-answerKeys/implie_eval_formatted"
   correct_template = "correct_KBP{}_implie.csv"
@@ -101,18 +95,6 @@ if __name__ == "__main__":
   resultset, result_to_line_map, ignored = load_results(sys.argv[1])
   correctset, inexactset = load_answer_keys(sys.argv[2])
   
-  # TODO: test that these were uploaded properly
-  """
-  out = file(sys.argv[3], 'w')
-  out.write("Ignored Lines\n")
-  out.write("\n".join(ignored))
-  out.write("\n\n\n")
-
-  out.write("Result set\n")
-  out.write("\n".join([str(r) for r in resultset]))
-  out.write("\n\n\n")
-  """
-
   # Find the correct, inexact and incorrect.
   correct = resultset & correctset
   inexact = (resultset & inexactset) - correct
