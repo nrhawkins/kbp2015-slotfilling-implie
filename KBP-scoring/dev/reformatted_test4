@@ -1,0 +1,287 @@
+Ignored lines from the results file.
+UWashington1			Uses OpenIE-KBP with Staford coreference						Official tagging			Our tagging			
+239 responses									Strict	w/Inex.		Strict	w/Inex.		
+ 									0.66	0.76		0.80	0.89		
+									158	22	58	191	21	27	
+query_ID	Query entity	Entity	SlotName	SlotFill	Justification		DocID	Conf	Correct	Inexact	Error	Correct	Inexact	Error	Comment
+Correct results
+SF13_ENG_037	Claude Chabrol	Claude Chabrol	per:title	film maker	film maker Claude Chabrol		AFP_ENG_20100912.0193	0.90	1			1			
+SF13_ENG_099	DCNS	DCNS	org:top_members_employees	Patrick Boissier	DCNS president Patrick Boissier		APW_ENG_20101101.0601	0.90	1			1			
+SF13_ENG_006	Ali Akbar Khan	he	per:employee_or_member_of	All-India Radio	Ali Akbar Khan	he was music director of All-India Radio	NYT_ENG_20090620.0004	0.90	1			1			
+SF13_ENG_020	Mike Penner	Mike Penner	per:age	52	Mike Penner, who attracted international attention in 2007 when he announced he was a transsexual, has died at the age of 52		AFP_ENG_20091128.0100	0.93	1			1			
+SF13_ENG_043	Ellie Greenwich	Ellie Greenwich	per:origin	American	Ellie Greenwich was unprecedented in American		NYT_ENG_20090829.0124	0.94	1			1			
+SF13_ENG_002	Marc Bolland	Marc Bolland	per:title	chief executive	Marc Bolland was to become its chief executive		XIN_ENG_20091118.0290	0.88	1			1			
+SF13_ENG_026	Patricia Neal	Patricia Neal	per:cause_of_death	lung cancer	Patricia Neal has died of lung cancer		XIN_ENG_20100808.0131	0.94	1			1			
+SF13_ENG_037	Claude Chabrol	Claude Chabrol	per:city_of_death	Paris	Claude Chabrol, a critic and filmmaker who helped launch the influential French new wave movement in the late 1950s and whose Hitchcock-inspired thrillers such as "Le Boucher" ("The Butcher") explored the darkness lurking below the surface of middle-class life, died Sept. 12 in Paris		WPB_ENG_20100914.0017	0.91	1			1			
+SF13_ENG_052	Euskadi Ta Askatasuna	ETA	org:subsidiaries	Batasuna	ETA's banned political wing Batasuna		APW_ENG_20100906.0415	0.90			1			1	
+SF13_ENG_028	Billy Mays	Billy Mays	per:cities_of_residence	Tampa	Billy Mays, a beloved and parodied pitchman who became a pop-culture figure through his commercials for cleaning products like Orange Glo, OxiClean and Kaboom, died Sunday at his home in Tampa		NYT_ENG_20090628.0116	0.85	1			1			
+SF13_ENG_089	Rosoboronexport	Rosoboronexport	org:top_members_employees	Anatoly Isaikin	Anatoly Isaikin, the head of the state arms trader Rosoboronexport		APW_ENG_20100128.0542	0.90	1			1			
+SF13_ENG_077	Nuclear Energy Institute	Nuclear Energy Institute	org:top_members_employees	Marvin Fertel	Marvin Fertel, president of the Nuclear Energy Institute		APW_ENG_20091025.0353	0.90	1			1			
+SF13_ENG_012	Adam Gadahn	Adam Gadahn	per:title	spokesman	spokesman Adam Gadahn		APW_ENG_20100308.0989	0.90	1			1			
+SF13_ENG_046	Don Meredith	Don Meredith	per:city_of_death	Santa Fe	Don Meredith, a former star quarterback for the Dallas Cowboys who helped change the perception of professional football with the easy Texas charm and provocative wit he brought to its first prime-time telecasts on Monday nights, died Sunday in Santa Fe		NYT_ENG_20101206.0204	0.91	1			1			
+SF13_ENG_007	Mohammed Sayed Tantawi	Mohammed Sayed Tantawi	per:title	cleric	top cleric Sheikh Mohammed Sayed Tantawi		AFP_ENG_20100310.0288	0.90	1			1			
+SF13_ENG_019	Keli McGregor	Keli McGregor	per:employee_or_member_of	Colorado Rockies	Colorado Rockies president Keli McGregor		NYT_ENG_20100420.0040	0.90	1			1			
+SF13_ENG_036	Girija Prasad Koirala	Koirala	per:title	prime minister	Girija Prasad Koirala	Koirala became prime minister	APW_ENG_20100320.0219	0.92	1			1			
+SF13_ENG_046	Don Meredith	Don Meredith	per:employee_or_member_of	NFL	Don Meredith, 1963-68: Led team to two NFL		eng-NG-31-127207-9204798	0.96			1			1	
+SF13_ENG_033	Vitaly Ginzburg	Vitaly Ginzburg	per:origin	Russian	Vitaly Ginzburg, who was the last Russian		AFP_ENG_20101005.0117	0.96	1			1			
+SF13_ENG_007	Mohammed Sayed Tantawi	Tantawi	per:origin	Egypt	Mohammed Sayed Tantawi	Tantawi, liberal head of Egypt	AFP_ENG_20100310.0422	0.90	1			1			
+SF13_ENG_044	Dominick Dunne	Dominick Dunne	per:title	author	author Dominick Dunne		APW_ENG_20090921.0007	0.90	1			1			
+SF13_ENG_052	Euskadi Ta Askatasuna	ETA	org:top_members_employees	Javier Lopez Pena	ETA's political leader, Javier Lopez Pena		AFP_ENG_20100414.0410	0.90	1			1			
+SF13_ENG_020	Mike Penner	Mike Penner	per:employee_or_member_of	The Los Angeles Times	Mike Penner was a longtime sports columnist for The Los Angeles Times		eng-NG-31-126851-8229228	0.90	1			1			
+SF13_ENG_036	Girija Prasad Koirala	Koirala	per:title	president	Girija Prasad Koirala	Koirala was president	APW_ENG_20100320.0205	0.95	1			1			
+SF13_ENG_027	Abdul-Aziz al-Hakim	Abdul-Aziz al-Hakim	per:city_of_death	Tehran	Abdul-Aziz al-Hakim, who channeled rising Shiite Muslim power after the fall of Saddam Hussein to become one of Iraq's most influential politicians and maintained ties with both the U.S. and Iran, died Wednesday in Tehran		APW_ENG_20090826.0981	0.94	1			1			
+SF13_ENG_049	Benoit Mandelbrot	Benoit Mandelbrot	per:city_of_death	Cambridge	Benoit Mandelbrot, a French-American mathematician who explored a new class of mathematical shapes known as "fractals," has died at age 85 in Cambridge		AFP_ENG_20101016.0017	0.91	1			1			
+SF13_ENG_041	Don Hewitt	Don Hewitt	per:city_of_death	Bridgehampton	Don Hewitt, creator and executive producer of the groundbreaking news show "60 Minutes," dies of pancreatic cancer at his home in Bridgehampton		LTW_ENG_20090820.0156	0.88	1			1			
+SF13_ENG_078	Thomas More Law Center	Thomas More Law Center	org:top_members_employees	Richard Thompson	Richard Thompson, president of the Thomas More Law Center		bolt-eng-DF-170-181109-54811	0.90	1			1			
+SF13_ENG_006	Ali Akbar Khan	he	per:title	music director	Ali Akbar Khan	he was music director of	NYT_ENG_20090620.0004	0.90	1			1			
+SF13_ENG_038	Merce Cunningham	Cunningham	per:title	teacher	Merce Cunningham	Cunningham was also a superlative dance teacher	NYT_ENG_20090727.0054	0.91	 	1			1		
+SF13_ENG_006	Ali Akbar Khan	Khan	per:city_of_birth	Shibpur	Ali Akbar Khan	Khan, whose name is often preceded by the honorific Ustad, or master, was born in Shibpur	NYT_ENG_20090620.0004	0.86	1			1			
+SF13_ENG_005	Tahawwur Hussain Rana	Tahawwur Hussain Rana	per:country_of_birth	Pakistan	Tahawwur Hussain Rana, a 49-year-old born in Pakistan		AFP_ENG_20100114.0009	0.95	1			1			
+SF13_ENG_091	Arcandor	Arcandor	org:top_members_employees	Karl-Gerhard Eick	Karl-Gerhard Eick, chairman of Arcandor		APW_ENG_20090609.0545	0.90	1			1			
+SF13_ENG_005	Tahawwur Hussain Rana	Tahawwur Hussain Rana	per:title	businessman	businessman Tahawwur Hussain Rana		APW_ENG_20100127.1111	0.90	1			1			
+SF13_ENG_025	Nancy Kissel	Kissel	per:parents	Jean McGothlin	Nancy Kissel	Kissel's mother Jean McGothlin	AFP_ENG_20100112.0679	0.90	1			1			
+SF13_ENG_026	Patricia Neal	Neal	per:cities_of_residence	Edgartown	Patricia Neal	Neal had lung cancer and died at her home in Edgartown	APW_ENG_20100809.0098	0.86	1			1			
+SF13_ENG_056	Georgia Peanut Commission	Georgia Peanut Commission	org:top_members_employees	Don Koehler	Don Koehler, executive director of the Georgia Peanut Commission		NYT_ENG_20100611.0031	0.90	1			1			
+SF13_ENG_100	Galleon Group	Galleon Group	org:top_members_employees	Raj Rajaratnam	Raj Rajaratnam, a portfolio manager for Galleon Group		APW_ENG_20100323.0969	0.90	1			1			
+SF13_ENG_030	Sparky Anderson	Sparky Anderson	per:city_of_death	Thousand Oaks	Sparky Anderson, who managed Cincinnati's powerful Big Red Machine to baseball dominance in the 1970s and became the first manager to win World Series championships in both the National and American Leagues, died on Thursday at his home in Thousand Oaks		NYT_ENG_20101104.0186	0.85	1			1			
+SF13_ENG_011	Anthony Marshall	Anthony Marshall	per:parents	Brooke Astor	Anthony Marshall, son of millionaire philanthropist Brooke Astor		AFP_ENG_20091008.0097	0.90	1			1			
+SF13_ENG_048	Charles Gwathmey	Charles Gwathmey	per:city_of_birth	Charlotte	Charles Gwathmey was born on June 19, 1938, in Charlotte		NYT_ENG_20090804.0124	0.91	1			1			
+SF13_ENG_097	STX Finland	STX Finland	org:parents	STX Europe Group	STX Finland is part of the international STX Europe Group		APW_ENG_20101025.0228	0.95	1			1			
+SF13_ENG_019	Keli McGregor	Keli McGregor	per:cause_of_death	natural causes	Keli McGregor, the Colorado Rockies president who was found dead in a hotel room on April 20, died of natural causes		AFP_ENG_20100729.0049	0.91	1			1			
+SF13_ENG_031	Blake Edwards	Edwards	per:alternate_names	William Blake Crump	Blake Edwards	Edwards was born William Blake Crump	WPB_ENG_20101216.0075	0.92	1			1			
+SF13_ENG_016	Paul Gray	Gray	per:spouse	Brenna	Paul Gray	Gray's pregnant wife, Brenna	APW_ENG_20100526.0071	0.90	1			1			
+SF13_ENG_091	Arcandor	Arcandor	org:number_of_employees_members	50,000	Arcandor, which employs 50,000		AFP_ENG_20090607.0262	0.91	1			1			
+SF13_ENG_047	Orlando Zapata	Orlando Zapata	per:city_of_death	Havana	Orlando Zapata who died Tuesday in a Havana		AFP_ENG_20100225.0477	0.93	1			1			
+SF13_ENG_092	Escada	Escada	org:number_of_employees_members	2,300	Escada, which employs around 2,300		AFP_ENG_20091106.0600	0.91	1			1			
+SF13_ENG_006	Ali Akbar Khan	Khan	per:country_of_birth	Bangladesh	Ali Akbar Khan	Khan was born in what is today Bangladesh	APW_ENG_20090620.0267	0.86	1			1			
+SF13_ENG_010	Ronnie James Dio	Dio	per:other_family	David Feinstein	Ronnie James Dio	David Feinstein, Dio's cousin	APW_ENG_20100531.0419	0.90	1			1			
+SF13_ENG_099	DCNS	DCNS	org:number_of_employees_members	12,000	DCNS has 12,000		APW_ENG_20090917.0189	0.86	1			1			
+SF13_ENG_027	Abdul Aziz al-Hakim	Abdul Aziz al-Hakim	per:cause_of_death	lung cancer	Abdul Aziz al-Hakim died of lung cancer		eng-WL-11-99173-12235963	0.94	1			1			
+SF13_ENG_036	Girija Prasad Koirala	Girija Prasad Koirala	per:city_of_death	Katmandu	Girija Prasad Koirala, a pivotal figure in establishing Nepal's fragile democracy who also helped broker an end to the country's Maoist rebellion, died Saturday in Katmandu		NYT_ENG_20100320.0117	0.90	1			1			
+SF13_ENG_012	Adam Gadahn	Adam Gadahn	per:alternate_names	Azzam al-Amriki	Adam Gadahn, also known as Azzam al-Amriki		APW_ENG_20090923.0299	0.93	1			1			
+SF13_ENG_007	Mohammed Sayed Tantawi	Mohammed Sayed Tantawi	per:age	81	Mohammed Sayed Tantawi, who died of a heart attack in Saudi Arabia on March 10 at the age of 81		AFP_ENG_20100319.0300	0.92	1			1			
+SF13_ENG_018	Harvey Pekar	Pekar	per:date_of_death	12-Jul	Harvey Pekar	Pekar died at 70 on July 12	NYT_ENG_20100905.0022	0.92	1				1		
+SF13_ENG_061	InterContinental Hotels Group	InterContinental Hotels Group	org:top_members_employees	Andrew Cosslett	Andrew Cosslett, the chief executive of InterContinental Hotels Group		NYT_ENG_20100408.0163	0.90	1			1			
+SF13_ENG_028	Billy Mays	Mays	per:spouse	Deborah Mays	Billy Mays	Mays' wife, Deborah Mays	APW_ENG_20090628.0569	0.90	1			1			
+SF13_ENG_007	Mohammed Sayed Tantawi	Tantawi	per:countries_of_residence	Egypt	Mohammed Sayed Tantawi	Tantawi, liberal head of Egypt	AFP_ENG_20100310.0422	0.90	1			1			
+SF13_ENG_031	Blake Edwards	Blake	per:spouse	Julie Andrews	Blake Edwards	Blake's wife, Julie Andrews	APW_ENG_20101216.0803	0.90	1			1			
+SF13_ENG_048	Charles Gwathmey	Charles Gwathmey	per:age	71	Charles Gwathmey, who died on Monday of esophageal cancer at age 71		NYT_ENG_20090810.0069	0.90	1			1			
+SF13_ENG_026	Patricia Neal	Patricia Neal	per:stateorprovince_of_death	Massachusetts	Patricia Neal, who won an Oscar for her role in "Hud" opposite Paul Newman but whose career was shadowed by personal tragedies, died at her home in Massachusetts		AFP_ENG_20100809.0118	0.87	1			1			
+SF13_ENG_010	Ronnie James Dio	Dio	per:children	Dan Padavona	Ronnie James Dio	Dio's son, Dan Padavona	APW_ENG_20100531.0419	0.90	1			1			
+SF13_ENG_045	Adam Goldstein	Adam Goldstein	per:alternate_names	DJ AM	Adam Goldstein, also known as DJ AM		APW_ENG_20090829.0647	0.93	1			1			
+SF13_ENG_036	Girija Prasad Koirala	Girija Prasad Koirala	per:countries_of_residence	Nepal	Nepal's former prime minister Girija Prasad Koirala		AFP_ENG_20100320.0191	0.90	1			1			
+SF13_ENG_014	Mohammed Oudeh	Mohammed Oudeh	per:city_of_death	Damascus	Mohammed Oudeh, a former math teacher who became the mastermind of the deadly attack on Israeli athletes at the 1972 Munich Olympics, died Friday in Damascus		NYT_ENG_20100704.0043	0.91	1			1			
+SF13_ENG_005	Tahawwur Hussain Rana	Rana	per:charges	conspiracy	Tahawwur Hussain Rana	Rana are each charged with conspiracy	APW_ENG_20091028.0100	0.92	1			1			
+SF13_ENG_050	Ko Yong-Hi	Ko Yong-Hi	per:cause_of_death	breast cancer	Ko Yong-Hi, who is believed to have died of breast cancer		AFP_ENG_20100926.0189	0.95	1			1			
+SF13_ENG_028	Billy Mays	Billy Mays	per:city_of_death	Tampa	Billy Mays, a beloved and parodied pitchman who became a pop-culture figure through his commercials for cleaning products like Orange Glo, OxiClean and Kaboom, died Sunday at his home in Tampa		NYT_ENG_20090628.0116	0.85	1			1			
+SF13_ENG_089	Rosoboronexport	Rosoboronexport	org:top_members_employees	Sergei Chemezov	Sergei Chemezov, the chief of Russian state weapons exporter Rosoboronexport		eng-NG-31-113099-9051701	0.90	1			1			
+SF13_ENG_017	Alexander Haig	Alexander Haig	per:title	Secretary of State	Alexander Haig (who later became Reagan's Secretary of State		eng-NG-31-126273-9129903	0.93	1			1			
+SF13_ENG_047	Orlando Zapata	Orlando Zapata	per:date_of_death	23-Feb	Orlando Zapata died on February 23		AFP_ENG_20100701.0324	0.94		1			1		
+SF13_ENG_005	Tahawwur Hussain Rana	Tahawwur Hussain Rana	per:origin	Canadian	Tahawwur Hussain Rana, who was born in Pakistan but is a Canadian		NYT_ENG_20091118.0220	0.94	1			1			
+SF13_ENG_094	Rapiscan Systems	Rapiscan Systems	org:top_members_employees	Peter Kant	Peter Kant, executive vice president of Rapiscan Systems		WPB_ENG_20101108.0046	0.90	1			1			
+SF13_ENG_030	Sparky Anderson	Sparky Anderson	per:cities_of_residence	Thousand Oaks	Sparky Anderson, who managed Cincinnati's powerful Big Red Machine to baseball dominance in the 1970s and became the first manager to win World Series championships in both the National and American Leagues, died on Thursday at his home in Thousand Oaks		NYT_ENG_20101104.0186	0.85	1			1			
+SF13_ENG_026	Patricia Neal	Neal	per:city_of_death	Edgartown	Patricia Neal	Neal had lung cancer and died at her home in Edgartown	APW_ENG_20100809.0098	0.86	1			1			
+SF13_ENG_085	China Banking Regulatory Commission	China Banking Regulatory Commission	org:top_members_employees	Wang Zhaoxing	Wang Zhaoxing, vice chairman of the China Banking Regulatory Commission		AFP_ENG_20091208.0545	0.90	1			1			
+SF13_ENG_047	Orlando Zapata	Orlando Zapata	per:parents	Reyna Luisa Tamayo	Reyna Luisa Tamayo, the mother of political prisoner Orlando Zapata		AFP_ENG_20100321.0056	0.90	1			1			
+SF13_ENG_012	Adam Gadahn	Adam Gadahn	per:employee_or_member_of	Al-Qaeda	Al-Qaeda spokesman Adam Gadahn		AFP_ENG_20101001.0063	0.90	1			1			
+SF13_ENG_031	Blake Edwards	Edwards	per:cause_of_death	complications of pneumonia	Blake Edwards	Edwards died from complications of pneumonia	APW_ENG_20101216.0966	0.92	1			1			
+SF13_ENG_047	Orlando Zapata	Orlando Zapata	per:cause_of_death	the result of an 85-day hunger strike	Orlando Zapata died on February 23 as the result of an 85-day hunger strike		AFP_ENG_20100701.0324	0.95	 	1		1			
+SF13_ENG_033	Vitaly Ginzburg	Vitaly Ginzburg	per:city_of_death	Moscow	Vitaly Ginzburg, who won the Nobel Prize in Physics in 2003, died in Moscow		XIN_ENG_20091109.0294	0.96	1			1			
+SF13_ENG_027	Abdul-Aziz al-Hakim	Abdul-Aziz al-Hakim	per:country_of_death	Iran	Abdul-Aziz al-Hakim, the scion of a revered clerical family who channeled rising Shiite Muslim power after the fall of Saddam Hussein to become one of Iraq's most influential politicians, died Wednesday in Iran		APW_ENG_20090826.0641	0.94	1			1			
+SF13_ENG_009	Anwar Chowdhry	Prof Anwar Chowdhry	per:employee_or_member_of	Aiba	Aiba's president, Prof Anwar Chowdhry		eng-NG-31-139996-9856106	0.90	1			1			
+SF13_ENG_010	Ronnie James Dio	Dio	per:alternate_names	Ronald James Padavona	Ronnie James Dio	Dio, born Ronald James Padavona	AFP_ENG_20100516.0010	0.94	1			1			
+SF13_ENG_041	Don Hewitt	Don Hewitt	per:age	86	Don Hewitt, who died in August at age 86		LTW_ENG_20090926.0052	0.91			1	1			wrong entity?
+SF13_ENG_030	Sparky Anderson	Anderson	per:cause_of_death	complications from dementia	Sparky Anderson	Anderson died from complications from dementia	NYT_ENG_20101104.0142	0.90	1			1			
+SF13_ENG_009	Anwar Chowdhry	Anwar Chowdhry	per:title	president	president Anwar Chowdhry		APW_ENG_20100619.0374	0.90	1			1			
+SF13_ENG_003	Stuart Rose	Stuart Rose	per:title	chairman	chairman Stuart Rose		AFP_ENG_20100408.0500	0.90	1			1			
+SF13_ENG_052	Euskadi Ta Askatasuna	ETA	org:top_members_employees	Jose Miguel Benaran Ordenana	ETA leader Jose Miguel Benaran Ordenana		AFP_ENG_20100302.0071	0.90	1			1			
+SF13_ENG_041	Don Hewitt	Hewitt	per:cause_of_death	pancreatic cancer	Don Hewitt	Hewitt died of pancreatic cancer	APW_ENG_20090819.0913	0.90	1			1			
+SF13_ENG_018	Harvey Pekar	Harvey Pekar	per:stateorprovince_of_death	Ohio	Harvey Pekar dies at 70 in Ohio		APW_ENG_20100712.0866	0.94	1			1			
+SF13_ENG_041	Don Hewitt	He	per:employee_or_member_of	Merchant Marines	Don Hewitt	He joined the Merchant Marines	APW_ENG_20090819.0815	0.50	1			1			
+SF13_ENG_085	China Banking Regulatory Commission	China Banking Regulatory Commission	org:top_members_employees	Liu Mingkang	Liu Mingkang, chairman of the China Banking Regulatory Commission		XIN_ENG_20101110.0464	0.90	1			1			
+SF13_ENG_064	Stockholm International Peace Research Institute	SIPRI	org:date_founded	1966	SIPRI, established in 1966		XIN_ENG_20100315.0310	0.77	1			1			
+SF13_ENG_029	Laurent Fignon	Laurent Fignon	per:cause_of_death	cancer	Laurent Fignon has died of cancer		XIN_ENG_20100831.0355	0.94	1			1			
+SF13_ENG_032	Hwang Jang-yop	Hwang	per:cause_of_death	heart failure	Hwang died from heart failure		APW_ENG_20101020.0103	0.82	1			1			
+SF13_ENG_028	Billy Mays	Mays	per:cause_of_death	heart disease	Billy Mays	Mays died of heart disease	NYT_ENG_20091011.0059	0.90	1			1			
+SF13_ENG_068	Indoor Tanning Association	Indoor Tanning Association	org:top_members_employees	John Overstreet	John Overstreet, executive director of the Indoor Tanning Association		LTW_ENG_20090604.0047	0.90	1			1			
+SF13_ENG_018	Harvey Pekar	Harvey Pekar	per:country_of_death	US	Harvey Pekar dies at 70 in US		APW_ENG_20100712.0934	0.94	1			1			
+SF13_ENG_036	Girija Prasad Koirala	Girija Prasad Koirala	per:age	86	Girija Prasad Koirala, one of Nepal's most prominent politicians, has died at age 86		APW_ENG_20100320.0179	0.93	1			1			
+SF13_ENG_037	Claude Chabrol	Chabrol	per:title	film director	Claude Chabrol	Chabrol was "an immense French film director	AFP_ENG_20100912.0153	0.95	1			1			
+SF13_ENG_052	Euskadi Ta Askatasuna	ETA	org:top_members_employees	Mikel Kabikoitz Karrera Sarobe	Mikel Kabikoitz Karrera Sarobe, the suspected military leader of ETA		NYT_ENG_20100906.0083	0.90	1			1			
+SF13_ENG_026	Patricia Neal	Patricia Neal	per:countries_of_residence	US	US actress Patricia Neal		AFP_ENG_20100809.0498	0.90	1			1			
+SF13_ENG_036	Girija Prasad Koirala	Koirala	per:employee_or_member_of	Nepali Congress party	Girija Prasad Koirala	Koirala was president of the Nepali Congress party	APW_ENG_20100320.0219	0.95	1			1			
+SF13_ENG_041	Don Hewitt	Don Hewitt	per:title	executive	Don Hewitt, a longtime CBS News executive		NYT_ENG_20090717.0185	0.90	1			1			
+SF13_ENG_018	Harvey Pekar	Harvey Pekar	per:cities_of_residence	Cleveland Heights	Harvey Pekar, whose autobiographical comic book "American Splendor" attracted a cult following for its unvarnished stories of a depressed, aggrieved Everyman negotiating daily life in Cleveland and became the basis for a critically acclaimed 2003 film, died on Monday at his home in Cleveland Heights		NYT_ENG_20100712.0143	0.85	1			1			
+SF13_ENG_026	Patricia Neal	Patricia Neal	per:statesorprovinces_of_residence	Massachusetts	Patricia Neal, who won an Oscar for her role in "Hud" opposite Paul Newman but whose career was shadowed by personal tragedies, died at her home in Massachusetts		AFP_ENG_20100809.0118	0.87	1			1			
+SF13_ENG_041	Don Hewitt	Hewitt	per:employee_or_member_of	CBS News	Don Hewitt	Hewitt joined CBS News	APW_ENG_20090819.0815	0.93	1			1			
+SF13_ENG_050	Ko Yong-Hi	Ko Yong-Hi	per:date_of_death	2004	Ko Yong-Hi, who reportedly died of breast cancer in 2004		AFP_ENG_20090602.0439	0.79	1			1			
+SF13_ENG_056	Georgia Peanut Commission	Georgia Peanut Commission	org:top_members_employees	Armond Morris	Armond Morris, chairman of the Georgia Peanut Commission		APW_ENG_20100611.1151	0.90	1			1			
+SF13_ENG_052	Euskadi Ta Askatasuna	ETA	org:top_members_employees	Aitzol Etxaburu	ETA leader Aitzol Etxaburu		AFP_ENG_20090819.0325	0.90	1			1			
+SF13_ENG_038	Merce Cunningham	Merce Cunningham	per:age	90	Merce Cunningham, the legendary New York-based choreographer who revolutionized modern dance, has died at age 90		AFP_ENG_20090727.0079	0.89	1			1			
+SF13_ENG_005	Tahawwur Hussain Rana	Tahawwur Hussain Rana	per:cities_of_residence	Chicago	Chicago businessman Tahawwur Hussain Rana		APW_ENG_20100127.1111	0.90	1			1			
+SF13_ENG_014	Mohammed Oudeh	Mohammed Oudeh	per:cause_of_death	kidney disease	Mohammed Oudeh, one of the leaders of the famous radical faction "Black September" and the mastermind of 1972 Munich raid, died of kidney disease		XIN_ENG_20100703.0063	0.91	1			1			
+SF13_ENG_007	Mohammed Sayed Tantawi	Tantawi	per:country_of_death	Saudi Arabia	Mohammed Sayed Tantawi	Tantawi died Wednesday in Saudi Arabia	APW_ENG_20100310.0491	0.90	1			1			
+SF13_ENG_011	Anthony Marshall	Anthony Marshall	per:children	Philip	Anthony Marshall's estranged son, Philip		eng-NG-31-126958-8238492	0.90	1			1			
+SF13_ENG_039	Jade Goody	Jade Goody	per:cause_of_death	cancer	Jade Goody, who died of cancer		AFP_ENG_20100426.0282	0.94	1			1			
+SF13_ENG_100	Galleon Group	Galleon Group	org:founded_by	Raj Rajaratnam	Raj Rajaratnam, the co-founder of hedge fund Galleon Group		NYT_ENG_20101122.0141	0.90	1			1			
+SF13_ENG_044	Dominick Dunne	Dunne	per:city_of_birth	Hartford	Dominick Dunne	Dunne was born in 1925 in Hartford	APW_ENG_20090826.1147	0.91	1			1			
+SF13_ENG_032	Hwang Jang-yop	Hwang Jang-yop	per:country_of_death	South Korea	Hwang Jang-yop has died in South Korea		APW_ENG_20101010.0057	0.95	1			1			
+SF13_ENG_037	Claude Chabrol	Chabrol	per:title	critic	Chabrol was a young film critic		NYT_ENG_20100912.0125	0.97	1			1			
+SF13_ENG_032	Hwang Jang-yop	Hwang	per:cities_of_residence	Seoul	Hwang lived in Seoul		APW_ENG_20101020.0103	0.88	1			1			
+SF13_ENG_031	Blake Edwards	Blake Edwards	per:city_of_death	Santa Monica	Blake Edwards, a writer and director who was hailed as a Hollywood master of screwball farces and rude comedies like "Victor/Victoria" and the "Pink Panther" movies, died Wednesday night in Santa Monica		NYT_ENG_20101216.0121	0.91	1			1			
+SF13_ENG_089	Rosoboronexport	Rosoboronexport	org:top_members_employees	Anatoly Isaykin	Anatoly Isaykin, head of Rosoboronexport		AFP_ENG_20090621.0015	0.90			1			1	should merge
+SF13_ENG_012	Adam Gadahn	Adam Gadahn	per:statesorprovinces_of_residence	California	Adam Gadahn, who was raised in California		APW_ENG_20090615.0692	0.93	1			1			
+SF13_ENG_079	Stockholm International Water Institute	Stockholm International Water Institute	org:top_members_employees	Anders Berntell	Anders Berntell, head of the Stockholm International Water Institute		APW_ENG_20090821.0523	0.90	1			1			
+SF13_ENG_012	Adam Gadahn	Adam Gadahn	per:origin	American	American al Qaeda leader Adam Gadahn		eng-NG-31-102460-8865959	0.90	1			1			
+SF13_ENG_092	Escada	Escada	org:founded_by	Wolfgang Ley	Escada	Escada founder Wolfgang Ley	AFP_ENG_20091106.0273	0.90	1			1			
+SF13_ENG_069	International Agency for Research on Cancer (IARC	International Agency for Research on Cancer (IARC	org:parents	World Health Organisation	International Agency for Research on Cancer (IARC), which is part of the World Health Organisation		eng-NG-31-126855-12059358	0.98	1			1			
+SF13_ENG_035	Maria Kaczynska	Maria Kaczynska	per:spouse	Lech Kaczynski	Lech Kaczynski's wife Maria Kaczynska		AFP_ENG_20100413.0695	0.90	1			1			
+SF13_ENG_058	Access Industries	Access Industries	org:stateorprovince_of_headquarters	New York	Access Industries, based in New York		APW_ENG_20090612.0855	0.93	1			1			
+SF13_ENG_030	Sparky Anderson	Sparky Anderson	per:employee_or_member_of	Cincinnati Reds	Sparky Anderson, who led the Cincinnati Reds		APW_ENG_20101104.0743	0.96	1			1			
+SF13_ENG_027	Abdul-Aziz al-Hakim	Abdul-Aziz al-Hakim	per:age	59	Abdul-Aziz al-Hakim, the scion of a revered clerical family who rode the rise of Shiite power in Iraq to become one of the country's most powerful political figures but was deeply distrusted by Sunni Muslims as an ally of Iran, died Wednesday at the age of 59		APW_ENG_20090826.0478	0.93	1			1			
+SF13_ENG_010	Ronnie James Dio	Ronnie James Dio	per:title	singer	singer Ronnie James Dio		APW_ENG_20100525.0070	0.90	1			1			
+SF13_ENG_073	Global Infrastructure Partners	Global Infrastructure Partners	org:stateorprovince_of_headquarters	New York	Global Infrastructure Partners, based in New York		APW_ENG_20091021.0307	0.91	1			1			
+SF13_ENG_039	Jade Goody	Jade Goody	per:spouse	Jack Tweed	Jack Tweed, the bereaved husband of late British reality television star Jade Goody		AFP_ENG_20090905.0314	0.90	1			1			
+SF13_ENG_026	Patricia Neal	Patricia Neal	per:origin	US	US actress Patricia Neal		AFP_ENG_20100809.0498	0.90	1			1			
+SF13_ENG_075	Champalimaud Foundation	Champalimaud Foundation	org:top_members_employees	Leonor Beleza	Leonor Beleza, president of the Champalimaud Foundation		AFP_ENG_20101005.0319	0.90	1			1			
+SF13_ENG_097	STX Finland	STX Finland	org:member_of	STX Europe Group	STX Finland is part of the international STX Europe Group		APW_ENG_20101025.0228	0.90	1			1			
+SF13_ENG_044	Dominick Dunne	Dominick Dunne	per:statesorprovinces_of_residence	New York	New York author Dominick Dunne		APW_ENG_20090921.0007	0.90	1			1			
+SF13_ENG_022	Mikel Karrera Sarobe	Mikel Karrera Sarobe	per:employee_or_member_of	ETA	ETA's new military chief, Mikel Karrera Sarobe		AFP_ENG_20100319.0199	0.90		1		1			
+SF13_ENG_048	Charles Gwathmey	Charles Gwathmey	per:date_of_birth	19-Jun-38	Charles Gwathmey was born on June 19, 1938		NYT_ENG_20090804.0124	0.93	1			1			
+SF13_ENG_008	Mathieu Montcourt	Montcourt	per:title	tennis player	Mathieu Montcourt	tennis player Montcourt	AFP_ENG_20090707.0222	0.90	1			1			
+SF13_ENG_051	Election Complaints Commission	Election Complaints Commission	org:top_members_employees	Mahgul Yamam	Mahgul Yamam, the head of the Election Complaints Commission		LTW_ENG_20090828.0093	0.90	1			1			
+SF13_ENG_085	China Banking Regulatory Commission	China Banking Regulatory Commission	org:top_members_employees	Jiang Dingzhi	Jiang Dingzhi, vice chairman of the China Banking Regulatory Commission		XIN_ENG_20101102.0399	0.90	1			1			
+SF13_ENG_089	Rosoboronexport	Rosoboronexport	org:top_members_employees	Serguei Ladiguin	Rosoboronexport executive Serguei Ladiguin		eng-NG-31-142161-10037583	0.90	1			1			
+SF13_ENG_039	Jade Goody	JADE GOODY	per:date_of_death	22-Mar	JADE GOODY (died March 22		AFP_ENG_20091228.0464	0.87	1			1			
+SF13_ENG_076	Swiss Bankers Association	Swiss Bankers Association	org:top_members_employees	Urs Roth	Urs Roth, chief executive of the Swiss Bankers Association		AFP_ENG_20091008.0518	0.90	1			1			
+SF13_ENG_044	Dominick Dunne	Dunne	per:date_of_birth	1925	Dominick Dunne	Dunne was born in 1925	APW_ENG_20090826.1147	0.77	1			1			
+SF13_ENG_017	Alexander Haig	Alexander Haig	per:cause_of_death	complications from an infection	Alexander Haig, who held influential positions in the United States military and in politics and who as White House chief of staff shepherded Richard Nixon toward peacefully resigning the presidency, died Saturday of complications from an infection		WPB_ENG_20100220.0001	0.90			1	1			
+SF13_ENG_045	Adam Goldstein	DJ AM	per:stateorprovince_of_death	New York	DJ AM, whose real name is Adam Goldstein, died in August in New York		APW_ENG_20100114.1379	0.85	1			1			
+SF13_ENG_004	Douglas Flint	Douglas Flint	per:title	chairman	Douglas Flint will become chairman		APW_ENG_20101103.0756	0.93	1			1			
+SF13_ENG_027	Abdul Aziz al-Hakim	Abdul Aziz al-Hakim	per:employee_or_member_of	Supreme Islamic Iraqi Council (SIIC	Abdul Aziz al-Hakim, who is also head of the Supreme Islamic Iraqi Council (SIIC		eng-NG-31-142149-10025328	0.93	1			1			
+SF13_ENG_026	Patricia Neal	Patricia Neal	per:title	actress	actress Patricia Neal		AFP_ENG_20100809.0498	0.90	1			1			
+SF13_ENG_018	Harvey Pekar	he	per:origin	American	Harvey Pekar	he was even more like an American	WPB_ENG_20100714.0022	0.50	 		1			1	
+SF13_ENG_008	Mathieu Montcourt	Mathieu Montcourt	per:cause_of_death	a heart attack	Mathieu Montcourt, who was found dead outside his apartment near Paris early Tuesday, died of a heart attack		AFP_ENG_20090709.0155	0.92	1			1			
+SF13_ENG_019	Keli McGregor	Keli McGregor	per:title	president	president Keli McGregor		AFP_ENG_20100421.0701	0.90	1			1			
+SF13_ENG_044	Dominick Dunne	Dunne	per:siblings	John Gregory Dunne	Dominick Dunne	Dunne's brother was the writer John Gregory Dunne	NYT_ENG_20090826.0141	0.90	1			1			
+SF13_ENG_049	Benoit Mandelbrot	Benoit Mandelbrot	per:stateorprovince_of_death	Massachusetts	Benoit Mandelbrot, a French-American mathematician who explored a new class of mathematical shapes known as "fractals," has died at age 85 in Cambridge, Massachusetts		AFP_ENG_20101016.0007	0.90	1			1			
+SF13_ENG_017	Alexander Haig	Alexander Haig	per:city_of_death	Baltimore	Alexander Haig, who held influential position in the U.S. military and government and who as White House chief of staff shepherded Richard Nixon toward peacefully resigning the presidency, died Saturday in Baltimore		XIN_ENG_20100221.0124	0.91	1			1			
+SF13_ENG_031	Blake Edwards	Blake Edwards	per:stateorprovince_of_death	California	Blake Edwards dies in California		APW_ENG_20101216.0695	0.93	1			1			
+SF13_ENG_091	Arcandor	Arcandor	org:city_of_headquarters	Essen	Essen, where Arcandor is based		AFP_ENG_20090618.0420	0.95	1			1			
+SF13_ENG_037	Claude Chabrol	Claude Chabrol	per:origin	French	French New Wave filmmaker Claude Chabrol		APW_ENG_20100912.0242	0.90	1			1			
+SF13_ENG_044	Dominick Dunne	Dunne	per:alternate_names	Nick	Dominick Dunne	Dunne, known as Nick	NYT_ENG_20090826.0141	0.94	1			1			
+SF13_ENG_098	Millipore Corp.	Millipore	org:number_of_employees_members	6,100	Millipore Corp.	Millipore has more than 6,100	NYT_ENG_20100224.0190	0.94	1			1			
+
+
+Inexact results
+SF13_ENG_037	Claude Chabrol	Claude Chabrol	per:title	film maker	film maker Claude Chabrol		AFP_ENG_20100912.0193	0.90	1			1			
+SF13_ENG_003	Stuart Rose	Stuart Rose	per:title	chairman	chairman Stuart Rose		AFP_ENG_20100408.0500	0.90	1			1			
+SF13_ENG_015	Lucille Clifton	Lucille Clifton	per:date_of_death	Feb	Lucille Clifton, who died of a bacterial infection Feb		WPB_ENG_20100221.0011	0.91		1			1		
+SF13_ENG_002	Marc Bolland	Marc Bolland	per:title	chief executive	Marc Bolland was to become its chief executive		XIN_ENG_20091118.0290	0.88	1			1			
+SF13_ENG_089	Rosoboronexport	Rosoboronexport	org:top_members_employees	Anatoly Isaikin	Anatoly Isaikin, the head of the state arms trader Rosoboronexport		APW_ENG_20100128.0542	0.90	1			1			
+SF13_ENG_092	Escada	Escada	org:founded_by	Wolfgang Ley	Escada	Escada founder Wolfgang Ley	AFP_ENG_20091106.0273	0.90	1			1			
+SF13_ENG_035	Maria Kaczynska	Maria Kaczynska	per:spouse	Lech Kaczynski	Lech Kaczynski's wife Maria Kaczynska		AFP_ENG_20100413.0695	0.90	1			1			
+SF13_ENG_007	Mohammed Sayed Tantawi	Mohammed Sayed Tantawi	per:age	81	Mohammed Sayed Tantawi, who died of a heart attack in Saudi Arabia on March 10 at the age of 81		AFP_ENG_20100319.0300	0.92	1			1			
+SF13_ENG_037	Claude Chabrol	Chabrol	per:title	critic	Chabrol was a young film critic		NYT_ENG_20100912.0125	0.97	1			1			
+SF13_ENG_037	Claude Chabrol	Chabrol	per:title	film director	Claude Chabrol	Chabrol was "an immense French film director	AFP_ENG_20100912.0153	0.95	1			1			
+SF13_ENG_007	Mohammed Sayed Tantawi	Tantawi	per:title	sheik	Mohammed Sayed Tantawi	Tantawi was the grand sheik	APW_ENG_20100310.0491	0.95	 		1	 	 	1	sheik not a title?
+SF13_ENG_039	Jade Goody	Jade Goody	per:spouse	Jack Tweed	Jack Tweed, the bereaved husband of late British reality television star Jade Goody		AFP_ENG_20090905.0314	0.90	1			1			
+SF13_ENG_005	Tahawwur Hussain Rana	Rana	per:charges	conspiracy	Tahawwur Hussain Rana	Rana are each charged with conspiracy	APW_ENG_20091028.0100	0.92	1			1			
+SF13_ENG_031	Blake Edwards	Blake	per:spouse	Julie Andrews	Blake Edwards	Blake's wife, Julie Andrews	APW_ENG_20101216.0803	0.90	1			1			
+SF13_ENG_041	Don Hewitt	Don Hewitt	per:title	executive	Don Hewitt, a longtime CBS News executive		NYT_ENG_20090717.0185	0.90	1			1			
+SF13_ENG_036	Girija Prasad Koirala	Koirala	per:title	prime minister	Girija Prasad Koirala	Koirala became prime minister	APW_ENG_20100320.0219	0.92	1			1			
+SF13_ENG_026	Patricia Neal	Patricia Neal	per:stateorprovince_of_death	Massachusetts	Patricia Neal, who won an Oscar for her role in "Hud" opposite Paul Newman but whose career was shadowed by personal tragedies, died at her home in Massachusetts		AFP_ENG_20100809.0118	0.87	1			1			
+SF13_ENG_081	Washington National Opera	Washington National Opera	org:top_members_employees	Weinstein	Weinstein, executive director of the Washington National Opera		NYT_ENG_20090715.0030	0.90		1			1		
+SF13_ENG_100	Galleon Group	Galleon Group	org:founded_by	Raj Rajaratnam	Raj Rajaratnam, the co-founder of hedge fund Galleon Group		NYT_ENG_20101122.0141	0.90	1			1			
+SF13_ENG_041	Don Hewitt	Hewitt	per:employee_or_member_of	CBS News	Don Hewitt	Hewitt joined CBS News	APW_ENG_20090819.0815	0.93	1			1			
+SF13_ENG_089	Rosoboronexport	Rosoboronexport	org:top_members_employees	Serguei Ladiguin	Rosoboronexport executive Serguei Ladiguin		eng-NG-31-142161-10037583	0.90	1			1			
+SF13_ENG_008	Mathieu Montcourt	Montcourt	per:title	tennis player	Mathieu Montcourt	tennis player Montcourt	AFP_ENG_20090707.0222	0.90	1			1			
+SF13_ENG_084	Bipartisan Policy Center	Bipartisan Policy Center	org:top_members_employees	Grumet	Grumet, president of the Bipartisan Policy Center		NYT_ENG_20090807.0108	0.90		1			1		
+SF13_ENG_076	Swiss Bankers Association	Swiss Bankers Association	org:top_members_employees	Urs Roth	Urs Roth, chief executive of the Swiss Bankers Association		AFP_ENG_20091008.0518	0.90	1			1			
+SF13_ENG_028	Billy Mays	Mays	per:spouse	Deborah Mays	Billy Mays	Mays' wife, Deborah Mays	APW_ENG_20090628.0569	0.90	1			1			
+SF13_ENG_089	Rosoboronexport	Rosoboronexport	org:top_members_employees	Sergei Chemezov	Sergei Chemezov, the chief of Russian state weapons exporter Rosoboronexport		eng-NG-31-113099-9051701	0.90	1			1			
+SF13_ENG_007	Mohammed Sayed Tantawi	Mohammed Sayed Tantawi	per:cause_of_death	a heart attack in Saudi Arabia	Mohammed Sayed Tantawi, who died of a heart attack in Saudi Arabia		AFP_ENG_20100319.0300	0.94		1			1		
+SF13_ENG_004	Douglas Flint	Douglas Flint	per:title	chairman	Douglas Flint will become chairman		APW_ENG_20101103.0756	0.93	1			1			
+SF13_ENG_011	Anthony Marshall	Anthony Marshall	per:children	Philip	Anthony Marshall's estranged son, Philip		eng-NG-31-126958-8238492	0.90	1			1			
+SF13_ENG_045	Adam Goldstein	DJ AM	per:cause_of_death	a drug overdose on Aug	DJ AM, who apparently died of a drug overdose on Aug		NYT_ENG_20090916.0056	0.87		1			1		
+SF13_ENG_030	Sparky Anderson	Sparky Anderson	per:cities_of_residence	Thousand Oaks	Sparky Anderson, who managed Cincinnati's powerful Big Red Machine to baseball dominance in the 1970s and became the first manager to win World Series championships in both the National and American Leagues, died on Thursday at his home in Thousand Oaks		NYT_ENG_20101104.0186	0.85	1			1			
+SF13_ENG_043	Ellie Greenwich	Greenwich	per:cause_of_death	a heart attack at St.	Ellie Greenwich	Greenwich died of a heart attack at St.	APW_ENG_20090826.0973	0.93	 	1		1			
+SF13_ENG_025	Nancy Kissel	Kissel	per:parents	Jean McGothlin	Nancy Kissel	Kissel's mother Jean McGothlin	AFP_ENG_20100112.0679	0.90	1			1			
+SF13_ENG_081	Washington National Opera	Washington National Opera	org:top_members_employees	Feinberg	Feinberg, the chairman of the Washington National Opera		NYT_ENG_20100113.0107	0.90		1			1		
+SF13_ENG_047	Orlando Zapata	Orlando Zapata	per:parents	Reyna Luisa Tamayo	Reyna Luisa Tamayo, the mother of political prisoner Orlando Zapata		AFP_ENG_20100321.0056	0.90	1			1			
+SF13_ENG_011	Anthony Marshall	Anthony Marshall	per:parents	Brooke Astor	Anthony Marshall, son of millionaire philanthropist Brooke Astor		AFP_ENG_20091008.0097	0.90	1			1			
+SF13_ENG_001	Ramazan Bashardost	Ramazan Bashardost	per:title	minister	minister Ramazan Bashardost		LTW_ENG_20090817.0020	0.90		1		 	1		"planning minister"
+SF13_ENG_042	Dudu Topaz	Dudu Topaz	per:charges	conspiracy	Dudu Topaz, 62, was charged with conspiracy		AFP_ENG_20090618.0464	0.91		1		1			
+
+
+Incorrect results
+SF13_ENG_022	Mikel Karrera Sarobe	Mikel Karrera Sarobe	per:title	senior	Mikel Karrera Sarobe, alleged to be the most senior		AFP_ENG_20100520.0465	0.96			1			1	
+SF13_ENG_041	Don Hewitt	DON HEWITT	per:date_of_death	2002	DON HEWITT, ' 60 MINUTES '  CREATOR, DIES AT 86 WALTER GOODMAN, WHO DIED IN 2002		NYT_ENG_20090819.0058	0.66			1			1	
+SF13_ENG_033	Vitaly Ginzburg	Vitaly Ginzburg	per:date_of_death	November	Vitaly Ginzburg, who was the last Russian physicist to receive the Nobel in 2003 and died last November		AFP_ENG_20101005.0117	0.93		1			1		
+SF13_ENG_046	Don Meredith	Meredith	per:stateorprovince_of_birth	Texas	Don Meredith	Meredith, a north Texas native	AFP_ENG_20101206.0060	0.90	 		1	1			
+SF13_ENG_027	Abdul Aziz al-Hakim	al-Hakim	per:spouse	Mohammed Hadi al-Sadr	al-Hakim studied theology in Najaf and married the daughter of Mohammed Hadi al-Sadr		APW_ENG_20090826.1179	0.94			1			1	
+SF13_ENG_031	Blake Edwards	His son	per:title	assistant director	Blake Edwards	His son, Jack McEdwards (the family name), became a top assistant director	APW_ENG_20101216.0803	0.64	 		1			1	
+SF13_ENG_026	Patricia Neal	Patricia Neal	per:employee_or_member_of	Bacardi	Bacardi spokeswoman Patricia Neal		AFP_ENG_20100328.0475	0.90			1	1			wrong entity?
+SF13_ENG_012	Adam Gadahn	Adam Gadahn	per:stateorprovince_of_birth	California	Adam Gadahn, a California native		WPB_ENG_20100307.0023	0.90			1	1			
+SF13_ENG_016	Paul Gray	Paul Gray	per:cities_of_residence	Chicago	Paul Gray, the Chicago dealer		NYT_ENG_20100513.0011	0.90			1	1			wrong entity
+SF13_ENG_037	Claude Chabrol	his third wife	per:spouse	Chabrol	Claude Chabrol	Chabrol married his third wife	AFP_ENG_20100912.0055	0.86	 		1			1	
+SF13_ENG_064	Stockholm International Peace Research Institute	Stockholm International Peace Research Institute	org:top_members_employees	Neil Melvin	Neil Melvin, who chairs the conflict and armed conflict management program under the Stockholm International Peace Research Institute		XIN_ENG_20100925.0123	0.94			1			1	
+SF13_ENG_016	Paul Gray	Paul Gray	per:employee_or_member_of	Texas Council of Teachers of Mathematics	Paul Gray, the president of the Texas Council of Teachers of Mathematics		NYT_ENG_20100720.0143	0.90	 		1	1			wrong entity
+SF13_ENG_007	Mohammed Sayed Tantawi	Mohammed Sayed Tantawi	per:employee_or_member_of	Sunni Islam	Sunni Islam's top cleric Sheikh Mohammed Sayed Tantawi		AFP_ENG_20100310.0288	0.90			1			1	Sunni Islam's top cleric
+SF13_ENG_015	Lucille Clifton	Lucille Clifton	per:cause_of_death	a bacterial infection	Lucille Clifton, who died of a bacterial infection		WPB_ENG_20100221.0011	0.91			1	1			wrong entity?
+SF13_ENG_038	Merce Cunningham	Merce Cunningham	per:date_of_death	July	Merce Cunningham, who died last July		NYT_ENG_20100310.0071	0.93		1			1		
+SF13_ENG_016	Paul Gray	Paul Gray	per:title	chairman	Paul Gray, chairman of		eng-NG-31-142679-10068101	0.90			1	1			wrong entity
+SF13_ENG_036	Girija Prasad Koirala	Koirala	per:origin	Nepali	Girija Prasad Koirala	Koirala was president of the Nepali	APW_ENG_20100320.0205	0.95	 		1	1			
+SF13_ENG_025	Nancy Kissel	Kissel	per:siblings	Robert	Nancy Kissel	Kissel's brother, Robert	APW_ENG_20101216.0760	0.90	1			1			
+SF13_ENG_012	Adam Gadahn	Adam Gadahn	per:employee_or_member_of	American al Qaeda	American al Qaeda leader Adam Gadahn		eng-NG-31-102460-8865959	0.90			1		1		just Al Qaeda
+SF13_ENG_043	Ellie Greenwich	Ellie Greenwich	per:title	queen	Ellie Greenwich, queen of		eng-NG-31-128535-9315427	0.90			1			1	
+SF13_ENG_092	Escada	Escada	org:top_members_employees	Ursula Dreyer	Ursula Dreyer, head of Escada		AFP_ENG_20091106.0273	0.90			1	1			
+SF13_ENG_027	Abdul Aziz al-Hakim	His family	per:origin	Iranian	His family led a Shiite rebel group against Saddam's rule from their exile in Iran, where he lived for 20 years, building close ties with Iranian		APW_ENG_20090826.1179	0.66			1			1	bad justification
+SF13_ENG_030	Sparky Anderson	Sparky Anderson	per:date_of_death	November	Sparky Anderson, a Hall of Fame manager who guided three World Series champions in a 26-year Major League Baseball career, died in November		AFP_ENG_20101215.0754	0.93		1			1		
+SF13_ENG_025	Nancy Kissel	Robert	per:siblings	Jane Kissel Clayton	Nancy Kissel	Robert's sister, Jane Kissel Clayton	APW_ENG_20100211.0683	0.90	 		1	 		1	coref error?
+SF13_ENG_007	Mohammed Sayed Tantawi	Mohammed Sayed Tantawi	per:date_of_death	10-Mar	Mohammed Sayed Tantawi, who died of a heart attack in Saudi Arabia on March 10		AFP_ENG_20100319.0300	0.93		1		1	1		
+SF13_ENG_006	Ali Akbar Khan	Khan	per:spouse	Shankar	Ali Akbar Khan	Khan's younger sister, Annapurna Devi, who later married Shankar	NYT_ENG_20090620.0004	0.94	 		1			1	
+SF13_ENG_016	Paul Gray	Paul Gray	per:title	dealer	Paul Gray, the Chicago dealer		NYT_ENG_20100513.0011	0.90			1	1			wrong entity
+SF13_ENG_016	Paul Gray	Paul Gray	per:employee_or_member_of	HMRC	Paul Gray, chairman of HMRC		eng-NG-31-142679-10068101	0.90			1	1			wrong entity
+SF13_ENG_064	Stockholm International Peace Research Institute	SIPRI	org:top_members_employees	Sam Perlo-Freeman	Sam Perlo-Freeman, the head of SIPRI		AFP_ENG_20100601.0026	0.90			1	1			
+SF13_ENG_052	Euskadi Ta Askatasuna	ETA	org:members	Batasuna	ETA's banned political wing Batasuna		APW_ENG_20100906.0415	0.90	1			1			
+SF13_ENG_028	Billy Mays	Mays	per:date_of_death	June	Billy Mays	June, Mays died	NYT_ENG_20100428.0163	0.95		1			1		
+SF13_ENG_028	Billy Mays	Billy Mays	per:employee_or_member_of	Universal American Mortgage Co.	Billy Mays, a loan officer at Universal American Mortgage Co.		NYT_ENG_20100415.0189	0.90	 		1	1			wrong entity
+SF13_ENG_052	Euskadi Ta Askatasuna	Euskadi Ta Askatasuna	org:alternate_names	Basque Homeland and Freedom	Euskadi Ta Askatasuna, which means Basque Homeland and Freedom		AFP_ENG_20100905.0079	0.93			1	1			
+SF13_ENG_080	International Water Management Institute	International Water Management Institute	org:top_members_employees	Tushar Shah	Tushar Shah, head of the International Water Management Institute		bolt-eng-DF-170-181110-8770765	0.90			1	1			
+SF13_ENG_016	Paul Gray	Paul Gray	per:title	officer	Paul Gray, co-chief investment officer of		eng-NG-31-126244-8182349	0.90			1			1	wrong entity
+SF13_ENG_096	Freedom Communications	Freedom Communications	org:parents	Tribune Co.	Tribune Co., which owns The Los Angeles Times and The Chicago Tribune; Freedom Communications		NYT_ENG_20100411.0092	0.97			1			1	
+SF13_ENG_041	Don Hewitt	Hewitt	per:cities_of_residence	Bridgehampton	Don Hewitt	Hewitt died of pancreatic cancer at his Bridgehampton	APW_ENG_20090819.1064	0.83	 		1	1			
+SF13_ENG_020	Mike Penner	Mike Penner	per:title	columnist	Mike Penner was a longtime sports columnist for		eng-NG-31-126851-8229228	0.90		1			1		sports columnist
+SF13_ENG_028	Billy Mays	Billy Mays	per:title	officer	Billy Mays, a loan officer at		NYT_ENG_20100415.0189	0.90			1		1		wrong entity, loan officer
+SF13_ENG_052	Euskadi Ta Askatasuna	ETA	org:top_members_employees	Ibon Gogeascoechea Arronategui	ETA's suspected military chief, Ibon Gogeascoechea Arronategui		AFP_ENG_20100302.0071	0.90			1			1	
+SF13_ENG_097	STX Finland	Finland	org:city_of_headquarters	Turku	STX Finland	Finland, located in Turku	APW_ENG_20091117.0560	0.92	 		1	 		1	
+SF13_ENG_045	Adam Goldstein	Adam Goldstein	per:title	president	president Adam Goldstein		LTW_ENG_20091007.0013	0.90			1	1			wrong entity
+SF13_ENG_097	STX Finland	STX Finland	org:number_of_employees_members	three	STX Finland, part of South Korean shipbuilder STX, has three		AFP_ENG_20091111.0315	0.93			1			1	
+SF13_ENG_045	Adam Goldstein	Adam Goldstein	per:employee_or_member_of	Royal Caribbean International	Adam Goldstein, chief executive of Royal Caribbean International		AFP_ENG_20100119.0058	0.90			1	1			wrong entity
+SF13_ENG_052	Euskadi Ta Askatasuna	ETA	org:top_members_employees	Garikoitz Aspiazu Rubina	ETA's suspected military leader, Garikoitz Aspiazu Rubina		AFP_ENG_20091019.0199	0.90			1	1			
+SF13_ENG_048	Charles Gwathmey	Charles Gwathmey	per:date_of_death	2000	2000, a second, Charles Gwathmey, died		NYT_ENG_20090810.0182	0.81		 	1			1	
+SF13_ENG_016	Paul Gray	Paul Gray	per:title	president	Paul Gray, the president of		NYT_ENG_20100720.0143	0.90			1		1		wrong entity
+SF13_ENG_016	Paul Gray	Paul Gray	per:cities_of_residence	Kensington	Paul Gray, co-chief investment officer of Kensington		eng-NG-31-126244-8182349	0.90			1	1			wrong entity
+SF13_ENG_037	Claude Chabrol	Claude Chabrol	per:date_of_death	Sept	Claude Chabrol, a critic and filmmaker who helped launch the influential French new wave movement in the late 1950s and whose Hitchcock-inspired thrillers such as "Le Boucher" ("The Butcher") explored the darkness lurking below the surface of middle-class life, died Sept		WPB_ENG_20100914.0017	0.93		1			1		
+SF13_ENG_033	Vitaly Ginzburg	Vitaly Ginzburg	per:title	critic	Vitaly Ginzburg, who was the last Russian physicist to receive the Nobel in 2003 and died last November at the age of 93, was an outspoken critic		AFP_ENG_20101005.0117	0.93			1			1	
+SF13_ENG_064	Stockholm International Peace Research Institute	SIPRI	org:top_members_employees	May-Britt Stumbaum	May-Britt Stumbaum, head of SIPRI		XIN_ENG_20100609.0223	0.90			1	1			
+SF13_ENG_045	Adam Goldstein	Adam Goldstein	per:title	chief executive	Adam Goldstein, chief executive of		AFP_ENG_20100119.0058	0.90			1	1			wrong entity
+SF13_ENG_025	Nancy Kissel	Robert	per:countries_of_residence	U.S.	Nancy Kissel	Robert's sister, Jane Kissel Clayton, who lives in the U.S.	APW_ENG_20100211.0683	0.93	 		1			1	
+SF13_ENG_012	Adam Gadahn	Adam Gadahn	per:parents	Phil Pearlman	Adam Gadahn, son of Phil Pearlman		eng-NG-31-113099-9052056	0.90			1	1			
+SF13_ENG_045	Adam Goldstein	DJ AM	per:date_of_death	August	DJ AM, whose real name is Adam Goldstein, died in August		APW_ENG_20100114.1379	0.87		1			1		
+SF13_ENG_076	Swiss Bankers Association	Swiss Bankers Association	org:number_of_employees_members	360	Swiss Bankers Association which has almost 360		AFP_ENG_20090917.0540	0.95			1	 		1	
+SF13_ENG_018	Harvey Pekar	Harvey Pekar	per:city_of_death	Cleveland Heights	Harvey Pekar, whose autobiographical comic book "American Splendor" attracted a cult following for its unvarnished stories of a depressed, aggrieved Everyman negotiating daily life in Cleveland and became the basis for a critically acclaimed 2003 film, died on Monday at his home in Cleveland Heights		NYT_ENG_20100712.0143	0.85			1	1			
+SF13_ENG_012	Adam Gadahn	Gadahn	per:religion	Jewish	Adam Gadahn	Gadahn's father is Jewish	bolt-eng-DF-200-192451-5798243	0.87	 		1			1	
+SF13_ENG_019	Keli McGregor	His father	per:origin	Canadian	Keli McGregor	His father was a former Canadian	AFP_ENG_20100421.0701	0.74	 		1			1	
+SF13_ENG_007	Mohammed Sayed Tantawi	Tantawi	per:date_of_birth	1928	Mohammed Sayed Tantawi	Tantawi, who has three children, was born in 1928	AFP_ENG_20100310.0422	0.77	 	1		1			
+SF13_ENG_007	Mohammed Sayed Tantawi	Tantawi	per:cities_of_residence	Cairo	Mohammed Sayed Tantawi	Tantawi was the grand sheik of Cairo	APW_ENG_20100310.0491	0.90	 		1	1			
+SF13_ENG_021	David Gutierrez	David Gutierrez	per:title	spokesman	David Gutierrez, a spokesman for		APW_ENG_20091210.0455	0.90			1	1			
+
+
+Result statistics
+Precision:	0.697478991597
+Recall:	0.0922734852696
+With inexact results:
+Precision:	0.857142857143
+Recall:	0.0813397129187

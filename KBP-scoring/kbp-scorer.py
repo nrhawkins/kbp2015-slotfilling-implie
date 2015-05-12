@@ -46,7 +46,11 @@ def load_results(filename):
       continue
 
     # Create result tuple and add an entry to the map.
-    result = (tokens[0], tokens[1], tokens[3], tokens[4]) 
+    #result = (tokens[0], tokens[1].lower(), tokens[3].lower(), tokens[4].lower()) 
+    result = (tokens[0], tokens[3].lower(), tokens[4].lower()) 
+    
+    # Merged
+    #result = (tokens[0], tokens[3], tokens[4]) 
     result_to_line_map[result] = line
     results.append(result)
 
@@ -63,11 +67,27 @@ def load_answer_keys(year):
   def setify_file(filename):
     lines = file(filename, 'r').read().splitlines()
     tupled = [tuple(line.split('\t')) for line in lines]
+    #tupled = [(t[0], t[1].lower(), t[2].lower(), t[3].lower()) for t in tupled] 
+    tupled = [(t[0], t[2].lower(), t[3].lower()) for t in tupled] 
+    
     return set(tupled)
 
+  """
+  Original
   answerkey_dir = "../KBP-answerKeys"
   correct_template = "correct_KBP{}.txt"
   inexact_template = "inexact_KBP{}.txt"
+  """
+  """
+  Testing with merged
+  answerkey_dir = "../KBP-answerKeys/from_complete_answerkey"
+  correct_template = "merged_answerKey.txt"
+  inexact_template = "inexact_KBP{}.txt"
+  """
+  #imple_eval_formatted
+  answerkey_dir = "../KBP-answerKeys/implie_eval_formatted"
+  correct_template = "correct_KBP{}_implie.csv"
+  inexact_template = "inexact_KBP{}_implie.csv"
 
   return (setify_file(answerkey_dir + "/" + correct_template.format(year)),\
       setify_file(answerkey_dir + "/" + inexact_template.format(year)))
@@ -95,7 +115,7 @@ if __name__ == "__main__":
 
   # Find the correct, inexact and incorrect.
   correct = resultset & correctset
-  inexact = resultset & inexactset
+  inexact = (resultset & inexactset) - correct
   incorrect = resultset - (correctset | inexactset)
 
   # Calculate precision, recall
@@ -114,13 +134,13 @@ if __name__ == "__main__":
   inexactlines = [result_to_line_map[result] for result in inexact]
   incorrectlines = [result_to_line_map[result] for result in incorrect]
   out.write("Correct results\n")
-  out.write("\n".join(correctlines))
+  out.write("\n".join(sorted(correctlines)))
   out.write("\n\n\n")
   out.write("Inexact results\n")
-  out.write("\n".join(inexactlines))
+  out.write("\n".join(sorted(inexactlines)))
   out.write("\n\n\n")
   out.write("Incorrect results\n")
-  out.write("\n".join(incorrectlines))
+  out.write("\n".join(sorted(incorrectlines)))
   out.write("\n\n\n")
 
   out.write("Result statistics\n")
