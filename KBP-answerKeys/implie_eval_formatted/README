@@ -1,0 +1,6 @@
+Answerkeys taken out of the results spreadsheets.
+They have repeating values since the script removes identical entries.
+Some of the scores have been modified so that the basic scoring script results in the same values as the official scoring.
+Since some of the official scoring was based on ambiguity of the supporting sentence, those correct entries were just removed.
+This shouldn't cause any issues since when we run on ImplIE we will need to hand score anyway because there may be
+answers that were not in the official set.
