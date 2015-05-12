@@ -17,7 +17,16 @@ object TestCountryMapper {
       "Kyrgyz",
       "Danish",
       "Denmark",
-      "UAE"
+      "UAE",
+      "Pakistani",
+      "Canadian",
+      "Canada",
+      "pakistani",
+      "china",
+      "China",
+      "chinese",
+      "american",
+      "u.s."
     )
 
     val resultsCL = queries.map(query => mapper.getCountryName(query))
@@ -29,5 +38,17 @@ object TestCountryMapper {
     for (i <- 0 until queries.length) {
       println(s"query ${queries(i)}\t${resultsCL(i)}\t${resultsC(i)}\t${resultsL(i)}\t${results(i)}")
     }
+    
+    val x = mapper.getCountryName("Dog")
+
+    println("x: " + x)
+
+    if(x == null) println("x equals null")
+
+    x match {      
+      case null => println("matches null")
+      case _ => println("!matches null")
+    }
+    
   }
 }
