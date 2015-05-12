@@ -1,0 +1,503 @@
+SF13_ENG_001	Ramazan Bashardost	per:employee_or_member_of	Affairs Department
+SF13_ENG_001	Ramazan Bashardost	per:stateorprovince_of_birth	southern Ghanzi
+SF13_ENG_001	Ramazan Bashardost	per:title	Afghan lawmaker
+SF13_ENG_001	Ramazan Bashardost	per:title	anti-corruption campaigner
+SF13_ENG_001	Ramazan Bashardost	per:title	Former Planning Minister
+SF13_ENG_001	Ramazan Bashardost	per:title	horse candidate
+SF13_ENG_001	Ramazan Bashardost	per:title	independent candidate
+SF13_ENG_001	Ramazan Bashardost	per:title	Kabul lawmaker
+SF13_ENG_001	Ramazan Bashardost	per:title	member
+SF13_ENG_001	Ramazan Bashardost	per:title	Minister
+SF13_ENG_001	Ramazan Bashardost	per:title	populist lawmaker
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	British clothes-to-food retailer Marks and Spencer
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	chain Morrisons
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	firm Morrisons
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Group PLC
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	M & S
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Marks
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Morrisons supermarket
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Morrisons supermarkets
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	retailer Marks
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Spencer Group
+SF13_ENG_002	Marc Bolland	per:employee_or_member_of	Spencer Group plc
+SF13_ENG_002	Marc Bolland	per:title	executive
+SF13_ENG_002	Marc Bolland	per:title	Morrisons CEO
+SF13_ENG_002	Marc Bolland	per:title	new CEO
+SF13_ENG_002	Marc Bolland	per:title	New Chief Executive
+SF13_ENG_002	Marc Bolland	per:title	operating officer
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	British retailer Marks & Spencer Group PLC
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	Marks & Spencer
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	Marks & Spencer Group
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	Marks &amp; Spencer Group PLC
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	Marks and Spencer Group plc
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	PLC
+SF13_ENG_003	Stuart Rose	per:employee_or_member_of	retailer Marks & Spencer
+SF13_ENG_003	Stuart Rose	per:title	Chairman Sir
+SF13_ENG_003	Stuart Rose	per:title	M&amp;S chairman
+SF13_ENG_004	Douglas Flint	per:title	chief executive
+SF13_ENG_004	Douglas Flint	per:title	executive
+SF13_ENG_004	Douglas Flint	per:title	Financial Officer
+SF13_ENG_004	Douglas Flint	per:title	HSBC finance director
+SF13_ENG_004	Douglas Flint	per:title	Officer
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	alleged involvement
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	attack
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	foreign terrorism conspiracy.
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	his alleged involvement
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	material support for terrorism
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	one count of conspiracy
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	one count of providing aid to terrorism
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	terrorism
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	two counts of conspiracy to provide aid to terrorism
+SF13_ENG_005	Tahawwur Hussain Rana	per:cities_of_residence	Rana's Chicago
+SF13_ENG_006	Ali Akbar Khan	per:employee_or_member_of	American Society for Eastern Arts
+SF13_ENG_006	Ali Akbar Khan	per:employee_or_member_of	the Ali Akbar College of Music
+SF13_ENG_006	Ali Akbar Khan	per:parents	Ustad Allauddin Khan
+SF13_ENG_006	Ali Akbar Khan	per:spouse	Mary
+SF13_ENG_006	Ali Akbar Khan	per:title	classical musician
+SF13_ENG_006	Ali Akbar Khan	per:title	court musician
+SF13_ENG_006	Ali Akbar Khan	per:title	Musician and Composer
+SF13_ENG_006	Ali Akbar Khan	per:title	player
+SF13_ENG_006	Ali Akbar Khan	per:title	solo artist
+SF13_ENG_007	Mohammed Sayed Tantawi	per:age	the age of 81
+SF13_ENG_007	Mohammed Sayed Tantawi	per:cause_of_death	a heart attack
+SF13_ENG_007	Mohammed Sayed Tantawi	per:cause_of_death	a heart attack in Saudi Arabia
+SF13_ENG_007	Mohammed Sayed Tantawi	per:cause_of_death	attack
+SF13_ENG_007	Mohammed Sayed Tantawi	per:children	Amr
+SF13_ENG_007	Mohammed Sayed Tantawi	per:date_of_death	Wednesday
+SF13_ENG_007	Mohammed Sayed Tantawi	per:date_of_death	XXXX-03-10
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	Imam
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	sheik
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	sheikh
+SF13_ENG_007	Mohammed Sayed Tantawi	per:title	top cleric
+SF13_ENG_008	Mathieu Montcourt	per:cause_of_death	attack
+SF13_ENG_008	Mathieu Montcourt	per:cities_of_residence	Billancourt
+SF13_ENG_008	Mathieu Montcourt	per:cities_of_residence	the Paris suburb of Boulogne
+SF13_ENG_008	Mathieu Montcourt	per:date_of_death	7/6/2009
+SF13_ENG_009	Anwar Chowdhry	per:cause_of_death	attack
+SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	Amateur Boxing Association
+SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	the International Amateur Boxing Association
+SF13_ENG_009	Anwar Chowdhry	per:title	AIBA president
+SF13_ENG_009	Anwar Chowdhry	per:title	amateur boxing chief
+SF13_ENG_009	Anwar Chowdhry	per:title	boxing chief
+SF13_ENG_009	Anwar Chowdhry	per:title	Ex-AIBA President
+SF13_ENG_009	Anwar Chowdhry	per:title	former head of the International Boxing Association
+SF13_ENG_009	Anwar Chowdhry	per:title	International Boxing Association president
+SF13_ENG_009	Anwar Chowdhry	per:title	president of the International_Amateur_Boxing_Association
+SF13_ENG_009	Anwar Chowdhry	per:title	world amateur boxing chief
+SF13_ENG_010	Ronnie James Dio	per:cause_of_death	cancer
+SF13_ENG_010	Ronnie James Dio	per:date_of_death	2010-05-XX
+SF13_ENG_010	Ronnie James Dio	per:parents	father Pat
+SF13_ENG_010	Ronnie James Dio	per:parents	Pat Padavona;
+SF13_ENG_010	Ronnie James Dio	per:spouse	Wendy
+SF13_ENG_010	Ronnie James Dio	per:title	metal rock musician
+SF13_ENG_010	Ronnie James Dio	per:title	metal singer
+SF13_ENG_010	Ronnie James Dio	per:title	rock musician
+SF13_ENG_011	Anthony Marshall	per:employee_or_member_of	Corps
+SF13_ENG_011	Anthony Marshall	per:employee_or_member_of	the Marines
+SF13_ENG_011	Anthony Marshall	per:other_family	Vincent Astor
+SF13_ENG_011	Anthony Marshall	per:parents	J. Dryden Kuser
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Azzam
+SF13_ENG_012	Adam Gadahn	per:alternate_names	Yahiye Gadahn
+SF13_ENG_012	Adam Gadahn	per:charges	providing material support to a designated foreign terrorist organization
+SF13_ENG_012	Adam Gadahn	per:charges	The treason charge
+SF13_ENG_012	Adam Gadahn	per:employee_or_member_of	U.S.-born al-Qaida
+SF13_ENG_012	Adam Gadahn	per:title	al-Qaida spokesman
+SF13_ENG_014	Mohammed Oudeh	per:cause_of_death	disease
+SF13_ENG_014	Mohammed Oudeh	per:cities_of_residence	West Bank town of Ramallah
+SF13_ENG_014	Mohammed Oudeh	per:city_of_birth	East Jerusalem
+SF13_ENG_014	Mohammed Oudeh	per:city_of_birth	East_Jerusalem
+SF13_ENG_014	Mohammed Oudeh	per:title	former math teacher
+SF13_ENG_015	Lucille Clifton	per:date_of_death	2/13/2010
+SF13_ENG_015	Lucille Clifton	per:date_of_death	2010-02
+SF13_ENG_015	Lucille Clifton	per:date_of_death	Feb
+SF13_ENG_015	Lucille Clifton	per:date_of_death	Saturday
+SF13_ENG_015	Lucille Clifton	per:spouse	Fred
+SF13_ENG_015	Lucille Clifton	per:title	Award-winning poet
+SF13_ENG_015	Lucille Clifton	per:title	National Book Award-winning poet
+SF13_ENG_016	Paul Gray	per:title	guitarist
+SF13_ENG_017	Alexander Haig	per:cause_of_death	complications associated with an infection
+SF13_ENG_017	Alexander Haig	per:cause_of_death	infection
+SF13_ENG_017	Alexander Haig	per:children	Alexander Patrick Haig Sr.
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	North Atlantic Treaty Organization
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	the National Security Council under Nixon
+SF13_ENG_017	Alexander Haig	per:employee_or_member_of	"United Technologies, one of the county's biggest companies,"
+SF13_ENG_017	Alexander Haig	per:schools_attended	US Army
+SF13_ENG_017	Alexander Haig	per:siblings	Francis R. Haig
+SF13_ENG_017	Alexander Haig	per:siblings	Rev. Francis R. Haig
+SF13_ENG_017	Alexander Haig	per:title	aides
+SF13_ENG_017	Alexander Haig	per:title	Army colonel
+SF13_ENG_017	Alexander Haig	per:title	Army general
+SF13_ENG_017	Alexander Haig	per:title	assistant
+SF13_ENG_017	Alexander Haig	per:title	chief
+SF13_ENG_017	Alexander Haig	per:title	chief of staff shepherded
+SF13_ENG_017	Alexander Haig	per:title	civilian Cabinet official
+SF13_ENG_017	Alexander Haig	per:title	commander
+SF13_ENG_017	Alexander Haig	per:title	Former US secretary
+SF13_ENG_017	Alexander Haig	per:title	Former US secretary of state
+SF13_ENG_017	Alexander Haig	per:title	four-star general
+SF13_ENG_017	Alexander Haig	per:title	presidential aide
+SF13_ENG_017	Alexander Haig	per:title	Retired Army Gen.
+SF13_ENG_017	Alexander Haig	per:title	senior adviser
+SF13_ENG_017	Alexander Haig	per:title	Soldier and statesman
+SF13_ENG_017	Alexander Haig	per:title	spokesman
+SF13_ENG_017	Alexander Haig	per:title	supreme commander
+SF13_ENG_017	Alexander Haig	per:title	top adviser
+SF13_ENG_017	Alexander Haig	per:title	two-star general
+SF13_ENG_018	Harvey Pekar	per:title	clerk
+SF13_ENG_018	Harvey Pekar	per:title	comic writer
+SF13_ENG_018	Harvey Pekar	per:title	filing clerk
+SF13_ENG_018	Harvey Pekar	per:title	hospital file clerk
+SF13_ENG_019	Keli McGregor	per:cause_of_death	causes
+SF13_ENG_019	Keli McGregor	per:cause_of_death	infection
+SF13_ENG_019	Keli McGregor	per:children	Jordan
+SF13_ENG_019	Keli McGregor	per:date_of_death	4/20/2010
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Colorado
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Colorado State's All-Century Team
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Football League
+SF13_ENG_019	Keli McGregor	per:employee_or_member_of	the Rockies
+SF13_ENG_019	Keli McGregor	per:parents	Brian
+SF13_ENG_019	Keli McGregor	per:title	team president
+SF13_ENG_020	Mike Penner	per:employee_or_member_of	Veteran Los Angeles Times
+SF13_ENG_020	Mike Penner	per:siblings	John
+SF13_ENG_020	Mike Penner	per:title	first-rate journalist
+SF13_ENG_021	David Gutierrez	per:age	Forty-three-year-old
+SF13_ENG_021	David Gutierrez	per:charges	adultery and obstruction of justice
+SF13_ENG_021	David Gutierrez	per:charges	obstruction
+SF13_ENG_021	David Gutierrez	per:charges	violating
+SF13_ENG_021	David Gutierrez	per:title	Sgt.
+SF13_ENG_022	Mikel Karrera Sarobe	per:title	chief
+SF13_ENG_022	Mikel Karrera Sarobe	per:title	fifth ETA military chief
+SF13_ENG_022	Mikel Karrera Sarobe	per:title	fifth ETA paramilitary chief
+SF13_ENG_022	Mikel Karrera Sarobe	per:title	leader
+SF13_ENG_022	Mikel Karrera Sarobe	per:title	suspected military chief of the Basque separatist group ETA
+SF13_ENG_023	Sheila Dixon	per:title	Baltimore Mayor
+SF13_ENG_023	Sheila Dixon	per:title	CASE </P> <P> Mayor
+SF13_ENG_023	Sheila Dixon	per:title	president
+SF13_ENG_023	Sheila Dixon	per:title	school teacher
+SF13_ENG_025	Nancy Kissel	per:charges	drugging
+SF13_ENG_025	Nancy Kissel	per:charges	killing
+SF13_ENG_025	Nancy Kissel	per:charges	s murder charge
+SF13_ENG_025	Nancy Kissel	per:parents	ean McGothlin
+SF13_ENG_026	Patricia Neal	per:cause_of_death	cancer
+SF13_ENG_026	Patricia Neal	per:country_of_death	US
+SF13_ENG_026	Patricia Neal	per:employee_or_member_of	Warners
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:children	Ammar Abdul Aziz al
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:children	Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Council
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Iraq
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Iraqi Shiite
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Iraqi Shiite Muslim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Islamic Supreme Council
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Supreme Council of Iraq
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Supreme Islamic Iraqi
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:employee_or_member_of	Supreme Islamic Iraqi Council  SIIC
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:parents	Ayatollah Muhsin al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:parents	Grand Ayatollah Mohsen al
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:parents	Grand Ayatollah Mohsen al-Hakim
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:parents	Grand Ayatollah Muhsin al
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:siblings	Ayatollah Mohammed Baqir al
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:siblings	Mohammed Baqir al
+SF13_ENG_027	Abdul Aziz Al-Hakim	per:title	eminence scholar
+SF13_ENG_028	Billy Mays	per:cause_of_death	disease
+SF13_ENG_028	Billy Mays	per:cause_of_death	heart attack in his sleep
+SF13_ENG_028	Billy Mays	per:cause_of_death	TAMPA  Heart disease
+SF13_ENG_028	Billy Mays	per:children	Billy Mays III McAlister
+SF13_ENG_028	Billy Mays	per:cities_of_residence	his Tampa
+SF13_ENG_028	Billy Mays	per:employee_or_member_of	Discovery Channel series Pitchmen
+SF13_ENG_028	Billy Mays	per:employee_or_member_of	Media
+SF13_ENG_028	Billy Mays	per:employee_or_member_of	St. Petersburg's Home Shopping Network
+SF13_ENG_028	Billy Mays	per:spouse	Dolores
+SF13_ENG_028	Billy Mays	per:spouse	Dolores `` Dee Dee
+SF13_ENG_028	Billy Mays	per:title	TV pitchman
+SF13_ENG_029	Laurent Fignon	per:employee_or_member_of	the Army
+SF13_ENG_029	Laurent Fignon	per:schools_attended	the University of Villetaneuse
+SF13_ENG_029	Laurent Fignon	per:title	best cyclist
+SF13_ENG_029	Laurent Fignon	per:title	promoter
+SF13_ENG_029	Laurent Fignon	per:title	race promoter
+SF13_ENG_029	Laurent Fignon	per:title	television commentator
+SF13_ENG_030	Sparky Anderson	per:alternate_names	Hook
+SF13_ENG_030	Sparky Anderson	per:city_of_death	Oak
+SF13_ENG_030	Sparky Anderson	per:date_of_death	2010-11-XX
+SF13_ENG_030	Sparky Anderson	per:title	baseball manager
+SF13_ENG_030	Sparky Anderson	per:title	Cincinnati manager
+SF13_ENG_030	Sparky Anderson	per:title	colorful manager
+SF13_ENG_030	Sparky Anderson	per:title	Hall of Fame manager
+SF13_ENG_030	Sparky Anderson	per:title	league manager
+SF13_ENG_030	Sparky Anderson	per:title	Legendary baseball manager
+SF13_ENG_030	Sparky Anderson	per:title	Reds manager
+SF13_ENG_031	Blake Edwards	per:cause_of_death	complications
+SF13_ENG_031	Blake Edwards	per:date_of_death	2010-12
+SF13_ENG_031	Blake Edwards	per:date_of_death	2010-12-15TMO
+SF13_ENG_031	Blake Edwards	per:employee_or_member_of	the Coast Guard
+SF13_ENG_031	Blake Edwards	per:spouse	Andrew
+SF13_ENG_031	Blake Edwards	per:spouse	Julie
+SF13_ENG_031	Blake Edwards	per:stateorprovince_of_death	Southern California
+SF13_ENG_031	Blake Edwards	per:title	courier
+SF13_ENG_031	Blake Edwards	per:title	Oscar-winning director
+SF13_ENG_032	Hwang Jang-Yop	per:cause_of_death	heart attack
+SF13_ENG_033	Vitaly Ginzburg	per:cause_of_death	failure
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	Academy of Sciences
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	Institute
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	National Academy of
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	Society
+SF13_ENG_033	Vitaly Ginzburg	per:employee_or_member_of	the Lebedev Physics Institute
+SF13_ENG_033	Vitaly Ginzburg	per:schools_attended	State University
+SF13_ENG_033	Vitaly Ginzburg	per:title	prize winner
+SF13_ENG_034	Bobby Frankel	per:cities_of_residence	New York
+SF13_ENG_034	Bobby Frankel	per:date_of_death	2009-11
+SF13_ENG_034	Bobby Frankel	per:date_of_death	XXXX-11-16
+SF13_ENG_034	Bobby Frankel	per:employee_or_member_of	Breeders
+SF13_ENG_034	Bobby Frankel	per:employee_or_member_of	Hall
+SF13_ENG_034	Bobby Frankel	per:employee_or_member_of	Hall of Fame Racehorse
+SF13_ENG_034	Bobby Frankel	per:employee_or_member_of	Hall of Fame Racehorse Trainer
+SF13_ENG_034	Bobby Frankel	per:stateorprovince_of_death	"Pacific Palisades, Calif."
+SF13_ENG_034	Bobby Frankel	per:title	country's trainer of the year
+SF13_ENG_034	Bobby Frankel	per:title	majority owner
+SF13_ENG_034	Bobby Frankel	per:title	racing trainer
+SF13_ENG_035	Maria Kaczynska	per:cause_of_death	crash
+SF13_ENG_035	Maria Kaczynska	per:other_family	Jaroslaw -- Poland
+SF13_ENG_035	Maria Kaczynska	per:title	First
+SF13_ENG_035	Maria Kaczynska	per:title	lady
+SF13_ENG_036	Girija Prasad Koirala	per:age	84
+SF13_ENG_036	Girija Prasad Koirala	per:age	the age of 86
+SF13_ENG_036	Girija Prasad Koirala	per:cities_of_residence	town of Biratnagar
+SF13_ENG_036	Girija Prasad Koirala	per:city_of_birth	Bihar of India
+SF13_ENG_036	Girija Prasad Koirala	per:other_family	Shashanka Koirala
+SF13_ENG_036	Girija Prasad Koirala	per:parents	Krishna Prasad Koirala
+SF13_ENG_036	Girija Prasad Koirala	per:title	Former Prime
+SF13_ENG_036	Girija Prasad Koirala	per:title	former prime minister
+SF13_ENG_036	Girija Prasad Koirala	per:title	labor movement leader
+SF13_ENG_036	Girija Prasad Koirala	per:title	minister
+SF13_ENG_036	Girija Prasad Koirala	per:title	Nepali Congress president
+SF13_ENG_036	Girija Prasad Koirala	per:title	President and former Prime Minister
+SF13_ENG_036	Girija Prasad Koirala	per:title	president of the Nepali_Congress_party
+SF13_ENG_037	Claude Chabrol	per:cities_of_residence	"Sardent, a village in central France,"
+SF13_ENG_037	Claude Chabrol	per:date_of_death	2010-09
+SF13_ENG_037	Claude Chabrol	per:date_of_death	Sept-XX-XX
+SF13_ENG_037	Claude Chabrol	per:employee_or_member_of	Cahiers
+SF13_ENG_037	Claude Chabrol	per:spouse	Agnes Marie
+SF13_ENG_037	Claude Chabrol	per:spouse	Madeleine Goute
+SF13_ENG_037	Claude Chabrol	per:spouse	Pajot
+SF13_ENG_037	Claude Chabrol	per:title	a great author
+SF13_ENG_037	Claude Chabrol	per:title	a great film maker
+SF13_ENG_037	Claude Chabrol	per:title	French film maker
+SF13_ENG_037	Claude Chabrol	per:title	French New Wave film director
+SF13_ENG_037	Claude Chabrol	per:title	great director
+SF13_ENG_037	Claude Chabrol	per:title	maker
+SF13_ENG_037	Claude Chabrol	per:title	new-wave film director
+SF13_ENG_038	Merce Cunningham	per:age	the age of 90
+SF13_ENG_038	Merce Cunningham	per:parents	Clifford
+SF13_ENG_038	Merce Cunningham	per:title	artist
+SF13_ENG_038	Merce Cunningham	per:title	avant-garde dancer
+SF13_ENG_038	Merce Cunningham	per:title	dance teacher
+SF13_ENG_039	Jade Goody	per:cause_of_death	disease
+SF13_ENG_039	Jade Goody	per:charges	racist
+SF13_ENG_039	Jade Goody	per:city_of_death	Upshire
+SF13_ENG_039	Jade Goody	per:country_of_death	England
+SF13_ENG_039	Jade Goody	per:date_of_death	3/22/2009
+SF13_ENG_039	Jade Goody	per:spouse	Tweed
+SF13_ENG_039	Jade Goody	per:title	fellow contestant
+SF13_ENG_039	Jade Goody	per:title	nurse
+SF13_ENG_039	Jade Goody	per:title	personality
+SF13_ENG_040	Wayman Tisdale	per:title	artist
+SF13_ENG_041	Don Hewitt	per:children	Steven and Jeffrey
+SF13_ENG_041	Don Hewitt	per:schools_attended	York University
+SF13_ENG_041	Don Hewitt	per:spouse	Berger
+SF13_ENG_041	Don Hewitt	per:title	an associate director
+SF13_ENG_041	Don Hewitt	per:title	CBS News executive
+SF13_ENG_041	Don Hewitt	per:title	creator and executive producer
+SF13_ENG_041	Don Hewitt	per:title	News executive
+SF13_ENG_041	Don Hewitt	per:title	news producer
+SF13_ENG_041	Don Hewitt	per:title	sole director
+SF13_ENG_042	Dudu Topaz	per:charges	assault
+SF13_ENG_042	Dudu Topaz	per:charges	assaults
+SF13_ENG_042	Dudu Topaz	per:charges	attacks
+SF13_ENG_042	Dudu Topaz	per:charges	conspiracy
+SF13_ENG_042	Dudu Topaz	per:date_of_death	Thursday
+SF13_ENG_042	Dudu Topaz	per:title	star
+SF13_ENG_043	Ellie Greenwich	per:cause_of_death	a heart attack at St.
+SF13_ENG_043	Ellie Greenwich	per:cause_of_death	attack
+SF13_ENG_043	Ellie Greenwich	per:city_of_death	New York
+SF13_ENG_043	Ellie Greenwich	per:date_of_birth	XXXX-10-23
+SF13_ENG_043	Ellie Greenwich	per:employee_or_member_of	Hall of Fame
+SF13_ENG_043	Ellie Greenwich	per:schools_attended	Hofstra University on Long Island
+SF13_ENG_043	Ellie Greenwich	per:siblings	Laura
+SF13_ENG_044	Dominick Dunne	per:age	the age of 83
+SF13_ENG_044	Dominick Dunne	per:cause_of_death	cancer
+SF13_ENG_044	Dominick Dunne	per:employee_or_member_of	Army in World War II
+SF13_ENG_044	Dominick Dunne	per:employee_or_member_of	Vanity Fair magazine
+SF13_ENG_044	Dominick Dunne	per:origin	Irish-American
+SF13_ENG_044	Dominick Dunne	per:religion	Irish Catholic
+SF13_ENG_044	Dominick Dunne	per:schools_attended	college
+SF13_ENG_044	Dominick Dunne	per:schools_attended	Williams College in Massachusetts
+SF13_ENG_044	Dominick Dunne	per:siblings	brother
+SF13_ENG_044	Dominick Dunne	per:siblings	Dunne
+SF13_ENG_044	Dominick Dunne	per:siblings	John
+SF13_ENG_044	Dominick Dunne	per:spouse	Ellen
+SF13_ENG_044	Dominick Dunne	per:spouse	Griffin Dunne
+SF13_ENG_044	Dominick Dunne	per:spouse	Lenny
+SF13_ENG_044	Dominick Dunne	per:title	Best-selling author
+SF13_ENG_044	Dominick Dunne	per:title	celebrity journalist
+SF13_ENG_044	Dominick Dunne	per:title	producer
+SF13_ENG_044	Dominick Dunne	per:title	television and film producer
+SF13_ENG_044	Dominick Dunne	per:title	Vanity Fair reporter
+SF13_ENG_045	Adam Goldstein	per:cause_of_death	a drug overdose on Aug
+SF13_ENG_045	Adam Goldstein	per:cause_of_death	accidental overdose
+SF13_ENG_045	Adam Goldstein	per:cause_of_death	cocktail
+SF13_ENG_045	Adam Goldstein	per:cities_of_residence	Beverly Hills
+SF13_ENG_045	Adam Goldstein	per:cities_of_residence	New York
+SF13_ENG_045	Adam Goldstein	per:date_of_death	2009-08-XX
+SF13_ENG_045	Adam Goldstein	per:date_of_death	Aug. 28
+SF13_ENG_045	Adam Goldstein	per:date_of_death	last month
+SF13_ENG_045	Adam Goldstein	per:date_of_death	XXXX-08-28
+SF13_ENG_045	Adam Goldstein	per:parents	Gross
+SF13_ENG_045	Adam Goldstein	per:title	celebrity disc jockey
+SF13_ENG_045	Adam Goldstein	per:title	deejay
+SF13_ENG_045	Adam Goldstein	per:title	jockey
+SF13_ENG_045	Adam Goldstein	per:title	show host
+SF13_ENG_045	Adam Goldstein	per:title	star
+SF13_ENG_046	Don Meredith	per:date_of_death	last Sunday
+SF13_ENG_046	Don Meredith	per:employee_or_member_of	CBS' football coverage
+SF13_ENG_046	Don Meredith	per:employee_or_member_of	Cowboy
+SF13_ENG_046	Don Meredith	per:employee_or_member_of	Dallas
+SF13_ENG_046	Don Meredith	per:employee_or_member_of	the Cowboys
+SF13_ENG_046	Don Meredith	per:parents	Jeff and Hazel
+SF13_ENG_046	Don Meredith	per:religion	Baptist
+SF13_ENG_046	Don Meredith	per:religion	Baptist minister
+SF13_ENG_046	Don Meredith	per:siblings	Jack
+SF13_ENG_046	Don Meredith	per:title	Bowler
+SF13_ENG_046	Don Meredith	per:title	Player
+SF13_ENG_046	Don Meredith	per:title	star quarterback
+SF13_ENG_047	Orlando Zapata	per:cause_of_death	hunger
+SF13_ENG_047	Orlando Zapata	per:cause_of_death	protest
+SF13_ENG_047	Orlando Zapata	per:charges	charges including disrespecting authority
+SF13_ENG_047	Orlando Zapata	per:cities_of_residence	his hometown of Banes
+SF13_ENG_047	Orlando Zapata	per:origin	Afro-Cuban
+SF13_ENG_047	Orlando Zapata	per:parents	Luisa Tamayo
+SF13_ENG_047	Orlando Zapata	per:parents	Reina
+SF13_ENG_047	Orlando Zapata	per:parents	Reina Luisa
+SF13_ENG_047	Orlando Zapata	per:parents	Reyna Luisa
+SF13_ENG_047	Orlando Zapata	per:statesorprovinces_of_residence	province of Camaguey
+SF13_ENG_048	Charles Gwathmey	per:children	Annie Gwathmey
+SF13_ENG_048	Charles Gwathmey	per:cities_of_residence	New York
+SF13_ENG_048	Charles Gwathmey	per:city_of_birth	"Charlotte, N.C."
+SF13_ENG_048	Charles Gwathmey	per:schools_attended	the University of Pennsylvania
+SF13_ENG_048	Charles Gwathmey	per:title	modernist architect
+SF13_ENG_049	Benoit Mandelbrot	per:cause_of_death	cancer
+SF13_ENG_049	Benoit Mandelbrot	per:employee_or_member_of	Mandelbrot Foundation
+SF13_ENG_049	Benoit Mandelbrot	per:title	inventor
+SF13_ENG_049	Benoit Mandelbrot	per:title	maverick mathematician
+SF13_ENG_050	Ko Yong-Hi	per:cause_of_death	cancer
+SF13_ENG_050	Ko Yong-Hi	per:children	Jong Un
+SF13_ENG_050	Ko Yong-Hi	per:children	Kim Jong Un
+SF13_ENG_050	Ko Yong-Hi	per:spouse	Il
+SF13_ENG_050	Ko Yong-Hi	per:spouse	Kim Jong
+SF13_ENG_050	Ko Yong-Hi	per:spouse	Kim Jong-I
+SF13_ENG_050	Ko Yong-Hi	per:spouse	Kim Jong-Il
+SF13_ENG_051	Election Complaints Commission	org:alternate_names	Election Complaint Commission (ECC)
+SF13_ENG_051	Election Complaints Commission	org:top_members_employees	Zia Rafat
+SF13_ENG_053	United Steelworkers of America	org:country_of_headquarters	America
+SF13_ENG_054	Irish Nationwide Building Society	org:alternate_names	Nationwide
+SF13_ENG_055	River Road Asset Management	org:parents	Aviva Investors
+SF13_ENG_056	Georgia Peanut Commission	org:top_members_employees	Armond
+SF13_ENG_056	Georgia Peanut Commission	org:top_members_employees	Koehler
+SF13_ENG_057	A123 Systems Inc.	org:stateorprovince_of_headquarters	MA
+SF13_ENG_058	Access Industries	org:subsidiaries	Top Up TV
+SF13_ENG_058	Access Industries	org:top_members_employees	billionaire Len
+SF13_ENG_059	Council of Mortgage Lenders	org:website	www.cml.org
+SF13_ENG_059	Council of Mortgage Lenders	org:website	www.cml.org.uk
+SF13_ENG_060	American Association for the Advancement of Science	org:subsidiaries	Center for Science
+SF13_ENG_061	InterContinental Hotels Group	org:alternate_names	InterContinental Hotels Group (IHG)
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	Crowne Plaza and Holiday Inn
+SF13_ENG_061	InterContinental Hotels Group	org:subsidiaries	Inn and Holiday Inn Express
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:city_of_headquarters	Ft
+SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:top_members_employees	Robert D Krebs
+SF13_ENG_067	Public Library of Science	org:alternate_names	PLoS Biology
+SF13_ENG_067	Public Library of Science	org:alternate_names	PLoS Genetics
+SF13_ENG_067	Public Library of Science	org:alternate_names	PLoS ONE
+SF13_ENG_069	International Agency for Research on Cancer	org:parents	World Health Organization of the United Nations
+SF13_ENG_069	International Agency for Research on Cancer	org:top_members_employees	Christopher
+SF13_ENG_072	Moody's Corp.	org:alternate_names	Moody
+SF13_ENG_072	Moody's Corp.	org:members	Investor
+SF13_ENG_072	Moody's Corp.	org:members	Investor Service
+SF13_ENG_072	Moody's Corp.	org:subsidiaries	Analytics
+SF13_ENG_072	Moody's Corp.	org:subsidiaries	Investor Services
+SF13_ENG_072	Moody's Corp.	org:subsidiaries	Investor Services Inc
+SF13_ENG_072	Moody's Corp.	org:subsidiaries	Investors Service
+SF13_ENG_072	Moody's Corp.	org:subsidiaries	Investors Services
+SF13_ENG_072	Moody's Corp.	org:subsidiaries	Moody
+SF13_ENG_072	Moody's Corp.	org:top_members_employees	McDaniel
+SF13_ENG_073	Global Infrastructure Partners	org:shareholders	Credit Suisse's asset-management group
+SF13_ENG_073	Global Infrastructure Partners	org:subsidiaries	Gatwick
+SF13_ENG_074	SouthGobi Energy Resources	org:parents	Canada's Ivanhoe Mines
+SF13_ENG_075	Champalimaud Foundation	org:subsidiaries	Center
+SF13_ENG_075	Champalimaud Foundation	org:top_members_employees	for Leonor
+SF13_ENG_076	Swiss Bankers Association	org:top_members_employees	Alain Margelisch
+SF13_ENG_076	Swiss Bankers Association	org:top_members_employees	Patrick
+SF13_ENG_078	Thomas More Law Center	org:website	www.thomasmore.org
+SF13_ENG_079	Stockholm International Water Institute	org:website	www.siwi.org
+SF13_ENG_080	International Water Management Institute	org:alternate_names	management Institute (IWMI)
+SF13_ENG_080	International Water Management Institute	org:website	iwmi.cgiar.org
+SF13_ENG_081	Washington National Opera	org:top_members_employees	And Placido Domingo
+SF13_ENG_081	Washington National Opera	org:top_members_employees	Feinberg
+SF13_ENG_081	Washington National Opera	org:top_members_employees	Weinstein
+SF13_ENG_082	National Council for Adoption	org:top_members_employees	Johnson
+SF13_ENG_082	National Council for Adoption	org:website	http://www.adoptioncouncil.org/index.html
+SF13_ENG_084	Bipartisan Policy Center	org:founded_by	Daschle
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Grumet
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Hamilton
+SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Kean
+SF13_ENG_084	Bipartisan Policy Center	org:website	www.bipartisanpolicy.org
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Cai Esheng
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Jiang
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Mingkang
+SF13_ENG_085	China Banking Regulatory Commission	org:top_members_employees	Wang
+SF13_ENG_085	China Banking Regulatory Commission	org:website	www.cbrc.gov
+SF13_ENG_085	China Banking Regulatory Commission	org:website	www.cbrc.gov.cn
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:alternate_names	Assets Supervision and Administration Commission
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Huang
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Li
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Rongrong
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:top_members_employees	Wang
+SF13_ENG_086	State-owned Assets Supervision and Administration Commission	org:website	www.sasac.gov
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:alternate_names	ALBA Bank
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:alternate_names	Bolivarian Alliance
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Antigua
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Barbuda
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Caribbean island of Dominica
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	Saint Vincent
+SF13_ENG_087	Bolivarian Alternative for the Americas	org:members	the Grenadines
+SF13_ENG_088	Bank Julius Baer	org:city_of_headquarters	Zurich of Switzerland
+SF13_ENG_089	Rosoboronexport	org:subsidiaries	Irkut
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Isaikin
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Mikheyev
+SF13_ENG_089	Rosoboronexport	org:top_members_employees	Valeri
+SF13_ENG_091	Arcandor	org:alternate_names	AG
+SF13_ENG_091	Arcandor	org:alternate_names	Arcandor AG on Sunday
+SF13_ENG_091	Arcandor	org:alternate_names	Arcandor AG on Wednesday
+SF13_ENG_091	Arcandor	org:subsidiaries	Corporate Service Group GmbH
+SF13_ENG_091	Arcandor	org:subsidiaries	mail order firm Quelle
+SF13_ENG_091	Arcandor	org:subsidiaries	Primondo Operations GmbH
+SF13_ENG_091	Arcandor	org:subsidiaries	Quelle Deutschland
+SF13_ENG_091	Arcandor	org:subsidiaries	subsidiary Quelle
+SF13_ENG_091	Arcandor	org:top_members_employees	Gerhard Eick
+SF13_ENG_091	Arcandor	org:top_members_employees	Karl
+SF13_ENG_091	Arcandor	org:top_members_employees	Karl-Gerhard Eick and Eckhard Cordes
+SF13_ENG_094	Rapiscan Systems	org:parents	OSI Systems
+SF13_ENG_096	Freedom Communications	org:number_of_employees_members	"8,20"
+SF13_ENG_096	Freedom Communications	org:shareholders	Blackstone
+SF13_ENG_096	Freedom Communications	org:shareholders	Providence
+SF13_ENG_096	Freedom Communications	org:subsidiaries	Orange County Register in Southern California
+SF13_ENG_096	Freedom Communications	org:subsidiaries	Orange County Register of California
+SF13_ENG_096	Freedom Communications	org:subsidiaries	Star
+SF13_ENG_096	Freedom Communications	org:subsidiaries	The Star
+SF13_ENG_097	STX Finland	org:member_of	international STX Europe Group
+SF13_ENG_097	STX Finland	org:member_of	STX Finland
+SF13_ENG_097	STX Finland	org:parents	STX Europe
+SF13_ENG_098	Millipore Corp.	org:number_of_employees_members	"more than 6,100"
+SF13_ENG_100	Galleon Group	org:date_dissolved	2009-10-XX
+SF13_ENG_100	Galleon Group	org:founded_by	Billionaire Rajaratnam
+SF13_ENG_100	Galleon Group	org:founded_by	Raj
+SF13_ENG_100	Galleon Group	org:founded_by	Rajaratnam
+SF13_ENG_100	Galleon Group	org:founded_by	Sri Lanka-born Rajaratnam
+SF13_ENG_100	Galleon Group	org:shareholders	Rajaratnam
