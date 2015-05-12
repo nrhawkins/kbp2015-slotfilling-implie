@@ -182,6 +182,8 @@ object RunKBPImplie {
       topJobs.filter(j => j.size > 0)      
     }       
 
+    val mapper = new SingularCountryMapper()
+    
     //println(topJobs.size)
     //topJobs.foreach(j => println(j))    
     //System.exit(0)
@@ -205,7 +207,7 @@ object RunKBPImplie {
       //2014: PER: Eliza Samudio
       //val testQueries = List(queries(45))
       //2014: ORG: China Charity Federation 
-      val testQueries = List(queries(67))
+      //val testQueries = List(queries(67))
       //2014: ORG: Alessi
       //val testQueries = List(queries(78))
       //2014: ORG: Pluribus Capital Mgmt
@@ -214,7 +216,10 @@ object RunKBPImplie {
       //val testQueries = List(queries(87))
       //2014: ORG: Pacific Asia Travel Association
       //val testQueries = List(queries(91))
-    
+      //2014: all 10 queries
+      //val testQueries = List(queries(0),queries(11),queries(37),queries(38),queries(45),
+      //    queries(67),queries(78),queries(81),queries(87),queries(91))      
+          
       //2013: PER: Douglas Flint
       //val testQueries = List(queries(3))
       //2013: PER: Anthony Marshall
@@ -235,7 +240,10 @@ object RunKBPImplie {
       //val testQueries = List(queries(90))      
       //2013: ORG: Attenti Holdings
       //val testQueries = List(queries(94))
-      
+      //2013: all 10 queries
+      val testQueries = List(queries(3),queries(10),queries(26),queries(33),queries(49),
+          queries(79),queries(82),queries(86),queries(90),queries(94)) 
+          
       //select 5 random queries
       //import scala.util.Random
       //Seq.fill(n)(Random.nextInt)
@@ -416,7 +424,7 @@ object RunKBPImplie {
 	     //val relevantCandidates = FilterExtractionResults.filterResults(FilterExtractionResults.wrapWithCandidate(extractions), query, document)
                 
 	  	 println("SubstituteKBPRelations")    	
-		 val kbpAllRelevantCandidates = substituteKBPRelations(allRelevantCandidates, query, topJobs)
+		 val kbpAllRelevantCandidates = substituteKBPRelations(allRelevantCandidates, query, topJobs, mapper)
               
 	     println("Make Slot Map - Best Answers")		      
 		 val bestAnswers = slots map { slot => ( slot, SelectBestAnswers.reduceToMaxResults(slot, kbpAllRelevantCandidates.filter(_.extr.getRel() == slot.name)) ) } toMap
@@ -456,23 +464,30 @@ object RunKBPImplie {
 	  
     outputStream.close()
 	  
-    println("Closed outputStreams")
-    
+    println("Closed outputStreams")  
     
   }
 
-  def substituteKBPRelations(candidates: Seq[Candidate], query: KBPQuery, topJobs: Set[String]): Seq[Candidate] = {
+  
+  def substituteKBPRelations(candidates: Seq[Candidate], query: KBPQuery, topJobs: Set[String], mapper: SingularCountryMapper): Seq[Candidate] = {
 
-    val queryEntityType = query.entityType.toString
+    val queryEntityType = query.entityType.toString    
     
     for(c <- candidates){
       
        if(queryEntityType == "PER"){
          c.extr.getRel() match {
               //relations to substitute
-              case s if (s.contains("nationality")) => { c.extr.setRel("per:origin")
-                                                         c.extr.setRel("per:countries_of_residence")
-                                                       }
+              case s if (s.contains("nationality")) => { 
+                c.extr.setRel("per:origin")
+                c.extr.setRel("per:countries_of_residence")
+                val country = mapper.getCountryName(c.extr.getArg2().getArgName(), lowercase=true)
+                country match {
+                  case null => 
+                  case _ => {val newArg2 = new Argument(country, c.extr.getArg2().getStartOffset(), c.extr.getArg2().getEndOffset())
+                             c.extr.setArg2(newArg2)}   
+                }                                           
+              }
               case s if (s.contains("city")) => c.extr.setRel("per:cities_of_residence") 
               case s if (s.contains("province")) => c.extr.setRel("per:statesorprovinces_of_residence")
               case s if (s.contains("jobTitle")) => c.extr.setRel("per:title")
@@ -486,7 +501,16 @@ object RunKBPImplie {
          
          c.extr.getRel() match {
               //relations to substitute
-              case s if (s.contains("nationality")) => c.extr.setRel("org:country_of_headquarters") 
+              case s if (s.contains("nationality")) => {
+                c.extr.setRel("org:country_of_headquarters")
+                val country = mapper.getCountryName(c.extr.getArg2().getArgName(), lowercase=true)
+                country match {
+                  case null => 
+                  case _ => {val newArg2 = new Argument(country, c.extr.getArg2().getStartOffset(), c.extr.getArg2().getEndOffset())
+                             c.extr.setArg2(newArg2)}   
+                }                 
+                
+                } 
               case s if (s.contains("city")) => c.extr.setRel("org:city_of_headquarters") 
               case s if (s.contains("province")) => c.extr.setRel("org:stateorprovince_of_headquarters")
               case s if (s.contains("jobTitle")) => {
@@ -509,9 +533,20 @@ object RunKBPImplie {
   }
 
   def extractPerson(c: Candidate): Argument = {
-
-    val firstPerson = c.extr.getNers().asScala.filter(n => n.ner == "PERSON")(0)
-    val arg2 = new Argument(firstPerson.entityString,firstPerson.beginIndex,firstPerson.endIndex)
+    
+    val persons = c.extr.getNers().asScala.filter(n => n.ner == "PERSON")
+    var firstPersonName = ""
+    var startOffset = 0
+    var endOffset = 0
+    if(persons.size > 0){
+      firstPersonName = c.extr.getNers().asScala.filter(n => n.ner == "PERSON")(0).entityString
+      val arg1 = c.extr.getArg1()
+      startOffset = arg1.getStartOffset() + arg1.argName.indexOf(firstPersonName)
+      endOffset = startOffset + firstPersonName.size - 1
+    }
+    
+    val arg2 = new Argument(firstPersonName, startOffset, endOffset)
+    
     arg2
   }
   
