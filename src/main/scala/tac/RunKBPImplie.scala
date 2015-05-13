@@ -33,6 +33,8 @@ object RunKBPImplie {
   val topJobTitlesFileName = config.getString("top-job-titles-file")
   val corpusName = config.getString("corpus")
   val slotfillFileName = config.getString("slotfill-file")
+  val extractionsFileName = config.getString("extractions-file")
+  val numRelDocsFileName = config.getString("num-reldocs-file")
   
   val annotatorHelper = new StanfordAnnotatorHelperMethods()
   
@@ -130,10 +132,17 @@ object RunKBPImplie {
     val relevantDocsFile = new File(relevantDocsFileName)  
     
     val outputStream = new PrintStream(slotfillFileName)
-
+    val outputStreamExtractions = new PrintStream(extractionsFileName)
+    //val outputStreamRelDocs = new PrintStream(numRelDocsFileName)
+    
     val outFmt = detailed match {
              case true => OutputFormatter.detailedAnswersOnly(outputStream,runID)
              case false => OutputFormatter.formattedAnswersOnly(outputStream,runID)
+    }
+
+    val outFmtExtractions = detailed match {
+             case true => OutputFormatter.detailedAnswersOnly(outputStreamExtractions,runID)
+             case false => OutputFormatter.formattedAnswersOnly(outputStreamExtractions,runID)
     }
     
     println("Ready to assign rel docs")
@@ -216,9 +225,28 @@ object RunKBPImplie {
       //val testQueries = List(queries(87))
       //2014: ORG: Pacific Asia Travel Association
       //val testQueries = List(queries(91))
-      //2014: all 10 queries
-      //val testQueries = List(queries(0),queries(11),queries(37),queries(38),queries(45),
-      //    queries(67),queries(78),queries(81),queries(87),queries(91))      
+      //2014: all 10 queries in dev set
+      val testQueries = List(queries(0),queries(11),queries(37),queries(38),queries(45),
+          queries(67),queries(78),queries(81),queries(87),queries(91))      
+      //2014: the 90 test queries
+      //val testQueries = List(queries(1),queries(2),queries(3),queries(4),queries(5),
+      //                       queries(6),queries(7),queries(8),queries(9),queries(10),
+      //                       queries(12),queries(13),queries(14),queries(15),queries(16),
+      //                       queries(17),queries(18),queries(19),queries(20),queries(21),
+      //                       queries(22),queries(23),queries(24),queries(25),queries(26),
+      //                       queries(27),queries(28),queries(29),queries(30),queries(31),
+      //                       queries(32),queries(33),queries(34),queries(35),queries(36),
+      //                       queries(39),queries(40),queries(41),queries(42),queries(43),
+      //                       queries(44),queries(46),queries(47),queries(48),queries(49),
+      //                       queries(50),queries(51),queries(52),queries(53),queries(54),
+      //                       queries(55),queries(56),queries(57),queries(58),queries(59),
+      //                       queries(60),queries(61),queries(62),queries(63),queries(64),
+      //                       queries(65),queries(66),queries(68),queries(69),queries(70),
+      //                       queries(71),queries(72),queries(73),queries(74),queries(75),
+      //                       queries(76),queries(77),queries(79),queries(80),queries(82),
+      //                       queries(83),queries(84),queries(85),queries(86),queries(88),
+      //                       queries(89),queries(90),queries(92),queries(93),queries(94),
+      //                       queries(95),queries(96),queries(97),queries(98),queries(99))      
           
       //2013: PER: Douglas Flint
       //val testQueries = List(queries(3))
@@ -241,8 +269,27 @@ object RunKBPImplie {
       //2013: ORG: Attenti Holdings
       //val testQueries = List(queries(94))
       //2013: all 10 queries
-      val testQueries = List(queries(3),queries(10),queries(26),queries(33),queries(49),
-          queries(79),queries(82),queries(86),queries(90),queries(94)) 
+      //val testQueries = List(queries(3),queries(10),queries(26),queries(33),queries(49),
+      //    queries(79),queries(82),queries(86),queries(90),queries(94)) 
+      //2013: the 90 test queries
+      //val testQueries = List(queries(0),queries(1),queries(2),queries(4),queries(5),
+      //                       queries(6),queries(7),queries(8),queries(9),queries(11),
+      //                       queries(12),queries(13),queries(14),queries(15),queries(16),
+      //                       queries(17),queries(18),queries(19),queries(20),queries(21),
+      //                       queries(22),queries(23),queries(24),queries(25),queries(27),
+      //                       queries(28),queries(29),queries(30),queries(31),queries(32),
+      //                       queries(34),queries(35),queries(36),queries(37),queries(38),
+      //                       queries(39),queries(40),queries(41),queries(42),queries(43),
+      //                       queries(44),queries(45),queries(46),queries(47),queries(48),
+      //                       queries(50),queries(51),queries(52),queries(53),queries(54),
+      //                       queries(55),queries(56),queries(57),queries(58),queries(59),
+      //                       queries(60),queries(61),queries(62),queries(63),queries(64),
+      //                       queries(65),queries(66),queries(67),queries(68),queries(69),
+      //                       queries(70),queries(71),queries(72),queries(73),queries(74),
+      //                       queries(75),queries(76),queries(77),queries(78),queries(80),
+      //                       queries(81),queries(83),queries(84),queries(85),queries(87),
+      //                       queries(88),queries(89),queries(91),queries(92),queries(93),
+      //                       queries(95),queries(96),queries(97),queries(98),queries(99))      
           
       //select 5 random queries
       //import scala.util.Random
@@ -258,7 +305,31 @@ object RunKBPImplie {
       //outputStream.println("Document: " + sampleDocName)
       //val rawDoc = SolrHelper.getRawDoc(sampleDocName)      
       //outputStream.println(rawDoc)
-      
+
+      /*var totalDocs = 0
+	  for(query <- queries){
+	      println("Query: " + query.name)	      
+	      var relevantDocs: Set[String] = Nil.toSet
+	      var numberOfDocs = 0
+	      if(entityRelevantDocSerialization.contains(query.id)){
+		    relevantDocs = entityRelevantDocSerialization(query.id).toSet	
+		    println("Size All Documents: " + relevantDocs.size)	
+		    numberOfDocs = relevantDocs.size
+		    totalDocs = totalDocs + numberOfDocs
+	      }  
+	      else{
+	        println("Size All Documents: " + 0)
+	      }
+	      //val relevantDocs = entityRelevantDocSerialization(query.id).toSet
+	      
+	      outputStreamRelDocs.println("Query: " + query.id + " " + query.name)
+		  outputStreamRelDocs.println("Size All Documents: " + numberOfDocs)	
+	  }
+	  outputStreamRelDocs.println("Total Docs: " + totalDocs)
+	  println("Total Docs: " + totalDocs)
+	  System.exit(0) */
+	      
+          
       println("Running " + testQueries.size + " queries.")
       
       //testQueries.foreach(q => {
@@ -283,12 +354,12 @@ object RunKBPImplie {
 		  //val nwDocuments = Set("WPB_ENG_20100506.0070")
           
           
-         outputStream.println 
-         outputStream.println("Query Name: " + query.name)
-         outputStream.println
-         outputStream.println 
-         outputStream.println("Number of Documents: " + relevantDocs.size)
-         outputStream.println
+         outputStreamExtractions.println 
+         outputStreamExtractions.println("Query Name: " + query.name)
+         outputStreamExtractions.println
+         outputStreamExtractions.println 
+         outputStreamExtractions.println("Number of Documents: " + relevantDocs.size)
+         outputStreamExtractions.println
          //relevantDocs.foreach(d => {
          //  outputStream.println("Document: " + d)
          //  val rawDoc = SolrHelper.getRawDoc(d)      
@@ -331,9 +402,9 @@ object RunKBPImplie {
   		      println("Number of Annotated Documents: " + documents.size)  		        		      
   		      
   		      //print all extractions
-		      outputStream.println
-		      outputStream.println("All Extractions ----------------------------------------------------------")
-              outputStream.println
+		      outputStreamExtractions.println
+		      outputStreamExtractions.println("All Extractions ----------------------------------------------------------")
+              outputStreamExtractions.println
 		      //allExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
   		      
   		      for(doc <- documents){  
@@ -347,9 +418,9 @@ object RunKBPImplie {
 
   		        doc match {
   		          case Some(x) => {
-  		            outputStream.println
-  		            outputStream.println("docName: " + x.get(classOf[DocIDAnnotation]) )
-                    outputStream.println
+  		            outputStreamExtractions.println
+  		            outputStreamExtractions.println("docName: " + x.get(classOf[DocIDAnnotation]) )
+                    outputStreamExtractions.println
                   } 
   		          case _ => 
   		        }
@@ -372,7 +443,8 @@ object RunKBPImplie {
   		       	//val relevantSentences = getSentencesMatchingCoref(sentences, matchingCorefMentions)          		        
   		        //val relevantSentences = getRelevantSentences(doc, queryLastName)                
 
-  		        val relevantSentences = getRelevantSentencesIncludingCoref(doc, query, matchingCorefMentions)    
+  		        val relevantSentencesCoref = getRelevantSentencesIncludingCoref(doc, query, matchingCorefMentions)    
+  		        val relevantSentences = relevantSentencesCoref.filter(s => s.get(classOf[TextAnnotation]).size < 400 )  
   		        //val relevantSentences = getRelevantSentencesIncludingCoref(doc, queryLastName, matchingCorefMentions)    
                 totalSentences += relevantSentences.size
   		        
@@ -418,6 +490,7 @@ object RunKBPImplie {
 	        {e.printStackTrace()
 	         println("EXCEPTION: " + query.id + " " + query.name) 
 	         outFmt.printEmpty(query)
+	         outFmtExtractions.printEmpty(query)
 	        }	  
 	      }		
 	      
@@ -436,24 +509,24 @@ object RunKBPImplie {
 		 //outputStream.println("All Extractions ----------------------------------------------------------")
          //outputStream.println
 		 //allExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
-		 outputStream.println
+		 outputStreamExtractions.println
 		 //print filtered extractions
-		 outputStream.println("Filtered Extractions ----------------------------------------------------------")
-         outputStream.println
-		 allRelevantCandidates.foreach(c => outputStream.println(c.extr.getArg1().argName + "\t" + c.extr.getArg2().argName + "\t" + c.extr.getRel()))
-		 outputStream.println
-		 outputStream.println
+		 outputStreamExtractions.println("Filtered Extractions ----------------------------------------------------------")
+         outputStreamExtractions.println
+		 allRelevantCandidates.foreach(c => outputStreamExtractions.println(c.extr.getArg1().argName + "\t" + c.extr.getArg2().argName + "\t" + c.extr.getRel()))
+		 outputStreamExtractions.println
+		 outputStreamExtractions.println
 		 
 		 //print Query Name
-		 outputStream.println
-		 outputStream.println("Query Name: " + query.name )
-		 outputStream.println
+		 outputStreamExtractions.println
+		 outputStreamExtractions.println("Query Name: " + query.name )
+		 outputStreamExtractions.println
 		 
 		 //print KBP report
-		 outputStream.println("KBP Report ----------------------------------------------------------")
-         outputStream.println
+		 outputStreamExtractions.println("KBP Report ----------------------------------------------------------")
+         outputStreamExtractions.println
 		 outFmt.printAnswers(bestAnswers, query) 
-		  
+		 outFmtExtractions.printAnswers(bestAnswers, query)  
 		 println("Total Sentences: " + totalSentences)
 		 
 	     println("Finished, going to next query")	    
@@ -463,7 +536,9 @@ object RunKBPImplie {
     println("Finished with Queries")
 	  
     outputStream.close()
-	  
+    outputStreamExtractions.close()
+    //outputStreamRelDocs.close()
+    
     println("Closed outputStreams")  
     
   }
@@ -1041,6 +1116,7 @@ object RunKBPImplie {
         }  
         t.start()
         t.join(180000)     
+        t.stop()
         a
     }
   }
