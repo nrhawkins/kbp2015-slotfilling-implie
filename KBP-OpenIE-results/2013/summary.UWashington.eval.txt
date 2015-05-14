@@ -1,0 +1,30 @@
+Notes on KBP criteria: 
+My previous tagging often called an extraction correct that 
+was correct for the given document, but had a spurious mention 
+of the target entity -- a different person of the same name.
+These are errors in the official evaluation.
+
+
+UWashington1 - two week rule creation, with coref
+
+151 Correct	Recall:    151/1468 = 0.10286	
+ 22 Inexact	Precision: 151/238  = 0.63445		
+ 64 Error   	
+  1 redundant
+238 total
+
+UWashington2 - two week rule creation, no coref
+
+126 Correct	Recall:    126/1468 = 0.08583	 	
+ 17 Inexact	Precision: 126/195  = 0.64615		
+ 51 Error   	
+  1 redundant
+195 total
+
+UWashington2 - 3 hour rule creation, with coref
+
+112 Correct	Recall:    112/1468 = 0.07629	 	
+ 19 Inexact	Precision: 112/177  = 0.63277		
+ 45 Error   	
+  1 redundant
+177 total
