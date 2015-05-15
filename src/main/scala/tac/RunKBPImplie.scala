@@ -34,7 +34,7 @@ object RunKBPImplie {
   val corpusName = config.getString("corpus")
   val slotfillFileName = config.getString("slotfill-file")
   val extractionsFileName = config.getString("extractions-file")
-  val numRelDocsFileName = config.getString("num-reldocs-file")
+  //val numRelDocsFileName = config.getString("num-reldocs-file")
   
   val annotatorHelper = new StanfordAnnotatorHelperMethods()
   
@@ -210,7 +210,7 @@ object RunKBPImplie {
       //2014: PER: Alan Gross
       //val testQueries = List(queries(11))      
       //2014: PER: Andrew E. Lange
-      //val testQueries = List(queries(37))
+      val testQueries = List(queries(37))
       //2014: PER: Frank Baldino Jr
       //val testQueries = List(queries(38))
       //2014: PER: Eliza Samudio
@@ -226,8 +226,8 @@ object RunKBPImplie {
       //2014: ORG: Pacific Asia Travel Association
       //val testQueries = List(queries(91))
       //2014: all 10 queries in dev set
-      val testQueries = List(queries(0),queries(11),queries(37),queries(38),queries(45),
-          queries(67),queries(78),queries(81),queries(87),queries(91))      
+      //val testQueries = List(queries(0),queries(11),queries(37),queries(38),queries(45),
+      //    queries(67),queries(78),queries(81),queries(87),queries(91))      
       //2014: the 90 test queries
       //val testQueries = List(queries(1),queries(2),queries(3),queries(4),queries(5),
       //                       queries(6),queries(7),queries(8),queries(9),queries(10),
@@ -237,8 +237,9 @@ object RunKBPImplie {
       //                       queries(27),queries(28),queries(29),queries(30),queries(31),
       //                       queries(32),queries(33),queries(34),queries(35),queries(36),
       //                       queries(39),queries(40),queries(41),queries(42),queries(43),
-      //                       queries(44),queries(46),queries(47),queries(48),queries(49),
-      //                       queries(50),queries(51),queries(52),queries(53),queries(54),
+      //                       queries(44),queries(46),queries(47),queries(48),queries(49))
+                             
+      //val testQueries = List(queries(50),queries(51),queries(52),queries(53),queries(54),
       //                       queries(55),queries(56),queries(57),queries(58),queries(59),
       //                       queries(60),queries(61),queries(62),queries(63),queries(64),
       //                       queries(65),queries(66),queries(68),queries(69),queries(70),
@@ -463,7 +464,7 @@ object RunKBPImplie {
   		          println("Getting Extractions")
   		          
                   //val extractions = getExtractions(relationExtractor, relevantSentences, docNames(docCount), outputStream)
-  		          val extractions = getExtractions(relationExtractor, relevantSentences, outputStream)
+  		          val extractions = getExtractions(relationExtractor, relevantSentences, outputStreamExtractions)
                   
                   println("extractions size: " + extractions.size)
 
@@ -498,6 +499,14 @@ object RunKBPImplie {
                 
 	  	 println("SubstituteKBPRelations")    	
 		 val kbpAllRelevantCandidates = substituteKBPRelations(allRelevantCandidates, query, topJobs, mapper)
+		 //kbpAllRelevantCandidates.foreach(c => {
+		 //  c.extr.getScore() match {
+		 //    case x if x < 5 => c.extr.setScore(.8) 
+		 //    case x if x <= 10 => c.extr.setScore(.9)
+		 //    case _ => c.extr.setScore(.95)
+		 //  }   
+		 //}) 
+		 
               
 	     println("Make Slot Map - Best Answers")		      
 		 val bestAnswers = slots map { slot => ( slot, SelectBestAnswers.reduceToMaxResults(slot, kbpAllRelevantCandidates.filter(_.extr.getRel() == slot.name)) ) } toMap
@@ -547,6 +556,7 @@ object RunKBPImplie {
   def substituteKBPRelations(candidates: Seq[Candidate], query: KBPQuery, topJobs: Set[String], mapper: SingularCountryMapper): Seq[Candidate] = {
 
     val queryEntityType = query.entityType.toString    
+    var newCandidates: Seq[Candidate] = Nil
     
     for(c <- candidates){
       
@@ -555,13 +565,18 @@ object RunKBPImplie {
               //relations to substitute
               case s if (s.contains("nationality")) => { 
                 c.extr.setRel("per:origin")
-                c.extr.setRel("per:countries_of_residence")
+                val newExtraction = new KBPExtraction(c.extr.getArg1(), c.extr.getArg2(), c.extr.getRel(), 
+                    c.extr.getScore(), c.extr.getArg1Link(), c.extr.getArg1BestMention(), c.extr.getArg2Link(), c.extr.getArg2BestMention(),
+			        c.extr.getDocName(), c.extr.getSentNum(), c.extr.getArg1BestMentionSentNum(), c.extr.getArg2BestMentionSentNum(), c.extr.getNers())
+                val newCandidate = new Candidate(queryCounter.getAndIncrement, newExtraction)
+                newCandidate.extr.setRel("per:countries_of_residence")
                 val country = mapper.getCountryName(c.extr.getArg2().getArgName(), lowercase=true)
                 country match {
                   case null => 
                   case _ => {val newArg2 = new Argument(country, c.extr.getArg2().getStartOffset(), c.extr.getArg2().getEndOffset())
-                             c.extr.setArg2(newArg2)}   
+                             newCandidate.extr.setArg2(newArg2)}   
                 }                                           
+                newCandidates = newCandidates ++ Seq(newCandidate)
               }
               case s if (s.contains("city")) => c.extr.setRel("per:cities_of_residence") 
               case s if (s.contains("province")) => c.extr.setRel("per:statesorprovinces_of_residence")
@@ -603,7 +618,7 @@ object RunKBPImplie {
        }  
     }
     
-    candidates
+    candidates ++ newCandidates
     
   }
 
