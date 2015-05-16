@@ -159,11 +159,11 @@ if __name__ == "__main__":
   out = file(sys.argv[3], 'w')
   out.write("Ignored lines from the results file.\n")
   out.write("\n".join(ignored))
-  out.write("\n")
   
   correctlines = [result_to_line_map[result] for result in correct]
   inexactlines = [result_to_line_map[result] for result in inexact]
   incorrectlines = [result_to_line_map[result] for result in incorrect]
+  out.write("\n\n\n")
   out.write("Correct results\n")
   out.write("\n".join(sorted(correctlines)))
   out.write("\n\n\n")

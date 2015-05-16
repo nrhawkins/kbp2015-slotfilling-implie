@@ -138,7 +138,6 @@ SF14_ENG_006	per:country_of_death	UWashington2	NIL
 SF14_ENG_006	per:date_of_birth	UWashington2	NIL
 SF14_ENG_006	per:date_of_death	UWashington2	NIL
 SF14_ENG_006	per:employee_or_member_of	UWashington2	NIL
-SF14_ENG_006	per:origin	UWashington2	eng-NG-31-142407-10043470:958-991	American	eng-NG-31-142407-10043470:984-991	0.9358
 SF14_ENG_006	per:origin	UWashington3	bolt-eng-DF-170-181119-8744731:1453-1493	united states	bolt-eng-DF-170-181119-8744731:1474-1483	0.8
 SF14_ENG_006	per:other_family	UWashington2	NIL
 SF14_ENG_006	per:parents	UWashington2	NIL
@@ -258,7 +257,6 @@ SF14_ENG_010	per:spouse	UWashington2	NIL
 SF14_ENG_010	per:stateorprovince_of_birth	UWashington2	NIL
 SF14_ENG_010	per:stateorprovince_of_death	UWashington2	NIL
 SF14_ENG_010	per:statesorprovinces_of_residence	UWashington2	NIL
-SF14_ENG_010	per:title	UWashington2	APW_ENG_20090620.0438:855-874	owner	APW_ENG_20090620.0438:855-859	0.9
 SF14_ENG_010	per:title	UWashington3	APW_ENG_20090620.0368:763-788	owner	APW_ENG_20090620.0368:769-775	3.0
 SF14_ENG_011	per:age	UWashington2	NIL
 SF14_ENG_011	per:alternate_names	UWashington2	NIL
@@ -284,7 +282,6 @@ SF14_ENG_011	per:spouse	UWashington2	NIL
 SF14_ENG_011	per:stateorprovince_of_birth	UWashington2	NIL
 SF14_ENG_011	per:stateorprovince_of_death	UWashington2	NIL
 SF14_ENG_011	per:statesorprovinces_of_residence	UWashington2	NIL
-SF14_ENG_011	per:title	UWashington2	XIN_ENG_20101201.0249:368-398	president	XIN_ENG_20101201.0249:387-395	0.9
 SF14_ENG_011	per:title	UWashington3	APW_ENG_20101202.0845:3826-3880	president	APW_ENG_20101202.0845:3840-3850	10.0
 SF14_ENG_011	per:title	UWashington3	XIN_ENG_20101201.0249:368-421	vice president	XIN_ENG_20101201.0249:382-397	1.0
 SF14_ENG_012	per:age	UWashington2	NIL
@@ -487,7 +484,7 @@ SF14_ENG_019	per:country_of_death	UWashington2	NIL
 SF14_ENG_019	per:date_of_birth	UWashington2	NIL
 SF14_ENG_019	per:date_of_death	UWashington2	NIL
 SF14_ENG_019	per:employee_or_member_of	UWashington2	NIL
-SF14_ENG_019	per:origin	UWashington2	eng-NG-31-126982-8246059:18881-18939	Canadian	eng-NG-31-126982-8246059:18932-18939	0.9317
+SF14_ENG_019	per:origin	UWashington2	eng-NG-31-126982-8246059:18881-18939	canada	eng-NG-31-126982-8246059:18932-18939	0.9317
 SF14_ENG_019	per:origin	UWashington3	APW_ENG_20101129.0019:419-458	southern tutchone	APW_ENG_20101129.0019:434-452	4.0
 SF14_ENG_019	per:origin	UWashington3	APW_ENG_20101129.0019:419-459	india	APW_ENG_20101129.0019:452-459	2.0
 SF14_ENG_019	per:other_family	UWashington2	NIL
@@ -516,7 +513,6 @@ SF14_ENG_020	per:country_of_death	UWashington2	NIL
 SF14_ENG_020	per:date_of_birth	UWashington2	NIL
 SF14_ENG_020	per:date_of_death	UWashington2	NIL
 SF14_ENG_020	per:employee_or_member_of	UWashington2	APW_ENG_20100422.1345:380-429	American Indian Movement	APW_ENG_20100422.1345:380-403	0.9
-SF14_ENG_020	per:origin	UWashington2	APW_ENG_20100422.1345:380-429	American	APW_ENG_20100422.1345:380-387	0.9
 SF14_ENG_020	per:origin	UWashington3	APW_ENG_20100422.1345:380-430	india	APW_ENG_20100422.1345:389-396	1.0
 SF14_ENG_020	per:origin	UWashington3	APW_ENG_20100422.1345:380-430	united states	APW_ENG_20100422.1345:380-389	1.0
 SF14_ENG_020	per:origin	UWashington3	APW_ENG_20101207.0826:531-570	canada	APW_ENG_20101207.0826:562-570	1.0
@@ -529,7 +525,6 @@ SF14_ENG_020	per:spouse	UWashington2	NIL
 SF14_ENG_020	per:stateorprovince_of_birth	UWashington2	NIL
 SF14_ENG_020	per:stateorprovince_of_death	UWashington2	NIL
 SF14_ENG_020	per:statesorprovinces_of_residence	UWashington2	NIL
-SF14_ENG_020	per:title	UWashington2	APW_ENG_20100422.1345:405-429	activist	APW_ENG_20100422.1345:405-412	0.9
 SF14_ENG_020	per:title	UWashington3	APW_ENG_20100422.1345:380-430	activist	APW_ENG_20100422.1345:405-414	3.0
 SF14_ENG_021	per:age	UWashington2	NIL
 SF14_ENG_021	per:alternate_names	UWashington2	NIL
@@ -842,7 +837,6 @@ SF14_ENG_033	per:alternate_names	UWashington2	NIL
 SF14_ENG_033	per:cause_of_death	UWashington2	NIL
 SF14_ENG_033	per:charges	UWashington2	XIN_ENG_20100412.0471:1855-1982	bribery	XIN_ENG_20100412.0471:1976-1982	0.9143
 SF14_ENG_033	per:children	UWashington2	NIL
-SF14_ENG_033	per:cities_of_residence	UWashington2	AFP_ENG_20100811.0137:1360-1398	Chongqing	AFP_ENG_20100811.0137:1390-1398	0.9
 SF14_ENG_033	per:cities_of_residence	UWashington3	AFP_ENG_20100204.0668:756-805	chongqing	AFP_ENG_20100204.0668:756-765	2.0
 SF14_ENG_033	per:city_of_birth	UWashington2	NIL
 SF14_ENG_033	per:city_of_death	UWashington2	NIL
@@ -862,7 +856,6 @@ SF14_ENG_033	per:spouse	UWashington2	NIL
 SF14_ENG_033	per:stateorprovince_of_birth	UWashington2	NIL
 SF14_ENG_033	per:stateorprovince_of_death	UWashington2	NIL
 SF14_ENG_033	per:statesorprovinces_of_residence	UWashington2	NIL
-SF14_ENG_033	per:title	UWashington2	XIN_ENG_20091110.0411:1627-1662	deputy director	XIN_ENG_20091110.0411:1645-1659	0.9
 SF14_ENG_033	per:title	UWashington3	AFP_ENG_20100124.0348:406-448	official	AFP_ENG_20100124.0348:439-448	5.0
 SF14_ENG_033	per:title	UWashington3	AFP_ENG_20100202.0451:391-443	director	AFP_ENG_20100202.0451:409-418	13.0
 SF14_ENG_033	per:title	UWashington3	AFP_ENG_20100204.0668:779-805	justice	AFP_ENG_20100204.0668:779-787	2.0
@@ -918,7 +911,6 @@ SF14_ENG_035	per:spouse	UWashington2	NIL
 SF14_ENG_035	per:stateorprovince_of_birth	UWashington2	NIL
 SF14_ENG_035	per:stateorprovince_of_death	UWashington2	NIL
 SF14_ENG_035	per:statesorprovinces_of_residence	UWashington2	NIL
-SF14_ENG_035	per:title	UWashington2	AFP_ENG_20090812.0589:744-759	officer	AFP_ENG_20090812.0589:744-750	0.9
 SF14_ENG_035	per:title	UWashington3	AFP_ENG_20090812.0589:718-760	officer	AFP_ENG_20090812.0589:744-752	1.0
 SF14_ENG_035	per:title	UWashington3	AFP_ENG_20100811.0137:1274-1298	official	AFP_ENG_20100811.0137:1281-1290	2.0
 SF14_ENG_035	per:title	UWashington3	XIN_ENG_20100321.0258:1123-1141	professor	XIN_ENG_20100321.0258:1123-1133	1.0
@@ -946,7 +938,6 @@ SF14_ENG_036	per:spouse	UWashington2	NIL
 SF14_ENG_036	per:stateorprovince_of_birth	UWashington2	NIL
 SF14_ENG_036	per:stateorprovince_of_death	UWashington2	NIL
 SF14_ENG_036	per:statesorprovinces_of_residence	UWashington2	NIL
-SF14_ENG_036	per:title	UWashington2	eng-NG-31-141808-9968123:24512-24538	president	eng-NG-31-141808-9968123:24527-24535	0.9
 SF14_ENG_036	per:title	UWashington3	eng-NG-31-148121-10558070:864-920	president	eng-NG-31-148121-10558070:877-879	0.8
 SF14_ENG_037	per:age	UWashington2	NIL
 SF14_ENG_037	per:alternate_names	UWashington2	NIL
@@ -1099,7 +1090,6 @@ SF14_ENG_042	per:spouse	UWashington2	NIL
 SF14_ENG_042	per:stateorprovince_of_birth	UWashington2	NIL
 SF14_ENG_042	per:stateorprovince_of_death	UWashington2	NIL
 SF14_ENG_042	per:statesorprovinces_of_residence	UWashington2	NIL
-SF14_ENG_042	per:title	UWashington2	XIN_ENG_20101230.0147:944-981	minister	XIN_ENG_20101230.0147:974-981	0.9569
 SF14_ENG_042	per:title	UWashington3	AFP_ENG_20101228.0004:3992-4036	minister	AFP_ENG_20101228.0004:4010-4019	22.0
 SF14_ENG_042	per:title	UWashington3	NYT_ENG_20101219.0053:4209-4271	leader	NYT_ENG_20101219.0053:4228-4235	6.0
 SF14_ENG_043	per:age	UWashington2	NIL
@@ -1300,7 +1290,6 @@ SF14_ENG_050	per:country_of_death	UWashington2	NIL
 SF14_ENG_050	per:date_of_birth	UWashington2	NIL
 SF14_ENG_050	per:date_of_death	UWashington2	NIL
 SF14_ENG_050	per:employee_or_member_of	UWashington2	AFP_ENG_20100202.0322:2272-2319	New Life Children's Refuge	AFP_ENG_20100202.0322:2294-2319	0.9
-SF14_ENG_050	per:origin	UWashington2	AFP_ENG_20100209.0502:2085-2127	American	AFP_ENG_20100209.0502:2120-2127	0.9
 SF14_ENG_050	per:origin	UWashington3	NYT_ENG_20100201.0121:249-322	united states	NYT_ENG_20100201.0121:314-322	4.0
 SF14_ENG_050	per:other_family	UWashington2	NIL
 SF14_ENG_050	per:parents	UWashington2	NIL
@@ -1491,7 +1480,6 @@ SF14_ENG_061	org:stateorprovince_of_headquarters	UWashington3	NYT_ENG_20100919.0
 SF14_ENG_061	org:subsidiaries	UWashington2	NIL
 SF14_ENG_061	org:top_members_employees	UWashington2	LTW_ENG_20090605.0095:196-222	Angelo R.	LTW_ENG_20090605.0095:214-222	0.9
 SF14_ENG_061	org:top_members_employees	UWashington2	NYT_ENG_20090729.0112:1595-1660	Rich Miller	NYT_ENG_20090729.0112:1595-1605	0.9
-SF14_ENG_061	org:top_members_employees	UWashington2	NYT_ENG_20101015.0094:295-350	Angelo Mozilo	NYT_ENG_20101015.0094:295-307	0.9
 SF14_ENG_061	org:top_members_employees	UWashington2	NYT_ENG_20101015.0137:1737-1785	David Sambol	NYT_ENG_20101015.0137:1737-1748	0.9
 SF14_ENG_061	org:top_members_employees	UWashington3	NYT_ENG_20101016.0014:2224-2376	Angelo R. Mozilo	NYT_ENG_20101016.0014:2264-2279	6.0
 SF14_ENG_061	org:top_members_employees	UWashington3	WPB_ENG_20100604.0084:1750-1830	Angelo Mozilo	WPB_ENG_20100604.0084:1750-1762	11.0
@@ -1670,7 +1658,6 @@ SF14_ENG_072	org:political_religious_affiliation	UWashington2	NIL
 SF14_ENG_072	org:shareholders	UWashington2	NIL
 SF14_ENG_072	org:stateorprovince_of_headquarters	UWashington2	NIL
 SF14_ENG_072	org:subsidiaries	UWashington2	NIL
-SF14_ENG_072	org:top_members_employees	UWashington2	LTW_ENG_20090922.0032:3213-3263	Marc Morial	LTW_ENG_20090922.0032:3213-3223	0.9
 SF14_ENG_072	org:top_members_employees	UWashington3	LTW_ENG_20091218.0011:351-402	Marc Morial	LTW_ENG_20091218.0011:351-361	27.0
 SF14_ENG_072	org:top_members_employees	UWashington3	eng-NG-31-126844-12059161:5476-5560	Stephanie J. Jones	eng-NG-31-126844-12059161:5476-5493	1.0
 SF14_ENG_072	org:website	UWashington2	NIL
@@ -1981,7 +1968,6 @@ SF14_ENG_091	org:political_religious_affiliation	UWashington2	NIL
 SF14_ENG_091	org:shareholders	UWashington2	NIL
 SF14_ENG_091	org:stateorprovince_of_headquarters	UWashington2	NIL
 SF14_ENG_091	org:subsidiaries	UWashington2	NIL
-SF14_ENG_091	org:top_members_employees	UWashington2	eng-NG-31-142885-10106195:2345-2387	Nell Minow	eng-NG-31-142885-10106195:2345-2354	0.9
 SF14_ENG_091	org:top_members_employees	UWashington3	NYT_ENG_20091230.0113:2389-2435	Nell Minow	NYT_ENG_20091230.0113:2389-2398	2.0
 SF14_ENG_091	org:website	UWashington2	NIL
 SF14_ENG_092	org:alternate_names	UWashington2	NIL
@@ -2079,7 +2065,6 @@ SF14_ENG_097	org:political_religious_affiliation	UWashington2	NIL
 SF14_ENG_097	org:shareholders	UWashington2	NIL
 SF14_ENG_097	org:stateorprovince_of_headquarters	UWashington2	NIL
 SF14_ENG_097	org:subsidiaries	UWashington2	NIL
-SF14_ENG_097	org:top_members_employees	UWashington2	XIN_ENG_20090925.0379:303-358	Zhang Guobao	XIN_ENG_20090925.0379:303-314	0.9
 SF14_ENG_097	org:top_members_employees	UWashington2	XIN_ENG_20101027.0276:395-458	Liu Qi	XIN_ENG_20101027.0276:395-400	0.9
 SF14_ENG_097	org:top_members_employees	UWashington3	AFP_ENG_20091231.0371:476-563	Shi Lishan	AFP_ENG_20091231.0371:476-485	1.0
 SF14_ENG_097	org:top_members_employees	UWashington3	LTW_ENG_20090729.0133:729-794	Zhang Guobao	LTW_ENG_20090729.0133:729-740	1.0

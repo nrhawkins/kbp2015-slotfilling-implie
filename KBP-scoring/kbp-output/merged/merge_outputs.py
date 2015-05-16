@@ -116,17 +116,24 @@ for query, slotfillmap in extractions.iteritems():
     # remaining as the extraction list.
     entitymap = {}
     for tokens, line in extractionlist:
-      entity = tokens[5].lower()
+      entity = tokens[4].lower()
       if slotfill in country_slots:
         entity = countrymapper.getCountryName(entity)
+        tokens[4] = entity
       entitymap[entity] = (tokens, line)
-
+      if "Angelo Mozilo" in line:
+        print
+        print entity
+        print line
+        print entitymap
+        print
+  
     deduped_list = [v for k, v in entitymap.iteritems()]
     deduped_extractions[query][slotfill] = deduped_list
 
 
-lines = [[[line for tokens, line in extractionlist] for slotfill, extractionlist in slotfillmap.iteritems()] for query, slotfillmap in deduped_extractions.iteritems()]
-lines = [l for lll in lines for ll in lll for l in ll]
+lines = [[[tokens for tokens, line in extractionlist] for slotfill, extractionlist in slotfillmap.iteritems()] for query, slotfillmap in deduped_extractions.iteritems()]
+lines = ["\t".join(l) for lll in lines for ll in lll for l in ll]
 lines = sorted(lines)
 
 print lines[:5]
