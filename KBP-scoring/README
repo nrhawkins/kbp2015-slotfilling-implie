@@ -1,0 +1,4 @@
+The script does not handle duplicates of entities unless it is an exact match,
+and cases where the answer would be incorrect because of insufficient context.
+
+Therefore the results should be looked over manually for precise scores.
