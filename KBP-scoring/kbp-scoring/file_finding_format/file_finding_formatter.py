@@ -60,8 +60,13 @@ for i in range(len(lines)):
   offsets = tokens[5].split("-")
   confidence = tokens[len(tokens) - 1]
 
+  if filename[:4] == "bolt":
+    short_filename = filename[:15]
+  else:
+    short_filename = filename[:14]
+
   # Output string.
-  outtokens = [filename[:14], filename, query, qtoe_map[query], slotname, slotfill,\
+  outtokens = [short_filename, filename, query, qtoe_map[query], slotname, slotfill,\
       state_char, offsets[0], offsets[1], "", "", "", "", "", "", "EOL"]
   outstring = "\t".join(outtokens)
   outstrs.append(outstring)
