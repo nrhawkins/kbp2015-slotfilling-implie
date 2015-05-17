@@ -1,3 +1,6 @@
+"""
+Used to debug file finding format.  Before some lines were missing...
+"""
 
 import sys
 

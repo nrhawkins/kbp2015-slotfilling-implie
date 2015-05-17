@@ -26,6 +26,7 @@ APW_ENG_201005	APW_ENG_20100525.0070	SF13_ENG_010	Ronnie James Dio	per:title	sin
 APW_ENG_200909	APW_ENG_20090923.0299	SF13_ENG_012	Adam Gadahn	per:alternate_names	Azzam al-Amriki	C	1529	1543							EOL
 AFP_ENG_201010	AFP_ENG_20101001.0063	SF13_ENG_012	Adam Gadahn	per:employee_or_member_of	Al-Qaeda	C	2232	2239							EOL
 eng-NG-31-1024	eng-NG-31-102460-8865959	SF13_ENG_012	Adam Gadahn	per:origin	American	C	3705	3712							EOL
+eng-NG-31-1130	eng-NG-31-113099-9052056	SF13_ENG_012	Adam Gadahn	per:parents	Phil Pearlman	C	34514	34526							EOL
 APW_ENG_200906	APW_ENG_20090615.0692	SF13_ENG_012	Adam Gadahn	per:statesorprovinces_of_residence	California	C	391	400							EOL
 APW_ENG_201003	APW_ENG_20100308.0989	SF13_ENG_012	Adam Gadahn	per:title	spokesman	C	490	498							EOL
 XIN_ENG_201007	XIN_ENG_20100703.0063	SF13_ENG_014	Mohammed Oudeh	per:cause_of_death	kidney disease	C	290	303							EOL
@@ -35,6 +36,7 @@ WPB_ENG_201002	WPB_ENG_20100220.0001	SF13_ENG_017	Alexander Haig	per:cause_of_de
 XIN_ENG_201002	XIN_ENG_20100221.0124	SF13_ENG_017	Alexander Haig	per:city_of_death	Baltimore	C	1056	1064							EOL
 eng-NG-31-1262	eng-NG-31-126273-9129903	SF13_ENG_017	Alexander Haig	per:title	Secretary of State	C	6408	6425							EOL
 NYT_ENG_201007	NYT_ENG_20100712.0143	SF13_ENG_018	Harvey Pekar	per:cities_of_residence	Cleveland Heights	C	421	437							EOL
+NYT_ENG_201007	NYT_ENG_20100712.0143	SF13_ENG_018	Harvey Pekar	per:city_of_death	Cleveland Heights	C	421	437							EOL
 APW_ENG_201007	APW_ENG_20100712.0934	SF13_ENG_018	Harvey Pekar	per:country_of_death	US	C	103	104							EOL
 NYT_ENG_201009	NYT_ENG_20100905.0022	SF13_ENG_018	Harvey Pekar	per:date_of_death	XXXX-07-12	C	848	854							EOL
 WPB_ENG_201007	WPB_ENG_20100714.0022	SF13_ENG_018	Harvey Pekar	per:origin	American	C	3196	3203							EOL
@@ -43,11 +45,14 @@ AFP_ENG_201007	AFP_ENG_20100729.0049	SF13_ENG_019	Keli McGregor	per:cause_of_dea
 NYT_ENG_201004	NYT_ENG_20100420.0040	SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Colorado Rockies	C	190	205							EOL
 AFP_ENG_201004	AFP_ENG_20100421.0701	SF13_ENG_019	Keli McGregor	per:title	president	C	222	230							EOL
 AFP_ENG_200911	AFP_ENG_20091128.0100	SF13_ENG_020	Mike Penner	per:age	52	C	354	355							EOL
+eng-NG-31-1268	eng-NG-31-126851-8229228	SF13_ENG_020	Mike Penner	per:employee_or_member_of	The Los Angeles Times	C	652	672							EOL
+eng-NG-31-1268	eng-NG-31-126851-8229228	SF13_ENG_020	Mike Penner	per:title	columnist	C	638	646							EOL
 AFP_ENG_201003	AFP_ENG_20100319.0199	SF13_ENG_022	Mikel Karrera Sarobe	per:employee_or_member_of	ETA	C	1544	1546							EOL
 AFP_ENG_201001	AFP_ENG_20100112.0679	SF13_ENG_025	Nancy Kissel	per:parents	Jean McGothlin	C	1814	1827							EOL
 XIN_ENG_201008	XIN_ENG_20100808.0131	SF13_ENG_026	Patricia Neal	per:cause_of_death	lung cancer	C	230	240							EOL
 APW_ENG_201008	APW_ENG_20100809.0098	SF13_ENG_026	Patricia Neal	per:cities_of_residence	Edgartown	C	426	434							EOL
 AFP_ENG_201008	AFP_ENG_20100809.0498	SF13_ENG_026	Patricia Neal	per:countries_of_residence	US	C	176	177							EOL
+AFP_ENG_201008	AFP_ENG_20100809.0498	SF13_ENG_026	Patricia Neal	per:origin	US	C	176	177							EOL
 AFP_ENG_201008	AFP_ENG_20100809.0118	SF13_ENG_026	Patricia Neal	per:stateorprovince_of_death	Massachusetts	C	335	347							EOL
 AFP_ENG_201008	AFP_ENG_20100809.0118	SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	Massachusetts	C	335	347							EOL
 AFP_ENG_201008	AFP_ENG_20100809.0498	SF13_ENG_026	Patricia Neal	per:title	actress	C	179	185							EOL
@@ -60,12 +65,15 @@ NYT_ENG_201011	NYT_ENG_20101104.0142	SF13_ENG_030	Sparky Anderson	per:cause_of_d
 NYT_ENG_201011	NYT_ENG_20101104.0186	SF13_ENG_030	Sparky Anderson	per:cities_of_residence	Thousand Oaks	C	381	393							EOL
 NYT_ENG_201011	NYT_ENG_20101104.0186	SF13_ENG_030	Sparky Anderson	per:city_of_death	Thousand Oaks	C	381	393							EOL
 AFP_ENG_201012	AFP_ENG_20101215.0754	SF13_ENG_030	Sparky Anderson	per:date_of_death	XXXX-11-XX	C	3768	3775							EOL
+APW_ENG_201011	APW_ENG_20101104.0743	SF13_ENG_030	Sparky Anderson	per:employee_or_member_of	Cincinnati Reds	C	257	271							EOL
 WPB_ENG_201012	WPB_ENG_20101216.0075	SF13_ENG_031	Blake Edwards	per:alternate_names	William Blake Crump	C	4462	4480							EOL
 APW_ENG_201012	APW_ENG_20101216.0966	SF13_ENG_031	Blake Edwards	per:cause_of_death	complications of pneumonia	C	417	442							EOL
 NYT_ENG_201012	NYT_ENG_20101216.0121	SF13_ENG_031	Blake Edwards	per:city_of_death	Santa Monica	C	325	336							EOL
 APW_ENG_201012	APW_ENG_20101216.0803	SF13_ENG_031	Blake Edwards	per:spouse	Julie Andrews	C	546	558							EOL
 APW_ENG_201012	APW_ENG_20101216.0695	SF13_ENG_031	Blake Edwards	per:stateorprovince_of_death	California	C	164	173							EOL
 APW_ENG_201010	APW_ENG_20101020.0103	SF13_ENG_032	Hwang Jang-Yop	per:cause_of_death	heart failure	C	1363	1375							EOL
+APW_ENG_201010	APW_ENG_20101020.0103	SF13_ENG_032	Hwang Jang-Yop	per:cities_of_residence	Seoul	C	1761	1765							EOL
+APW_ENG_201010	APW_ENG_20101010.0057	SF13_ENG_032	Hwang Jang-Yop	per:country_of_death	South Korea	C	194	204							EOL
 XIN_ENG_200911	XIN_ENG_20091109.0294	SF13_ENG_033	Vitaly Ginzburg	per:city_of_death	Moscow	C	298	303							EOL
 AFP_ENG_201010	AFP_ENG_20101005.0117	SF13_ENG_033	Vitaly Ginzburg	per:origin	Russian	C	2890	2896							EOL
 AFP_ENG_201004	AFP_ENG_20100413.0695	SF13_ENG_035	Maria Kaczynska	per:spouse	Lech Kaczynski	C	229	242							EOL
@@ -99,6 +107,7 @@ NYT_ENG_200908	NYT_ENG_20090826.0141	SF13_ENG_044	Dominick Dunne	per:siblings	Jo
 APW_ENG_200909	APW_ENG_20090921.0007	SF13_ENG_044	Dominick Dunne	per:statesorprovinces_of_residence	New York	C	4761	4768							EOL
 APW_ENG_200909	APW_ENG_20090921.0007	SF13_ENG_044	Dominick Dunne	per:title	author	C	4770	4775							EOL
 APW_ENG_200908	APW_ENG_20090829.0647	SF13_ENG_045	Adam Goldstein	per:alternate_names	DJ AM	C	299	303							EOL
+APW_ENG_201001	APW_ENG_20100114.1379	SF13_ENG_045	Adam Goldstein	per:date_of_death	2009-08-XX	C	411	416							EOL
 APW_ENG_201001	APW_ENG_20100114.1379	SF13_ENG_045	Adam Goldstein	per:stateorprovince_of_death	New York	C	421	428							EOL
 NYT_ENG_201012	NYT_ENG_20101206.0204	SF13_ENG_046	Don Meredith	per:city_of_death	Santa Fe	C	380	387							EOL
 eng-NG-31-1272	eng-NG-31-127207-9204798	SF13_ENG_046	Don Meredith	per:employee_or_member_of	NFL	C	12813	12815							EOL
@@ -107,6 +116,8 @@ AFP_ENG_201002	AFP_ENG_20100225.0477	SF13_ENG_047	Orlando Zapata	per:city_of_dea
 AFP_ENG_201007	AFP_ENG_20100701.0324	SF13_ENG_047	Orlando Zapata	per:date_of_death	XXXX-02-23	C	1988	1998							EOL
 AFP_ENG_201003	AFP_ENG_20100321.0056	SF13_ENG_047	Orlando Zapata	per:parents	Reyna Luisa Tamayo	C	1446	1463							EOL
 NYT_ENG_200908	NYT_ENG_20090810.0069	SF13_ENG_048	Charles Gwathmey	per:age	71	C	823	824							EOL
+NYT_ENG_200908	NYT_ENG_20090804.0124	SF13_ENG_048	Charles Gwathmey	per:city_of_birth	Charlotte	C	7650	7658							EOL
+NYT_ENG_200908	NYT_ENG_20090804.0124	SF13_ENG_048	Charles Gwathmey	per:date_of_birth	1938-06-19	C	7632	7644							EOL
 AFP_ENG_201010	AFP_ENG_20101016.0017	SF13_ENG_049	Benoit Mandelbrot	per:city_of_death	Cambridge	C	322	330							EOL
 AFP_ENG_201010	AFP_ENG_20101016.0007	SF13_ENG_049	Benoit Mandelbrot	per:stateorprovince_of_death	Massachusetts	C	333	345							EOL
 LTW_ENG_200908	LTW_ENG_20090828.0093	SF13_ENG_051	Election Complaints Commission	org:top_members_employees	Mahgul Yamam	C	5173	5184							EOL
@@ -118,6 +129,7 @@ APW_ENG_201006	APW_ENG_20100611.1151	SF13_ENG_056	Georgia Peanut Commission	org:
 NYT_ENG_201006	NYT_ENG_20100611.0031	SF13_ENG_056	Georgia Peanut Commission	org:top_members_employees	Don Koehler	C	947	957							EOL
 APW_ENG_200906	APW_ENG_20090612.0855	SF13_ENG_058	Access Industries	org:stateorprovince_of_headquarters	New York	C	498	505							EOL
 NYT_ENG_201004	NYT_ENG_20100408.0163	SF13_ENG_061	InterContinental Hotels Group	org:top_members_employees	Andrew Cosslett	C	330	344							EOL
+XIN_ENG_201003	XIN_ENG_20100315.0310	SF13_ENG_064	Stockholm International Peace Research Institute	org:date_founded	1966-XX-XX	C	1941	1944							EOL
 LTW_ENG_200906	LTW_ENG_20090604.0047	SF13_ENG_068	Indoor Tanning Association	org:top_members_employees	John Overstreet	C	3255	3269							EOL
 eng-NG-31-1268	eng-NG-31-126855-12059358	SF13_ENG_069	International Agency for Research on Cancer	org:parents	World Health Organisation	C	41909	41933							EOL
 APW_ENG_200910	APW_ENG_20091021.0307	SF13_ENG_073	Global Infrastructure Partners	org:stateorprovince_of_headquarters	New York	C	750	757							EOL
@@ -133,9 +145,11 @@ AFP_ENG_200906	AFP_ENG_20090621.0015	SF13_ENG_089	Rosoboronexport	org:top_member
 APW_ENG_201001	APW_ENG_20100128.0542	SF13_ENG_089	Rosoboronexport	org:top_members_employees	Anatoly Isaikin	C	417	431							EOL
 eng-NG-31-1130	eng-NG-31-113099-9051701	SF13_ENG_089	Rosoboronexport	org:top_members_employees	Sergei Chemezov	C	779	793							EOL
 eng-NG-31-1421	eng-NG-31-142161-10037583	SF13_ENG_089	Rosoboronexport	org:top_members_employees	Serguei Ladiguin	C	868	883							EOL
+AFP_ENG_200911	AFP_ENG_20091106.0273	SF13_ENG_092	Escada	org:founded_by	Wolfgang Ley	C	2648	2659							EOL
 WPB_ENG_201011	WPB_ENG_20101108.0046	SF13_ENG_094	Rapiscan Systems	org:top_members_employees	Peter Kant	C	6086	6095							EOL
 APW_ENG_201010	APW_ENG_20101025.0228	SF13_ENG_097	STX Finland	org:member_of	STX Europe Group	C	743	758							EOL
 APW_ENG_201010	APW_ENG_20101025.0228	SF13_ENG_097	STX Finland	org:parents	STX Europe Group	C	743	758							EOL
+APW_ENG_200909	APW_ENG_20090917.0189	SF13_ENG_099	DCNS	org:number_of_employees_members	12,000	C	1626	1631							EOL
 APW_ENG_201011	APW_ENG_20101101.0601	SF13_ENG_099	DCNS	org:top_members_employees	Patrick Boissier	C	1247	1262							EOL
 NYT_ENG_201011	NYT_ENG_20101122.0141	SF13_ENG_100	Galleon Group	org:founded_by	Raj Rajaratnam	C	2878	2891							EOL
 APW_ENG_201003	APW_ENG_20100323.0969	SF13_ENG_100	Galleon Group	org:top_members_employees	Raj Rajaratnam	C	1493	1506							EOL
@@ -143,12 +157,13 @@ LTW_ENG_200908	LTW_ENG_20090817.0020	SF13_ENG_001	Ramazan Bashardost	per:title	m
 AFP_ENG_201003	AFP_ENG_20100319.0300	SF13_ENG_007	Mohammed Sayed Tantawi	per:cause_of_death	a heart attack in Saudi Arabia	X	675	704							EOL
 AFP_ENG_201003	AFP_ENG_20100319.0300	SF13_ENG_007	Mohammed Sayed Tantawi	per:date_of_death	XXXX-03-10	X	709	716							EOL
 APW_ENG_201003	APW_ENG_20100310.0491	SF13_ENG_007	Mohammed Sayed Tantawi	per:title	sheik	X	429	433							EOL
+WPB_ENG_201002	WPB_ENG_20100221.0011	SF13_ENG_015	Lucille Clifton	per:cause_of_death	a bacterial infection	X	1378	1398							EOL
 WPB_ENG_201002	WPB_ENG_20100221.0011	SF13_ENG_015	Lucille Clifton	per:date_of_death	Feb	X	1400	1402							EOL
 WPB_ENG_201009	WPB_ENG_20100914.0017	SF13_ENG_037	Claude Chabrol	per:date_of_death	Sept-XX-XX	X	493	496							EOL
+AFP_ENG_200912	AFP_ENG_20091228.0464	SF13_ENG_039	Jade Goody	per:date_of_death	XXXX-03-22	X	674	681							EOL
 AFP_ENG_200906	AFP_ENG_20090618.0464	SF13_ENG_042	Dudu Topaz	per:charges	conspiracy	X	385	394							EOL
 APW_ENG_200908	APW_ENG_20090826.0973	SF13_ENG_043	Ellie Greenwich	per:cause_of_death	a heart attack at St.	X	406	426							EOL
 NYT_ENG_200909	NYT_ENG_20090916.0056	SF13_ENG_045	Adam Goldstein	per:cause_of_death	a drug overdose on Aug	X	4417	4438							EOL
-APW_ENG_201001	APW_ENG_20100114.1379	SF13_ENG_045	Adam Goldstein	per:date_of_death	2009-08-XX	X	411	416							EOL
 NYT_ENG_200907	NYT_ENG_20090715.0030	SF13_ENG_081	Washington National Opera	org:top_members_employees	Weinstein	X	1057	1065							EOL
 NYT_ENG_201001	NYT_ENG_20100113.0107	SF13_ENG_081	Washington National Opera	org:top_members_employees	Feinberg	X	8520	8527							EOL
 NYT_ENG_200908	NYT_ENG_20090807.0108	SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Grumet	X	3920	3925							EOL
@@ -156,10 +171,8 @@ NYT_ENG_200906	NYT_ENG_20090620.0004	SF13_ENG_006	Ali Akbar Khan	per:spouse	Shan
 APW_ENG_201003	APW_ENG_20100310.0491	SF13_ENG_007	Mohammed Sayed Tantawi	per:cities_of_residence	Cairo	I	438	442							EOL
 AFP_ENG_201003	AFP_ENG_20100310.0288	SF13_ENG_007	Mohammed Sayed Tantawi	per:employee_or_member_of	Sunni Islam	I	1346	1356							EOL
 eng-NG-31-1024	eng-NG-31-102460-8865959	SF13_ENG_012	Adam Gadahn	per:employee_or_member_of	American al Qaeda	I	3705	3721							EOL
-eng-NG-31-1130	eng-NG-31-113099-9052056	SF13_ENG_012	Adam Gadahn	per:parents	Phil Pearlman	I	34514	34526							EOL
 bolt-eng-DF-200	bolt-eng-DF-200-192451-5798243	SF13_ENG_012	Adam Gadahn	per:religion	Jewish	I	6951	6956							EOL
 WPB_ENG_201003	WPB_ENG_20100307.0023	SF13_ENG_012	Adam Gadahn	per:stateorprovince_of_birth	California	I	542	551							EOL
-WPB_ENG_201002	WPB_ENG_20100221.0011	SF13_ENG_015	Lucille Clifton	per:cause_of_death	a bacterial infection	I	1378	1398							EOL
 NYT_ENG_201005	NYT_ENG_20100513.0011	SF13_ENG_016	Paul Gray	per:cities_of_residence	Chicago	I	4145	4151							EOL
 eng-NG-31-1262	eng-NG-31-126244-8182349	SF13_ENG_016	Paul Gray	per:cities_of_residence	Kensington	I	6200	6209							EOL
 NYT_ENG_201007	NYT_ENG_20100720.0143	SF13_ENG_016	Paul Gray	per:employee_or_member_of	Texas Council of Teachers of Mathematics	I	3634	3673							EOL
@@ -168,10 +181,7 @@ NYT_ENG_201005	NYT_ENG_20100513.0011	SF13_ENG_016	Paul Gray	per:title	dealer	I	4
 NYT_ENG_201007	NYT_ENG_20100720.0143	SF13_ENG_016	Paul Gray	per:title	president	I	3617	3625							EOL
 eng-NG-31-1262	eng-NG-31-126244-8182349	SF13_ENG_016	Paul Gray	per:title	officer	I	6189	6195							EOL
 eng-NG-31-1426	eng-NG-31-142679-10068101	SF13_ENG_016	Paul Gray	per:title	chairman	I	3704	3711							EOL
-NYT_ENG_201007	NYT_ENG_20100712.0143	SF13_ENG_018	Harvey Pekar	per:city_of_death	Cleveland Heights	I	421	437							EOL
 AFP_ENG_201004	AFP_ENG_20100421.0701	SF13_ENG_019	Keli McGregor	per:origin	Canadian	I	1570	1577							EOL
-eng-NG-31-1268	eng-NG-31-126851-8229228	SF13_ENG_020	Mike Penner	per:employee_or_member_of	The Los Angeles Times	I	652	672							EOL
-eng-NG-31-1268	eng-NG-31-126851-8229228	SF13_ENG_020	Mike Penner	per:title	columnist	I	638	646							EOL
 APW_ENG_200912	APW_ENG_20091210.0455	SF13_ENG_021	David Gutierrez	per:title	spokesman	I	2528	2536							EOL
 AFP_ENG_201005	AFP_ENG_20100520.0465	SF13_ENG_022	Mikel Karrera Sarobe	per:title	senior	I	283	288							EOL
 APW_ENG_201002	APW_ENG_20100211.0683	SF13_ENG_025	Nancy Kissel	per:countries_of_residence	U.S.	I	4609	4612							EOL
@@ -179,19 +189,14 @@ APW_ENG_201002	APW_ENG_20100211.0683	SF13_ENG_025	Nancy Kissel	per:siblings	Jane
 APW_ENG_201012	APW_ENG_20101216.0760	SF13_ENG_025	Nancy Kissel	per:siblings	Robert	I	2987	2992							EOL
 APW_ENG_201008	APW_ENG_20100809.0098	SF13_ENG_026	Patricia Neal	per:city_of_death	Edgartown	I	426	434							EOL
 AFP_ENG_201003	AFP_ENG_20100328.0475	SF13_ENG_026	Patricia Neal	per:employee_or_member_of	Bacardi	I	2872	2878							EOL
-AFP_ENG_201008	AFP_ENG_20100809.0498	SF13_ENG_026	Patricia Neal	per:origin	US	I	176	177							EOL
 NYT_ENG_201004	NYT_ENG_20100428.0163	SF13_ENG_028	Billy Mays	per:date_of_death	June-XX-XX	I	4508	4511							EOL
 NYT_ENG_201004	NYT_ENG_20100415.0189	SF13_ENG_028	Billy Mays	per:employee_or_member_of	Universal American Mortgage Co.	I	1154	1184							EOL
 NYT_ENG_201004	NYT_ENG_20100415.0189	SF13_ENG_028	Billy Mays	per:title	officer	I	1143	1149							EOL
-APW_ENG_201011	APW_ENG_20101104.0743	SF13_ENG_030	Sparky Anderson	per:employee_or_member_of	Cincinnati Reds	I	257	271							EOL
 APW_ENG_201012	APW_ENG_20101216.0803	SF13_ENG_031	Blake Edwards	per:title	assistant director	I	4698	4715							EOL
-APW_ENG_201010	APW_ENG_20101020.0103	SF13_ENG_032	Hwang Jang-Yop	per:cities_of_residence	Seoul	I	1761	1765							EOL
-APW_ENG_201010	APW_ENG_20101010.0057	SF13_ENG_032	Hwang Jang-Yop	per:country_of_death	South Korea	I	194	204							EOL
 AFP_ENG_201010	AFP_ENG_20101005.0117	SF13_ENG_033	Vitaly Ginzburg	per:date_of_death	November	I	2951	2958							EOL
 AFP_ENG_201010	AFP_ENG_20101005.0117	SF13_ENG_033	Vitaly Ginzburg	per:title	critic	I	2995	3000							EOL
 APW_ENG_201003	APW_ENG_20100320.0205	SF13_ENG_036	Girija Prasad Koirala	per:origin	Nepali	I	814	819							EOL
 AFP_ENG_201009	AFP_ENG_20100912.0055	SF13_ENG_037	Claude Chabrol	per:spouse	Chabrol	I	4336	4342							EOL
-AFP_ENG_200912	AFP_ENG_20091228.0464	SF13_ENG_039	Jade Goody	per:date_of_death	XXXX-03-22	I	674	681							EOL
 APW_ENG_200908	APW_ENG_20090819.1064	SF13_ENG_041	Don Hewitt	per:cities_of_residence	Bridgehampton	I	599	611							EOL
 NYT_ENG_200908	NYT_ENG_20090819.0058	SF13_ENG_041	Don Hewitt	per:date_of_death	2002-XX-XX	I	134	137							EOL
 eng-NG-31-1285	eng-NG-31-128535-9315427	SF13_ENG_043	Ellie Greenwich	per:title	queen	I	1529	1533							EOL
@@ -199,24 +204,19 @@ AFP_ENG_201001	AFP_ENG_20100119.0058	SF13_ENG_045	Adam Goldstein	per:employee_or
 AFP_ENG_201001	AFP_ENG_20100119.0058	SF13_ENG_045	Adam Goldstein	per:title	chief executive	I	2065	2079							EOL
 LTW_ENG_200910	LTW_ENG_20091007.0013	SF13_ENG_045	Adam Goldstein	per:title	president	I	7861	7869							EOL
 AFP_ENG_201012	AFP_ENG_20101206.0060	SF13_ENG_046	Don Meredith	per:stateorprovince_of_birth	Texas	I	1866	1870							EOL
-NYT_ENG_200908	NYT_ENG_20090804.0124	SF13_ENG_048	Charles Gwathmey	per:city_of_birth	Charlotte	I	7650	7658							EOL
-NYT_ENG_200908	NYT_ENG_20090804.0124	SF13_ENG_048	Charles Gwathmey	per:date_of_birth	1938-06-19	I	7632	7644							EOL
 NYT_ENG_200908	NYT_ENG_20090810.0182	SF13_ENG_048	Charles Gwathmey	per:date_of_death	2000-XX-XX	I	686	689							EOL
 AFP_ENG_201009	AFP_ENG_20100905.0079	SF13_ENG_052	Euskadi Ta Askatasuna	org:alternate_names	Basque Homeland and Freedom	I	780	806							EOL
 APW_ENG_201009	APW_ENG_20100906.0415	SF13_ENG_052	Euskadi Ta Askatasuna	org:members	Batasuna	I	2113	2120							EOL
 AFP_ENG_200910	AFP_ENG_20091019.0199	SF13_ENG_052	Euskadi Ta Askatasuna	org:top_members_employees	Garikoitz Aspiazu Rubina	I	2255	2278							EOL
 AFP_ENG_201003	AFP_ENG_20100302.0071	SF13_ENG_052	Euskadi Ta Askatasuna	org:top_members_employees	Ibon Gogeascoechea Arronategui	I	3593	3622							EOL
 NYT_ENG_201009	NYT_ENG_20100906.0083	SF13_ENG_052	Euskadi Ta Askatasuna	org:top_members_employees	Mikel Kabikoitz Karrera Sarobe	I	2167	2196							EOL
-XIN_ENG_201003	XIN_ENG_20100315.0310	SF13_ENG_064	Stockholm International Peace Research Institute	org:date_founded	1966-XX-XX	I	1941	1944							EOL
 AFP_ENG_201006	AFP_ENG_20100601.0026	SF13_ENG_064	Stockholm International Peace Research Institute	org:top_members_employees	Sam Perlo-Freeman	I	773	789							EOL
 XIN_ENG_201006	XIN_ENG_20100609.0223	SF13_ENG_064	Stockholm International Peace Research Institute	org:top_members_employees	May-Britt Stumbaum	I	1727	1744							EOL
 XIN_ENG_201009	XIN_ENG_20100925.0123	SF13_ENG_064	Stockholm International Peace Research Institute	org:top_members_employees	Neil Melvin	I	1081	1091							EOL
 AFP_ENG_200909	AFP_ENG_20090917.0540	SF13_ENG_076	Swiss Bankers Association	org:number_of_employees_members	360	I	657	659							EOL
-AFP_ENG_200911	AFP_ENG_20091106.0273	SF13_ENG_092	Escada	org:founded_by	Wolfgang Ley	I	2648	2659							EOL
 AFP_ENG_200911	AFP_ENG_20091106.0600	SF13_ENG_092	Escada	org:number_of_employees_members	2,300	I	1160	1164							EOL
 AFP_ENG_200911	AFP_ENG_20091106.0273	SF13_ENG_092	Escada	org:top_members_employees	Ursula Dreyer	I	715	727							EOL
 NYT_ENG_201004	NYT_ENG_20100411.0092	SF13_ENG_096	Freedom Communications	org:parents	Tribune Co.	I	3228	3238							EOL
 APW_ENG_200911	APW_ENG_20091117.0560	SF13_ENG_097	STX Finland	org:city_of_headquarters	Turku	I	954	958							EOL
 AFP_ENG_200911	AFP_ENG_20091111.0315	SF13_ENG_097	STX Finland	org:number_of_employees_members	three	I	1666	1670							EOL
 NYT_ENG_201002	NYT_ENG_20100224.0190	SF13_ENG_098	Millipore Corp.	org:number_of_employees_members	6,100	I	1463	1467							EOL
-APW_ENG_200909	APW_ENG_20090917.0189	SF13_ENG_099	DCNS	org:number_of_employees_members	12,000	I	1626	1631							EOL

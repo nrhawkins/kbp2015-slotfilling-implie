@@ -1574,6 +1574,7 @@ SF13_ENG_010	per:title	UWashington_3	APW_ENG_20100525.0070	singer	3815-3820	3822
 SF13_ENG_012	per:alternate_names	UWashington_3	APW_ENG_20090923.0299	Azzam al-Amriki	1529-1543	1502-1512	1502-1543	0.9278
 SF13_ENG_012	per:employee_or_member_of	UWashington_3	AFP_ENG_20101001.0063	Al-Qaeda	2232-2239	2251-2261	2232-2261	0.9
 SF13_ENG_012	per:origin	UWashington_3	eng-NG-31-102460-8865959	American	3705-3712	3730-3740	3705-3740	0.9
+SF13_ENG_012	per:parents	UWashington_3	eng-NG-31-113099-9052056	Phil Pearlman	34514-34526	34494-34504	34494-34526	0.9
 SF13_ENG_012	per:statesorprovinces_of_residence	UWashington_3	APW_ENG_20090615.0692	California	391-400	360-370	360-400	0.9278
 SF13_ENG_012	per:title	UWashington_3	APW_ENG_20100308.0989	spokesman	490-498	500-510	490-510	0.9
 SF13_ENG_014	per:cause_of_death	UWashington_3	XIN_ENG_20100703.0063	kidney disease	290-303	159-172	159-303	0.9143
@@ -1583,6 +1584,7 @@ SF13_ENG_017	per:cause_of_death	UWashington_3	WPB_ENG_20100220.0001	complication
 SF13_ENG_017	per:city_of_death	UWashington_3	XIN_ENG_20100221.0124	Baltimore	1056-1064	850-863	850-1064	0.9146
 SF13_ENG_017	per:title	UWashington_3	eng-NG-31-126273-9129903	Secretary of State	6408-6425	6366-6379	6366-6425	0.9278
 SF13_ENG_018	per:cities_of_residence	UWashington_3	NYT_ENG_20100712.0143	Cleveland Heights	421-437	138-149	138-437	0.8532
+SF13_ENG_018	per:city_of_death	UWashington_3	NYT_ENG_20100712.0143	Cleveland Heights	421-437	138-149	138-437	0.8532
 SF13_ENG_018	per:country_of_death	UWashington_3	APW_ENG_20100712.0934	US	103-104	76-87	76-104	0.9442
 SF13_ENG_018	per:date_of_death	UWashington_3	NYT_ENG_20100905.0022	XXXX-07-12	848-854	828-832,354-365	828-854	0.92
 SF13_ENG_018	per:origin	UWashington_3	WPB_ENG_20100714.0022	American	3196-3203	3171-3172,103-114	3171-3203	0.5031
@@ -1591,11 +1593,14 @@ SF13_ENG_019	per:cause_of_death	UWashington_3	AFP_ENG_20100729.0049	natural caus
 SF13_ENG_019	per:employee_or_member_of	UWashington_3	NYT_ENG_20100420.0040	Colorado Rockies	190-205	217-229	190-229	0.9
 SF13_ENG_019	per:title	UWashington_3	AFP_ENG_20100421.0701	president	222-230	232-244	222-244	0.9
 SF13_ENG_020	per:age	UWashington_3	AFP_ENG_20091128.0100	52	354-355	232-242	232-355	0.9327
+SF13_ENG_020	per:employee_or_member_of	UWashington_3	eng-NG-31-126851-8229228	The Los Angeles Times	652-672	604-614	604-672	0.9
+SF13_ENG_020	per:title	UWashington_3	eng-NG-31-126851-8229228	columnist	638-646	604-614	604-650	0.9
 SF13_ENG_022	per:employee_or_member_of	UWashington_3	AFP_ENG_20100319.0199	ETA	1544-1546	1570-1589	1544-1589	0.9
 SF13_ENG_025	per:parents	UWashington_3	AFP_ENG_20100112.0679	Jean McGothlin	1814-1827	1798-1803,380-391	1798-1827	0.9
 SF13_ENG_026	per:cause_of_death	UWashington_3	XIN_ENG_20100808.0131	lung cancer	230-240	204-216	204-240	0.9402
 SF13_ENG_026	per:cities_of_residence	UWashington_3	APW_ENG_20100809.0098	Edgartown	426-434	381-384,79-91	381-434	0.8636
 SF13_ENG_026	per:countries_of_residence	UWashington_3	AFP_ENG_20100809.0498	US	176-177	187-199	176-199	0.9
+SF13_ENG_026	per:origin	UWashington_3	AFP_ENG_20100809.0498	US	176-177	187-199	176-199	0.9
 SF13_ENG_026	per:stateorprovince_of_death	UWashington_3	AFP_ENG_20100809.0118	Massachusetts	335-347	187-199	187-347	0.8709
 SF13_ENG_026	per:statesorprovinces_of_residence	UWashington_3	AFP_ENG_20100809.0118	Massachusetts	335-347	187-199	187-347	0.8709
 SF13_ENG_026	per:title	UWashington_3	AFP_ENG_20100809.0498	actress	179-185	187-199	179-199	0.9
@@ -1608,12 +1613,15 @@ SF13_ENG_030	per:cause_of_death	UWashington_3	NYT_ENG_20101104.0142	complication
 SF13_ENG_030	per:cities_of_residence	UWashington_3	NYT_ENG_20101104.0186	Thousand Oaks	381-393	141-155	141-393	0.8532
 SF13_ENG_030	per:city_of_death	UWashington_3	NYT_ENG_20101104.0186	Thousand Oaks	381-393	141-155	141-393	0.8532
 SF13_ENG_030	per:date_of_death	UWashington_3	AFP_ENG_20101215.0754	XXXX-11-XX	3768-3775	3637-3651	3637-3775	0.9278
+SF13_ENG_030	per:employee_or_member_of	UWashington_3	APW_ENG_20101104.0743	Cincinnati Reds	257-271	228-242	228-271	0.9579
 SF13_ENG_031	per:alternate_names	UWashington_3	WPB_ENG_20101216.0075	William Blake Crump	4462-4480	4445-4451,57-69	4445-4480	0.921
 SF13_ENG_031	per:cause_of_death	UWashington_3	APW_ENG_20101216.0966	complications of pneumonia	417-442	399-405,85-97	399-442	0.9198
 SF13_ENG_031	per:city_of_death	UWashington_3	NYT_ENG_20101216.0121	Santa Monica	325-336	135-147	135-336	0.9146
 SF13_ENG_031	per:spouse	UWashington_3	APW_ENG_20101216.0803	Julie Andrews	546-558	532-536,85-97	532-558	0.9
 SF13_ENG_031	per:stateorprovince_of_death	UWashington_3	APW_ENG_20101216.0695	California	164-173	142-154	142-173	0.9306
 SF13_ENG_032	per:cause_of_death	UWashington_3	APW_ENG_20101020.0103	heart failure	1363-1375	1347-1351	1347-1375	0.8196
+SF13_ENG_032	per:cities_of_residence	UWashington_3	APW_ENG_20101020.0103	Seoul	1761-1765	1746-1750	1746-1765	0.8765
+SF13_ENG_032	per:country_of_death	UWashington_3	APW_ENG_20101010.0057	South Korea	194-204	167-180	167-204	0.9484
 SF13_ENG_033	per:city_of_death	UWashington_3	XIN_ENG_20091109.0294	Moscow	298-303	229-243	229-303	0.9582
 SF13_ENG_033	per:origin	UWashington_3	AFP_ENG_20101005.0117	Russian	2890-2896	2856-2870	2856-2896	0.9647
 SF13_ENG_035	per:spouse	UWashington_3	AFP_ENG_20100413.0695	Lech Kaczynski	229-242	251-265	229-265	0.9
@@ -1647,6 +1655,7 @@ SF13_ENG_044	per:siblings	UWashington_3	NYT_ENG_20090826.0141	John Gregory Dunne
 SF13_ENG_044	per:statesorprovinces_of_residence	UWashington_3	APW_ENG_20090921.0007	New York	4761-4768	4777-4790	4761-4790	0.9
 SF13_ENG_044	per:title	UWashington_3	APW_ENG_20090921.0007	author	4770-4775	4777-4790	4770-4790	0.9
 SF13_ENG_045	per:alternate_names	UWashington_3	APW_ENG_20090829.0647	DJ AM	299-303	269-282	269-303	0.9278
+SF13_ENG_045	per:date_of_death	UWashington_3	APW_ENG_20100114.1379	2009-08-XX	411-416	361-365	361-416	0.8686
 SF13_ENG_045	per:stateorprovince_of_death	UWashington_3	APW_ENG_20100114.1379	New York	421-428	361-365	361-428	0.8464
 SF13_ENG_046	per:city_of_death	UWashington_3	NYT_ENG_20101206.0204	Santa Fe	380-387	135-146	135-387	0.9146
 SF13_ENG_046	per:employee_or_member_of	UWashington_3	eng-NG-31-127207-9204798	NFL	12813-12815	12774-12785	12774-12815	0.9647
@@ -1655,6 +1664,8 @@ SF13_ENG_047	per:city_of_death	UWashington_3	AFP_ENG_20100225.0477	Havana	315-32
 SF13_ENG_047	per:date_of_death	UWashington_3	AFP_ENG_20100701.0324	XXXX-02-23	1988-1998	1965-1978	1965-1998	0.9436
 SF13_ENG_047	per:parents	UWashington_3	AFP_ENG_20100321.0056	Reyna Luisa Tamayo	1446-1463	1499-1512	1446-1512	0.9
 SF13_ENG_048	per:age	UWashington_3	NYT_ENG_20090810.0069	71	823-824	758-773	758-824	0.899
+SF13_ENG_048	per:city_of_birth	UWashington_3	NYT_ENG_20090804.0124	Charlotte	7650-7658	7603-7618	7603-7658	0.9146
+SF13_ENG_048	per:date_of_birth	UWashington_3	NYT_ENG_20090804.0124	1938-06-19	7632-7644	7603-7618	7603-7644	0.9278
 SF13_ENG_049	per:city_of_death	UWashington_3	AFP_ENG_20101016.0017	Cambridge	322-330	180-196	180-330	0.9146
 SF13_ENG_049	per:stateorprovince_of_death	UWashington_3	AFP_ENG_20101016.0007	Massachusetts	333-345	180-196	180-345	0.8955
 SF13_ENG_051	org:top_members_employees	UWashington_3	LTW_ENG_20090828.0093	Mahgul Yamam	5173-5184	5203-5232	5173-5232	0.9
@@ -1666,6 +1677,7 @@ SF13_ENG_056	org:top_members_employees	UWashington_3	APW_ENG_20100611.1151	Armon
 SF13_ENG_056	org:top_members_employees	UWashington_3	NYT_ENG_20100611.0031	Don Koehler	947-957	986-1010	947-1010	0.9
 SF13_ENG_058	org:stateorprovince_of_headquarters	UWashington_3	APW_ENG_20090612.0855	New York	498-505	470-486	470-505	0.9278
 SF13_ENG_061	org:top_members_employees	UWashington_3	NYT_ENG_20100408.0163	Andrew Cosslett	330-344	370-398	330-398	0.9
+SF13_ENG_064	org:date_founded	UWashington_3	XIN_ENG_20100315.0310	1966-XX-XX	1941-1944	1919-1923	1919-1944	0.7736
 SF13_ENG_068	org:top_members_employees	UWashington_3	LTW_ENG_20090604.0047	John Overstreet	3255-3269	3298-3323	3255-3323	0.9
 SF13_ENG_069	org:parents	UWashington_3	eng-NG-31-126855-12059358	World Health Organisation	41909-41933	41836-41884	41836-41933	0.976
 SF13_ENG_073	org:stateorprovince_of_headquarters	UWashington_3	APW_ENG_20091021.0307	New York	750-757	709-738	709-757	0.9125
@@ -1681,9 +1693,11 @@ SF13_ENG_089	org:top_members_employees	UWashington_3	AFP_ENG_20090621.0015	Anato
 SF13_ENG_089	org:top_members_employees	UWashington_3	APW_ENG_20100128.0542	Anatoly Isaikin	417-431	468-482	417-482	0.9
 SF13_ENG_089	org:top_members_employees	UWashington_3	eng-NG-31-113099-9051701	Sergei Chemezov	779-793	840-854	779-854	0.9
 SF13_ENG_089	org:top_members_employees	UWashington_3	eng-NG-31-142161-10037583	Serguei Ladiguin	868-883	842-856	842-883	0.9
+SF13_ENG_092	org:founded_by	UWashington_3	AFP_ENG_20091106.0273	Wolfgang Ley	2648-2659	2633-2638,105-110	2633-2659	0.9
 SF13_ENG_094	org:top_members_employees	UWashington_3	WPB_ENG_20101108.0046	Peter Kant	6086-6095	6126-6141	6086-6141	0.9
 SF13_ENG_097	org:member_of	UWashington_3	APW_ENG_20101025.0228	STX Europe Group	743-758	702-712	702-758	0.9
 SF13_ENG_097	org:parents	UWashington_3	APW_ENG_20101025.0228	STX Europe Group	743-758	702-712	702-758	0.9527
+SF13_ENG_099	org:number_of_employees_members	UWashington_3	APW_ENG_20090917.0189	12,000	1626-1631	1617-1620	1617-1631	0.8551
 SF13_ENG_099	org:top_members_employees	UWashington_3	APW_ENG_20101101.0601	Patrick Boissier	1247-1262	1232-1235	1232-1262	0.9
 SF13_ENG_100	org:founded_by	UWashington_3	NYT_ENG_20101122.0141	Raj Rajaratnam	2878-2891	2923-2935	2878-2935	0.9
 SF13_ENG_100	org:top_members_employees	UWashington_3	APW_ENG_20100323.0969	Raj Rajaratnam	1493-1506	1533-1545	1493-1545	0.9
@@ -1694,12 +1708,13 @@ SF13_ENG_001	per:title	UWashington_3	LTW_ENG_20090817.0020	minister	478-485	487-
 SF13_ENG_007	per:cause_of_death	UWashington_3	AFP_ENG_20100319.0300	a heart attack in Saudi Arabia	675-704	639-660	639-704	0.9449
 SF13_ENG_007	per:date_of_death	UWashington_3	AFP_ENG_20100319.0300	XXXX-03-10	709-716	639-660	639-716	0.9347
 SF13_ENG_007	per:title	UWashington_3	APW_ENG_20100310.0491	sheik	429-433	407-413,209-230	407-433	0.9482
+SF13_ENG_015	per:cause_of_death	UWashington_3	WPB_ENG_20100221.0011	a bacterial infection	1378-1398	1349-1363	1349-1398	0.9143
 SF13_ENG_015	per:date_of_death	UWashington_3	WPB_ENG_20100221.0011	Feb	1400-1402	1349-1363	1349-1402	0.9146
 SF13_ENG_037	per:date_of_death	UWashington_3	WPB_ENG_20100914.0017	Sept-XX-XX	493-496	226-239	226-496	0.9278
+SF13_ENG_039	per:date_of_death	UWashington_3	AFP_ENG_20091228.0464	XXXX-03-22	674-681	657-666	657-681	0.8686
 SF13_ENG_042	per:charges	UWashington_3	AFP_ENG_20090618.0464	conspiracy	385-394	352-361	352-394	0.9143
 SF13_ENG_043	per:cause_of_death	UWashington_3	APW_ENG_20090826.0973	a heart attack at St.	406-426	388-396,58-72	388-426	0.9324
 SF13_ENG_045	per:cause_of_death	UWashington_3	NYT_ENG_20090916.0056	a drug overdose on Aug	4417-4438	4387-4391	4387-4438	0.8686
-SF13_ENG_045	per:date_of_death	UWashington_3	APW_ENG_20100114.1379	2009-08-XX	411-416	361-365	361-416	0.8686
 SF13_ENG_081	org:top_members_employees	UWashington_3	NYT_ENG_20090715.0030	Weinstein	1057-1065	1094-1118	1057-1118	0.9
 SF13_ENG_081	org:top_members_employees	UWashington_3	NYT_ENG_20100113.0107	Feinberg	8520-8527	8550-8574	8520-8574	0.9
 SF13_ENG_084	org:top_members_employees	UWashington_3	NYT_ENG_20090807.0108	Grumet	3920-3925	3945-3968	3920-3968	0.9
@@ -1710,10 +1725,8 @@ SF13_ENG_006	per:spouse	UWashington_3	NYT_ENG_20090620.0004	Shankar	3018-3024	29
 SF13_ENG_007	per:cities_of_residence	UWashington_3	APW_ENG_20100310.0491	Cairo	438-442	407-413,209-230	407-442	0.9
 SF13_ENG_007	per:employee_or_member_of	UWashington_3	AFP_ENG_20100310.0288	Sunni Islam	1346-1356	1378-1399	1346-1399	0.9
 SF13_ENG_012	per:employee_or_member_of	UWashington_3	eng-NG-31-102460-8865959	American al Qaeda	3705-3721	3730-3740	3705-3740	0.9
-SF13_ENG_012	per:parents	UWashington_3	eng-NG-31-113099-9052056	Phil Pearlman	34514-34526	34494-34504	34494-34526	0.9
 SF13_ENG_012	per:religion	UWashington_3	bolt-eng-DF-200-192451-5798243	Jewish	6951-6956	6932-6937,601-611	6932-6956	0.8668
 SF13_ENG_012	per:stateorprovince_of_birth	UWashington_3	WPB_ENG_20100307.0023	California	542-551	527-537	527-558	0.9
-SF13_ENG_015	per:cause_of_death	UWashington_3	WPB_ENG_20100221.0011	a bacterial infection	1378-1398	1349-1363	1349-1398	0.9143
 SF13_ENG_016	per:cities_of_residence	UWashington_3	NYT_ENG_20100513.0011	Chicago	4145-4151	4130-4138	4130-4158	0.9
 SF13_ENG_016	per:cities_of_residence	UWashington_3	eng-NG-31-126244-8182349	Kensington	6200-6209	6158-6166	6158-6209	0.9
 SF13_ENG_016	per:employee_or_member_of	UWashington_3	NYT_ENG_20100720.0143	Texas Council of Teachers of Mathematics	3634-3673	3602-3610	3602-3673	0.9
@@ -1722,10 +1735,7 @@ SF13_ENG_016	per:title	UWashington_3	NYT_ENG_20100513.0011	dealer	4153-4158	4130
 SF13_ENG_016	per:title	UWashington_3	NYT_ENG_20100720.0143	president	3617-3625	3602-3610	3602-3628	0.9
 SF13_ENG_016	per:title	UWashington_3	eng-NG-31-126244-8182349	officer	6189-6195	6158-6166	6158-6198	0.9
 SF13_ENG_016	per:title	UWashington_3	eng-NG-31-142679-10068101	chairman	3704-3711	3693-3701	3693-3714	0.9
-SF13_ENG_018	per:city_of_death	UWashington_3	NYT_ENG_20100712.0143	Cleveland Heights	421-437	138-149	138-437	0.8532
 SF13_ENG_019	per:origin	UWashington_3	AFP_ENG_20100421.0701	Canadian	1570-1577	1546-1555,232-244	1546-1577	0.7379
-SF13_ENG_020	per:employee_or_member_of	UWashington_3	eng-NG-31-126851-8229228	The Los Angeles Times	652-672	604-614	604-672	0.9
-SF13_ENG_020	per:title	UWashington_3	eng-NG-31-126851-8229228	columnist	638-646	604-614	604-650	0.9
 SF13_ENG_021	per:title	UWashington_3	APW_ENG_20091210.0455	spokesman	2528-2536	2509-2523	2509-2540	0.9
 SF13_ENG_022	per:title	UWashington_3	AFP_ENG_20100520.0465	senior	283-288	238-257	238-288	0.9578
 SF13_ENG_025	per:countries_of_residence	UWashington_3	APW_ENG_20100211.0683	U.S.	4609-4612	4554-4559,536-547	4554-4612	0.934
@@ -1733,19 +1743,14 @@ SF13_ENG_025	per:siblings	UWashington_3	APW_ENG_20100211.0683	Jane Kissel Clayto
 SF13_ENG_025	per:siblings	UWashington_3	APW_ENG_20101216.0760	Robert	2987-2992	2969-2974,3368-3379	2969-2992	0.9
 SF13_ENG_026	per:city_of_death	UWashington_3	APW_ENG_20100809.0098	Edgartown	426-434	381-384,79-91	381-434	0.8636
 SF13_ENG_026	per:employee_or_member_of	UWashington_3	AFP_ENG_20100328.0475	Bacardi	2872-2878	2892-2904	2872-2904	0.9
-SF13_ENG_026	per:origin	UWashington_3	AFP_ENG_20100809.0498	US	176-177	187-199	176-199	0.9
 SF13_ENG_028	per:date_of_death	UWashington_3	NYT_ENG_20100428.0163	June-XX-XX	4508-4511	4514-4517,3963-3972	4508-4522	0.9536
 SF13_ENG_028	per:employee_or_member_of	UWashington_3	NYT_ENG_20100415.0189	Universal American Mortgage Co.	1154-1184	1124-1133	1124-1184	0.9
 SF13_ENG_028	per:title	UWashington_3	NYT_ENG_20100415.0189	officer	1143-1149	1124-1133	1124-1152	0.9
-SF13_ENG_030	per:employee_or_member_of	UWashington_3	APW_ENG_20101104.0743	Cincinnati Reds	257-271	228-242	228-271	0.9579
 SF13_ENG_031	per:title	UWashington_3	APW_ENG_20101216.0803	assistant director	4698-4715	4642-4648,85-97	4642-4715	0.642
-SF13_ENG_032	per:cities_of_residence	UWashington_3	APW_ENG_20101020.0103	Seoul	1761-1765	1746-1750	1746-1765	0.8765
-SF13_ENG_032	per:country_of_death	UWashington_3	APW_ENG_20101010.0057	South Korea	194-204	167-180	167-204	0.9484
 SF13_ENG_033	per:date_of_death	UWashington_3	AFP_ENG_20101005.0117	November	2951-2958	2856-2870	2856-2958	0.9278
 SF13_ENG_033	per:title	UWashington_3	AFP_ENG_20101005.0117	critic	2995-3000	2856-2870	2856-3000	0.934
 SF13_ENG_036	per:origin	UWashington_3	APW_ENG_20100320.0205	Nepali	814-819	785-791,227-247	785-819	0.9482
 SF13_ENG_037	per:spouse	UWashington_3	AFP_ENG_20100912.0055	Chabrol	4336-4342	4352-4365,88-101	4336-4365	0.8616
-SF13_ENG_039	per:date_of_death	UWashington_3	AFP_ENG_20091228.0464	XXXX-03-22	674-681	657-666	657-681	0.8686
 SF13_ENG_041	per:cities_of_residence	UWashington_3	APW_ENG_20090819.1064	Bridgehampton	599-611	559-564,75-84	559-611	0.8333
 SF13_ENG_041	per:date_of_death	UWashington_3	NYT_ENG_20090819.0058	2002-XX-XX	134-137	58-67	58-137	0.6595
 SF13_ENG_043	per:title	UWashington_3	eng-NG-31-128535-9315427	queen	1529-1533	1512-1526	1512-1536	0.9
@@ -1753,39 +1758,34 @@ SF13_ENG_045	per:employee_or_member_of	UWashington_3	AFP_ENG_20100119.0058	Royal
 SF13_ENG_045	per:title	UWashington_3	AFP_ENG_20100119.0058	chief executive	2065-2079	2049-2062	2049-2082	0.9
 SF13_ENG_045	per:title	UWashington_3	LTW_ENG_20091007.0013	president	7861-7869	7871-7884	7861-7884	0.9
 SF13_ENG_046	per:stateorprovince_of_birth	UWashington_3	AFP_ENG_20101206.0060	Texas	1866-1870	1848-1855,199-210	1848-1877	0.9
-SF13_ENG_048	per:city_of_birth	UWashington_3	NYT_ENG_20090804.0124	Charlotte	7650-7658	7603-7618	7603-7658	0.9146
-SF13_ENG_048	per:date_of_birth	UWashington_3	NYT_ENG_20090804.0124	1938-06-19	7632-7644	7603-7618	7603-7644	0.9278
 SF13_ENG_048	per:date_of_death	UWashington_3	NYT_ENG_20090810.0182	2000-XX-XX	686-689	702-717	686-723	0.8118
 SF13_ENG_052	org:alternate_names	UWashington_3	AFP_ENG_20100905.0079	Basque Homeland and Freedom	780-806	745-765	745-806	0.934
 SF13_ENG_052	org:members	UWashington_3	APW_ENG_20100906.0415	Batasuna	2113-2120	2085-2087	2085-2120	0.9
 SF13_ENG_052	org:top_members_employees	UWashington_3	AFP_ENG_20091019.0199	Garikoitz Aspiazu Rubina	2255-2278	2222-2224	2222-2278	0.9
 SF13_ENG_052	org:top_members_employees	UWashington_3	AFP_ENG_20100302.0071	Ibon Gogeascoechea Arronategui	3593-3622	3561-3563	3561-3622	0.9
 SF13_ENG_052	org:top_members_employees	UWashington_3	NYT_ENG_20100906.0083	Mikel Kabikoitz Karrera Sarobe	2167-2196	2232-2234	2167-2234	0.9
-SF13_ENG_064	org:date_founded	UWashington_3	XIN_ENG_20100315.0310	1966-XX-XX	1941-1944	1919-1923	1919-1944	0.7736
 SF13_ENG_064	org:top_members_employees	UWashington_3	AFP_ENG_20100601.0026	Sam Perlo-Freeman	773-789	804-808	773-808	0.9
 SF13_ENG_064	org:top_members_employees	UWashington_3	XIN_ENG_20100609.0223	May-Britt Stumbaum	1727-1744	1755-1759	1727-1759	0.9
 SF13_ENG_064	org:top_members_employees	UWashington_3	XIN_ENG_20100925.0123	Neil Melvin	1081-1091	1166-1213	1081-1213	0.9428
 SF13_ENG_076	org:number_of_employees_members	UWashington_3	AFP_ENG_20090917.0540	360	657-659	614-638	614-659	0.945
-SF13_ENG_092	org:founded_by	UWashington_3	AFP_ENG_20091106.0273	Wolfgang Ley	2648-2659	2633-2638,105-110	2633-2659	0.9
 SF13_ENG_092	org:number_of_employees_members	UWashington_3	AFP_ENG_20091106.0600	2,300	1160-1164	1131-1136	1131-1164	0.9065
 SF13_ENG_092	org:top_members_employees	UWashington_3	AFP_ENG_20091106.0273	Ursula Dreyer	715-727	738-743	715-743	0.9
 SF13_ENG_096	org:parents	UWashington_3	NYT_ENG_20100411.0092	Tribune Co.	3228-3238	3299-3320	3228-3320	0.9678
 SF13_ENG_097	org:city_of_headquarters	UWashington_3	APW_ENG_20091117.0560	Turku	954-958	934-940,58-68	934-958	0.921
 SF13_ENG_097	org:number_of_employees_members	UWashington_3	AFP_ENG_20091111.0315	three	1666-1670	1611-1621	1611-1670	0.934
 SF13_ENG_098	org:number_of_employees_members	UWashington_3	NYT_ENG_20100224.0190	6,100	1463-1467	1439-1447,119-133	1439-1467	0.9383
-SF13_ENG_099	org:number_of_employees_members	UWashington_3	APW_ENG_20090917.0189	12,000	1626-1631	1617-1620	1617-1631	0.8551
 
 
 ========== Summary Statistics ==========
-	Number Correct: 141
-	Number Inexact: 13
-	Number Incorrect: 68
+	Number Correct: 155
+	Number Inexact: 14
+	Number Incorrect: 53
 
 	almost Official results
 	(the script is unable to identify redundant matches, so it is a slight over-estimate
-	Precision:	141 / 222 = 0.635135135135
-	Recall:	141 / (1251 + 217) = 0.104904632153
+	Precision:	155 / 222 = 0.698198198198
+	Recall:	155 / (1251 + 217) = 0.115122615804
 
 	With inexact results:
-	Precision:	(141 + 13) / 222 = 0.693693693694
-	Recall:	(141 + 13) / (1251 + 217) = 0.104904632153
+	Precision:	(155 + 14) / 222 = 0.761261261261
+	Recall:	(155 + 14) / (1251 + 217) = 0.115122615804
