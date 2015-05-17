@@ -1039,6 +1039,7 @@ SF14_ENG_078	ALICO	org:country_of_headquarters	US
 SF14_ENG_078	ALICO	org:date_founded	1921-XX-XX
 SF14_ENG_078	ALICO	org:members	Rodney Martin
 SF14_ENG_078	ALICO	org:number_of_employees_members	"12,500"
+SF14_ENG_078	ALICO	org:number_of_employees_members	12,500
 SF14_ENG_078	ALICO	org:parents	aig
 SF14_ENG_078	ALICO	org:parents	American International Group
 SF14_ENG_078	ALICO	org:parents	MetLife
@@ -1187,6 +1188,7 @@ SF14_ENG_096	ADF	org:date_founded	1996
 SF14_ENG_096	ADF	org:date_founded	1996-XX-XX
 SF14_ENG_096	ADF	org:political_religious_affiliation	Muslim
 SF14_ENG_096	ADF	org:top_members_employees	Jamil Mukulu
+SF14_ENG_096	ADF	org:top_members_employees	Ismael Rukwago
 SF14_ENG_097	National Energy Administration	org:alternate_names	NEA
 SF14_ENG_097	National Energy Administration	org:country_of_headquarters	china
 SF14_ENG_097	National Energy Administration	org:subsidiaries	international department

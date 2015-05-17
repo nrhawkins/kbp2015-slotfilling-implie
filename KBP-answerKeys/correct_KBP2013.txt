@@ -296,6 +296,7 @@ SF13_ENG_012	Adam Gadahn	per:employee_or_member_of	al-Qaida
 SF13_ENG_012	Adam Gadahn	per:employee_or_member_of	Qaida
 SF13_ENG_012	Adam Gadahn	per:origin	American
 SF13_ENG_012	Adam Gadahn	per:origin	U.S.
+SF13_ENG_012	Adam Gadahn	per:parents	Phil Pearlman
 SF13_ENG_012	Adam Gadahn	per:religion	Islam
 SF13_ENG_012	Adam Gadahn	per:religion	Muslims
 SF13_ENG_012	Adam Gadahn	per:stateorprovince_of_birth	Oregon
@@ -443,6 +444,7 @@ SF13_ENG_017	Alexander Haig	per:title	Military Assistant
 SF13_ENG_017	Alexander Haig	per:title	president
 SF13_ENG_017	Alexander Haig	per:title	secretary
 SF13_ENG_017	Alexander Haig	per:title	secretary of state
+SF13_ENG_017	Alexander Haig	per:title	Secretary of State
 SF13_ENG_017	Alexander Haig	per:title	soldier
 SF13_ENG_017	Alexander Haig	per:title	State Secretary
 SF13_ENG_017	Alexander Haig	per:title	statesman
@@ -450,6 +452,7 @@ SF13_ENG_017	Alexander Haig	per:title	supreme allied commander
 SF13_ENG_017	Alexander Haig	per:title	vice chief of staff
 SF13_ENG_018	Harvey Pekar	per:alternate_names	Harvey Lawrence Pekar
 SF13_ENG_018	Harvey Pekar	per:children	Danielle
+SF13_ENG_018	Harvey Pekar	per:city_of_death	Cleveland Heights
 SF13_ENG_018	Harvey Pekar	per:cities_of_residence	Cleveland
 SF13_ENG_018	Harvey Pekar	per:cities_of_residence	Cleveland Heights
 SF13_ENG_018	Harvey Pekar	per:country_of_death	US
@@ -516,10 +519,12 @@ SF13_ENG_020	Mike Penner	per:date_of_death	Friday
 SF13_ENG_020	Mike Penner	per:employee_or_member_of	Anaheim Bulletin
 SF13_ENG_020	Mike Penner	per:employee_or_member_of	L.A. Times
 SF13_ENG_020	Mike Penner	per:employee_or_member_of	Los Angeles Times
+SF13_ENG_020	Mike Penner	per:employee_or_member_of	The Los Angeles Times
 SF13_ENG_020	Mike Penner	per:employee_or_member_of	The Times
 SF13_ENG_020	Mike Penner	per:employee_or_member_of	Times
 SF13_ENG_020	Mike Penner	per:title	sports writer
 SF13_ENG_020	Mike Penner	per:title	Sportswriter
+SF13_ENG_020	Mike Penner	per:title	columnist
 SF13_ENG_021	David Gutierrez	per:age	43
 SF13_ENG_021	David Gutierrez	per:charges	10 counts of aggravated assault for each sexual partner
 SF13_ENG_021	David Gutierrez	per:charges	adultery
@@ -602,6 +607,7 @@ SF13_ENG_026	Patricia Neal	per:date_of_death	8/8/2010
 SF13_ENG_026	Patricia Neal	per:employee_or_member_of	BBC
 SF13_ENG_026	Patricia Neal	per:employee_or_member_of	Warner Bros.
 SF13_ENG_026	Patricia Neal	per:origin	U.S.
+SF13_ENG_026	Patricia Neal	per:origin	US
 SF13_ENG_026	Patricia Neal	per:schools_attended	Northwestern University
 SF13_ENG_026	Patricia Neal	per:siblings	Margaret Ann VandeNoord
 SF13_ENG_026	Patricia Neal	per:spouse	Roald Dahl
@@ -613,6 +619,7 @@ SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	New York
 SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	Tenn.
 SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	Tennessee
 SF13_ENG_026	Patricia Neal	per:title	Actress
+SF13_ENG_026	Patricia Neal	per:title	actress
 SF13_ENG_027	Abdul Aziz Al-Hakim	per:age	59
 SF13_ENG_027	Abdul Aziz Al-Hakim	per:alternate_names	Abdel Aziz al-Hakim
 SF13_ENG_027	Abdul Aziz Al-Hakim	per:alternate_names	Abdul Aziz Hakim
@@ -730,6 +737,7 @@ SF13_ENG_030	Sparky Anderson	per:date_of_death	Thursday
 SF13_ENG_030	Sparky Anderson	per:date_of_death	XXXX-11-XX
 SF13_ENG_030	Sparky Anderson	per:employee_or_member_of	Hall of Fame
 SF13_ENG_030	Sparky Anderson	per:employee_or_member_of	Reds
+SF13_ENG_030	Sparky Anderson	per:employee_or_member_of	Cincinnati Reds
 SF13_ENG_030	Sparky Anderson	per:employee_or_member_of	Tigers
 SF13_ENG_030	Sparky Anderson	per:parents	LeRoy
 SF13_ENG_030	Sparky Anderson	per:spouse	Carol
@@ -780,6 +788,8 @@ SF13_ENG_031	Blake Edwards	per:title	writing partner
 SF13_ENG_032	Hwang Jang-Yop	per:age	87
 SF13_ENG_032	Hwang Jang-Yop	per:cause_of_death	heart failure
 SF13_ENG_032	Hwang Jang-Yop	per:cause_of_death	natural causes
+SF13_ENG_032	Hwang Jang-Yop	per:cities_of_residence	Seoul
+SF13_ENG_032	Hwang Jang-Yop	per:country_of_death	South Korea
 SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	National Defense Commission
 SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	North Korea
 SF13_ENG_032	Hwang Jang-Yop	per:employee_or_member_of	Supreme People's Assembly
@@ -877,6 +887,7 @@ SF13_ENG_036	Girija Prasad Koirala	per:title	PM
 SF13_ENG_036	Girija Prasad Koirala	per:title	politician
 SF13_ENG_036	Girija Prasad Koirala	per:title	president
 SF13_ENG_036	Girija Prasad Koirala	per:title	Prime Minister
+SF13_ENG_036	Girija Prasad Koirala	per:title	prime minister
 SF13_ENG_036	Girija Prasad Koirala	per:title	statesman
 SF13_ENG_036	Girija Prasad Koirala	per:title	union organiser
 SF13_ENG_037	Claude Chabrol	per:children	Cecile Maistre
@@ -1094,6 +1105,7 @@ SF13_ENG_044	Dominick Dunne	per:stateorprovince_of_birth	Connecticut
 SF13_ENG_044	Dominick Dunne	per:stateorprovince_of_death	New York
 SF13_ENG_044	Dominick Dunne	per:statesorprovinces_of_residence	New York
 SF13_ENG_044	Dominick Dunne	per:title	Author
+SF13_ENG_044	Dominick Dunne	per:title	author
 SF13_ENG_044	Dominick Dunne	per:title	correspondent
 SF13_ENG_044	Dominick Dunne	per:title	executive producer
 SF13_ENG_044	Dominick Dunne	per:title	film producer
@@ -1112,6 +1124,7 @@ SF13_ENG_045	Adam Goldstein	per:cities_of_residence	New York City
 SF13_ENG_045	Adam Goldstein	per:cities_of_residence	Philadelphia
 SF13_ENG_045	Adam Goldstein	per:city_of_death	New York City
 SF13_ENG_045	Adam Goldstein	per:date_of_death	8/28/2009
+SF13_ENG_045	Adam Goldstein	per:date_of_death	2009-08-XX
 SF13_ENG_045	Adam Goldstein	per:employee_or_member_of	MTV
 SF13_ENG_045	Adam Goldstein	per:parents	Andrea Gross
 SF13_ENG_045	Adam Goldstein	per:stateorprovince_of_death	New York
@@ -1181,9 +1194,11 @@ SF13_ENG_048	Charles Gwathmey	per:cause_of_death	esophageal cancer
 SF13_ENG_048	Charles Gwathmey	per:children	Eric Steel
 SF13_ENG_048	Charles Gwathmey	per:children	Steel
 SF13_ENG_048	Charles Gwathmey	per:cities_of_residence	Charlotte
+SF13_ENG_048	Charles Gwathmey	per:city_of_birth	Charlotte
 SF13_ENG_048	Charles Gwathmey	per:date_of_birth	1938
 SF13_ENG_048	Charles Gwathmey	per:date_of_birth	6/19/1938
 SF13_ENG_048	Charles Gwathmey	per:date_of_birth	1938-XX-XX
+SF13_ENG_048	Charles Gwathmey	per:date_of_birth	1938-06-19
 SF13_ENG_048	Charles Gwathmey	per:date_of_death	8/3/2009
 SF13_ENG_048	Charles Gwathmey	per:date_of_death	8/10/2009
 SF13_ENG_048	Charles Gwathmey	per:date_of_death	2009-08-XX
@@ -1370,6 +1385,7 @@ SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:website	http:\\www.bnsf.com
 SF13_ENG_063	Burlington Northern Santa Fe Corp.	org:website	www.bnsf.com
 SF13_ENG_064	Stockholm International Peace Research Institute	org:alternate_names	SIPRI
 SF13_ENG_064	Stockholm International Peace Research Institute	org:city_of_headquarters	Stockholm
+SF13_ENG_064	Stockholm International Peace Research Institute	org:date_founded	1966-XX-XX
 SF13_ENG_064	Stockholm International Peace Research Institute	org:top_members_employees	Bates Gill
 SF13_ENG_064	Stockholm International Peace Research Institute	org:website	http://www.sipri.org/
 SF13_ENG_064	Stockholm International Peace Research Institute	org:website	http:\\www.sipri.org\
@@ -1659,6 +1675,7 @@ SF13_ENG_091	Arcandor	org:top_members_employees	Middelhoff
 SF13_ENG_091	Arcandor	org:top_members_employees	Thomas Middelhoff
 SF13_ENG_091	Arcandor	org:top_members_employees	Thomas Middlehoff
 SF13_ENG_092	Escada	org:alternate_names	escada AG
+SF13_ENG_092	Escada	org:founded_by	Wolfgang Ley
 SF13_ENG_094	Rapiscan Systems	org:parents	OSI Systems Inc.
 SF13_ENG_094	Rapiscan Systems	org:stateorprovince_of_headquarters	Calif.
 SF13_ENG_094	Rapiscan Systems	org:stateorprovince_of_headquarters	California
@@ -1711,6 +1728,7 @@ SF13_ENG_099	DCNS	org:city_of_headquarters	Paris
 SF13_ENG_099	DCNS	org:country_of_headquarters	France
 SF13_ENG_099	DCNS	org:country_of_headquarters	French
 SF13_ENG_099	DCNS	org:number_of_employees_members	"12,000"
+SF13_ENG_099	DCNS	org:number_of_employees_members	12,000
 SF13_ENG_099	DCNS	org:parents	Thales
 SF13_ENG_099	DCNS	org:shareholders	Thales
 SF13_ENG_099	DCNS	org:subsidiaries	Armaris

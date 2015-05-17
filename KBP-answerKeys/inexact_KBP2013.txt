@@ -45,6 +45,7 @@ SF13_ENG_005	Tahawwur Hussain Rana	per:charges	foreign terrorism conspiracy.
 SF13_ENG_005	Tahawwur Hussain Rana	per:charges	his alleged involvement
 SF13_ENG_005	Tahawwur Hussain Rana	per:charges	material support for terrorism
 SF13_ENG_005	Tahawwur Hussain Rana	per:charges	one count of conspiracy
+SF13_ENG_005	Tahawwur Hussain Rana	per:charges	conspiracy
 SF13_ENG_005	Tahawwur Hussain Rana	per:charges	one count of providing aid to terrorism
 SF13_ENG_005	Tahawwur Hussain Rana	per:charges	terrorism
 SF13_ENG_005	Tahawwur Hussain Rana	per:charges	two counts of conspiracy to provide aid to terrorism
@@ -110,6 +111,7 @@ SF13_ENG_014	Mohammed Oudeh	per:title	former math teacher
 SF13_ENG_015	Lucille Clifton	per:date_of_death	2/13/2010
 SF13_ENG_015	Lucille Clifton	per:date_of_death	2010-02
 SF13_ENG_015	Lucille Clifton	per:date_of_death	Feb
+SF13_ENG_015	Lucille Clifton	per:cause_of_death	a bacterial infection
 SF13_ENG_015	Lucille Clifton	per:date_of_death	Saturday
 SF13_ENG_015	Lucille Clifton	per:spouse	Fred
 SF13_ENG_015	Lucille Clifton	per:title	Award-winning poet
@@ -295,6 +297,7 @@ SF13_ENG_039	Jade Goody	per:charges	racist
 SF13_ENG_039	Jade Goody	per:city_of_death	Upshire
 SF13_ENG_039	Jade Goody	per:country_of_death	England
 SF13_ENG_039	Jade Goody	per:date_of_death	3/22/2009
+SF13_ENG_039	Jade Goody	per:date_of_death	XXXX-03-22
 SF13_ENG_039	Jade Goody	per:spouse	Tweed
 SF13_ENG_039	Jade Goody	per:title	fellow contestant
 SF13_ENG_039	Jade Goody	per:title	nurse

@@ -287,6 +287,7 @@ SF14_ENG_075	National Restaurant Association	org:website	www.restaurant.org\/
 SF14_ENG_078	ALICO	org:country_of_headquarters	American
 SF14_ENG_078	ALICO	org:date_founded	1921
 SF14_ENG_078	ALICO	org:parents	International Group
+SF14_ENG_078	ALICO	org:parents	AIG
 SF14_ENG_078	ALICO	org:top_members_employees	Rodney
 SF14_ENG_080	Menil Collection	org:date_founded	1987
 SF14_ENG_080	Menil Collection	org:top_members_employees	Josef
