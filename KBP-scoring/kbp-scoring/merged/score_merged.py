@@ -41,10 +41,11 @@ results = [r.split("\t") for r in results if r.split("\t")[3].strip() != "NIL"]
 result_tuples = [(tup[0], tup[1], tup[4].lower()) for tup in results]
 
 lines = []
+notfound = []
 for tup in result_tuples:
-  line = o_toline_map.get(tup, i_toline_map.get(tup))
+  line = i_toline_map.get(tup, o_toline_map.get(tup))
   if line is None:
-    sys.exit("Line is none!!!\ntuple: {}".format(tup))
+    notfound.append(tup)
 
   lines.append(line)
 
@@ -55,5 +56,9 @@ headers = ["file id", "query id", "entity", "slotname", "slotfill", "correct", \
 out.write("\t".join(headers) + "\n")
 
 out.write("\n".join(lines))
+
+out.write("\n\nNot Found (Probably duplicates)\n")
+out.write("\n".join(notfound))
+
 out.close()
 
