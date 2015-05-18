@@ -178,12 +178,12 @@ APW_ENG_20091030.1329	SF13_ENG_045	Adam Goldstein	per:origin	caribbean			1	1			1
 WPB_ENG_20100404.0028	SF13_ENG_081	Washington National Opera	org:stateorprovince_of_headquarters	washington			1	1			1407	1432	Washington National Opera for the RNC job, could not be reached to comment, and 
 LTW_ENG_20090906.0007	SF13_ENG_084	Bipartisan Policy Center	org:stateorprovince_of_headquarters	washington			1	1			3254	3303	Grumet, a Democrat who directs the Bipartisan Policy Center, a Washington think tank that is parked in the lonely middle of the spectrum. 
 XIN_ENG_20101129.0402	SF13_ENG_085	China Banking Regulatory Commission	org:city_of_headquarters	shanghai			1	1			1038	1090	Yan Qingmin, director general of China Banking Regulatory Commission (CBRC), Shanghai, while addressing at the two-day summit. 
-bolt-eng-DF-199-192909-6672100	SF13_ENG_007	Mohammed Sayed Tantawi	per:title	sheik		R		1			763	805	"What is the guilt of those children? Why should they be responsible for your conflict with the government?" Egypt's top Muslim cleric, Grand Sheik Mohammed Sayed Tantawi, asked during a sermon in Banha, 30 miles north of Cairo. 
-LTW_ENG_20091129.0047	SF13_ENG_020	Mike Penner	per:cities_of_residence	l.a.		R		1			58	93	L.A. Times Sportswriter Mike Penner, 52, Dies 
-APW_ENG_20091020.0619	SF13_ENG_031	Blake Edwards	per:title	director		R		1			2137	2168	She shared her experiences with Walt Disney and told of how he took her on her "very first ever trip to Disneyland." She talked about working with Rodgers and Hammerstein and Alfred Hitchcock and "those delicious leading men" such as Paul Newman and Omar Sharif. She spoke of working with her husband, director Blake Edwards, and how once when he was directing her during a love scene, he told her, "That was just fine, darling, but I know you can do it better." 
-AFP_ENG_20100912.0193	SF13_ENG_037	Claude Chabrol	per:title	film maker		R		1			164	240	PARIS, Sept 12, 2010 (AFP) </DATELINE> <TEXT> <P> Prolific French film maker Claude Chabrol, who helped start the New Wave 
-APW_ENG_20091107.0500	SF13_ENG_037	Claude Chabrol	per:title	filmmaker		R		1			789	813	Other celebrities featured on the program included Chanel designer Karl Lagerfeld and filmmaker Claude Chabrol. 
-NYT_ENG_20100912.0098	SF13_ENG_037	Claude Chabrol	per:title	director		R		1			5523	5552	      OBIT-CHABROL (Undated) -- Claude Chabrol, the director and critic 
+bolt-eng-DF-199-192909-6672100	SF13_ENG_007	Mohammed Sayed Tantawi	per:title	sheik			1	1			763	805	"What is the guilt of those children? Why should they be responsible for your conflict with the government?" Egypt's top Muslim cleric, Grand Sheik Mohammed Sayed Tantawi, asked during a sermon in Banha, 30 miles north of Cairo. 
+LTW_ENG_20091129.0047	SF13_ENG_020	Mike Penner	per:cities_of_residence	l.a.			1	1			58	93	L.A. Times Sportswriter Mike Penner, 52, Dies 
+APW_ENG_20091020.0619	SF13_ENG_031	Blake Edwards	per:title	director			1	1			2137	2168	She shared her experiences with Walt Disney and told of how he took her on her "very first ever trip to Disneyland." She talked about working with Rodgers and Hammerstein and Alfred Hitchcock and "those delicious leading men" such as Paul Newman and Omar Sharif. She spoke of working with her husband, director Blake Edwards, and how once when he was directing her during a love scene, he told her, "That was just fine, darling, but I know you can do it better." 
+AFP_ENG_20100912.0193	SF13_ENG_037	Claude Chabrol	per:title	film maker			1	1			164	240	PARIS, Sept 12, 2010 (AFP) </DATELINE> <TEXT> <P> Prolific French film maker Claude Chabrol, who helped start the New Wave 
+APW_ENG_20091107.0500	SF13_ENG_037	Claude Chabrol	per:title	filmmaker			1	1			789	813	Other celebrities featured on the program included Chanel designer Karl Lagerfeld and filmmaker Claude Chabrol. 
+NYT_ENG_20100912.0098	SF13_ENG_037	Claude Chabrol	per:title	director			1	1			5523	5552	      OBIT-CHABROL (Undated) -- Claude Chabrol, the director and critic 
 AFP_ENG_20100310.0137	SF13_ENG_007	Mohammed Sayed Tantawi	per:title	sheikh		1		1			385	414	Sheikh Mohammed Sayed Tantawi, 81, died of a heart attack earlier Wednesday in 
 AFP_ENG_20091128.0100	SF13_ENG_020	Mike Penner	per:title	writer		1		1			171	259	LOS ANGELES, Nov 28, 2009 (AFP) </DATELINE> <TEXT> <P> Los Angeles Times sports writer Mike Penner, who attracted international 
 LTW_ENG_20090629.0058	SF13_ENG_028	Billy Mays	per:title	hawker		1		1			58	84	Mays, Boisterous TV Hawker, Dies at 50 
@@ -306,7 +306,10 @@ AFP_ENG_20100320.0053	SF13_ENG_036	Girija Prasad Koirala	per:title	architect		1	
 AFP_ENG_20100320.0339	SF13_ENG_036	Girija Prasad Koirala	per:title	broker		1			1		64	84	Nepal peace broker Koirala dies: aide 
 APW_ENG_20101224.0071	SF13_ENG_049	Benoit Mandelbrot	per:origin	france		1			1		2051	2262	Oct. 14 </P> <P> --Benoit Mandelbrot, 85 a well known, Polish-Born French mathematician who was largely responsible for developing the field of spacial geometry, in Cambridge, Massachusetts, of pancreatic cancer. 
 													
-				counts	164	21	114	195	10	100			
+				counts	164	21	120	195	10	100			
 													
-				precision	0.5484949833			0.6393442623					
-				precision with inexact	0.618729097			0.6721311475					
+				precision	0.537704918			0.6393442623					
+				recall	0.1456483126			0.1731793961					
+				F1	0.2292103424			0.2725366876					
+													
+				precision with inexact	0.606557377			0.6721311475					

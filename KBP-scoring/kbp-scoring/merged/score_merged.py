@@ -46,8 +46,8 @@ for tup in result_tuples:
   line = i_toline_map.get(tup, o_toline_map.get(tup))
   if line is None:
     notfound.append(tup)
-
-  lines.append(line)
+  else:
+    lines.append(line)
 
 
 out.write("\t\t\t\t\tofficial scoring\t\t\tour scoring\n")
@@ -58,7 +58,7 @@ out.write("\t".join(headers) + "\n")
 out.write("\n".join(lines))
 
 out.write("\n\nNot Found (Probably duplicates)\n")
-out.write("\n".join(notfound))
+out.write("\n".join([str(t) for t in notfound]))
 
 out.close()
 

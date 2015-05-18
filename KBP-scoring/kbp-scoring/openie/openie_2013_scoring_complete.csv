@@ -227,4 +227,10 @@ APW_ENG_20100323.0969	SF13_ENG_084	Bipartisan Policy Center	org:top_members_empl
 													
 													
 				precison	0.6756756757			0.8468468468					
+				recall	0.1332149201			0.1669626998					
+				F1	0.2225519288			0.2789317507					
+													
 				with inexact precision	0.7657657658			0.8738738739					
+													
+			correct answer key size: 1126										
+			Calculated as 0.9 of original since we're using a 90% subset of the evaluation										
