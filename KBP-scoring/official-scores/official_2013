@@ -1833,7 +1833,7 @@ c SF13_ENG_092:org:date_dissolved NIL
 C SF13_ENG_092:org:founded_by AFP_ENG_20091106.0273:2633-2659:2633-2638,105-110:2648-2659:Wolfgang Ley
 c SF13_ENG_092:org:member_of NIL
 c SF13_ENG_092:org:members NIL
-W SF13_ENG_092:org:number_of_employees_members AFP_ENG_20091106.0600:1131-1164:1131-1136:1160-1164:2,300
+W SF13_ENG_092:org:number_of_employees_members AFP_ENG_20091106.0600:1131-1164:1131-1136:1160-1164:2300
 c SF13_ENG_092:org:parents NIL
 c SF13_ENG_092:org:political_religious_affiliation NIL
 M SF13_ENG_092:org:shareholders NIL

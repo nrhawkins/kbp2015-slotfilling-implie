@@ -20,9 +20,9 @@ AFP_ENG_20100601.0026	SF13_ENG_047	Orlando Zapata	per:date_of_death	XXXX-02-23		
 XIN_ENG_20100609.0223	SF13_ENG_081	Washington National Opera	org:top_members_employees	Weinstein		1		1			1057	1065	orchestras, who trusted him completely," said Mark J. Weinstein, 
 NYT_ENG_20101122.0141	SF13_ENG_081	Washington National Opera	org:top_members_employees	Feinberg		1			1		8520	8527	Kenneth R. Feinberg, the chairman of the Washington National 
 APW_ENG_20100323.0969	SF13_ENG_084	Bipartisan Policy Center	org:top_members_employees	Grumet		1			1		3920	3925	Jason S. Grumet, president of the Bipartisan Policy Center and an 
-LTW_ENG_20090817.0020	SF13_ENG_002	Marc Bolland	per:title	chief executive	1			1			393	407	chief Marc Bolland was to become its chief executive in the new year. 
+LTW_ENG_20090817.0020	SF13_ENG_002	Marc Bolland	per:title	chief executive			1	1			393	407	chief Marc Bolland was to become its chief executive in the new year. 
 XIN_ENG_20091118.0290	SF13_ENG_003	Stuart Rose	per:title	chairman	1			1			880	887	"These are strong quarterly results by any measure," M&amp;S chairman Stuart 
-AFP_ENG_20100408.0500	SF13_ENG_005	Tahawwur Hussain Rana	per:cities_of_residence	Chicago	1			1			1332	1338	On Monday, Headley's co-defendant, 49-year-old Chicago businessman Tahawwur Hussain Rana, pleaded not guilty to the charges against him. 
+AFP_ENG_20100408.0500	SF13_ENG_005	Tahawwur Hussain Rana	per:cities_of_residence	Chicago			1	1			1332	1338	On Monday, Headley's co-defendant, 49-year-old Chicago businessman Tahawwur Hussain Rana, pleaded not guilty to the charges against him. 
 APW_ENG_20091028.0100	SF13_ENG_005	Tahawwur Hussain Rana	per:country_of_birth	Pakistan	1			1			433	440	Tahawwur Hussain Rana, a 49-year-old born in Pakistan, has been held in jail 
 APW_ENG_20100127.1111	SF13_ENG_005	Tahawwur Hussain Rana	per:origin	Canadian	1			1			2514	2521	Rana, who was born in Pakistan but is a Canadian citizen, both 
 AFP_ENG_20100114.0009	SF13_ENG_005	Tahawwur Hussain Rana	per:title	businessman	1			1			1340	1350	On Monday, Headley's co-defendant, 49-year-old Chicago businessman Tahawwur Hussain Rana, pleaded not guilty to the charges against him. 
@@ -40,7 +40,7 @@ APW_ENG_20090921.0007	SF13_ENG_007	Mohammed Sayed Tantawi	per:cities_of_residenc
 LTW_ENG_20090604.0047	SF13_ENG_007	Mohammed Sayed Tantawi	per:employee_or_member_of	Sunni Islam			1			1	1346	1356	Sunni Islam's top cleric Sheikh Mohammed Sayed Tantawi, a controversial figure 
 APW_ENG_20100310.0491	SF13_ENG_008	Mathieu Montcourt	per:cause_of_death	a heart attack	1			1			307	320	near Paris early Tuesday, died of a heart attack, a police source told AFP on 
 AFP_ENG_20100310.0422	SF13_ENG_008	Mathieu Montcourt	per:title	tennis player	1			1			73	85	Tennis: French tennis player Montcourt found dead 
-AFP_ENG_20100310.0422	SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	Aiba	1			1			4031	4034	Aiba's president, Prof Anwar Chowdhry, complained that the 
+AFP_ENG_20100310.0422	SF13_ENG_009	Anwar Chowdhry	per:employee_or_member_of	Aiba			1	1			4031	4034	Aiba's president, Prof Anwar Chowdhry, complained that the 
 AFP_ENG_20100310.0288	SF13_ENG_009	Anwar Chowdhry	per:title	president	1			1			66	74	Ex-AIBA president Anwar Chowdhry dies 
 AFP_ENG_20100319.0300	SF13_ENG_010	Ronnie James Dio	per:alternate_names	Ronald James Padavona	1			1			767	787	Dio, born Ronald James Padavona in Portsmouth, New Hampshire, played in 
 AFP_ENG_20100319.0300	SF13_ENG_010	Ronnie James Dio	per:children	Dan Padavona	1			1			1756	1767	Dio's son, Dan Padavona, cautioned the memorial crowd to be screened regularly by a doctor and take care of themselves, something he said his father did not do. 
@@ -74,7 +74,7 @@ APW_ENG_20090615.0692	SF13_ENG_018	Harvey Pekar	per:city_of_death	Cleveland Heig
 APW_ENG_20100308.0989	SF13_ENG_018	Harvey Pekar	per:country_of_death	US	1			1			103	104	Comic book writer Harvey Pekar dies at 70 in US 
 eng-NG-31-102460-8865959	SF13_ENG_018	Harvey Pekar	per:date_of_death	XXXX-07-12		1		1			848	854	But when Pekar died at 70 on July 12 -- suddenly it seemed to 
 bolt-eng-DF-200-192451-5798243	SF13_ENG_018	Harvey Pekar	per:stateorprovince_of_death	Ohio	1			1			103	106	Comic book writer Harvey Pekar dies at 70 in Ohio 
-AFP_ENG_20091008.0518	SF13_ENG_018	Harvey Pekar	per:origin	American			1			1	3196	3203	think he was even more like an American Chekhov. 
+AFP_ENG_20091008.0518	SF13_ENG_018	Harvey Pekar	per:origin	American	1					1	3196	3203	think he was even more like an American Chekhov. 
 WPB_ENG_20100307.0023	SF13_ENG_019	Keli McGregor	per:cause_of_death	natural causes	1			1			310	323	on April 20, died of natural causes, police said Thursday. 
 XIN_ENG_20100703.0063	SF13_ENG_019	Keli McGregor	per:employee_or_member_of	Colorado Rockies	1			1			190	205	Colorado Rockies president Keli McGregor, 48, was found 
 NYT_ENG_20100704.0043	SF13_ENG_019	Keli McGregor	per:title	president	1			1			222	230	Colorado Rockies team president Keli McGregor, a former National Football League 
@@ -96,10 +96,10 @@ NYT_ENG_20100720.0143	SF13_ENG_026	Patricia Neal	per:origin	US	1			1			176	177	U
 eng-NG-31-126244-8182349	SF13_ENG_026	Patricia Neal	per:stateorprovince_of_death	Massachusetts	1			1			335	347	Patricia Neal, who won an Oscar for her role in "Hud" opposite Paul Newman but whose career was shadowed by personal tragedies, died at her home in Massachusetts
 eng-NG-31-142679-10068101	SF13_ENG_026	Patricia Neal	per:statesorprovinces_of_residence	Massachusetts	1			1			335	347	Patricia Neal, who won an Oscar for her role in "Hud" opposite Paul Newman but whose career was shadowed by personal tragedies, died at her home in Massachusetts
 WPB_ENG_20100220.0001	SF13_ENG_026	Patricia Neal	per:title	actress	1			1			179	185	US actress Patricia Neal, winner of both  Academy and Tony awards, died at her 
-AFP_ENG_20100701.0324	SF13_ENG_026	Patricia Neal	per:city_of_death	Edgartown			1	1			426	434	Neal had lung cancer and died at her home in Edgartown, Massachusetts, on Martha's Vineyard, said longtime friend Bud Albers of Knoxville. 
+AFP_ENG_20100701.0324	SF13_ENG_026	Patricia Neal	per:city_of_death	Edgartown	1			1			426	434	Neal had lung cancer and died at her home in Edgartown, Massachusetts, on Martha's Vineyard, said longtime friend Bud Albers of Knoxville. 
 AFP_ENG_20100225.0477	SF13_ENG_026	Patricia Neal	per:employee_or_member_of	Bacardi			1	1			2872	2878	<P> Bacardi spokeswoman Patricia Neal said the issue is "about the proper use of 
 XIN_ENG_20100221.0124	SF13_ENG_028	Billy Mays	per:cause_of_death	heart disease	1			1			6860	6872	autopsy Aug. 7 that said Mays died of heart disease with cocaine 
-eng-NG-31-126273-9129903	SF13_ENG_028	Billy Mays	per:cities_of_residence	Tampa	1			1			317	321	Billy Mays, a beloved and parodied pitchman who became a pop-culture figure through his commercials for cleaning products like Orange Glo, OxiClean and Kaboom, died Sunday at his home in Tampa
+eng-NG-31-126273-9129903	SF13_ENG_028	Billy Mays	per:cities_of_residence	Tampa			1	1			317	321	Billy Mays, a beloved and parodied pitchman who became a pop-culture figure through his commercials for cleaning products like Orange Glo, OxiClean and Kaboom, died Sunday at his home in Tampa
 NYT_ENG_20100712.0143	SF13_ENG_028	Billy Mays	per:city_of_death	Tampa	1			1			317	321	Billy Mays, a beloved and parodied pitchman who became a pop-culture figure through his commercials for cleaning products like Orange Glo, OxiClean and Kaboom, died Sunday at his home in Tampa
 NYT_ENG_20100712.0143	SF13_ENG_028	Billy Mays	per:spouse	Deborah Mays	1			1			1091	1102	Mays' wife, Deborah Mays, told investigators that her husband had complained he did not feel well before he went to bed some time after 10 p.m. Saturday night, Tampa police spokeswoman Laura McElroy said. 
 AFP_ENG_20100701.0324	SF13_ENG_028	Billy Mays	per:employee_or_member_of	Universal American Mortgage Co.			1	1			1154	1184	Billy Mays, a loan officer at Universal American Mortgage Co., 
@@ -133,10 +133,10 @@ AFP_ENG_20100809.0118	SF13_ENG_037	Claude Chabrol	per:city_of_death	Paris	1			1	
 AFP_ENG_20100809.0118	SF13_ENG_037	Claude Chabrol	per:origin	French	1			1			141	146	Paris city hall official says French New Wave filmmaker Claude Chabrol has died at age 80. 
 AFP_ENG_20100809.0498	SF13_ENG_037	Claude Chabrol	per:title	film director	1			1			950	962	announced his death, told AFP Chabrol was "an immense French film director, 
 APW_ENG_20100809.0098	SF13_ENG_037	Claude Chabrol	per:title	film maker	1			1			209	218	Prolific French film maker Claude Chabrol, who helped start the New Wave 
-AFP_ENG_20100328.0475	SF13_ENG_037	Claude Chabrol	per:title	critic	1			1			1039	1044	Chabrol was a young film critic working for the magazine Cahiers 
+AFP_ENG_20100328.0475	SF13_ENG_037	Claude Chabrol	per:title	critic		1		1			1039	1044	Chabrol was a young film critic working for the magazine Cahiers 
 AFP_ENG_20091208.0545	SF13_ENG_037	Claude Chabrol	per:spouse	Chabrol			1			1	4336	4342	Chabrol married his third wife, Aurore Pajot, in 1983, and leaves behind four 
 NYT_ENG_20091011.0059	SF13_ENG_038	Merce Cunningham	per:age	90	1			1			1317	1318	modern dance, has died at age 90, his foundation says. 
-NYT_ENG_20090628.0116	SF13_ENG_038	Merce Cunningham	per:date_of_death	July-XX-XX	1			1			447	450	"Beach Birds" (1991) by Merce Cunningham, who died last July. 
+NYT_ENG_20090628.0116	SF13_ENG_038	Merce Cunningham	per:date_of_death	July-XX-XX		1		1			447	450	"Beach Birds" (1991) by Merce Cunningham, who died last July. 
 NYT_ENG_20090628.0116	SF13_ENG_038	Merce Cunningham	per:title	teacher	1			1			10844	10850	For many people Cunningham was also a superlative dance teacher 
 APW_ENG_20090628.0569	SF13_ENG_039	Jade Goody	per:cause_of_death	cancer	1			1			279	284	Goody, who died of cancer last year, of rape. 
 NYT_ENG_20100428.0163	SF13_ENG_039	Jade Goody	per:spouse	Jack Tweed	1			1			178	187	Jack Tweed, the bereaved husband of late British reality television star Jade 
@@ -148,7 +148,7 @@ NYT_ENG_20101104.0186	SF13_ENG_041	Don Hewitt	per:employee_or_member_of	Merchant
 NYT_ENG_20101104.0186	SF13_ENG_041	Don Hewitt	per:title	executive	1			1			2112	2120	News executive and creator of the long-running "60 Minutes" news 
 NYT_ENG_20090810.0069	SF13_ENG_041	Don Hewitt	per:cities_of_residence	Bridgehampton			1	1			599	611	Hewitt died of pancreatic cancer at his Bridgehampton home, CBS said. His death came a month after that of fellow CBS legend Walter Cronkite. 
 XIN_ENG_20101102.0399	SF13_ENG_041	Don Hewitt	per:date_of_death	2002-XX-XX			1			1	134	137	DON HEWITT, ' 60 MINUTES '  CREATOR, DIES AT 86 WALTER GOODMAN, WHO DIED IN 2002, CONTRIBUTED REPORTING. 
-AFP_ENG_20101215.0754	SF13_ENG_043	Ellie Greenwich	per:origin	American	1			1			3728	3735	Greenwich was unprecedented in American popular music, all the more 
+AFP_ENG_20101215.0754	SF13_ENG_043	Ellie Greenwich	per:origin	American			1	1			3728	3735	Greenwich was unprecedented in American popular music, all the more 
 XIN_ENG_20101110.0464	SF13_ENG_043	Ellie Greenwich	per:title	queen			1			1	1529	1533	The wonderful Ellie Greenwich, queen of Girl Group Pop music, has 
 APW_ENG_20101104.0743	SF13_ENG_044	Dominick Dunne	per:alternate_names	Nick	1			1			5333	5336	Dunne, known as Nick to his friends, was a ubiquitous figure in 
 WPB_ENG_20101216.0075	SF13_ENG_044	Dominick Dunne	per:city_of_birth	Hartford	1			1			8214	8221	Dunne was born in 1925 in Hartford, Connecticut, to a wealthy Roman Catholic family and grew up in some of the same social circles as the Kennedys. In his memoir, he traced his fascination with Hollywood to a childhood trip he took "out West" with an aunt. They took one of those home of the stars bus tours and he vowed to come back and be part of the glamorous world he had glimpsed. 
@@ -165,7 +165,7 @@ NYT_ENG_20090810.0182	SF13_ENG_045	Adam Goldstein	per:title	president			1	1			78
 APW_ENG_20101010.0057	SF13_ENG_046	Don Meredith	per:city_of_death	Santa Fe	1			1			380	387	prime-time telecasts on Monday nights, died Sunday in Santa Fe, 
 AFP_ENG_20101016.0017	SF13_ENG_046	Don Meredith	per:stateorprovince_of_birth	Texas			1	1			1866	1870	Meredith, a north Texas native with a folksy delivery and wry sense of humor, 
 AFP_ENG_20090621.0015	SF13_ENG_046	Don Meredith	per:employee_or_member_of	NFL			1			1	12813	12815	&gt; Don Meredith, 1963-68: Led team to two NFL Championship games; played 
-XIN_ENG_20091109.0294	SF13_ENG_047	Orlando Zapata	per:cause_of_death	the result of an 85-day hunger strike	1			1			2003	2039	on February 23 as the result of an 85-day hunger strike. 
+XIN_ENG_20091109.0294	SF13_ENG_047	Orlando Zapata	per:cause_of_death	the result of an 85-day hunger strike		1		1			2003	2039	on February 23 as the result of an 85-day hunger strike. 
 AFP_ENG_20101005.0117	SF13_ENG_047	Orlando Zapata	per:city_of_death	Havana	1			1			315	320	dissident Orlando Zapata who died Tuesday in a Havana jail after a two-month 
 AFP_ENG_20101005.0117	SF13_ENG_047	Orlando Zapata	per:parents	Reyna Luisa Tamayo	1			1			1446	1463	The women were accompanied by Reyna Luisa Tamayo, the mother of political 
 AFP_ENG_20101005.0117	SF13_ENG_048	Charles Gwathmey	per:age	71	1			1			823	824	Here are the top culture, entertainment and special section features from The New York Times News Service for Tuesday, Aug. 11. For the latest photos and graphics from The New York Times, go to www.nytimages.com. CULTURE AND ENTERTAINMENT ("e" code) GWATHMEY-ARCHITECTS (New York) -- It was a group akin to the writers round table at the Algonquin featuring Dorothy Parker or the New York School of artists who gathered at the Cedar Tavern with the likes of Willem de Kooning. Every so often over the last 30 years, a group of architects who had met in the 1960s and eventually rose to prominence would get together to discuss their work and the profession. Charles Gwathmey, who died on Monday of esophageal cancer at age 71, was one of them. Following news of Gwathmey's death, friends and colleagues highlighted the weekend houses the architect had designed in the Hamptons -- most notably the one for his parents, completed in 1966 -- and his additions to public buildings like Frank Lloyd Wright's Guggenheim Museum and Paul Rudolph's Art &amp; Architecture Building at Yale.  Pogrebin. 
@@ -209,7 +209,7 @@ NYT_ENG_20090717.0185	SF13_ENG_089	Rosoboronexport	org:top_members_employees	Ser
 APW_ENG_20090819.1064	SF13_ENG_089	Rosoboronexport	org:top_members_employees	Serguei Ladiguin	1			1			868	883	Rosoboronexport executive Serguei Ladiguin.  &quot;We have initialed agreements for US$4 billion with Venezuela and we 
 AFP_ENG_20100302.0071	SF13_ENG_089	Rosoboronexport	org:top_members_employees	Anatoly Isaikin			1	1			417	431	Anatoly Isaikin, the head of the state arms trader Rosoboronexport, said no international agreements bar Russia from selling weapons to Tehran. The statement marked another step in a delicate diplomatic game Moscow has been playing in a hope of maintaining good ties with Tehran without angering the West. 
 NYT_ENG_20090819.0058	SF13_ENG_092	Escada	org:founded_by	Wolfgang Ley	1			1			2648	2659	Escada founder Wolfgang Ley. 
-AFP_ENG_20090618.0464	SF13_ENG_092	Escada	org:number_of_employees_members	2300	1			1			1160	1164	Escada, which employs around 2,300 people worldwide, was forced to file for 
+AFP_ENG_20090618.0464	SF13_ENG_092	Escada	org:number_of_employees_members	2300			1	1			1160	1164	Escada, which employs around 2,300 people worldwide, was forced to file for 
 WPB_ENG_20101108.0046	SF13_ENG_092	Escada	org:top_members_employees	Ursula Dreyer			1			1	715	727	Germany, added Ursula Dreyer, head of Escada's works committee. 
 NYT_ENG_20090829.0124	SF13_ENG_094	Rapiscan Systems	org:top_members_employees	Peter Kant	1			1			6086	6095	scan everything," said Peter Kant, executive vice president of Rapiscan Systems, 
 NYT_ENG_20100411.0092	SF13_ENG_096	Freedom Communications	org:parents	Tribune Co.			1			1	3228	3238	Tribune Co., which owns The Los Angeles Times and The Chicago Tribune; Freedom Communications
@@ -217,18 +217,18 @@ APW_ENG_20090826.0973	SF13_ENG_097	STX Finland	org:member_of	STX Europe Group	1	
 eng-NG-31-128535-9315427	SF13_ENG_097	STX Finland	org:parents	STX Europe Group	1			1			743	758	STX Finland is part of the international STX Europe Group, with shipyards in Brazil, Norway, France, Romania and Vietnam. 
 APW_ENG_20101025.0228	SF13_ENG_097	STX Finland	org:city_of_headquarters	Turku			1			1	954	958	The shipbuilder has three yards in Finland, located in Turku, Rauma and in the capital, Helsinki. 
 APW_ENG_20101025.0228	SF13_ENG_097	STX Finland	org:number_of_employees_members	three			1			1	1666	1670	STX Finland, part of South Korean shipbuilder STX, has three shipyards, which 
-NYT_ENG_20090826.0141	SF13_ENG_098	Millipore Corp.	org:number_of_employees_members	6100	1			1			1463	1467	Millipore has more than 6,100 employees globally, including 
+NYT_ENG_20090826.0141	SF13_ENG_098	Millipore Corp.	org:number_of_employees_members	6100			1	1			1463	1467	Millipore has more than 6,100 employees globally, including 
 APW_ENG_20090826.1147	SF13_ENG_099	DCNS	org:number_of_employees_members	12000	1			1			1626	1631	DCNS has 12,000 employees worldwide and had revenues of 2.5 billion euros ($3.7 billion) last year. 
 APW_ENG_20090826.1147	SF13_ENG_099	DCNS	org:top_members_employees	Patrick Boissier	1			1			1247	1262	The agreement was signed by United Shipbuilding Corp. director Roman Trotsenko and DCNS president Patrick Boissier. 
 NYT_ENG_20090826.0141	SF13_ENG_100	Galleon Group	org:founded_by	Raj Rajaratnam	1			1			2878	2891	Raj Rajaratnam, the co-founder of hedge fund Galleon Group
-APW_ENG_20090921.0007	SF13_ENG_100	Galleon Group	org:top_members_employees	Raj Rajaratnam	1			1			1493	1506	Moffat was considered the highest level executive arrested in connection with a scheme that centered around the securities trades of Raj Rajaratnam, a portfolio manager for Galleon Group, a hedge fund that once had up to $7 billion in assets under management. 
+APW_ENG_20090921.0007	SF13_ENG_100	Galleon Group	org:top_members_employees	Raj Rajaratnam			1	1			1493	1506	Moffat was considered the highest level executive arrested in connection with a scheme that centered around the securities trades of Raj Rajaratnam, a portfolio manager for Galleon Group, a hedge fund that once had up to $7 billion in assets under management. 
 													
-				total	150	20	52	188	6	28			
+				total	141	21	60	188	6	28			
 													
 													
-				precison	0.6756756757			0.8468468468					
-				recall	0.1332149201			0.1669626998					
-				F1	0.2225519288			0.2789317507					
+				precison	0.6351351351			0.8468468468					
+				recall	0.1067211626			0.1669626998					
+				F1	0.1827371695			0.2789317507					
 													
 				with inexact precision	0.7657657658			0.8738738739					
 													
