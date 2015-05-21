@@ -18,6 +18,7 @@ libraryDependencies ++= Seq(
   "edu.stanford.nlp" % "stanford-corenlp" % "3.5.0",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.5.0" classifier "models",
   "edu.stanford.nlp" % "stanford-parser" % "3.5.0",
+  "edu.washington.cs.knowitall.openie" %% "openie" % "4.1.3",
   "edu.washington.cs.knowitall.nlptools" % "nlptools-wordnet-uw_2.10" % "2.4.5",
   "edu.washington.cs.knowitall.taggers" % "taggers-core_2.10" % "0.4",
   "org.scala-lang" % "scala-compiler" % "2.10.2",
