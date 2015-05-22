@@ -1,13 +1,19 @@
 package tac
 
 import scala.collection.JavaConversions._
-import edu.knowitall.openie._
+import collection.JavaConverters._
+import edu.knowitall.openie.OpenIETs
 import com.typesafe.config.ConfigFactory
 //import java.io.File
 //import java.io.IOException
 import java.io._
 import java.util.zip.GZIPInputStream
 //import edu.washington.multirframework.util.DocUtils
+import edu.stanford.nlp.ling.CoreAnnotations._
+//import edu.stanford.nlp.ling.CoreLabel
+import edu.stanford.nlp.pipeline.Annotation
+import edu.stanford.nlp.util.CoreMap
+import extractor.{ImplicitRelationExtractor,ImplicitRelationExtractorNoLists,ConstrainedHighRecallImplIE,ModHighRecallImplIE,TaggerLoader}
 
 object CreateKnowledgeBase {
 
@@ -16,6 +22,17 @@ object CreateKnowledgeBase {
   val splitDocsDirName = config.getString("split-docs-dir")  
   
   val annotatorHelper = new StanfordAnnotatorHelperMethods()
+  val basicPipeline = annotatorHelper.getBasicPipeline()
+
+  println("Loading ImplIE Tagger.")
+  //val tagger = TaggerLoader.defaultTagger
+  val tagger = TaggerLoader.extendedKeywordHighRecallTagger
+
+  println("Loading ImplIE Extractor.")
+  //val relationExtractor = new ImplicitRelationExtractor(tagger)
+  //val relationExtractor = new ImplicitRelationExtractorNoLists(tagger)
+  //val relationExtractor = new ModHighRecallImplIE(tagger)
+  val relationExtractor = new ConstrainedHighRecallImplIE(tagger)
   
   //val openie = new OpenIE()
   val openie = new OpenIETs()
@@ -29,6 +46,14 @@ object CreateKnowledgeBase {
     try {
       val corpusDir = new File(corpusDirName)  
       val multiDocFiles = FileUtils.findFiles(corpusDir)
+      
+      println("total memory: " + Runtime.getRuntime().totalMemory())
+      //the Xmx value
+      println("max memory: " + Runtime.getRuntime().maxMemory())
+      println("free memory: " + Runtime.getRuntime().freeMemory())  		        
+      println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+      println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
+      
       println("Number of Files: " + multiDocFiles.size)
       val splitDocs = new DocSplitter()
       val cleanXML = true 
@@ -47,7 +72,33 @@ object CreateKnowledgeBase {
       }      
 
       println("Number of Docs: " + allDocs.size)
-      //doc.getFirstSentence()
+      
+      val firstDoc = allDocs(0)
+      val rawDoc = firstDoc.getFirstSentence()
+      val processedDoc = new Annotation(rawDoc)
+      basicPipeline.annotate(processedDoc)
+      val sentences = processedDoc.get(classOf[SentencesAnnotation]).asScala.toList      
+      println("Number of Sentences: " + sentences.size)      
+
+      //val testSentence = "U.S. President Barack Obama, born in Hawaii, spoke at the White House on Saturday about hula dancing, while his wife, Michelle looked on."   
+      val testSentence = "Barack Obama lives in Detroit, Michigan, and Michelle Obama lived in Chicago, IL."
+      
+      val extractionsImplIE = relationExtractor.extractRelations(testSentence)
+       
+      println("Number of Extractions ImplIE: " + extractionsImplIE.size)
+      
+      extractionsImplIE.foreach(e => { println(e) 
+                                 println })
+      
+      val extractionsOpenIE = openie.extract(testSentence)
+ 
+      println("Number of Extractions OpenIE: " + extractionsOpenIE.size)
+      
+      extractionsOpenIE.foreach(e => { println(e)
+                                 println(e.extraction.arg1.displayText)
+                                 println(e.extraction.rel)
+                                 println(e.extraction.arg2s(0).displayText)
+                                 println })
       
       
       //for(file <- corpusDir.listFiles if file.getName endsWith ".gz"){
@@ -76,9 +127,13 @@ object CreateKnowledgeBase {
     
     println("KBP 2015!")
     
+    println("total memory: " + Runtime.getRuntime().totalMemory())
+    //the Xmx value
+    println("max memory: " + Runtime.getRuntime().maxMemory())
+    println("free memory: " + Runtime.getRuntime().freeMemory())  		        
+    println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
+    println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
     
-    
-
     //val sentence = "U.S. President Barack Obama, born in Hawaii, spoke at the White House on Saturday about hula dancing, while his wife, Michelle looked on."      
     /*val extraction = openie.extract(sentence)
     println("Length extraction: " + extraction.size)

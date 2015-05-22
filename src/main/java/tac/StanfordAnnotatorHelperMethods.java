@@ -41,7 +41,7 @@ import edu.stanford.nlp.util.IntTuple;
 
 public class StanfordAnnotatorHelperMethods {
 	
-	//private final StanfordCoreNLP basicPipeline;
+	private final StanfordCoreNLP basicPipeline;
 	//private final  StanfordCoreNLP suTimePipeline;
 	private final  StanfordCoreNLP corefPipeline;
 	//private final StanfordCoreNLP chinesePipeline;
@@ -53,10 +53,10 @@ public class StanfordAnnotatorHelperMethods {
 	public StanfordAnnotatorHelperMethods(){
 
 		
-		//Properties basicProps = new Properties();
-		//basicProps.put("annotators", "tokenize, cleanxml, ssplit");
+		Properties basicProps = new Properties();
+		basicProps.put("annotators", "tokenize, cleanxml, ssplit");
 		//basicProps.put("annotators", "tokenize, cleanxml, ssplit, pos, lemma, ner, parse, dcoref");
-		//this.basicPipeline = new StanfordCoreNLP(basicProps);
+		this.basicPipeline = new StanfordCoreNLP(basicProps);
 		
 		/*Properties suTimeProps = new Properties();
 		suTimeProps.put("annotators", "tokenize, ssplit, pos, lemma, cleanxml, ner");
@@ -107,7 +107,7 @@ public class StanfordAnnotatorHelperMethods {
 
 	}
 	
-	//public StanfordCoreNLP getBasicPipeline(){return basicPipeline;}
+	public StanfordCoreNLP getBasicPipeline(){return basicPipeline;}
 	//public StanfordCoreNLP getChinesePipeline(){return chinesePipeline;}
 	public StanfordCoreNLP getCorefPipeline(){return corefPipeline;}
 	
