@@ -1,0 +1,2333 @@
+
+Query Name: Ahmed Rashid
+
+
+Number of Documents: 88
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: APW_ENG_20100312.0070
+
+
+docName: bolt-eng-DF-200-192448-6197689
+
+
+docName: AFP_ENG_20091019.0558
+
+
+docName: WPB_ENG_20100510.0074
+
+
+docName: eng-NG-31-138596-9810067
+
+
+docName: eng-NG-31-142498-10049504
+
+
+docName: bolt-eng-DF-200-192451-5798236
+
+
+docName: APW_ENG_20090607.0708
+
+
+docName: bolt-eng-DF-200-192451-5799756
+
+
+docName: WPB_ENG_20100909.0075
+
+
+docName: eng-NG-31-128251-12089463
+
+
+docName: APW_ENG_20100801.0265
+
+
+docName: NYT_ENG_20101005.0128
+
+
+docName: NYT_ENG_20090814.0088
+
+
+docName: AFP_ENG_20090802.0409
+
+
+docName: LTW_ENG_20091012.0003
+
+
+docName: WPB_ENG_20100216.0084
+
+
+docName: eng-NG-31-102460-8865753
+
+
+docName: LTW_ENG_20091203.0044
+
+
+docName: AFP_ENG_20100506.0821
+
+
+docName: bolt-eng-DF-200-192448-6200608
+
+
+docName: eng-NG-31-113099-8152783
+
+
+docName: WPB_ENG_20100910.0044
+
+
+docName: NYT_ENG_20090607.0013
+
+
+docName: WPB_ENG_20100509.0023
+
+
+docName: eng-NG-31-113099-9052069
+
+
+docName: WPB_ENG_20100427.0017
+
+
+docName: APW_ENG_20100311.1008
+
+
+docName: NYT_ENG_20091214.0126
+
+
+docName: eng-NG-31-142407-10043696
+
+
+docName: WPB_ENG_20100505.0064
+
+
+docName: WPB_ENG_20100127.0085
+
+
+docName: WPB_ENG_20100506.0092
+
+
+docName: bolt-eng-DF-212-191667-3070070
+
+
+docName: NYT_ENG_20091214.0199
+
+
+docName: LTW_ENG_20090804.0034
+
+
+docName: NYT_ENG_20101111.0024
+
+
+docName: NYT_ENG_20091230.0088
+
+
+docName: APW_ENG_20100203.0380
+
+
+docName: WPB_ENG_20100427.0036
+
+
+docName: eng-NG-31-100600-11180231
+
+
+docName: WPB_ENG_20100427.0061
+
+
+docName: AFP_ENG_20090825.0575
+
+
+docName: AFP_ENG_20100226.0824
+
+
+docName: APW_ENG_20091119.1073
+
+
+docName: APW_ENG_20100602.0231
+
+
+docName: eng-NG-31-102460-8865622
+
+
+docName: eng-NG-31-142407-10044375
+
+
+docName: eng-NG-31-102460-8865901
+
+
+docName: bolt-eng-DF-201-185517-399032
+
+
+docName: LTW_ENG_20091111.0100
+
+
+docName: bolt-eng-DF-200-192451-5799689
+
+
+docName: WPB_ENG_20100505.0052
+
+
+docName: NYT_ENG_20100311.0190
+
+
+docName: LTW_ENG_20090930.0014
+
+
+docName: WPB_ENG_20100801.0021
+
+
+docName: WPB_ENG_20100910.0025
+
+
+docName: WPB_ENG_20100509.0021
+
+
+docName: AFP_ENG_20101211.0204
+
+
+docName: NYT_ENG_20100319.0167
+
+
+docName: AFP_ENG_20091125.0570
+
+
+docName: bolt-eng-DF-212-191668-3066252
+
+
+docName: bolt-eng-DF-212-191668-3067415
+
+
+docName: APW_ENG_20090607.0548
+
+
+docName: LTW_ENG_20090613.0011
+
+
+docName: WPB_ENG_20100505.0039
+
+
+docName: NYT_ENG_20091202.0160
+
+
+docName: XIN_ENG_20091123.0066
+
+
+docName: NYT_ENG_20090814.0121
+
+
+docName: bolt-eng-DF-199-192783-6853833
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Ahmed Rashid, a Pakistani expert	pakistan	per:countries_of_residence
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	per:title
+_ Rashid, a Pakistani journalist	journalist	per:title
+_ Rashid, a Pakistani journalist	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani author	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani author	author	per:title
+Ahmed Rashid, a journalist	journalist	per:title
+author Ahmed Rashid	author	per:title
+Ahmed Rashid, the Pakistani author of "Descent	author	per:title
+Ahmed Rashid, the Pakistani author of "Descent	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani journalist	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani journalist	journalist	per:title
+Pakistani journalist Ahmed Rashid	pakistan	per:countries_of_residence
+journalist Ahmed Rashid	journalist	per:title
+Ahmed Rashid, the Pakistani journalist and author of "Descent	pakistan	per:countries_of_residence
+Ahmed Rashid, the Pakistani journalist and author of "Descent	journalist	per:title
+journalist Ahmed Rashid	journalist	per:title
+Pakistani journalist Ahmed Rashid	pakistan	per:countries_of_residence
+Ahmed Rashid, a leading Pakistani expert	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani expert	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani journalist	journalist	per:title
+Ahmed Rashid, a Pakistani journalist	pakistan	per:countries_of_residence
+author Ahmed Rashid	author	per:title
+author Ahmed Rashid	author	per:title
+Pakistani author Ahmed Rashid	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani journalist	journalist	per:title
+Ahmed Rashid, a Pakistani journalist	pakistan	per:countries_of_residence
+journalist Ahmed Rashid	journalist	per:title
+Pakistani journalist Ahmed Rashid	pakistan	per:countries_of_residence
+Pakistani journalist Ahmed Rashid's best seller, Taliban	pakistan	per:countries_of_residence
+Taliban-ruled Afghanistan (see Ahmed Rashid, Taliban, passim)	afghanistan	per:countries_of_residence
+author Ahmed Rashid	author	per:title
+Pakistani author Ahmed Rashid	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani journalist	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani journalist	journalist	per:title
+Ahmed Rashid, a Pakistani expert	pakistan	per:countries_of_residence
+Ahmed Rashid, a leading Pakistani expert	pakistan	per:countries_of_residence
+journalist Ahmed Rashid	journalist	per:title
+Pakistani journalist Ahmed Rashid	pakistan	per:countries_of_residence
+Renowned author Ahmed Rashid	author	per:title
+journalist Ahmed Rashid	journalist	per:title
+Ahmed Rashid, a Lahore-based analyst and author of a book	analyst	per:title
+Ahmed Rashid, a Pakistani journalist	journalist	per:title
+Ahmed Rashid, a Pakistani journalist	pakistan	per:countries_of_residence
+Ahmed Rashid, a Pakistani journalist	journalist	per:title
+Ahmed Rashid, a Pakistani journalist	pakistan	per:countries_of_residence
+Ahmed Rashid, author of "Descent Into Chaos	author	per:title
+Ahmed Rashid, a journalist	journalist	per:title
+
+
+
+Query Name: Ahmed Rashid
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_001	per:spouse	UWashington3	NIL
+SF14_ENG_001	per:religion	UWashington3	NIL
+SF14_ENG_001	per:city_of_death	UWashington3	NIL
+SF14_ENG_001	per:other_family	UWashington3	NIL
+SF14_ENG_001	per:countries_of_residence	UWashington3	WPB_ENG_20100505.0039:4862-4898	pakistan	WPB_ENG_20100505.0039:4878-4888	22.0
+SF14_ENG_001	per:countries_of_residence	UWashington3	bolt-eng-DF-201-185517-399032:10999-11060	afghanistan	bolt-eng-DF-201-185517-399032:11013-11025	1.0
+SF14_ENG_001	per:country_of_death	UWashington3	NIL
+SF14_ENG_001	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_001	per:title	UWashington3	NYT_ENG_20090814.0121:2385-2412	journalist	NYT_ENG_20090814.0121:2401-2412	15.0
+SF14_ENG_001	per:title	UWashington3	NYT_ENG_20091202.0160:3335-3378	author	NYT_ENG_20091202.0160:3349-3356	9.0
+SF14_ENG_001	per:title	UWashington3	APW_ENG_20090607.0548:3015-3072	analyst	APW_ENG_20090607.0548:3044-3052	2.0
+SF14_ENG_001	per:children	UWashington3	NIL
+SF14_ENG_001	per:origin	UWashington3	NIL
+SF14_ENG_001	per:city_of_birth	UWashington3	NIL
+SF14_ENG_001	per:date_of_death	UWashington3	NIL
+SF14_ENG_001	per:age	UWashington3	NIL
+SF14_ENG_001	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_001	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_001	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_001	per:cause_of_death	UWashington3	NIL
+SF14_ENG_001	per:alternate_names	UWashington3	NIL
+SF14_ENG_001	per:charges	UWashington3	NIL
+SF14_ENG_001	per:country_of_birth	UWashington3	NIL
+SF14_ENG_001	per:schools_attended	UWashington3	NIL
+SF14_ENG_001	per:parents	UWashington3	NIL
+SF14_ENG_001	per:date_of_birth	UWashington3	NIL
+SF14_ENG_001	per:statesorprovinces_of_residence	UWashington3	NIL
+SF14_ENG_001	per:siblings	UWashington3	NIL
+
+Query Name: Alan Gross
+
+
+Number of Documents: 55
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: AFP_ENG_20100617.0031
+
+
+docName: APW_ENG_20101201.0997
+
+
+docName: APW_ENG_20101026.0650
+
+
+docName: AFP_ENG_20100220.0470
+
+
+docName: AFP_ENG_20101018.0063
+
+
+docName: APW_ENG_20101206.0100
+
+
+docName: APW_ENG_20101102.0758
+
+
+docName: AFP_ENG_20100602.0045
+
+
+docName: AFP_ENG_20100326.0031
+
+
+docName: AFP_ENG_20100617.0018
+
+
+docName: APW_ENG_20101203.0757
+
+
+docName: NYT_ENG_20101024.0161
+
+
+docName: APW_ENG_20101203.0708
+
+
+docName: eng-NG-31-147764-10551943
+
+
+docName: APW_ENG_20101206.0108
+
+
+docName: APW_ENG_20101025.0703
+
+
+docName: NYT_ENG_20101025.0001
+
+
+docName: APW_ENG_20101018.0616
+
+
+docName: APW_ENG_20101026.0640
+
+
+docName: NYT_ENG_20101025.0018
+
+
+docName: AFP_ENG_20101203.0236
+
+
+docName: AFP_ENG_20100325.0029
+
+
+docName: AFP_ENG_20101007.0442
+
+
+docName: AFP_ENG_20100618.0014
+
+
+docName: APW_ENG_20101025.0702
+
+
+docName: AFP_ENG_20100616.0133
+
+
+docName: XIN_ENG_20101124.0253
+
+
+docName: WPB_ENG_20100709.0003
+
+
+docName: AFP_ENG_20100826.0001
+
+
+docName: AFP_ENG_20101202.0093
+
+
+docName: APW_ENG_20101202.0735
+
+
+docName: APW_ENG_20101203.0959
+
+
+docName: APW_ENG_20100714.0107
+
+
+docName: AFP_ENG_20100219.0014
+
+
+docName: WPB_ENG_20101207.0007
+
+
+docName: AFP_ENG_20100823.0024
+
+
+docName: APW_ENG_20101202.0773
+
+
+docName: WPB_ENG_20100317.0011
+
+
+docName: APW_ENG_20101203.0650
+
+
+docName: APW_ENG_20100915.0747
+
+
+docName: APW_ENG_20101211.0018
+
+
+docName: APW_ENG_20100612.0902
+
+
+docName: APW_ENG_20101018.0738
+
+
+docName: eng-NG-31-147764-8792240
+
+
+docName: LTW_ENG_20091022.0126
+
+
+docName: APW_ENG_20101206.0091
+
+
+docName: NYT_ENG_20090828.0173
+
+
+docName: APW_ENG_20101004.0975
+
+
+docName: APW_ENG_20101201.1032
+
+
+docName: XIN_ENG_20101201.0249
+
+
+docName: eng-NG-31-131840-8432487
+
+
+docName: XIN_ENG_20100616.0284
+
+
+docName: APW_ENG_20101202.0845
+
+
+docName: APW_ENG_20101004.0930
+
+
+docName: AFP_ENG_20100616.0142
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Alan Gross, a 60-year-old government contractor	contractor	per:title
+American subcontractor, Alan Gross	united states	per:countries_of_residence
+Gross, a native of Potomac, Maryland	maryland	per:statesorprovinces_of_residence
+Gross, a native of Potomac, Maryland	maryland	per:statesorprovinces_of_residence
+U.S. contractor Alan Gross	contractor	per:title
+U.S. contractor Alan Gross	united states	per:countries_of_residence
+Alan Gross, who is Jewish	jewish	per:religion
+Judy Gross, a psychotherapist	psychotherapist	per:title
+Gross, a native of Potomac, Maryland	maryland	per:statesorprovinces_of_residence
+Alan Gross, who is Jewish	jewish	per:religion
+Judy Gross, a psychotherapist	psychotherapist	per:title
+International Development subcontractor Alan Gross	subcontractor	per:title
+American contractor Alan Gross	united states	per:countries_of_residence
+Cuba's continued detention of American contractor Alan Gross	cuba	per:countries_of_residence
+contractor Alan Gross	contractor	per:title
+U.S. subcontractor Alan Gross	subcontractor	per:title
+U.S. subcontractor Alan Gross	united states	per:countries_of_residence
+Alan Gross, a jailed American contractor	united states	per:countries_of_residence
+Alan Gross, a jailed American contractor	contractor	per:title
+Alan Gross, an American subcontractor	united states	per:countries_of_residence
+Alan Gross, an American subcontractor	subcontractor	per:title
+U.S. contractor Alan Gross	united states	per:countries_of_residence
+U.S. contractor Alan Gross	contractor	per:title
+Alan Gross College Point, Queens, NYC	queens	per:cities_of_residence
+(Xinhua) </DATELINE> <TEXT> <P> U.S. contractor Alan Gross	contractor	per:title
+(Xinhua) </DATELINE> <TEXT> <P> U.S. contractor Alan Gross	united states	per:countries_of_residence
+Alan Gross, who is Jewish	jewish	per:religion
+Judy Gross, a psychotherapist	psychotherapist	per:title
+Alan Gross, an American subcontractor	united states	per:countries_of_residence
+Alan Gross, an American subcontractor	subcontractor	per:title
+
+
+
+Query Name: Alan Gross
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_012	per:spouse	UWashington3	NIL
+SF14_ENG_012	per:religion	UWashington3	APW_ENG_20101202.0845:3641-3666	jewish	APW_ENG_20101202.0845:3660-3666	3.0
+SF14_ENG_012	per:city_of_death	UWashington3	NIL
+SF14_ENG_012	per:other_family	UWashington3	NIL
+SF14_ENG_012	per:countries_of_residence	UWashington3	APW_ENG_20101004.0930:4094-4131	united states	APW_ENG_20101004.0930:4109-4118	9.0
+SF14_ENG_012	per:countries_of_residence	UWashington3	APW_ENG_20100915.0747:3425-3485	cuba	APW_ENG_20100915.0747:3425-3429	1.0
+SF14_ENG_012	per:country_of_death	UWashington3	NIL
+SF14_ENG_012	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_012	per:title	UWashington3	XIN_ENG_20100616.0284:149-217	contractor	XIN_ENG_20100616.0284:213-217	6.0
+SF14_ENG_012	per:title	UWashington3	APW_ENG_20101004.0930:4094-4132	subcontractor	APW_ENG_20101004.0930:4118-4132	4.0
+SF14_ENG_012	per:title	UWashington3	APW_ENG_20101202.0845:5056-5085	psychotherapist	APW_ENG_20101202.0845:5070-5085	3.0
+SF14_ENG_012	per:children	UWashington3	NIL
+SF14_ENG_012	per:origin	UWashington3	NIL
+SF14_ENG_012	per:city_of_birth	UWashington3	NIL
+SF14_ENG_012	per:date_of_death	UWashington3	NIL
+SF14_ENG_012	per:age	UWashington3	NIL
+SF14_ENG_012	per:cities_of_residence	UWashington3	eng-NG-31-131840-8432487:21895-21932	queens	eng-NG-31-131840-8432487:21921-21927	0.8
+SF14_ENG_012	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_012	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_012	per:cause_of_death	UWashington3	NIL
+SF14_ENG_012	per:alternate_names	UWashington3	NIL
+SF14_ENG_012	per:charges	UWashington3	NIL
+SF14_ENG_012	per:country_of_birth	UWashington3	NIL
+SF14_ENG_012	per:schools_attended	UWashington3	NIL
+SF14_ENG_012	per:parents	UWashington3	NIL
+SF14_ENG_012	per:date_of_birth	UWashington3	NIL
+SF14_ENG_012	per:statesorprovinces_of_residence	UWashington3	APW_ENG_20101203.0959:1581-1617	maryland	APW_ENG_20101203.0959:1609-1617	3.0
+SF14_ENG_012	per:siblings	UWashington3	NIL
+
+Query Name: Andrew E. Lange
+
+
+Number of Documents: 39
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: eng-NG-31-142509-10061144
+
+
+docName: eng-NG-31-142509-10060482
+
+
+docName: eng-NG-31-106361-8894544
+
+
+docName: eng-NG-31-106365-8896097
+
+
+docName: eng-NG-31-142509-10061041
+
+
+docName: eng-NG-31-142509-10060127
+
+
+docName: eng-NG-31-142509-10061292
+
+
+docName: eng-NG-31-142509-10060296
+
+
+docName: eng-NG-31-106361-8894492
+
+
+docName: eng-NG-31-142509-8713910
+
+
+docName: eng-NG-31-142509-10060803
+
+
+docName: eng-NG-31-142509-10061129
+
+
+docName: NYT_ENG_20100129.0002
+
+
+docName: eng-NG-31-106361-8894904
+
+
+docName: eng-NG-31-142509-10060190
+
+
+docName: eng-NG-31-142509-10061042
+
+
+docName: eng-NG-31-106365-8896172
+
+
+docName: eng-NG-31-106361-8894911
+
+
+docName: eng-NG-31-142509-10060128
+
+
+docName: eng-NG-31-106365-8896105
+
+
+docName: eng-NG-31-106361-8894546
+
+
+docName: eng-NG-31-142509-10060778
+
+
+docName: eng-NG-31-142509-10060614
+
+
+docName: eng-NG-31-142509-10060775
+
+
+docName: NYT_ENG_20100128.0046
+
+
+docName: APW_ENG_20100127.0170
+
+
+docName: APW_ENG_20100127.0062
+
+
+docName: eng-NG-31-142509-10061290
+
+
+docName: eng-NG-31-106361-8894464
+
+
+docName: eng-NG-31-106361-8895050
+
+
+docName: eng-NG-31-106361-8894490
+
+
+docName: eng-NG-31-142509-10061142
+
+
+docName: eng-NG-31-142509-8713912
+
+
+docName: eng-NG-31-142509-10060192
+
+
+docName: WPB_ENG_20100106.0064
+
+
+Filtered Extractions ----------------------------------------------------------
+
+astrophysicist Andrew Lange	astrophysicist	per:title
+New York Times News Service obituary about the astrophysicist Andrew Lange, whose measurements of light	new york	per:statesorprovinces_of_residence
+</HEADLINE> <TEXT> <P> Andrew Lange, an astrophysicist	astrophysicist	per:title
+Jean-Lou Chameau, the president of the California Institute of Technology, where Lange had until recently been chairman of the division of physics, mathematics and astronomy	chairman	per:title
+Albert Lange, an architect	architect	per:title
+Joan Lange, a school librarian	school librarian	per:title
+brother, Adam Lange, of St. Louis	st. louis	per:cities_of_residence
+parents and a sister, Karen Lange, of Washington	washington	per:statesorprovinces_of_residence
+Lange and Italian team leader, Paolo De Bernardis of Rome's La Sapienza university	la sapienza university	school
+Lange and Italian team leader, Paolo De Bernardis of Rome's La Sapienza university	italy	per:countries_of_residence
+
+
+
+Query Name: Andrew E. Lange
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_038	per:spouse	UWashington3	NIL
+SF14_ENG_038	per:religion	UWashington3	NIL
+SF14_ENG_038	per:city_of_death	UWashington3	NIL
+SF14_ENG_038	per:other_family	UWashington3	NIL
+SF14_ENG_038	per:countries_of_residence	UWashington3	APW_ENG_20100127.0170:2028-2110	italy	APW_ENG_20100127.0170:2038-2046	0.8
+SF14_ENG_038	per:country_of_death	UWashington3	NIL
+SF14_ENG_038	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_038	per:title	UWashington3	NYT_ENG_20100128.0046:106-194	astrophysicist	NYT_ENG_20100128.0046:181-194	2.0
+SF14_ENG_038	per:title	UWashington3	NYT_ENG_20100128.0046:4073-4103	school librarian	NYT_ENG_20100128.0046:4087-4103	1.0
+SF14_ENG_038	per:title	UWashington3	NYT_ENG_20100128.0046:4109-4135	architect	NYT_ENG_20100128.0046:4126-4135	1.0
+SF14_ENG_038	per:title	UWashington3	NYT_ENG_20100128.0046:391-564	chairman	NYT_ENG_20100128.0046:502-511	1.0
+SF14_ENG_038	per:children	UWashington3	NIL
+SF14_ENG_038	per:origin	UWashington3	NIL
+SF14_ENG_038	per:city_of_birth	UWashington3	NIL
+SF14_ENG_038	per:date_of_death	UWashington3	NIL
+SF14_ENG_038	per:age	UWashington3	NIL
+SF14_ENG_038	per:cities_of_residence	UWashington3	NYT_ENG_20100128.0046:6250-6283	st. louis	NYT_ENG_20100128.0046:6250-6283	0.8
+SF14_ENG_038	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_038	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_038	per:cause_of_death	UWashington3	NIL
+SF14_ENG_038	per:alternate_names	UWashington3	NIL
+SF14_ENG_038	per:charges	UWashington3	NIL
+SF14_ENG_038	per:country_of_birth	UWashington3	NIL
+SF14_ENG_038	per:schools_attended	UWashington3	NIL
+SF14_ENG_038	per:parents	UWashington3	NIL
+SF14_ENG_038	per:date_of_birth	UWashington3	NIL
+SF14_ENG_038	per:statesorprovinces_of_residence	UWashington3	NYT_ENG_20100128.0046:6194-6242	washington	NYT_ENG_20100128.0046:6232-6242	1.0
+SF14_ENG_038	per:statesorprovinces_of_residence	UWashington3	NYT_ENG_20100129.0002:1900-2003	new york	NYT_ENG_20100129.0002:1904-1915	1.0
+SF14_ENG_038	per:siblings	UWashington3	NIL
+
+Query Name: Frank Baldino Jr.
+
+
+Number of Documents: 3
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: WPB_ENG_20100826.0077
+
+
+docName: WPB_ENG_20100506.0070
+
+
+docName: NYT_ENG_20101222.0015
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Frank Baldino Jr., the company's founder	founder	per:title
+Cephalon Inc. founder Frank Baldino Jr.	founder	per:title
+FRANK BALDINO JR., FOUNDER OF PHARMACEUTICAL COMPANY, DIES </HEADLINE> <TEXT> <P> Dr. Frank Baldino Jr.	founder	per:title
+
+
+
+Query Name: Frank Baldino Jr.
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_039	per:spouse	UWashington3	NIL
+SF14_ENG_039	per:religion	UWashington3	NIL
+SF14_ENG_039	per:city_of_death	UWashington3	NIL
+SF14_ENG_039	per:other_family	UWashington3	NIL
+SF14_ENG_039	per:countries_of_residence	UWashington3	NIL
+SF14_ENG_039	per:country_of_death	UWashington3	NIL
+SF14_ENG_039	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_039	per:title	UWashington3	NYT_ENG_20101222.0015:58-161	founder	NYT_ENG_20101222.0015:77-85	3.0
+SF14_ENG_039	per:children	UWashington3	NIL
+SF14_ENG_039	per:origin	UWashington3	NIL
+SF14_ENG_039	per:city_of_birth	UWashington3	NIL
+SF14_ENG_039	per:date_of_death	UWashington3	NIL
+SF14_ENG_039	per:age	UWashington3	NIL
+SF14_ENG_039	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_039	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_039	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_039	per:cause_of_death	UWashington3	NIL
+SF14_ENG_039	per:alternate_names	UWashington3	NIL
+SF14_ENG_039	per:charges	UWashington3	NIL
+SF14_ENG_039	per:country_of_birth	UWashington3	NIL
+SF14_ENG_039	per:schools_attended	UWashington3	NIL
+SF14_ENG_039	per:parents	UWashington3	NIL
+SF14_ENG_039	per:date_of_birth	UWashington3	NIL
+SF14_ENG_039	per:statesorprovinces_of_residence	UWashington3	NIL
+SF14_ENG_039	per:siblings	UWashington3	NIL
+
+Query Name: Eliza Samudio
+
+
+Number of Documents: 36
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: XIN_ENG_20100707.0347
+
+
+docName: APW_ENG_20100709.0876
+
+
+docName: APW_ENG_20101207.0819
+
+
+docName: AFP_ENG_20100629.0122
+
+
+docName: XIN_ENG_20100707.0344
+
+
+docName: NYT_ENG_20100730.0180
+
+
+docName: APW_ENG_20100709.0850
+
+
+docName: APW_ENG_20100717.0482
+
+
+docName: XIN_ENG_20100717.0133
+
+
+docName: AFP_ENG_20100709.0300
+
+
+docName: XIN_ENG_20100629.0353
+
+
+docName: XIN_ENG_20100707.0375
+
+
+docName: APW_ENG_20100804.0872
+
+
+docName: APW_ENG_20100627.0619
+
+
+docName: APW_ENG_20100730.0418
+
+
+docName: AFP_ENG_20100707.0029
+
+
+docName: XIN_ENG_20100710.0136
+
+
+docName: AFP_ENG_20101001.0097
+
+
+docName: APW_ENG_20100804.0856
+
+
+docName: AFP_ENG_20100720.0176
+
+
+docName: AFP_ENG_20101207.0393
+
+
+docName: XIN_ENG_20100628.0368
+
+
+docName: XIN_ENG_20100626.0239
+
+
+docName: APW_ENG_20100630.1041
+
+
+docName: XIN_ENG_20100711.0209
+
+
+docName: APW_ENG_20101207.0843
+
+
+docName: NYT_ENG_20100730.0113
+
+
+docName: AFP_ENG_20100730.0021
+
+
+docName: AFP_ENG_20100730.0093
+
+
+docName: XIN_ENG_20100709.0251
+
+
+docName: AFP_ENG_20101207.0430
+
+
+docName: XIN_ENG_20100708.0313
+
+
+docName: XIN_ENG_20100917.0282
+
+
+docName: XIN_ENG_20101207.0194
+
+
+docName: XIN_ENG_20100709.0157
+
+
+docName: XIN_ENG_20100629.0358
+
+
+Filtered Extractions ----------------------------------------------------------
+
+
+
+
+Query Name: Eliza Samudio
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_046	per:spouse	UWashington3	NIL
+SF14_ENG_046	per:religion	UWashington3	NIL
+SF14_ENG_046	per:city_of_death	UWashington3	NIL
+SF14_ENG_046	per:other_family	UWashington3	NIL
+SF14_ENG_046	per:countries_of_residence	UWashington3	NIL
+SF14_ENG_046	per:country_of_death	UWashington3	NIL
+SF14_ENG_046	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_046	per:title	UWashington3	NIL
+SF14_ENG_046	per:children	UWashington3	NIL
+SF14_ENG_046	per:origin	UWashington3	NIL
+SF14_ENG_046	per:city_of_birth	UWashington3	NIL
+SF14_ENG_046	per:date_of_death	UWashington3	NIL
+SF14_ENG_046	per:age	UWashington3	NIL
+SF14_ENG_046	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_046	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_046	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_046	per:cause_of_death	UWashington3	NIL
+SF14_ENG_046	per:alternate_names	UWashington3	NIL
+SF14_ENG_046	per:charges	UWashington3	NIL
+SF14_ENG_046	per:country_of_birth	UWashington3	NIL
+SF14_ENG_046	per:schools_attended	UWashington3	NIL
+SF14_ENG_046	per:parents	UWashington3	NIL
+SF14_ENG_046	per:date_of_birth	UWashington3	NIL
+SF14_ENG_046	per:statesorprovinces_of_residence	UWashington3	NIL
+SF14_ENG_046	per:siblings	UWashington3	NIL
+
+Query Name: China Charity Federation
+
+
+Number of Documents: 25
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: XIN_ENG_20100727.0394
+
+
+docName: XIN_ENG_20100119.0421
+
+
+docName: XIN_ENG_20100422.0468
+
+
+docName: XIN_ENG_20100620.0324
+
+
+docName: XIN_ENG_20100907.0512
+
+
+docName: XIN_ENG_20100215.0290
+
+
+docName: XIN_ENG_20100414.0411
+
+
+docName: XIN_ENG_20100809.0406
+
+
+docName: XIN_ENG_20100424.0220
+
+
+docName: XIN_ENG_20101224.0241
+
+
+docName: XIN_ENG_20100120.0348
+
+
+docName: XIN_ENG_20100415.0460
+
+
+docName: XIN_ENG_20090712.0199
+
+
+docName: XIN_ENG_20100628.0427
+
+
+docName: XIN_ENG_20090720.0329
+
+
+docName: XIN_ENG_20100914.0441
+
+
+docName: XIN_ENG_20091208.0428
+
+
+docName: XIN_ENG_20100705.0318
+
+
+docName: XIN_ENG_20091028.0428
+
+
+docName: XIN_ENG_20100414.0416
+
+
+docName: XIN_ENG_20100118.0411
+
+
+docName: XIN_ENG_20100424.0249
+
+
+docName: XIN_ENG_20100422.0486
+
+
+docName: XIN_ENG_20100423.0363
+
+
+docName: XIN_ENG_20100914.0419
+
+
+Filtered Extractions ----------------------------------------------------------
+
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+Fan Baojun, President of the China Charity Federation	Baojun	org:top_members_employees
+Xinhua) </DATELINE> <TEXT> <P> China Charity Federation, a leading charity organization	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China, China Charity Federation	china	org:country_of_headquarters
+China Charity Federation (CCF)	china	org:country_of_headquarters
+charity organization, the China Charity Federation	china	org:country_of_headquarters
+China's largest charity organization, the China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+charity organization, the China Charity Federation	china	org:country_of_headquarters
+China's largest charity organization, the China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+Red Cross Society of China and China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+Red Cross Society of China and the China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+Liu Guolin, secretary-general of the China Charity Federation	Liu Guolin	org:top_members_employees
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China, China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+China Charity Federation	china	org:country_of_headquarters
+charity organization, the China Charity Federation	china	org:country_of_headquarters
+China's largest charity organization, the China Charity Federation	china	org:country_of_headquarters
+
+
+
+Query Name: China Charity Federation
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_068	org:subsidiaries	UWashington3	NIL
+SF14_ENG_068	org:alternate_names	UWashington3	NIL
+SF14_ENG_068	org:date_founded	UWashington3	NIL
+SF14_ENG_068	org:website	UWashington3	NIL
+SF14_ENG_068	org:country_of_headquarters	UWashington3	XIN_ENG_20100914.0419:2272-2338	china	XIN_ENG_20100914.0419:2272-2277	37.0
+SF14_ENG_068	org:number_of_employees_members	UWashington3	NIL
+SF14_ENG_068	org:date_dissolved	UWashington3	NIL
+SF14_ENG_068	org:founded_by	UWashington3	NIL
+SF14_ENG_068	org:political_religious_affiliation	UWashington3	NIL
+SF14_ENG_068	org:shareholders	UWashington3	NIL
+SF14_ENG_068	org:city_of_headquarters	UWashington3	NIL
+SF14_ENG_068	org:member_of	UWashington3	NIL
+SF14_ENG_068	org:top_members_employees	UWashington3	XIN_ENG_20091028.0428:851-912	Liu Guolin	XIN_ENG_20091028.0428:851-860	1.0
+SF14_ENG_068	org:top_members_employees	UWashington3	XIN_ENG_20100727.0394:899-952	Baojun	XIN_ENG_20100727.0394:903-908	1.0
+SF14_ENG_068	org:parents	UWashington3	NIL
+SF14_ENG_068	org:members	UWashington3	NIL
+SF14_ENG_068	org:stateorprovince_of_headquarters	UWashington3	NIL
+
+Query Name: Alessi
+
+
+Number of Documents: 359
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: eng-NG-31-105609-11968346
+
+
+docName: eng-NG-31-135195-8585549
+
+
+docName: eng-NG-31-139682-8649712
+
+
+docName: bolt-eng-DF-200-192392-4585548
+
+
+docName: eng-NG-31-107921-11999251
+
+
+docName: XIN_ENG_20100504.0386
+
+
+docName: eng-NG-31-135153-9643686
+
+
+docName: eng-NG-31-142685-8718127
+
+
+docName: NYT_ENG_20100425.0040
+
+
+docName: AFP_ENG_20090801.0038
+
+
+docName: eng-NG-31-135073-9639051
+
+
+docName: APW_ENG_20100106.0929
+
+
+docName: eng-NG-31-135073-9638956
+
+
+docName: NYT_ENG_20101205.0066
+
+
+docName: eng-NG-31-135371-12172127
+
+
+docName: eng-NG-31-135073-9640197
+
+
+docName: APW_ENG_20091215.1033
+
+
+docName: APW_ENG_20100816.0226
+
+
+docName: AFP_ENG_20100505.0111
+
+
+docName: bolt-eng-DF-170-181137-9036338
+
+
+docName: APW_ENG_20101113.0751
+
+
+docName: eng-NG-31-135073-9639710
+
+
+docName: AFP_ENG_20100225.0056
+
+
+docName: eng-NG-31-135073-9638790
+
+
+docName: eng-NG-31-135073-9639055
+
+
+docName: AFP_ENG_20090728.0178
+
+
+docName: APW_ENG_20101214.0882
+
+
+docName: eng-NG-31-135073-9639867
+
+
+docName: AFP_ENG_20100504.0191
+
+
+docName: AFP_ENG_20090728.0117
+
+
+docName: AFP_ENG_20100311.0146
+
+
+docName: APW_ENG_20091215.0198
+
+
+docName: APW_ENG_20090729.0110
+
+
+docName: eng-NG-31-135073-9639998
+
+
+docName: AFP_ENG_20090728.0180
+
+
+docName: APW_ENG_20100225.1543
+
+
+docName: NYT_ENG_20090721.0026
+
+
+docName: AFP_ENG_20101209.0271
+
+
+docName: eng-NG-31-131708-9422599
+
+
+docName: eng-NG-31-135073-9638849
+
+
+docName: XIN_ENG_20090727.0349
+
+
+docName: AFP_ENG_20090727.0366
+
+
+docName: eng-NG-31-127332-9210975
+
+
+docName: APW_ENG_20100423.0505
+
+
+docName: APW_ENG_20091209.0744
+
+
+docName: AFP_ENG_20101209.0302
+
+
+docName: WPB_ENG_20101001.0057
+
+
+docName: eng-NG-31-135472-9742119
+
+
+docName: AFP_ENG_20090611.0814
+
+
+docName: eng-NG-31-135073-9639153
+
+
+docName: APW_ENG_20101107.0487
+
+
+docName: APW_ENG_20101107.0453
+
+
+docName: WPB_ENG_20100929.0057
+
+
+docName: AFP_ENG_20100312.0216
+
+
+docName: eng-NG-31-135371-9728666
+
+
+docName: AFP_ENG_20090801.0059
+
+
+docName: APW_ENG_20091027.0598
+
+
+docName: APW_ENG_20100918.0541
+
+
+docName: eng-NG-31-107923-8057053
+
+
+docName: AFP_ENG_20091207.0022
+
+
+docName: eng-NG-31-135073-9639579
+
+
+docName: WPB_ENG_20101029.0034
+
+
+docName: bolt-eng-DF-170-181113-61841
+
+
+docName: eng-NG-31-135073-9639116
+
+
+docName: eng-NG-31-135073-9639917
+
+
+docName: APW_ENG_20100324.1166
+
+
+docName: eng-NG-31-135073-9638945
+
+
+docName: eng-NG-31-135073-9639293
+
+
+docName: eng-NG-31-100641-11198717
+
+
+docName: APW_ENG_20101107.0761
+
+
+docName: eng-NG-31-135588-9748401
+
+
+docName: eng-NG-31-135073-9639076
+
+
+docName: eng-NG-31-135073-9640136
+
+
+docName: XIN_ENG_20090802.0046
+
+
+docName: XIN_ENG_20090729.0308
+
+
+docName: AFP_ENG_20101216.0728
+
+
+docName: eng-NG-31-135073-9639843
+
+
+docName: eng-NG-31-135073-9639669
+
+
+docName: bolt-eng-DF-170-181137-9035704
+
+
+docName: eng-NG-31-107921-11999234
+
+
+docName: APW_ENG_20101014.0066
+
+
+docName: AFP_ENG_20091027.0199
+
+
+docName: APW_ENG_20090930.0001
+
+
+docName: APW_ENG_20100505.1076
+
+
+docName: APW_ENG_20100107.0032
+
+
+docName: NYT_ENG_20091108.0025
+
+
+docName: eng-NG-31-143594-10250409
+
+
+docName: AFP_ENG_20090804.0194
+
+
+docName: WPB_ENG_20101028.0046
+
+
+docName: eng-NG-31-140566-9892428
+
+
+docName: eng-NG-31-107921-11999245
+
+
+docName: eng-NG-31-135073-9640094
+
+
+docName: eng-NG-31-135073-9639113
+
+
+docName: APW_ENG_20100225.1423
+
+
+docName: XIN_ENG_20101201.0220
+
+
+docName: eng-NG-31-126851-9167589
+
+
+docName: NYT_ENG_20090615.0053
+
+
+docName: bolt-eng-DF-170-181130-93994
+
+
+docName: APW_ENG_20101215.0738
+
+
+docName: APW_ENG_20100226.0469
+
+
+docName: bolt-eng-DF-200-192448-6190239
+
+
+docName: eng-NG-31-135153-8585306
+
+
+docName: APW_ENG_20091027.0808
+
+
+docName: APW_ENG_20100423.0941
+
+
+docName: eng-NG-31-135588-9749025
+
+
+docName: XIN_ENG_20090802.0039
+
+
+docName: APW_ENG_20101011.0125
+
+
+docName: bolt-eng-DF-200-192451-5799062
+
+
+docName: eng-NG-31-135073-9639096
+
+
+docName: APW_ENG_20090820.0578
+
+
+docName: APW_ENG_20100423.1205
+
+
+docName: APW_ENG_20091027.0847
+
+
+docName: eng-NG-31-135073-9640028
+
+
+docName: eng-NG-31-135073-9638950
+
+
+docName: eng-NG-31-135073-9638799
+
+
+docName: eng-NG-31-135073-9639977
+
+
+docName: eng-NG-31-126854-9168551
+
+
+docName: APW_ENG_20101107.0470
+
+
+docName: eng-NG-31-135153-9643715
+
+
+docName: eng-NG-31-135073-9639087
+
+
+docName: AFP_ENG_20101215.0108
+
+
+docName: eng-NG-31-102793-11008089
+
+
+docName: NYT_ENG_20101120.0022
+
+
+docName: LTW_ENG_20091012.0043
+
+
+docName: XIN_ENG_20100504.0390
+
+
+docName: APW_ENG_20100423.0543
+
+
+docName: APW_ENG_20100112.0872
+
+
+docName: APW_ENG_20100227.0281
+
+
+docName: APW_ENG_20091215.0976
+
+
+docName: APW_ENG_20100226.0453
+
+
+docName: eng-NG-31-108619-9000083
+
+
+docName: APW_ENG_20100106.1232
+
+
+docName: AFP_ENG_20100112.0302
+
+
+docName: AFP_ENG_20090801.0033
+
+
+docName: AFP_ENG_20100826.0167
+
+
+docName: eng-NG-31-135073-9638782
+
+
+docName: eng-NG-31-135588-9748881
+
+
+docName: eng-NG-31-135073-9639108
+
+
+docName: XIN_ENG_20101224.0223
+
+
+docName: AFP_ENG_20090801.0100
+
+
+docName: AFP_ENG_20101128.0316
+
+
+docName: eng-NG-31-131708-9422523
+
+
+docName: eng-NG-31-108088-8956660
+
+
+docName: eng-NG-31-135073-9638675
+
+
+docName: eng-NG-31-127103-12062524
+
+
+docName: XIN_ENG_20090729.0292
+
+
+docName: APW_ENG_20090728.0994
+
+
+docName: eng-NG-31-135073-9638999
+
+
+docName: eng-NG-31-135073-9639038
+
+
+docName: APW_ENG_20100505.1072
+
+
+docName: NYT_ENG_20091208.0154
+
+
+docName: APW_ENG_20090728.1093
+
+
+docName: APW_ENG_20091211.0210
+
+
+docName: XIN_ENG_20101214.0297
+
+
+docName: XIN_ENG_20100505.0363
+
+
+docName: APW_ENG_20101209.0553
+
+
+docName: APW_ENG_20100227.0223
+
+
+docName: AFP_ENG_20100111.0319
+
+
+docName: APW_ENG_20091014.0971
+
+
+docName: eng-NG-31-135073-9638958
+
+
+docName: bolt-eng-DF-199-193201-6642004
+
+
+docName: AFP_ENG_20100324.0037
+
+
+docName: eng-NG-31-126276-8195955
+
+
+docName: AFP_ENG_20090731.0395
+
+
+docName: APW_ENG_20100505.0791
+
+
+docName: APW_ENG_20100105.0018
+
+
+docName: APW_ENG_20091215.0780
+
+
+docName: eng-NG-31-135073-9639659
+
+
+docName: XIN_ENG_20100912.0154
+
+
+docName: APW_ENG_20100922.0007
+
+
+docName: eng-NG-31-135195-8585554
+
+
+docName: AFP_ENG_20090801.0067
+
+
+docName: eng-NG-31-127080-12061914
+
+
+docName: eng-NG-31-135073-9639873
+
+
+docName: eng-NG-31-126276-9130476
+
+
+docName: APW_ENG_20101209.0482
+
+
+docName: APW_ENG_20101209.0535
+
+
+docName: APW_ENG_20100311.1196
+
+
+docName: eng-NG-31-135195-8585520
+
+
+docName: APW_ENG_20101120.0545
+
+
+docName: APW_ENG_20100423.0942
+
+
+docName: AFP_ENG_20101209.0210
+
+
+docName: eng-NG-31-135153-9643704
+
+
+docName: APW_ENG_20100505.0823
+
+
+docName: eng-NG-31-135073-9640069
+
+
+docName: bolt-eng-DF-170-181109-56174
+
+
+docName: eng-NG-31-135073-9639666
+
+
+docName: eng-NG-31-135073-9640203
+
+
+docName: AFP_ENG_20090728.0132
+
+
+docName: eng-NG-31-135153-9643731
+
+
+docName: eng-NG-31-135073-9639570
+
+
+docName: APW_ENG_20090818.0673
+
+
+docName: eng-NG-31-135153-9643725
+
+
+docName: AFP_ENG_20101125.0073
+
+
+docName: eng-NG-31-135073-9639686
+
+
+docName: eng-NG-31-126397-9139944
+
+
+docName: eng-NG-31-135073-9638696
+
+
+docName: XIN_ENG_20101111.0347
+
+
+docName: APW_ENG_20101209.0427
+
+
+docName: APW_ENG_20100324.1114
+
+
+docName: eng-NG-31-135153-8585312
+
+
+docName: eng-NG-31-135073-9639730
+
+
+docName: APW_ENG_20100505.0790
+
+
+docName: APW_ENG_20090729.1202
+
+
+docName: eng-NG-31-131840-8432375
+
+
+docName: APW_ENG_20101107.0348
+
+
+docName: APW_ENG_20090801.0507
+
+
+docName: eng-NG-31-135073-9639607
+
+
+docName: eng-NG-31-135073-9638987
+
+
+docName: XIN_ENG_20101215.0339
+
+
+docName: eng-NG-31-135073-9638919
+
+
+docName: eng-NG-31-126854-9168851
+
+
+docName: APW_ENG_20100423.1203
+
+
+docName: AFP_ENG_20101215.0093
+
+
+docName: eng-NG-31-135588-9749028
+
+
+docName: eng-NG-31-140566-9892419
+
+
+docName: XIN_ENG_20090802.0034
+
+
+docName: eng-NG-31-126277-9130545
+
+
+docName: APW_ENG_20100226.0435
+
+
+docName: eng-NG-31-135153-12169465
+
+
+docName: eng-NG-31-135588-9749148
+
+
+docName: eng-NG-31-135073-9638867
+
+
+docName: AFP_ENG_20090727.0383
+
+
+docName: AFP_ENG_20100911.0233
+
+
+docName: AFP_ENG_20101215.0170
+
+
+docName: APW_ENG_20100225.1541
+
+
+docName: eng-NG-31-139682-9846401
+
+
+docName: APW_ENG_20100107.0159
+
+
+docName: NYT_ENG_20101205.0031
+
+
+docName: AFP_ENG_20100505.0296
+
+
+docName: APW_ENG_20101209.0392
+
+
+docName: eng-NG-31-135371-9728665
+
+
+docName: eng-NG-31-135073-9639723
+
+
+docName: AFP_ENG_20101128.0232
+
+
+docName: APW_ENG_20101113.0718
+
+
+docName: eng-NG-31-135073-9639615
+
+
+docName: eng-NG-31-135073-9639144
+
+
+docName: AFP_ENG_20090716.0066
+
+
+docName: eng-NG-31-135073-9639865
+
+
+docName: XIN_ENG_20090729.0293
+
+
+docName: AFP_ENG_20091207.0053
+
+
+docName: eng-NG-31-107923-8057051
+
+
+docName: eng-NG-31-135195-9645377
+
+
+docName: eng-NG-31-135073-9639233
+
+
+docName: AFP_ENG_20090728.0126
+
+
+docName: eng-NG-31-135073-9640183
+
+
+docName: eng-NG-31-135073-9640020
+
+
+docName: APW_ENG_20100505.1075
+
+
+docName: NYT_ENG_20100512.0158
+
+
+docName: NYT_ENG_20091213.0073
+
+
+docName: eng-NG-31-135073-9639166
+
+
+docName: eng-NG-31-135153-9643689
+
+
+docName: eng-NG-31-135371-12172126
+
+
+docName: eng-NG-31-126402-9143797
+
+
+docName: APW_ENG_20100225.1505
+
+
+docName: AFP_ENG_20100324.0059
+
+
+docName: eng-NG-31-135073-9640053
+
+
+docName: APW_ENG_20100112.0753
+
+
+docName: eng-NG-31-108057-8947008
+
+
+docName: APW_ENG_20100423.0544
+
+
+docName: eng-NG-31-135153-9643724
+
+
+docName: APW_ENG_20101120.0597
+
+
+docName: NYT_ENG_20101202.0061
+
+
+docName: eng-NG-31-135073-9639072
+
+
+docName: eng-NG-31-135472-9742129
+
+
+docName: eng-NG-31-135073-9639573
+
+
+docName: APW_ENG_20090801.0535
+
+
+docName: AFP_ENG_20100504.0077
+
+
+docName: AFP_ENG_20090731.0427
+
+
+docName: NYT_ENG_20100626.0032
+
+
+docName: eng-NG-31-135073-9639690
+
+
+docName: NYT_ENG_20100928.0084
+
+
+docName: eng-NG-31-135073-9638689
+
+
+docName: eng-NG-31-135073-9638704
+
+
+docName: eng-NG-31-126277-8195988
+
+
+docName: eng-NG-31-135073-9639100
+
+
+docName: eng-NG-31-131708-9422647
+
+
+docName: eng-NG-31-107921-8918134
+
+
+docName: eng-NG-31-135153-12169468
+
+
+docName: eng-NG-31-135153-9643659
+
+
+docName: APW_ENG_20100225.1421
+
+
+docName: eng-NG-31-135073-9639951
+
+
+docName: eng-NG-31-135153-9643720
+
+
+docName: eng-NG-31-135073-9639184
+
+
+docName: eng-NG-31-126854-9168251
+
+
+docName: eng-NG-31-135153-9643683
+
+
+docName: AFP_ENG_20101128.0274
+
+
+docName: XIN_ENG_20101113.0147
+
+
+docName: NYT_ENG_20091008.0023
+
+
+docName: APW_ENG_20100423.0504
+
+
+docName: eng-NG-31-135073-9639067
+
+
+docName: APW_ENG_20100225.0440
+
+
+docName: APW_ENG_20091027.0810
+
+
+docName: eng-NG-31-135073-9639002
+
+
+docName: eng-NG-31-135073-9639036
+
+
+docName: APW_ENG_20100106.1277
+
+
+docName: APW_ENG_20090626.0105
+
+
+docName: WPB_ENG_20100927.0040
+
+
+docName: APW_ENG_20091027.0845
+
+
+docName: eng-NG-31-135153-12169457
+
+
+docName: eng-NG-31-135073-9639229
+
+
+docName: AFP_ENG_20090801.0086
+
+
+docName: LTW_ENG_20090903.0004
+
+
+docName: eng-NG-31-135073-9639022
+
+
+docName: AFP_ENG_20090728.0116
+
+
+docName: eng-NG-31-135073-9638876
+
+
+docName: eng-NG-31-135598-9761038
+
+
+docName: APW_ENG_20100324.1214
+
+
+docName: APW_ENG_20090720.0535
+
+
+docName: eng-NG-31-143594-10250459
+
+
+docName: APW_ENG_20090728.1087
+
+
+docName: eng-NG-31-135073-9639196
+
+
+docName: eng-NG-31-135073-9639418
+
+
+docName: eng-NG-31-140209-8663072
+
+
+docName: eng-NG-31-135073-9640004
+
+
+docName: eng-NG-31-135073-9639044
+
+
+docName: APW_ENG_20100225.1547
+
+
+docName: eng-NG-31-126397-9139889
+
+
+docName: NYT_ENG_20101230.0086
+
+
+docName: eng-NG-31-131708-8428214
+
+
+docName: APW_ENG_20101107.0749
+
+
+docName: APW_ENG_20101001.0081
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Tim Alessi, director of product development	director	jobTitle
+Italian design firm Alessi	italy	org:country_of_headquarters
+Alberto Alessi, president of the Italian design firm Alessi	Alberto Alessi	org:top_members_employees
+Tim Alessi, director of product development	director	jobTitle
+Alessi, an Italian company	italy	org:country_of_headquarters
+Alessio Alessi, the chief executive officer	Alessio Alessi	org:top_members_employees
+Italian firm Alessi	italy	org:country_of_headquarters
+Italian design firm Alessi	italy	org:country_of_headquarters
+Alberto Alessi, president of the Italian design firm Alessi	Alberto Alessi	org:top_members_employees
+Tim Alessi, director of product development	director	jobTitle
+Tim Alessi, director of product development	director	jobTitle
+Tim Alessi, director of product development	director	jobTitle
+Peggy Alessi, the manager	manager	jobTitle
+Tim Alessi, LG's director of new product development	director	jobTitle
+Albert (Joseph Alessi), a conductor	conductor	jobTitle
+Dr. Anthony Alessi, a neurologist	neurologist	jobTitle
+Tim Alessi, director of product development	director	jobTitle
+
+
+
+Query Name: Alessi
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_079	org:subsidiaries	UWashington3	NIL
+SF14_ENG_079	org:alternate_names	UWashington3	NIL
+SF14_ENG_079	org:date_founded	UWashington3	NIL
+SF14_ENG_079	org:website	UWashington3	NIL
+SF14_ENG_079	org:country_of_headquarters	UWashington3	APW_ENG_20101011.0125:4562-4588	italy	APW_ENG_20101011.0125:4562-4570	4.0
+SF14_ENG_079	org:number_of_employees_members	UWashington3	NIL
+SF14_ENG_079	org:date_dissolved	UWashington3	NIL
+SF14_ENG_079	org:founded_by	UWashington3	NIL
+SF14_ENG_079	org:political_religious_affiliation	UWashington3	NIL
+SF14_ENG_079	org:shareholders	UWashington3	NIL
+SF14_ENG_079	org:city_of_headquarters	UWashington3	NIL
+SF14_ENG_079	org:member_of	UWashington3	NIL
+SF14_ENG_079	org:top_members_employees	UWashington3	APW_ENG_20101011.0125:4529-4588	Alberto Alessi	APW_ENG_20101011.0125:4529-4542	2.0
+SF14_ENG_079	org:top_members_employees	UWashington3	WPB_ENG_20101028.0046:866-909	Alessio Alessi	WPB_ENG_20101028.0046:866-879	1.0
+SF14_ENG_079	org:parents	UWashington3	NIL
+SF14_ENG_079	org:members	UWashington3	NIL
+SF14_ENG_079	org:stateorprovince_of_headquarters	UWashington3	NIL
+
+Query Name: Pluribus Capital Management
+
+
+Number of Documents: 8
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: LTW_ENG_20091211.0103
+
+
+docName: APW_ENG_20091210.0985
+
+
+docName: NYT_ENG_20100112.0071
+
+
+docName: NYT_ENG_20091210.0074
+
+
+docName: AFP_ENG_20091210.0138
+
+
+docName: APW_ENG_20091210.1047
+
+
+docName: NYT_ENG_20091210.0075
+
+
+docName: APW_ENG_20091210.1214
+
+
+Filtered Extractions ----------------------------------------------------------
+
+
+
+
+Query Name: Pluribus Capital Management
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_082	org:subsidiaries	UWashington3	NIL
+SF14_ENG_082	org:alternate_names	UWashington3	NIL
+SF14_ENG_082	org:date_founded	UWashington3	NIL
+SF14_ENG_082	org:website	UWashington3	NIL
+SF14_ENG_082	org:country_of_headquarters	UWashington3	NIL
+SF14_ENG_082	org:number_of_employees_members	UWashington3	NIL
+SF14_ENG_082	org:date_dissolved	UWashington3	NIL
+SF14_ENG_082	org:founded_by	UWashington3	NIL
+SF14_ENG_082	org:political_religious_affiliation	UWashington3	NIL
+SF14_ENG_082	org:shareholders	UWashington3	NIL
+SF14_ENG_082	org:city_of_headquarters	UWashington3	NIL
+SF14_ENG_082	org:member_of	UWashington3	NIL
+SF14_ENG_082	org:top_members_employees	UWashington3	NIL
+SF14_ENG_082	org:parents	UWashington3	NIL
+SF14_ENG_082	org:members	UWashington3	NIL
+SF14_ENG_082	org:stateorprovince_of_headquarters	UWashington3	NIL
+
+Query Name: New Fabris
+
+
+Number of Documents: 18
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: AFP_ENG_20090713.0170
+
+
+docName: APW_ENG_20090713.0630
+
+
+docName: APW_ENG_20090715.0940
+
+
+docName: AFP_ENG_20090809.0334
+
+
+docName: APW_ENG_20090716.0672
+
+
+docName: AFP_ENG_20090713.0360
+
+
+docName: AFP_ENG_20090716.0302
+
+
+docName: NYT_ENG_20090715.0183
+
+
+docName: NYT_ENG_20090715.0053
+
+
+docName: AFP_ENG_20090712.0173
+
+
+docName: AFP_ENG_20090717.0476
+
+
+docName: AFP_ENG_20090818.0555
+
+
+docName: APW_ENG_20090716.0869
+
+
+docName: AFP_ENG_20090716.0304
+
+
+docName: NYT_ENG_20090715.0182
+
+
+docName: AFP_ENG_20090809.0332
+
+
+docName: AFP_ENG_20090720.0298
+
+
+docName: APW_ENG_20090716.0470
+
+
+Filtered Extractions ----------------------------------------------------------
+
+New Fabris company director Pierre Reau	Pierre Reau	org:top_members_employees
+New Fabris company director Pierre Reau	Pierre Reau	org:top_members_employees
+car parts manufacturer New Fabris	manufacturer	jobTitle
+
+
+
+Query Name: New Fabris
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_088	org:subsidiaries	UWashington3	NIL
+SF14_ENG_088	org:alternate_names	UWashington3	NIL
+SF14_ENG_088	org:date_founded	UWashington3	NIL
+SF14_ENG_088	org:website	UWashington3	NIL
+SF14_ENG_088	org:country_of_headquarters	UWashington3	NIL
+SF14_ENG_088	org:number_of_employees_members	UWashington3	NIL
+SF14_ENG_088	org:date_dissolved	UWashington3	NIL
+SF14_ENG_088	org:founded_by	UWashington3	NIL
+SF14_ENG_088	org:political_religious_affiliation	UWashington3	NIL
+SF14_ENG_088	org:shareholders	UWashington3	NIL
+SF14_ENG_088	org:city_of_headquarters	UWashington3	NIL
+SF14_ENG_088	org:member_of	UWashington3	NIL
+SF14_ENG_088	org:top_members_employees	UWashington3	AFP_ENG_20090713.0360:2804-2843	Pierre Reau	AFP_ENG_20090713.0360:2832-2842	2.0
+SF14_ENG_088	org:parents	UWashington3	NIL
+SF14_ENG_088	org:members	UWashington3	NIL
+SF14_ENG_088	org:stateorprovince_of_headquarters	UWashington3	NIL
+
+Query Name: Pacific Asia Travel Association
+
+
+Number of Documents: 19
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: XIN_ENG_20100914.0402
+
+
+docName: AFP_ENG_20090607.0485
+
+
+docName: CNA_ENG_20100930.0052
+
+
+docName: eng-NG-31-125698-8153805
+
+
+docName: eng-NG-31-128524-8369399
+
+
+docName: eng-NG-31-140222-9889282
+
+
+docName: AFP_ENG_20100822.0161
+
+
+docName: eng-NG-31-140222-9889285
+
+
+docName: WPB_ENG_20101118.0056
+
+
+docName: XIN_ENG_20100321.0245
+
+
+docName: XIN_ENG_20100321.0267
+
+
+docName: eng-NG-31-133863-9581626
+
+
+docName: AFP_ENG_20100713.0579
+
+
+docName: XIN_ENG_20100203.0139
+
+
+docName: XIN_ENG_20090623.0423
+
+
+docName: APW_ENG_20091103.0290
+
+
+docName: eng-NG-31-133863-9581623
+
+
+docName: XIN_ENG_20100321.0268
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Greg Duffell, chief executive of the Bangkok-based Pacific Asia Travel Association (PATA)	Greg Duffell	org:top_members_employees
+Gregory Duffell, CEO of the Pacific Asia Travel Association (PATA)	Gregory Duffell	org:top_members_employees
+Pacific Asia Travel Association (PATA) poll of 1,571 mainland Chinese	china	org:country_of_headquarters
+Greg Duffell, president of the Bangkok-based Pacific Asia Travel Association	Greg Duffell	org:top_members_employees
+
+
+
+Query Name: Pacific Asia Travel Association
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_092	org:subsidiaries	UWashington3	NIL
+SF14_ENG_092	org:alternate_names	UWashington3	NIL
+SF14_ENG_092	org:date_founded	UWashington3	NIL
+SF14_ENG_092	org:website	UWashington3	NIL
+SF14_ENG_092	org:country_of_headquarters	UWashington3	AFP_ENG_20100713.0579:685-755	china	AFP_ENG_20100713.0579:747-755	0.8
+SF14_ENG_092	org:number_of_employees_members	UWashington3	NIL
+SF14_ENG_092	org:date_dissolved	UWashington3	NIL
+SF14_ENG_092	org:founded_by	UWashington3	NIL
+SF14_ENG_092	org:political_religious_affiliation	UWashington3	NIL
+SF14_ENG_092	org:shareholders	UWashington3	NIL
+SF14_ENG_092	org:city_of_headquarters	UWashington3	NIL
+SF14_ENG_092	org:member_of	UWashington3	NIL
+SF14_ENG_092	org:top_members_employees	UWashington3	APW_ENG_20091103.0290:581-657	Greg Duffell	APW_ENG_20091103.0290:581-592	2.0
+SF14_ENG_092	org:top_members_employees	UWashington3	XIN_ENG_20100321.0245:3149-3215	Gregory Duffell	XIN_ENG_20100321.0245:3149-3163	1.0
+SF14_ENG_092	org:parents	UWashington3	NIL
+SF14_ENG_092	org:members	UWashington3	NIL
+SF14_ENG_092	org:stateorprovince_of_headquarters	UWashington3	NIL
