@@ -1,0 +1,83 @@
+
+Query Name: Des Moines
+
+
+Number of Documents: 4
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: bolt-eng-DF-199-192823-6760856
+
+
+sentenceOffset/Text 244: It concerned a 12 year old boy who was kidnapped 24 years ago in Des Moines, Iowa, while delivering newspapers.
+
+
+docName: eng-NG-31-140581-9892775
+
+
+sentenceOffset/Text 704: When it comes to bizarre local Halloween traditions, however, few communities can match the Des Moines metro area and its 50-year-old ritual of - well, let's just call it Bad Joke Night.
+
+Des Moines metro area	des moines	city
+
+sentenceOffset/Text 1022: In Des Moines and surrounding suburbs, it's more like this: The kid says, &quot;Trick or treat.&quot;
+
+
+sentenceOffset/Text 2436: The credit for providing Des Moines children with the perfect outlet for their most groan-inducing jokes largely goes to one woman, Kathryn Krieg, director of recreation for the Des Moines Playground Commission (later the Parks and Recreation Department) for 43 years.
+
+Des Moines Playground Commission (later the Parks and Recreation Department)	des moines	city
+
+sentenceOffset/Text 3064: The flash point came on Halloween in 1938 when Des Moines police answered a record 550 calls concerning vandalism.
+
+Des Moines police	des moines	city
+
+sentenceOffset/Text 3827: An article published in The Des Moines Register on Oct. 29, 1942, carried the headline &quot;Kids!
+
+Des Moines Register	des moines	city
+
+sentenceOffset/Text 4156: The Beggars' Night program was so successful that by the mid-1940's, the number of Halloween police calls in Des Moines had been cut by more than half.
+
+
+sentenceOffset/Text 4309: After the war, Krieg continued to issue annual bulletins in the Register laying still more Beggars' Night ground rules, including that children should stay in their own neighborhoods and that parents should turn on their porch lights for trick-or-treaters and accompany small children on their rounds.
+
+
+sentenceOffset/Text 5029: Krieg retired in 1974, a few years after the Register stopped running her yearly admonition to make children work for their candy.
+
+
+sentenceOffset/Text 5464: Instead of tales of marauding youth, the only Halloween-related story to appear in the Register last year was about a gathering of local witches.
+
+
+docName: AFP_ENG_20100412.0074
+
+
+sentenceOffset/Text 2284: Mary Chind of The Des Moines Register won for Breaking News Photography while Craig Walker of The Denver Post won for Feature Photography.
+
+Denver Post	denver	city
+Des Moines Register	des moines	city
+
+docName: AFP_ENG_20100929.0011
+
+
+sentenceOffset/Text 4320: In a new Des Moines Register Iowa poll, 55 percent of likely voters said they were dissatisfied with Obama.
+
+Des Moines Register Iowa poll	des moines	city
+
+Filtered Extractions ----------------------------------------------------------
+
+Des Moines metro area	des moines	city
+des moines	Des Moines Playground Commission	gpe:headquarters_in_city
+des moines	Des Moines	gpe:residents_of_city
+des moines	Des Moines Register	gpe:headquarters_in_city
+des moines	Des Moines Register	gpe:headquarters_in_city
+des moines	Des Moines Register Iowa	gpe:headquarters_in_city
+
+
+
+Query Name: Des Moines
+
+KBP Report ----------------------------------------------------------
+
+CS14_ENG_011	gpe:headquarters_in_city	UWashington3	AFP_ENG_20100412.0074:2302-2320	Des Moines Register	AFP_ENG_20100412.0074:2302-2320	2.0	ORG	Mary Chind of The Des Moines Register won for Breaking News Photography while Craig Walker of The Denver Post won for Feature Photography.
+CS14_ENG_011	gpe:headquarters_in_city	UWashington3	AFP_ENG_20100929.0011:4329-4352	Des Moines Register Iowa	AFP_ENG_20100929.0011:4329-4352	1.0	ORG	In a new Des Moines Register Iowa poll, 55 percent of likely voters said they were dissatisfied with Obama.
+CS14_ENG_011	gpe:headquarters_in_city	UWashington3	eng-NG-31-140581-9892775:2614-2645	Des Moines Playground Commission	eng-NG-31-140581-9892775:2614-2645	1.0	ORG	The credit for providing Des Moines children with the perfect outlet for their most groan-inducing jokes largely goes to one woman, Kathryn Krieg, director of recreation for the Des Moines Playground Commission (later the Parks and Recreation Department) for 43 years.

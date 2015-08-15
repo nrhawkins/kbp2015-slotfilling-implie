@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+ <query id="CS14_ENG_043">
+    <name>Sandy</name>
+    <docid>eng-NG-31-100626-11553008</docid>
+    <beg>86142</beg>
+    <end>86146</end>
+    <enttype>GPE</enttype>
+    <slot0>gpe:residents_of_city</slot0>
+    <slot1>per:age</slot1>
+  </query>
+</query_set>
+

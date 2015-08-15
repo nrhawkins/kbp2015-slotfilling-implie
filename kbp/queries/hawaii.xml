@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+ <query id="CS14_ENG_031">
+    <name>Hawaii</name>
+    <docid>APW_ENG_20090715.1423</docid>
+    <beg>499</beg>
+    <end>504</end>
+    <enttype>GPE</enttype>
+    <slot0>gpe:residents_of_stateorprovince</slot0>
+    <slot1>per:schools_attended</slot1>
+  </query>
+</query_set>
+

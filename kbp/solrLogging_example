@@ -1,0 +1,66 @@
+Connection request: [route: {}->http://rv-n16.cs.washington.edu:9325][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 
+128]Connection leased: [id: 0][route: {}->http://rv-n16.cs.washington.edu:9325][total kept alive: 0; route allocated: 1 of 32; total 
+allocated: 1 of 128]Stale connection checkCookieSpec selected: best-matchAuth cache not set in the contextTarget auth state: 
+UNCHALLENGEDProxy auth state: UNCHALLENGEDAttempt 1 to execute requestSending request: GET 
+/solr/newCorpus/select?q=docid%3A%22AFP_ENG_20090912.0455%22&wt=javabin&version=2 HTTP/1.1>> "GET 
+/solr/newCorpus/select?q=docid%3A%22AFP_ENG_20090912.0455%22&wt=javabin&version=2 HTTP/1.1[\r][\n]">> "User-Agent: 
+Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]">> "Host: rv-n16.cs.washington.edu:9325[\r][\n]">> "Connection: 
+Keep-Alive[\r][\n]">> "Authorization: Basic a25vd2l0YWxsOmtub3dpdCE=[\r][\n]">> "[\r][\n]">> GET 
+/solr/newCorpus/select?q=docid%3A%22AFP_ENG_20090912.0455%22&wt=javabin&version=2 HTTP/1.1>> User-Agent: 
+Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0>> Host: rv-n16.cs.washington.edu:9325>> Connection: Keep-Alive>> Authorization: 
+Basic a25vd2l0YWxsOmtub3dpdCE=<< "HTTP/1.1 200 OK[\r][\n]"<< "Content-Type: application/octet-stream[\r][\n]"<< "Content-Length: 
+5427[\r][\n]"<< "[\r][\n]"Receiving response: HTTP/1.1 200 OK<< HTTP/1.1 200 OK<< Content-Type: application/octet-stream<< Content-Length: 
+5427Connection can be kept alive indefinitely<< 
+"[0x2][0xa2][0xe0].responseHeader[0xa3][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTime[0x6][0x0][0x0][0x0][0x0][0xe0]&params[0xa3][0xe0]!q=docid:"AFP_ENG_20090912.0455"[0xe0]"wt'javabin[0xe0]'version!2[0xe0](response[0xc][0x83]a`[0x0][0x81][0xb][0xa3][0xe0]%docid5AFP_ENG_20090912.0455[0xe0]#xml?[0xdc](<DOC 
+id="AFP_ENG_20090912.0455" type="story" >[\n]"<< "<HEADLINE>[\n]"<< "NBA: 'Air' Jordan in rare company in Hall of Fame[\n]"<< 
+"</HEADLINE>[\n]"<< "<DATELINE>[\n]"<< "SPRINGFIELD, Massachusetts, Sept 11, 2009 (AFP)[\n]"<< "</DATELINE>[\n]"<< "<TEXT>[\n]"<< 
+"<P>[\n]"<< "Michael Jordan, perhaps basketball's greatest player, was enshrined in the Hall[\n]"<< "of Fame Friday, thanking those who 
+fueled his competitive fire.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< ""I'd do anything to win," Jordan said, defining the key trait that led him 
+to[\n]"<< "six National Basketball Association titles, five NBA Most Valuable Player Awards[\n]"<< "and two Olympic gold medals.[\n]"<< 
+"</P>[\n]"<< "<P>[\n]"<< "Along the way Jordan supplied enduring images - from determined defensive moves[\n]"<< "to gravity-defying dunks 
+- that raised the NBA's profile around the world.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "In his enshrinement speech, Jordan recalled the high 
+school coach who snubbed[\n]"<< "him - and the last player to try to defend him in the NBA finals.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "He 
+thanked his own coaches and rival coaches, his teammates and his opponents[\n]"<< "for continually prodding him to greater heights of 
+achievement.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "To that high school coach who passed him over:[\n]"<< "</P>[\n]"<< "<P>[\n]"<< ""I wanted to 
+make sure you understood: You made a mistake, dude," Jordan said[\n]"<< "with a sly smile.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "He took a poke 
+at onetime Knicks coach Jeff Van Gundy, who once claimed Jordan[\n]"<< ""conned" players by acting friendly off the court, then attacking 
+them in games.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< ""I just so happen to be a friendly guy," Jordan said. "I get along with[\n]"<< "everybody, 
+but at the same time, when the light comes on, I'm as competitive as[\n]"<< "anybody you know."[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "Pundits 
+who predicted that Jordan, though a great player, would never win like[\n]"<< "Larry Bird or Magic Johnson, were particularly 
+motivating.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< ""I had to listen to all that, and that put so much wood on that fire that it[\n]"<< "kept me 
+each and every day trying to get better as a basketball player," Jordan[\n]"<< "said.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "Jordan was 
+temporarily retired in 1994 when young Utah forward Bryon Russell[\n]"<< "told him he would have been able to guard the great man.[\n]"<< 
+"</P>[\n]"<< "<P>[\n]"<< "When Jordan came out of retirement, Russell got two chances at him in the NBA[\n]"<< "finals. Russell was the 
+well-beaten defender when Jordan hit the clinching shot[\n]"<< "to win the 1998 crown.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< ""From this day 
+forward, if I ever see him in shorts, I'm coming at him," Jordan[\n]"<< "said.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "Taking the stage to an 
+extended ovation, Jordan had to fight to get tears under[\n]"<< "control.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "Jordan was elected to the hall 
+in his first year of eligibility, and certainly[\n]"<< "his arrival there had never been in doubt.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "But 
+prior to the ceremony, the 46-year-old shied away from the wave of "greatest[\n]"<< "ever" praise.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< ""It's 
+a privilege, but I would never give myself that type of accolade because I[\n]"<< "never competed against everybody in this Hall of Fame," 
+he said. "So it's too[\n]"<< "much for me to ask, and too much for me to accept."[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "But Jordan, whose 
+amazing aerial acrobatics, fierce competitive streak and[\n]"<< "marketing savvy transformed both his sport and sports business around the 
+world,[\n]"<< "was the undisputed superstar of a stellar class of 2009 inductees.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "The group also included 
+Jordan's 1992 Olympic Dream Team colleague and San[\n]"<< "Antonio Spurs standout David Robinson, Utah Jazz stalwart and '92 Dream 
+Teamer[\n]"<< "John Stockton, longtime Jazz coach Jerry Sloan and Rutgers University women's[\n]"<< "coach C. Vivian Stringer.[\n]"<< 
+"</P>[\n]"<< "<P>[\n]"<< ""It's truly a pleasure for me to be a part of this and contrary to what you guys[\n]"<< "believe, it's not just 
+me going into the Hall of Fame, it's a group of us,"[\n]"<< "Jordan said.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "Robinson won two NBA 
+championships with San Antonio and was NBA Rookie of the[\n]"<< "year in 1990 and Most Valuable Player in 1995.[\n]"<< "</P>[\n]"<< 
+"<P>[\n]"<< "Stockton is the NBA's all-time leader in assists and steals. But Stockton caught[\n]"<< "the mood when he joked that some of 
+his invited guests were really there to see[\n]"<< "Jordan.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< ""He makes one big shot and everybody thinks 
+he's kind of cool," Stockton[\n]"<< "quipped. "I don't get it."[\n]"<< "</P>[\n]"<< "<P>[\n]"<< ""Everybody's here to see Michael," 
+Charles Barkley said before the festivities.[\n]"<< ""He's the greatest player of all-time."[\n]"<< "</P>[\n]"<< "<P>[\n]"<< ""I think 
+this is a greater honor for the Hall of Fame than it is for Michael,"[\n]"<< "Bulls Chairman Jerry Reinsdorf said Thursday.[\n]"<< 
+"</P>[\n]"<< "<P>[\n]"<< ""It's really incredible that this many years after he retired he's still[\n]"<< "probably only behind Tiger 
+(Woods) as the second-most popular athlete in the[\n]"<< "world. That's a wonderful tribute to him."[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "In 
+fact, Jordan blazed the path that golfer Woods now treads as a global star[\n]"<< "whose popularity transcends his sport.[\n]"<< 
+"</P>[\n]"<< "<P>[\n]"<< "Shoes bearing his nickname, "Air", helped Jordan make more than 100 million[\n]"<< "dollars a year from 
+endorsements and salaries above 30 million dollars. Children[\n]"<< "all over the world sported replicas of his jersey number 23 as they 
+tried to be[\n]"<< "like Mike.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "Jordan's drawing power remains so huge that Friday evening's ceremony was 
+moved[\n]"<< "from the Hall of Fame to Springfield's Symphony Hall, where the capacity of[\n]"<< "2,600 is more than double that of the 
+Hall of Fame facilities.[\n]"<< "</P>[\n]"<< "<P>[\n]"<< "His fellow inductee Sloan said it was no more than Jordan's due.[\n]"<< 
+"</P>[\n]"<< "<P>[\n]"<< ""To see what Michael has done not only for the Chicago Bulls but throughout the[\n]"<< "whole world of 
+basketball is really mind-boggling," Sloan said.[\n]"<< "</P>[\n]"<< "</TEXT>[\n]"<< "</DOC>[\n]"<< 
+"[0xe0])_version_[0x7][0x13][0xfe][0xeb][0xa0][0xd7][0x10][0x0][0x1]"Connection [id: 0][route: {}->http://rv-n16.cs.washington.edu:9325] 
+can be kept alive indefinitelyConnection released: [id: 0][route: {}->http://rv-n16.cs.washington.edu:9325][total kept alive: 1; route 
+allocated: 1 of 32; total allocated: 1 of 128]Document was Stanford Annotated: AFP_ENG_20090912.0455
+

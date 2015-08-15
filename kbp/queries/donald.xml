@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+  <query id="CS14_ENG_001">
+    <name>Donald</name>
+    <docid>NYT_ENG_20100918.0020</docid>
+    <beg>3009</beg>
+    <end>3014</end>
+    <enttype>PER</enttype>
+    <slot0>per:title</slot0>
+    <slot>per:holds_shares_in</slot>
+    <slot1>per:title</slot1>
+  </query>
+</query_set>

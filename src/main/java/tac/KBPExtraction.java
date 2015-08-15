@@ -20,6 +20,7 @@ public class KBPExtraction {
 	private Integer arg1BestMentionSentNum;
 	private Integer arg2BestMentionSentNum;
 	private List<NERTag> ners;
+	private String sentence;
 	
 	@Override
 	public String toString() {
@@ -30,7 +31,8 @@ public class KBPExtraction {
 				+ docName + ", sentNum=" + sentNum
 				+ ", arg1BestMentionSentNum=" + arg1BestMentionSentNum
 				+ ", arg2BestMentionSentNum=" + arg2BestMentionSentNum 
-				+ ", ners=" + ners + "]";
+				+ ", ners=" + ners 
+				+ ", sentence=" + sentence + "]";
 	}
 
 
@@ -38,7 +40,7 @@ public class KBPExtraction {
 			String arg1Link, String arg2Link, String arg1BestMention,
 			String arg2BestMention, String docName, Integer sentNum,
 			Integer arg1BestMentionSentNum, Integer arg2BestMentionSentNum,
-			List<NERTag> ners) {
+			List<NERTag> ners, String sentence) {
 		super();
 		this.arg1 = arg1;
 		this.arg2 = arg2;
@@ -53,6 +55,7 @@ public class KBPExtraction {
 		this.arg1BestMentionSentNum = arg1BestMentionSentNum;
 		this.arg2BestMentionSentNum = arg2BestMentionSentNum;
 		this.ners = ners;
+		this.sentence = sentence;
 	}
 	
 	
@@ -135,6 +138,11 @@ public class KBPExtraction {
 	public void setNers(List<NERTag> ners) {
 		this.ners = ners;
 	}
-	
+	public String getSentence() {
+		return sentence;
+	}
+	public void setSentence(String sentence) {
+		this.sentence = sentence;
+	}
 }
 

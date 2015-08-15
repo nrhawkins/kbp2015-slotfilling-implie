@@ -8,8 +8,8 @@ import edu.knowitall.common.Resource
 case class Slot(name: String, maxResults: Int, patterns: Seq[SlotPattern]) {
   require(name == name.trim)
   
-  def isLocation = if(name.contains("city") || name.contains("country") || name.contains("stateorprovince") ||
-      name.contains("cities") || name.contains("countries") || name.contains("states")) true else false
+  def isLocation = if(!name.contains("gpe") && (name.contains("city") || name.contains("country") || name.contains("stateorprovince") ||
+      name.contains("cities") || name.contains("countries") || name.contains("states"))) true else false
   def isCountry = if(name.contains("country")) true else false
   def isCity = if(name.contains("city")) true else false
   def isStateOrProvince = if(name.contains("stateorprovince")) true else false
@@ -21,6 +21,20 @@ case class Slot(name: String, maxResults: Int, patterns: Seq[SlotPattern]) {
   def isAlternateName = if(name.contains("alternate_names")) true else false
   def isCauseOfDeath = if(name.contains("cause_of_death")) true else false
   def isTitle = name.equals("per:title")
+  
+  def isPerson = if(name.equals("per:alternate_names") || name.equals("per:spouse") || 
+      name.equals("per:children") || name.equals("per:parents") || name.equals("per:siblings") || 
+      name.equals("per:other_family") || name.equals("org:members") || name.equals("org:shareholders") ||
+      name.equals("org:founded_by") || name.equals("org:top_members_employees") ||
+      (name.contains("gpe:") && !name.contains("headquarters") )) true else false
+  def isOrganization = if(name.equals("per:employee_or_member_of") || name.equals("org:alternate_names") ||
+      name.equals("org:member_of") || name.equals("per:schools_attended") || 
+      name.equals("org:subsidiaries") || name.equals("org:parents") ||
+      name.contains("gpe:headquarters")) true else false
+  def isGPE = if(isLocation) true else false 
+      
+  def slotfillType = if(isGPE) "GPE" else if(isPerson) "PER" else if(isOrganization) "ORG" else "STRING"  
+  
 }
 
 object Slot {
@@ -31,14 +45,17 @@ object Slot {
     url
   }
   
-  //private val personResource = "/edu/washington/cs/knowitall/kbp2014/multir/slotfiller/PersonSlotTypes.txt"
   private val personResource = "/tac/PersonSlotTypes.txt"
   private def personUrl = requireResource(personResource)
   private def personPatternUrl = requireResource(SlotPattern.personPatternResource)
-  //private def organizationResource = "/edu/washington/cs/knowitall/kbp2014/multir/slotfiller/OrganizationSlotTypes.txt"
+  
   private def organizationResource = "/tac/OrganizationSlotTypes.txt"
   private def organizationUrl = requireResource(organizationResource)
   private val organizationPatternUrl = requireResource(SlotPattern.organizationPatternResource)
+  
+  private def gpeResource = "/tac/GeoPoliticalEntitySlotTypes.txt"
+  private def gpeUrl = requireResource(gpeResource)
+  private val gpePatternUrl = requireResource(SlotPattern.gpePatternResource)
   
   private def loadSlots(slotUrl: URL, patternUrl: URL, slotPrefix: String): Set[Slot] = {
     
@@ -78,13 +95,17 @@ object Slot {
 
   lazy val orgSlots = loadSlots(organizationUrl, organizationPatternUrl, "org:")
 
-  lazy val allSlots = personSlots ++ orgSlots
+  lazy val gpeSlots = loadSlots(gpeUrl, gpePatternUrl, "gpe:")
+  
+  lazy val allSlots = personSlots ++ orgSlots ++ gpeSlots
+  
   
   def fromName(name: String) =
     allSlots.find(_.name == name).getOrElse { throw new RuntimeException("Invalid slot name: " + name) }
   
   def getSlotTypesList(kbpQueryEntityType: KBPQueryEntityType) = {
     kbpQueryEntityType match {
+      case GPE => gpeSlots
       case ORG => orgSlots
       case PER => personSlots
     }

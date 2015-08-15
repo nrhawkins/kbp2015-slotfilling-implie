@@ -1,0 +1,60 @@
+
+Query Name: St. Petersburg
+
+
+Number of Documents: 3
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: APW_ENG_20101222.0160
+
+
+sentenceOffset/Text 58: Bowl Glance </HEADLINE> <DATELINE> 2010-12-22 07:06:22 UTC </DATELINE> <TEXT> <P> Tuesday, Dec. 21 </P> <P> Beef 'O' Brady's Bowl </P> <P> At St. Petersburg, Florida </P> <P> Louisville 31, Southern Mississippi 28 </P> <P> Wednesday, Dec. 22 </P> <P> MAACO Bowl </P> <P> At Las Vegas </P> <P> Utah (10-2) vs. Boise State (11-1)
+
+
+docName: NYT_ENG_20100827.0176
+
+
+sentenceOffset/Text 2978: Dr. David Weiland, vice president of medical affairs at Bayfront Medical Center in St. Petersburg and president of the Pinellas County Medical Association, said Medicaid in Florida reimburses far less than any other program  about 56 percent of Medicare's rates.
+
+Dr. David Weiland, vice president of medical affairs	vice president	jobTitle
+
+sentenceOffset/Text 3387: It's a situation Bonnie Mack of St. Petersburg knows all too well.
+
+Bonnie Mack of St. Petersburg	st. petersburg	city
+
+sentenceOffset/Text 5926: Hospital Corporation of America, whose local hospitals include Brandon Regional, Largo Medical Center and St. Petersburg General, spent nearly three years studying ways to reduce wait times in its ERs.
+
+St. Petersburg General	st. petersburg	city
+Hospital Corporation of America, whose local hospitals	america	nationality
+
+sentenceOffset/Text 7245: Baptist (Plant City)      44,408      48,679      9.6%       Community (New Port Richey)      36,485      38,410      5.3%        Children's hospital            2008      2009      Increase       St. Joseph's Children's      40,758      50,341      23.5%       All Children's (St. Petersburg)      37,014      40,780      10.2%       Sources: area hospitals
+
+Baptist (Plant City)      44,408      48,679      9.6%       Community (New Port Richey)      36,485      38,410      5.3%        Children	port richey	city
+Baptist (Plant City)      44,408      48,679      9.6%       Community (New Port Richey)      36,485      38,410      5.3%        Children	baptist	religion
+
+docName: NYT_ENG_20101221.0186
+
+
+sentenceOffset/Text 6594: St. Petersburg Times reporters Ron Matus and Craig Pittman and Miami Herald reporter John Dorschner contributed to this report.
+
+Miami Herald reporter John Dorschner	reporter	jobTitle
+Miami Herald reporter John Dorschner	miami	school
+St. Petersburg Times reporters Ron Matus	st. petersburg	city
+
+Filtered Extractions ----------------------------------------------------------
+
+st. petersburg	Bonnie Mack	gpe:residents_of_city
+st. petersburg	Petersburg General	gpe:residents_of_city
+st. petersburg	Ron Matus	gpe:residents_of_city
+
+
+
+Query Name: St. Petersburg
+
+KBP Report ----------------------------------------------------------
+
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20101221.0186:6594-6615	Petersburg Times	NYT_ENG_20101221.0186:6598-6613	1.0	ORG	St. Petersburg Times reporters Ron Matus and Craig Pittman and Miami Herald reporter John Dorschner contributed to this report.
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20100827.0176:6032-6054	St	NYT_ENG_20100827.0176:6032-6033	1.0	ORG	Hospital Corporation of America, whose local hospitals include Brandon Regional, Largo Medical Center and St. Petersburg General, spent nearly three years studying ways to reduce wait times in its ERs.

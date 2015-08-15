@@ -1,0 +1,28 @@
+
+Query Name: Sandy
+
+
+Number of Documents: 1
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: NYT_ENG_20101206.0218
+
+
+sentenceOffset/Text 1989: Theodore Olson, lawyer for the couples who sued to overturn Prop. 8 -- Kristin Perry and Sandy Stier of Berkeley, and Paul Katami and Jeff Zarrillo of Burbank -- argued that the Constitution forbids a state from denying "equal access to the fundamental right to marry."
+
+Jeff Zarrillo of Burbank	burbank	city
+Sandy Stier of Berkeley	berkeley	city
+Theodore Olson, lawyer	lawyer	jobTitle
+
+Filtered Extractions ----------------------------------------------------------
+
+
+
+
+Query Name: Sandy
+
+KBP Report ----------------------------------------------------------
+

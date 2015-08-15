@@ -109,7 +109,7 @@ object RunKBPImplie {
     
     //System.exit(0)
     
-    val queriesNoAliases = KBPQuery.parseKBPQueries(queriesFileName)	  
+    val queriesNoAliases = KBPQuery.parseKBPQueries(queriesFileName, "round0")	  
     val queries = KBPQuery.getAliases(queriesNoAliases)
 
     //val testQueries = List(queries(0),queries(11),queries(37),queries(38),queries(45))
@@ -204,13 +204,15 @@ object RunKBPImplie {
       //println("QID_Map: " + entityRelevantDocSerialization.keySet)
       //System.exit(0) 
       
+      val testQueries = List(queries(49))
+    
       //test 1 query
       //2014: PER: Ahmed Rashid
       //val testQueries = queries.dropRight(99)
       //2014: PER: Alan Gross
       //val testQueries = List(queries(11))      
       //2014: PER: Andrew E. Lange
-      val testQueries = List(queries(37))
+      //val testQueries = List(queries(37))
       //2014: PER: Frank Baldino Jr
       //val testQueries = List(queries(38))
       //2014: PER: Eliza Samudio
@@ -567,7 +569,8 @@ object RunKBPImplie {
                 c.extr.setRel("per:origin")
                 val newExtraction = new KBPExtraction(c.extr.getArg1(), c.extr.getArg2(), c.extr.getRel(), 
                     c.extr.getScore(), c.extr.getArg1Link(), c.extr.getArg1BestMention(), c.extr.getArg2Link(), c.extr.getArg2BestMention(),
-			        c.extr.getDocName(), c.extr.getSentNum(), c.extr.getArg1BestMentionSentNum(), c.extr.getArg2BestMentionSentNum(), c.extr.getNers())
+			        c.extr.getDocName(), c.extr.getSentNum(), c.extr.getArg1BestMentionSentNum(), c.extr.getArg2BestMentionSentNum(), c.extr.getNers(),
+			        c.extr.getSentence())
                 val newCandidate = new Candidate(queryCounter.getAndIncrement, newExtraction)
                 newCandidate.extr.setRel("per:countries_of_residence")
                 val country = mapper.getCountryName(c.extr.getArg2().getArgName(), lowercase=true)
@@ -938,7 +941,7 @@ object RunKBPImplie {
           val e = new KBPExtraction(arg1, arg2, rel, score,
 			arg1Link, arg2Link, arg1BestMention,
 			arg2BestMention, docName, sentNum,
-			arg1BestMentionSentNum, arg2BestMentionSentNum, ir.getNERs.asJava)
+			arg1BestMentionSentNum, arg2BestMentionSentNum, ir.getNERs.asJava, sentenceText)
           e
         //}
         //catch{case e: Exception => {      

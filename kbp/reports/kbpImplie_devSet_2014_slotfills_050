@@ -1,0 +1,30 @@
+SF14_ENG_050	per:spouse	UWashington3	NIL
+SF14_ENG_050	per:religion	UWashington3	APW_ENG_20100204.0020:2572-2621	baptists	APW_ENG_20100204.0020:2572-2580	5.0	String
+SF14_ENG_050	per:holds_shares_in	UWashington3	NIL
+SF14_ENG_050	per:city_of_death	UWashington3	NIL
+SF14_ENG_050	per:other_family	UWashington3	NIL
+SF14_ENG_050	per:countries_of_residence	UWashington3	NYT_ENG_20100201.0121:249-322	united states	NYT_ENG_20100201.0121:314-322	4.0	GPE
+SF14_ENG_050	per:country_of_death	UWashington3	NIL
+SF14_ENG_050	per:top_member_employee_of	UWashington3	NIL
+SF14_ENG_050	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_050	per:title	UWashington3	APW_ENG_20100211.1348:1960-2009	leader	APW_ENG_20100211.1348:1971-1978	29.0	String
+SF14_ENG_050	per:title	UWashington3	AFP_ENG_20100517.0092:58-122	missionary	AFP_ENG_20100517.0092:116-122	4.0	String
+SF14_ENG_050	per:title	UWashington3	NYT_ENG_20100131.0114:5497-5566	director	NYT_ENG_20100131.0114:5513-5522	1.0	String
+SF14_ENG_050	per:children	UWashington3	NIL
+SF14_ENG_050	per:origin	UWashington3	NYT_ENG_20100201.0121:249-322	americans	NYT_ENG_20100201.0121:314-322	4.0	String
+SF14_ENG_050	per:city_of_birth	UWashington3	NIL
+SF14_ENG_050	per:date_of_death	UWashington3	NIL
+SF14_ENG_050	per:age	UWashington3	NIL
+SF14_ENG_050	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_050	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_050	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_050	per:cause_of_death	UWashington3	NIL
+SF14_ENG_050	per:alternate_names	UWashington3	NIL
+SF14_ENG_050	per:charges	UWashington3	NIL
+SF14_ENG_050	per:country_of_birth	UWashington3	NIL
+SF14_ENG_050	per:schools_attended	UWashington3	NIL
+SF14_ENG_050	per:parents	UWashington3	NIL
+SF14_ENG_050	per:date_of_birth	UWashington3	NIL
+SF14_ENG_050	per:organizations_founded	UWashington3	NIL
+SF14_ENG_050	per:statesorprovinces_of_residence	UWashington3	APW_ENG_20100211.1348:1960-2009	idaho	APW_ENG_20100211.1348:2004-2009	21.0	GPE
+SF14_ENG_050	per:siblings	UWashington3	NIL

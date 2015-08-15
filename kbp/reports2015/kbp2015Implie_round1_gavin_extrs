@@ -1,0 +1,54 @@
+
+Query Name: Kenneth Gavin
+
+
+Number of Documents: 4
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: NYT_ENG_20131230.0138
+
+
+sentenceOffset/Text 4379: Kenneth Gavin, a spokesman for the archdiocese, declined to say whether Lynn could return to ministry.
+
+Kenneth Gavin, a spokesman	spokesman	jobTitle
+
+docName: NYT_ENG_20131231.0228
+
+
+sentenceOffset/Text 4495: Kenneth Gavin, a spokesman for the archdiocese, declined to say whether Lynn could return to ministry.
+
+Kenneth Gavin, a spokesman	spokesman	jobTitle
+
+docName: a8c31eef52244a068f4e41fc19311027
+
+
+sentenceOffset/Text 1068: The Archdiocese of Philadelphia is "eagerly anticipating" the event, said Kenneth Gavin, director of communications for the archdiocese.
+
+Kenneth Gavin, director of communications	director	jobTitle
+Archdiocese of Philadelphia	philadelphia	city
+
+docName: NYT_ENG_20131231.0144
+
+
+sentenceOffset/Text 4513: Kenneth Gavin, a spokesman for the archdiocese, declined to say whether Lynn could return to ministry.
+
+Kenneth Gavin, a spokesman	spokesman	jobTitle
+
+Filtered Extractions ----------------------------------------------------------
+
+Kenneth Gavin, a spokesman	spokesman	per:title
+Kenneth Gavin, a spokesman	spokesman	per:title
+Kenneth Gavin, director of communications	director	per:title
+Kenneth Gavin, a spokesman	spokesman	per:title
+
+
+
+Query Name: Kenneth Gavin
+
+KBP Report ----------------------------------------------------------
+
+CS14_ENG_016	per:title	UWashington3	NYT_ENG_20131231.0144:4513-4540	spokesman	STRING	NYT_ENG_20131231.0144:4530-4540	3.0	Kenneth Gavin	Kenneth Gavin, a spokesman for the archdiocese, declined to say whether Lynn could return to ministry.
+CS14_ENG_016	per:title	UWashington3	a8c31eef52244a068f4e41fc19311027:1142-1183	director	STRING	a8c31eef52244a068f4e41fc19311027:1155-1157	1.0	Kenneth Gavin	The Archdiocese of Philadelphia is "eagerly anticipating" the event, said Kenneth Gavin, director of communications for the archdiocese.

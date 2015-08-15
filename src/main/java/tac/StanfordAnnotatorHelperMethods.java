@@ -13,19 +13,21 @@ import java.util.regex.Pattern;
 
 //import org.apache.commons.io.IOUtils;
 
+
 import edu.knowitall.collection.immutable.Interval;
 import edu.stanford.nlp.ling.CoreAnnotations.*;
+import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 //import edu.stanford.nlp.time.TimeAnnotations.TimexAnnotation;
 import edu.stanford.nlp.time.Timex;
 import edu.stanford.nlp.util.CoreMap;
-//import edu.stanford.nlp.dcoref.CorefChain;
+import edu.stanford.nlp.dcoref.CorefChain;
 import edu.stanford.nlp.dcoref.CorefChain.CorefMention;
 import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefChainAnnotation;
-//import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefClusterIdAnnotation;
-//import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefGraphAnnotation;
+import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefClusterIdAnnotation;
+import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefGraphAnnotation;
 //import edu.stanford.nlp.ling.CoreAnnotations.*;
 //import edu.stanford.nlp.ling.CoreLabel;
 //import edu.stanford.nlp.pipeline.Annotation;
@@ -34,8 +36,9 @@ import edu.stanford.nlp.dcoref.CorefCoreAnnotations.CorefChainAnnotation;
 //import edu.stanford.nlp.time.Timex;
 //import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.IntTuple;
-//import edu.stanford.nlp.util.Pair;
+import edu.stanford.nlp.util.Pair;
 //import edu.washington.cs.knowitall.kbp2014.multir.slotfiller.util.DocUtils;
+//import edu.washington.cs.knowitall.kbp2014.multir.slotfiller.SolrHelper;
 
 
 
@@ -229,8 +232,125 @@ public class StanfordAnnotatorHelperMethods {
 	       return normalizeDate(originalString);
 	}*/
 	
+	public List<String> getNamesFromCorefMentions(String docId, Interval interval) {
+
+		String rawDoc = SolrHelper.getRawDoc(docId);
+		
+		Annotation document = new Annotation(rawDoc);
+		corefPipeline.annotate(document);
+		
+		Map<Integer, CorefChain> graph = document.get(CorefChainAnnotation.class);
+		/*for(Integer i : graph.keySet()){
+			System.out.println("GROUP " + i);
+			CorefChain x = graph.get(i);
+			for( CorefMention m : x.getMentionsInTextualOrder()){
+				System.out.println(m.mentionSpan);
+			}
+		}*/
+
+		// -----------------------------------------------
+		// Get corefClusterID for the query name
+		// -----------------------------------------------
+		
+		Integer corefClusterID = null;
+		
+		List<CoreMap> sentences = document.get(SentencesAnnotation.class);
+		/*for(CoreMap sentence : sentences){
+			for(CoreLabel token : sentence.get(TokensAnnotation.class)){
+				
+			}
+		}*/
+		//List<Pair<IntTuple,IntTuple>> x  = document.get(CorefGraphAnnotation.class);
+
+		
+	    for(CoreMap sentence: sentences){
+	    	for(CoreLabel token: sentence.get(TokensAnnotation.class)){
+	    		if(token.beginPosition() == interval.start()){
+	    			corefClusterID = token.get(CorefClusterIdAnnotation.class);
+	    		}
+	    	}
+	    }
+		
+	    /*if(corefClusterID != null){
+	    	return graph.get(corefClusterID).getMentionsInTextualOrder();
+	    }
+	    else{
+	    	return new ArrayList<CorefMention>();
+	    }*/
+	    
+	    List<String> fullNameList = new ArrayList<String>();
+	    List<CorefMention> corefMentions = new ArrayList<CorefMention>();
+	    List<CorefMention> properCorefMentions = new ArrayList<CorefMention>();
+	    
+	    System.out.println("FN corefClusterID: " + corefClusterID);
+
+        // Examine Fred
+	    //corefClusterID = 21;
+	    
+	    if(corefClusterID != null){
+    	  corefMentions = graph.get(corefClusterID).getMentionsInTextualOrder();
+    	  
+    	  System.out.println("FN corefMentions size: " + corefMentions.size());
+    	  
+    	  for(CorefMention m : corefMentions){
+    		  if(m.mentionType.toString().contains("PROPER")) properCorefMentions.add(m);		                	            	
+	      }
+    	  
+    	  System.out.println("FN properCorefMentions size: " + properCorefMentions.size());
+    	  
+    	  //
+    	  for( CorefMention m : properCorefMentions){
+    		  CoreMap sentence = sentences.get(m.sentNum -1);
+    		  List<CoreLabel> tokens = sentence.get(TokensAnnotation.class);
+    		  
+    		  //checking Fred Opolot's case
+    		  //for( CoreLabel token : tokens){
+    		  //	  System.out.println(token.originalText() + " " + token.beginPosition());
+    		  //  }
+    		  
+    		  for(int i = (m.startIndex-1); i < (m.endIndex); i++){
+    			  String ner = tokens.get(i).get(CoreAnnotations.NamedEntityTagAnnotation.class);
+    			  if(ner.toString().equals("PERSON")){
+    				  
+    				  System.out.println("FN getting Full Name: " + tokens.get(i).originalText());
+    				  String name = getRelevantStringSequence(tokens, i, m.endIndex, "PERSON");
+    				  fullNameList.add(name);
+    				  i += name.split(" ").length; 
+    			  }
+    		  }		  
+    	  }
+	    }	
+	    
+	    System.out.println("FN fullNameList size: " + fullNameList.size());
+	    for(String n : fullNameList){ System.out.println("FN: " + n);}
+	    
+	    //System.out.println("Raw Doc: " + rawDoc);
+	    
+	    return fullNameList;   	
+	}
 	
-	/*public List<CorefMention> getCorefMentions(String xmlString, Interval interval) {
+    public String getRelevantStringSequence(List<CoreLabel> tokens, Integer i, Integer endIndex, String ner){
+		
+		String relevantStringSequence = tokens.get(i).originalText();
+		i++;
+		
+		while(i < endIndex){
+
+			String nextNer = tokens.get(i).get(CoreAnnotations.NamedEntityTagAnnotation.class);
+			if(ner.equals(nextNer)){
+				relevantStringSequence = relevantStringSequence + " " + tokens.get(i).originalText();
+			}
+			else{
+				break;
+			}			
+			i++;
+		}		
+
+		return relevantStringSequence;
+	}
+	
+	
+	public List<CorefMention> getCorefMentions(String xmlString, Interval interval) {
 		
       Annotation document = new Annotation(xmlString);
 
@@ -273,7 +393,7 @@ public class StanfordAnnotatorHelperMethods {
       }
 
    }
-   */
+   
 
 /**
 * Provides a lookup method for taking corefMentions and finding their NER tagged

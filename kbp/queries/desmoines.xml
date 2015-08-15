@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+<query id="CS14_ENG_011">
+    <name>Des Moines</name>
+    <docid>bolt-eng-DF-199-192823-6760856</docid>
+    <beg>309</beg>
+    <end>318</end>
+    <enttype>GPE</enttype>
+    <slot0>gpe:headquarters_in_city</slot0>
+    <slot1>org:top_members_employees</slot1>
+  </query>
+</query_set>
+

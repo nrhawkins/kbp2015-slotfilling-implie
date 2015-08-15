@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+  <query id="CS14_ENG_141">
+    <name>San Diego</name>
+    <docid>bolt-eng-DF-199-192815-6624723</docid>
+    <beg>5967</beg>
+    <end>5975</end>
+    <enttype>GPE</enttype>
+    <slot0>gpe:residents_of_city</slot0>
+    <slot1>per:charges</slot1>
+  </query>
+</query_set>
+

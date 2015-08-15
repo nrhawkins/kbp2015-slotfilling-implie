@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+  <query id="CS14_ENG_001">
+    <name>Paige</name>
+    <docid>NYT_ENG_20100328.0108</docid>
+    <beg>1765</beg>
+    <end>1770</end>
+    <enttype>PER</enttype>
+    <slot0>per:origin</slot0>
+    <slot>per:origin</slot>
+    <slot1>per:origin</slot1>
+  </query>
+</query_set>

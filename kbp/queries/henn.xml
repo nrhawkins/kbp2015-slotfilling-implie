@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+  <query id="CS14_ENG_001">
+    <name>Henn</name>
+    <docid>APW_ENG_20100713.0032</docid>
+    <beg>629</beg>
+    <end>632</end>
+    <enttype>PER</enttype>
+    <slot0>per:employee_or_member_of</slot0>
+    <slot>per:holds_shares_in</slot>
+    <slot1>per:origin</slot1>
+  </query>
+</query_set>

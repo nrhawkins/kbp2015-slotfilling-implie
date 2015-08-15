@@ -1,0 +1,60 @@
+
+Query Name: Jean Biden
+
+
+Number of Documents: 6
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: APW_ENG_20100108.1237
+
+
+sentenceOffset/Text 58: Vice President Biden ' s mother, Jean, dies at 92 </HEADLINE> <DATELINE> WILMINGTON, Delaware 2010-01-08 22:27:11 UTC </DATELINE> <TEXT> <P> Jean Biden, who raised her son Vice President Joe Biden to believe in what he called "America's creed ... everyone is your equal," died Friday after falling seriously ill in recent days.
+
+
+sentenceOffset/Text 2809: Raised in a family with a strong Irish Catholic tradition, Jean Biden leaned on her faith in comforting her eldest son after his wife and daughter were killed in a car crash in December 1972, the month after he was elected to the Senate.
+
+Irish Catholic tradition	irish catholic	religion
+Irish Catholic tradition	irish	nationality
+
+sentenceOffset/Text 3909: Jean Biden is survived by the vice president, daughter Valerie Biden Owens of Kennett Square, Pennsylvania, and sons James Brian Biden of Merion Station, Pennsylvania, and Francis W. Biden of Florida.
+
+Valerie Biden Owens of Kennett Square, Pennsylvania, and sons	pennsylvania	province
+Valerie Biden Owens of Kennett Square, Pennsylvania, and sons	kennett square	city
+Francis W. Biden of Florida	florida	province
+
+docName: APW_ENG_20101224.0029
+
+
+sentenceOffset/Text 549: Jan. 8 </P> <P> --Jean Biden, 92.
+
+
+docName: APW_ENG_20100112.0815
+
+
+sentenceOffset/Text 713: Jean Biden died Friday at age 92 after falling ill in recent days.
+
+
+docName: AFP_ENG_20100111.0136
+
+
+sentenceOffset/Text 741: Jean Biden came into the national spotlight during the 2008 presidential campaign, when she made several campaign appearances with her son.
+
+
+docName: AFP_ENG_20100108.0040
+
+
+sentenceOffset/Text 1683: Jean Biden came into the national spotlight during the 2008 presidential campaign, when she made several appearances with her son.
+
+
+Filtered Extractions ----------------------------------------------------------
+
+
+
+
+Query Name: Jean Biden
+
+KBP Report ----------------------------------------------------------
+

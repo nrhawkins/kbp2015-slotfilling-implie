@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+  <query id="CS14_ENG_016">
+    <name>Jean Biden</name>
+    <docid>APW_ENG_20101224.0029</docid>
+    <beg>567</beg>
+    <end>576</end>
+    <enttype>PER</enttype>
+    <slot0>per:statesorprovinces_of_residence</slot0>
+    <slot1>per:religion</slot1>
+  </query>
+</query_set>

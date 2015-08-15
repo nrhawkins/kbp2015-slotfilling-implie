@@ -1,0 +1,1584 @@
+
+Query Name: Laura Silsby
+
+
+Number of Documents: 170
+
+
+All Extractions ----------------------------------------------------------
+
+
+docName: APW_ENG_20100427.0046
+
+
+sentenceOffset/Text 430: Judge Bernard Saint-Vil said Laura Silsby, the last of the 10 missionaries jailed in Haiti, still faced a lesser charge for allegedly organizing the effort to transport the 33 children to an orphanage they were setting up in the Dominican Republic.
+
+Judge Bernard Saint-Vil	judge	jobTitle
+
+docName: AFP_ENG_20100202.0029
+
+
+sentenceOffset/Text 4007: Laura Silsby, the detained head of New Life Children's Refuge, has insisted the group simply wanted to give the children a better life in an orphanage it planned to set up in the Dominican Republic.
+
+
+docName: AFP_ENG_20100218.0779
+
+
+sentenceOffset/Text 1412: Two other missionaries -- group leader Laura Silsby and her confidante Charisa Coulter -- remained in detention in Port-au-Prince because Judge Bernard Saint- Vil wants to determine their motives for an earlier trip to Haiti before the quake, the Americans' lawyer Aviol Fleurant said.
+
+quake, the Americans' lawyer Aviol Fleurant	lawyer	jobTitle
+quake, the Americans' lawyer Aviol Fleurant	americans	nationality
+Judge Bernard Saint- Vil	judge	jobTitle
+
+docName: AFP_ENG_20100209.0502
+
+
+sentenceOffset/Text 2066: In Port-au-Prince, Laura Silsby, the leader of the 10 American missionaries arrested at the Dominican border for trying to smuggle out a busload of children, appeared in court Monday to answer kidnapping charges.
+
+Dominican border	dominican	nationality
+American missionaries	american	nationality
+Laura Silsby, the leader of the 10 American missionaries	leader	jobTitle
+
+docName: APW_ENG_20100131.0331
+
+
+sentenceOffset/Text 865: "In this chaos the government is in right now we were just trying to do the right thing," the group's spokeswoman, Laura Silsby, told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: APW_ENG_20100211.1024
+
+
+sentenceOffset/Text 1980: The following day, group leader Laura Silsby of Meridian, Idaho, told the AP that the children were obtained either from orphanages or from distant relatives.
+
+day, group leader Laura Silsby of Meridian, Idaho	idaho	province
+day, group leader Laura Silsby of Meridian, Idaho	leader	jobTitle
+
+sentenceOffset/Text 3044: We don't want to talk now," Silsby said.
+
+
+sentenceOffset/Text 3465: A Dallas attorney for Allen, Hiram Sasser, told the AP that his client was recruited just 48 hours before the group left last month for the Dominican Republic on what Silsby termed an emergency rescue mission.
+
+
+sentenceOffset/Text 3838: Silsby had decided last summer to create an orphanage in the Dominican Republic and in November registered the nonprofit New Life Children's Refuge foundation in Idaho.
+
+
+sentenceOffset/Text 4127: Silsby told the AP she was only interested in saving suffering children.
+
+
+docName: AFP_ENG_20100218.0832
+
+
+sentenceOffset/Text 578: Two others -- group leader Laura Silsby and her confidante Charisa Coulter -- remained behind and in detention in Port-au-Prince because the judge wants to determine their motives for an earlier trip to Haiti before the quake, their lawyer said.
+
+
+docName: AFP_ENG_20100514.0805
+
+
+sentenceOffset/Text 58: Haiti prosecutors seek prison for US missionary </HEADLINE> <DATELINE> PORT-AU-PRINCE, May 13, 2010 (AFP) </DATELINE> <TEXT> <P> Prosecutors asked Thursday for a six-month prison term for US missionary Laura Silsby, who was arrested trying to leave Haiti with 33 children following the devastating January earthquake that hit the country.
+
+US missionary Laura Silsby	missionary	jobTitle
+US missionary </HEADLINE> <DATELINE> PORT-AU-PRINCE, May 13, 2010 (AFP) </DATELINE> <TEXT> <P> Prosecutors	missionary	jobTitle
+Haiti prosecutors	haiti	nationality
+
+docName: APW_ENG_20100309.0179
+
+
+sentenceOffset/Text 406: Charisa Coulter and Laura Silsby were the last two missionaries still in custody of 10 that were arrested for trying to take 33 children out of Haiti after the earthquake.
+
+
+docName: APW_ENG_20100222.0677
+
+
+sentenceOffset/Text 321: Laura Silsby is 40, not 47.
+
+
+docName: AFP_ENG_20100302.0041
+
+
+sentenceOffset/Text 807: His comments came minutes after the detained missionaries, Laura Silsby and Charisa Coulter, finished their final hearing before the judge and were taken back to their holding cell.
+
+
+docName: AFP_ENG_20100202.0151
+
+
+sentenceOffset/Text 3691: Laura Silsby, the detained head of New Life Children's Refuge, has insisted the group's aims were entirely altruistic.
+
+
+docName: AFP_ENG_20100308.0089
+
+
+sentenceOffset/Text 561: Her companion and employer, Laura Silsby, 40, remained in detention.
+
+
+docName: AFP_ENG_20100218.0688
+
+
+sentenceOffset/Text 1750: Two other missionaries -- group leader Laura Silsby and Charisa Coulter -- remained in detention in Port-au-Prince because Saint-Vil wants to determine their motives for an earlier trip to Haiti before the quake, Fleurant said.
+
+
+docName: AFP_ENG_20100131.0028
+
+
+sentenceOffset/Text 1217: The leader of the group, identified as Laura Silsby, said the group's aims were altruistic and that they were only seeking help for the children in the neighboring Dominican Republic, CNN reported.
+
+
+docName: AFP_ENG_20100219.0045
+
+
+sentenceOffset/Text 597: The remaining two are Laura Silsby, the head of the group of Baptist missionaries, and her close confidante Charisa Coulter.
+
+Baptist missionaries	baptist	religion
+
+docName: APW_ENG_20100308.1055
+
+
+sentenceOffset/Text 785: Laura Silsby, the leader of the Idaho-based missionaries, was in another part of the city -- in a closed hearing before the judge who had previously said he expected to release both of them soon.
+
+Laura Silsby, the leader of the Idaho-based missionaries	leader	jobTitle
+
+docName: APW_ENG_20100405.0845
+
+
+sentenceOffset/Text 2261: Nine of the missionaries, most of whom are from Idaho, have been released by Haiti jail and returned to the U.S. Group leader Laura Silsby remains in custody at the police station that is being used as Haiti's temporary government headquarters.
+
+Haiti's temporary government headquarters	haiti	nationality
+Haiti jail	haiti	nationality
+U.S. Group leader	u.s.	nationality
+
+docName: AFP_ENG_20100208.0187
+
+
+sentenceOffset/Text 405: Laura Silsby, group's leader, was among those taken to the court for hearings, a judicial source close to the case told AFP.
+
+Laura Silsby, group's leader	leader	jobTitle
+
+docName: APW_ENG_20100204.0638
+
+
+sentenceOffset/Text 2395: Adrien said he met the Baptists' leader, Laura Silsby of Meridian, Idaho, in Port-au-Prince on Jan. 26.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	religion
+
+docName: APW_ENG_20100211.0145
+
+
+sentenceOffset/Text 1215: The day after the group's arrest, its leader, Laura Silsby of Meridian, Idaho, told the AP that the children were obtained either from orphanages or from distant relatives.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+
+sentenceOffset/Text 2107: We don't want to talk now," Silsby said.
+
+
+sentenceOffset/Text 2528: A Dallas attorney for Allen, Hiram Sasser, told the AP that his client was recruited just 48 hours before the group left last month for the Dominican Republic on what Silsby termed an emergency rescue mission.
+
+
+sentenceOffset/Text 2901: Silsby had decided last summer to create an orphanage in the Dominican Republic and in November registered the nonprofit New Life Children's Refuge foundation in Idaho.
+
+
+sentenceOffset/Text 3189: Silsby told the AP she was only interested in saving suffering children.
+
+
+docName: WPB_ENG_20100217.0090
+
+
+sentenceOffset/Text 970: Two other missionaries _ Laura Silsby and Charisa Coulter _ were not released from a Port-au-Prince prison, their attorney said, because the investigating magistrate wants to question them further.
+
+
+docName: AFP_ENG_20100202.0331
+
+
+sentenceOffset/Text 2272: Laura Silsby, head of New Life Children's Refuge, has insisted the group's aims were entirely altruistic.
+
+
+docName: AFP_ENG_20100218.0543
+
+
+sentenceOffset/Text 2274: The missionaries' leader Laura Silsby and Charisa Coulter remained in detention in Port-au-Prince because Saint-Vil wants to determine their motives for a trip to Haiti before the quake during which they visited an orphanage in the country's north, Fleurant said.
+
+
+docName: APW_ENG_20100325.0759
+
+
+sentenceOffset/Text 373: Laura Silsby is being held on suspicion of kidnapping after trying to bus 33 Haitian children to the Dominican Republic.
+
+Haitian children	haitian	nationality
+
+sentenceOffset/Text 503: The Idaho Statesman newspaper reports that her ex-husband, Terry Silsby, also has asked courts to demand immediate return of his children's passports and require that Laura Silsby obtain "medical clearance" before having contact with them.
+
+Idaho Statesman newspaper	statesman	jobTitle
+Idaho Statesman newspaper	idaho	province
+
+sentenceOffset/Text 870: Laura Silsby's attorney declined comment.
+
+
+docName: APW_ENG_20100131.0353
+
+
+sentenceOffset/Text 865: "In this chaos the government is in right now we were just trying to do the right thing," the group's spokeswoman, Laura Silsby, told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: APW_ENG_20100204.1310
+
+
+sentenceOffset/Text 684: Group leader Laura Silsby has said they were trying to take orphans and abandoned children to an orphanage in the neighboring Dominican Republic.
+
+Group leader Laura Silsby	leader	jobTitle
+
+sentenceOffset/Text 2123: That would still leave mission leader Laura Silsby facing charges.
+
+
+docName: AFP_ENG_20100209.0823
+
+
+sentenceOffset/Text 1320: Meanwhile, Laura Silsby, the leader of a group of 10 American missionaries arrested at the Dominican border for trying to smuggle out a busload of children, appeared in court to answer kidnapping charges.
+
+Dominican border	dominican	nationality
+American missionaries	american	nationality
+Laura Silsby, the leader of a group of 10 American missionaries	leader	jobTitle
+
+docName: NYT_ENG_20100201.0122
+
+
+sentenceOffset/Text 237: PORT-AU-PRINCE, Haiti </DATELINE> <TEXT> <P> "God wanted us to come here to help children, we are convinced of that," Laura Silsby, one of 10 Americans accused of trafficking Haitian children, said Monday through the bars of a jail cell here.
+
+trafficking Haitian children	haitian	nationality
+Laura Silsby, one of 10 Americans	americans	nationality
+Haiti </DATELINE> <TEXT> <P> "God	haiti	nationality
+
+sentenceOffset/Text 702: Even as Haiti's crippled government asserted itself in the name of defending the nation's children, officials made it clear that more was at stake.
+
+Haiti's crippled government	haiti	nationality
+
+sentenceOffset/Text 850: In the wake of the worst natural disaster in Haiti's history, authorities have opened the country to a flood of international assistance, some of it coming uncomfortably close to infringing on national sovereignty.
+
+Haiti's history	haiti	nationality
+
+sentenceOffset/Text 1957: Silsby said that a Haitian pastor in Port-au-Prince, Jean Sanbil of the Sharing Jesus Ministries, had brought them the children, whose ages ranged from 2 months to 12 years.
+
+
+sentenceOffset/Text 3644: Fearful of the possibility that unscrupulous traffickers would take advantage of Haiti's sundered justice system to take children from poor families for adoptions, prostitution or worse -- organ donations and slavery have been mentioned -- the government had halted all adoptions except those already in motion before the earthquake.
+
+justice system	justice	jobTitle
+Haiti's sundered justice system	haiti	nationality
+
+sentenceOffset/Text 4167: "If people want to help children of Haiti," said Marie-Laurence Jocelin Lassegue, a government spokeswoman, "This is not the way to do it."
+
+Marie-Laurence Jocelin Lassegue, a government spokeswoman	spokeswoman	jobTitle
+children of Haiti	haiti	nationality
+
+sentenceOffset/Text 4458: Although much of the country's judicial and law enforcement structures, including the Ministry of Justice, the Supreme Court and numerous police stations, lie in ruins, Haitian officials said they were exploring options for trying the Americans in Haiti.
+
+Haitian officials	haitian	nationality
+Ministry of Justice, the Supreme Court and numerous police stations	justice	jobTitle
+
+sentenceOffset/Text 4936: In Washington, the State Department said the embassy had been granted unlimited access to the Americans, but where they may be prosecuted and on what charges was up to Haiti.
+
+
+sentenceOffset/Text 5456: The Haitian trip appeared to be an outreach effort of a group organized by Silsby, 40, and Charisa Coulter, 24, her children's live-in nanny, who was also among those jailed in Port-au-Prince.
+
+Charisa Coulter, 24, her children's live-in nanny	nanny	jobTitle
+Haitian trip	haitian	nationality
+
+sentenceOffset/Text 6202: The document on the Web site laid out a plan to "rescue orphans from Port-au-Prince."
+
+
+sentenceOffset/Text 6297: The itinerary for Jan. 23 said: "Drive bus from Santo Domingo into Port au Prince, Haiti and gather 100 orphans from the streets and collapsed orphanages, then return to the D.R." </P> <P> The status of New Life Adoption Foundation was not immediately clear.
+
+Port au Prince, Haiti	haiti	nationality
+
+sentenceOffset/Text 7348: But in Haiti, the group may have run into worldly issues they had not anticipated.
+
+
+sentenceOffset/Text 7440: Haiti has long been a target for trafficking organizations, Justice Minister Denis said, and in the wake of the earthquake authorities had alerted police and judicial officials that criminal organizations might attempt to take advantage of the disaster.
+
+Justice Minister Denis	justice minister	jobTitle
+
+docName: APW_ENG_20100225.1520
+
+
+sentenceOffset/Text 58: Haiti judge: No release of US Baptists this week </HEADLINE> <DATELINE> PORT-AU-PRINCE, Haiti 2010-02-25 21:24:27 UTC </DATELINE> <TEXT> <P> A Haitian judge says American missionaries Laura Silsby and Charisa Coulter will remain in jail over the weekend as he awaits more testimony.
+
+
+docName: APW_ENG_20100131.0583
+
+
+sentenceOffset/Text 829: "In this chaos the government is in right now, we were just trying to do the right thing," the group's spokeswoman, Laura Silsby, told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: AFP_ENG_20100203.0003
+
+
+sentenceOffset/Text 892: Laura Silsby, head of the Idaho-based New Life Children's Refuge charity, said the group's aims were entirely altruistic.
+
+
+docName: NYT_ENG_20100203.0014
+
+
+sentenceOffset/Text 2112: The address was listed in November on papers Laura Silsby filed to establish New Life as a nonprofit.
+
+
+docName: APW_ENG_20100517.1007
+
+
+sentenceOffset/Text 58: US missionary convicted in Haiti, but free to go </HEADLINE> <DATELINE> PORT-AU-PRINCE, Haiti 2010-05-17 19:43:34 UTC </DATELINE> <TEXT> <P> A Haitian court has convicted American missionary Laura Silsby of arranging to transport 33 children out of the country following the Jan. 12 earthquake.
+
+
+docName: AFP_ENG_20100218.0685
+
+
+sentenceOffset/Text 1769: Two other missionaries -- group leader Laura Silsby and Charisa Coulter -- remained in detention in Port-au-Prince because Saint-Vil wants to determine their motives for an earlier trip to Haiti before the quake, Fleurant said.
+
+
+docName: NYT_ENG_20100131.0114
+
+
+sentenceOffset/Text 5497: Laura Silsby, a director of the Austria-based SOS Children's Villages, said that the Baptist group, which included members from Texas and Kansas as well as Idaho, had planned to take the children to a 45-room hotel at Cabarete, a beach resort on the northern coast of the Dominican Republic, that it has converted into a temporary orphanage until it builds a permanent one.
+
+Laura Silsby, a director of the Austria-based SOS Children's Villages	director	jobTitle
+Baptist group	baptist	religion
+coast of the Dominican Republic	dominican republic	nationality
+
+docName: NYT_ENG_20100207.0069
+
+
+sentenceOffset/Text 58: AMERICANS HELD IN HAITI SAY THEY WERE MISLED </HEADLINE> <DATELINE> PORT-AU-PRINCE, Haiti </DATELINE> <TEXT> <P> Divisions emerged within the group of 10 Americans jailed in Haiti on child abduction charges, with eight of them signing a note over the weekend saying that they had been misled by Laura Silsby, the leader of the group.
+
+HAITI SAY THEY WERE MISLED </HEADLINE> <DATELINE> PORT-AU-PRINCE	haiti	nationality
+Haiti </DATELINE> <TEXT> <P> Divisions	haiti	nationality
+group of 10 Americans	americans	nationality
+Laura Silsby, the leader of the group	leader	jobTitle
+
+docName: AFP_ENG_20100517.0090
+
+
+sentenceOffset/Text 58: URGENT ¥¥¥ Last detained US missionary freed in Haiti: lawyer </HEADLINE> <DATELINE> Port-au-Prince, May 17, 2010 (AFP) </DATELINE> <TEXT> <P> Laura Silsby, the leader of a group of US missionaries arrested trying to leave Haiti with 33 children following the massive January earthquake here, was freed Monday, her lawyer told AFP.
+
+(AFP) </DATELINE> <TEXT> <P> Laura Silsby, the leader of a group of US missionaries	leader	jobTitle
+
+docName: AFP_ENG_20100208.0031
+
+
+sentenceOffset/Text 423: Laura Silsby, leader of the New Life Children's Refuge, which last month tried to take a busload of children across Haiti's border into the Dominican Republic, was one of five people taken to Haiti's courthouse but the only one to be presented with the prosecutor's case against her.
+
+prosecutor's case	prosecutor	jobTitle
+Haiti's border	haiti	nationality
+Laura Silsby, leader of the New Life Children's Refuge	leader	jobTitle
+Haiti's courthouse	haiti	nationality
+
+docName: APW_ENG_20100302.1345
+
+
+sentenceOffset/Text 391: Judge Bernard Saint-Vil tells The Associated Press he is consulting with prosecutors on the charges against Laura Silsby and Charisa Coulter.
+
+Judge Bernard Saint-Vil	judge	jobTitle
+
+docName: NYT_ENG_20100224.0006
+
+
+sentenceOffset/Text 3550: On Tuesday, the judge, Bernard Saint-Vil, said he intended to let Laura Silsby, the leader of the group, and her assistant, Charisa Coulter, go as well this week, news agencies reported.
+
+Laura Silsby, the leader of the group	leader	jobTitle
+
+docName: APW_ENG_20100221.0005
+
+
+sentenceOffset/Text 1333: Their stories contradict the missionaries' still-jailed leader, Laura Silsby, who told the AP the day after her arrest that the children were either orphans or came from distant relatives.
+
+
+docName: AFP_ENG_20100131.0118
+
+
+sentenceOffset/Text 1775: CNN reported that the leader of the group, identified as Laura Silsby, said the group's aims were entirely altruistic.
+
+
+docName: APW_ENG_20100206.0031
+
+
+sentenceOffset/Text 912: The lawyer said that at least nine of the Americans -- all but the group's leader, Laura Silsby -- clearly did not know they lacked the proper papers to remove 33 children from Haiti following the devastating earthquake and they should be immediately released.
+
+nine of the Americans	americans	nationality
+
+sentenceOffset/Text 1852: But he characterized the other nine missionaries as innocents caught up in actions they didn't understand.
+
+
+docName: AFP_ENG_20100201.0205
+
+
+sentenceOffset/Text 1616: Laura Silsby, head of the Idaho-based group called New Life Children's Refuge, insisted Sunday that the group's aims were entirely altruistic.
+
+
+docName: AFP_ENG_20100206.0406
+
+
+sentenceOffset/Text 750: On their departure one of the women, Laura Silsby, was asked what was going on.
+
+
+docName: NYT_ENG_20100208.0020
+
+
+sentenceOffset/Text 821: AMERICANS HELD IN HAITI ARE DIVIDED OVER LEADER </P> <P> Divisions emerged within the group of 10 Americans jailed in Haiti on child abduction charges, with eight of them signing a note over the weekend saying that they had been misled by Laura Silsby, the leader of the group.
+
+group of 10 Americans	americans	nationality
+HAITI ARE	haiti	nationality
+AMERICANS HELD	americans	nationality
+OVER LEADER </P> <P> Divisions	leader	jobTitle
+Laura Silsby, the leader of the group	leader	jobTitle
+
+docName: NYT_ENG_20100205.0010
+
+
+sentenceOffset/Text 496: The leader, Laura Silsby, defaulted in July on the mortgage on a house in an unfinished subdivision here in Meridian, a suburb of Boise, according to the Ada County Tax Assessor's Office.
+
+Tax Assessor's Office	tax assessor	jobTitle
+Meridian, a suburb of Boise	boise	city
+
+docName: NYT_ENG_20100204.0082
+
+
+sentenceOffset/Text 1343: The leader of the group, Laura Silsby, a businesswoman who also describes herself as a missionary, has also come under scrutiny at home in Idaho, where employees complain of unpaid wages and the state has placed liens on her company bank account.
+
+
+docName: APW_ENG_20100211.1415
+
+
+sentenceOffset/Text 1946: The following day, group leader Laura Silsby of Meridian, Idaho, told the AP the children were obtained either from orphanages or from distant relatives.
+
+day, group leader Laura Silsby of Meridian, Idaho	idaho	province
+day, group leader Laura Silsby of Meridian, Idaho	leader	jobTitle
+
+sentenceOffset/Text 3695: We don't want to talk now," Silsby said.
+
+
+sentenceOffset/Text 4021: Silsby decided last summer to create an orphanage in the Dominican Republic and in November registered the nonprofit New Life Children's Refuge Inc. in Idaho.
+
+
+sentenceOffset/Text 4300: Silsby told the AP she was interested only in saving suffering children.
+
+
+docName: AFP_ENG_20100517.0083
+
+
+sentenceOffset/Text 58: Last detained US missionary freed in Haiti: lawyer </HEADLINE> <DATELINE> Port-au-Prince, May 17, 2010 (AFP) </DATELINE> <TEXT> <P> Laura Silsby, the leader of a group of US missionaries arrested trying to leave Haiti with 33 children following the massive January earthquake here, was freed Monday, her lawyer told AFP.
+
+(AFP) </DATELINE> <TEXT> <P> Laura Silsby, the leader of a group of US missionaries	leader	jobTitle
+
+docName: APW_ENG_20100131.0170
+
+
+sentenceOffset/Text 665: "In this chaos the government is in right now we were just trying to do the right thing," the group's spokeswoman, Laura Silsby, told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: AFP_ENG_20100209.0030
+
+
+sentenceOffset/Text 2017: On Monday, the judge questioned the leader of the Baptist group, Laura Silsby, who said afterward that she was "trusting God" for the case's outcome.
+
+Baptist group, Laura Silsby	baptist	religion
+
+docName: NYT_ENG_20100205.0171
+
+
+sentenceOffset/Text 1037: Laura Silsby, an Idaho businesswoman and a leader of the group, has said they planned to open an orphanage for the children in the Dominican Republic.
+
+Laura Silsby, an Idaho businesswoman	idaho	province
+
+docName: AFP_ENG_20100211.0816
+
+
+sentenceOffset/Text 4028: He said he spoke to the missionaries' leader, Laura Silsby.
+
+
+docName: AFP_ENG_20100208.0047
+
+
+sentenceOffset/Text 1319: Meanwhile, Laura Silsby, the leader of a group of 10 American missionaries arrested at the Dominican border for trying to smuggle out a busload of children appeared in court to answer kidnapping charges.
+
+Dominican border	dominican	nationality
+American missionaries	american	nationality
+Laura Silsby, the leader of a group of 10 American missionaries	leader	jobTitle
+
+docName: APW_ENG_20100517.1083
+
+
+sentenceOffset/Text 431: Laura Silsby, the organizer of the ill-fated effort to take the children to an orphanage being set up in the Dominican Republic, returned to her jail cell briefly to retrieve belongings before quickly heading to the Port-au-Prince airport.
+
+
+docName: APW_ENG_20100131.0099
+
+
+sentenceOffset/Text 1053: "In this chaos the government is in right now we were just trying to do the right thing," the group's leader, Laura Silsby, told reporters at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: APW_ENG_20100308.0996
+
+
+sentenceOffset/Text 716: Still in custody is their leader, Laura Silsby.
+
+
+docName: APW_ENG_20100312.1243
+
+
+sentenceOffset/Text 314: Judge Bernard Saint-Vil says Laura Silsby has been charged for a newly discovered, alleged attempt to bus child earthquake survivors to the Dominican Republic on Jan. 26.
+
+Judge Bernard Saint-Vil	judge	jobTitle
+
+docName: AFP_ENG_20100202.0596
+
+
+sentenceOffset/Text 1325: Laura Silsby, head of the Idaho-based group called New Life Children's Refuge, insisted the group's aims were entirely altruistic.
+
+
+docName: AFP_ENG_20100217.0052
+
+
+sentenceOffset/Text 1378: The two who will remain in detention are group leader Laura Silsby and her confidant Charisa Coulter, said Fleurant, who earlier told AFP that Coulter had become sick in jail and was being treated for an unspecified illness.
+
+
+docName: AFP_ENG_20100211.0711
+
+
+sentenceOffset/Text 4084: He said he spoke to the missionaries' leader, Laura Silsby.
+
+
+docName: APW_ENG_20100308.1180
+
+
+sentenceOffset/Text 718: The leader of the Idaho-based missionary group, Laura Silsby, said she was glad about Coulter's release.
+
+missionary group, Laura Silsby	missionary	jobTitle
+
+docName: APW_ENG_20100204.1162
+
+
+sentenceOffset/Text 492: As she entered the court, mission organizer Laura Silsby told reporters, "We expect God's will be done.
+
+
+docName: APW_ENG_20100204.1170
+
+
+sentenceOffset/Text 496: As she entered the court, mission organizer Laura Silsby told reporters, "We expect God's will be done.
+
+
+docName: APW_ENG_20100211.0136
+
+
+sentenceOffset/Text 1221: The day after the group's arrest, its leader, Laura Silsby of Meridian, Idaho, told the AP that the children were obtained either from orphanages or from distant relatives.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+
+sentenceOffset/Text 2113: We don't want to talk now," Silsby said.
+
+
+sentenceOffset/Text 2534: A Dallas attorney for Allen, Hiram Sasser, told the AP that his client was recruited just 48 hours before the group left last month for the Dominican Republic on what Silsby termed an emergency rescue mission.
+
+
+sentenceOffset/Text 2907: Silsby had decided last summer to create an orphanage in the Dominican Republic and in November registered the nonprofit New Life Children's Refuge foundation in Idaho.
+
+
+sentenceOffset/Text 3195: Silsby told the AP she was only interested in saving suffering children.
+
+
+docName: AFP_ENG_20100209.0212
+
+
+sentenceOffset/Text 1373: On Monday, the judge questioned the leader of the Baptist group, Laura Silsby, who said afterward that she was "trusting God" for the case's outcome.
+
+Baptist group, Laura Silsby	baptist	religion
+
+docName: NYT_ENG_20100207.0066
+
+
+sentenceOffset/Text 58: AMERICANS HELD IN HAITI SAY THEY WERE MISLED </HEADLINE> <DATELINE> PORT-AU-PRINCE, Haiti </DATELINE> <TEXT> <P> Divisions emerged within the group of 10 Americans jailed in Haiti on child abduction charges, with eight of them signing a note over the weekend saying that they had been misled by Laura Silsby, the leader of the group.
+
+HAITI SAY THEY WERE MISLED </HEADLINE> <DATELINE> PORT-AU-PRINCE	haiti	nationality
+Haiti </DATELINE> <TEXT> <P> Divisions	haiti	nationality
+group of 10 Americans	americans	nationality
+Laura Silsby, the leader of the group	leader	jobTitle
+
+sentenceOffset/Text 3312: Meanwhile, Buddy Shipp, 61, of Somerville, Texas, visited the Americans over the weekend to check on their medical condition, returning later with insulin for one who is a diabetic.
+
+Buddy Shipp, 61, of Somerville, Texas	texas	province
+
+docName: APW_ENG_20100131.0568
+
+
+sentenceOffset/Text 865: "In this chaos the government is in right now, we were just trying to do the right thing," the group's spokeswoman, Laura Silsby, told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: APW_ENG_20100206.0063
+
+
+sentenceOffset/Text 912: The lawyer said that at least nine of the Americans -- all but the group's leader, Laura Silsby -- clearly did not know they lacked the proper papers to remove 33 children from Haiti following the devastating earthquake and they should be immediately released.
+
+nine of the Americans	americans	nationality
+
+sentenceOffset/Text 1852: But he characterized the other nine missionaries as innocents caught up in actions they didn't understand.
+
+
+docName: NYT_ENG_20100209.0095
+
+
+sentenceOffset/Text 2742: For Laura Silsby, the leader of the group of Americans, that process began on Monday.
+
+group of Americans	americans	nationality
+Laura Silsby, the leader of the group of Americans	leader	jobTitle
+
+docName: APW_ENG_20100517.1098
+
+
+sentenceOffset/Text 411: Laura Silsby, the organizer of the ill-fated effort to take the children to an orphanage being set up in the neighboring Dominican Republic, returned to her cell briefly to retrieve belongings before quickly heading to the Port-au-Prince airport.
+
+
+docName: AFP_ENG_20100201.0729
+
+
+sentenceOffset/Text 1078: Speaking in her detention cell near Port-au-Prince airport, Laura Silsby, head of the Idaho-based New Life Children's Refuge charity, said the group's aims were entirely altruistic.
+
+
+docName: AFP_ENG_20100517.0043
+
+
+sentenceOffset/Text 428: Capping the 108-day ordeal, Laura Silsby's time behind bars since the group's January 29 detention was deemed punishment enough for the "irregular travel" charges against her, and she was to fly to Florida later Monday, her lawyer Shiller Roy told AFP.
+
+lawyer Shiller Roy	lawyer	jobTitle
+
+sentenceOffset/Text 690: Silsby was the leader of a group of 10 US Baptists stopped at the border with the Dominican Republic with children who were purported to be orphans, although Haitian authorities later determined all 33 of the youngsters had parents, with whom they were eventually reunited.
+
+Haitian authorities	haitian	nationality
+
+sentenceOffset/Text 1452: Eight members of the Idaho-based Baptist group called New Life Children's Refuge were however released in February after charges were reduced, and a ninth was released in March, leaving Silsby alone languishing in a Port-au-Prince prison.
+
+Idaho-based Baptist group	baptist	religion
+
+sentenceOffset/Text 1700: Initially accused of child abduction, the charges against Silsby were later revised to "irregular travel" and prosecutors had asked on Thursday for a six- month prison term for her.
+
+
+docName: APW_ENG_20100131.0692
+
+
+sentenceOffset/Text 2591: "In this chaos the government is in right now, we were just trying to do the right thing," the group's spokeswoman, Laura Silsby, told the AP from inside Haiti's judicial police headquarters, where she and others were being held until a Monday hearing.
+
+Haiti's judicial police headquarters	haiti	nationality
+
+sentenceOffset/Text 7423: The Idaho churches became involved with the Haitian Orphan Rescue Mission because the founders, Laura Silsby and Charisa Coulter, were members of its congregation in southwestern Idaho, Henry said.
+
+Haitian Orphan Rescue Mission	haitian	nationality
+Idaho churches	idaho	province
+
+docName: AFP_ENG_20100218.0214
+
+
+sentenceOffset/Text 548: Two of the group, including its leader Laura Silsby, remain in custody in Port- au-Prince and were being brought before officials for further questioning on Thursday.
+
+
+docName: AFP_ENG_20100203.0800
+
+
+sentenceOffset/Text 4115: Laura Silsby, the detained head of New Life Children's Refuge, insisted the group simply wanted to give the children a better life in an orphanage it planned to set up in the Dominican Republic.
+
+
+docName: APW_ENG_20100212.0354
+
+
+sentenceOffset/Text 2143: The following day, group leader Laura Silsby of Meridian, Idaho, told the AP the children were obtained either from orphanages or from distant relatives.
+
+day, group leader Laura Silsby of Meridian, Idaho	idaho	province
+day, group leader Laura Silsby of Meridian, Idaho	leader	jobTitle
+
+sentenceOffset/Text 3289: Silsby decided last summer to create an orphanage in the Dominican Republic and in November registered the nonprofit New Life Children's Refuge Inc. in Idaho.
+
+
+sentenceOffset/Text 3568: Silsby told the AP she was interested only in saving suffering children.
+
+
+docName: AFP_ENG_20100131.0178
+
+
+sentenceOffset/Text 1146: CNN reported that the leader of the group, identified as Laura Silsby, said that the group's aims were entirely altruistic and that they were only seeking to seek help for the children in the Dominican Republic.
+
+
+docName: AFP_ENG_20100201.0008
+
+
+sentenceOffset/Text 1466: Laura Silsby, head of the Idaho-based group called New Life Children's Refuge, insisted the group's aims were entirely altruistic.
+
+
+docName: APW_ENG_20100131.0517
+
+
+sentenceOffset/Text 865: "In this chaos the government is in right now we were just trying to do the right thing," the group's spokeswoman, Laura Silsby, told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: APW_ENG_20100303.0052
+
+
+sentenceOffset/Text 343: The judge had said earlier that testimony from three witnesses about the missionaries' efforts to set up an orphanage in the neighboring Dominican Republic would allow him to free Laura Silsby, 40, and Charisa Coulter, 24.
+
+
+docName: APW_ENG_20100221.0100
+
+
+sentenceOffset/Text 1333: Their stories contradict the missionaries' still-jailed leader, Laura Silsby, who told the AP the day after her arrest that the children were either orphans or came from distant relatives.
+
+
+docName: APW_ENG_20100427.1282
+
+
+sentenceOffset/Text 58: Haiti judge: Silsby deceived fellow missionaries </HEADLINE> <DATELINE> PORT-AU-PRINCE, Haiti 2010-04-27 21:49:14 UTC </DATELINE> <TEXT> <P> The judge who dropped kidnapping charges against Laura Silsby and nine other U.S. missionaries said Tuesday he did so because the children they were trying to take out of Haiti were all given over freely by their parents.
+
+
+docName: NYT_ENG_20100217.0116
+
+
+docName: APW_ENG_20100202.0068
+
+
+sentenceOffset/Text 3323: Their detained spokeswoman, Laura Silsby, said they were "just trying to do the right thing," but she conceded she had not obtained the required passports, birth certificates and adoption certificates for them -- a near impossible challenge in the post-quake mayhem.
+
+
+docName: APW_ENG_20100131.0098
+
+
+sentenceOffset/Text 1053: "In this chaos the government is in right now we were just trying to do the right thing," the group's leader, Laura Silsby, told reporters at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: AFP_ENG_20100201.0049
+
+
+sentenceOffset/Text 1167: Laura Silsby, head of the Idaho-based group called New Life Children's Refuge, has insisted the group's aims were entirely altruistic.
+
+
+docName: APW_ENG_20100131.0139
+
+
+sentenceOffset/Text 1053: "In this chaos the government is in right now we were just trying to do the right thing," the group's leader, Laura Silsby told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: NYT_ENG_20100217.0146
+
+
+sentenceOffset/Text 1624: While Saint-Vil's ruling allows eight of the Americans to leave Haiti on the condition that they return to the country to answer further questions in the case, it requires that Laura Silsby, the Idaho businesswoman who led the group, and her live-in nanny, Charisa Coulter, remain in jail to answer questions about traveling to Haiti before the Jan. 12 earthquake.
+
+Laura Silsby, the Idaho businesswoman	idaho	province
+eight of the Americans	americans	nationality
+
+sentenceOffset/Text 4786: "I'm looking for my money, and Laura Silsby is still in jail."
+
+
+docName: APW_ENG_20100208.1011
+
+
+sentenceOffset/Text 400: Attorney Aviol Fleurant's remarks came as investigators questioned the Baptist group's leader, Laura Silsby, who insisted she is innocent of any wrongdoing.
+
+Attorney Aviol Fleurant's remarks	attorney	jobTitle
+
+docName: NYT_ENG_20100201.0087
+
+
+sentenceOffset/Text 4628: Also at the fold:        HAITI-ORPHANS (Port-au-Prince, Haiti) -- "God wanted us to come here to help children, we are convinced of that," Laura Silsby, one of 10 Americans accused of trafficking Haitian children, said on Monday through the bars of a jail cell here.
+
+trafficking Haitian children	haitian	nationality
+Laura Silsby, one of 10 Americans	americans	nationality
+HAITI-ORPHANS (Port-au-Prince, Haiti)	haiti	nationality
+
+docName: APW_ENG_20100221.0111
+
+
+sentenceOffset/Text 1325: Their stories contradict the missionaries' still-jailed leader, Laura Silsby, who told the AP the day after her arrest that the children were either orphans or came from distant relatives.
+
+
+docName: NYT_ENG_20100207.0063
+
+
+sentenceOffset/Text 4647: HAITI-JAILED-AMERICANS (Port-au-Prince, Haiti) -- Divisions emerged within the group of 10 Americans jailed in Haiti on child abduction charges, with eight of them signing a note over the weekend saying that they had been misled by Laura Silsby, the leader of the group.
+
+Laura Silsby, the leader of the group	leader	jobTitle
+group of 10 Americans	americans	nationality
+HAITI-JAILED-AMERICANS (Port-au-Prince, Haiti)	haiti	nationality
+
+docName: AFP_ENG_20100218.0829
+
+
+sentenceOffset/Text 1417: Two other missionaries -- group leader Laura Silsby and her confidante Charisa Coulter -- remained behind in detention in Port-au-Prince because Saint-Vil wants to determine their motives for an earlier trip to Haiti before the quake, Fleurant said.
+
+
+docName: AFP_ENG_20100131.0052
+
+
+sentenceOffset/Text 1607: The leader of the group, identified as Laura Silsby, said that the group's aims were entirely altruistic and that they were only seeking to seek help for the children in the Dominican Republic, CNN reported.
+
+
+docName: APW_ENG_20100303.1029
+
+
+sentenceOffset/Text 303: Laura Silsby tells The Associated Press from behind bars she doesn't think they will be there "much longer."
+
+
+docName: APW_ENG_20100211.0966
+
+
+sentenceOffset/Text 1655: The following day, group leader Laura Silsby of Meridian, Idaho, told the AP that the children were obtained either from orphanages or from distant relatives.
+
+day, group leader Laura Silsby of Meridian, Idaho	idaho	province
+day, group leader Laura Silsby of Meridian, Idaho	leader	jobTitle
+
+sentenceOffset/Text 2431: We don't want to talk now," Silsby said.
+
+
+sentenceOffset/Text 2852: A Dallas attorney for Allen, Hiram Sasser, told the AP that his client was recruited just 48 hours before the group left last month for the Dominican Republic on what Silsby termed an emergency rescue mission.
+
+
+sentenceOffset/Text 3225: Silsby had decided last summer to create an orphanage in the Dominican Republic and in November registered the nonprofit New Life Children's Refuge foundation in Idaho.
+
+
+sentenceOffset/Text 3514: Silsby told the AP she was only interested in saving suffering children.
+
+
+docName: AFP_ENG_20100204.0773
+
+
+sentenceOffset/Text 892: Laura Silsby, head of the Idaho-based New Life Children's Refuge charity, said the group's aims were entirely altruistic.
+
+
+docName: AFP_ENG_20100318.0698
+
+
+sentenceOffset/Text 833: Laura Silsby and nine fellow Baptists from Idaho were arrested on January 29 as they tried to take the children into the neighboring Dominican Republic by bus without the necessary documentation.
+
+
+docName: NYT_ENG_20100215.0118
+
+
+sentenceOffset/Text 3863: Bernard Saint-Vil, the judge handling the case of the Americans, said he intended to further question Laura Silsby, the group's leader, about any connection she might have with Puello.
+
+question Laura Silsby, the group's leader	leader	jobTitle
+case of the Americans	americans	nationality
+Bernard Saint-Vil, the judge	judge	jobTitle
+
+docName: AFP_ENG_20100317.0003
+
+
+sentenceOffset/Text 634: Laura Silsby and nine fellow Baptists from Idaho were arrested on January 29 as they tried to take 33 Haitian children into the neighboring Dominican Republic by bus without the necessary documentation.
+
+Haitian children	haitian	nationality
+
+docName: WPB_ENG_20100217.0069
+
+
+sentenceOffset/Text 4058: MIDEAST-DUBAI _ JERUSALEM _ The Dubai police on Tuesday issued arrest warrants for 11 suspects in the murder of a top official in the Islamist Hamas organization, touching off confusion on two continents over apparently forged passports and stolen identities, and raising new questions about whether Israel's spy agency was responsible for the killing.
+
+spy agency	spy	jobTitle
+Israel's spy agency	israel	nationality
+murder of a top official	official	jobTitle
+
+sentenceOffset/Text 5023: HAITI _ PORT-AU-PRINCE, Haiti _ A Haitian judge says he will release eight of the 10 American missionaries accused of kidnapping children, while the remaining two, including Laura Silsby, the leader of the group, would be held for further investigation.
+
+HAITI _ PORT-AU-PRINCE, Haiti _	haiti	nationality
+HAITI _ PORT-AU-PRINCE, Haiti _	haiti	nationality
+Haitian judge	haitian	nationality
+American missionaries	american	nationality
+Laura Silsby, the leader of the group	leader	jobTitle
+
+sentenceOffset/Text 7600: Two photos.
+
+
+docName: NYT_ENG_20100204.0090
+
+
+sentenceOffset/Text 1339: The leader of the group, Laura Silsby, a businesswoman who describes herself as a missionary as well, has also come under scrutiny at home in Idaho, where employees complain of unpaid wages and the state has placed liens on her company bank account.
+
+
+docName: APW_ENG_20100419.1132
+
+
+sentenceOffset/Text 413: Judge Bernard Saint-Vil tells The Associated Press that he is still considering the legal fates of detained group leader Laura Silsby and her nine freed compatriots.
+
+detained group leader Laura Silsby	leader	jobTitle
+Judge Bernard Saint-Vil	judge	jobTitle
+
+docName: AFP_ENG_20100201.0502
+
+
+sentenceOffset/Text 1900: Laura Silsby, head of the Idaho-based New Life Children's Refuge, insisted the group's aims were entirely altruistic.
+
+
+docName: AFP_ENG_20100218.0839
+
+
+sentenceOffset/Text 1417: Two other missionaries -- group leader Laura Silsby and her confidante Charisa Coulter -- will remain behind because Saint-Vil wants to determine their motives for an earlier trip to Haiti before the quake, Fleurant said.
+
+
+docName: APW_ENG_20100222.1298
+
+
+sentenceOffset/Text 1959: A judge released eight of the missionaries last week, but leader Laura Silsby, 40, and her assistant, Charisa Coulter, 24, remain jailed as the investigating judge interviews officials at the orphanages the two visited before the quake.
+
+judge interviews officials	judge	jobTitle
+
+docName: AFP_ENG_20100202.0745
+
+
+sentenceOffset/Text 1378: Laura Silsby, head of the Idaho-based group called New Life Children's Refuge, insisted the group's aims were entirely altruistic.
+
+
+docName: NYT_ENG_20100217.0098
+
+
+sentenceOffset/Text 1537: Laura Silsby, the leader of the group, and Charisa Coulter, were being kept for further investigation, said investigating Judge Bernard Sainvil.
+
+Judge Bernard Sainvil	judge	jobTitle
+
+docName: APW_ENG_20100204.0299
+
+
+sentenceOffset/Text 2639: Adrien said he met the Baptists' leader, Laura Silsby of Meridian, Idaho, in Port-au-Prince on Jan. 26.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	religion
+
+docName: APW_ENG_20100517.1128
+
+
+sentenceOffset/Text 411: Laura Silsby, the organizer of the ill-fated effort to take the children to an orphanage being set up in the neighboring Dominican Republic, returned to her cell briefly to retrieve belongings before quickly heading to the Port-au-Prince airport.
+
+
+docName: AFP_ENG_20100201.0307
+
+
+sentenceOffset/Text 3478: Laura Silsby, head of the Idaho-based New Life Children's Refuge, insisted the group's aims were entirely altruistic.
+
+
+docName: APW_ENG_20100221.0092
+
+
+sentenceOffset/Text 1333: Their stories contradict the missionaries' still-jailed leader, Laura Silsby, who told the AP the day after her arrest that the children were either orphans or came from distant relatives.
+
+
+docName: AFP_ENG_20100217.0195
+
+
+sentenceOffset/Text 572: Coulter is considered close to Laura Silsby, the leader of the group from the New Life Children's Refuge who were caught last month trying to take a busload of 33 Haitian children to the Dominican Republic without authorization.
+
+Haitian children	haitian	nationality
+Laura Silsby, the leader of the group	leader	jobTitle
+
+docName: APW_ENG_20100519.0357
+
+
+sentenceOffset/Text 387: But as Laura Silsby closes one troubled chapter, another set of legal woes await her at home.
+
+
+docName: AFP_ENG_20100218.0180
+
+
+sentenceOffset/Text 388: Judge Bernard Saint-Vil had Wednesday freed the other eight Americans without bail and they returned to the United States, but he ordered Laura Silsby and Charisa Coulter to remain in the country for further questioning.
+
+Judge Bernard Saint-Vil	judge	jobTitle
+
+docName: APW_ENG_20100302.0048
+
+
+sentenceOffset/Text 484: Saint-Vil said Monday he plans to have missionaries Laura Silsby and Charisa Coulter in court for the closed hearing.
+
+
+docName: APW_ENG_20100131.0146
+
+
+sentenceOffset/Text 1053: "In this chaos the government is in right now we were just trying to do the right thing," the group's leader, Laura Silsby told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: APW_ENG_20100131.0602
+
+
+sentenceOffset/Text 832: "In this chaos the government is in right now, we were just trying to do the right thing," the group's spokeswoman, Laura Silsby, told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: AFP_ENG_20100427.0688
+
+
+sentenceOffset/Text 419: Laura Silsby, one of a group of missionaries from the western US state of Idaho, was detained at the border with the Dominican Republic on kidnapping charges following the devastating earthquake in Haiti.
+
+US state of Idaho	idaho	province
+
+docName: APW_ENG_20100204.1177
+
+
+sentenceOffset/Text 439: As she entered the closed-door session, mission organizer Laura Silsby told reporters, "We expect God's will be done.
+
+
+sentenceOffset/Text 2700: Adrien said he met the Baptists' leader, Laura Silsby of Meridian, Idaho, in Port-au-Prince on Jan. 26.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	religion
+
+docName: APW_ENG_20100517.1053
+
+
+sentenceOffset/Text 431: Laura Silsby, the organizer of the ill-fated effort to take the children to an orphanage being set up in the Dominican Republic, returned to her jail cell briefly to retrieve belongings before quickly heading to the Port-au-Prince airport.
+
+
+docName: AFP_ENG_20100318.0710
+
+
+sentenceOffset/Text 634: Laura Silsby and nine fellow Baptists from Idaho were arrested on January 29 as they tried to take the children into the neighboring Dominican Republic by bus without the necessary documentation.
+
+
+docName: AFP_ENG_20100218.0714
+
+
+sentenceOffset/Text 1754: Two other missionaries -- group leader Laura Silsby and Charisa Coulter -- remained in detention in Port-au-Prince because Saint-Vil wants to determine their motives for an earlier trip to Haiti before the quake, Fleurant said.
+
+
+docName: AFP_ENG_20100131.0187
+
+
+sentenceOffset/Text 1413: CNN reported that the leader of the group, identified as Laura Silsby, said the group's aims were entirely altruistic.
+
+
+docName: APW_ENG_20100131.0094
+
+
+sentenceOffset/Text 1069: "In this chaos the government is in right now we were just trying to do the right thing," the group's leader, Laura Silsby, told reporters at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: APW_ENG_20100204.0277
+
+
+sentenceOffset/Text 2610: Adrien said he met the Baptists' leader, Laura Silsby of Meridian, Idaho, in Port-au-Prince on Jan. 26.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	religion
+
+docName: APW_ENG_20100203.1266
+
+
+sentenceOffset/Text 2060: He told the AP he met their leader, Laura Silsby of Boise, Idaho, at a school in Port-au-Prince two days earlier.
+
+leader, Laura Silsby of Boise, Idaho	idaho	province
+
+sentenceOffset/Text 2183: Silsby said she was looking for homeless children, Adrien said, adding that he went that very day to talk to the parents in Callebas.
+
+
+sentenceOffset/Text 2326: In a jailhouse interview Saturday, Silsby told the AP that most of the children had been delivered to the Americans by distant relatives, while some came from orphanages that had collapsed in the quake.
+
+
+sentenceOffset/Text 2724: The parents of four children taken by Silsby said the Americans took down contact information for all the families and assured them that a relative would be able to visit them in the Dominican Republic.
+
+
+sentenceOffset/Text 2936: Silsby's Central Valley Baptist Church in Meridian, Idaho, had begun planning last year to build an orphanage, school and church in Magante, on the northern coast of the Dominican Republic.
+
+coast of the Dominican Republic	dominican republic	nationality
+Central Valley Baptist Church	baptist	religion
+
+sentenceOffset/Text 3593: Laurentius Lelly, a 27-year-old computer technician, said he gave up his two children, ages 4 and 6, because Silsby had previously visited the area and earned people's trust.
+
+Laurentius Lelly, a 27-year-old computer technician	technician	jobTitle
+
+docName: AFP_ENG_20100217.0102
+
+
+sentenceOffset/Text 1813: The two who will remain in detention are group leader Laura Silsby and her confidant Charisa Coulter, said Fleurant, who earlier told AFP that Coulter had become sick in jail and was being treated for an unspecified illness.
+
+
+docName: AFP_ENG_20100202.0394
+
+
+sentenceOffset/Text 2080: Laura Silsby, who heads the Idaho-based group New Life Children's Refuge, insisted the group "came here literally to just help the children.
+
+
+docName: APW_ENG_20100131.0142
+
+
+sentenceOffset/Text 1053: "In this chaos the government is in right now we were just trying to do the right thing," the group's leader, Laura Silsby told The Associated Press at the judicial police headquarters in the capital, where the Americans were being held pending a Monday hearing before a judge.
+
+
+docName: APW_ENG_20100211.1453
+
+
+sentenceOffset/Text 2046: The following day, group leader Laura Silsby of Meridian, Idaho, told the AP the children were obtained either from orphanages or from distant relatives.
+
+day, group leader Laura Silsby of Meridian, Idaho	idaho	province
+day, group leader Laura Silsby of Meridian, Idaho	leader	jobTitle
+
+sentenceOffset/Text 3795: We don't want to talk now," Silsby said.
+
+
+sentenceOffset/Text 4121: Silsby decided last summer to create an orphanage in the Dominican Republic and in November registered the nonprofit New Life Children's Refuge Inc. in Idaho.
+
+
+sentenceOffset/Text 4400: Silsby told the AP she was interested only in saving suffering children.
+
+
+docName: AFP_ENG_20100201.0658
+
+
+sentenceOffset/Text 2549: Speaking just outside her detention cell near Port-au-Prince airport, Laura Silsby, head of the Idaho-based New Life Children's Refuge charity, said the group's aims were entirely altruistic.
+
+
+docName: AFP_ENG_20100204.0596
+
+
+sentenceOffset/Text 2586: One of the detainees, New Life Children's Refuge charity head Laura Silsby, said the group's aims were altruistic.
+
+
+docName: AFP_ENG_20100211.0709
+
+
+sentenceOffset/Text 4468: He said he spoke to the missionaries' leader, Laura Silsby.
+
+
+docName: AFP_ENG_20100517.0068
+
+
+sentenceOffset/Text 395: Laura Silsby's three-and-a-half months behind bars was deemed punishment enough for the "irregular travel" charges against her, and she was to fly to Florida later Monday, her lawyer Shiller Roy told AFP.
+
+
+sentenceOffset/Text 609: Silsby was the leader of a group of 10 US Baptists stopped at the border with the Dominican Republic on January 29 with the children who were purported to be orphans.
+
+
+sentenceOffset/Text 785: Initially accused of child abduction, the charges against Silsby were later revised to "irregular travel," and prosecutors had asked on Thursday for a six- month prison term for her.
+
+
+sentenceOffset/Text 1494: A ninth was released in March while Silsby was left languishing in a Port-au-Prince prison.
+
+
+docName: NYT_ENG_20100202.0007
+
+
+sentenceOffset/Text 255: PORT-AU-PRINCE, Haiti </DATELINE> <TEXT> <P> "God wanted us to come here to help children, we are convinced of that," Laura Silsby, one of 10 Americans accused of trafficking Haitian children, said Monday through the bars of a jail cell here.
+
+trafficking Haitian children	haitian	nationality
+Laura Silsby, one of 10 Americans	americans	nationality
+Haiti </DATELINE> <TEXT> <P> "God	haiti	nationality
+
+sentenceOffset/Text 2008: Silsby said that a Haitian pastor in Port-au-Prince, Jean Sanbil, of the Sharing Jesus Ministries, had brought her group the children, whose ages range from 2 months to 12 years.
+
+Haitian pastor in Port-au-Prince, Jean Sanbil, of the Sharing Jesus Ministries	haitian	nationality
+
+sentenceOffset/Text 2994: But SOS Children's Villages, an Austrian organization that runs the orphanage in Port-au-Prince where the children have been temporarily placed, said at least one of the children, an 8-year-old girl, told workers, "I am not an orphan," according to the group's Web site.
+
+Villages, an Austrian organization	austrian	nationality
+
+sentenceOffset/Text 5398: The group was founded by Silsby, 40, and Charisa Coulter, 24, Silsby's live-in nanny, who was also among those jailed in Port-au-Prince.
+
+Charisa Coulter, 24, Silsby's live-in nanny	nanny	jobTitle
+
+docName: APW_ENG_20100206.0091
+
+
+sentenceOffset/Text 912: The lawyer said that at least nine of the Americans -- all but the group's leader, Laura Silsby -- clearly did not know they lacked the proper papers to remove 33 children from Haiti following the devastating earthquake and they should be immediately released.
+
+nine of the Americans	americans	nationality
+
+sentenceOffset/Text 1852: But he characterized the other nine missionaries as innocents caught up in actions they didn't understand.
+
+
+docName: APW_ENG_20100304.0019
+
+
+sentenceOffset/Text 393: Laura Silsby told The Associated Press from her jail cell that she and nanny Charisa Coulter expect to be released soon, but would both readily come back despite their troubles here.
+
+nanny Charisa Coulter	nanny	jobTitle
+
+docName: APW_ENG_20100221.0276
+
+
+sentenceOffset/Text 1414: Their stories contradict the missionaries' still-jailed leader, Laura Silsby, who told the AP the day after her arrest that the children were either orphans or came from distant relatives.
+
+
+docName: AFP_ENG_20100202.0322
+
+
+sentenceOffset/Text 2272: Laura Silsby, head of New Life Children's Refuge, has insisted the group's aims were entirely altruistic.
+
+
+docName: APW_ENG_20100209.1333
+
+
+sentenceOffset/Text 1344: Their leader, Laura Silsby of Meridian, Idaho, told The Associated Press the day after their arrest that the children were obtained from orphanages and distant relatives.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+
+sentenceOffset/Text 1778: Silsby was the only American not to appear in court Tuesday.
+
+
+sentenceOffset/Text 1848: The lawyer who represented the missionaries until last week said that Silsby deceived the rest of the group about having proper paperwork and that everyone but her should go free.
+
+
+docName: AFP_ENG_20100201.0155
+
+
+sentenceOffset/Text 1976: Laura Silsby, head of the Idaho-based group called New Life Children's Refuge, insisted Sunday that the group's aims were entirely altruistic.
+
+
+docName: WPB_ENG_20100217.0068
+
+
+sentenceOffset/Text 4059: MIDEAST-DUBAI _ JERUSALEM _ The Dubai police on Tuesday issued arrest warrants for 11 suspects in the murder of a top official in the Islamist Hamas organization, touching off confusion on two continents over apparently forged passports and stolen identities, and raising new questions about whether Israel's spy agency was responsible for the killing.
+
+spy agency	spy	jobTitle
+Israel's spy agency	israel	nationality
+murder of a top official	official	jobTitle
+
+sentenceOffset/Text 5024: HAITI _ PORT-AU-PRINCE, Haiti _ A Haitian judge says he will release eight of the 10 American missionaries accused of kidnapping children, while the remaining two, including Laura Silsby, the leader of the group, would be held for further investigation.
+
+HAITI _ PORT-AU-PRINCE, Haiti _	haiti	nationality
+HAITI _ PORT-AU-PRINCE, Haiti _	haiti	nationality
+Haitian judge	haitian	nationality
+American missionaries	american	nationality
+Laura Silsby, the leader of the group	leader	jobTitle
+
+sentenceOffset/Text 7601: Two photos.
+
+
+docName: APW_ENG_20100207.0103
+
+
+sentenceOffset/Text 2196: Coq said Thursday that the group's leader, Laura Silsby of Meridian, Idaho, deceived the others by telling them she had the proper documents to remove the children from Haiti.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+
+sentenceOffset/Text 2413: He told the AP that he warned Silsby on Friday, the day the group was detained at the border, that she lacked the required papers and risked being arrested for child trafficking.
+
+
+sentenceOffset/Text 2601: Asked if Silsby had deceived the other nine Baptists in assuring them she had the proper papers, Puello said, "I believe that is true."
+
+
+sentenceOffset/Text 3111: It said some of the missionaries handed an NBC producer a note through bars of their holding cell earlier in the day that listed the names of all of them but Silsby and her former nanny and partner in the orphanage, Charisa Coulter.
+
+
+docName: AFP_ENG_20100218.0887
+
+
+docName: NYT_ENG_20100201.0121
+
+
+sentenceOffset/Text 58: PROTECTING HAITI WHILE PROTECTING ITS ' ORPHANS ' </HEADLINE> <DATELINE> PORT-AU-PRINCE, Haiti </DATELINE> <TEXT> <P> "God wanted us to come here to help children, we are convinced of that," Laura Silsby, one of 10 Americans accused of trafficking Haitian children, said Monday through the bars of a jail cell here.
+
+trafficking Haitian children	haitian	nationality
+Laura Silsby, one of 10 Americans	americans	nationality
+Haiti </DATELINE> <TEXT> <P> "God	haiti	nationality
+HAITI WHILE PROTECTING ITS ' ORPHANS ' </HEADLINE> <DATELINE> PORT-AU-PRINCE	haiti	nationality
+
+docName: APW_ENG_20100308.1096
+
+
+sentenceOffset/Text 869: He predicted Laura Silsby, the leader of the Idaho-based missionary group, would be released soon as well.
+
+missionary group	missionary	jobTitle
+Laura Silsby, the leader of the Idaho-based missionary group	leader	jobTitle
+
+docName: APW_ENG_20100204.1296
+
+
+sentenceOffset/Text 687: Group leader Laura Silsby has said they were trying to take orphans and abandoned children to an orphanage in the neighboring Dominican Republic.
+
+Group leader Laura Silsby	leader	jobTitle
+
+sentenceOffset/Text 1160: One of them, Laura Silsby, waved and smiled faintly to reporters but declined to answer questions.
+
+
+sentenceOffset/Text 2008: That would still leave mission leader Laura Silsby facing charges.
+
+
+docName: APW_ENG_20100309.0087
+
+
+sentenceOffset/Text 903: Mel Coulter said her release brings a mix of joy and sorrow knowing that the leader of the Idaho-based missionary group, Laura Silsby, will be spending the night all alone in a Haitian jail.
+
+Haitian jail	haitian	nationality
+missionary group, Laura Silsby	missionary	jobTitle
+
+docName: AFP_ENG_20100203.0427
+
+
+sentenceOffset/Text 2110: Laura Silsby, the detained head of New Life Children's Refuge, insisted however that the group simply wanted to give the children a better life in an orphanage it planned to set up in the Dominican Republic.
+
+
+docName: APW_ENG_20100204.0020
+
+
+sentenceOffset/Text 2549: Adrien said he met the Baptists' leader, Laura Silsby of Meridian, Idaho, in Port-au-Prince on Jan. 26.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	religion
+
+sentenceOffset/Text 2905: In a jailhouse interview Saturday, Silsby told the AP that most of the children had been delivered to the Americans by distant relatives, while some came from orphanages that had collapsed in the quake.
+
+
+sentenceOffset/Text 4223: The Americans' journey began last summer after Silsby and her former nanny, 24-year-old Charisa Coulter, resolved to establish an orphanage for Haitian children in the Dominican Republic.
+
+Haitian children	haitian	nationality
+Americans' journey	americans	nationality
+
+sentenceOffset/Text 4459: They began buying up used clothing and collecting donations from their Central Valley Baptist Church in Meridian, Idaho, and in November, Silsby registered the New Life Children's Refuge Inc., the nonprofit organization coordinating the rescue mission.
+
+Central Valley Baptist Church	baptist	religion
+
+sentenceOffset/Text 4823: Silsby and Coulter moved into high gear, gathering donations and assembling a team to go into Haiti and urgently take out children, the younger woman's father, Mel Coulter, told the AP from his home in Kuna, Idaho.
+
+
+sentenceOffset/Text 5047: "Laura's living room basically became a warehouse.
+
+
+sentenceOffset/Text 5987: Laurentius Lelly, a 27-year-old computer technician, said he gave up his two children, ages 4 and 6, because Silsby had previously visited the area and earned people's trust.
+
+Laurentius Lelly, a 27-year-old computer technician	technician	jobTitle
+
+docName: AFP_ENG_20100210.0020
+
+
+sentenceOffset/Text 910: He said he spoke to the missionaries' leader, Laura Silsby.
+
+
+docName: AFP_ENG_20100131.0007
+
+
+sentenceOffset/Text 469: Our intentions were good," Laura Silsby, head of an Idaho-based charity called New Life Children's Refuge, told AFP.
+
+
+docName: NYT_ENG_20100207.0080
+
+
+sentenceOffset/Text 766: AMERICANS HELD IN HAITI ARE DIVIDED OVER LEADER </P> <P> Divisions emerged within the group of 10 Americans jailed in Haiti on child abduction charges, with eight of them signing a note over the weekend saying that they had been misled by Laura Silsby, the leader of the group.
+
+group of 10 Americans	americans	nationality
+HAITI ARE	haiti	nationality
+AMERICANS HELD	americans	nationality
+OVER LEADER </P> <P> Divisions	leader	jobTitle
+Laura Silsby, the leader of the group	leader	jobTitle
+
+docName: APW_ENG_20100204.1264
+
+
+sentenceOffset/Text 823: One of them, Laura Silsby, waved and smiled faintly to reporters but declined to answer questions.
+
+
+docName: APW_ENG_20100218.0001
+
+
+sentenceOffset/Text 3717: The two remaining detainees, Laura Silsby and Charisa Coulter, went to a Port-au-Prince courthouse Thursday to be questioned by the judge, but Judge Bernard Saint-Vil said he had to cancel the session because the translator didn't show up.
+
+Judge Bernard Saint-Vil	judge	jobTitle
+
+docName: AFP_ENG_20100308.0092
+
+
+sentenceOffset/Text 538: Her companion and employer, Laura Silsby, 40, remained in detention.
+
+
+docName: AFP_ENG_20100517.0092
+
+
+sentenceOffset/Text 58: ALERT ¥ </HEADLINE> <TEXT> <P> US missionary Laura Silsby freed in Haiti: lawyer
+
+ALERT ¥ </HEADLINE> <TEXT> <P> US missionary Laura Silsby	missionary	jobTitle
+
+docName: APW_ENG_20100207.0101
+
+
+sentenceOffset/Text 2192: Coq said Thursday that the group's leader, Laura Silsby of Meridian, Idaho, deceived the others by telling them she had the proper documents to remove the children from Haiti.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+
+sentenceOffset/Text 2409: He told the AP that he warned Silsby on Friday, the day the group was detained at the border, that she lacked the required papers and risked being arrested for child trafficking.
+
+
+sentenceOffset/Text 2597: Asked if Silsby had deceived the other nine Baptists in assuring them she had the proper papers, Puello said, "I believe that is true."
+
+
+sentenceOffset/Text 3107: It said some of the missionaries handed an NBC producer a note through bars of their holding cell earlier in the day that listed the names of all of them but Silsby and her former nanny and partner in the orphanage, Charisa Coulter.
+
+
+docName: APW_ENG_20100303.1329
+
+
+sentenceOffset/Text 388: Laura Silsby told The Associated Press from her jail cell that she and nanny Charisa Coulter expect to be released soon, but would both readily come back despite their troubles here.
+
+nanny Charisa Coulter	nanny	jobTitle
+
+docName: APW_ENG_20100427.0067
+
+
+sentenceOffset/Text 430: Judge Bernard Saint-Vil said Laura Silsby, the last of the 10 missionaries jailed in Haiti, still faced a lesser charge for allegedly organizing the effort to transport the 33 children to an orphanage they were setting up in the Dominican Republic.
+
+Judge Bernard Saint-Vil	judge	jobTitle
+
+docName: AFP_ENG_20100201.0717
+
+
+sentenceOffset/Text 1078: Speaking just outside her detention cell near Port-au-Prince airport, Laura Silsby, head of the Idaho-based New Life Children's Refuge charity, said the group's aims were entirely altruistic.
+
+
+docName: AFP_ENG_20100202.0008
+
+
+sentenceOffset/Text 2972: Laura Silsby, head of New Life Children's Refuge, has insisted the group's aims were entirely altruistic.
+
+
+docName: APW_ENG_20100211.0358
+
+
+sentenceOffset/Text 1097: The day after the group's arrest, its leader, Laura Silsby of Meridian, Idaho, told the AP that the children were obtained either from orphanages or from distant relatives.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+
+sentenceOffset/Text 1989: We don't want to talk now," Silsby said.
+
+
+sentenceOffset/Text 2410: A Dallas attorney for Allen, Hiram Sasser, told the AP that his client was recruited just 48 hours before the group left last month for the Dominican Republic on what Silsby termed an emergency rescue mission.
+
+
+sentenceOffset/Text 2783: Silsby had decided last summer to create an orphanage in the Dominican Republic and in November registered the nonprofit New Life Children's Refuge foundation in Idaho.
+
+
+sentenceOffset/Text 3072: Silsby told the AP she was only interested in saving suffering children.
+
+
+docName: APW_ENG_20100207.0112
+
+
+sentenceOffset/Text 2196: Coq said Thursday that the group's leader, Laura Silsby of Meridian, Idaho, deceived the others by telling them she had the proper documents to remove the children from Haiti.
+
+leader, Laura Silsby of Meridian, Idaho	idaho	province
+
+sentenceOffset/Text 2381: The Dominican consul in Haiti, Carlos Castillo, has said he warned Silsby on Jan. 29, the day the group was detained at the border, that she lacked the required papers and risked being arrested for child trafficking.
+
+Haiti, Carlos Castillo	haiti	nationality
+Dominican consul	dominican	nationality
+
+sentenceOffset/Text 2607: Asked if Silsby had deceived the other nine Baptists by assuring them she had the proper papers, Puello said Saturday, "I believe that is true."
+
+
+sentenceOffset/Text 3126: It said some of the missionaries handed an NBC producer a note through bars of their holding cell earlier in the day that listed the names of all of them but Silsby and her former nanny and partner in the orphanage, Charisa Coulter.
+
+
+docName: APW_ENG_20100211.1348
+
+
+sentenceOffset/Text 1946: The following day, group leader Laura Silsby of Meridian, Idaho, told the AP the children were obtained either from orphanages or from distant relatives.
+
+day, group leader Laura Silsby of Meridian, Idaho	idaho	province
+day, group leader Laura Silsby of Meridian, Idaho	leader	jobTitle
+
+sentenceOffset/Text 3556: We don't want to talk now," Silsby said.
+
+
+sentenceOffset/Text 3882: Silsby decided last summer to create an orphanage in the Dominican Republic and in November registered the nonprofit New Life Children's Refuge Inc. in Idaho.
+
+
+sentenceOffset/Text 4161: Silsby told the AP she was interested only in saving suffering children.
+
+
+docName: AFP_ENG_20100218.0657
+
+
+sentenceOffset/Text 1777: The missionaries' leader Laura Silsby and Charisa Coulter remained in detention in Port-au-Prince because Saint-Vil wants to determine their motives for a trip to Haiti before the quake, Fleurant said.
+
+
+Filtered Extractions ----------------------------------------------------------
+
+Laura Silsby, the leader of the 10 American missionaries	leader	per:title
+day, group leader Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+day, group leader Laura Silsby of Meridian, Idaho	leader	per:title
+US missionary Laura Silsby	missionary	per:title
+Laura Silsby, the leader of the Idaho-based missionaries	leader	per:title
+Laura Silsby, group's leader	leader	per:title
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	per:religion
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+Group leader Laura Silsby	leader	per:title
+Laura Silsby, the leader of a group of 10 American missionaries	leader	per:title
+Laura Silsby, one of 10 Americans	americans	per:origin
+Laura Silsby, a director of the Austria-based SOS Children's Villages	director	per:title
+Laura Silsby, the leader of the group	leader	per:title
+(AFP) </DATELINE> <TEXT> <P> Laura Silsby, the leader of a group of US missionaries	leader	per:title
+Laura Silsby, leader of the New Life Children's Refuge	leader	per:title
+Laura Silsby, the leader of the group	leader	per:title
+Laura Silsby, the leader of the group	leader	per:title
+day, group leader Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+day, group leader Laura Silsby of Meridian, Idaho	leader	per:title
+(AFP) </DATELINE> <TEXT> <P> Laura Silsby, the leader of a group of US missionaries	leader	per:title
+Baptist group, Laura Silsby	baptist	per:religion
+Laura Silsby, an Idaho businesswoman	idaho	per:statesorprovinces_of_residence
+Laura Silsby, the leader of a group of 10 American missionaries	leader	per:title
+missionary group, Laura Silsby	missionary	per:title
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+Baptist group, Laura Silsby	baptist	per:religion
+Laura Silsby, the leader of the group	leader	per:title
+Laura Silsby, the leader of the group of Americans	leader	per:title
+day, group leader Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+day, group leader Laura Silsby of Meridian, Idaho	leader	per:title
+Laura Silsby, the Idaho businesswoman	idaho	per:statesorprovinces_of_residence
+Laura Silsby, one of 10 Americans	americans	per:origin
+Laura Silsby, the leader of the group	leader	per:title
+day, group leader Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+day, group leader Laura Silsby of Meridian, Idaho	leader	per:title
+question Laura Silsby, the group's leader	leader	per:title
+Laura Silsby, the leader of the group	leader	per:title
+detained group leader Laura Silsby	leader	per:title
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	per:religion
+Laura Silsby, the leader of the group	leader	per:title
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	per:religion
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	per:religion
+leader, Laura Silsby of Boise, Idaho	idaho	per:statesorprovinces_of_residence
+day, group leader Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+day, group leader Laura Silsby of Meridian, Idaho	leader	per:title
+Laura Silsby, one of 10 Americans	americans	per:origin
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+Laura Silsby, the leader of the group	leader	per:title
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+Laura Silsby, one of 10 Americans	americans	per:origin
+Laura Silsby, the leader of the Idaho-based missionary group	leader	per:title
+Group leader Laura Silsby	leader	per:title
+missionary group, Laura Silsby	missionary	per:title
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+Baptists' leader, Laura Silsby of Meridian, Idaho	baptists	per:religion
+Laura Silsby, the leader of the group	leader	per:title
+ALERT ¥ </HEADLINE> <TEXT> <P> US missionary Laura Silsby	missionary	per:title
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+leader, Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+day, group leader Laura Silsby of Meridian, Idaho	idaho	per:statesorprovinces_of_residence
+day, group leader Laura Silsby of Meridian, Idaho	leader	per:title
+
+
+
+Query Name: Laura Silsby
+
+KBP Report ----------------------------------------------------------
+
+SF14_ENG_050	per:spouse	UWashington3	NIL
+SF14_ENG_050	per:religion	UWashington3	APW_ENG_20100204.0020:2572-2621	baptists	APW_ENG_20100204.0020:2572-2580	5.0	String
+SF14_ENG_050	per:holds_shares_in	UWashington3	NIL
+SF14_ENG_050	per:city_of_death	UWashington3	NIL
+SF14_ENG_050	per:other_family	UWashington3	NIL
+SF14_ENG_050	per:countries_of_residence	UWashington3	NYT_ENG_20100201.0121:249-322	united states	NYT_ENG_20100201.0121:314-322	4.0	GPE
+SF14_ENG_050	per:country_of_death	UWashington3	NIL
+SF14_ENG_050	per:top_member_employee_of	UWashington3	NIL
+SF14_ENG_050	per:stateorprovince_of_birth	UWashington3	NIL
+SF14_ENG_050	per:title	UWashington3	APW_ENG_20100211.1348:1960-2009	leader	APW_ENG_20100211.1348:1971-1978	29.0	String
+SF14_ENG_050	per:title	UWashington3	AFP_ENG_20100517.0092:58-122	missionary	AFP_ENG_20100517.0092:116-122	4.0	String
+SF14_ENG_050	per:title	UWashington3	NYT_ENG_20100131.0114:5497-5566	director	NYT_ENG_20100131.0114:5513-5522	1.0	String
+SF14_ENG_050	per:children	UWashington3	NIL
+SF14_ENG_050	per:origin	UWashington3	NYT_ENG_20100201.0121:249-322	americans	NYT_ENG_20100201.0121:314-322	4.0	String
+SF14_ENG_050	per:city_of_birth	UWashington3	NIL
+SF14_ENG_050	per:date_of_death	UWashington3	NIL
+SF14_ENG_050	per:age	UWashington3	NIL
+SF14_ENG_050	per:cities_of_residence	UWashington3	NIL
+SF14_ENG_050	per:employee_or_member_of	UWashington3	NIL
+SF14_ENG_050	per:stateorprovince_of_death	UWashington3	NIL
+SF14_ENG_050	per:cause_of_death	UWashington3	NIL
+SF14_ENG_050	per:alternate_names	UWashington3	NIL
+SF14_ENG_050	per:charges	UWashington3	NIL
+SF14_ENG_050	per:country_of_birth	UWashington3	NIL
+SF14_ENG_050	per:schools_attended	UWashington3	NIL
+SF14_ENG_050	per:parents	UWashington3	NIL
+SF14_ENG_050	per:date_of_birth	UWashington3	NIL
+SF14_ENG_050	per:organizations_founded	UWashington3	NIL
+SF14_ENG_050	per:statesorprovinces_of_residence	UWashington3	APW_ENG_20100211.1348:1960-2009	idaho	APW_ENG_20100211.1348:2004-2009	21.0	GPE
+SF14_ENG_050	per:siblings	UWashington3	NIL

@@ -8,6 +8,8 @@ object SolrHelper {
   val solrUrlForXMLDocsFromOldCorpus = "http://knowitall:knowit!@rv-n16.cs.washington.edu:9325/solr/oldCorpus"
   val solrUrlForXMLDocsFromNewCorpus = "http://knowitall:knowit!@rv-n16.cs.washington.edu:9325/solr/newCorpus"
   val solrUrlForXMLDocsFromChineseCorpus = "http://rv-n16.cs.washington.edu:8468/solr/kbpdev"
+  // kbp2015 cold start corpus
+  val solrUrlForXMLDocsFromCSCorpus = "http://rv-n16.cs.washington.edu:8468/solr/csdocs"
   var solrXMLDocsClient : Option[SolrClient] = None
   var solrDocID = "docid";
   var solrDocString = "xml";
@@ -20,6 +22,7 @@ object SolrHelper {
       case "chinese" => {solrXMLDocsClient = Some(new SolrClient(solrUrlForXMLDocsFromChineseCorpus)) 
                          solrDocString="docstring"
                         }
+      case "cs" => {solrXMLDocsClient = Some(new SolrClient(solrUrlForXMLDocsFromCSCorpus)) }
     }
     
   }
@@ -62,6 +65,89 @@ object SolrHelper {
         result = query.start(start).rows(1000).getResultAsMap()
       }
     }
+    }
+    queryDocMap.toMap
+  }
+  
+  
+  def getRelevantDocumentsColdStart(queries: List[KBPQuery]): Map[KBPQuery,List[String]] = {
+    val queryDocMap = scala.collection.mutable.Map[KBPQuery,List[String]]()
+    //ColdStartCorpus is a set of docids (strings)
+    var count = 0
+    ColdStartCorpus.documents.foreach(d => {
+      count += 1
+      val docString = SolrHelper.getRawDoc(d)
+      val noNewLineDocString = docString.replaceAll("\n+", " ")
+      for(q <- queries){
+      for(alias <- q.aliases){
+        if(noNewLineDocString.contains(alias)){
+          println(d + " contains string " + alias)
+          val r = queryDocMap.get(q)
+            if(r.isDefined){
+              val currentList = r.get
+                if(!currentList.contains(d)) queryDocMap.put(q,d :: currentList)
+              }
+            else{
+              val newList = List[String](d)
+              queryDocMap.put(q,newList)
+            }
+        }      
+      }
+      }
+      if(count % 1000 == 0){
+        println("--------------------------")
+        println(count + " docs processed")
+        println("--------------------------")
+      }
+    })
+    queryDocMap.toMap  
+  }
+  
+  
+  def getRelevantDocumentsColdStartLongRuntime(queries: List[KBPQuery]): Map[KBPQuery,List[String]] = {  
+
+    val query = solrXMLDocsClient.get.query("*:*").fields(solrDocID, solrDocString)
+    
+    var result = query.rows(1000).getResultAsMap()    
+    var start = 0
+    val queryDocMap = scala.collection.mutable.Map[KBPQuery,List[String]]()
+    var count = 0
+    
+    while(result.documents.size > 0){
+    for( doc <- result.documents){
+      val docid = doc.get(solrDocID).get.toString
+      //val csDocId = doc.get(solrDocID).get.toString
+      if(ColdStartCorpus.documents.contains(docid)){
+        val docString = doc.get(solrDocString).toString()
+        val noNewLineDocString = docString.replaceAll("\n+", " ");
+        for(q <- queries){
+          for(alias <- q.aliases){
+            if(noNewLineDocString.contains(alias)){
+              //val docid = doc.get(solrDocID).get.toString
+              println(docid + " contains string " + alias)
+              val r = queryDocMap.get(q)
+              if(r.isDefined){
+                val currentList = r.get
+                if(!currentList.contains(docid)) queryDocMap.put(q,docid :: currentList)
+              }
+              else{
+                val newList = List[String](docid)
+                queryDocMap.put(q,newList)
+              }
+            }
+          }
+        }
+      }//if in cold start corpus
+      count+=1
+      if(count % 100 == 0){
+        println(count + " docs processed")
+      }
+    }
+      if(count % 1000 == 0){
+        start += 1000
+        result = query.start(start).rows(1000).getResultAsMap()
+      }
+    //}
     }
     queryDocMap.toMap
   }

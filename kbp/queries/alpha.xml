@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+<query id="CS14_ENG_130">
+    <name>Alpharetta</name>
+    <docid>eng-NG-31-125804-9060102</docid>
+    <beg>413</beg>
+    <end>422</end>
+    <enttype>GPE</enttype>
+    <slot0>gpe:headquarters_in_city</slot0>
+    <slot1>org:employees_or_members</slot1>
+  </query>
+</query_set>
+

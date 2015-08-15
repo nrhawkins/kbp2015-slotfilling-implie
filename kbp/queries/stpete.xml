@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query_set>
+<query id="CS14_ENG_021">
+    <name>St. Petersburg</name>
+    <docid>APW_ENG_20101222.0160</docid>
+    <beg>200</beg>
+    <end>213</end>
+    <enttype>GPE</enttype>
+    <slot0>gpe:headquarters_in_city</slot0>
+    <slot1>org:top_members_employees</slot1>
+  </query>
+</query_set>
+

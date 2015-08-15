@@ -107,11 +107,11 @@ case class OutputFormatter(
 
     val detailed = if (detailedAnswers) "DEBUG " else ""
 
-    if (detailedAnswers) {
-      println(0, "")
-      println(0, s"------------------- $detailed FORMATTED SLOT FILLS -------------------")
-      println(0, "")
-    }
+    //if (detailedAnswers) {
+    //  println(0, "")
+    //  println(0, s"------------------- $detailed FORMATTED SLOT FILLS -------------------")
+    //  println(0, "")
+    //}
     
     //iterate over every slot type
     for (kbpSlot <- kbpQuery.slotsToFill) yield {
@@ -130,7 +130,7 @@ case class OutputFormatter(
   private def printSlotAnswer(slot: Slot, kbpQuery: KBPQuery, bestAnswers: Seq[Candidate]): Unit = {
 
     if (bestAnswers.isEmpty) {
-      out.println(Iterator(kbpQuery.id, slot.name, runID, "NIL").mkString("\t"))
+      //out.println(Iterator(kbpQuery.id, slot.name, runID, "NIL").mkString("\t"))
     } else {
       for (bestAnswer <- bestAnswers) {
   //        val queryData = bestAnswer.pattern
@@ -155,6 +155,7 @@ case class OutputFormatter(
           
           bestAnswer.extr.getDocName() + ":" + relProvStart + "-" + relProvEnd,
           bestAnswer.extr.getArg2().getArgName(),
+          slot.slotfillType,
           bestAnswer.extr.getDocName() + ":" + bestAnswer.extr.getArg2().getStartOffset() + "-" + bestAnswer.extr.getArg2().getEndOffset(),             
           bestAnswer.extr.getScore())
         
@@ -164,6 +165,46 @@ case class OutputFormatter(
   }
   
   private def printDetailedSlotAnswer(slot: Slot, kbpQuery: KBPQuery, bestAnswers: Seq[Candidate]): Unit = {
+
+    if (bestAnswers.isEmpty) {
+      //Don't need to print the NIL results for Cold Start
+      //out.println(Iterator(kbpQuery.id, slot.name, runID, "NIL").mkString("\t"))
+    } else {
+      for (bestAnswer <- bestAnswers) {
+  //        val queryData = bestAnswer.pattern
+        val bestExtr = bestAnswer.extr
+  //      val slotFillIn = queryData.slotFillIn.get.toLowerCase()
+        
+  //      require(slotFillIn == "arg1" || slotFillIn == "arg2" || slotFillIn =="relation")
+        
+        val relProvStart = math.min(bestAnswer.extr.getArg1().getStartOffset(), bestAnswer.extr.getArg2().getStartOffset())
+        val relProvEnd = math.max(bestAnswer.extr.getArg1().getEndOffset(), bestAnswer.extr.getArg2().getEndOffset())
+        
+        val fields = Iterator(
+          kbpQuery.id,
+          slot.name,
+          runID,
+//          bestAnswer.extr.getdocID() + ":" + bestAnswer.extr.getStartOffset() + "-" bestAnswer.extr.getEndOffset(),
+//          bestAnswer.extr.sentence.docId,
+//          bestAnswer.trimmedFill.string,
+//          bestAnswer.fillOffsetString,
+//          bestAnswer.entityOffsetString,
+//          bestAnswer.justificationOffsetString,
+          
+          bestAnswer.extr.getDocName() + ":" + relProvStart + "-" + relProvEnd,
+          bestAnswer.extr.getArg2().getArgName(),
+          slot.slotfillType,
+          bestAnswer.extr.getDocName() + ":" + bestAnswer.extr.getArg2().getStartOffset() + "-" + bestAnswer.extr.getArg2().getEndOffset(),             
+          bestAnswer.extr.getScore(),          
+          kbpQuery.name,
+          bestAnswer.extr.getSentence().replace("\n", " "))
+        
+        out.println(fields.mkString("\t"))
+      }
+    }
+  }
+  
+  /*private def printDetailedSlotAnswer(slot: Slot, kbpQuery: KBPQuery, bestAnswers: Seq[Candidate]): Unit = {
     
     if (bestAnswers.isEmpty) {
       out.println(Iterator(kbpQuery.id, slot.name, runID, "NIL").mkString("\t"))
@@ -183,12 +224,14 @@ case class OutputFormatter(
           //"Fill: " + bestAnswer.trimmedFill.string + " " +bestAnswer.fillOffsetString,
           //"Entity: " + bestAnswer.trimmedEntity.string + " " + bestAnswer.entityOffsetString,
           //"Just: " + bestAnswer.extr.sentence.dgraph.text + " " +bestAnswer.justificationOffsetString,
-          bestAnswer.extr.getScore())
+          bestAnswer.extr.getScore(),
+          slot.slotfillType)
         
         out.println(fields.mkString("\t"))
+        
       }
     }
-  }
+  }*/
   
 /*  def printFillGroups(header: String, slot: Slot, groups: Map[String, Seq[Candidate]]): Unit = if (printGroups) {
     

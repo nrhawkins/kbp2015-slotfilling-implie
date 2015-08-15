@@ -2,7 +2,7 @@ package tac
 
 import scala.collection.JavaConversions._
 import collection.JavaConverters._
-import edu.knowitall.openie.OpenIETs
+//import edu.knowitall.openie.OpenIETs
 import com.typesafe.config.ConfigFactory
 //import java.io.File
 //import java.io.IOException
@@ -35,7 +35,7 @@ object CreateKnowledgeBase {
   val relationExtractor = new ConstrainedHighRecallImplIE(tagger)
   
   //val openie = new OpenIE()
-  val openie = new OpenIETs()
+  //val openie = new OpenIETs()
   
   
   def main(args: Array[String]) {
@@ -90,15 +90,15 @@ object CreateKnowledgeBase {
       extractionsImplIE.foreach(e => { println(e) 
                                  println })
       
-      val extractionsOpenIE = openie.extract(testSentence)
+      //val extractionsOpenIE = openie.extract(testSentence)
  
-      println("Number of Extractions OpenIE: " + extractionsOpenIE.size)
+      //println("Number of Extractions OpenIE: " + extractionsOpenIE.size)
       
-      extractionsOpenIE.foreach(e => { println(e)
-                                 println(e.extraction.arg1.displayText)
-                                 println(e.extraction.rel)
-                                 println(e.extraction.arg2s(0).displayText)
-                                 println })
+      //extractionsOpenIE.foreach(e => { println(e)
+      //                           println(e.extraction.arg1.displayText)
+      //                           println(e.extraction.rel)
+      //                           println(e.extraction.arg2s(0).displayText)
+      //                           println })
       
       
       //for(file <- corpusDir.listFiles if file.getName endsWith ".gz"){

@@ -26,7 +26,7 @@ case class SlotPattern private (
   arg1Terms foreach requireTrimmed
   arg2Terms foreach requireTrimmed
 
-  val entityType: KBPQueryEntityType = if (slotName.startsWith("per:")) PER else ORG
+  val entityType: KBPQueryEntityType = if (slotName.startsWith("per:")) PER else if (slotName.startsWith("org:")) ORG else GPE
   
   def isValid(): Boolean = {
     if (relString.nonEmpty && maxValues.nonEmpty &&
@@ -62,10 +62,9 @@ object SlotPattern {
 
   private def requireTrimmed(s: String) = require(s.equals(s.trim()), "String must be trimmed: \"%s\"".format(s))
 
-  //val personPatternResource = "/edu/washington/cs/knowitall/kbp2014/multir/slotfiller/KBP-OpenIE-Person.csv"
-  //val organizationPatternResource = "/edu/washington/cs/knowitall/kbp2014/multir/slotfiller/KBP-OpenIE-Organization.csv"
   val personPatternResource = "/tac/KBP-OpenIE-Person.csv"
   val organizationPatternResource = "/tac/KBP-OpenIE-Organization.csv"
+  val gpePatternResource = "/tac/KBP-OpenIE-GeoPoliticalEntity.csv"  
   
   
   def read(csvDataArray: Array[String]): Option[SlotPattern] = {
