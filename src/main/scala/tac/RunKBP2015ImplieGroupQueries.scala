@@ -35,8 +35,8 @@ object RunKBP2015ImplieGroupQueries {
   val topJobTitlesFileName = config.getString("top-job-titles-file")
   val corpusName = config.getString("corpus")
   val slotfillFileName = config.getString("slotfill-file")
-  val extractionsFileName = config.getString("extractions-file")
-  val numRelDocsFileName = config.getString("num-reldocs-file")
+  //val extractionsFileName = config.getString("extractions-file")
+  //val numRelDocsFileName = config.getString("num-reldocs-file")
   val roundID = config.getString("roundID")
   val round1QueriesFile = config.getString("round1-queries-file")
   val round2QueriesFile = config.getString("round2-queries-file")
@@ -62,18 +62,18 @@ object RunKBP2015ImplieGroupQueries {
     // --------------------------------------------------------------------- 
     
     val outputStream = new PrintStream(slotfillFileName)
-    val outputStreamExtractions = new PrintStream(extractionsFileName)
-    val outputStreamRelDocs = new PrintStream(numRelDocsFileName)
+    //val outputStreamExtractions = new PrintStream(extractionsFileName)
+    //val outputStreamRelDocs = new PrintStream(numRelDocsFileName)
     
     val outFmt = detailed match {
              case true => OutputFormatter.detailedAnswersOnly(outputStream,runID)
              case false => OutputFormatter.formattedAnswersOnly(outputStream,runID)
     }
 
-    val outFmtExtractions = detailed match {
-             case true => OutputFormatter.detailedAnswersOnly(outputStreamExtractions,runID)
-             case false => OutputFormatter.formattedAnswersOnly(outputStreamExtractions,runID)
-    }
+    //val outFmtExtractions = detailed match {
+    //         case true => OutputFormatter.detailedAnswersOnly(outputStreamExtractions,runID)
+    //         case false => OutputFormatter.formattedAnswersOnly(outputStreamExtractions,runID)
+    //}
     
     // ---------------------------------------------------------------------
     // Load Implie Tagger and RelationExtractor
@@ -306,9 +306,11 @@ object RunKBP2015ImplieGroupQueries {
   		          
   		      //println("Getting Extractions")
   		          
-  		      val extractions = getExtractions(relationExtractor, relevantSentences, outputStreamExtractions)
+  		      val extractions = getExtractions(relationExtractor, relevantSentences)
+  		      //val extractions = getExtractions(relationExtractor, relevantSentences, outputStreamExtractions)
                   
-              //println("extractions size: " + extractions.size)
+              println("extractions size: " + extractions.size)
+              extractions.foreach(e => println(e.getArg1() + " " + e.getArg2()))
 
               if(extractions.size > 0)
                 allExtractions = allExtractions ++ extractions.toSeq
@@ -330,11 +332,27 @@ object RunKBP2015ImplieGroupQueries {
               if(relevantCandidates.size > 0)
   		        allRelevantCandidates = allRelevantCandidates ++ relevantCandidates  
                   
-  		      }	          
-		  }
+  		    } //if relevant sentence size	         
+		    
+		  } //for docs		  
 		  
+		  println("Processing Each Query in the Set")
+  
+		  var querySetCount = 0
+          for(query <- sameQueriesRelevantSlot){		    
+            
+            val slots = query.slotsToFill
+            
+            //println("SubstituteKBPRelations")    	
+		    val kbpAllRelevantCandidates = substituteKBPRelations(allRelevantCandidates, query, topJobs, mapper)
+		               
+	        //println("Make Slot Map - Best Answers")		      
+		    val bestAnswers = slots map { slot => ( slot, SelectBestAnswers.reduceToMaxResults(slot, kbpAllRelevantCandidates.filter(_.extr.getRel() == slot.name)) ) } toMap
+
+            outFmt.printAnswers(bestAnswers, query) 
+              
+          }
 		  
-    
 	    }
 	    catch {case e: Exception => 
 	      {e.printStackTrace()
@@ -354,148 +372,11 @@ object RunKBP2015ImplieGroupQueries {
       
     }
 		      
-    /*
-    for(query <- queries){
-
-      println("Query Name: " + query.id)
-     
-      var singleQueryNamePER = false
-      
-      // -------------------------------------------------------------------------------
-      // Cold Start Restrictions - i.e. only run if...
-      // -------------------------------------------------------------------------------
-      if(query.slotsToFill.size==1 && ColdStartSlots_ImplIE.slots.contains(query.slotsToFill.toList(0).name) && !singleQueryNamePER){
-      
-          //println("Slot to Fill: " + query.slotsToFill.toList(0).name)
-      
-	      var allRelevantExtractions: Seq[KBPExtraction] = Nil		
-	       		  
-		  try{
-		    
-              // ---------------------------------------
-  		      // Get the sentences for Implie
-              // ---------------------------------------  		      
-
-  		      val documents :List[Option[Annotation]] = { 
-  		          processDocuments(relevantDocs)  		  
-  		          //processDocuments(nwDocuments) 
-		      }  		      
-
-  		      //val docNames = nwDocuments.toList
-              //var docCount = -1
-  		      
-  		      //println("Number of Annotated Documents: " + documents.size)  		        		      
-  		      
-  		      //print all extractions
-		      //outputStreamExtractions.println
-		      //outputStreamExtractions.println("All Extractions ----------------------------------------------------------")
-              //outputStreamExtractions.println
-		      //allExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
-  		      
-  		      for(doc <- documents){  
-
-  		        /*doc match {
-  		          case Some(x) => {
-  		            outputStreamExtractions.println
-  		            outputStreamExtractions.println("docName: " + x.get(classOf[DocIDAnnotation]) )
-                    outputStreamExtractions.println
-                  } 
-  		          case _ => 
-  		        }*/
-  		        
-  		        val (sentences, corefMap) = getSentencesAndCorefMap(doc)  		        
-  		        val matchingCorefMentions = getMatchingCorefMentions(corefMap, query)  	
-  		         
-  		        val relevantSentencesCoref = getRelevantSentencesIncludingCoref(doc, query, matchingCorefMentions)    
-  		        val relevantSentences = relevantSentencesCoref.filter(s => s.get(classOf[TextAnnotation]).size < 400 )  
-  		        
-                totalSentences += relevantSentences.size
-  		        
-  		        //println("relevantSentences size: " + relevantSentences.size)
-  		        
-  		        if(relevantSentences.size > 0){
-  		          
-  		          //println("Getting Extractions")
-  		          
-  		          val extractions = getExtractions(relationExtractor, relevantSentences, outputStreamExtractions)
-                  
-                  //println("extractions size: " + extractions.size)
-
-                  if(extractions.size > 0)
-                    allExtractions = allExtractions ++ extractions.toSeq
-
-                  //println("Filtering Extractions")  
-                    
-                  var filteredExtractions = filterExtractionsIncludingCoref(extractions, matchingCorefMentions, query)
-
-                  //For GPE relations, only keep extractions where the location name matches the query name
-                  filteredExtractions = query.entityType match {
-                    case GPE => filteredExtractions.filter(e => e.getArg2().argName.trim.equalsIgnoreCase(query.name))
-                    case _ => filteredExtractions
-                  }       
-                  
-                  //println("filteredExtractions size: " + filteredExtractions.size)
-                  
-                  val relevantCandidates = wrapWithCandidate(filteredExtractions.toSeq)
-
-                  if(relevantCandidates.size > 0)
-  		            allRelevantCandidates = allRelevantCandidates ++ relevantCandidates  
-                  
-  		        }	        
-  		      }
-		  }
-	      catch {case e: Exception => 
-	        {e.printStackTrace()
-	         println("EXCEPTION: " + query.id + " " + query.name) 
-	         //outFmt.printEmpty(query)
-	         //outFmtExtractions.printEmpty(query)
-	        }	  
-	      }	
-                
-	  	 //println("SubstituteKBPRelations")    	
-		 val kbpAllRelevantCandidates = substituteKBPRelations(allRelevantCandidates, query, topJobs, mapper)
-		               
-	     //println("Make Slot Map - Best Answers")		      
-		 val bestAnswers = slots map { slot => ( slot, SelectBestAnswers.reduceToMaxResults(slot, kbpAllRelevantCandidates.filter(_.extr.getRel() == slot.name)) ) } toMap
-
-		 //println("bestAnswers size: " + bestAnswers.size)
-		 
-		 //outputStreamExtractions.println
-		 //print filtered extractions
-		 //outputStreamExtractions.println("Filtered Extractions ----------------------------------------------------------")
-         //outputStreamExtractions.println
-		 //allRelevantCandidates.foreach(c => outputStreamExtractions.println(c.extr.getArg1().argName + "\t" + c.extr.getArg2().argName + "\t" + c.extr.getRel()))
-		 //outputStreamExtractions.println
-		 //outputStreamExtractions.println
-		 
-		 //print Query Name
-		 //outputStreamExtractions.println
-		 //outputStreamExtractions.println("Query Name: " + query.name )
-		 //outputStreamExtractions.println
-		 
-		 //print KBP report
-		 //outputStreamExtractions.println("KBP Report ----------------------------------------------------------")
-         //outputStreamExtractions.println
-		 outFmt.printAnswers(bestAnswers, query) 
-		 //outFmtExtractions.printAnswers(bestAnswers, query)  
-		 //println("Total Sentences: " + totalSentences)		    
-	     
-      }
-      else{
-        //outFmt.printEmpty(query)
-	    //outFmtExtractions.printEmpty(query)
-      }
-      
-      println("Finished, going to next query")	    
-	     
-	  }   	  
-    
-    
     println("Finished with Queries")
 	  
     outputStream.close()
-    outputStreamExtractions.close()
-    outputStreamRelDocs.close()
+    //outputStreamExtractions.close()
+    //outputStreamRelDocs.close()
     
     println("Closed outputStreams")  
     
@@ -506,7 +387,7 @@ object RunKBP2015ImplieGroupQueries {
     println("computed free memory: " + (Runtime.getRuntime().maxMemory() - Runtime.getRuntime().totalMemory() + Runtime.getRuntime().freeMemory()))
     println("used memory: " + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()))
     
-  } */
+  } 
 
   
   def substituteKBPRelations(candidates: Seq[Candidate], query: KBPQuery, topJobs: Set[String], mapper: SingularCountryMapper): Seq[Candidate] = {
@@ -923,7 +804,8 @@ object RunKBP2015ImplieGroupQueries {
     corefMatch
   }
   
-  def getExtractions(relationExtractor: ImplicitRelationExtractor, sentences: List[CoreMap], outputStream: PrintStream): List[KBPExtraction] = {
+  def getExtractions(relationExtractor: ImplicitRelationExtractor, sentences: List[CoreMap]): List[KBPExtraction] = {
+  //def getExtractions(relationExtractor: ImplicitRelationExtractor, sentences: List[CoreMap], outputStream: PrintStream): List[KBPExtraction] = {
   //def getExtractions(relationExtractor: ImplicitRelationExtractor, sentences: List[CoreMap], docName: String, outputStream: PrintStream): List[KBPExtraction] = {
     
     var extractions: List[KBPExtraction] = List()
@@ -1058,7 +940,7 @@ object RunKBP2015ImplieGroupQueries {
         }        
         if(sentenceExtractions.size > 0) {
           extractions = extractions ::: sentenceExtractions
-          sentenceExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
+          //sentenceExtractions.foreach(e => outputStream.println(e.getArg1().argName + "\t" + e.getArg2().argName + "\t" + e.getRel()))
         }      
           
     }             

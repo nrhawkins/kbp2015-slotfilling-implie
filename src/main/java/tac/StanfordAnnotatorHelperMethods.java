@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
 //import org.apache.commons.io.IOUtils;
 
 
+
 import edu.knowitall.collection.immutable.Interval;
 import edu.stanford.nlp.ling.CoreAnnotations.*;
 import edu.stanford.nlp.ling.CoreAnnotations;
@@ -262,13 +263,25 @@ public class StanfordAnnotatorHelperMethods {
 		}*/
 		//List<Pair<IntTuple,IntTuple>> x  = document.get(CorefGraphAnnotation.class);
 
-		
+		int s = 0, t = 0;
 	    for(CoreMap sentence: sentences){
+	    	t = 0;
 	    	for(CoreLabel token: sentence.get(TokensAnnotation.class)){
 	    		if(token.beginPosition() == interval.start()){
-	    			corefClusterID = token.get(CorefClusterIdAnnotation.class);
+	    			for(Integer i : graph.keySet()){
+	    				//System.out.println("GROUP " + i);
+	    				CorefChain x = graph.get(i);
+	    				for( CorefMention m : x.getMentionsInTextualOrder()){
+	    					//System.out.println(m.mentionSpan + " " + m.sentNum + " " + m.startIndex);
+	    					if(m.sentNum==(s+1) && m.startIndex <= (t+1) && (t+1) <= m.endIndex)
+	    						corefClusterID = m.corefClusterID;
+	    				}
+	    			}	
+	    			//corefClusterID = token.get(CorefClusterIdAnnotation.class);
 	    		}
+	    		t++;
 	    	}
+	    	s++;
 	    }
 		
 	    /*if(corefClusterID != null){
