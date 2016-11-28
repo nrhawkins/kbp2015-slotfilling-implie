@@ -1,0 +1,10 @@
+CS14_ENG_001	gpe:residents_of_city	UWashington3	b7c48a38678080bd2a57d67c41e548e1:3801-3824	Bob Marley	PER	b7c48a38678080bd2a57d67c41e548e1:3814-3823	1.0
+CS14_ENG_001	gpe:residents_of_city	UWashington3	4437d8c3a0f5b73d2b80889b20b4c257:1319-1427	Constance	PER	4437d8c3a0f5b73d2b80889b20b4c257:1319-1327	1.0
+CS14_ENG_001	gpe:residents_of_city	UWashington3	78033565d5c8897ac5d26023298624ab:10450-10467	Rick Springfield	PER	78033565d5c8897ac5d26023298624ab:10450-10465	1.0
+CS14_ENG_003	gpe:headquarters_in_city	UWashington3	930201f3a8758cf79333e9f2505376b1:7528-7565	Moonglows Dusty Springfield	ORG	930201f3a8758cf79333e9f2505376b1:7528-7554	1.0
+CS14_ENG_003	gpe:headquarters_in_city	UWashington3	a47b465e2fddcf80c2a7917e6aa17c1b:1131-1149	Springfield College	ORG	a47b465e2fddcf80c2a7917e6aa17c1b:1131-1149	1.0
+CS14_ENG_003	gpe:headquarters_in_city	UWashington3	c9d20809a7c734a0bd6af7783e6bd8a1:11803-11831	Lincolns Springfield Illinois	ORG	c9d20809a7c734a0bd6af7783e6bd8a1:11803-11831	1.0
+CS14_ENG_003	gpe:headquarters_in_city	UWashington3	2cedcc85b30f958f0f53245a3f8f0119:2695-2717	Elections	ORG	2cedcc85b30f958f0f53245a3f8f0119:2695-2703	1.0
+CS14_ENG_003	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131209.0222:3450-3473	Springfield City Schools	ORG	NYT_ENG_20131209.0222:3450-3473	1.0
+CS14_ENG_003	gpe:headquarters_in_city	UWashington3	f9b34af5f974611a31fd05055918125d:2487-2512	Liberal Arts	ORG	f9b34af5f974611a31fd05055918125d:2487-2498	1.0
+CS14_ENG_005	org:city_of_headquarters	UWashington3	83c247f9203be72dc4bfde422b30c09d:505-524	des moines	GPE	83c247f9203be72dc4bfde422b30c09d:505-516	5.0

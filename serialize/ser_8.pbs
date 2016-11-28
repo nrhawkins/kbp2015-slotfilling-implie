@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /homes/gws/nhawkins/kbp2015-slotfilling-implie
+
+sbt "run-main tac.SerializeColdStartCorpus 17500 29124"
+
+exit 0

@@ -1,0 +1,944 @@
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130515.0108:4899-4924	London School of Economics	ORG	NYT_ENG_20130515.0108:4899-4924	13.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130723.0230:2344-2364	London Metal Exchange	ORG	NYT_ENG_20130723.0230:2344-2364	9.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	75cf19d9729e20f23e500e7bd7e76f30:272-321	Life Church London	ORG	75cf19d9729e20f23e500e7bd7e76f30:272-289	7.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	394d3bea3b2b7f223c0382ca5127b701:556-580	London Stock Exchange	ORG	394d3bea3b2b7f223c0382ca5127b701:560-580	6.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	fc8d11f51f4b85ed793102756d8e7c88:1228-1360	Hyde Park London Shoreditch London South Ruislip London Waterloo London Westminster Manchester City Luton Nottingham Pontefract  Info	ORG	fc8d11f51f4b85ed793102756d8e7c88:1228-1360	5.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	8e61629c8592038f2a6ce76da438469b:2033-2047	London Assembly	ORG	8e61629c8592038f2a6ce76da438469b:2033-2047	4.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	9be35786c7204f8a523c201e28804087:1224-1239	Times of London	ORG	9be35786c7204f8a523c201e28804087:1224-1238	3.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	fcf219b11c75a06d3bf49055b22f3767:3053-3151	London Living Wage	ORG	fcf219b11c75a06d3bf49055b22f3767:3053-3070	3.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131206.0208:6096-6118	London Evening Standard	ORG	NYT_ENG_20131206.0208:6096-6118	3.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	b150d321c589ad5b1594839914a89b26:2383-2415	Tower of London	ORG	b150d321c589ad5b1594839914a89b26:2401-2415	3.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130612.0071:4294-4300	London	ORG	NYT_ENG_20130612.0071:4294-4299	3.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	6d9b96caf14998c22c8cc95090feefe8:4518-4536	Diocese of London	ORG	6d9b96caf14998c22c8cc95090feefe8:4518-4534	3.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	727d95be5a8f6fec38a77e69b9d911b1:2843-2857	Swansea	ORG	727d95be5a8f6fec38a77e69b9d911b1:2851-2857	3.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	f933274de7417ee4a8a921ce5733b58f:3268-3289	Daily Telegraph	ORG	f933274de7417ee4a8a921ce5733b58f:3275-3289	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	a1d2df80b4454ef0144cd5908dd142ff:8247-8268	London Business School	ORG	a1d2df80b4454ef0144cd5908dd142ff:8247-8268	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	99cc229436fa8caa89a571d42277ec8c:1552-1573	Wakley Street London	ORG	99cc229436fa8caa89a571d42277ec8c:1552-1571	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	53f18b8ac76870f2aebf2e0ebb24b295:4871-4888	London Free School	ORG	53f18b8ac76870f2aebf2e0ebb24b295:4871-4888	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	5dac216bd8bccf724a4780afa1dce528:2384-2463	Queen Elizabeth II Conference Centre Broad Sanctuary	ORG	5dac216bd8bccf724a4780afa1dce528:2384-2435	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	eb614fb7af6fb9b62538c36542069e24:3061-3100	Anglican Communion News Service	ORG	eb614fb7af6fb9b62538c36542069e24:3061-3091	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	46a8c9c50547ed90b79fb10166e4f420:3311-3333	London Fire Brigade and	ORG	46a8c9c50547ed90b79fb10166e4f420:3311-3333	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131114.0164:3060-3085	Tottenham Hotspur	ORG	NYT_ENG_20131114.0164:3069-3085	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	f08ad7a11d842f96632340d3d460ba29:2384-2409	Second London Naval Treaty	ORG	f08ad7a11d842f96632340d3d460ba29:2384-2409	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	df4820a9d75327fcf7cd2bb0823fd0ff:626-651	Texaco	ORG	df4820a9d75327fcf7cd2bb0823fd0ff:638-643	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	6c9aae501ee789163e7bc9394e94a03f:210-282	State London Location South Bank Title Central London Critical Mass  Meet	ORG	6c9aae501ee789163e7bc9394e94a03f:210-282	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130421_F000124JY:121-135	London Marathon	ORG	ENG_NW_001278_20130421_F000124JY:121-135	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131226.0019:6940-6955	Bank of London	ORG	NYT_ENG_20131226.0019:6940-6953	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130502.0095:5615-5631	Millwall	ORG	NYT_ENG_20130502.0095:5624-5631	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130502.0095:5146-5170	London Football Guide	ORG	NYT_ENG_20130502.0095:5150-5170	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ae4e2ddd010ed380a424c6dceb9f04ba:1426-1446	UNITED KINGTOM	ORG	ae4e2ddd010ed380a424c6dceb9f04ba:1433-1446	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	c8d815bdc62ef66d8c35d23bde17338a:1621-1635	Accel London IV	ORG	c8d815bdc62ef66d8c35d23bde17338a:1621-1635	2.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	5861b3d53c47e23826b4f9714431cd82:3674-3703	Faber, Ltd.	ORG	5861b3d53c47e23826b4f9714431cd82:3693-3703	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	de76ba2cd837d307ee9ab904c973a429:1823-1839	Gene London	ORG	de76ba2cd837d307ee9ab904c973a429:1823-1833	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	176c55e8e6ab49276a8caf6a53fb2239:454-466	Tory	ORG	176c55e8e6ab49276a8caf6a53fb2239:463-466	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	86d3e97f04ba8ff9bfbacb894c7a4aa3:149-161	London Bureau	ORG	86d3e97f04ba8ff9bfbacb894c7a4aa3:149-161	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	4e6868108f2c9ab3d160ffd8c296c69f:523-533	BBC	ORG	4e6868108f2c9ab3d160ffd8c296c69f:523-525	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130912.0007:731-794	Tesco	ORG	NYT_ENG_20130912.0007:731-735	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130429.0259:4709-4767	Banco Santander	ORG	NYT_ENG_20130429.0259:4753-4767	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	779bf72ad8c0247764eb21bb65b03001:2530-2559	London Aeronautical Exposition	ORG	779bf72ad8c0247764eb21bb65b03001:2530-2559	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130515.0108:4303-4320	Scotland	ORG	NYT_ENG_20130515.0108:4303-4310	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	f02133e22a2bcb207e7d61baa2710e2a:806-824	London's High Court	ORG	f02133e22a2bcb207e7d61baa2710e2a:806-824	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131224.0170:1610-1636	Liberum Capital	ORG	NYT_ENG_20131224.0170:1610-1624	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	6fa5803088eab35c369f8a07932e03fd:786-803	Lloyd's of London	ORG	6fa5803088eab35c369f8a07932e03fd:786-802	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	9712be52039135609808307e9a9b7cd9:162-235	Land Forces Contributing Editor London  China North Industries Corporation	ORG	9712be52039135609808307e9a9b7cd9:162-235	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	05c39a0ae9cbbe592eb416c586c944b4:2621-2642	Oxford Street	ORG	05c39a0ae9cbbe592eb416c586c944b4:2621-2633	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	92e8ccc1464e45236bf9792c335d1fad:11190-11208	London Bridge Tower	ORG	92e8ccc1464e45236bf9792c335d1fad:11190-11208	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	b9457721bec8ac1e5cfc302d37638c1f:2824-2855	Cass Business School	ORG	b9457721bec8ac1e5cfc302d37638c1f:2836-2855	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	f4212e4010a003be2787b40f29a7c731:1207-1224	Metro Bank	ORG	f4212e4010a003be2787b40f29a7c731:1215-1224	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	7bfce73f1f7b07958c8c182214387319:2775-2802	Arsenal FC of North London	ORG	7bfce73f1f7b07958c8c182214387319:2775-2800	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131127.0035:2642-2658	King’s College	ORG	NYT_ENG_20131127.0035:2642-2655	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	2d2553d5d6d5823d1c2526465c956766:5530-5544	Awana	ORG	2d2553d5d6d5823d1c2526465c956766:5530-5534	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130727.0142:6609-6627	Telegraph of London	ORG	NYT_ENG_20130727.0142:6609-6627	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	3a6a451efe59e94cca613bb40a807a22:1649-1716	London Borough of Hammersmith &amp; Fulham	ORG	3a6a451efe59e94cca613bb40a807a22:1649-1690	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	e5995d902d00bbe539a85717b3222525:1550-1607	London School of Economics and Political Science	ORG	e5995d902d00bbe539a85717b3222525:1560-1607	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	f412bf930f68d9f82fd5a9fc163525ca:1254-1291	London Interbank Offered Rate	ORG	f412bf930f68d9f82fd5a9fc163525ca:1254-1282	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130204_F0001277P:982-1020	Observatory for Human Rights	ORG	ENG_NW_001278_20130204_F0001277P:982-1009	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	b295d96800d5866c93ee771f6a314c19:409-468	London Middlesex University London Brunel University	ORG	b295d96800d5866c93ee771f6a314c19:409-460	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	abd6b19655b261c84c454355f932d481:1603-1634	Moorfields Eye Hospital	ORG	abd6b19655b261c84c454355f932d481:1612-1634	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130509.0078:840-885	London School of Hygiene and Tropical Medicine	ORG	NYT_ENG_20130509.0078:840-885	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	8d8cf3f237341a8c9c280e39e731e671:450-469	Earls Court	ORG	8d8cf3f237341a8c9c280e39e731e671:459-469	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	08b4a4fe2abc2d0dd525fa4f89c04c5e:770-782	London Whale	ORG	08b4a4fe2abc2d0dd525fa4f89c04c5e:771-782	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130727.0091:16006-16024	Times of London and	ORG	NYT_ENG_20130727.0091:16006-16024	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	91b614357d253777577a5027be679124:155-171	London Times Pope	ORG	91b614357d253777577a5027be679124:155-171	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	a2bbace6bf10da8750c403a0c724dbc7:131-153	Foreign Office	ORG	a2bbace6bf10da8750c403a0c724dbc7:140-153	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130503.0191:4086-4103	European Reform	ORG	NYT_ENG_20130503.0191:4086-4100	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	5bf34a5f11f846909cdb4ab5676ea507:2375-2523	London Bridge Baptist Church	ORG	5bf34a5f11f846909cdb4ab5676ea507:2485-2512	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130902.0022:3625-3636	North London	ORG	NYT_ENG_20130902.0022:3625-3636	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	8d26bedff8657f3599cff2a8736834ba:974-1000	London Goldman Sachs branch	ORG	8d26bedff8657f3599cff2a8736834ba:974-1000	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130620.0196:370-389	The Times of London	ORG	NYT_ENG_20130620.0196:370-388	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	e0a2309beae8e0b7a4406dd74f24fc23:5093-5161	Ryanair London	ORG	e0a2309beae8e0b7a4406dd74f24fc23:5093-5106	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	effb77d3a0e50c64b02e799b69586e4b:4532-4547	London Interbank	ORG	effb77d3a0e50c64b02e799b69586e4b:4532-4547	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131219.0267:1654-1673	Arsenal	ORG	NYT_ENG_20131219.0267:1667-1673	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	080984d7588858600c2214ab73b5d4c8:1746-1768	Rothschilds	ORG	080984d7588858600c2214ab73b5d4c8:1746-1756	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	080984d7588858600c2214ab73b5d4c8:667-694	Rothschild Banks of London	ORG	080984d7588858600c2214ab73b5d4c8:667-692	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130416_F00013JUT:204-221	London Book Fair	ORG	ENG_NW_001278_20130416_F00013JUT:204-219	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20131029_F00013OZY:289-302	Tottenham	ORG	ENG_NW_001278_20131029_F00013OZY:289-297	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	59343f633c0d805849f79170c76a5e84:1157-1168	London Times	ORG	59343f633c0d805849f79170c76a5e84:1157-1168	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130509.0122:5392-5420	Bank of England	ORG	NYT_ENG_20130509.0122:5406-5420	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	817bee1a18bd8d2db7bbf3411be3eeed:1217-1231	London Dungeons	ORG	817bee1a18bd8d2db7bbf3411be3eeed:1217-1231	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	6f4a82cbf07e2226bf73dde0f17b9bb1:2967-2978	ITT	ORG	6f4a82cbf07e2226bf73dde0f17b9bb1:2967-2969	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	4d0d7461fdaf6d85b1bc3b4a2bc98dec:3657-3688	London Shell Pearl Beauty Powder	ORG	4d0d7461fdaf6d85b1bc3b4a2bc98dec:3657-3688	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	317399ae9b62ec65d8d18e47f1d23081:412-444	UBS	ORG	317399ae9b62ec65d8d18e47f1d23081:442-444	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130813.0048:1004-1025	London Metals Exchange	ORG	NYT_ENG_20130813.0048:1004-1025	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	fea48464bb4b7dee1e6f365d73c7f539:587-647	Sharpham Park Organic spelt.Shapham Park Organic	ORG	fea48464bb4b7dee1e6f365d73c7f539:600-647	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	c6b6f6ce7342001aa8945d473c8fb73d:2507-2527	Kings College	ORG	c6b6f6ce7342001aa8945d473c8fb73d:2507-2519	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	96bc69a4733e8966fe6eb600ee215a18:11058-11088	London College of Communciation	ORG	96bc69a4733e8966fe6eb600ee215a18:11058-11088	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	8924b4bb86e009e2658fa30f55f7d3a3:4934-4951	London Zoo	ORG	8924b4bb86e009e2658fa30f55f7d3a3:4934-4943	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ebf004f7a546ecabcfb0b907a7255db6:1278-1296	Transworld	ORG	ebf004f7a546ecabcfb0b907a7255db6:1278-1287	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131112.0113:1856-1883	London Venture Partners	ORG	NYT_ENG_20131112.0113:1861-1883	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:142-194	Chelsea	ORG	ENG_NW_001278_20130121_F00011MJP:188-194	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:242-258	Xinhua	ORG	ENG_NW_001278_20130121_F00011MJP:253-258	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:334-365	London Derby	ORG	ENG_NW_001278_20130121_F00011MJP:334-345	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	ca232eeed77f27fa233f3f5ec3bb3806:2727-2747	South London Boroughs	ORG	ca232eeed77f27fa233f3f5ec3bb3806:2727-2747	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	3151418caede323264ee8265e7777c79:1627-1640	London Foggers	ORG	3151418caede323264ee8265e7777c79:1627-1640	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	37c7d56dad2fb8980db29bb6b4614537:142-169	Metropolitan Police	ORG	37c7d56dad2fb8980db29bb6b4614537:151-169	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	aa0ef1c55188eb9cb63cb09e6972d40e:1140-1153	London Orbital	ORG	aa0ef1c55188eb9cb63cb09e6972d40e:1140-1153	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	d945e7f5ab8abebce516cd2369399d05:1028-1065	FTSE Group	ORG	d945e7f5ab8abebce516cd2369399d05:1056-1065	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	49964240853c20d125d6136c237656a2:2776-2811	Union Dixons Road New Cross London	ORG	49964240853c20d125d6136c237656a2:2776-2809	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	49964240853c20d125d6136c237656a2:2151-2188	Goldsmiths	ORG	49964240853c20d125d6136c237656a2:2179-2188	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	15fd82723be27790e4cae47010578137:1637-1657	London Midland Trains	ORG	15fd82723be27790e4cae47010578137:1637-1657	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	46175baadf5a44815b8d7a106d6ec6fb:1139-1157	London Sunday Times	ORG	46175baadf5a44815b8d7a106d6ec6fb:1139-1157	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	e1c15f519a5002664fcec60162d52313:10429-10464	Enterprise Privacy Group	ORG	e1c15f519a5002664fcec60162d52313:10441-10464	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	19b66cff2ecc93192722a9212b1fed7a:1533-1590	London Travelodge	ORG	19b66cff2ecc93192722a9212b1fed7a:1533-1549	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	a75146a15a379df47e2576e4f2b401ea:7385-7399	London Fashion	ORG	a75146a15a379df47e2576e4f2b401ea:7385-7398	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	e8f730bd0f062a92304dc9099a58487e:155-174	Times Hungary	ORG	e8f730bd0f062a92304dc9099a58487e:162-174	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130504.0156:2254-2283	Ferris	ORG	NYT_ENG_20130504.0156:2278-2283	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	119f803aef6677e577813dc83a3074ec:1744-1788	London Travelcard	ORG	119f803aef6677e577813dc83a3074ec:1744-1760	1.0
+CSSF15_ENG_443d88cf1e35	gpe:headquarters_in_city	UWashington3	c8d815bdc62ef66d8c35d23bde17338a:1730-1743	Accel London	ORG	c8d815bdc62ef66d8c35d23bde17338a:1730-1741	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130515.0108:4899-4924	London School of Economics	ORG	NYT_ENG_20130515.0108:4899-4924	13.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130723.0230:2344-2364	London Metal Exchange	ORG	NYT_ENG_20130723.0230:2344-2364	9.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	75cf19d9729e20f23e500e7bd7e76f30:272-321	Life Church London	ORG	75cf19d9729e20f23e500e7bd7e76f30:272-289	7.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	394d3bea3b2b7f223c0382ca5127b701:556-580	London Stock Exchange	ORG	394d3bea3b2b7f223c0382ca5127b701:560-580	6.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	fc8d11f51f4b85ed793102756d8e7c88:1228-1360	Hyde Park London Shoreditch London South Ruislip London Waterloo London Westminster Manchester City Luton Nottingham Pontefract  Info	ORG	fc8d11f51f4b85ed793102756d8e7c88:1228-1360	5.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	8e61629c8592038f2a6ce76da438469b:2033-2047	London Assembly	ORG	8e61629c8592038f2a6ce76da438469b:2033-2047	4.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	9be35786c7204f8a523c201e28804087:1224-1239	Times of London	ORG	9be35786c7204f8a523c201e28804087:1224-1238	3.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	fcf219b11c75a06d3bf49055b22f3767:3053-3151	London Living Wage	ORG	fcf219b11c75a06d3bf49055b22f3767:3053-3070	3.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131206.0208:6096-6118	London Evening Standard	ORG	NYT_ENG_20131206.0208:6096-6118	3.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	b150d321c589ad5b1594839914a89b26:2383-2415	Tower of London	ORG	b150d321c589ad5b1594839914a89b26:2401-2415	3.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130612.0071:4294-4300	London	ORG	NYT_ENG_20130612.0071:4294-4299	3.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	6d9b96caf14998c22c8cc95090feefe8:4518-4536	Diocese of London	ORG	6d9b96caf14998c22c8cc95090feefe8:4518-4534	3.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	727d95be5a8f6fec38a77e69b9d911b1:2843-2857	Swansea	ORG	727d95be5a8f6fec38a77e69b9d911b1:2851-2857	3.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	f933274de7417ee4a8a921ce5733b58f:3268-3289	Daily Telegraph	ORG	f933274de7417ee4a8a921ce5733b58f:3275-3289	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	a1d2df80b4454ef0144cd5908dd142ff:8247-8268	London Business School	ORG	a1d2df80b4454ef0144cd5908dd142ff:8247-8268	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	99cc229436fa8caa89a571d42277ec8c:1552-1573	Wakley Street London	ORG	99cc229436fa8caa89a571d42277ec8c:1552-1571	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	53f18b8ac76870f2aebf2e0ebb24b295:4871-4888	London Free School	ORG	53f18b8ac76870f2aebf2e0ebb24b295:4871-4888	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	5dac216bd8bccf724a4780afa1dce528:2384-2463	Queen Elizabeth II Conference Centre Broad Sanctuary	ORG	5dac216bd8bccf724a4780afa1dce528:2384-2435	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	eb614fb7af6fb9b62538c36542069e24:3061-3100	Anglican Communion News Service	ORG	eb614fb7af6fb9b62538c36542069e24:3061-3091	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	46a8c9c50547ed90b79fb10166e4f420:3311-3333	London Fire Brigade and	ORG	46a8c9c50547ed90b79fb10166e4f420:3311-3333	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131114.0164:3060-3085	Tottenham Hotspur	ORG	NYT_ENG_20131114.0164:3069-3085	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	f08ad7a11d842f96632340d3d460ba29:2384-2409	Second London Naval Treaty	ORG	f08ad7a11d842f96632340d3d460ba29:2384-2409	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	df4820a9d75327fcf7cd2bb0823fd0ff:626-651	Texaco	ORG	df4820a9d75327fcf7cd2bb0823fd0ff:638-643	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	6c9aae501ee789163e7bc9394e94a03f:210-282	State London Location South Bank Title Central London Critical Mass  Meet	ORG	6c9aae501ee789163e7bc9394e94a03f:210-282	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130421_F000124JY:121-135	London Marathon	ORG	ENG_NW_001278_20130421_F000124JY:121-135	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131226.0019:6940-6955	Bank of London	ORG	NYT_ENG_20131226.0019:6940-6953	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130502.0095:5615-5631	Millwall	ORG	NYT_ENG_20130502.0095:5624-5631	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130502.0095:5146-5170	London Football Guide	ORG	NYT_ENG_20130502.0095:5150-5170	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ae4e2ddd010ed380a424c6dceb9f04ba:1426-1446	UNITED KINGTOM	ORG	ae4e2ddd010ed380a424c6dceb9f04ba:1433-1446	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	c8d815bdc62ef66d8c35d23bde17338a:1621-1635	Accel London IV	ORG	c8d815bdc62ef66d8c35d23bde17338a:1621-1635	2.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	5861b3d53c47e23826b4f9714431cd82:3674-3703	Faber, Ltd.	ORG	5861b3d53c47e23826b4f9714431cd82:3693-3703	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	de76ba2cd837d307ee9ab904c973a429:1823-1839	Gene London	ORG	de76ba2cd837d307ee9ab904c973a429:1823-1833	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	176c55e8e6ab49276a8caf6a53fb2239:454-466	Tory	ORG	176c55e8e6ab49276a8caf6a53fb2239:463-466	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	86d3e97f04ba8ff9bfbacb894c7a4aa3:149-161	London Bureau	ORG	86d3e97f04ba8ff9bfbacb894c7a4aa3:149-161	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	4e6868108f2c9ab3d160ffd8c296c69f:523-533	BBC	ORG	4e6868108f2c9ab3d160ffd8c296c69f:523-525	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130912.0007:731-794	Tesco	ORG	NYT_ENG_20130912.0007:731-735	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130429.0259:4709-4767	Banco Santander	ORG	NYT_ENG_20130429.0259:4753-4767	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	779bf72ad8c0247764eb21bb65b03001:2530-2559	London Aeronautical Exposition	ORG	779bf72ad8c0247764eb21bb65b03001:2530-2559	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130515.0108:4303-4320	Scotland	ORG	NYT_ENG_20130515.0108:4303-4310	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	f02133e22a2bcb207e7d61baa2710e2a:806-824	London's High Court	ORG	f02133e22a2bcb207e7d61baa2710e2a:806-824	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131224.0170:1610-1636	Liberum Capital	ORG	NYT_ENG_20131224.0170:1610-1624	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	6fa5803088eab35c369f8a07932e03fd:786-803	Lloyd's of London	ORG	6fa5803088eab35c369f8a07932e03fd:786-802	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	9712be52039135609808307e9a9b7cd9:162-235	Land Forces Contributing Editor London  China North Industries Corporation	ORG	9712be52039135609808307e9a9b7cd9:162-235	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	05c39a0ae9cbbe592eb416c586c944b4:2621-2642	Oxford Street	ORG	05c39a0ae9cbbe592eb416c586c944b4:2621-2633	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	92e8ccc1464e45236bf9792c335d1fad:11190-11208	London Bridge Tower	ORG	92e8ccc1464e45236bf9792c335d1fad:11190-11208	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	b9457721bec8ac1e5cfc302d37638c1f:2824-2855	Cass Business School	ORG	b9457721bec8ac1e5cfc302d37638c1f:2836-2855	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	f4212e4010a003be2787b40f29a7c731:1207-1224	Metro Bank	ORG	f4212e4010a003be2787b40f29a7c731:1215-1224	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	7bfce73f1f7b07958c8c182214387319:2775-2802	Arsenal FC of North London	ORG	7bfce73f1f7b07958c8c182214387319:2775-2800	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131127.0035:2642-2658	King’s College	ORG	NYT_ENG_20131127.0035:2642-2655	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	2d2553d5d6d5823d1c2526465c956766:5530-5544	Awana	ORG	2d2553d5d6d5823d1c2526465c956766:5530-5534	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130727.0142:6609-6627	Telegraph of London	ORG	NYT_ENG_20130727.0142:6609-6627	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	3a6a451efe59e94cca613bb40a807a22:1649-1716	London Borough of Hammersmith &amp; Fulham	ORG	3a6a451efe59e94cca613bb40a807a22:1649-1690	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	e5995d902d00bbe539a85717b3222525:1550-1607	London School of Economics and Political Science	ORG	e5995d902d00bbe539a85717b3222525:1560-1607	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	f412bf930f68d9f82fd5a9fc163525ca:1254-1291	London Interbank Offered Rate	ORG	f412bf930f68d9f82fd5a9fc163525ca:1254-1282	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130204_F0001277P:982-1020	Observatory for Human Rights	ORG	ENG_NW_001278_20130204_F0001277P:982-1009	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	b295d96800d5866c93ee771f6a314c19:409-468	London Middlesex University London Brunel University	ORG	b295d96800d5866c93ee771f6a314c19:409-460	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	abd6b19655b261c84c454355f932d481:1603-1634	Moorfields Eye Hospital	ORG	abd6b19655b261c84c454355f932d481:1612-1634	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130509.0078:840-885	London School of Hygiene and Tropical Medicine	ORG	NYT_ENG_20130509.0078:840-885	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	8d8cf3f237341a8c9c280e39e731e671:450-469	Earls Court	ORG	8d8cf3f237341a8c9c280e39e731e671:459-469	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	08b4a4fe2abc2d0dd525fa4f89c04c5e:770-782	London Whale	ORG	08b4a4fe2abc2d0dd525fa4f89c04c5e:771-782	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130727.0091:16006-16024	Times of London and	ORG	NYT_ENG_20130727.0091:16006-16024	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	91b614357d253777577a5027be679124:155-171	London Times Pope	ORG	91b614357d253777577a5027be679124:155-171	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	a2bbace6bf10da8750c403a0c724dbc7:131-153	Foreign Office	ORG	a2bbace6bf10da8750c403a0c724dbc7:140-153	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130503.0191:4086-4103	European Reform	ORG	NYT_ENG_20130503.0191:4086-4100	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	5bf34a5f11f846909cdb4ab5676ea507:2375-2523	London Bridge Baptist Church	ORG	5bf34a5f11f846909cdb4ab5676ea507:2485-2512	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130902.0022:3625-3636	North London	ORG	NYT_ENG_20130902.0022:3625-3636	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	8d26bedff8657f3599cff2a8736834ba:974-1000	London Goldman Sachs branch	ORG	8d26bedff8657f3599cff2a8736834ba:974-1000	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130620.0196:370-389	The Times of London	ORG	NYT_ENG_20130620.0196:370-388	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	e0a2309beae8e0b7a4406dd74f24fc23:5093-5161	Ryanair London	ORG	e0a2309beae8e0b7a4406dd74f24fc23:5093-5106	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	effb77d3a0e50c64b02e799b69586e4b:4532-4547	London Interbank	ORG	effb77d3a0e50c64b02e799b69586e4b:4532-4547	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131219.0267:1654-1673	Arsenal	ORG	NYT_ENG_20131219.0267:1667-1673	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	080984d7588858600c2214ab73b5d4c8:1746-1768	Rothschilds	ORG	080984d7588858600c2214ab73b5d4c8:1746-1756	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	080984d7588858600c2214ab73b5d4c8:667-694	Rothschild Banks of London	ORG	080984d7588858600c2214ab73b5d4c8:667-692	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130416_F00013JUT:204-221	London Book Fair	ORG	ENG_NW_001278_20130416_F00013JUT:204-219	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20131029_F00013OZY:289-302	Tottenham	ORG	ENG_NW_001278_20131029_F00013OZY:289-297	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	59343f633c0d805849f79170c76a5e84:1157-1168	London Times	ORG	59343f633c0d805849f79170c76a5e84:1157-1168	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130509.0122:5392-5420	Bank of England	ORG	NYT_ENG_20130509.0122:5406-5420	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	817bee1a18bd8d2db7bbf3411be3eeed:1217-1231	London Dungeons	ORG	817bee1a18bd8d2db7bbf3411be3eeed:1217-1231	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	6f4a82cbf07e2226bf73dde0f17b9bb1:2967-2978	ITT	ORG	6f4a82cbf07e2226bf73dde0f17b9bb1:2967-2969	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	4d0d7461fdaf6d85b1bc3b4a2bc98dec:3657-3688	London Shell Pearl Beauty Powder	ORG	4d0d7461fdaf6d85b1bc3b4a2bc98dec:3657-3688	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	317399ae9b62ec65d8d18e47f1d23081:412-444	UBS	ORG	317399ae9b62ec65d8d18e47f1d23081:442-444	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130813.0048:1004-1025	London Metals Exchange	ORG	NYT_ENG_20130813.0048:1004-1025	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	fea48464bb4b7dee1e6f365d73c7f539:587-647	Sharpham Park Organic spelt.Shapham Park Organic	ORG	fea48464bb4b7dee1e6f365d73c7f539:600-647	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	c6b6f6ce7342001aa8945d473c8fb73d:2507-2527	Kings College	ORG	c6b6f6ce7342001aa8945d473c8fb73d:2507-2519	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	96bc69a4733e8966fe6eb600ee215a18:11058-11088	London College of Communciation	ORG	96bc69a4733e8966fe6eb600ee215a18:11058-11088	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	8924b4bb86e009e2658fa30f55f7d3a3:4934-4951	London Zoo	ORG	8924b4bb86e009e2658fa30f55f7d3a3:4934-4943	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ebf004f7a546ecabcfb0b907a7255db6:1278-1296	Transworld	ORG	ebf004f7a546ecabcfb0b907a7255db6:1278-1287	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131112.0113:1856-1883	London Venture Partners	ORG	NYT_ENG_20131112.0113:1861-1883	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:142-194	Chelsea	ORG	ENG_NW_001278_20130121_F00011MJP:188-194	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:242-258	Xinhua	ORG	ENG_NW_001278_20130121_F00011MJP:253-258	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:334-365	London Derby	ORG	ENG_NW_001278_20130121_F00011MJP:334-345	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	ca232eeed77f27fa233f3f5ec3bb3806:2727-2747	South London Boroughs	ORG	ca232eeed77f27fa233f3f5ec3bb3806:2727-2747	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	3151418caede323264ee8265e7777c79:1627-1640	London Foggers	ORG	3151418caede323264ee8265e7777c79:1627-1640	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	37c7d56dad2fb8980db29bb6b4614537:142-169	Metropolitan Police	ORG	37c7d56dad2fb8980db29bb6b4614537:151-169	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	aa0ef1c55188eb9cb63cb09e6972d40e:1140-1153	London Orbital	ORG	aa0ef1c55188eb9cb63cb09e6972d40e:1140-1153	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	d945e7f5ab8abebce516cd2369399d05:1028-1065	FTSE Group	ORG	d945e7f5ab8abebce516cd2369399d05:1056-1065	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	49964240853c20d125d6136c237656a2:2776-2811	Union Dixons Road New Cross London	ORG	49964240853c20d125d6136c237656a2:2776-2809	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	49964240853c20d125d6136c237656a2:2151-2188	Goldsmiths	ORG	49964240853c20d125d6136c237656a2:2179-2188	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	15fd82723be27790e4cae47010578137:1637-1657	London Midland Trains	ORG	15fd82723be27790e4cae47010578137:1637-1657	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	46175baadf5a44815b8d7a106d6ec6fb:1139-1157	London Sunday Times	ORG	46175baadf5a44815b8d7a106d6ec6fb:1139-1157	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	e1c15f519a5002664fcec60162d52313:10429-10464	Enterprise Privacy Group	ORG	e1c15f519a5002664fcec60162d52313:10441-10464	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	19b66cff2ecc93192722a9212b1fed7a:1533-1590	London Travelodge	ORG	19b66cff2ecc93192722a9212b1fed7a:1533-1549	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	a75146a15a379df47e2576e4f2b401ea:7385-7399	London Fashion	ORG	a75146a15a379df47e2576e4f2b401ea:7385-7398	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	e8f730bd0f062a92304dc9099a58487e:155-174	Times Hungary	ORG	e8f730bd0f062a92304dc9099a58487e:162-174	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130504.0156:2254-2283	Ferris	ORG	NYT_ENG_20130504.0156:2278-2283	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	119f803aef6677e577813dc83a3074ec:1744-1788	London Travelcard	ORG	119f803aef6677e577813dc83a3074ec:1744-1760	1.0
+CSSF15_ENG_451c08fc1ed5	gpe:headquarters_in_city	UWashington3	c8d815bdc62ef66d8c35d23bde17338a:1730-1743	Accel London	ORG	c8d815bdc62ef66d8c35d23bde17338a:1730-1741	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	aeea01f903db2198289e951f997b7d84:770-789	Boris Johnson	PER	aeea01f903db2198289e951f997b7d84:777-789	20.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	249bbc3db71384c7e758d4b7077d68ea:2561-2601	Jack London	PER	249bbc3db71384c7e758d4b7077d68ea:2583-2593	6.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130911.0155:2454-2479	Martin Hulbert	PER	NYT_ENG_20130911.0155:2454-2467	2.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130502.0190:4507-4536	Tiqui Atencio	PER	NYT_ENG_20130502.0190:4524-4536	2.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	290b851896b1673594920d7022c62955:1039-1056	James	PER	290b851896b1673594920d7022c62955:1052-1056	2.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	13b842b8c8161510aefc298bb15ccf14:1747-1784	Ken Livingstone	PER	13b842b8c8161510aefc298bb15ccf14:1747-1761	2.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20131112.0098:4170-4189	Nasiruddin Haqqani	PER	NYT_ENG_20131112.0098:4172-4189	2.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	5861b3d53c47e23826b4f9714431cd82:3674-3687	Faber	PER	5861b3d53c47e23826b4f9714431cd82:3683-3687	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	3b35e3c9d784c2a82e96c3832ee9accb:2208-2222	London Fletcher	PER	3b35e3c9d784c2a82e96c3832ee9accb:2208-2222	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	245788ccd0145023bc040f8d9ea022bd:408-442	Handel	PER	245788ccd0145023bc040f8d9ea022bd:437-442	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	866f449fa7693d0f623bbab2d0ccae49:3490-3511	George Bishop	PER	866f449fa7693d0f623bbab2d0ccae49:3490-3502	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130628.0089:6715-6729	Ivor Braka	PER	NYT_ENG_20130628.0089:6715-6724	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130516.0053:4821-4842	Tony Hayward	PER	NYT_ENG_20130516.0053:4831-4842	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	de76ba2cd837d307ee9ab904c973a429:1790-1839	Starr	PER	de76ba2cd837d307ee9ab904c973a429:1790-1794	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130523.0138:5512-5534	David Cameron	PER	NYT_ENG_20130523.0138:5522-5534	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	f46b6f20861203eb6a3243afd0515228:569-591	Harvey Nichols	PER	f46b6f20861203eb6a3243afd0515228:569-582	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	69773687943d729adc0f8683f66e1cff:5342-5402	Daniel Defoe	PER	69773687943d729adc0f8683f66e1cff:5391-5402	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	954c4086fcfe2d478b5f9c2472a049d2:725-765	Michael Hoppen	PER	954c4086fcfe2d478b5f9c2472a049d2:752-765	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130612.0009:8419-8456	Mrs Jones	PER	NYT_ENG_20130612.0009:8448-8456	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	443b5a7e7e5d7f35ea7cc778b78b6555:359-388	Cassell	PER	443b5a7e7e5d7f35ea7cc778b78b6555:359-365	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	9be35786c7204f8a523c201e28804087:1233-1303	Geopolitika	PER	9be35786c7204f8a523c201e28804087:1293-1303	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	1df1ce2156e23c2554c7166d5af22c36:801-831	Rothschild	PER	1df1ce2156e23c2554c7166d5af22c36:801-810	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	a0cb9bdfbdc011907697efcbebf4f0f9:1836-1892	Michele Ingram	PER	a0cb9bdfbdc011907697efcbebf4f0f9:1879-1892	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	72f01fad9c318a84eb4175543114ad5a:543-576	James Palace	PER	72f01fad9c318a84eb4175543114ad5a:565-576	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130629.0006:3728-3750	Max Domi	PER	NYT_ENG_20130629.0006:3743-3750	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	11e802a0e39e5a9ea693fbdfb180014b:599-630	Marjorie	PER	11e802a0e39e5a9ea693fbdfb180014b:623-630	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	2e22dad3d003ec570cd9e68268873425:1960-1973	Julie	PER	2e22dad3d003ec570cd9e68268873425:1960-1964	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	c325bfd04399f71506461f864a73026d:145-152	Boris	PER	c325bfd04399f71506461f864a73026d:145-149	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	7cf0f2d91300f3dfc56491513fdd8b59:679-708	Lincoln	PER	7cf0f2d91300f3dfc56491513fdd8b59:688-694	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	ed2bbc399f3fb93d35d220019663feec:794-819	Hopkins	PER	ed2bbc399f3fb93d35d220019663feec:813-819	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	86d3e97f04ba8ff9bfbacb894c7a4aa3:137-156	Peter Moore	PER	86d3e97f04ba8ff9bfbacb894c7a4aa3:137-147	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	34af9d99d48d2e02fee347c70aada642:554-576	Peter Forster	PER	34af9d99d48d2e02fee347c70aada642:554-566	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	75cf19d9729e20f23e500e7bd7e76f30:298-321	Luke	PER	75cf19d9729e20f23e500e7bd7e76f30:298-301	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20131112.0175:7503-7514	London Breed	PER	NYT_ENG_20131112.0175:7503-7514	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	7bb8ab3ee940924dea6684909fe5609e:2333-2370	Cormac Murphy-O'Connor	PER	7bb8ab3ee940924dea6684909fe5609e:2349-2370	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	4e6868108f2c9ab3d160ffd8c296c69f:486-533	Tim Donovan	PER	4e6868108f2c9ab3d160ffd8c296c69f:486-496	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	5d607d0309cd5c6a9fd4820b92000e78:200-221	Glen Campbell	PER	5d607d0309cd5c6a9fd4820b92000e78:200-212	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20131013.0133:809-828	Mayfair	PER	NYT_ENG_20131013.0133:822-828	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	9e353abc664ad6e38aa598c7419ed643:1177-1192	Paul	PER	9e353abc664ad6e38aa598c7419ed643:1189-1192	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130715.0028:1152-1167	David Rosen	PER	NYT_ENG_20130715.0028:1152-1162	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	8f1df8e4757d5e53276e7b3f5c8cfe80:2470-2493	Paul Haggis	PER	8f1df8e4757d5e53276e7b3f5c8cfe80:2470-2480	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130912.0007:702-794	Hoole	PER	NYT_ENG_20130912.0007:702-706	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20130429.0259:4709-4731	Alfredo Saenz	PER	NYT_ENG_20130429.0259:4719-4731	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	NYT_ENG_20131105.0092:8246-8267	Andy Coulson	PER	NYT_ENG_20131105.0092:8256-8267	1.0
+CSSF15_ENG_49937ad31889	gpe:residents_of_city	UWashington3	a7feb28bbd74b05863a572558e9cd0c2:12198-12214	Llyods	PER	a7feb28bbd74b05863a572558e9cd0c2:12198-12203	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	aeea01f903db2198289e951f997b7d84:770-789	Boris Johnson	PER	aeea01f903db2198289e951f997b7d84:777-789	20.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	249bbc3db71384c7e758d4b7077d68ea:2561-2601	Jack London	PER	249bbc3db71384c7e758d4b7077d68ea:2583-2593	6.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130911.0155:2454-2479	Martin Hulbert	PER	NYT_ENG_20130911.0155:2454-2467	2.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130502.0190:4507-4536	Tiqui Atencio	PER	NYT_ENG_20130502.0190:4524-4536	2.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	290b851896b1673594920d7022c62955:1039-1056	James	PER	290b851896b1673594920d7022c62955:1052-1056	2.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	13b842b8c8161510aefc298bb15ccf14:1747-1784	Ken Livingstone	PER	13b842b8c8161510aefc298bb15ccf14:1747-1761	2.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20131112.0098:4170-4189	Nasiruddin Haqqani	PER	NYT_ENG_20131112.0098:4172-4189	2.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	5861b3d53c47e23826b4f9714431cd82:3674-3687	Faber	PER	5861b3d53c47e23826b4f9714431cd82:3683-3687	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	3b35e3c9d784c2a82e96c3832ee9accb:2208-2222	London Fletcher	PER	3b35e3c9d784c2a82e96c3832ee9accb:2208-2222	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	245788ccd0145023bc040f8d9ea022bd:408-442	Handel	PER	245788ccd0145023bc040f8d9ea022bd:437-442	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	866f449fa7693d0f623bbab2d0ccae49:3490-3511	George Bishop	PER	866f449fa7693d0f623bbab2d0ccae49:3490-3502	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130628.0089:6715-6729	Ivor Braka	PER	NYT_ENG_20130628.0089:6715-6724	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130516.0053:4821-4842	Tony Hayward	PER	NYT_ENG_20130516.0053:4831-4842	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	de76ba2cd837d307ee9ab904c973a429:1790-1839	Starr	PER	de76ba2cd837d307ee9ab904c973a429:1790-1794	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130523.0138:5512-5534	David Cameron	PER	NYT_ENG_20130523.0138:5522-5534	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	f46b6f20861203eb6a3243afd0515228:569-591	Harvey Nichols	PER	f46b6f20861203eb6a3243afd0515228:569-582	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	69773687943d729adc0f8683f66e1cff:5342-5402	Daniel Defoe	PER	69773687943d729adc0f8683f66e1cff:5391-5402	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	954c4086fcfe2d478b5f9c2472a049d2:725-765	Michael Hoppen	PER	954c4086fcfe2d478b5f9c2472a049d2:752-765	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130612.0009:8419-8456	Mrs Jones	PER	NYT_ENG_20130612.0009:8448-8456	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	443b5a7e7e5d7f35ea7cc778b78b6555:359-388	Cassell	PER	443b5a7e7e5d7f35ea7cc778b78b6555:359-365	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	9be35786c7204f8a523c201e28804087:1233-1303	Geopolitika	PER	9be35786c7204f8a523c201e28804087:1293-1303	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	1df1ce2156e23c2554c7166d5af22c36:801-831	Rothschild	PER	1df1ce2156e23c2554c7166d5af22c36:801-810	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	a0cb9bdfbdc011907697efcbebf4f0f9:1836-1892	Michele Ingram	PER	a0cb9bdfbdc011907697efcbebf4f0f9:1879-1892	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	72f01fad9c318a84eb4175543114ad5a:543-576	James Palace	PER	72f01fad9c318a84eb4175543114ad5a:565-576	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130629.0006:3728-3750	Max Domi	PER	NYT_ENG_20130629.0006:3743-3750	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	11e802a0e39e5a9ea693fbdfb180014b:599-630	Marjorie	PER	11e802a0e39e5a9ea693fbdfb180014b:623-630	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	2e22dad3d003ec570cd9e68268873425:1960-1973	Julie	PER	2e22dad3d003ec570cd9e68268873425:1960-1964	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	c325bfd04399f71506461f864a73026d:145-152	Boris	PER	c325bfd04399f71506461f864a73026d:145-149	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	7cf0f2d91300f3dfc56491513fdd8b59:679-708	Lincoln	PER	7cf0f2d91300f3dfc56491513fdd8b59:688-694	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	ed2bbc399f3fb93d35d220019663feec:794-819	Hopkins	PER	ed2bbc399f3fb93d35d220019663feec:813-819	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	86d3e97f04ba8ff9bfbacb894c7a4aa3:137-156	Peter Moore	PER	86d3e97f04ba8ff9bfbacb894c7a4aa3:137-147	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	34af9d99d48d2e02fee347c70aada642:554-576	Peter Forster	PER	34af9d99d48d2e02fee347c70aada642:554-566	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	75cf19d9729e20f23e500e7bd7e76f30:298-321	Luke	PER	75cf19d9729e20f23e500e7bd7e76f30:298-301	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20131112.0175:7503-7514	London Breed	PER	NYT_ENG_20131112.0175:7503-7514	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	7bb8ab3ee940924dea6684909fe5609e:2333-2370	Cormac Murphy-O'Connor	PER	7bb8ab3ee940924dea6684909fe5609e:2349-2370	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	4e6868108f2c9ab3d160ffd8c296c69f:486-533	Tim Donovan	PER	4e6868108f2c9ab3d160ffd8c296c69f:486-496	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	5d607d0309cd5c6a9fd4820b92000e78:200-221	Glen Campbell	PER	5d607d0309cd5c6a9fd4820b92000e78:200-212	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20131013.0133:809-828	Mayfair	PER	NYT_ENG_20131013.0133:822-828	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	9e353abc664ad6e38aa598c7419ed643:1177-1192	Paul	PER	9e353abc664ad6e38aa598c7419ed643:1189-1192	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130715.0028:1152-1167	David Rosen	PER	NYT_ENG_20130715.0028:1152-1162	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	8f1df8e4757d5e53276e7b3f5c8cfe80:2470-2493	Paul Haggis	PER	8f1df8e4757d5e53276e7b3f5c8cfe80:2470-2480	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130912.0007:702-794	Hoole	PER	NYT_ENG_20130912.0007:702-706	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20130429.0259:4709-4731	Alfredo Saenz	PER	NYT_ENG_20130429.0259:4719-4731	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	NYT_ENG_20131105.0092:8246-8267	Andy Coulson	PER	NYT_ENG_20131105.0092:8256-8267	1.0
+CSSF15_ENG_6dfabea72a34	gpe:residents_of_city	UWashington3	a7feb28bbd74b05863a572558e9cd0c2:12198-12214	Llyods	PER	a7feb28bbd74b05863a572558e9cd0c2:12198-12203	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	aeea01f903db2198289e951f997b7d84:770-789	Boris Johnson	PER	aeea01f903db2198289e951f997b7d84:777-789	20.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	249bbc3db71384c7e758d4b7077d68ea:2561-2601	Jack London	PER	249bbc3db71384c7e758d4b7077d68ea:2583-2593	6.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130911.0155:2454-2479	Martin Hulbert	PER	NYT_ENG_20130911.0155:2454-2467	2.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130502.0190:4507-4536	Tiqui Atencio	PER	NYT_ENG_20130502.0190:4524-4536	2.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	290b851896b1673594920d7022c62955:1039-1056	James	PER	290b851896b1673594920d7022c62955:1052-1056	2.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	13b842b8c8161510aefc298bb15ccf14:1747-1784	Ken Livingstone	PER	13b842b8c8161510aefc298bb15ccf14:1747-1761	2.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20131112.0098:4170-4189	Nasiruddin Haqqani	PER	NYT_ENG_20131112.0098:4172-4189	2.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	5861b3d53c47e23826b4f9714431cd82:3674-3687	Faber	PER	5861b3d53c47e23826b4f9714431cd82:3683-3687	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	3b35e3c9d784c2a82e96c3832ee9accb:2208-2222	London Fletcher	PER	3b35e3c9d784c2a82e96c3832ee9accb:2208-2222	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	245788ccd0145023bc040f8d9ea022bd:408-442	Handel	PER	245788ccd0145023bc040f8d9ea022bd:437-442	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	866f449fa7693d0f623bbab2d0ccae49:3490-3511	George Bishop	PER	866f449fa7693d0f623bbab2d0ccae49:3490-3502	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130628.0089:6715-6729	Ivor Braka	PER	NYT_ENG_20130628.0089:6715-6724	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130516.0053:4821-4842	Tony Hayward	PER	NYT_ENG_20130516.0053:4831-4842	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	de76ba2cd837d307ee9ab904c973a429:1790-1839	Starr	PER	de76ba2cd837d307ee9ab904c973a429:1790-1794	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130523.0138:5512-5534	David Cameron	PER	NYT_ENG_20130523.0138:5522-5534	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	f46b6f20861203eb6a3243afd0515228:569-591	Harvey Nichols	PER	f46b6f20861203eb6a3243afd0515228:569-582	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	69773687943d729adc0f8683f66e1cff:5342-5402	Daniel Defoe	PER	69773687943d729adc0f8683f66e1cff:5391-5402	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	954c4086fcfe2d478b5f9c2472a049d2:725-765	Michael Hoppen	PER	954c4086fcfe2d478b5f9c2472a049d2:752-765	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130612.0009:8419-8456	Mrs Jones	PER	NYT_ENG_20130612.0009:8448-8456	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	443b5a7e7e5d7f35ea7cc778b78b6555:359-388	Cassell	PER	443b5a7e7e5d7f35ea7cc778b78b6555:359-365	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	9be35786c7204f8a523c201e28804087:1233-1303	Geopolitika	PER	9be35786c7204f8a523c201e28804087:1293-1303	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	1df1ce2156e23c2554c7166d5af22c36:801-831	Rothschild	PER	1df1ce2156e23c2554c7166d5af22c36:801-810	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	a0cb9bdfbdc011907697efcbebf4f0f9:1836-1892	Michele Ingram	PER	a0cb9bdfbdc011907697efcbebf4f0f9:1879-1892	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	72f01fad9c318a84eb4175543114ad5a:543-576	James Palace	PER	72f01fad9c318a84eb4175543114ad5a:565-576	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130629.0006:3728-3750	Max Domi	PER	NYT_ENG_20130629.0006:3743-3750	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	11e802a0e39e5a9ea693fbdfb180014b:599-630	Marjorie	PER	11e802a0e39e5a9ea693fbdfb180014b:623-630	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	2e22dad3d003ec570cd9e68268873425:1960-1973	Julie	PER	2e22dad3d003ec570cd9e68268873425:1960-1964	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	c325bfd04399f71506461f864a73026d:145-152	Boris	PER	c325bfd04399f71506461f864a73026d:145-149	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	7cf0f2d91300f3dfc56491513fdd8b59:679-708	Lincoln	PER	7cf0f2d91300f3dfc56491513fdd8b59:688-694	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	ed2bbc399f3fb93d35d220019663feec:794-819	Hopkins	PER	ed2bbc399f3fb93d35d220019663feec:813-819	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	86d3e97f04ba8ff9bfbacb894c7a4aa3:137-156	Peter Moore	PER	86d3e97f04ba8ff9bfbacb894c7a4aa3:137-147	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	34af9d99d48d2e02fee347c70aada642:554-576	Peter Forster	PER	34af9d99d48d2e02fee347c70aada642:554-566	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	75cf19d9729e20f23e500e7bd7e76f30:298-321	Luke	PER	75cf19d9729e20f23e500e7bd7e76f30:298-301	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20131112.0175:7503-7514	London Breed	PER	NYT_ENG_20131112.0175:7503-7514	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	7bb8ab3ee940924dea6684909fe5609e:2333-2370	Cormac Murphy-O'Connor	PER	7bb8ab3ee940924dea6684909fe5609e:2349-2370	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	4e6868108f2c9ab3d160ffd8c296c69f:486-533	Tim Donovan	PER	4e6868108f2c9ab3d160ffd8c296c69f:486-496	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	5d607d0309cd5c6a9fd4820b92000e78:200-221	Glen Campbell	PER	5d607d0309cd5c6a9fd4820b92000e78:200-212	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20131013.0133:809-828	Mayfair	PER	NYT_ENG_20131013.0133:822-828	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	9e353abc664ad6e38aa598c7419ed643:1177-1192	Paul	PER	9e353abc664ad6e38aa598c7419ed643:1189-1192	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130715.0028:1152-1167	David Rosen	PER	NYT_ENG_20130715.0028:1152-1162	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	8f1df8e4757d5e53276e7b3f5c8cfe80:2470-2493	Paul Haggis	PER	8f1df8e4757d5e53276e7b3f5c8cfe80:2470-2480	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130912.0007:702-794	Hoole	PER	NYT_ENG_20130912.0007:702-706	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20130429.0259:4709-4731	Alfredo Saenz	PER	NYT_ENG_20130429.0259:4719-4731	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	NYT_ENG_20131105.0092:8246-8267	Andy Coulson	PER	NYT_ENG_20131105.0092:8256-8267	1.0
+CSSF15_ENG_882f4ccba429	gpe:residents_of_city	UWashington3	a7feb28bbd74b05863a572558e9cd0c2:12198-12214	Llyods	PER	a7feb28bbd74b05863a572558e9cd0c2:12198-12203	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130515.0108:4899-4924	London School of Economics	ORG	NYT_ENG_20130515.0108:4899-4924	13.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130723.0230:2344-2364	London Metal Exchange	ORG	NYT_ENG_20130723.0230:2344-2364	9.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	75cf19d9729e20f23e500e7bd7e76f30:272-321	Life Church London	ORG	75cf19d9729e20f23e500e7bd7e76f30:272-289	7.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	394d3bea3b2b7f223c0382ca5127b701:556-580	London Stock Exchange	ORG	394d3bea3b2b7f223c0382ca5127b701:560-580	6.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	fc8d11f51f4b85ed793102756d8e7c88:1228-1360	Hyde Park London Shoreditch London South Ruislip London Waterloo London Westminster Manchester City Luton Nottingham Pontefract  Info	ORG	fc8d11f51f4b85ed793102756d8e7c88:1228-1360	5.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	8e61629c8592038f2a6ce76da438469b:2033-2047	London Assembly	ORG	8e61629c8592038f2a6ce76da438469b:2033-2047	4.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	9be35786c7204f8a523c201e28804087:1224-1239	Times of London	ORG	9be35786c7204f8a523c201e28804087:1224-1238	3.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	fcf219b11c75a06d3bf49055b22f3767:3053-3151	London Living Wage	ORG	fcf219b11c75a06d3bf49055b22f3767:3053-3070	3.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131206.0208:6096-6118	London Evening Standard	ORG	NYT_ENG_20131206.0208:6096-6118	3.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	b150d321c589ad5b1594839914a89b26:2383-2415	Tower of London	ORG	b150d321c589ad5b1594839914a89b26:2401-2415	3.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130612.0071:4294-4300	London	ORG	NYT_ENG_20130612.0071:4294-4299	3.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	6d9b96caf14998c22c8cc95090feefe8:4518-4536	Diocese of London	ORG	6d9b96caf14998c22c8cc95090feefe8:4518-4534	3.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	727d95be5a8f6fec38a77e69b9d911b1:2843-2857	Swansea	ORG	727d95be5a8f6fec38a77e69b9d911b1:2851-2857	3.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	f933274de7417ee4a8a921ce5733b58f:3268-3289	Daily Telegraph	ORG	f933274de7417ee4a8a921ce5733b58f:3275-3289	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	a1d2df80b4454ef0144cd5908dd142ff:8247-8268	London Business School	ORG	a1d2df80b4454ef0144cd5908dd142ff:8247-8268	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	99cc229436fa8caa89a571d42277ec8c:1552-1573	Wakley Street London	ORG	99cc229436fa8caa89a571d42277ec8c:1552-1571	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	53f18b8ac76870f2aebf2e0ebb24b295:4871-4888	London Free School	ORG	53f18b8ac76870f2aebf2e0ebb24b295:4871-4888	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	5dac216bd8bccf724a4780afa1dce528:2384-2463	Queen Elizabeth II Conference Centre Broad Sanctuary	ORG	5dac216bd8bccf724a4780afa1dce528:2384-2435	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	eb614fb7af6fb9b62538c36542069e24:3061-3100	Anglican Communion News Service	ORG	eb614fb7af6fb9b62538c36542069e24:3061-3091	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	46a8c9c50547ed90b79fb10166e4f420:3311-3333	London Fire Brigade and	ORG	46a8c9c50547ed90b79fb10166e4f420:3311-3333	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131114.0164:3060-3085	Tottenham Hotspur	ORG	NYT_ENG_20131114.0164:3069-3085	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	f08ad7a11d842f96632340d3d460ba29:2384-2409	Second London Naval Treaty	ORG	f08ad7a11d842f96632340d3d460ba29:2384-2409	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	df4820a9d75327fcf7cd2bb0823fd0ff:626-651	Texaco	ORG	df4820a9d75327fcf7cd2bb0823fd0ff:638-643	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	6c9aae501ee789163e7bc9394e94a03f:210-282	State London Location South Bank Title Central London Critical Mass  Meet	ORG	6c9aae501ee789163e7bc9394e94a03f:210-282	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130421_F000124JY:121-135	London Marathon	ORG	ENG_NW_001278_20130421_F000124JY:121-135	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131226.0019:6940-6955	Bank of London	ORG	NYT_ENG_20131226.0019:6940-6953	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130502.0095:5615-5631	Millwall	ORG	NYT_ENG_20130502.0095:5624-5631	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130502.0095:5146-5170	London Football Guide	ORG	NYT_ENG_20130502.0095:5150-5170	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ae4e2ddd010ed380a424c6dceb9f04ba:1426-1446	UNITED KINGTOM	ORG	ae4e2ddd010ed380a424c6dceb9f04ba:1433-1446	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	c8d815bdc62ef66d8c35d23bde17338a:1621-1635	Accel London IV	ORG	c8d815bdc62ef66d8c35d23bde17338a:1621-1635	2.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	5861b3d53c47e23826b4f9714431cd82:3674-3703	Faber, Ltd.	ORG	5861b3d53c47e23826b4f9714431cd82:3693-3703	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	de76ba2cd837d307ee9ab904c973a429:1823-1839	Gene London	ORG	de76ba2cd837d307ee9ab904c973a429:1823-1833	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	176c55e8e6ab49276a8caf6a53fb2239:454-466	Tory	ORG	176c55e8e6ab49276a8caf6a53fb2239:463-466	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	86d3e97f04ba8ff9bfbacb894c7a4aa3:149-161	London Bureau	ORG	86d3e97f04ba8ff9bfbacb894c7a4aa3:149-161	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	4e6868108f2c9ab3d160ffd8c296c69f:523-533	BBC	ORG	4e6868108f2c9ab3d160ffd8c296c69f:523-525	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130912.0007:731-794	Tesco	ORG	NYT_ENG_20130912.0007:731-735	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130429.0259:4709-4767	Banco Santander	ORG	NYT_ENG_20130429.0259:4753-4767	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	779bf72ad8c0247764eb21bb65b03001:2530-2559	London Aeronautical Exposition	ORG	779bf72ad8c0247764eb21bb65b03001:2530-2559	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130515.0108:4303-4320	Scotland	ORG	NYT_ENG_20130515.0108:4303-4310	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	f02133e22a2bcb207e7d61baa2710e2a:806-824	London's High Court	ORG	f02133e22a2bcb207e7d61baa2710e2a:806-824	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131224.0170:1610-1636	Liberum Capital	ORG	NYT_ENG_20131224.0170:1610-1624	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	6fa5803088eab35c369f8a07932e03fd:786-803	Lloyd's of London	ORG	6fa5803088eab35c369f8a07932e03fd:786-802	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	9712be52039135609808307e9a9b7cd9:162-235	Land Forces Contributing Editor London  China North Industries Corporation	ORG	9712be52039135609808307e9a9b7cd9:162-235	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	05c39a0ae9cbbe592eb416c586c944b4:2621-2642	Oxford Street	ORG	05c39a0ae9cbbe592eb416c586c944b4:2621-2633	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	92e8ccc1464e45236bf9792c335d1fad:11190-11208	London Bridge Tower	ORG	92e8ccc1464e45236bf9792c335d1fad:11190-11208	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	b9457721bec8ac1e5cfc302d37638c1f:2824-2855	Cass Business School	ORG	b9457721bec8ac1e5cfc302d37638c1f:2836-2855	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	f4212e4010a003be2787b40f29a7c731:1207-1224	Metro Bank	ORG	f4212e4010a003be2787b40f29a7c731:1215-1224	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	7bfce73f1f7b07958c8c182214387319:2775-2802	Arsenal FC of North London	ORG	7bfce73f1f7b07958c8c182214387319:2775-2800	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131127.0035:2642-2658	King’s College	ORG	NYT_ENG_20131127.0035:2642-2655	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	2d2553d5d6d5823d1c2526465c956766:5530-5544	Awana	ORG	2d2553d5d6d5823d1c2526465c956766:5530-5534	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130727.0142:6609-6627	Telegraph of London	ORG	NYT_ENG_20130727.0142:6609-6627	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	3a6a451efe59e94cca613bb40a807a22:1649-1716	London Borough of Hammersmith &amp; Fulham	ORG	3a6a451efe59e94cca613bb40a807a22:1649-1690	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	e5995d902d00bbe539a85717b3222525:1550-1607	London School of Economics and Political Science	ORG	e5995d902d00bbe539a85717b3222525:1560-1607	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	f412bf930f68d9f82fd5a9fc163525ca:1254-1291	London Interbank Offered Rate	ORG	f412bf930f68d9f82fd5a9fc163525ca:1254-1282	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130204_F0001277P:982-1020	Observatory for Human Rights	ORG	ENG_NW_001278_20130204_F0001277P:982-1009	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	b295d96800d5866c93ee771f6a314c19:409-468	London Middlesex University London Brunel University	ORG	b295d96800d5866c93ee771f6a314c19:409-460	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	abd6b19655b261c84c454355f932d481:1603-1634	Moorfields Eye Hospital	ORG	abd6b19655b261c84c454355f932d481:1612-1634	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130509.0078:840-885	London School of Hygiene and Tropical Medicine	ORG	NYT_ENG_20130509.0078:840-885	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	8d8cf3f237341a8c9c280e39e731e671:450-469	Earls Court	ORG	8d8cf3f237341a8c9c280e39e731e671:459-469	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	08b4a4fe2abc2d0dd525fa4f89c04c5e:770-782	London Whale	ORG	08b4a4fe2abc2d0dd525fa4f89c04c5e:771-782	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130727.0091:16006-16024	Times of London and	ORG	NYT_ENG_20130727.0091:16006-16024	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	91b614357d253777577a5027be679124:155-171	London Times Pope	ORG	91b614357d253777577a5027be679124:155-171	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	a2bbace6bf10da8750c403a0c724dbc7:131-153	Foreign Office	ORG	a2bbace6bf10da8750c403a0c724dbc7:140-153	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130503.0191:4086-4103	European Reform	ORG	NYT_ENG_20130503.0191:4086-4100	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	5bf34a5f11f846909cdb4ab5676ea507:2375-2523	London Bridge Baptist Church	ORG	5bf34a5f11f846909cdb4ab5676ea507:2485-2512	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130902.0022:3625-3636	North London	ORG	NYT_ENG_20130902.0022:3625-3636	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	8d26bedff8657f3599cff2a8736834ba:974-1000	London Goldman Sachs branch	ORG	8d26bedff8657f3599cff2a8736834ba:974-1000	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130620.0196:370-389	The Times of London	ORG	NYT_ENG_20130620.0196:370-388	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	e0a2309beae8e0b7a4406dd74f24fc23:5093-5161	Ryanair London	ORG	e0a2309beae8e0b7a4406dd74f24fc23:5093-5106	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	effb77d3a0e50c64b02e799b69586e4b:4532-4547	London Interbank	ORG	effb77d3a0e50c64b02e799b69586e4b:4532-4547	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131219.0267:1654-1673	Arsenal	ORG	NYT_ENG_20131219.0267:1667-1673	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	080984d7588858600c2214ab73b5d4c8:1746-1768	Rothschilds	ORG	080984d7588858600c2214ab73b5d4c8:1746-1756	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	080984d7588858600c2214ab73b5d4c8:667-694	Rothschild Banks of London	ORG	080984d7588858600c2214ab73b5d4c8:667-692	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130416_F00013JUT:204-221	London Book Fair	ORG	ENG_NW_001278_20130416_F00013JUT:204-219	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20131029_F00013OZY:289-302	Tottenham	ORG	ENG_NW_001278_20131029_F00013OZY:289-297	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	59343f633c0d805849f79170c76a5e84:1157-1168	London Times	ORG	59343f633c0d805849f79170c76a5e84:1157-1168	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130509.0122:5392-5420	Bank of England	ORG	NYT_ENG_20130509.0122:5406-5420	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	817bee1a18bd8d2db7bbf3411be3eeed:1217-1231	London Dungeons	ORG	817bee1a18bd8d2db7bbf3411be3eeed:1217-1231	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	6f4a82cbf07e2226bf73dde0f17b9bb1:2967-2978	ITT	ORG	6f4a82cbf07e2226bf73dde0f17b9bb1:2967-2969	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	4d0d7461fdaf6d85b1bc3b4a2bc98dec:3657-3688	London Shell Pearl Beauty Powder	ORG	4d0d7461fdaf6d85b1bc3b4a2bc98dec:3657-3688	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	317399ae9b62ec65d8d18e47f1d23081:412-444	UBS	ORG	317399ae9b62ec65d8d18e47f1d23081:442-444	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130813.0048:1004-1025	London Metals Exchange	ORG	NYT_ENG_20130813.0048:1004-1025	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	fea48464bb4b7dee1e6f365d73c7f539:587-647	Sharpham Park Organic spelt.Shapham Park Organic	ORG	fea48464bb4b7dee1e6f365d73c7f539:600-647	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	c6b6f6ce7342001aa8945d473c8fb73d:2507-2527	Kings College	ORG	c6b6f6ce7342001aa8945d473c8fb73d:2507-2519	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	96bc69a4733e8966fe6eb600ee215a18:11058-11088	London College of Communciation	ORG	96bc69a4733e8966fe6eb600ee215a18:11058-11088	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	8924b4bb86e009e2658fa30f55f7d3a3:4934-4951	London Zoo	ORG	8924b4bb86e009e2658fa30f55f7d3a3:4934-4943	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ebf004f7a546ecabcfb0b907a7255db6:1278-1296	Transworld	ORG	ebf004f7a546ecabcfb0b907a7255db6:1278-1287	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131112.0113:1856-1883	London Venture Partners	ORG	NYT_ENG_20131112.0113:1861-1883	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:142-194	Chelsea	ORG	ENG_NW_001278_20130121_F00011MJP:188-194	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:242-258	Xinhua	ORG	ENG_NW_001278_20130121_F00011MJP:253-258	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:334-365	London Derby	ORG	ENG_NW_001278_20130121_F00011MJP:334-345	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	ca232eeed77f27fa233f3f5ec3bb3806:2727-2747	South London Boroughs	ORG	ca232eeed77f27fa233f3f5ec3bb3806:2727-2747	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	3151418caede323264ee8265e7777c79:1627-1640	London Foggers	ORG	3151418caede323264ee8265e7777c79:1627-1640	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	37c7d56dad2fb8980db29bb6b4614537:142-169	Metropolitan Police	ORG	37c7d56dad2fb8980db29bb6b4614537:151-169	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	aa0ef1c55188eb9cb63cb09e6972d40e:1140-1153	London Orbital	ORG	aa0ef1c55188eb9cb63cb09e6972d40e:1140-1153	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	d945e7f5ab8abebce516cd2369399d05:1028-1065	FTSE Group	ORG	d945e7f5ab8abebce516cd2369399d05:1056-1065	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	49964240853c20d125d6136c237656a2:2776-2811	Union Dixons Road New Cross London	ORG	49964240853c20d125d6136c237656a2:2776-2809	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	49964240853c20d125d6136c237656a2:2151-2188	Goldsmiths	ORG	49964240853c20d125d6136c237656a2:2179-2188	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	15fd82723be27790e4cae47010578137:1637-1657	London Midland Trains	ORG	15fd82723be27790e4cae47010578137:1637-1657	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	46175baadf5a44815b8d7a106d6ec6fb:1139-1157	London Sunday Times	ORG	46175baadf5a44815b8d7a106d6ec6fb:1139-1157	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	e1c15f519a5002664fcec60162d52313:10429-10464	Enterprise Privacy Group	ORG	e1c15f519a5002664fcec60162d52313:10441-10464	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	19b66cff2ecc93192722a9212b1fed7a:1533-1590	London Travelodge	ORG	19b66cff2ecc93192722a9212b1fed7a:1533-1549	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	a75146a15a379df47e2576e4f2b401ea:7385-7399	London Fashion	ORG	a75146a15a379df47e2576e4f2b401ea:7385-7398	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	e8f730bd0f062a92304dc9099a58487e:155-174	Times Hungary	ORG	e8f730bd0f062a92304dc9099a58487e:162-174	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130504.0156:2254-2283	Ferris	ORG	NYT_ENG_20130504.0156:2278-2283	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	119f803aef6677e577813dc83a3074ec:1744-1788	London Travelcard	ORG	119f803aef6677e577813dc83a3074ec:1744-1760	1.0
+CSSF15_ENG_c404669d03f4	gpe:headquarters_in_city	UWashington3	c8d815bdc62ef66d8c35d23bde17338a:1730-1743	Accel London	ORG	c8d815bdc62ef66d8c35d23bde17338a:1730-1741	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130515.0108:4899-4924	London School of Economics	ORG	NYT_ENG_20130515.0108:4899-4924	13.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130723.0230:2344-2364	London Metal Exchange	ORG	NYT_ENG_20130723.0230:2344-2364	9.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	75cf19d9729e20f23e500e7bd7e76f30:272-321	Life Church London	ORG	75cf19d9729e20f23e500e7bd7e76f30:272-289	7.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	394d3bea3b2b7f223c0382ca5127b701:556-580	London Stock Exchange	ORG	394d3bea3b2b7f223c0382ca5127b701:560-580	6.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	fc8d11f51f4b85ed793102756d8e7c88:1228-1360	Hyde Park London Shoreditch London South Ruislip London Waterloo London Westminster Manchester City Luton Nottingham Pontefract  Info	ORG	fc8d11f51f4b85ed793102756d8e7c88:1228-1360	5.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	8e61629c8592038f2a6ce76da438469b:2033-2047	London Assembly	ORG	8e61629c8592038f2a6ce76da438469b:2033-2047	4.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	9be35786c7204f8a523c201e28804087:1224-1239	Times of London	ORG	9be35786c7204f8a523c201e28804087:1224-1238	3.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	fcf219b11c75a06d3bf49055b22f3767:3053-3151	London Living Wage	ORG	fcf219b11c75a06d3bf49055b22f3767:3053-3070	3.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131206.0208:6096-6118	London Evening Standard	ORG	NYT_ENG_20131206.0208:6096-6118	3.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	b150d321c589ad5b1594839914a89b26:2383-2415	Tower of London	ORG	b150d321c589ad5b1594839914a89b26:2401-2415	3.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130612.0071:4294-4300	London	ORG	NYT_ENG_20130612.0071:4294-4299	3.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	6d9b96caf14998c22c8cc95090feefe8:4518-4536	Diocese of London	ORG	6d9b96caf14998c22c8cc95090feefe8:4518-4534	3.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	727d95be5a8f6fec38a77e69b9d911b1:2843-2857	Swansea	ORG	727d95be5a8f6fec38a77e69b9d911b1:2851-2857	3.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	f933274de7417ee4a8a921ce5733b58f:3268-3289	Daily Telegraph	ORG	f933274de7417ee4a8a921ce5733b58f:3275-3289	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	a1d2df80b4454ef0144cd5908dd142ff:8247-8268	London Business School	ORG	a1d2df80b4454ef0144cd5908dd142ff:8247-8268	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	99cc229436fa8caa89a571d42277ec8c:1552-1573	Wakley Street London	ORG	99cc229436fa8caa89a571d42277ec8c:1552-1571	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	53f18b8ac76870f2aebf2e0ebb24b295:4871-4888	London Free School	ORG	53f18b8ac76870f2aebf2e0ebb24b295:4871-4888	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	5dac216bd8bccf724a4780afa1dce528:2384-2463	Queen Elizabeth II Conference Centre Broad Sanctuary	ORG	5dac216bd8bccf724a4780afa1dce528:2384-2435	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	eb614fb7af6fb9b62538c36542069e24:3061-3100	Anglican Communion News Service	ORG	eb614fb7af6fb9b62538c36542069e24:3061-3091	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	46a8c9c50547ed90b79fb10166e4f420:3311-3333	London Fire Brigade and	ORG	46a8c9c50547ed90b79fb10166e4f420:3311-3333	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131114.0164:3060-3085	Tottenham Hotspur	ORG	NYT_ENG_20131114.0164:3069-3085	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	f08ad7a11d842f96632340d3d460ba29:2384-2409	Second London Naval Treaty	ORG	f08ad7a11d842f96632340d3d460ba29:2384-2409	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	df4820a9d75327fcf7cd2bb0823fd0ff:626-651	Texaco	ORG	df4820a9d75327fcf7cd2bb0823fd0ff:638-643	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	6c9aae501ee789163e7bc9394e94a03f:210-282	State London Location South Bank Title Central London Critical Mass  Meet	ORG	6c9aae501ee789163e7bc9394e94a03f:210-282	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130421_F000124JY:121-135	London Marathon	ORG	ENG_NW_001278_20130421_F000124JY:121-135	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131226.0019:6940-6955	Bank of London	ORG	NYT_ENG_20131226.0019:6940-6953	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130502.0095:5615-5631	Millwall	ORG	NYT_ENG_20130502.0095:5624-5631	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130502.0095:5146-5170	London Football Guide	ORG	NYT_ENG_20130502.0095:5150-5170	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ae4e2ddd010ed380a424c6dceb9f04ba:1426-1446	UNITED KINGTOM	ORG	ae4e2ddd010ed380a424c6dceb9f04ba:1433-1446	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	c8d815bdc62ef66d8c35d23bde17338a:1621-1635	Accel London IV	ORG	c8d815bdc62ef66d8c35d23bde17338a:1621-1635	2.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	5861b3d53c47e23826b4f9714431cd82:3674-3703	Faber, Ltd.	ORG	5861b3d53c47e23826b4f9714431cd82:3693-3703	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	de76ba2cd837d307ee9ab904c973a429:1823-1839	Gene London	ORG	de76ba2cd837d307ee9ab904c973a429:1823-1833	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	176c55e8e6ab49276a8caf6a53fb2239:454-466	Tory	ORG	176c55e8e6ab49276a8caf6a53fb2239:463-466	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	86d3e97f04ba8ff9bfbacb894c7a4aa3:149-161	London Bureau	ORG	86d3e97f04ba8ff9bfbacb894c7a4aa3:149-161	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	4e6868108f2c9ab3d160ffd8c296c69f:523-533	BBC	ORG	4e6868108f2c9ab3d160ffd8c296c69f:523-525	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130912.0007:731-794	Tesco	ORG	NYT_ENG_20130912.0007:731-735	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130429.0259:4709-4767	Banco Santander	ORG	NYT_ENG_20130429.0259:4753-4767	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	779bf72ad8c0247764eb21bb65b03001:2530-2559	London Aeronautical Exposition	ORG	779bf72ad8c0247764eb21bb65b03001:2530-2559	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130515.0108:4303-4320	Scotland	ORG	NYT_ENG_20130515.0108:4303-4310	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	f02133e22a2bcb207e7d61baa2710e2a:806-824	London's High Court	ORG	f02133e22a2bcb207e7d61baa2710e2a:806-824	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131224.0170:1610-1636	Liberum Capital	ORG	NYT_ENG_20131224.0170:1610-1624	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	6fa5803088eab35c369f8a07932e03fd:786-803	Lloyd's of London	ORG	6fa5803088eab35c369f8a07932e03fd:786-802	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	9712be52039135609808307e9a9b7cd9:162-235	Land Forces Contributing Editor London  China North Industries Corporation	ORG	9712be52039135609808307e9a9b7cd9:162-235	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	05c39a0ae9cbbe592eb416c586c944b4:2621-2642	Oxford Street	ORG	05c39a0ae9cbbe592eb416c586c944b4:2621-2633	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	92e8ccc1464e45236bf9792c335d1fad:11190-11208	London Bridge Tower	ORG	92e8ccc1464e45236bf9792c335d1fad:11190-11208	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	b9457721bec8ac1e5cfc302d37638c1f:2824-2855	Cass Business School	ORG	b9457721bec8ac1e5cfc302d37638c1f:2836-2855	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	f4212e4010a003be2787b40f29a7c731:1207-1224	Metro Bank	ORG	f4212e4010a003be2787b40f29a7c731:1215-1224	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	7bfce73f1f7b07958c8c182214387319:2775-2802	Arsenal FC of North London	ORG	7bfce73f1f7b07958c8c182214387319:2775-2800	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131127.0035:2642-2658	King’s College	ORG	NYT_ENG_20131127.0035:2642-2655	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	2d2553d5d6d5823d1c2526465c956766:5530-5544	Awana	ORG	2d2553d5d6d5823d1c2526465c956766:5530-5534	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130727.0142:6609-6627	Telegraph of London	ORG	NYT_ENG_20130727.0142:6609-6627	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	3a6a451efe59e94cca613bb40a807a22:1649-1716	London Borough of Hammersmith &amp; Fulham	ORG	3a6a451efe59e94cca613bb40a807a22:1649-1690	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	e5995d902d00bbe539a85717b3222525:1550-1607	London School of Economics and Political Science	ORG	e5995d902d00bbe539a85717b3222525:1560-1607	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	f412bf930f68d9f82fd5a9fc163525ca:1254-1291	London Interbank Offered Rate	ORG	f412bf930f68d9f82fd5a9fc163525ca:1254-1282	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130204_F0001277P:982-1020	Observatory for Human Rights	ORG	ENG_NW_001278_20130204_F0001277P:982-1009	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	b295d96800d5866c93ee771f6a314c19:409-468	London Middlesex University London Brunel University	ORG	b295d96800d5866c93ee771f6a314c19:409-460	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	abd6b19655b261c84c454355f932d481:1603-1634	Moorfields Eye Hospital	ORG	abd6b19655b261c84c454355f932d481:1612-1634	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130509.0078:840-885	London School of Hygiene and Tropical Medicine	ORG	NYT_ENG_20130509.0078:840-885	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	8d8cf3f237341a8c9c280e39e731e671:450-469	Earls Court	ORG	8d8cf3f237341a8c9c280e39e731e671:459-469	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	08b4a4fe2abc2d0dd525fa4f89c04c5e:770-782	London Whale	ORG	08b4a4fe2abc2d0dd525fa4f89c04c5e:771-782	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130727.0091:16006-16024	Times of London and	ORG	NYT_ENG_20130727.0091:16006-16024	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	91b614357d253777577a5027be679124:155-171	London Times Pope	ORG	91b614357d253777577a5027be679124:155-171	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	a2bbace6bf10da8750c403a0c724dbc7:131-153	Foreign Office	ORG	a2bbace6bf10da8750c403a0c724dbc7:140-153	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130503.0191:4086-4103	European Reform	ORG	NYT_ENG_20130503.0191:4086-4100	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	5bf34a5f11f846909cdb4ab5676ea507:2375-2523	London Bridge Baptist Church	ORG	5bf34a5f11f846909cdb4ab5676ea507:2485-2512	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130902.0022:3625-3636	North London	ORG	NYT_ENG_20130902.0022:3625-3636	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	8d26bedff8657f3599cff2a8736834ba:974-1000	London Goldman Sachs branch	ORG	8d26bedff8657f3599cff2a8736834ba:974-1000	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130620.0196:370-389	The Times of London	ORG	NYT_ENG_20130620.0196:370-388	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	e0a2309beae8e0b7a4406dd74f24fc23:5093-5161	Ryanair London	ORG	e0a2309beae8e0b7a4406dd74f24fc23:5093-5106	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	effb77d3a0e50c64b02e799b69586e4b:4532-4547	London Interbank	ORG	effb77d3a0e50c64b02e799b69586e4b:4532-4547	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131219.0267:1654-1673	Arsenal	ORG	NYT_ENG_20131219.0267:1667-1673	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	080984d7588858600c2214ab73b5d4c8:1746-1768	Rothschilds	ORG	080984d7588858600c2214ab73b5d4c8:1746-1756	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	080984d7588858600c2214ab73b5d4c8:667-694	Rothschild Banks of London	ORG	080984d7588858600c2214ab73b5d4c8:667-692	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130416_F00013JUT:204-221	London Book Fair	ORG	ENG_NW_001278_20130416_F00013JUT:204-219	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20131029_F00013OZY:289-302	Tottenham	ORG	ENG_NW_001278_20131029_F00013OZY:289-297	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	59343f633c0d805849f79170c76a5e84:1157-1168	London Times	ORG	59343f633c0d805849f79170c76a5e84:1157-1168	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130509.0122:5392-5420	Bank of England	ORG	NYT_ENG_20130509.0122:5406-5420	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	817bee1a18bd8d2db7bbf3411be3eeed:1217-1231	London Dungeons	ORG	817bee1a18bd8d2db7bbf3411be3eeed:1217-1231	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	6f4a82cbf07e2226bf73dde0f17b9bb1:2967-2978	ITT	ORG	6f4a82cbf07e2226bf73dde0f17b9bb1:2967-2969	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	4d0d7461fdaf6d85b1bc3b4a2bc98dec:3657-3688	London Shell Pearl Beauty Powder	ORG	4d0d7461fdaf6d85b1bc3b4a2bc98dec:3657-3688	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	317399ae9b62ec65d8d18e47f1d23081:412-444	UBS	ORG	317399ae9b62ec65d8d18e47f1d23081:442-444	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130813.0048:1004-1025	London Metals Exchange	ORG	NYT_ENG_20130813.0048:1004-1025	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	fea48464bb4b7dee1e6f365d73c7f539:587-647	Sharpham Park Organic spelt.Shapham Park Organic	ORG	fea48464bb4b7dee1e6f365d73c7f539:600-647	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	c6b6f6ce7342001aa8945d473c8fb73d:2507-2527	Kings College	ORG	c6b6f6ce7342001aa8945d473c8fb73d:2507-2519	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	96bc69a4733e8966fe6eb600ee215a18:11058-11088	London College of Communciation	ORG	96bc69a4733e8966fe6eb600ee215a18:11058-11088	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	8924b4bb86e009e2658fa30f55f7d3a3:4934-4951	London Zoo	ORG	8924b4bb86e009e2658fa30f55f7d3a3:4934-4943	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ebf004f7a546ecabcfb0b907a7255db6:1278-1296	Transworld	ORG	ebf004f7a546ecabcfb0b907a7255db6:1278-1287	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131112.0113:1856-1883	London Venture Partners	ORG	NYT_ENG_20131112.0113:1861-1883	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:142-194	Chelsea	ORG	ENG_NW_001278_20130121_F00011MJP:188-194	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:242-258	Xinhua	ORG	ENG_NW_001278_20130121_F00011MJP:253-258	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ENG_NW_001278_20130121_F00011MJP:334-365	London Derby	ORG	ENG_NW_001278_20130121_F00011MJP:334-345	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	ca232eeed77f27fa233f3f5ec3bb3806:2727-2747	South London Boroughs	ORG	ca232eeed77f27fa233f3f5ec3bb3806:2727-2747	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	3151418caede323264ee8265e7777c79:1627-1640	London Foggers	ORG	3151418caede323264ee8265e7777c79:1627-1640	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	37c7d56dad2fb8980db29bb6b4614537:142-169	Metropolitan Police	ORG	37c7d56dad2fb8980db29bb6b4614537:151-169	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	aa0ef1c55188eb9cb63cb09e6972d40e:1140-1153	London Orbital	ORG	aa0ef1c55188eb9cb63cb09e6972d40e:1140-1153	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	d945e7f5ab8abebce516cd2369399d05:1028-1065	FTSE Group	ORG	d945e7f5ab8abebce516cd2369399d05:1056-1065	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	49964240853c20d125d6136c237656a2:2776-2811	Union Dixons Road New Cross London	ORG	49964240853c20d125d6136c237656a2:2776-2809	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	49964240853c20d125d6136c237656a2:2151-2188	Goldsmiths	ORG	49964240853c20d125d6136c237656a2:2179-2188	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	15fd82723be27790e4cae47010578137:1637-1657	London Midland Trains	ORG	15fd82723be27790e4cae47010578137:1637-1657	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	46175baadf5a44815b8d7a106d6ec6fb:1139-1157	London Sunday Times	ORG	46175baadf5a44815b8d7a106d6ec6fb:1139-1157	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	e1c15f519a5002664fcec60162d52313:10429-10464	Enterprise Privacy Group	ORG	e1c15f519a5002664fcec60162d52313:10441-10464	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	19b66cff2ecc93192722a9212b1fed7a:1533-1590	London Travelodge	ORG	19b66cff2ecc93192722a9212b1fed7a:1533-1549	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	a75146a15a379df47e2576e4f2b401ea:7385-7399	London Fashion	ORG	a75146a15a379df47e2576e4f2b401ea:7385-7398	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	e8f730bd0f062a92304dc9099a58487e:155-174	Times Hungary	ORG	e8f730bd0f062a92304dc9099a58487e:162-174	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130504.0156:2254-2283	Ferris	ORG	NYT_ENG_20130504.0156:2278-2283	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	119f803aef6677e577813dc83a3074ec:1744-1788	London Travelcard	ORG	119f803aef6677e577813dc83a3074ec:1744-1760	1.0
+CSSF15_ENG_ec6c18035892	gpe:headquarters_in_city	UWashington3	c8d815bdc62ef66d8c35d23bde17338a:1730-1743	Accel London	ORG	c8d815bdc62ef66d8c35d23bde17338a:1730-1741	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	aeea01f903db2198289e951f997b7d84:770-789	Boris Johnson	PER	aeea01f903db2198289e951f997b7d84:777-789	20.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	249bbc3db71384c7e758d4b7077d68ea:2561-2601	Jack London	PER	249bbc3db71384c7e758d4b7077d68ea:2583-2593	6.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130911.0155:2454-2479	Martin Hulbert	PER	NYT_ENG_20130911.0155:2454-2467	2.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130502.0190:4507-4536	Tiqui Atencio	PER	NYT_ENG_20130502.0190:4524-4536	2.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	290b851896b1673594920d7022c62955:1039-1056	James	PER	290b851896b1673594920d7022c62955:1052-1056	2.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	13b842b8c8161510aefc298bb15ccf14:1747-1784	Ken Livingstone	PER	13b842b8c8161510aefc298bb15ccf14:1747-1761	2.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20131112.0098:4170-4189	Nasiruddin Haqqani	PER	NYT_ENG_20131112.0098:4172-4189	2.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	5861b3d53c47e23826b4f9714431cd82:3674-3687	Faber	PER	5861b3d53c47e23826b4f9714431cd82:3683-3687	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	3b35e3c9d784c2a82e96c3832ee9accb:2208-2222	London Fletcher	PER	3b35e3c9d784c2a82e96c3832ee9accb:2208-2222	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	245788ccd0145023bc040f8d9ea022bd:408-442	Handel	PER	245788ccd0145023bc040f8d9ea022bd:437-442	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	866f449fa7693d0f623bbab2d0ccae49:3490-3511	George Bishop	PER	866f449fa7693d0f623bbab2d0ccae49:3490-3502	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130628.0089:6715-6729	Ivor Braka	PER	NYT_ENG_20130628.0089:6715-6724	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130516.0053:4821-4842	Tony Hayward	PER	NYT_ENG_20130516.0053:4831-4842	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	de76ba2cd837d307ee9ab904c973a429:1790-1839	Starr	PER	de76ba2cd837d307ee9ab904c973a429:1790-1794	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130523.0138:5512-5534	David Cameron	PER	NYT_ENG_20130523.0138:5522-5534	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	f46b6f20861203eb6a3243afd0515228:569-591	Harvey Nichols	PER	f46b6f20861203eb6a3243afd0515228:569-582	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	69773687943d729adc0f8683f66e1cff:5342-5402	Daniel Defoe	PER	69773687943d729adc0f8683f66e1cff:5391-5402	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	954c4086fcfe2d478b5f9c2472a049d2:725-765	Michael Hoppen	PER	954c4086fcfe2d478b5f9c2472a049d2:752-765	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130612.0009:8419-8456	Mrs Jones	PER	NYT_ENG_20130612.0009:8448-8456	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	443b5a7e7e5d7f35ea7cc778b78b6555:359-388	Cassell	PER	443b5a7e7e5d7f35ea7cc778b78b6555:359-365	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	9be35786c7204f8a523c201e28804087:1233-1303	Geopolitika	PER	9be35786c7204f8a523c201e28804087:1293-1303	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	1df1ce2156e23c2554c7166d5af22c36:801-831	Rothschild	PER	1df1ce2156e23c2554c7166d5af22c36:801-810	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	a0cb9bdfbdc011907697efcbebf4f0f9:1836-1892	Michele Ingram	PER	a0cb9bdfbdc011907697efcbebf4f0f9:1879-1892	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	72f01fad9c318a84eb4175543114ad5a:543-576	James Palace	PER	72f01fad9c318a84eb4175543114ad5a:565-576	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130629.0006:3728-3750	Max Domi	PER	NYT_ENG_20130629.0006:3743-3750	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	11e802a0e39e5a9ea693fbdfb180014b:599-630	Marjorie	PER	11e802a0e39e5a9ea693fbdfb180014b:623-630	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	2e22dad3d003ec570cd9e68268873425:1960-1973	Julie	PER	2e22dad3d003ec570cd9e68268873425:1960-1964	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	c325bfd04399f71506461f864a73026d:145-152	Boris	PER	c325bfd04399f71506461f864a73026d:145-149	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	7cf0f2d91300f3dfc56491513fdd8b59:679-708	Lincoln	PER	7cf0f2d91300f3dfc56491513fdd8b59:688-694	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	ed2bbc399f3fb93d35d220019663feec:794-819	Hopkins	PER	ed2bbc399f3fb93d35d220019663feec:813-819	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	86d3e97f04ba8ff9bfbacb894c7a4aa3:137-156	Peter Moore	PER	86d3e97f04ba8ff9bfbacb894c7a4aa3:137-147	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	34af9d99d48d2e02fee347c70aada642:554-576	Peter Forster	PER	34af9d99d48d2e02fee347c70aada642:554-566	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	75cf19d9729e20f23e500e7bd7e76f30:298-321	Luke	PER	75cf19d9729e20f23e500e7bd7e76f30:298-301	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20131112.0175:7503-7514	London Breed	PER	NYT_ENG_20131112.0175:7503-7514	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	7bb8ab3ee940924dea6684909fe5609e:2333-2370	Cormac Murphy-O'Connor	PER	7bb8ab3ee940924dea6684909fe5609e:2349-2370	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	4e6868108f2c9ab3d160ffd8c296c69f:486-533	Tim Donovan	PER	4e6868108f2c9ab3d160ffd8c296c69f:486-496	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	5d607d0309cd5c6a9fd4820b92000e78:200-221	Glen Campbell	PER	5d607d0309cd5c6a9fd4820b92000e78:200-212	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20131013.0133:809-828	Mayfair	PER	NYT_ENG_20131013.0133:822-828	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	9e353abc664ad6e38aa598c7419ed643:1177-1192	Paul	PER	9e353abc664ad6e38aa598c7419ed643:1189-1192	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130715.0028:1152-1167	David Rosen	PER	NYT_ENG_20130715.0028:1152-1162	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	8f1df8e4757d5e53276e7b3f5c8cfe80:2470-2493	Paul Haggis	PER	8f1df8e4757d5e53276e7b3f5c8cfe80:2470-2480	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130912.0007:702-794	Hoole	PER	NYT_ENG_20130912.0007:702-706	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20130429.0259:4709-4731	Alfredo Saenz	PER	NYT_ENG_20130429.0259:4719-4731	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	NYT_ENG_20131105.0092:8246-8267	Andy Coulson	PER	NYT_ENG_20131105.0092:8256-8267	1.0
+CSSF15_ENG_f67d3a70d2a6	gpe:residents_of_city	UWashington3	a7feb28bbd74b05863a572558e9cd0c2:12198-12214	Llyods	PER	a7feb28bbd74b05863a572558e9cd0c2:12198-12203	1.0
+CSSF15_ENG_1b83813750fc	per:origin	UWashington3	NYT_ENG_20130925.0036:1514-1564	jamaica	STRING	NYT_ENG_20130925.0036:1542-1550	0.8
+CSSF15_ENG_592008ce556d	per:origin	UWashington3	NYT_ENG_20130925.0036:1514-1564	jamaica	STRING	NYT_ENG_20130925.0036:1542-1550	0.8
+CSSF15_ENG_5d951a667da0	per:origin	UWashington3	NYT_ENG_20130925.0036:1514-1564	jamaica	STRING	NYT_ENG_20130925.0036:1542-1550	0.8
+CSSF15_ENG_cd1bbc822809	per:origin	UWashington3	NYT_ENG_20130925.0036:1514-1564	jamaica	STRING	NYT_ENG_20130925.0036:1542-1550	0.8
+CSSF15_ENG_2e88f1893b82	per:title	UWashington3	NYT_ENG_20131105.0051:1672-1724	chief executive	STRING	NYT_ENG_20131105.0051:1690-1700	4.0
+CSSF15_ENG_2e88f1893b82	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1769-1827	chairman	STRING	8e45867b0dbed553879e90144f2e2b5b:1818-1827	1.0
+CSSF15_ENG_2e88f1893b82	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1769-1854	chief executive officer	STRING	8e45867b0dbed553879e90144f2e2b5b:1831-1854	1.0
+CSSF15_ENG_2e88f1893b82	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1569-1622	chief operating officer	STRING	8e45867b0dbed553879e90144f2e2b5b:1599-1622	1.0
+CSSF15_ENG_2e88f1893b82	per:title	UWashington3	c8f8bdeb400fdcecf4870b199bbcd0ad:880-915	proprietor	STRING	c8f8bdeb400fdcecf4870b199bbcd0ad:890-901	1.0
+CSSF15_ENG_2e88f1893b82	per:title	UWashington3	741e136d176ea863addbabeaab9b7d46:4251-4269	ceo	STRING	741e136d176ea863addbabeaab9b7d46:4251-4255	1.0
+CSSF15_ENG_2e88f1893b82	per:title	UWashington3	ed6f48c63c7b4b81032af87106073c86:1127-1164	journalist	STRING	ed6f48c63c7b4b81032af87106073c86:1127-1131	1.0
+CSSF15_ENG_2e88f1893b82	per:title	UWashington3	ed6f48c63c7b4b81032af87106073c86:614-681	editor	STRING	ed6f48c63c7b4b81032af87106073c86:637-644	1.0
+CSSF15_ENG_2e88f1893b82	per:title	UWashington3	2db959cd6b64fd9cd1b82b26d3d78b12:681-705	publisher	STRING	2db959cd6b64fd9cd1b82b26d3d78b12:681-691	1.0
+CSSF15_ENG_39ab1b22c5bc	per:title	UWashington3	NYT_ENG_20131105.0051:1672-1724	chief executive	STRING	NYT_ENG_20131105.0051:1690-1700	4.0
+CSSF15_ENG_39ab1b22c5bc	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1769-1827	chairman	STRING	8e45867b0dbed553879e90144f2e2b5b:1818-1827	1.0
+CSSF15_ENG_39ab1b22c5bc	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1769-1854	chief executive officer	STRING	8e45867b0dbed553879e90144f2e2b5b:1831-1854	1.0
+CSSF15_ENG_39ab1b22c5bc	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1569-1622	chief operating officer	STRING	8e45867b0dbed553879e90144f2e2b5b:1599-1622	1.0
+CSSF15_ENG_39ab1b22c5bc	per:title	UWashington3	c8f8bdeb400fdcecf4870b199bbcd0ad:880-915	proprietor	STRING	c8f8bdeb400fdcecf4870b199bbcd0ad:890-901	1.0
+CSSF15_ENG_39ab1b22c5bc	per:title	UWashington3	741e136d176ea863addbabeaab9b7d46:4251-4269	ceo	STRING	741e136d176ea863addbabeaab9b7d46:4251-4255	1.0
+CSSF15_ENG_39ab1b22c5bc	per:title	UWashington3	ed6f48c63c7b4b81032af87106073c86:1127-1164	journalist	STRING	ed6f48c63c7b4b81032af87106073c86:1127-1131	1.0
+CSSF15_ENG_39ab1b22c5bc	per:title	UWashington3	ed6f48c63c7b4b81032af87106073c86:614-681	editor	STRING	ed6f48c63c7b4b81032af87106073c86:637-644	1.0
+CSSF15_ENG_39ab1b22c5bc	per:title	UWashington3	2db959cd6b64fd9cd1b82b26d3d78b12:681-705	publisher	STRING	2db959cd6b64fd9cd1b82b26d3d78b12:681-691	1.0
+CSSF15_ENG_7f16a44c43c0	per:title	UWashington3	NYT_ENG_20131105.0051:1672-1724	chief executive	STRING	NYT_ENG_20131105.0051:1690-1700	4.0
+CSSF15_ENG_7f16a44c43c0	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1769-1827	chairman	STRING	8e45867b0dbed553879e90144f2e2b5b:1818-1827	1.0
+CSSF15_ENG_7f16a44c43c0	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1769-1854	chief executive officer	STRING	8e45867b0dbed553879e90144f2e2b5b:1831-1854	1.0
+CSSF15_ENG_7f16a44c43c0	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1569-1622	chief operating officer	STRING	8e45867b0dbed553879e90144f2e2b5b:1599-1622	1.0
+CSSF15_ENG_7f16a44c43c0	per:title	UWashington3	c8f8bdeb400fdcecf4870b199bbcd0ad:880-915	proprietor	STRING	c8f8bdeb400fdcecf4870b199bbcd0ad:890-901	1.0
+CSSF15_ENG_7f16a44c43c0	per:title	UWashington3	741e136d176ea863addbabeaab9b7d46:4251-4269	ceo	STRING	741e136d176ea863addbabeaab9b7d46:4251-4255	1.0
+CSSF15_ENG_7f16a44c43c0	per:title	UWashington3	ed6f48c63c7b4b81032af87106073c86:1127-1164	journalist	STRING	ed6f48c63c7b4b81032af87106073c86:1127-1131	1.0
+CSSF15_ENG_7f16a44c43c0	per:title	UWashington3	ed6f48c63c7b4b81032af87106073c86:614-681	editor	STRING	ed6f48c63c7b4b81032af87106073c86:637-644	1.0
+CSSF15_ENG_7f16a44c43c0	per:title	UWashington3	2db959cd6b64fd9cd1b82b26d3d78b12:681-705	publisher	STRING	2db959cd6b64fd9cd1b82b26d3d78b12:681-691	1.0
+CSSF15_ENG_d69341a6ccb7	per:title	UWashington3	NYT_ENG_20131105.0051:1672-1724	chief executive	STRING	NYT_ENG_20131105.0051:1690-1700	4.0
+CSSF15_ENG_d69341a6ccb7	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1769-1827	chairman	STRING	8e45867b0dbed553879e90144f2e2b5b:1818-1827	1.0
+CSSF15_ENG_d69341a6ccb7	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1769-1854	chief executive officer	STRING	8e45867b0dbed553879e90144f2e2b5b:1831-1854	1.0
+CSSF15_ENG_d69341a6ccb7	per:title	UWashington3	8e45867b0dbed553879e90144f2e2b5b:1569-1622	chief operating officer	STRING	8e45867b0dbed553879e90144f2e2b5b:1599-1622	1.0
+CSSF15_ENG_d69341a6ccb7	per:title	UWashington3	c8f8bdeb400fdcecf4870b199bbcd0ad:880-915	proprietor	STRING	c8f8bdeb400fdcecf4870b199bbcd0ad:890-901	1.0
+CSSF15_ENG_d69341a6ccb7	per:title	UWashington3	741e136d176ea863addbabeaab9b7d46:4251-4269	ceo	STRING	741e136d176ea863addbabeaab9b7d46:4251-4255	1.0
+CSSF15_ENG_d69341a6ccb7	per:title	UWashington3	ed6f48c63c7b4b81032af87106073c86:1127-1164	journalist	STRING	ed6f48c63c7b4b81032af87106073c86:1127-1131	1.0
+CSSF15_ENG_d69341a6ccb7	per:title	UWashington3	ed6f48c63c7b4b81032af87106073c86:614-681	editor	STRING	ed6f48c63c7b4b81032af87106073c86:637-644	1.0
+CSSF15_ENG_d69341a6ccb7	per:title	UWashington3	2db959cd6b64fd9cd1b82b26d3d78b12:681-705	publisher	STRING	2db959cd6b64fd9cd1b82b26d3d78b12:681-691	1.0
+CSSF15_ENG_14ece30c98c0	per:title	UWashington3	NYT_ENG_20131113.0163:1962-2060	president	STRING	NYT_ENG_20131113.0163:2028-2038	2.0
+CSSF15_ENG_82c57691afb4	per:title	UWashington3	NYT_ENG_20131113.0163:1962-2060	president	STRING	NYT_ENG_20131113.0163:2028-2038	2.0
+CSSF15_ENG_9058b7b605e2	per:title	UWashington3	NYT_ENG_20131113.0163:1962-2060	president	STRING	NYT_ENG_20131113.0163:2028-2038	2.0
+CSSF15_ENG_d5e2a9c949fe	per:title	UWashington3	NYT_ENG_20131113.0163:1962-2060	president	STRING	NYT_ENG_20131113.0163:2028-2038	2.0
+CSSF15_ENG_e9d682cfa173	per:title	UWashington3	NYT_ENG_20131113.0163:1962-2060	president	STRING	NYT_ENG_20131113.0163:2028-2038	2.0
+CSSF15_ENG_15120d4fd4e2	org:top_members_employees	UWashington3	NYT_ENG_20130607.0169:3641-3695	Daniel Sjogren	PER	NYT_ENG_20130607.0169:3641-3654	0.8
+CSSF15_ENG_afdcdd79e79a	org:top_members_employees	UWashington3	NYT_ENG_20130607.0169:3641-3695	Daniel Sjogren	PER	NYT_ENG_20130607.0169:3641-3654	0.8
+CSSF15_ENG_cf3ca6b5e7e4	org:top_members_employees	UWashington3	NYT_ENG_20130607.0169:3641-3695	Daniel Sjogren	PER	NYT_ENG_20130607.0169:3641-3654	0.8
+CSSF15_ENG_15912c35fba5	per:religion	UWashington3	fd0c029ba06cc7b4e6559782e152072b:440-492	muslim	STRING	fd0c029ba06cc7b4e6559782e152072b:486-492	0.8
+CSSF15_ENG_214a66697c7e	per:origin	UWashington3	ENG_NW_001278_20130125_F00011J6Q:723-766	turkish	STRING	ENG_NW_001278_20130125_F00011J6Q:723-731	16.0
+CSSF15_ENG_3707cf0d1a5b	per:origin	UWashington3	ENG_NW_001278_20130125_F00011J6Q:723-766	turkish	STRING	ENG_NW_001278_20130125_F00011J6Q:723-731	16.0
+CSSF15_ENG_44f6c3da487b	per:origin	UWashington3	ENG_NW_001278_20130125_F00011J6Q:723-766	turkish	STRING	ENG_NW_001278_20130125_F00011J6Q:723-731	16.0
+CSSF15_ENG_6a45ec0475ee	per:religion	UWashington3	fd0c029ba06cc7b4e6559782e152072b:440-492	muslim	STRING	fd0c029ba06cc7b4e6559782e152072b:486-492	0.8
+CSSF15_ENG_99045965b770	per:religion	UWashington3	fd0c029ba06cc7b4e6559782e152072b:440-492	muslim	STRING	fd0c029ba06cc7b4e6559782e152072b:486-492	0.8
+CSSF15_ENG_a1a8bcb4b5cf	per:origin	UWashington3	ENG_NW_001278_20130125_F00011J6Q:723-766	turkish	STRING	ENG_NW_001278_20130125_F00011J6Q:723-731	16.0
+CSSF15_ENG_a64f59c44285	per:title	UWashington3	ENG_NW_001278_20130125_F00011J6Q:731-766	prime minister	STRING	ENG_NW_001278_20130125_F00011J6Q:731-746	54.0
+CSSF15_ENG_eb44fb0c3a91	per:title	UWashington3	ENG_NW_001278_20130125_F00011J6Q:731-766	prime minister	STRING	ENG_NW_001278_20130125_F00011J6Q:731-746	54.0
+CSSF15_ENG_ed8fb6f7da44	per:title	UWashington3	ENG_NW_001278_20130125_F00011J6Q:731-766	prime minister	STRING	ENG_NW_001278_20130125_F00011J6Q:731-746	54.0
+CSSF15_ENG_fb60989b03dd	per:title	UWashington3	ENG_NW_001278_20130125_F00011J6Q:731-766	prime minister	STRING	ENG_NW_001278_20130125_F00011J6Q:731-746	54.0
+CSSF15_ENG_fc18f2f7912c	per:religion	UWashington3	fd0c029ba06cc7b4e6559782e152072b:440-492	muslim	STRING	fd0c029ba06cc7b4e6559782e152072b:486-492	0.8
+CSSF15_ENG_1599f959eebd	per:title	UWashington3	1f8cdb644e4275cf645d8225a37d491a:216-286	cardinal	STRING	1f8cdb644e4275cf645d8225a37d491a:249-258	1.0
+CSSF15_ENG_1599f959eebd	per:title	UWashington3	1f8cdb644e4275cf645d8225a37d491a:216-286	prelate	STRING	1f8cdb644e4275cf645d8225a37d491a:241-249	1.0
+CSSF15_ENG_8b04e8253251	per:title	UWashington3	1f8cdb644e4275cf645d8225a37d491a:216-286	cardinal	STRING	1f8cdb644e4275cf645d8225a37d491a:249-258	1.0
+CSSF15_ENG_8b04e8253251	per:title	UWashington3	1f8cdb644e4275cf645d8225a37d491a:216-286	prelate	STRING	1f8cdb644e4275cf645d8225a37d491a:241-249	1.0
+CSSF15_ENG_9d0fee09446a	per:title	UWashington3	1f8cdb644e4275cf645d8225a37d491a:216-286	cardinal	STRING	1f8cdb644e4275cf645d8225a37d491a:249-258	1.0
+CSSF15_ENG_9d0fee09446a	per:title	UWashington3	1f8cdb644e4275cf645d8225a37d491a:216-286	prelate	STRING	1f8cdb644e4275cf645d8225a37d491a:241-249	1.0
+CSSF15_ENG_edd94206ae1c	per:title	UWashington3	1f8cdb644e4275cf645d8225a37d491a:216-286	cardinal	STRING	1f8cdb644e4275cf645d8225a37d491a:249-258	1.0
+CSSF15_ENG_edd94206ae1c	per:title	UWashington3	1f8cdb644e4275cf645d8225a37d491a:216-286	prelate	STRING	1f8cdb644e4275cf645d8225a37d491a:241-249	1.0
+CSSF15_ENG_15cfcf5f68f3	org:top_members_employees	UWashington3	NYT_ENG_20130708.0022:1727-1775	Michael Eisner	PER	NYT_ENG_20130708.0022:1729-1742	6.0
+CSSF15_ENG_15cfcf5f68f3	org:top_members_employees	UWashington3	ea1f8b0acae73d09e1e261f8a14f5867:3420-3472	Anne Sweeney	PER	ea1f8b0acae73d09e1e261f8a14f5867:3420-3431	1.0
+CSSF15_ENG_6fd97f80e3bd	org:top_members_employees	UWashington3	NYT_ENG_20130708.0022:1727-1775	Michael Eisner	PER	NYT_ENG_20130708.0022:1729-1742	6.0
+CSSF15_ENG_6fd97f80e3bd	org:top_members_employees	UWashington3	ea1f8b0acae73d09e1e261f8a14f5867:3420-3472	Anne Sweeney	PER	ea1f8b0acae73d09e1e261f8a14f5867:3420-3431	1.0
+CSSF15_ENG_bdb4a33566a9	org:top_members_employees	UWashington3	NYT_ENG_20130708.0022:1727-1775	Michael Eisner	PER	NYT_ENG_20130708.0022:1729-1742	6.0
+CSSF15_ENG_bdb4a33566a9	org:top_members_employees	UWashington3	ea1f8b0acae73d09e1e261f8a14f5867:3420-3472	Anne Sweeney	PER	ea1f8b0acae73d09e1e261f8a14f5867:3420-3431	1.0
+CSSF15_ENG_cfd88521bf27	org:top_members_employees	UWashington3	NYT_ENG_20130708.0022:1727-1775	Michael Eisner	PER	NYT_ENG_20130708.0022:1729-1742	6.0
+CSSF15_ENG_cfd88521bf27	org:top_members_employees	UWashington3	ea1f8b0acae73d09e1e261f8a14f5867:3420-3472	Anne Sweeney	PER	ea1f8b0acae73d09e1e261f8a14f5867:3420-3431	1.0
+CSSF15_ENG_f9ac88f9ecdd	org:top_members_employees	UWashington3	NYT_ENG_20130708.0022:1727-1775	Michael Eisner	PER	NYT_ENG_20130708.0022:1729-1742	6.0
+CSSF15_ENG_f9ac88f9ecdd	org:top_members_employees	UWashington3	ea1f8b0acae73d09e1e261f8a14f5867:3420-3472	Anne Sweeney	PER	ea1f8b0acae73d09e1e261f8a14f5867:3420-3431	1.0
+CSSF15_ENG_16e8ca4ba8b8	per:title	UWashington3	NYT_ENG_20130526.0101:2711-2752	vice president	STRING	NYT_ENG_20130526.0101:2735-2743	0.8
+CSSF15_ENG_34b43276b955	per:title	UWashington3	NYT_ENG_20130526.0101:2711-2752	vice president	STRING	NYT_ENG_20130526.0101:2735-2743	0.8
+CSSF15_ENG_406aa3028cdd	per:title	UWashington3	NYT_ENG_20130526.0101:2711-2752	vice president	STRING	NYT_ENG_20130526.0101:2735-2743	0.8
+CSSF15_ENG_72cc0edfbd34	per:title	UWashington3	NYT_ENG_20130526.0101:2711-2752	vice president	STRING	NYT_ENG_20130526.0101:2735-2743	0.8
+CSSF15_ENG_98f24670d1e9	per:title	UWashington3	NYT_ENG_20130526.0101:2711-2752	vice president	STRING	NYT_ENG_20130526.0101:2735-2743	0.8
+CSSF15_ENG_291b58929379	org:political_religious_affiliation	UWashington3	90226877cdffacfe2bfe25d679f73cdb:3790-3864	jewish	STRING	90226877cdffacfe2bfe25d679f73cdb:3823-3830	0.8
+CSSF15_ENG_393eb50c3193	org:political_religious_affiliation	UWashington3	90226877cdffacfe2bfe25d679f73cdb:3790-3864	jewish	STRING	90226877cdffacfe2bfe25d679f73cdb:3823-3830	0.8
+CSSF15_ENG_3a6889aa58ff	org:political_religious_affiliation	UWashington3	90226877cdffacfe2bfe25d679f73cdb:3790-3864	jewish	STRING	90226877cdffacfe2bfe25d679f73cdb:3823-3830	0.8
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20131003.0192:1965-2003	Mitch McConnell	PER	NYT_ENG_20131003.0192:1988-2002	18.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	34e97d6f8db0e55f21098cbd743e59b6:9000-9033	Harry Reid	PER	34e97d6f8db0e55f21098cbd743e59b6:9023-9032	15.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	0248eec7b8afbb4bc9f59f7c04d40153:868-908	Darrell Steinberg	PER	0248eec7b8afbb4bc9f59f7c04d40153:891-907	9.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20130429.0005:172-301	Don Gaetz	PER	NYT_ENG_20130429.0005:292-300	7.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	99db74373999520e365fbb5b00163d36:2475-2512	Glenn McConnell	PER	99db74373999520e365fbb5b00163d36:2497-2511	5.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	764391e197eac29e394b3e66e160b2b8:12977-13028	Richard Tisei	PER	764391e197eac29e394b3e66e160b2b8:12987-12999	3.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	f191cc336aa34fc89b5bbb8e0b63828a:11258-11295	Barnaby Joyce	PER	f191cc336aa34fc89b5bbb8e0b63828a:11282-11294	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20130523.0085:2078-2114	Dean Skelos	PER	NYT_ENG_20130523.0085:2103-2113	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	356f4e625d7330e4841dcefa3fdfd78e:1106-1136	Steve Sweeney	PER	356f4e625d7330e4841dcefa3fdfd78e:1123-1135	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20130820.0181:5547-5615	Donna Mercado Kim	PER	NYT_ENG_20130820.0181:5571-5587	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20130617.0042:2433-2464	Therese Murray	PER	NYT_ENG_20130617.0042:2450-2463	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	a89805a1780cd0967d2788ae1cabf540:2194-2254	Stephen Sweeney	PER	a89805a1780cd0967d2788ae1cabf540:2225-2239	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	9aa0cb0769d9385cb4a0695d133dce93:665-702	Juan Fernando Cristo	PER	9aa0cb0769d9385cb4a0695d133dce93:682-701	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	2cedcc85b30f958f0f53245a3f8f0119:5173-5200	Emil Jones	PER	2cedcc85b30f958f0f53245a3f8f0119:5190-5199	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20131031.0076:6834-6868	Robert Travaglini	PER	NYT_ENG_20131031.0076:6851-6867	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20130806.0125:1590-1630	Joseph L.	PER	NYT_ENG_20130806.0125:1621-1629	2.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	30ba51c4a4ea07c62576a7a3940f349d:2131-2176	Everett Dirksen	PER	30ba51c4a4ea07c62576a7a3940f349d:2154-2168	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	f31f20cf85772bd76eb33d1d22bb2f30:2422-2464	Thomas V. Mike Miller Jr.	PER	f31f20cf85772bd76eb33d1d22bb2f30:2439-2463	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	2e225f562f28d5be93d68dd3cd72c020:186-226	John Cullerton	PER	2e225f562f28d5be93d68dd3cd72c020:212-225	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	97435af5743254736772eee09700b882:1597-1646	Thomas A. Daschle	PER	97435af5743254736772eee09700b882:1620-1636	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20130509.0159:5512-5562	Grant V. O’Rielly	PER	NYT_ENG_20130509.0159:5512-5528	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	e455fcb9178c8a322e4b8b01076fa9ef:1769-1889	Hayden	PER	e455fcb9178c8a322e4b8b01076fa9ef:1775-1780	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	ab34ca6e73f896f22919e77d39802b88:661-713	Tom Daschle	PER	ab34ca6e73f896f22919e77d39802b88:686-696	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	d125460bdca414ec10df284c89f0ff3c:7059-7234	O'Beirne	PER	d125460bdca414ec10df284c89f0ff3c:7059-7066	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	5156abbe5a6167247f795fb52eaac854:2371-2406	Brian Lees	PER	5156abbe5a6167247f795fb52eaac854:2396-2405	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	977432202dc20d79bb8b44a33023a5de:1079-1106	John Morse	PER	977432202dc20d79bb8b44a33023a5de:1096-1105	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20131212.0022:2997-3050	Daschle	PER	NYT_ENG_20131212.0022:3010-3016	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	5e6f08e39a65256c35e72c00e6269ec0:3777-3810	Mike Haridopolos	PER	5e6f08e39a65256c35e72c00e6269ec0:3794-3809	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	c71ae08f6dc67da82af080bb5080875b:265-302	M. Teresa Paiva Weed	PER	c71ae08f6dc67da82af080bb5080875b:282-301	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	9f54e28bb73083c2c440898bdd9c9308:2269-2302	Scott Fitzgerald	PER	9f54e28bb73083c2c440898bdd9c9308:2286-2301	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	9f54e28bb73083c2c440898bdd9c9308:2148-2182	Mark Miller	PER	9f54e28bb73083c2c440898bdd9c9308:2171-2181	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	e7cd4ce868a9f7c8533db89dc67667cf:4871-4917	Barack Obama	PER	e7cd4ce868a9f7c8533db89dc67667cf:4881-4892	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	8d426a9d467b3b2f76a4a818d0ee22fc:2104-2145	Darrel Steinberg	PER	8d426a9d467b3b2f76a4a818d0ee22fc:2129-2144	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	d6e0cacf150142ad8f87a18eb8e13cf6:454-488	Teresa Paiva	PER	d6e0cacf150142ad8f87a18eb8e13cf6:471-482	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	NYT_ENG_20131128.0098:2905-2950	Morgan Carroll	PER	NYT_ENG_20131128.0098:2905-2918	1.0
+CSSF15_ENG_4bf3f1ed0246	org:top_members_employees	UWashington3	31853574ca5a8c5498704ecc4999c696:2912-2949	McConnell	PER	31853574ca5a8c5498704ecc4999c696:2940-2948	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20131003.0192:1965-2003	Mitch McConnell	PER	NYT_ENG_20131003.0192:1988-2002	18.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	34e97d6f8db0e55f21098cbd743e59b6:9000-9033	Harry Reid	PER	34e97d6f8db0e55f21098cbd743e59b6:9023-9032	15.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	0248eec7b8afbb4bc9f59f7c04d40153:868-908	Darrell Steinberg	PER	0248eec7b8afbb4bc9f59f7c04d40153:891-907	9.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20130429.0005:172-301	Don Gaetz	PER	NYT_ENG_20130429.0005:292-300	7.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	99db74373999520e365fbb5b00163d36:2475-2512	Glenn McConnell	PER	99db74373999520e365fbb5b00163d36:2497-2511	5.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	764391e197eac29e394b3e66e160b2b8:12977-13028	Richard Tisei	PER	764391e197eac29e394b3e66e160b2b8:12987-12999	3.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	f191cc336aa34fc89b5bbb8e0b63828a:11258-11295	Barnaby Joyce	PER	f191cc336aa34fc89b5bbb8e0b63828a:11282-11294	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20130523.0085:2078-2114	Dean Skelos	PER	NYT_ENG_20130523.0085:2103-2113	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	356f4e625d7330e4841dcefa3fdfd78e:1106-1136	Steve Sweeney	PER	356f4e625d7330e4841dcefa3fdfd78e:1123-1135	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20130820.0181:5547-5615	Donna Mercado Kim	PER	NYT_ENG_20130820.0181:5571-5587	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20130617.0042:2433-2464	Therese Murray	PER	NYT_ENG_20130617.0042:2450-2463	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	a89805a1780cd0967d2788ae1cabf540:2194-2254	Stephen Sweeney	PER	a89805a1780cd0967d2788ae1cabf540:2225-2239	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	9aa0cb0769d9385cb4a0695d133dce93:665-702	Juan Fernando Cristo	PER	9aa0cb0769d9385cb4a0695d133dce93:682-701	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	2cedcc85b30f958f0f53245a3f8f0119:5173-5200	Emil Jones	PER	2cedcc85b30f958f0f53245a3f8f0119:5190-5199	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20131031.0076:6834-6868	Robert Travaglini	PER	NYT_ENG_20131031.0076:6851-6867	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20130806.0125:1590-1630	Joseph L.	PER	NYT_ENG_20130806.0125:1621-1629	2.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	30ba51c4a4ea07c62576a7a3940f349d:2131-2176	Everett Dirksen	PER	30ba51c4a4ea07c62576a7a3940f349d:2154-2168	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	f31f20cf85772bd76eb33d1d22bb2f30:2422-2464	Thomas V. Mike Miller Jr.	PER	f31f20cf85772bd76eb33d1d22bb2f30:2439-2463	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	2e225f562f28d5be93d68dd3cd72c020:186-226	John Cullerton	PER	2e225f562f28d5be93d68dd3cd72c020:212-225	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	97435af5743254736772eee09700b882:1597-1646	Thomas A. Daschle	PER	97435af5743254736772eee09700b882:1620-1636	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20130509.0159:5512-5562	Grant V. O’Rielly	PER	NYT_ENG_20130509.0159:5512-5528	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	e455fcb9178c8a322e4b8b01076fa9ef:1769-1889	Hayden	PER	e455fcb9178c8a322e4b8b01076fa9ef:1775-1780	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	ab34ca6e73f896f22919e77d39802b88:661-713	Tom Daschle	PER	ab34ca6e73f896f22919e77d39802b88:686-696	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	d125460bdca414ec10df284c89f0ff3c:7059-7234	O'Beirne	PER	d125460bdca414ec10df284c89f0ff3c:7059-7066	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	5156abbe5a6167247f795fb52eaac854:2371-2406	Brian Lees	PER	5156abbe5a6167247f795fb52eaac854:2396-2405	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	977432202dc20d79bb8b44a33023a5de:1079-1106	John Morse	PER	977432202dc20d79bb8b44a33023a5de:1096-1105	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20131212.0022:2997-3050	Daschle	PER	NYT_ENG_20131212.0022:3010-3016	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	5e6f08e39a65256c35e72c00e6269ec0:3777-3810	Mike Haridopolos	PER	5e6f08e39a65256c35e72c00e6269ec0:3794-3809	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	c71ae08f6dc67da82af080bb5080875b:265-302	M. Teresa Paiva Weed	PER	c71ae08f6dc67da82af080bb5080875b:282-301	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	9f54e28bb73083c2c440898bdd9c9308:2269-2302	Scott Fitzgerald	PER	9f54e28bb73083c2c440898bdd9c9308:2286-2301	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	9f54e28bb73083c2c440898bdd9c9308:2148-2182	Mark Miller	PER	9f54e28bb73083c2c440898bdd9c9308:2171-2181	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	e7cd4ce868a9f7c8533db89dc67667cf:4871-4917	Barack Obama	PER	e7cd4ce868a9f7c8533db89dc67667cf:4881-4892	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	8d426a9d467b3b2f76a4a818d0ee22fc:2104-2145	Darrel Steinberg	PER	8d426a9d467b3b2f76a4a818d0ee22fc:2129-2144	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	d6e0cacf150142ad8f87a18eb8e13cf6:454-488	Teresa Paiva	PER	d6e0cacf150142ad8f87a18eb8e13cf6:471-482	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	NYT_ENG_20131128.0098:2905-2950	Morgan Carroll	PER	NYT_ENG_20131128.0098:2905-2918	1.0
+CSSF15_ENG_5963812d4b20	org:top_members_employees	UWashington3	31853574ca5a8c5498704ecc4999c696:2912-2949	McConnell	PER	31853574ca5a8c5498704ecc4999c696:2940-2948	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20131003.0192:1965-2003	Mitch McConnell	PER	NYT_ENG_20131003.0192:1988-2002	18.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	34e97d6f8db0e55f21098cbd743e59b6:9000-9033	Harry Reid	PER	34e97d6f8db0e55f21098cbd743e59b6:9023-9032	15.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	0248eec7b8afbb4bc9f59f7c04d40153:868-908	Darrell Steinberg	PER	0248eec7b8afbb4bc9f59f7c04d40153:891-907	9.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20130429.0005:172-301	Don Gaetz	PER	NYT_ENG_20130429.0005:292-300	7.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	99db74373999520e365fbb5b00163d36:2475-2512	Glenn McConnell	PER	99db74373999520e365fbb5b00163d36:2497-2511	5.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	764391e197eac29e394b3e66e160b2b8:12977-13028	Richard Tisei	PER	764391e197eac29e394b3e66e160b2b8:12987-12999	3.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	f191cc336aa34fc89b5bbb8e0b63828a:11258-11295	Barnaby Joyce	PER	f191cc336aa34fc89b5bbb8e0b63828a:11282-11294	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20130523.0085:2078-2114	Dean Skelos	PER	NYT_ENG_20130523.0085:2103-2113	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	356f4e625d7330e4841dcefa3fdfd78e:1106-1136	Steve Sweeney	PER	356f4e625d7330e4841dcefa3fdfd78e:1123-1135	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20130820.0181:5547-5615	Donna Mercado Kim	PER	NYT_ENG_20130820.0181:5571-5587	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20130617.0042:2433-2464	Therese Murray	PER	NYT_ENG_20130617.0042:2450-2463	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	a89805a1780cd0967d2788ae1cabf540:2194-2254	Stephen Sweeney	PER	a89805a1780cd0967d2788ae1cabf540:2225-2239	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	9aa0cb0769d9385cb4a0695d133dce93:665-702	Juan Fernando Cristo	PER	9aa0cb0769d9385cb4a0695d133dce93:682-701	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	2cedcc85b30f958f0f53245a3f8f0119:5173-5200	Emil Jones	PER	2cedcc85b30f958f0f53245a3f8f0119:5190-5199	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20131031.0076:6834-6868	Robert Travaglini	PER	NYT_ENG_20131031.0076:6851-6867	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20130806.0125:1590-1630	Joseph L.	PER	NYT_ENG_20130806.0125:1621-1629	2.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	30ba51c4a4ea07c62576a7a3940f349d:2131-2176	Everett Dirksen	PER	30ba51c4a4ea07c62576a7a3940f349d:2154-2168	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	f31f20cf85772bd76eb33d1d22bb2f30:2422-2464	Thomas V. Mike Miller Jr.	PER	f31f20cf85772bd76eb33d1d22bb2f30:2439-2463	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	2e225f562f28d5be93d68dd3cd72c020:186-226	John Cullerton	PER	2e225f562f28d5be93d68dd3cd72c020:212-225	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	97435af5743254736772eee09700b882:1597-1646	Thomas A. Daschle	PER	97435af5743254736772eee09700b882:1620-1636	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20130509.0159:5512-5562	Grant V. O’Rielly	PER	NYT_ENG_20130509.0159:5512-5528	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	e455fcb9178c8a322e4b8b01076fa9ef:1769-1889	Hayden	PER	e455fcb9178c8a322e4b8b01076fa9ef:1775-1780	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	ab34ca6e73f896f22919e77d39802b88:661-713	Tom Daschle	PER	ab34ca6e73f896f22919e77d39802b88:686-696	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	d125460bdca414ec10df284c89f0ff3c:7059-7234	O'Beirne	PER	d125460bdca414ec10df284c89f0ff3c:7059-7066	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	5156abbe5a6167247f795fb52eaac854:2371-2406	Brian Lees	PER	5156abbe5a6167247f795fb52eaac854:2396-2405	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	977432202dc20d79bb8b44a33023a5de:1079-1106	John Morse	PER	977432202dc20d79bb8b44a33023a5de:1096-1105	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20131212.0022:2997-3050	Daschle	PER	NYT_ENG_20131212.0022:3010-3016	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	5e6f08e39a65256c35e72c00e6269ec0:3777-3810	Mike Haridopolos	PER	5e6f08e39a65256c35e72c00e6269ec0:3794-3809	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	c71ae08f6dc67da82af080bb5080875b:265-302	M. Teresa Paiva Weed	PER	c71ae08f6dc67da82af080bb5080875b:282-301	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	9f54e28bb73083c2c440898bdd9c9308:2269-2302	Scott Fitzgerald	PER	9f54e28bb73083c2c440898bdd9c9308:2286-2301	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	9f54e28bb73083c2c440898bdd9c9308:2148-2182	Mark Miller	PER	9f54e28bb73083c2c440898bdd9c9308:2171-2181	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	e7cd4ce868a9f7c8533db89dc67667cf:4871-4917	Barack Obama	PER	e7cd4ce868a9f7c8533db89dc67667cf:4881-4892	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	8d426a9d467b3b2f76a4a818d0ee22fc:2104-2145	Darrel Steinberg	PER	8d426a9d467b3b2f76a4a818d0ee22fc:2129-2144	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	d6e0cacf150142ad8f87a18eb8e13cf6:454-488	Teresa Paiva	PER	d6e0cacf150142ad8f87a18eb8e13cf6:471-482	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	NYT_ENG_20131128.0098:2905-2950	Morgan Carroll	PER	NYT_ENG_20131128.0098:2905-2918	1.0
+CSSF15_ENG_7ff641a5c2f7	org:top_members_employees	UWashington3	31853574ca5a8c5498704ecc4999c696:2912-2949	McConnell	PER	31853574ca5a8c5498704ecc4999c696:2940-2948	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20131003.0192:1965-2003	Mitch McConnell	PER	NYT_ENG_20131003.0192:1988-2002	18.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	34e97d6f8db0e55f21098cbd743e59b6:9000-9033	Harry Reid	PER	34e97d6f8db0e55f21098cbd743e59b6:9023-9032	15.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	0248eec7b8afbb4bc9f59f7c04d40153:868-908	Darrell Steinberg	PER	0248eec7b8afbb4bc9f59f7c04d40153:891-907	9.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20130429.0005:172-301	Don Gaetz	PER	NYT_ENG_20130429.0005:292-300	7.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	99db74373999520e365fbb5b00163d36:2475-2512	Glenn McConnell	PER	99db74373999520e365fbb5b00163d36:2497-2511	5.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	764391e197eac29e394b3e66e160b2b8:12977-13028	Richard Tisei	PER	764391e197eac29e394b3e66e160b2b8:12987-12999	3.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	f191cc336aa34fc89b5bbb8e0b63828a:11258-11295	Barnaby Joyce	PER	f191cc336aa34fc89b5bbb8e0b63828a:11282-11294	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20130523.0085:2078-2114	Dean Skelos	PER	NYT_ENG_20130523.0085:2103-2113	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	356f4e625d7330e4841dcefa3fdfd78e:1106-1136	Steve Sweeney	PER	356f4e625d7330e4841dcefa3fdfd78e:1123-1135	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20130820.0181:5547-5615	Donna Mercado Kim	PER	NYT_ENG_20130820.0181:5571-5587	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20130617.0042:2433-2464	Therese Murray	PER	NYT_ENG_20130617.0042:2450-2463	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	a89805a1780cd0967d2788ae1cabf540:2194-2254	Stephen Sweeney	PER	a89805a1780cd0967d2788ae1cabf540:2225-2239	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	9aa0cb0769d9385cb4a0695d133dce93:665-702	Juan Fernando Cristo	PER	9aa0cb0769d9385cb4a0695d133dce93:682-701	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	2cedcc85b30f958f0f53245a3f8f0119:5173-5200	Emil Jones	PER	2cedcc85b30f958f0f53245a3f8f0119:5190-5199	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20131031.0076:6834-6868	Robert Travaglini	PER	NYT_ENG_20131031.0076:6851-6867	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20130806.0125:1590-1630	Joseph L.	PER	NYT_ENG_20130806.0125:1621-1629	2.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	30ba51c4a4ea07c62576a7a3940f349d:2131-2176	Everett Dirksen	PER	30ba51c4a4ea07c62576a7a3940f349d:2154-2168	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	f31f20cf85772bd76eb33d1d22bb2f30:2422-2464	Thomas V. Mike Miller Jr.	PER	f31f20cf85772bd76eb33d1d22bb2f30:2439-2463	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	2e225f562f28d5be93d68dd3cd72c020:186-226	John Cullerton	PER	2e225f562f28d5be93d68dd3cd72c020:212-225	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	97435af5743254736772eee09700b882:1597-1646	Thomas A. Daschle	PER	97435af5743254736772eee09700b882:1620-1636	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20130509.0159:5512-5562	Grant V. O’Rielly	PER	NYT_ENG_20130509.0159:5512-5528	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	e455fcb9178c8a322e4b8b01076fa9ef:1769-1889	Hayden	PER	e455fcb9178c8a322e4b8b01076fa9ef:1775-1780	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	ab34ca6e73f896f22919e77d39802b88:661-713	Tom Daschle	PER	ab34ca6e73f896f22919e77d39802b88:686-696	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	d125460bdca414ec10df284c89f0ff3c:7059-7234	O'Beirne	PER	d125460bdca414ec10df284c89f0ff3c:7059-7066	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	5156abbe5a6167247f795fb52eaac854:2371-2406	Brian Lees	PER	5156abbe5a6167247f795fb52eaac854:2396-2405	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	977432202dc20d79bb8b44a33023a5de:1079-1106	John Morse	PER	977432202dc20d79bb8b44a33023a5de:1096-1105	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20131212.0022:2997-3050	Daschle	PER	NYT_ENG_20131212.0022:3010-3016	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	5e6f08e39a65256c35e72c00e6269ec0:3777-3810	Mike Haridopolos	PER	5e6f08e39a65256c35e72c00e6269ec0:3794-3809	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	c71ae08f6dc67da82af080bb5080875b:265-302	M. Teresa Paiva Weed	PER	c71ae08f6dc67da82af080bb5080875b:282-301	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	9f54e28bb73083c2c440898bdd9c9308:2269-2302	Scott Fitzgerald	PER	9f54e28bb73083c2c440898bdd9c9308:2286-2301	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	9f54e28bb73083c2c440898bdd9c9308:2148-2182	Mark Miller	PER	9f54e28bb73083c2c440898bdd9c9308:2171-2181	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	e7cd4ce868a9f7c8533db89dc67667cf:4871-4917	Barack Obama	PER	e7cd4ce868a9f7c8533db89dc67667cf:4881-4892	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	8d426a9d467b3b2f76a4a818d0ee22fc:2104-2145	Darrel Steinberg	PER	8d426a9d467b3b2f76a4a818d0ee22fc:2129-2144	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	d6e0cacf150142ad8f87a18eb8e13cf6:454-488	Teresa Paiva	PER	d6e0cacf150142ad8f87a18eb8e13cf6:471-482	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	NYT_ENG_20131128.0098:2905-2950	Morgan Carroll	PER	NYT_ENG_20131128.0098:2905-2918	1.0
+CSSF15_ENG_c2c16fd782bb	org:top_members_employees	UWashington3	31853574ca5a8c5498704ecc4999c696:2912-2949	McConnell	PER	31853574ca5a8c5498704ecc4999c696:2940-2948	1.0
+CSSF15_ENG_f0651f160245	org:political_religious_affiliation	UWashington3	90226877cdffacfe2bfe25d679f73cdb:3790-3864	jewish	STRING	90226877cdffacfe2bfe25d679f73cdb:3823-3830	0.8
+CSSF15_ENG_3f59c45d2d28	per:title	UWashington3	NYT_ENG_20130621.0229:1037-1062	curator	STRING	NYT_ENG_20130621.0229:1054-1062	0.8
+CSSF15_ENG_89accf466f7d	per:title	UWashington3	NYT_ENG_20130621.0229:1037-1062	curator	STRING	NYT_ENG_20130621.0229:1054-1062	0.8
+CSSF15_ENG_978b975f4c02	per:title	UWashington3	NYT_ENG_20130621.0229:1037-1062	curator	STRING	NYT_ENG_20130621.0229:1054-1062	0.8
+CSSF15_ENG_e534c8a30f51	per:title	UWashington3	NYT_ENG_20130621.0229:1037-1062	curator	STRING	NYT_ENG_20130621.0229:1054-1062	0.8
+CSSF15_ENG_1a412993d8fd	org:top_members_employees	UWashington3	766b486f93cb22778b4085b56287f34d:4254-4379	Buck McKeon	PER	766b486f93cb22778b4085b56287f34d:4277-4287	0.8
+CSSF15_ENG_3aee6ba33022	org:top_members_employees	UWashington3	766b486f93cb22778b4085b56287f34d:4254-4379	Buck McKeon	PER	766b486f93cb22778b4085b56287f34d:4277-4287	0.8
+CSSF15_ENG_584387b410d4	org:top_members_employees	UWashington3	766b486f93cb22778b4085b56287f34d:4254-4379	Buck McKeon	PER	766b486f93cb22778b4085b56287f34d:4277-4287	0.8
+CSSF15_ENG_64b841c4db02	org:top_members_employees	UWashington3	766b486f93cb22778b4085b56287f34d:4254-4379	Buck McKeon	PER	766b486f93cb22778b4085b56287f34d:4277-4287	0.8
+CSSF15_ENG_ff1b99f5798e	org:top_members_employees	UWashington3	766b486f93cb22778b4085b56287f34d:4254-4379	Buck McKeon	PER	766b486f93cb22778b4085b56287f34d:4277-4287	0.8
+CSSF15_ENG_177270e975ba	per:title	UWashington3	NYT_ENG_20130710.0258:4771-4827	owner	STRING	NYT_ENG_20130710.0258:4791-4797	2.0
+CSSF15_ENG_72f4e7dcd455	per:title	UWashington3	NYT_ENG_20130710.0258:4771-4827	owner	STRING	NYT_ENG_20130710.0258:4791-4797	2.0
+CSSF15_ENG_76478036332e	per:title	UWashington3	NYT_ENG_20130710.0258:4771-4827	owner	STRING	NYT_ENG_20130710.0258:4791-4797	2.0
+CSSF15_ENG_a311d3046f93	per:title	UWashington3	NYT_ENG_20130710.0258:4771-4827	owner	STRING	NYT_ENG_20130710.0258:4791-4797	2.0
+CSSF15_ENG_e9e4e403c6cc	per:title	UWashington3	NYT_ENG_20130710.0258:4771-4827	owner	STRING	NYT_ENG_20130710.0258:4791-4797	2.0
+CSSF15_ENG_594d1b24ec5d	per:title	UWashington3	23f663301656ef1c518b03eda1cd0494:1732-1766	secretary of state	STRING	23f663301656ef1c518b03eda1cd0494:1732-1751	57.0
+CSSF15_ENG_594d1b24ec5d	per:title	UWashington3	0a45d2b0d99cb646ba9ab16823348719:775-800	sen.	STRING	0a45d2b0d99cb646ba9ab16823348719:775-780	17.0
+CSSF15_ENG_594d1b24ec5d	per:title	UWashington3	d2d39e87bc60804d1f5391a863da6900:5424-5449	president	STRING	d2d39e87bc60804d1f5391a863da6900:5424-5434	13.0
+CSSF15_ENG_594d1b24ec5d	per:title	UWashington3	83dc3393f7fbeeaa2e3a019659f19658:2125-2174	senator	STRING	83dc3393f7fbeeaa2e3a019659f19658:2125-2133	11.0
+CSSF15_ENG_594d1b24ec5d	per:title	UWashington3	ef89491f2fa76083ad5be2fd83c69501:2660-2694	aide	STRING	ef89491f2fa76083ad5be2fd83c69501:2668-2673	7.0
+CSSF15_ENG_594d1b24ec5d	per:title	UWashington3	deaa494ceea0168bd9c6a5bfe56c7ea9:8878-8895	secretary	STRING	deaa494ceea0168bd9c6a5bfe56c7ea9:8878-8888	7.0
+CSSF15_ENG_594d1b24ec5d	per:title	UWashington3	dbec40e66b50f55ca114d1f2bde46058:1034-1103	defense secretary	STRING	dbec40e66b50f55ca114d1f2bde46058:1034-1052	1.0
+CSSF15_ENG_594d1b24ec5d	per:title	UWashington3	1f95cbb02045885e4afcdce9960c0af4:398-433	chief of staff	STRING	1f95cbb02045885e4afcdce9960c0af4:418-433	1.0
+CSSF15_ENG_7fb70f2552e7	per:title	UWashington3	23f663301656ef1c518b03eda1cd0494:1732-1766	secretary of state	STRING	23f663301656ef1c518b03eda1cd0494:1732-1751	57.0
+CSSF15_ENG_7fb70f2552e7	per:title	UWashington3	0a45d2b0d99cb646ba9ab16823348719:775-800	sen.	STRING	0a45d2b0d99cb646ba9ab16823348719:775-780	17.0
+CSSF15_ENG_7fb70f2552e7	per:title	UWashington3	d2d39e87bc60804d1f5391a863da6900:5424-5449	president	STRING	d2d39e87bc60804d1f5391a863da6900:5424-5434	13.0
+CSSF15_ENG_7fb70f2552e7	per:title	UWashington3	83dc3393f7fbeeaa2e3a019659f19658:2125-2174	senator	STRING	83dc3393f7fbeeaa2e3a019659f19658:2125-2133	11.0
+CSSF15_ENG_7fb70f2552e7	per:title	UWashington3	ef89491f2fa76083ad5be2fd83c69501:2660-2694	aide	STRING	ef89491f2fa76083ad5be2fd83c69501:2668-2673	7.0
+CSSF15_ENG_7fb70f2552e7	per:title	UWashington3	deaa494ceea0168bd9c6a5bfe56c7ea9:8878-8895	secretary	STRING	deaa494ceea0168bd9c6a5bfe56c7ea9:8878-8888	7.0
+CSSF15_ENG_7fb70f2552e7	per:title	UWashington3	dbec40e66b50f55ca114d1f2bde46058:1034-1103	defense secretary	STRING	dbec40e66b50f55ca114d1f2bde46058:1034-1052	1.0
+CSSF15_ENG_7fb70f2552e7	per:title	UWashington3	1f95cbb02045885e4afcdce9960c0af4:398-433	chief of staff	STRING	1f95cbb02045885e4afcdce9960c0af4:418-433	1.0
+CSSF15_ENG_d2d64e83fbce	per:title	UWashington3	23f663301656ef1c518b03eda1cd0494:1732-1766	secretary of state	STRING	23f663301656ef1c518b03eda1cd0494:1732-1751	57.0
+CSSF15_ENG_d2d64e83fbce	per:title	UWashington3	0a45d2b0d99cb646ba9ab16823348719:775-800	sen.	STRING	0a45d2b0d99cb646ba9ab16823348719:775-780	17.0
+CSSF15_ENG_d2d64e83fbce	per:title	UWashington3	d2d39e87bc60804d1f5391a863da6900:5424-5449	president	STRING	d2d39e87bc60804d1f5391a863da6900:5424-5434	13.0
+CSSF15_ENG_d2d64e83fbce	per:title	UWashington3	83dc3393f7fbeeaa2e3a019659f19658:2125-2174	senator	STRING	83dc3393f7fbeeaa2e3a019659f19658:2125-2133	11.0
+CSSF15_ENG_d2d64e83fbce	per:title	UWashington3	ef89491f2fa76083ad5be2fd83c69501:2660-2694	aide	STRING	ef89491f2fa76083ad5be2fd83c69501:2668-2673	7.0
+CSSF15_ENG_d2d64e83fbce	per:title	UWashington3	deaa494ceea0168bd9c6a5bfe56c7ea9:8878-8895	secretary	STRING	deaa494ceea0168bd9c6a5bfe56c7ea9:8878-8888	7.0
+CSSF15_ENG_d2d64e83fbce	per:title	UWashington3	dbec40e66b50f55ca114d1f2bde46058:1034-1103	defense secretary	STRING	dbec40e66b50f55ca114d1f2bde46058:1034-1052	1.0
+CSSF15_ENG_d2d64e83fbce	per:title	UWashington3	1f95cbb02045885e4afcdce9960c0af4:398-433	chief of staff	STRING	1f95cbb02045885e4afcdce9960c0af4:418-433	1.0
+CSSF15_ENG_d850f0dd9874	per:title	UWashington3	23f663301656ef1c518b03eda1cd0494:1732-1766	secretary of state	STRING	23f663301656ef1c518b03eda1cd0494:1732-1751	57.0
+CSSF15_ENG_d850f0dd9874	per:title	UWashington3	0a45d2b0d99cb646ba9ab16823348719:775-800	sen.	STRING	0a45d2b0d99cb646ba9ab16823348719:775-780	17.0
+CSSF15_ENG_d850f0dd9874	per:title	UWashington3	d2d39e87bc60804d1f5391a863da6900:5424-5449	president	STRING	d2d39e87bc60804d1f5391a863da6900:5424-5434	13.0
+CSSF15_ENG_d850f0dd9874	per:title	UWashington3	83dc3393f7fbeeaa2e3a019659f19658:2125-2174	senator	STRING	83dc3393f7fbeeaa2e3a019659f19658:2125-2133	11.0
+CSSF15_ENG_d850f0dd9874	per:title	UWashington3	ef89491f2fa76083ad5be2fd83c69501:2660-2694	aide	STRING	ef89491f2fa76083ad5be2fd83c69501:2668-2673	7.0
+CSSF15_ENG_d850f0dd9874	per:title	UWashington3	deaa494ceea0168bd9c6a5bfe56c7ea9:8878-8895	secretary	STRING	deaa494ceea0168bd9c6a5bfe56c7ea9:8878-8888	7.0
+CSSF15_ENG_d850f0dd9874	per:title	UWashington3	dbec40e66b50f55ca114d1f2bde46058:1034-1103	defense secretary	STRING	dbec40e66b50f55ca114d1f2bde46058:1034-1052	1.0
+CSSF15_ENG_d850f0dd9874	per:title	UWashington3	1f95cbb02045885e4afcdce9960c0af4:398-433	chief of staff	STRING	1f95cbb02045885e4afcdce9960c0af4:418-433	1.0
+CSSF15_ENG_21afb5c9f1ac	per:title	UWashington3	ENG_NW_001278_20130129_F00012HCA:426-470	chief commercial officer	STRING	ENG_NW_001278_20130129_F00012HCA:435-460	0.8
+CSSF15_ENG_9184bfcff89e	per:title	UWashington3	ENG_NW_001278_20130129_F00012HCA:426-470	chief commercial officer	STRING	ENG_NW_001278_20130129_F00012HCA:435-460	0.8
+CSSF15_ENG_afa900b1ebd9	per:title	UWashington3	ENG_NW_001278_20130129_F00012HCA:426-470	chief commercial officer	STRING	ENG_NW_001278_20130129_F00012HCA:435-460	0.8
+CSSF15_ENG_7ea23251e781	per:title	UWashington3	4bfe4a58010557eb1d7f65febe135604:12329-12407	officer	STRING	4bfe4a58010557eb1d7f65febe135604:12356-12364	3.0
+CSSF15_ENG_7ea23251e781	per:title	UWashington3	0ef7975c53eae8c2f9da13915c327d23:1348-1380	cop	STRING	0ef7975c53eae8c2f9da13915c327d23:1355-1359	2.0
+CSSF15_ENG_7ea23251e781	per:title	UWashington3	6fd25c7bf1162c3c712ba9bc47640ced:5061-5105	police officer	STRING	6fd25c7bf1162c3c712ba9bc47640ced:5090-5105	1.0
+CSSF15_ENG_801f4c31ad7b	per:title	UWashington3	4bfe4a58010557eb1d7f65febe135604:12329-12407	officer	STRING	4bfe4a58010557eb1d7f65febe135604:12356-12364	3.0
+CSSF15_ENG_801f4c31ad7b	per:title	UWashington3	0ef7975c53eae8c2f9da13915c327d23:1348-1380	cop	STRING	0ef7975c53eae8c2f9da13915c327d23:1355-1359	2.0
+CSSF15_ENG_801f4c31ad7b	per:title	UWashington3	6fd25c7bf1162c3c712ba9bc47640ced:5061-5105	police officer	STRING	6fd25c7bf1162c3c712ba9bc47640ced:5090-5105	1.0
+CSSF15_ENG_f1e20f564117	per:title	UWashington3	4bfe4a58010557eb1d7f65febe135604:12329-12407	officer	STRING	4bfe4a58010557eb1d7f65febe135604:12356-12364	3.0
+CSSF15_ENG_f1e20f564117	per:title	UWashington3	0ef7975c53eae8c2f9da13915c327d23:1348-1380	cop	STRING	0ef7975c53eae8c2f9da13915c327d23:1355-1359	2.0
+CSSF15_ENG_f1e20f564117	per:title	UWashington3	6fd25c7bf1162c3c712ba9bc47640ced:5061-5105	police officer	STRING	6fd25c7bf1162c3c712ba9bc47640ced:5090-5105	1.0
+CSSF15_ENG_fc8314b7c12a	per:title	UWashington3	4bfe4a58010557eb1d7f65febe135604:12329-12407	officer	STRING	4bfe4a58010557eb1d7f65febe135604:12356-12364	3.0
+CSSF15_ENG_fc8314b7c12a	per:title	UWashington3	0ef7975c53eae8c2f9da13915c327d23:1348-1380	cop	STRING	0ef7975c53eae8c2f9da13915c327d23:1355-1359	2.0
+CSSF15_ENG_fc8314b7c12a	per:title	UWashington3	6fd25c7bf1162c3c712ba9bc47640ced:5061-5105	police officer	STRING	6fd25c7bf1162c3c712ba9bc47640ced:5090-5105	1.0
+CSSF15_ENG_1905fbedd8e2	org:top_members_employees	UWashington3	NYT_ENG_20130429.0005:172-301	Don Gaetz	PER	NYT_ENG_20130429.0005:292-300	2.0
+CSSF15_ENG_1905fbedd8e2	org:top_members_employees	UWashington3	NYT_ENG_20131029.0218:3111-3188	Paul Tash	PER	NYT_ENG_20131029.0218:3111-3119	1.0
+CSSF15_ENG_1905fbedd8e2	org:top_members_employees	UWashington3	e455fcb9178c8a322e4b8b01076fa9ef:1769-1889	Hayden	PER	e455fcb9178c8a322e4b8b01076fa9ef:1775-1780	1.0
+CSSF15_ENG_1905fbedd8e2	org:top_members_employees	UWashington3	5c3e0e0a454f5ffffb5ed62d6264afe7:6774-6817	Clinton	PER	5c3e0e0a454f5ffffb5ed62d6264afe7:6784-6790	1.0
+CSSF15_ENG_22a951cf4a02	org:top_members_employees	UWashington3	NYT_ENG_20130429.0005:172-301	Don Gaetz	PER	NYT_ENG_20130429.0005:292-300	2.0
+CSSF15_ENG_22a951cf4a02	org:top_members_employees	UWashington3	NYT_ENG_20131029.0218:3111-3188	Paul Tash	PER	NYT_ENG_20131029.0218:3111-3119	1.0
+CSSF15_ENG_22a951cf4a02	org:top_members_employees	UWashington3	e455fcb9178c8a322e4b8b01076fa9ef:1769-1889	Hayden	PER	e455fcb9178c8a322e4b8b01076fa9ef:1775-1780	1.0
+CSSF15_ENG_22a951cf4a02	org:top_members_employees	UWashington3	5c3e0e0a454f5ffffb5ed62d6264afe7:6774-6817	Clinton	PER	5c3e0e0a454f5ffffb5ed62d6264afe7:6784-6790	1.0
+CSSF15_ENG_3a8f7dd4ea07	org:top_members_employees	UWashington3	NYT_ENG_20130429.0005:172-301	Don Gaetz	PER	NYT_ENG_20130429.0005:292-300	2.0
+CSSF15_ENG_3a8f7dd4ea07	org:top_members_employees	UWashington3	NYT_ENG_20131029.0218:3111-3188	Paul Tash	PER	NYT_ENG_20131029.0218:3111-3119	1.0
+CSSF15_ENG_3a8f7dd4ea07	org:top_members_employees	UWashington3	e455fcb9178c8a322e4b8b01076fa9ef:1769-1889	Hayden	PER	e455fcb9178c8a322e4b8b01076fa9ef:1775-1780	1.0
+CSSF15_ENG_3a8f7dd4ea07	org:top_members_employees	UWashington3	5c3e0e0a454f5ffffb5ed62d6264afe7:6774-6817	Clinton	PER	5c3e0e0a454f5ffffb5ed62d6264afe7:6784-6790	1.0
+CSSF15_ENG_cf2d74db951e	org:top_members_employees	UWashington3	NYT_ENG_20130429.0005:172-301	Don Gaetz	PER	NYT_ENG_20130429.0005:292-300	2.0
+CSSF15_ENG_cf2d74db951e	org:top_members_employees	UWashington3	NYT_ENG_20131029.0218:3111-3188	Paul Tash	PER	NYT_ENG_20131029.0218:3111-3119	1.0
+CSSF15_ENG_cf2d74db951e	org:top_members_employees	UWashington3	e455fcb9178c8a322e4b8b01076fa9ef:1769-1889	Hayden	PER	e455fcb9178c8a322e4b8b01076fa9ef:1775-1780	1.0
+CSSF15_ENG_cf2d74db951e	org:top_members_employees	UWashington3	5c3e0e0a454f5ffffb5ed62d6264afe7:6774-6817	Clinton	PER	5c3e0e0a454f5ffffb5ed62d6264afe7:6784-6790	1.0
+CSSF15_ENG_f2c3f662d92e	org:top_members_employees	UWashington3	NYT_ENG_20130429.0005:172-301	Don Gaetz	PER	NYT_ENG_20130429.0005:292-300	2.0
+CSSF15_ENG_f2c3f662d92e	org:top_members_employees	UWashington3	NYT_ENG_20131029.0218:3111-3188	Paul Tash	PER	NYT_ENG_20131029.0218:3111-3119	1.0
+CSSF15_ENG_f2c3f662d92e	org:top_members_employees	UWashington3	e455fcb9178c8a322e4b8b01076fa9ef:1769-1889	Hayden	PER	e455fcb9178c8a322e4b8b01076fa9ef:1775-1780	1.0
+CSSF15_ENG_f2c3f662d92e	org:top_members_employees	UWashington3	5c3e0e0a454f5ffffb5ed62d6264afe7:6774-6817	Clinton	PER	5c3e0e0a454f5ffffb5ed62d6264afe7:6784-6790	1.0
+CSSF15_ENG_2686feba86dd	per:origin	UWashington3	NYT_ENG_20130513.0209:2303-2353	thompson	STRING	NYT_ENG_20130513.0209:2314-2323	109.0
+CSSF15_ENG_5fc247897e4a	per:origin	UWashington3	NYT_ENG_20130513.0209:2303-2353	thompson	STRING	NYT_ENG_20130513.0209:2314-2323	109.0
+CSSF15_ENG_60c3c531754a	per:origin	UWashington3	NYT_ENG_20130513.0209:2303-2353	thompson	STRING	NYT_ENG_20130513.0209:2314-2323	109.0
+CSSF15_ENG_7d5407ab06f3	per:origin	UWashington3	NYT_ENG_20130513.0209:2303-2353	thompson	STRING	NYT_ENG_20130513.0209:2314-2323	109.0
+CSSF15_ENG_19332edd791f	org:country_of_headquarters	UWashington3	c4c78118d66f956a31e22dea617539d1:1480-1575	turkey	GPE	c4c78118d66f956a31e22dea617539d1:1538-1575	0.8
+CSSF15_ENG_1bc607fe5d9b	org:country_of_headquarters	UWashington3	c4c78118d66f956a31e22dea617539d1:1480-1575	turkey	GPE	c4c78118d66f956a31e22dea617539d1:1538-1575	0.8
+CSSF15_ENG_95ec2ea3586e	org:country_of_headquarters	UWashington3	c4c78118d66f956a31e22dea617539d1:1480-1575	turkey	GPE	c4c78118d66f956a31e22dea617539d1:1538-1575	0.8
+CSSF15_ENG_d592ef870cdb	org:country_of_headquarters	UWashington3	c4c78118d66f956a31e22dea617539d1:1480-1575	turkey	GPE	c4c78118d66f956a31e22dea617539d1:1538-1575	0.8
+CSSF15_ENG_6daf98f53977	per:title	UWashington3	NYT_ENG_20131118.0140:2484-2572	carpenter	STRING	NYT_ENG_20131118.0140:2527-2532	0.8
+CSSF15_ENG_744909a8fc68	per:title	UWashington3	NYT_ENG_20131118.0140:2484-2572	carpenter	STRING	NYT_ENG_20131118.0140:2527-2532	0.8
+CSSF15_ENG_a6965b54dc3b	per:title	UWashington3	NYT_ENG_20131118.0140:2484-2572	carpenter	STRING	NYT_ENG_20131118.0140:2527-2532	0.8
+CSSF15_ENG_ae1fa4fa64c9	per:title	UWashington3	NYT_ENG_20131118.0140:2484-2572	carpenter	STRING	NYT_ENG_20131118.0140:2527-2532	0.8
+CSSF15_ENG_197af16cbc42	per:title	UWashington3	NYT_ENG_20130805.0045:6358-6405	political consultant	STRING	NYT_ENG_20130805.0045:6376-6395	2.0
+CSSF15_ENG_1e6a7573e561	per:title	UWashington3	NYT_ENG_20130805.0045:6358-6405	political consultant	STRING	NYT_ENG_20130805.0045:6376-6395	2.0
+CSSF15_ENG_215a34ff24e2	per:title	UWashington3	NYT_ENG_20130805.0045:6358-6405	political consultant	STRING	NYT_ENG_20130805.0045:6376-6395	2.0
+CSSF15_ENG_ee711296a081	per:title	UWashington3	NYT_ENG_20130805.0045:6358-6405	political consultant	STRING	NYT_ENG_20130805.0045:6376-6395	2.0
+CSSF15_ENG_199eef1b49c0	per:title	UWashington3	67e11cd6c278121a8d21101c3c9fa4b7:4613-4692	reporter	STRING	67e11cd6c278121a8d21101c3c9fa4b7:4688-4692	0.8
+CSSF15_ENG_2a67b8b37004	per:title	UWashington3	67e11cd6c278121a8d21101c3c9fa4b7:4613-4692	reporter	STRING	67e11cd6c278121a8d21101c3c9fa4b7:4688-4692	0.8
+CSSF15_ENG_328cffd934db	per:title	UWashington3	67e11cd6c278121a8d21101c3c9fa4b7:4613-4692	reporter	STRING	67e11cd6c278121a8d21101c3c9fa4b7:4688-4692	0.8
+CSSF15_ENG_d1f93626e98d	per:title	UWashington3	67e11cd6c278121a8d21101c3c9fa4b7:4613-4692	reporter	STRING	67e11cd6c278121a8d21101c3c9fa4b7:4688-4692	0.8
+CSSF15_ENG_19f0a826b450	per:title	UWashington3	247de123aa7c122e35601d1f7c5b1bf3:12255-12293	lawyer	STRING	247de123aa7c122e35601d1f7c5b1bf3:12286-12293	0.8
+CSSF15_ENG_6bb5bdaf0d2c	per:title	UWashington3	247de123aa7c122e35601d1f7c5b1bf3:12255-12293	lawyer	STRING	247de123aa7c122e35601d1f7c5b1bf3:12286-12293	0.8
+CSSF15_ENG_877d8bae9f1d	per:title	UWashington3	247de123aa7c122e35601d1f7c5b1bf3:12255-12293	lawyer	STRING	247de123aa7c122e35601d1f7c5b1bf3:12286-12293	0.8
+CSSF15_ENG_92250a1d9a8e	per:title	UWashington3	247de123aa7c122e35601d1f7c5b1bf3:12255-12293	lawyer	STRING	247de123aa7c122e35601d1f7c5b1bf3:12286-12293	0.8

@@ -1,0 +1,2 @@
+sbt "run-main tac.SerializeColdStartCorpus 0 0"
+

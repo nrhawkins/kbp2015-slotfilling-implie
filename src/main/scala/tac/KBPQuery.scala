@@ -70,7 +70,8 @@ object KBPQuery {
     //val slotsToFillColdStart = slotsToFill.filter(s => s.name == slot0Text)
     val slotsToFillColdStart = roundID match{
 	  case "round1" => slotsToFill.filter(s => s.name == slot0Text)
-	  case "round2" => slotsToFill.filter(s => s.name == slot1Text)
+	  //case "round2" => slotsToFill.filter(s => s.name == slot1Text)
+	  case "round2" => slotsToFill.filter(s => s.name == slot0Text)
 	  case _ => slotsToFill
 	}   
     val numSlotsToFillColdStart = slotsToFillColdStart.size

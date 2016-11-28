@@ -37,7 +37,7 @@ object SelectBestAnswers {
        slotfillFreq.update(arg2, slotfillFreq(arg2) + 1)          
      }
 
-     slotfillFreq.keySet.foreach(k => println(k + " " + slotfillFreq(k)))
+     //slotfillFreq.keySet.foreach(k => println(k + " " + slotfillFreq(k)))
      
      //println("candidate map size: " + slotfillFreq.size)
 

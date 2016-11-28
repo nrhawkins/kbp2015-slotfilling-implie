@@ -6,8 +6,9 @@
     <beg>232</beg>
     <end>238</end>
     <enttype>gpe</enttype>
-    <slot>gpe:births_in_city</slot>
-    <slot0>gpe:births_in_city</slot0>
+    <slot>gpe:residents_of_city</slot>
+    <slot0>gpe:residents_of_city</slot0>
+    <slot1>gpe:residents_of_stateorprovince</slot1>
   </query>
   <query id="CS14_ENG_002">
     <name>Carleen Maley Hutchins</name>
@@ -16,8 +17,8 @@
     <end>238</end>
     <enttype>per</enttype>
     <slot>per:city_of_birth</slot>
-    <slot0>per:city_of_birth</slot0>
-    <slot1>per:city_of_birth</slot1>
+    <slot0>per:cities_of_residence</slot0>
+    <slot1>per:cities_of_residence</slot1>
   </query>
   <query id="CS14_ENG_003">
     <name>Springfield</name>
@@ -26,8 +27,8 @@
     <end>238</end>
     <enttype>gpe</enttype>
     <slot>gpe:residents_of_city</slot>
-    <slot0>gpe:residents_of_city</slot0>
-    <slot1>gpe:residents_of_city</slot1>
+    <slot0>gpe:headquarters_in_city</slot0>
+    <slot1>gpe:headquarters_in_stateorprovince</slot1>
   </query>
   <query id="CS14_ENG_004">
     <name>Carleen Maley Hutchins</name>
@@ -36,8 +37,8 @@
     <end>238</end>
     <enttype>per</enttype>
     <slot>per:stateorprovince_of_birth</slot>
-    <slot0>per:stateorprovince_of_birth</slot0>
-    <slot1>per:stateorprovince_of_birth</slot1>
+    <slot0>per:statesorprovinces_of_residence</slot0>
+    <slot1>per:statesorprovinces_of_residence</slot1>
   </query>
   <query id="CS14_ENG_005">
     <name>Des Moines Register</name>
@@ -47,7 +48,7 @@
     <enttype>org</enttype>  
     <slot>org:city_of_headquarters</slot>
     <slot0>org:city_of_headquarters</slot0>
-    <slot1>org:city_of_headquarters</slot1>
+    <slot1>org:country_of_headquarters</slot1>
   </query>
   <query id="CS14_ENG_006">
     <name>Des Moines Register</name>
@@ -56,7 +57,8 @@
     <end>238</end>
     <enttype>org</enttype>
     <slot>org:stateorprovince_of_headquarters</slot>
-    <slot0>org:stateorprovince_of_headquarters</slot0>
+    <slot0>org:country_of_headquarters</slot0>
+    <slot1>org:stateorprovince_of_headquarters</slot1>
   </query>
   <query id="CS14_ENG_007">
     <name>Donald</name>
@@ -65,6 +67,6 @@
     <end>3014</end>
     <enttype>per</enttype>
     <slot>per:city_of_birth</slot>
-    <slot0>per:city_of_birth</slot0>
+    <slot0>per:cities_of_residence</slot0>
   </query>
 </query_set>

@@ -1,0 +1,80 @@
+CS14_ENG_011	gpe:headquarters_in_city	UWashington3	896f5638ffa4d6dd79ddb18be8bf2d5b:281-299	Des Moines Register	ORG	896f5638ffa4d6dd79ddb18be8bf2d5b:281-299	3.0
+CS14_ENG_011	gpe:headquarters_in_city	UWashington3	5479aee1d47f1fa6526f150a6cf2e339:6730-6777	Des Moines	ORG	5479aee1d47f1fa6526f150a6cf2e339:6730-6739	2.0
+CS14_ENG_011	gpe:headquarters_in_city	UWashington3	d889759c3f497eb4cb93e37ef605da4d:1474-1538	Scranton Cleveland Chicago Madison Des Moines Lincoln Lawrence St	ORG	d889759c3f497eb4cb93e37ef605da4d:1474-1538	1.0
+CS14_ENG_011	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130611.0023:5051-5117	Google Maps	ORG	NYT_ENG_20130611.0023:5107-5117	1.0
+CS14_ENG_014	org:country_of_headquarters	UWashington3	4517039b74e8bfc1e2af00e985da3b42:310-354	ukraine	GPE	4517039b74e8bfc1e2af00e985da3b42:330-340	0.8
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130903.0012:9586-9605	St	ORG	NYT_ENG_20130903.0012:9590-9591	37.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130717.0156:2959-2983	Petersburg Catholic	ORG	NYT_ENG_20130717.0156:2963-2981	3.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	null:640-682	Petersburg International Economic Forum	ORG	null:644-682	3.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	36cbcafad6ffa05bb108f4f307c27083:5919-5937	Petersburg Times	ORG	36cbcafad6ffa05bb108f4f307c27083:5919-5934	2.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131114.0232:852-885	Petersburg Marriott Clearwater	ORG	NYT_ENG_20131114.0232:856-885	2.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131105.0232:337-399	USF St	ORG	NYT_ENG_20131105.0232:337-342	2.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	92e8ccc1464e45236bf9792c335d1fad:10478-10500	Gazprom	ORG	92e8ccc1464e45236bf9792c335d1fad:10494-10500	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130627.0031:5247-5273	Petersburg City Council	ORG	NYT_ENG_20130627.0031:5251-5273	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130523.0074:2806-2844	Petersburg Area Chamber of Commerce	ORG	NYT_ENG_20130523.0074:2810-2844	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	null:276-320	Xinhua	ORG	null:276-281	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	null:336-413	FC Zenit St	ORG	null:336-346	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130705.0143:1583-1605	Petersburg	ORG	NYT_ENG_20130705.0143:1587-1596	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130614.0056:920-957	Royals	ORG	NYT_ENG_20130614.0056:920-925	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131221.0241:6153-6176	Petersburg STEAM Center	ORG	NYT_ENG_20131221.0241:6153-6175	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130607.0194:6401-6430	Petersburg High	ORG	NYT_ENG_20130607.0194:6405-6419	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130926.0126:323-397	Universal Health Care	ORG	NYT_ENG_20130926.0126:323-343	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130917.0084:270-304	Petersburg Times newsroom	ORG	NYT_ENG_20130917.0084:270-294	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130606.0104:4585-4608	Petersburg College	ORG	NYT_ENG_20130606.0104:4589-4606	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131031.0170:1319-1341	Petersburg Tribune	ORG	NYT_ENG_20131031.0170:1323-1340	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	36cbcafad6ffa05bb108f4f307c27083:6255-6284	Petersburg Tampa Bay Times	ORG	36cbcafad6ffa05bb108f4f307c27083:6259-6284	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130721.0058:12208-12238	Unity of St	ORG	NYT_ENG_20130721.0058:12208-12218	1.0
+CS14_ENG_021	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130720.0103:5897-5930	Petersburg Chamber of Commerce	ORG	NYT_ENG_20130720.0103:5901-5930	1.0
+CS14_ENG_031	gpe:residents_of_stateorprovince	UWashington3	NYT_ENG_20130820.0181:5542-5587	Donna Mercado Kim	PER	NYT_ENG_20130820.0181:5571-5587	2.0
+CS14_ENG_031	gpe:residents_of_stateorprovince	UWashington3	dfebe67a5b42e85fe6f513045fbb9172:393-420	Daniel Inouye	PER	dfebe67a5b42e85fe6f513045fbb9172:393-405	2.0
+CS14_ENG_031	gpe:residents_of_stateorprovince	UWashington3	8225edd3eae4be96ef8f532d49821321:380-411	Barack Obama	PER	8225edd3eae4be96ef8f532d49821321:380-391	2.0
+CS14_ENG_031	gpe:residents_of_stateorprovince	UWashington3	NYT_ENG_20130806.0149:3503-3529	Daniel K. Inouye	PER	NYT_ENG_20130806.0149:3503-3518	1.0
+CS14_ENG_031	gpe:residents_of_stateorprovince	UWashington3	ea0b8ffa0add08b7e35b20091282ee2b:6015-6043	Neil Abercrombie	PER	ea0b8ffa0add08b7e35b20091282ee2b:6015-6030	1.0
+CS14_ENG_031	gpe:residents_of_stateorprovince	UWashington3	a9aa17d18053be6bf458cf979e6f26c3:371-394	Kaanapali Beach	PER	a9aa17d18053be6bf458cf979e6f26c3:380-394	1.0
+CS14_ENG_031	gpe:residents_of_stateorprovince	UWashington3	c6e79cf929af4a93bdb159a7f215b786:11268-11283	Obama	PER	c6e79cf929af4a93bdb159a7f215b786:11279-11283	1.0
+CS14_ENG_037	gpe:residents_of_country	UWashington3	1aea9aac7de3cd3c8b024e7496edbe97:3221-3259	Bill	PER	1aea9aac7de3cd3c8b024e7496edbe97:3256-3259	2.0
+CS14_ENG_037	gpe:residents_of_country	UWashington3	null:1354-1387	Yoweri Museveni	PER	null:1373-1387	1.0
+CS14_ENG_037	gpe:residents_of_country	UWashington3	null:1221-1257	Jin Weigen	PER	null:1221-1230	1.0
+CS14_ENG_037	gpe:residents_of_country	UWashington3	4471c0753bb516ac31889b2b3b6e09f0:200-218	David Kato	PER	4471c0753bb516ac31889b2b3b6e09f0:200-209	1.0
+CS14_ENG_037	gpe:residents_of_country	UWashington3	b1f6cf365b1db6608ab21ecf6ad20e06:6187-6233	Henry Orombi	PER	b1f6cf365b1db6608ab21ecf6ad20e06:6187-6198	1.0
+CS14_ENG_037	gpe:residents_of_country	UWashington3	null:530-550	Shem Bageine	PER	null:530-541	1.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	5be5f265d492ad1fcaceb8fcad512cce:2157-2180	Kansas City Chiefs	ORG	5be5f265d492ad1fcaceb8fcad512cce:2163-2180	28.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130510.0202:4261-4278	Kansas City Royals	ORG	NYT_ENG_20130510.0202:4261-4278	6.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130917.0115:1534-1570	Federal Reserve Bank of Kansas City	ORG	NYT_ENG_20130917.0115:1534-1568	4.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	3fb7a48178db007563117b02467971ff:12016-12046	Kansas City Police Department	ORG	3fb7a48178db007563117b02467971ff:12018-12046	4.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	629c89cc0156dbc070a095f6903dc598:913-928	Kansas City Star	ORG	629c89cc0156dbc070a095f6903dc598:913-928	4.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131206.0281:301-346	Sporting Kansas City	ORG	NYT_ENG_20131206.0281:301-320	3.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130614.0127:7661-7689	Kansas City Repertory Theater	ORG	NYT_ENG_20130614.0127:7661-7689	2.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130723.0015:3010-3026	Kansas City Kings	ORG	NYT_ENG_20130723.0015:3010-3026	2.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	de46f3cb2d5872868c45a07181da2d37:1925-2083	Kansas City Chiefs Oakland Raiders San Diego Chargers Buffalo Bills Miami Dolphins Arizona Cardinals San Francisco 49ers Indianapolis Colts	ORG	de46f3cb2d5872868c45a07181da2d37:1925-2063	2.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	d1f23bdc2b4232da6d3695dccda7107d:3500-3514	Kansas City FBI	ORG	d1f23bdc2b4232da6d3695dccda7107d:3500-3514	1.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130713.0067:5388-5408	Kansas City Athletics	ORG	NYT_ENG_20130713.0067:5388-5408	1.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	bbb7540f579fe03db2c38ab592e57687:5828-5990	Picks Kansas City Denver Jacksonville Cincinnati New England Baltimore NY Jets Washington Carolina St. Louis Detroit San Francisco Philadelphia Chicago New Orleans	ORG	bbb7540f579fe03db2c38ab592e57687:5828-5990	1.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	bbb7540f579fe03db2c38ab592e57687:5380-5528	Kansas City Buffalo Tennessee Cincinnati New England Baltimore NY Jets Washington Tampa Bay St. Louis San Diego Seattle Dallas Green Bay Atlanta	ORG	bbb7540f579fe03db2c38ab592e57687:5385-5528	1.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130720.0041:2846-2864	Kansas City Wizards	ORG	NYT_ENG_20130720.0041:2846-2864	1.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	cd1314c92b8c6886a3cd065bad8cb0ea:8232-8253	Kansas City Star  Most	ORG	cd1314c92b8c6886a3cd065bad8cb0ea:8232-8253	1.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	ec7d0ba2cabd888ab4a968437b01d1f8:2630-2758	Panthers	ORG	ec7d0ba2cabd888ab4a968437b01d1f8:2630-2637	1.0
+CS14_ENG_057	gpe:headquarters_in_city	UWashington3	b4ece2d2d8078d6c13bdbbd666ffab87:593-617	Kansas City Hospice House	ORG	b4ece2d2d8078d6c13bdbbd666ffab87:593-617	1.0
+CS14_ENG_088	gpe:residents_of_city	UWashington3	NYT_ENG_20130518.0195:7345-7371	Ross Boyer	PER	NYT_ENG_20130518.0195:7362-7371	2.0
+CS14_ENG_088	gpe:residents_of_city	UWashington3	6876a1d6747fbd2c616475a680cec07b:245-405	Johns Sumter	PER	6876a1d6747fbd2c616475a680cec07b:245-256	1.0
+CS14_ENG_099	org:top_members_employees	UWashington3	d97b6002180c89b0384cfa0b393b8880:7512-7569	Chris Davies	PER	d97b6002180c89b0384cfa0b393b8880:7512-7523	0.8
+CS14_ENG_105	gpe:headquarters_in_city	UWashington3	445259c7414e77a5f85017117e93848a:5796-5813	Redmond Associates	ORG	445259c7414e77a5f85017117e93848a:5796-5813	0.8
+CS14_ENG_139	gpe:residents_of_city	UWashington3	NYT_ENG_20130624.0070:3687-3721	Ron Sarti	PER	NYT_ENG_20130624.0070:3687-3695	0.8
+CS14_ENG_140	org:top_members_employees	UWashington3	4db61d57df7c6cd84a271833f1cb24b7:11355-11379	Mark Bertolini	PER	4db61d57df7c6cd84a271833f1cb24b7:11365-11378	2.0
+CS14_ENG_171	org:top_members_employees	UWashington3	4e8603ec131f84cd16c53e554774e75a:431-460	Ingrid Newkirk	PER	4e8603ec131f84cd16c53e554774e75a:446-459	0.8
+CS14_ENG_176	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130708.0092:5936-5945	Akron Zips	ORG	NYT_ENG_20130708.0092:5936-5945	2.0
+CS14_ENG_176	gpe:headquarters_in_city	UWashington3	b5b9d84eb941421d7d77b799cf220b3b:1770-1787	Akron Rubber Ducks	ORG	b5b9d84eb941421d7d77b799cf220b3b:1770-1787	1.0
+CS14_ENG_177	gpe:residents_of_city	UWashington3	1d45c95030003c1426c766bca51d2f81:885-936	Raj	PER	1d45c95030003c1426c766bca51d2f81:934-936	0.8
+CS14_ENG_185	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130627.0074:2901-2968	U.S. Holocaust Memorial Museum	ORG	NYT_ENG_20130627.0074:2939-2968	2.0
+CS14_ENG_185	gpe:headquarters_in_city	UWashington3	bd272ddc5610c793f643193b0b70e426:2292-2315	Libby	ORG	bd272ddc5610c793f643193b0b70e426:2311-2315	2.0
+CS14_ENG_185	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130623.0080:6034-6112	Supreme Court Institute	ORG	NYT_ENG_20130623.0080:6090-6112	1.0
+CS14_ENG_185	gpe:headquarters_in_city	UWashington3	NYT_ENG_20131214.0185:1943-1986	Cleveland Cavaliers	ORG	NYT_ENG_20131214.0185:1943-1961	1.0
+CS14_ENG_185	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130426.0092:2286-2314	Washington Irving High School	ORG	NYT_ENG_20130426.0092:2286-2314	1.0
+CS14_ENG_195	gpe:residents_of_city	UWashington3	NYT_ENG_20130918.0135:553-569	Claremont McKenna	PER	NYT_ENG_20130918.0135:553-569	0.8
+CS14_ENG_244	org:top_members_employees	UWashington3	NYT_ENG_20130913.0062:3312-3372	Richard Fink	PER	NYT_ENG_20130913.0062:3312-3323	0.8
+CS14_ENG_246	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130510.0226:3880-3898	Guangzhou Daily	ORG	NYT_ENG_20130510.0226:3884-3898	2.0
+CS14_ENG_246	gpe:headquarters_in_city	UWashington3	e8d4204f74918889331971801b3ccdb6:3200-3234	Guangzhou Automobile Group Co. Ltd.	ORG	e8d4204f74918889331971801b3ccdb6:3200-3234	1.0
+CS14_ENG_246	gpe:headquarters_in_city	UWashington3	e741fef9845b243db90552fe66c33477:7948-7977	Guangzhou Automobile Group Co.	ORG	e741fef9845b243db90552fe66c33477:7948-7977	1.0
+CS14_ENG_246	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130522.0077:3455-3472	Guangzhou Food and	ORG	NYT_ENG_20130522.0077:3455-3472	1.0
+CS14_ENG_246	gpe:headquarters_in_city	UWashington3	NYT_ENG_20130522.0077:1220-1261	Food and Drug Administration	ORG	NYT_ENG_20130522.0077:1220-1247	1.0
+CS14_ENG_246	gpe:headquarters_in_city	UWashington3	0b5d94c3a1e321d7f228cb739aca8709:3119-3156	AIA Information Technology	ORG	0b5d94c3a1e321d7f228cb739aca8709:3119-3144	1.0
